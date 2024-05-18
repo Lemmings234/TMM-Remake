@@ -43,7 +43,7 @@ country_event = {
 		name = "Yet we must move on."
 		effect_tooltip = {
 		add_popularity = {
-            ideology = conservative_democracy
+            ideology = conservatism
             popularity = 0.01
             }
 		}

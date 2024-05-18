@@ -259,11 +259,11 @@ shared_focus = {
 	completion_reward = {
 		custom_effect_tooltip = QIN_yunxuan_investment_tt
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.02
             }
 		add_popularity = {
-            ideology = conservative_democracy
+            ideology = conservatism
             popularity = 0.01
             }
 		set_temp_variable = { gdp_growth_temp = 1.0 }
@@ -707,7 +707,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.03
             }
 		set_country_flag = KMT_victory_placeholder
@@ -860,7 +860,7 @@ shared_focus = {
 		}
 		custom_effect_tooltip = QIN_a_century_of_legacy_tt
 		set_party_name = { 
-            ideology = authoritarian_democracy
+            ideology = paternalism
             long_name = "The National Assembly" 
             name = "The Extraordinary Session of the National Assembly of the Republic of China" 
         }
@@ -922,7 +922,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.02
             }
 		custom_effect_tooltip = QIN_contact_huang_wei_tt
@@ -958,7 +958,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = liberal_democracy
+            ideology = liberalism
             popularity = 0.02
             }
 		custom_effect_tooltip = QIN_contact_contact_sun_lijen_tt
@@ -1073,11 +1073,11 @@ shared_focus = {
 		add_political_power = 30
 		add_to_variable = { QIN_BOG_07_STRENGTH_ALLIED = 50 }
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.02
             }
 		add_popularity = {
-            ideology = conservative_democracy
+            ideology = conservatism
             popularity = 0.01
             }
 		}
@@ -1112,11 +1112,11 @@ shared_focus = {
 		add_political_power = 30
 		add_to_variable = { QIN_BOG_10_STRENGTH_ALLIED = 50 }
 		add_popularity = {
-            ideology = liberal_democracy
+            ideology = liberalism
             popularity = 0.02
             }
 		add_popularity = {
-            ideology = social_democracy
+            ideology = progressivism
             popularity = 0.01
             }
 		}
@@ -1156,7 +1156,7 @@ shared_focus = {
             popularity = 0.01
             }
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.02
             }
 		}
@@ -1758,17 +1758,17 @@ shared_focus = {
 	completion_reward = {
 		add_to_variable = { CCP_Outsider_Support = 10 }
 		set_politics = {
-	        ruling_party = social_democracy
+	        ruling_party = progressivism
             elections_allowed = yes
             election_frequency = 48
             }
 		set_party_name = { 
-            ideology = social_democracy
+            ideology = progressivism
             long_name = "Independents" 
             name = "Independents" 
             }
 		add_popularity = {
-            ideology = social_democracy
+            ideology = progressivism
             popularity = 0.05
             }
 		}
@@ -2148,12 +2148,12 @@ shared_focus = {
             promote_character = QIN_zhu_jiahua
 		}
 		set_politics = {
-	        ruling_party = conservative_democracy
+	        ruling_party = conservatism
             elections_allowed = no
             election_frequency = 48
         }
 		set_party_name = { 
-                ideology = conservative_democracy 
+                ideology = conservatism 
                 long_name = "Kuomintang - Zhu Jiahua Clique" 
                 name = "Kuomintang - Right" 
             }
@@ -2188,11 +2188,11 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = conservative_democracy
+            ideology = conservatism
             popularity = 0.075
             }
 		add_popularity = {
-            ideology = liberal_democracy
+            ideology = liberalism
             popularity = 0.075
             }
 		subtract_from_variable = { KMT_Chiang_Support = 2 }
@@ -2227,7 +2227,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.075
             }
 		add_popularity = {
@@ -3007,12 +3007,12 @@ shared_focus = {
                 name = "Kuomintang - CC Clique" 
             }
 		set_party_name = { 
-                ideology = authoritarian_democracy 
+                ideology = paternalism 
                 long_name = "Kuomintang - Mainstream/Soong Clique" 
                 name = "Kuomintang - Mainstream Conservatives" 
             }
 		set_party_name = { 
-                ideology = conservative_democracy 
+                ideology = conservatism 
                 long_name = "Kuomintang - Chiang-Zhang Clique" 
                 name = "Kuomintang - Chiang-Zhang Clique" 
             }
@@ -3319,7 +3319,7 @@ shared_focus = {
             popularity = 0.1
             }
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.1
             }
 		set_party_name = { 
@@ -3333,12 +3333,12 @@ shared_focus = {
                 name = "Kuomintang - Chiang Clique" 
             }
 		set_party_name = { 
-                ideology = authoritarian_democracy 
+                ideology = paternalism 
                 long_name = "Kuomintang - Mainstream/China Youth Corps" 
                 name = "Kuomintang - Tuanpai" 
             }
 		set_party_name = { 
-                ideology = conservative_democracy 
+                ideology = conservatism 
                 long_name = "Kuomintang - Anti-Mainstream Constitutionalist Clique" 
                 name = "Kuomintang - Zhang Qun Clique" 
             }
@@ -3370,7 +3370,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.05
             }
 		TNO_improve_political_parties_policy_effectiveness_med = yes
@@ -3595,12 +3595,12 @@ shared_focus = {
                 name = "Kuomintang - Neo-Xishan Conference Clique" 
             }
 		set_politics = {
-	        ruling_party = authoritarian_democracy
+	        ruling_party = paternalism
             elections_allowed = no
             election_frequency = 48
             }
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.1
             }
 		}
@@ -3769,7 +3769,7 @@ shared_focus = {
             promote_character = QIN_wang_shijie_leader
 		}
 		set_politics = {
-	        ruling_party = conservative_democracy
+	        ruling_party = conservatism
             elections_allowed = no
             election_frequency = 48
             }
@@ -3779,12 +3779,12 @@ shared_focus = {
                 name = "Kuomintang - Neo-Xishan Conference Clique" 
             }
 		set_party_name = { 
-                ideology = authoritarian_democracy 
+                ideology = paternalism 
                 long_name = "Kuomintang - Anti-Mainstream Conservatives" 
                 name = "Kuomintang - Chiang Clique" 
             }
 		set_party_name = { 
-                ideology = conservative_democracy 
+                ideology = conservatism 
                 long_name = "Kuomintang - Mainstream Liberal Camp" 
                 name = "Kuomintang - Political Science Clique" 
             }
@@ -3841,11 +3841,11 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = liberal_democracy
+            ideology = liberalism
             popularity = 0.1
             }
 		set_party_name = { 
-                ideology = liberal_democracy 
+                ideology = liberalism 
                 long_name = "Kuomintang - Central Transformation Commission" 
                 name = "Kuomintang - Liberal Populist Faction" 
             }
@@ -3977,7 +3977,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = conservative_democracy
+            ideology = conservatism
             popularity = 0.1
             }	
 		hidden_effect = {
@@ -4156,7 +4156,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = -0.1
             }
 		add_popularity = {
@@ -4241,7 +4241,7 @@ shared_focus = {
 		add_political_power = 50
 		add_stability = 0.05
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = -0.05
             }	
 		}
@@ -5017,7 +5017,7 @@ shared_focus = {
 	completion_reward = {
 		add_to_variable = { CCP_Outsider_Support = 5 }
 		add_popularity = {
-            ideology = liberal_democracy
+            ideology = liberalism
             popularity = 0.075
             }
 		custom_effect_tooltip = QIN_the_union_of_stone_and_water_tt
@@ -5051,7 +5051,7 @@ shared_focus = {
 	completion_reward = {
 		add_to_variable = { CCP_Outsider_Support = 5 }
 		add_popularity = {
-            ideology = social_democracy
+            ideology = progressivism
             popularity = 0.075
             }
 		custom_effect_tooltip = QIN_the_union_of_stone_and_water_tt
@@ -5520,7 +5520,7 @@ shared_focus = {
 	completion_reward = {
 		add_political_power = 50
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = -0.20
             }
 		add_to_variable = { CCP_PC = 50 }
@@ -6032,7 +6032,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = -0.25
             }
 		TNO_improve_political_parties_policy_effectiveness_med = yes
@@ -6062,7 +6062,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = social_democracy
+            ideology = progressivism
             popularity = 0.05
             }
 		custom_effect_tooltip = QIN_invite_inds_tt
@@ -6094,7 +6094,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = conservative_democracy
+            ideology = conservatism
             popularity = 0.05
             }
 		custom_effect_tooltip = QIN_invite_inds_tt
@@ -6241,7 +6241,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = -0.20
             }
 		add_political_power = 150

@@ -159,15 +159,15 @@ shared_focus = {
 	    add_political_power = 50
 	    XIK = {
 		    add_popularity = {
-                ideology = authoritarian_democracy
+                ideology = paternalism
                 popularity = 0.1
                 }
 		    add_popularity = {
-                ideology = conservative_democracy
+                ideology = conservatism
                 popularity = 0.05
                 }
 		    add_popularity = {
-                ideology = liberal_democracy
+                ideology = liberalism
                 popularity = 0.025
                 }
 		    }
@@ -627,11 +627,11 @@ shared_focus = {
 	completion_reward = {
 	    add_political_power = 25
 	    add_popularity = {
-            ideology = conservative_democracy
+            ideology = conservatism
             popularity = 0.01
             }
 	    add_popularity = {
-            ideology = liberal_democracy
+            ideology = liberalism
             popularity = 0.005
             }
 		country_event = { id = tmm.maclique.36 }
@@ -844,7 +844,7 @@ shared_focus = {
             category = computing_tech
             }
 	    add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.025
             }
 		}
@@ -1054,15 +1054,15 @@ shared_focus = {
 	completion_reward = {
         add_political_power = 50
 		add_popularity = {
-            ideology = authoritarian_democracy
+            ideology = paternalism
             popularity = 0.05
 		    }
 		add_popularity = {
-            ideology = social_democracy
+            ideology = progressivism
             popularity = 0.02
 		    }
 		add_popularity = {
-            ideology = conservative_democracy
+            ideology = conservatism
             popularity = 0.02
 		    }
 		add_stability = 0.05
