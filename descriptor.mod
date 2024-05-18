@@ -9,6 +9,6 @@ tags={
 	"Gameplay"
 }
 replace_path="history/countries/CHI - China.txt"
-path="mod/The Ma Mod Remake"
+path="mod/TMM-Remake"
 picture="Thumbnail.png"
 supported_version="1.14.*"
