@@ -9,6 +9,6 @@ tags={
 	"Gameplay"
 }
 replace_path="history/countries/CHI - China.txt"
-path="C:/Users/ducng/Documents/Paradox Interactive/Hearts of Iron IV/mod/The Ma Mod Remake"
+path="mod/The Ma Mod Remake"
 picture="Thumbnail.png"
 supported_version="1.14.*"
