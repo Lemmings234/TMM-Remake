@@ -1,0 +1,2742 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "TMM_golmud_menu_open"
+		size = { width = 120 height = 120 }
+		position = { x=220 y=291 }
+
+		buttonType ={
+			name ="QIN_golmud_open_button"
+			spriteType = "GFX_QIN_Golmud_Icon"
+			position = { x=30 y=-47 }
+			pdx_tooltip = "QIN_golmud_open_tt"
+		}
+		
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=-25 y=-16 }
+		}
+	}
+	containerWindowType = {
+		name = "TMM_golmud_menu_main"
+		size = { width = 1200 height = 900 }
+		position = { x = 540 y = 78 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		iconType ={
+			name ="QIN_golmud_city_bg"
+			spriteType = "GFX_QIN_Golmud_Map"
+			position = { x= 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z1N"
+			spriteType = "GFX_QIN_Golmud_Z1N"
+			position = { x= 486 y = 117 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z2N"
+			spriteType = "GFX_QIN_Golmud_Z2N"
+			position = { x= 681 y = 207 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z3N"
+			spriteType = "GFX_QIN_Golmud_Z3N"
+			position = { x= 521 y = 283 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_R3"
+			spriteType = "GFX_QIN_Golmud_R3"
+			position = { x= 536 y = 161 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z4N"
+			spriteType = "GFX_QIN_Golmud_Z4N"
+			position = { x= 468 y = 318 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z5N"
+			spriteType = "GFX_QIN_Golmud_Z5N"
+			position = { x= 586 y = 353 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z6N"
+			spriteType = "GFX_QIN_Golmud_Z6N"
+			position = { x= 448 y = 390 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_R1"
+			spriteType = "GFX_QIN_Golmud_R1"
+			position = { x= 480 y = 363 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z7N"
+			spriteType = "GFX_QIN_Golmud_Z7N"
+			position = { x= 632 y = 520 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z8N"
+			spriteType = "GFX_QIN_Golmud_Z8N"
+			position = { x= 647 y = 393 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z9N"
+			spriteType = "GFX_QIN_Golmud_Z9N"
+			position = { x= 710 y = 430 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_R2"
+			spriteType = "GFX_QIN_Golmud_R2"
+			position = { x= 666 y = 439 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z10N"
+			spriteType = "GFX_QIN_Golmud_Z10N"
+			position = { x= 761 y = 356 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z11N"
+			spriteType = "GFX_QIN_Golmud_Z11N"
+			position = { x= 784 y = 206 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z12N"
+			spriteType = "GFX_QIN_Golmud_Z12N"
+			position = { x= 920 y = 240 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z13N"
+			spriteType = "GFX_QIN_Golmud_Z13N"
+			position = { x= 900 y = 285 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_R4"
+			spriteType = "GFX_QIN_Golmud_R4"
+			position = { x= 813 y = 284 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z14N"
+			spriteType = "GFX_QIN_Golmud_Z14N"
+			position = { x= 305 y = 291 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z15N"
+			spriteType = "GFX_QIN_Golmud_Z15N"
+			position = { x= 227 y = 253 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z16N"
+			spriteType = "GFX_QIN_Golmud_Z16N"
+			position = { x= 316 y = 156 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z17N"
+			spriteType = "GFX_QIN_Golmud_Z17N"
+			position = { x= 363 y = 70 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z18N"
+			spriteType = "GFX_QIN_Golmud_Z18N"
+			position = { x= 198 y = 404 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z19N"
+			spriteType = "GFX_QIN_Golmud_Z19N"
+			position = { x= 333 y = 524 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z20N"
+			spriteType = "GFX_QIN_Golmud_Z20N"
+			position = { x= 300 y = 680 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z21N"
+			spriteType = "GFX_QIN_Golmud_Z21N"
+			position = { x= 430 y = 555 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z22N"
+			spriteType = "GFX_QIN_Golmud_Z22N"
+			position = { x= 378 y = 725 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z23N"
+			spriteType = "GFX_QIN_Golmud_Z23N"
+			position = { x= 360 y = 812 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z24N"
+			spriteType = "GFX_QIN_Golmud_Z24N"
+			position = { x= 504 y = 630 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z25N"
+			spriteType = "GFX_QIN_Golmud_Z25N"
+			position = { x= 465 y = 10 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z26N"
+			spriteType = "GFX_QIN_Golmud_Z26N"
+			position = { x= 687 y = 91 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z40N"
+			spriteType = "GFX_QIN_Golmud_Z40N"
+			position = { x= 432 y = 497 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z27N"
+			spriteType = "GFX_QIN_Golmud_Z27N"
+			position = { x= 778 y = 55 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z28N"
+			spriteType = "GFX_QIN_Golmud_Z28N"
+			position = { x= 959 y = 189 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z29N"
+			spriteType = "GFX_QIN_Golmud_Z29N"
+			position = { x= 978 y = 407 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z30N"
+			spriteType = "GFX_QIN_Golmud_Z30N"
+			position = { x= 1009 y = 403 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z31N"
+			spriteType = "GFX_QIN_Golmud_Z31N"
+			position = { x= 655 y = 534 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z32N"
+			spriteType = "GFX_QIN_Golmud_Z32N"
+			position = { x= 637 y = 766 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z33N"
+			spriteType = "GFX_QIN_Golmud_Z33N"
+			position = { x= 784 y = 726 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z34N"
+			spriteType = "GFX_QIN_Golmud_Z34N"
+			position = { x= 900 y = 521 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z35N"
+			spriteType = "GFX_QIN_Golmud_Z35N"
+			position = { x= 983 y = 537 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z36N"
+			spriteType = "GFX_QIN_Golmud_Z36N"
+			position = { x= 983 y = 505 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z37N"
+			spriteType = "GFX_QIN_Golmud_Z37N"
+			position = { x= 1053 y = 615 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z38N"
+			spriteType = "GFX_QIN_Golmud_Z38N"
+			position = { x= 880 y = 785 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z39N"
+			spriteType = "GFX_QIN_Golmud_Z39N"
+			position = { x= 960 y = 710 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_R6"
+			spriteType = "GFX_QIN_Golmud_R6"
+			position = { x= 702 y = 563 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_R5"
+			spriteType = "GFX_QIN_Golmud_R5"
+			position = { x= 500 y = 575 }
+		}
+
+######
+###
+
+		iconType ={
+			name ="QIN_golmud_city_Z1R"
+			spriteType = "GFX_QIN_Golmud_Z1R"
+			position = { x= 486 y = 117 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z2R"
+			spriteType = "GFX_QIN_Golmud_Z2R"
+			position = { x= 681 y = 207 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z3R"
+			spriteType = "GFX_QIN_Golmud_Z3R"
+			position = { x= 521 y = 283 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z4R"
+			spriteType = "GFX_QIN_Golmud_Z4R"
+			position = { x= 468 y = 318 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z5R"
+			spriteType = "GFX_QIN_Golmud_Z5R"
+			position = { x= 586 y = 353 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z6R"
+			spriteType = "GFX_QIN_Golmud_Z6R"
+			position = { x= 448 y = 390 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z7R"
+			spriteType = "GFX_QIN_Golmud_Z7R"
+			position = { x= 632 y = 520 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z8R"
+			spriteType = "GFX_QIN_Golmud_Z8R"
+			position = { x= 647 y = 393 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z9R"
+			spriteType = "GFX_QIN_Golmud_Z9R"
+			position = { x= 710 y = 430 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z10R"
+			spriteType = "GFX_QIN_Golmud_Z10R"
+			position = { x= 761 y = 356 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z11R"
+			spriteType = "GFX_QIN_Golmud_Z11R"
+			position = { x= 784 y = 206 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z12R"
+			spriteType = "GFX_QIN_Golmud_Z12R"
+			position = { x= 920 y = 240 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z13R"
+			spriteType = "GFX_QIN_Golmud_Z13R"
+			position = { x= 900 y = 285 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z14R"
+			spriteType = "GFX_QIN_Golmud_Z14R"
+			position = { x= 305 y = 291 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z15R"
+			spriteType = "GFX_QIN_Golmud_Z15R"
+			position = { x= 227 y = 253 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z16R"
+			spriteType = "GFX_QIN_Golmud_Z16R"
+			position = { x= 316 y = 156 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z17R"
+			spriteType = "GFX_QIN_Golmud_Z17R"
+			position = { x= 363 y = 70 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z18R"
+			spriteType = "GFX_QIN_Golmud_Z18R"
+			position = { x= 198 y = 404 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z19R"
+			spriteType = "GFX_QIN_Golmud_Z19R"
+			position = { x= 333 y = 524 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z20R"
+			spriteType = "GFX_QIN_Golmud_Z20R"
+			position = { x= 300 y = 680 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z21R"
+			spriteType = "GFX_QIN_Golmud_Z21R"
+			position = { x= 430 y = 555 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z22R"
+			spriteType = "GFX_QIN_Golmud_Z22R"
+			position = { x= 378 y = 725 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z23R"
+			spriteType = "GFX_QIN_Golmud_Z23R"
+			position = { x= 360 y = 812 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z24R"
+			spriteType = "GFX_QIN_Golmud_Z24R"
+			position = { x= 504 y = 630 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z25R"
+			spriteType = "GFX_QIN_Golmud_Z25R"
+			position = { x= 465 y = 10 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z26R"
+			spriteType = "GFX_QIN_Golmud_Z26R"
+			position = { x= 687 y = 91 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z40R"
+			spriteType = "GFX_QIN_Golmud_Z40R"
+			position = { x= 432 y = 497 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z27R"
+			spriteType = "GFX_QIN_Golmud_Z27R"
+			position = { x= 778 y = 55 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z28R"
+			spriteType = "GFX_QIN_Golmud_Z28R"
+			position = { x= 959 y = 189 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z29R"
+			spriteType = "GFX_QIN_Golmud_Z29R"
+			position = { x= 978 y = 407 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z30R"
+			spriteType = "GFX_QIN_Golmud_Z30R"
+			position = { x= 1009 y = 403 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z31R"
+			spriteType = "GFX_QIN_Golmud_Z31R"
+			position = { x= 655 y = 534 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z32R"
+			spriteType = "GFX_QIN_Golmud_Z32R"
+			position = { x= 637 y = 766 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z33R"
+			spriteType = "GFX_QIN_Golmud_Z33R"
+			position = { x= 784 y = 726 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z34R"
+			spriteType = "GFX_QIN_Golmud_Z34R"
+			position = { x= 900 y = 521 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z35R"
+			spriteType = "GFX_QIN_Golmud_Z35R"
+			position = { x= 983 y = 537 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z36R"
+			spriteType = "GFX_QIN_Golmud_Z36R"
+			position = { x= 983 y = 505 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z37R"
+			spriteType = "GFX_QIN_Golmud_Z37R"
+			position = { x= 1053 y = 615 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z38R"
+			spriteType = "GFX_QIN_Golmud_Z38R"
+			position = { x= 880 y = 785 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z39R"
+			spriteType = "GFX_QIN_Golmud_Z39R"
+			position = { x= 960 y = 710 }
+		}
+
+######
+
+		iconType ={
+			name ="QIN_golmud_city_Z1B"
+			spriteType = "GFX_QIN_Golmud_Z1B"
+			position = { x= 486 y = 117 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z2B"
+			spriteType = "GFX_QIN_Golmud_Z2B"
+			position = { x= 681 y = 207 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z3B"
+			spriteType = "GFX_QIN_Golmud_Z3B"
+			position = { x= 521 y = 283 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z4B"
+			spriteType = "GFX_QIN_Golmud_Z4B"
+			position = { x= 468 y = 318 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z5B"
+			spriteType = "GFX_QIN_Golmud_Z5B"
+			position = { x= 586 y = 353 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z6B"
+			spriteType = "GFX_QIN_Golmud_Z6B"
+			position = { x= 448 y = 390 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z7B"
+			spriteType = "GFX_QIN_Golmud_Z7B"
+			position = { x= 632 y = 520 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z8B"
+			spriteType = "GFX_QIN_Golmud_Z8B"
+			position = { x= 647 y = 393 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z9B"
+			spriteType = "GFX_QIN_Golmud_Z9B"
+			position = { x= 710 y = 430 }
+		}	
+		iconType ={
+			name ="QIN_golmud_city_Z10B"
+			spriteType = "GFX_QIN_Golmud_Z10B"
+			position = { x= 761 y = 356 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z11B"
+			spriteType = "GFX_QIN_Golmud_Z11B"
+			position = { x= 784 y = 206 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z12B"
+			spriteType = "GFX_QIN_Golmud_Z12B"
+			position = { x= 920 y = 240 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z13B"
+			spriteType = "GFX_QIN_Golmud_Z13B"
+			position = { x= 900 y = 285 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z14B"
+			spriteType = "GFX_QIN_Golmud_Z14B"
+			position = { x= 305 y = 291 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z15B"
+			spriteType = "GFX_QIN_Golmud_Z15B"
+			position = { x= 227 y = 253 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z16B"
+			spriteType = "GFX_QIN_Golmud_Z16B"
+			position = { x= 316 y = 156 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z17B"
+			spriteType = "GFX_QIN_Golmud_Z17B"
+			position = { x= 363 y = 70 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z18B"
+			spriteType = "GFX_QIN_Golmud_Z18B"
+			position = { x= 198 y = 404 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z19B"
+			spriteType = "GFX_QIN_Golmud_Z19B"
+			position = { x= 333 y = 524 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z20B"
+			spriteType = "GFX_QIN_Golmud_Z20B"
+			position = { x= 300 y = 680 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z21B"
+			spriteType = "GFX_QIN_Golmud_Z21B"
+			position = { x= 430 y = 555 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z22B"
+			spriteType = "GFX_QIN_Golmud_Z22B"
+			position = { x= 378 y = 725 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z23B"
+			spriteType = "GFX_QIN_Golmud_Z23B"
+			position = { x= 360 y = 812 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z24B"
+			spriteType = "GFX_QIN_Golmud_Z24B"
+			position = { x= 504 y = 630 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z25B"
+			spriteType = "GFX_QIN_Golmud_Z25B"
+			position = { x= 465 y = 10 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z26B"
+			spriteType = "GFX_QIN_Golmud_Z26B"
+			position = { x= 687 y = 91 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z40B"
+			spriteType = "GFX_QIN_Golmud_Z40B"
+			position = { x= 432 y = 497 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z27B"
+			spriteType = "GFX_QIN_Golmud_Z27B"
+			position = { x= 778 y = 55 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z28B"
+			spriteType = "GFX_QIN_Golmud_Z28B"
+			position = { x= 959 y = 189 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z29B"
+			spriteType = "GFX_QIN_Golmud_Z29B"
+			position = { x= 978 y = 407 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z30B"
+			spriteType = "GFX_QIN_Golmud_Z30B"
+			position = { x= 1009 y = 403 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z31B"
+			spriteType = "GFX_QIN_Golmud_Z31B"
+			position = { x= 655 y = 534 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z32B"
+			spriteType = "GFX_QIN_Golmud_Z32B"
+			position = { x= 637 y = 766 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z33B"
+			spriteType = "GFX_QIN_Golmud_Z33B"
+			position = { x= 784 y = 726 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z34B"
+			spriteType = "GFX_QIN_Golmud_Z34B"
+			position = { x= 900 y = 521 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z35B"
+			spriteType = "GFX_QIN_Golmud_Z35B"
+			position = { x= 983 y = 537 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z36B"
+			spriteType = "GFX_QIN_Golmud_Z36B"
+			position = { x= 983 y = 505 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z37B"
+			spriteType = "GFX_QIN_Golmud_Z37B"
+			position = { x= 1053 y = 615 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z38B"
+			spriteType = "GFX_QIN_Golmud_Z38B"
+			position = { x= 880 y = 785 }
+		}
+		iconType ={
+			name ="QIN_golmud_city_Z39B"
+			spriteType = "GFX_QIN_Golmud_Z39B"
+			position = { x= 960 y = 710 }
+		}
+		iconType ={
+			name ="QIN_Golmud_Lines"
+			spriteType = "GFX_QIN_Golmud_Lines"
+			position = { x= 288 y = -8 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_1"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 685 y = 520 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_2"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 611 y = 293 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_3"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 805 y = 366 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_4"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 457 y = 241 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_5"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 344 y = 722 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_6"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 460 y = 614 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_7"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 686 y = 792 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_8"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 927 y = 649 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_9"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 1051 y = 767 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_10"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 1169 y = 625 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_11"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 1101 y = 438 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_12"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 1011 y = 217 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_13"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 813 y = 124 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_14"
+			spriteType = "GFX_QIN_golmud_banner_large"
+			position = { x= 581 y = 23 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_15"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 547 y = 480 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_16"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 464 y = 512 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_17"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 664 y = 487 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_18"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 493 y = 318 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_19"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 706 y = 337 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_20"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 572 y = 124 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_21"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 494 y = 129 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_22"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 334 y = 305 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_23"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 309 y = 520 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_24"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 402 y = 474 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_25"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 436 y = 465 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_26"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 379 y = 620 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_27"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 416 y = 748 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_28"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 430 y = 827 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_29"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 574 y = 735 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_30"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 689 y = 700 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_31"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 819 y = 742 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_32"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 924 y = 783 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_33"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 1001 y = 695 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_34"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 968 y = 491 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_35"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 857 y = 451 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_36"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 944 y = 357 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_37"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 964 y = 220 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_38"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 869 y = 215 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_39"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 744 y = 155 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_40"
+			spriteType = "GFX_QIN_golmud_banner_small"
+			position = { x= 724 y = 118 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_1"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 683 y = 519 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_2"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 609 y = 292 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_3"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 803 y = 365 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_4"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 455 y = 240 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_5"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 342 y = 721 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_6"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 458 y = 613 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_7"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 684 y = 791 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_8"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 925 y = 648 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_9"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 1049 y = 766 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_10"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 1167 y = 624 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_11"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 1099 y = 437 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_12"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 1009 y = 216 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_13"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 811 y = 123 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_14"
+			spriteType = "GFX_QIN_golmud_banner_KMT_large"
+			position = { x= 579 y = 21 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_15"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 547 y = 479 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_16"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 464 y = 511 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_17"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 664 y = 486 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_18"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 493 y = 317 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_19"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 706 y = 336 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_20"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 572 y = 123 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_21"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 494 y = 128 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_22"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 334 y = 304 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_23"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 309 y = 519 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_24"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 402 y = 473 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_25"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 436 y = 464 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_26"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 379 y = 619 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_27"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 416 y = 747 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_28"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 430 y = 826 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_29"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 574 y = 734 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_30"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 689 y = 699 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_31"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 819 y = 741 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_32"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 924 y = 782 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_33"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 1001 y = 694 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_34"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 968 y = 490 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_35"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 857 y = 450 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_36"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 944 y = 356 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_37"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 964 y = 219 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_38"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 869 y = 214 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_39"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 744 y = 154 }
+		}
+		iconType ={
+			name ="QIN_golmud_Banner_KMT_40"
+			spriteType = "GFX_QIN_golmud_banner_KMT_small"
+			position = { x= 724 y = 117 }
+		}
+		buttonType ={#Golmud City Post Office
+			name ="QIN_golmud_city_VPMajor1"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 674 y = 533 }
+			pdx_tooltip = "VPMajor1"
+		}
+		buttonType ={#Committee for Unity of Ethniy Groups Headquarters
+			name ="QIN_golmud_city_VPMajor2"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 600 y = 306 }
+			pdx_tooltip = "VPMajor2"
+		}
+		buttonType ={#Xi Zhongxun's Siheyuan
+			name ="QIN_golmud_city_VPMajor3"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 794 y = 379 }
+			pdx_tooltip = "VPMajor3"
+		}
+		buttonType ={#Free China
+			name ="QIN_golmud_city_VPMajor4"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 446 y = 254 }
+			pdx_tooltip = "VPMajor4"
+		}
+		buttonType ={#Provisional Government of ROK
+			name ="QIN_golmud_city_VPMajor5"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 333 y = 735 }
+			pdx_tooltip = "VPMajor5"
+		}
+		buttonType ={#Presidental Palace
+			name ="QIN_golmud_city_VPMajor6"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 449 y = 627 }
+			pdx_tooltip = "VPMajor6"
+		}
+		buttonType ={#KMT Party Headquarters
+			name ="QIN_golmud_city_VPMajor7"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 675 y = 805 }
+			pdx_tooltip = "VPMajor7"
+		}
+		buttonType ={#City Hall
+			name ="QIN_golmud_city_VPMajor8"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 916 y = 662 }
+			pdx_tooltip = "VPMajor8"
+		}
+		buttonType ={#Southern Barracks
+			name ="QIN_golmud_city_VPMajor9"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 1040 y = 780 }
+			pdx_tooltip = "VPMajor9"
+		}
+		buttonType ={#Voice of Northwest
+			name ="QIN_golmud_city_VPMajor10"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 1158 y = 638 }
+			pdx_tooltip = "VPMajor10"
+		}
+		buttonType ={#CCP Headquarters
+			name ="QIN_golmud_city_VPMajor11"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 1090 y = 451 }
+			pdx_tooltip = "VPMajor11"
+		}
+		buttonType ={#Academia Sinica
+			name ="QIN_golmud_city_VPMajor12"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 1000 y = 230 }
+			pdx_tooltip = "VPMajor12"
+		}
+		buttonType ={#National Northwestern Associated University
+			name ="QIN_golmud_city_VPMajor13"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 802 y = 137 }
+			pdx_tooltip = "VPMajor13"
+		}
+		buttonType ={#Northern Barracks
+			name ="QIN_golmud_city_VPMajor14"
+			spriteType = "GFX_QIN_VP_Mj"
+			position = { x= 570 y = 35 }
+			pdx_tooltip = "VPMajor14"
+		}
+
+		buttonType ={#Golmud Library
+			name ="QIN_golmud_city_VPMinor1"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 543 y = 490 }
+			pdx_tooltip = "VPMinor1"
+		}
+		buttonType ={#Golmud Supreme Court Building
+			name ="QIN_golmud_city_VPMinor2"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 460 y = 522 }
+			pdx_tooltip = "VPMinor2"
+		}
+		buttonType ={#Water Storage Facilities
+			name ="QIN_golmud_city_VPMinor3"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 660 y = 497 }
+			pdx_tooltip = "VPMinor3"
+		}
+		buttonType ={#Chinese Medicine House
+			name ="QIN_golmud_city_VPMinor4"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 487 y = 328 }
+			pdx_tooltip = "VPMinor4"
+		}
+		buttonType ={#Golmud Primary School No.1
+			name ="QIN_golmud_city_VPMinor5"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 702 y = 347 }
+			pdx_tooltip = "VPMinor5"
+		}
+		buttonType ={#3 Bei Road 
+			name ="QIN_golmud_city_VPMinor6"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 568 y = 134 }
+			pdx_tooltip = "VPMinor6"
+		}
+		buttonType ={#Golmud Automobile Repair Factory
+			name ="QIN_golmud_city_VPMinor7"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 490 y = 139 }
+			pdx_tooltip = "VPMinor7"
+		}
+		buttonType ={#Yulin Village
+			name ="QIN_golmud_city_VPMinor8"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 330 y = 315 }
+			pdx_tooltip = "VPMinor8"
+		}
+		buttonType ={#Yanqiao Village
+			name ="QIN_golmud_city_VPMinor9"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 305 y = 530 }
+			pdx_tooltip = "VPMinor9"
+		}
+		buttonType ={#Corner Teahouse
+			name ="QIN_golmud_city_VPMinor10"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 398 y = 484 }
+			pdx_tooltip = "VPMinor10"
+		}
+		buttonType ={#Western Crossroad
+			name ="QIN_golmud_city_VPMinor11"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 432 y = 475 }
+			pdx_tooltip = "VPMinor11"
+		}
+		buttonType ={#45 Zhongzheng Road
+			name ="QIN_golmud_city_VPMinor12"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 375 y = 630 }
+			pdx_tooltip = "VPMinor12"
+		}
+		buttonType ={#52 Zhongzheng Road
+			name ="QIN_golmud_city_VPMinor13"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 412 y = 758 }
+			pdx_tooltip = "VPMinor13"
+		}
+		buttonType ={#Southern Industrial Area
+			name ="QIN_golmud_city_VPMinor14"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 426 y = 837 }
+			pdx_tooltip = "VPMinor14"
+		}
+		buttonType ={#Chengnan Park
+			name ="QIN_golmud_city_VPMinor15"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 570 y = 745 }
+			pdx_tooltip = "VPMinor15"
+		}
+		buttonType ={#Chengnan Apartments
+			name ="QIN_golmud_city_VPMinor16"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 685 y = 710 }
+			pdx_tooltip = "VPMinor16"
+		}
+		buttonType ={#Golmud Canned Food Factory
+			name ="QIN_golmud_city_VPMinor17"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 815 y = 752 }
+			pdx_tooltip = "VPMinor17"
+		}
+		buttonType ={#Southern Barrack Guardhouse
+			name ="QIN_golmud_city_VPMinor18"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 920 y = 793 }
+			pdx_tooltip = "VPMinor18"
+		}
+		buttonType ={#South Army Warehouse
+			name ="QIN_golmud_city_VPMinor19"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 997 y = 705 }
+			pdx_tooltip = "VPMinor19"
+		}
+		buttonType ={#Eastern Crossroad
+			name ="QIN_golmud_city_VPMinor20"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 964 y = 501 }
+			pdx_tooltip = "VPMinor20"
+		}
+		buttonType ={#Golmud No.2 Factory
+			name ="QIN_golmud_city_VPMinor21"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 853 y = 461 }
+			pdx_tooltip = "VPMinor21"
+		}
+		buttonType ={#Chengdong Stores
+			name ="QIN_golmud_city_VPMinor22"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 940 y = 367 }
+			pdx_tooltip = "VPMinor22"
+		}
+		buttonType ={#Northeast Corner
+			name ="QIN_golmud_city_VPMinor23"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 960 y = 230 }
+			pdx_tooltip = "VPMinor23"
+		}
+		buttonType ={#Student Apartments
+			name ="QIN_golmud_city_VPMinor24"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 865 y = 225 }
+			pdx_tooltip = "VPMinor24"
+		}
+		buttonType ={#North Crossing
+			name ="QIN_golmud_city_VPMinor25"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 740 y = 165 }
+			pdx_tooltip = "VPMinor25"
+		}
+		buttonType ={#North Barrack Ammunition Storage
+			name ="QIN_golmud_city_VPMinor26"
+			spriteType = "GFX_QIN_VP_Mn"
+			position = { x= 720 y = 128 }
+			pdx_tooltip = "VPMinor26"
+		}
+
+		iconType ={
+			name ="QIN_golmud_bar_bg"
+			spriteType = "GFX_QIN_Golmud_Bar_BG"
+			position = { x= 54 y = 229 }
+		}
+		iconType = {
+			name = "Ningxia_Progress_bar"
+			spriteType = "GFX_QIN_Golmud_NN"
+			position = { x = 54 y = 228 }
+		}
+		iconType = {
+			name = "Allies_Progress_bar"
+			spriteType = "GFX_QIN_Golmud_AN"
+			position = { x = 54 y = 228 }
+		}
+		iconType ={
+			name ="QIN_golmud_bar"
+			spriteType = "GFX_QIN_Golmud_Bar"
+			position = { x= 45 y = 220 }
+			pdx_tooltip = "Golmud_Bar_tt"
+		}
+		iconType ={
+			name ="QIN_golmud_bar_cracked"
+			spriteType = "GFX_QIN_golmud_bar_cracked"
+			position = { x= 100 y = 671 }
+			pdx_tooltip = "Golmud_Bar_Rebellion_tt"
+		}
+		buttonType ={
+			name ="QIN_golmud_bar_button"
+			spriteType = "GFX_QIN_golmud_bar_button"
+			position = { x= 100 y = 671 }
+			pdx_tooltip = "QIN_golmud_bar_button_tt"
+		}
+		buttonType = {
+			name = "QIN_golmud_close_button"
+			position = { x = -42 y = 15 }
+			quadTextureSprite ="GFX_TNO_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	containerWindowType = {
+		name = "TMM_golmud_VP_menu"
+		size = { width = 600 height = 450 }
+		position = { x = 200 y = 600 }
+
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		iconType ={
+			name ="QIN_golmud_city_vp_bg"
+			spriteType = "GFX_QIN_VP_BG"
+			position = { x= 0 y = 0 }
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "VP_Name"
+			position = { x = 0 y = 15 }
+			font = "aldrich_24_outline"
+			text = "[getQINVPName]"
+			maxWidth = 600
+			maxHeight = 36
+			format = center
+		}
+		instantTextboxType = {
+			name = "VP_Controller"
+			position = { x = -60 y = 42 }
+			font = "aldrich_30_outline"
+			text = "[getQINVPController]"
+			maxWidth = 600
+			maxHeight = 36
+			format = center
+		}
+		instantTextboxType = {
+			name = "VP_Value"
+			position = { x = 245 y = 39 }
+			font = "aldrich_36_outline"
+			text = "[getQINVPValue]"
+			maxWidth = 600
+			maxHeight = 36
+			format = center
+		}
+		instantTextboxType = {
+			name = "VP_STRENGTH1"
+			position = { x = -20 y = 100 }
+			font = "aldrich_30_outline"
+			text = "QINVPStrength1"
+			maxWidth = 200
+			maxHeight = 36
+			format = center
+			pdx_tooltip = "QINVPStrength1_tt"
+		}
+		instantTextboxType = {
+			name = "VP_STRENGTH2"
+			position = { x = 110 y = 100 }
+			font = "aldrich_30_outline"
+			text = "QINVPStrength2"
+			maxWidth = 200
+			maxHeight = 36
+			format = center
+			pdx_tooltip = "QINVPStrength2_tt"
+		}
+		instantTextboxType = {
+			name = "VP_STRENGTH1_Value"
+			position = { x = -20 y = 125 }
+			font = "aldrich_30_outline"
+			text = "[getQINVPStrength1]"
+			maxWidth = 200
+			maxHeight = 36
+			format = center
+		}
+		instantTextboxType = {
+			name = "VP_STRENGTH2_Value"
+			position = { x = 110 y = 125 }
+			font = "aldrich_30_outline"
+			text = "[getQINVPStrength2]"
+			maxWidth = 200
+			maxHeight = 36
+			format = center
+		}
+		instantTextboxType = {
+			name = "VP_DeployCount"
+			position = { x = 67 y = 282 }
+			font = "aldrich_36_outline"
+			text = "QIN_BOG_Deploy"
+			maxWidth = 150
+			maxHeight = 36
+			format = center
+		}
+		buttonType = {
+			name = "QIN_golmud_vp_more_troops_button"
+			position = { x = 214 y = 280 }
+			quadTextureSprite ="GFX_BRG_DomesticGUI_Plus"
+		}
+		buttonType = {
+			name = "QIN_golmud_vp_less_troops_button"
+			position = { x = 34 y = 280 }
+			quadTextureSprite ="GFX_BRG_DomesticGUI_Minus"
+		}
+		buttonType = {
+			name = "QIN_golmud_vp_more_troops_button_small"
+			position = { x = 178 y = 285 }
+			quadTextureSprite ="GFX_SGR_RND_GUI_increase_budget_button"
+		}
+		buttonType = {
+			name = "QIN_golmud_vp_less_troops_button_small"
+			position = { x = 81 y = 285 }
+			quadTextureSprite ="GFX_SGR_RND_GUI_decrease_budget_button"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z1N"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B1_N"
+			pdx_tooltip = "QIN_BoG_Z1N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z2N"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B2_N"
+			pdx_tooltip = "QIN_BoG_Z2N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z3N"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B3_N"
+			pdx_tooltip = "QIN_BoG_Z3N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z4N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B4_N"
+			pdx_tooltip = "QIN_BoG_Z4N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z5N"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B5_N"
+			pdx_tooltip = "QIN_BoG_Z5N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z6N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B6_N"
+			pdx_tooltip = "QIN_BoG_Z6N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z7N"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B7_N"
+			pdx_tooltip = "QIN_BoG_Z7N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z8N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B8_N"
+			pdx_tooltip = "QIN_BoG_Z8N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z9N"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B9_N"
+			pdx_tooltip = "QIN_BoG_Z9N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z10N"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B10_N"
+			pdx_tooltip = "QIN_BoG_Z10N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z11N"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B11_N"
+			pdx_tooltip = "QIN_BoG_Z11N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z12N"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B12_N"
+			pdx_tooltip = "QIN_BoG_Z12N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z13N"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B13_N"
+			pdx_tooltip = "QIN_BoG_Z13N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z14N"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B14_N"
+			pdx_tooltip = "QIN_BoG_Z14N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z15N"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B15_N"
+			pdx_tooltip = "QIN_BoG_Z15N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z16N"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B16_N"
+			pdx_tooltip = "QIN_BoG_Z16N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z17N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B17_N"
+			pdx_tooltip = "QIN_BoG_Z17N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z18N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B18_N"
+			pdx_tooltip = "QIN_BoG_Z18N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z19N"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B19_N"
+			pdx_tooltip = "QIN_BoG_Z19N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z20N"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B20_N"
+			pdx_tooltip = "QIN_BoG_Z20N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z21N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B21_N"
+			pdx_tooltip = "QIN_BoG_Z21N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z22N"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B22_N"
+			pdx_tooltip = "QIN_BoG_Z22N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z23N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B23_N"
+			pdx_tooltip = "QIN_BoG_Z23N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z24N"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B24_N"
+			pdx_tooltip = "QIN_BoG_Z24N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z25N"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B25_N"
+			pdx_tooltip = "QIN_BoG_Z25N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z26N"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B26_N"
+			pdx_tooltip = "QIN_BoG_Z26N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z27N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B27_N"
+			pdx_tooltip = "QIN_BoG_Z27N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z28N"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B28_N"
+			pdx_tooltip = "QIN_BoG_Z28N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z29N"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B29_N"
+			pdx_tooltip = "QIN_BoG_Z29N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z30N"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B30_N"
+			pdx_tooltip = "QIN_BoG_Z30N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z31N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B31_N"
+			pdx_tooltip = "QIN_BoG_Z31N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z32N"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B32_N"
+			pdx_tooltip = "QIN_BoG_Z32N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z33N"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B33_N"
+			pdx_tooltip = "QIN_BoG_Z33N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z34N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B34_N"
+			pdx_tooltip = "QIN_BoG_Z34N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z35N"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B35_N"
+			pdx_tooltip = "QIN_BoG_Z35N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z36N"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B36_N"
+			pdx_tooltip = "QIN_BoG_Z36N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_Z37N"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B37_N"
+			pdx_tooltip = "QIN_BoG_Z37N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z38N"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B38_N"
+			pdx_tooltip = "QIN_BoG_Z38N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z39N"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B39_N"
+			pdx_tooltip = "QIN_BoG_Z39N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z40N"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B40_N"
+			pdx_tooltip = "QIN_BoG_Z40N_tt"
+		}	
+	
+		buttonType = {
+			name = "QIN_Golmud_Z4Nb"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B4_N"
+			pdx_tooltip = "QIN_BoG_Z4N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z6Nb"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_B6_N"
+			pdx_tooltip = "QIN_BoG_Z6N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z10Nb"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B10_N"
+			pdx_tooltip = "QIN_BoG_Z10N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z15Nb"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B15_N"
+			pdx_tooltip = "QIN_BoG_Z15N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z21Nb"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B21_N"
+			pdx_tooltip = "QIN_BoG_Z21N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z23Nb"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B23_N"
+			pdx_tooltip = "QIN_BoG_Z23N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z25Nb"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B25_N"
+			pdx_tooltip = "QIN_BoG_Z25N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z29Nb"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B29_N"
+			pdx_tooltip = "QIN_BoG_Z29N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z30Nb"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_B30_N"
+			pdx_tooltip = "QIN_BoG_Z30N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z30Nc"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B30_N"
+			pdx_tooltip = "QIN_BoG_Z30N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z34Nb"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B34_N"
+			pdx_tooltip = "QIN_BoG_Z34N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z35Nb"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_B35_N"
+			pdx_tooltip = "QIN_BoG_Z35N_tt"
+		}
+		buttonType = {
+			name = "QIN_Golmud_Z40Nb"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_B40_N"
+			pdx_tooltip = "QIN_BoG_Z40N_tt"
+		}	
+		buttonType = {
+			name = "QIN_Golmud_NA1"
+			position = { x = 31 y = 343 }
+			spriteType ="GFX_QIN_VP_BNA"
+		}
+		buttonType = {
+			name = "QIN_Golmud_NA2"
+			position = { x = 145 y = 343 }
+			spriteType ="GFX_QIN_VP_BNA"
+		}
+		buttonType = {
+			name = "QIN_Golmud_NA3"
+			position = { x = 31 y = 391 }
+			spriteType ="GFX_QIN_VP_BNA"
+		}
+		buttonType = {
+			name = "QIN_Golmud_NA4"
+			position = { x = 145 y = 391 }
+			spriteType ="GFX_QIN_VP_BNA"
+		}
+		buttonType = {
+			name = "VP_Attack_VPButton_G"
+			position = { x = 100 y = 176 }
+			spriteType ="GFX_QIN_VP_Attack_VPButton_G"
+			pdx_tooltip = "QIN_VP_Attack_G"
+		}
+		buttonType = {
+			name = "VP_Attack_VPButton"
+			position = { x = 100 y = 176 }
+			spriteType ="GFX_QIN_VP_Attack_VPButton"
+			pdx_tooltip = "QIN_VP_Attack"
+		}
+		buttonType = {
+			name = "VP_KMT_VPButton_G"
+			position = { x = 180 y = 176 }
+			spriteType ="GFX_QIN_VP_KMT_VPButton_G"
+			pdx_tooltip = "QIN_VP_KMT_G"
+		}
+		buttonType = {
+			name = "VP_KMT_VPButton"
+			position = { x = 180 y = 176 }
+			spriteType ="GFX_QIN_VP_KMT_VPButton"
+			pdx_tooltip = "QIN_VP_KMT"
+		}
+		buttonType = {
+			name = "VP_CCP_VPButton_G"
+			position = { x = 20 y = 176 }
+			spriteType ="GFX_QIN_VP_CCP_VPButton_G"
+			pdx_tooltip = "QIN_VP_CCP_G"
+		}
+		buttonType = {
+			name = "VP_CCP_VPButton"
+			position = { x = 20 y = 176 }
+			spriteType ="GFX_QIN_VP_CCP_VPButton"
+			pdx_tooltip = "QIN_VP_CCP"
+		}
+		iconType ={
+			name ="QIN_golmud_info"
+			spriteType = "GFX_TMM_info_button"
+			position = { x= 545 y = 385 }
+			pdx_tooltip = "BoG_Info"
+		}
+		buttonType = {
+			name = "QIN_golmud_vp_close_button"
+			position = { x = -42 y = 15 }
+			quadTextureSprite ="GFX_TNO_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		iconType ={
+			name ="QIN_golmud_movement_limit"
+			spriteType = "GFX_QIN_golmud_movement_limit"
+			position = { x= 14 y = 312 }
+			pdx_tooltip = "QIN_golmud_movement_limit_tt"
+		}
+	}
+	containerWindowType = {
+		name = "QIN_pie_container"
+		position = { x = -329 y = 284 }
+		clipping = no
+		Orientation = center
+		origo = center
+		scale = 0.4 # scale = 1 = 768px
+		
+		iconType = {
+			name = "pie0"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0
+		}
+		iconType = {
+			name = "pie1"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.0628318531
+		}
+		iconType = {
+			name = "pie2"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.1256637061
+		}
+		iconType = {
+			name = "pie3"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.1884955592
+		}
+		iconType = {
+			name = "pie4"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.2513274123
+		}
+		iconType = {
+			name = "pie5"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.3141592654
+		}
+		iconType = {
+			name = "pie6"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.3769911184
+		}
+		iconType = {
+			name = "pie7"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.4398229715
+		}
+		iconType = {
+			name = "pie8"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.5026548246
+		}
+		iconType = {
+			name = "pie9"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.5654866776
+		}
+		iconType = {
+			name = "pie10"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.6283185307
+		}
+		iconType = {
+			name = "pie11"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.6911503838
+		}
+		iconType = {
+			name = "pie12"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.7539822369
+		}
+		iconType = {
+			name = "pie13"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.8168140899
+		}
+		iconType = {
+			name = "pie14"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.8796459430
+		}
+		iconType = {
+			name = "pie15"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 0.9424777961
+		}
+		iconType = {
+			name = "pie16"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.0053096491
+		}
+		iconType = {
+			name = "pie17"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.0681415022
+		}
+		iconType = {
+			name = "pie18"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.1309733553
+		}
+		iconType = {
+			name = "pie19"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.1938052084
+		}
+		iconType = {
+			name = "pie20"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.2566370614
+		}
+		iconType = {
+			name = "pie21"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.3194689145
+		}
+		iconType = {
+			name = "pie22"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.3823007676
+		}
+		iconType = {
+			name = "pie23"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.4451326207
+		}
+		iconType = {
+			name = "pie24"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.5079644737
+		}
+		iconType = {
+			name = "pie25"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.5707963268
+		}
+		iconType = {
+			name = "pie26"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.6336281799
+		}
+		iconType = {
+			name = "pie27"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.6964600329
+		}
+		iconType = {
+			name = "pie28"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.7592918860
+		}
+		iconType = {
+			name = "pie29"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.8221237391
+		}
+		iconType = {
+			name = "pie30"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.8849555922
+		}
+		iconType = {
+			name = "pie31"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 1.9477874452
+		}
+		iconType = {
+			name = "pie32"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.0106192983
+		}
+		iconType = {
+			name = "pie33"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.0734511514
+		}
+		iconType = {
+			name = "pie34"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.1362830044
+		}
+		iconType = {
+			name = "pie35"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.1991148575
+		}
+		iconType = {
+			name = "pie36"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.2619467106
+		}
+		iconType = {
+			name = "pie37"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.3247785637
+		}
+		iconType = {
+			name = "pie38"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.3876104167
+		}
+		iconType = {
+			name = "pie39"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.4504422698
+		}
+		iconType = {
+			name = "pie40"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.5132741229
+		}
+		iconType = {
+			name = "pie41"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.5761059759
+		}
+		iconType = {
+			name = "pie42"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.6389378290
+		}
+		iconType = {
+			name = "pie43"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.7017696821
+		}
+		iconType = {
+			name = "pie44"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.7646015352
+		}
+		iconType = {
+			name = "pie45"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.8274333882
+		}
+		iconType = {
+			name = "pie46"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.8902652413
+		}
+		iconType = {
+			name = "pie47"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 2.9530970944
+		}
+		iconType = {
+			name = "pie48"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.0159289474
+		}
+		iconType = {
+			name = "pie49"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.0787608005
+		}
+		iconType = {
+			name = "pie50"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.1415926536
+		}
+		iconType = {
+			name = "pie51"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.2044245067
+		}
+		iconType = {
+			name = "pie52"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.2672563597
+		}
+		iconType = {
+			name = "pie53"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.3300882128
+		}
+		iconType = {
+			name = "pie54"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.3929200659
+		}
+		iconType = {
+			name = "pie55"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.4557519189
+		}
+		iconType = {
+			name = "pie56"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.5185837720
+		}
+		iconType = {
+			name = "pie57"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.5814156251
+		}
+		iconType = {
+			name = "pie58"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.6442474782
+		}
+		iconType = {
+			name = "pie59"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.7070793312
+		}
+		iconType = {
+			name = "pie60"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.7699111843
+		}
+		iconType = {
+			name = "pie61"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.8327430374
+		}
+		iconType = {
+			name = "pie62"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.8955748905
+		}
+		iconType = {
+			name = "pie63"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 3.9584067435
+		}
+		iconType = {
+			name = "pie64"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.0212385966
+		}
+		iconType = {
+			name = "pie65"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.0840704497
+		}
+		iconType = {
+			name = "pie66"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.1469023027
+		}
+		iconType = {
+			name = "pie67"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.2097341558
+		}
+		iconType = {
+			name = "pie68"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.2725660089
+		}
+		iconType = {
+			name = "pie69"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.3353978620
+		}
+		iconType = {
+			name = "pie70"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.3982297150
+		}
+		iconType = {
+			name = "pie71"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.4610615681
+		}
+		iconType = {
+			name = "pie72"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.5238934212
+		}
+		iconType = {
+			name = "pie73"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.5867252742
+		}
+		iconType = {
+			name = "pie74"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.6495571273
+		}
+		iconType = {
+			name = "pie75"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.7123889804
+		}
+		iconType = {
+			name = "pie76"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.7752208335
+		}
+		iconType = {
+			name = "pie77"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.8380526865
+		}
+		iconType = {
+			name = "pie78"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.9008845396
+		}
+		iconType = {
+			name = "pie79"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 4.9637163927
+		}
+		iconType = {
+			name = "pie80"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.0265482457
+		}
+		iconType = {
+			name = "pie81"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.0893800988
+		}
+		iconType = {
+			name = "pie82"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.1522119519
+		}
+		iconType = {
+			name = "pie83"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.2150438050
+		}
+		iconType = {
+			name = "pie84"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.2778756580
+		}
+		iconType = {
+			name = "pie85"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.3407075111
+		}
+		iconType = {
+			name = "pie86"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.4035393642
+		}
+		iconType = {
+			name = "pie87"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.4663712172
+		}
+		iconType = {
+			name = "pie88"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.5292030703
+		}
+		iconType = {
+			name = "pie89"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.5920349234
+		}
+		iconType = {
+			name = "pie90"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.6548667765
+		}
+		iconType = {
+			name = "pie91"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.7176986295
+		}
+		iconType = {
+			name = "pie92"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.7805304826
+		}
+		iconType = {
+			name = "pie93"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.8433623357
+		}
+		iconType = {
+			name = "pie94"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.9061941887
+		}
+		iconType = {
+			name = "pie95"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 5.9690260418
+		}
+		iconType = {
+			name = "pie96"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 6.0318578949
+		}
+		iconType = {
+			name = "pie97"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 6.0946897480
+		}
+		iconType = {
+			name = "pie98"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 6.1575216010
+		}
+		iconType = {
+			name = "pie99"
+			quadTextureSprite = "GFX_QIN_pie_chart_segment"
+			centerPosition = yes
+			alwaystransparent = yes
+			rotation = 6.2203534541
+		}
+
+	}
+	containerWindowType = {
+		name = "TMM_golmud_piechart_thing"
+		size = { width = 600 height = 450 }
+		position = { x = 540 y =735 }
+		iconType ={
+			name ="QIN_golmud_piechart_texture"
+			spriteType = "GFX_QIN_golmud_piechart_texture"
+			position = { x= -67 y = -80 }
+		}
+		iconType ={
+			name ="QIN_golmud_piechart_centre"
+			spriteType = "GFX_QIN_golmud_piechart_centre"
+			position = { x= 1 y = 1 }
+		}
+	}
+
+	containerWindowType = {
+		name = "TMM_ccp_struggle"
+		size = { width = 500 height = 510 }
+		position = { x = 100 y = 0 }
+		moveable = no
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+		iconType = { 
+			name ="GFX_QIN_golmud_ccp_faction_outsider"
+			spriteType = "GFX_QIN_golmud_ccp_faction_outsider"
+			position = { x = 5 y = 40 }
+		}
+		iconType = { 
+			name ="GFX_QIN_golmud_ccp_faction_people"
+			spriteType = "GFX_QIN_golmud_ccp_faction_people"
+			position = { x = 175 y = 40 }
+		}
+		iconType = { 
+			name ="GFX_QIN_golmud_ccp_faction_party"
+			spriteType = "GFX_QIN_golmud_ccp_faction_party"
+			position = { x = 345 y = 40 }
+		}
+		instantTextBoxType = {
+			name = "ccp_faction_outsider_tt"
+			position = { x = -20 y = 10 }
+			text = CCPPath_Outsider
+			font = "aldrich_28_outline"
+			format = center 
+			maxWidth = 200
+		}
+		instantTextBoxType = {
+			name = "ccp_faction_people_tt"
+			position = { x = 150 y = 10 }
+			text = CCPPath_People
+			font = "aldrich_28_outline"
+			format = center 
+			maxWidth = 200
+		}
+		instantTextBoxType = {
+			name = "ccp_faction_party_tt"
+			position = { x = 320 y = 10 }
+			text = CCPPath_Party
+			font = "aldrich_28_outline"
+			format = center 
+			maxWidth = 200
+		}
+		instantTextBoxType = {
+			name = "ccp_faction_outsider_text_tt"
+			position = { x = -20 y = 245 }
+			text = CCPPath_Outsider_text
+			font = "aldrich_20_outline"
+			format = center 
+			maxWidth = 200
+		}
+		instantTextBoxType = {
+			name = "ccp_faction_people_text_tt"
+			position = { x = 150 y = 245 }
+			text = CCPPath_People_text
+			font = "aldrich_20_outline"
+			format = center 
+			maxWidth = 200
+		}
+		instantTextBoxType = {
+			name = "ccp_faction_party_text_tt"
+			position = { x = 320 y = 245 }
+			text = CCPPath_Party_text
+			font = "aldrich_20_outline"
+			format = center 
+			maxWidth = 200
+		}
+		instantTextBoxType = {
+			name = "ccp_faction_pc_tt"
+			position = { x = 155 y = 320 }
+			text = CCPPath_PC
+			font = "aldrich_20_outline"
+			format = center 
+			maxWidth = 200
+		}
+		instantTextBoxType = {
+			name = "ccp_faction_desc_tt"
+			position = { x = 10 y = 380 }
+			text = CCPPath_desc
+			font = "aldrich_16_outline"
+			format = left 
+			maxWidth = 482
+		}
+	}
+	containerWindowType = {
+		name = "TMM_kmt_struggle"
+		size = { width = 500 height = 575 }
+		position = { x = 100 y = 0 }
+		moveable = no
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+		iconType = { 
+			name ="GFX_QIN_golmud_kmt_faction_bg"
+			spriteType = "GFX_QIN_golmud_kmt_faction_bg"
+			position = { x = 9 y = 0 }
+		}
+		instantTextBoxType = {
+			name = "kmt_faction_zxx"
+			position = { x = -10 y = 235 }
+			text = KMTPath_ZXX_text
+			font = "aldrich_36_outline"
+			format = center 
+			maxWidth = 200
+			pdx_tooltip = "kmt_faction_zxx_tt"
+		}
+		instantTextBoxType = {
+			name = "kmt_faction_cck"
+			position = { x = 152 y = 235 }
+			text = KMTPath_CCK_text
+			font = "aldrich_36_outline"
+			format = center 
+			maxWidth = 200
+			pdx_tooltip = "kmt_faction_cck_tt"
+		}
+		instantTextBoxType = {
+			name = "kmt_faction_nxs"
+			position = { x = 315 y = 235 }
+			text = KMTPath_NXS_text
+			font = "aldrich_36_outline"
+			format = center 
+			maxWidth = 200
+			pdx_tooltip = "kmt_faction_nxs_tt"
+		}
+		instantTextBoxType = {
+			name = "kmt_faction_desc_tt"
+			position = { x = 10 y = 285 }
+			text = KMTPath_desc
+			font = "aldrich_16_outline"
+			format = left 
+			maxWidth = 482
+		}
+	}
+}

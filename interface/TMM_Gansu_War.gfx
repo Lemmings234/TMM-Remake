@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_fopo_gansu_sidebar"
+		textureFile = "gfx/interface/proxy_wars/fopo_gui/category_pics/gansu.dds"
+	}
+	spriteType = {
+		name = "GFX_fopo_gansu_war_icon_us"
+		textureFile = "gfx/interface/proxy_wars/fopo_gui/category_icons/gansu_war_us.dds"
+	}
+	spriteType = {
+		name = "GFX_fopo_gansu_war_icon"
+		textureFile = "gfx/interface/proxy_wars/fopo_gui/category_icons/gansu_war_jap.dds"
+	}
+	spriteType = {
+		name = "GFX_fopo_china_seal"
+		textureFile = "gfx/interface/proxy_wars/fopo_gui/china_seal.dds"
+	}
+}

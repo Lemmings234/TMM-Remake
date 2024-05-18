@@ -1,0 +1,37 @@
+﻿l_english:
+ 
+ XIN_authoritarian_democracy:0 "Sinkiang"
+ XIN_authoritarian_democracy_DEF:0 "Sinkiang Province"
+ XIN_authoritarian_democracy_ADJ:0 "Chinese"
+
+ XIN_conservative_democracy:0 "Sinkiang Province"
+ XIN_conservative_democracy_DEF:0 "Sinkiang Province"
+ XIN_conservative_democracy_ADJ:0 "Chinese"
+ 
+ XIN_liberal_democracy:0 "Sinkiang Province"
+ XIN_liberal_democracy_DEF:0 "Sinkiang Province"
+ XIN_liberal_democracy_ADJ:0 "Chinese"
+
+ XIN_socialist:0 "Sinkiang Soviet Republic"
+ XIN_socialist_DEF:0 "The Sinkiang Soviet Republic"
+ XIN_socialist_ADJ:0 "Chinese"
+ 
+ XIN_communist:0 "Sinkiang Soviet Republic"
+ XIN_communist_DEF:0 "Sinkiang Soviet Republic"
+ XIN_communist_ADJ:0 "Chinese"
+ 
+ XIN_social_democracy:0 "Sinkiang Province"
+ XIN_social_democracy_DEF:0 "Sinkiang Province"
+ XIN_social_democracy_ADJ:0 "Chinese"
+ 
+ XIN_fascism:0 "Sinkiang Province"
+ XIN_fascism_DEF:0 "The Sinkiang Military Government"
+ XIN_fascism_ADJ:0 "Chinese"
+ 
+ XIN_despotism:0 "Sinkiang"
+ XIN_despotism_DEF:0 "Sinkiang Province"
+ XIN_despotism_ADJ:0 "Chinese"
+ 
+
+
+

@@ -1,0 +1,74 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_united_front_subtype"
+		textureFile = "gfx/interface/ideologies/authoritarian_democracy_united_front_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialist_new_democracy_subtype"
+		textureFile = "gfx/interface/ideologies/socialist_new_democracy_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberal_democracy_populist_liberalism_subtype"
+		textureFile = "gfx/interface/ideologies/liberal_democracy_populist_liberalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservative_democracy_neoconfucian_liberalism_subtype"
+		textureFile = "gfx/interface/ideologies/conservative_democracy_neoconfucian_liberalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_despotism_chiang_kai_shek_thought_subtype"
+		textureFile = "gfx/interface/ideologies/despotism_chiang_kai_shek_thought_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_democracy_left_sanmin_subtype"
+		textureFile = "gfx/interface/ideologies/social_democracy_left_sanmin_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_despotism_party_state_subtype"
+		textureFile = "gfx/interface/ideologies/despotism_party_state_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_despotism_dai_chitao_state_supremacy_subtype"
+		textureFile = "gfx/interface/ideologies/despotism_dai_chitao_state_supremacy_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascism_dai_chitao_party_supremacy_subtype"
+		textureFile = "gfx/interface/ideologies/fascism_dai_chitao_party_supremacy_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communist_chinese_maoism_subtype"
+		textureFile = "gfx/interface/ideologies/communist_chinese_maoism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialist_market_socialism_subtype"
+		textureFile = "gfx/interface/ideologies/socialist_market_socialism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communist_dictatorial_socialism_subtype"
+		textureFile = "gfx/interface/ideologies/communist_dictatorial_socialism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_compradore_capitalism_subtype"
+		textureFile = "gfx/interface/ideologies/authoritarian_democracy_compradore_capitalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democracy_party_state_capitalism_subtype"
+		textureFile = "gfx/interface/ideologies/authoritarian_democracy_party_state_capitalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservative_democracy_quinquepartite_constitutionalism_subtype"
+		textureFile = "gfx/interface/ideologies/conservative_democracy_quinquepartite_constitutionalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communist_dictatorial_revolutionary_subtype"
+		textureFile = "gfx/interface/ideologies/communist_dictatorial_revolutionary_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communist_vanguard_system_subtype"
+		textureFile = "gfx/interface/ideologies/communist_vanguard_system_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservative_democracy_confucian_democracy_subtype"
+		textureFile = "gfx/interface/ideologies/conservative_democracy_confucian_democracy_subtype.dds"
+	}
+}

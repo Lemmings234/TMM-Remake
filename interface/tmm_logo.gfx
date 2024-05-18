@@ -1,0 +1,128 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_XSM_KMT_logo_bar"
+		textureFile = "gfx/interface/xsm/kmt.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_XSM_CCP_logo_bar"
+		textureFile = "gfx/interface/xsm/ccp.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_XSM_PDP_logo_bar"
+		textureFile = "gfx/interface/xsm/pdp.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_ideology_united_front_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/united_front_bar.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_ideology_new_democracy_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/new_democracy_bar.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_ideology_populist_liberalism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/populist_liberalism_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_neoconfucian_liberalism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/neoconfucian_liberalism_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_chiang_kai_shek_thought_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/chiang_kai_shek_thought_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_chinese_maoism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/chinese_maoism_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_left_sanmin_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/left_sanmin_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_party_state_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/party_state_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_dai_chitao_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/dai_chitao_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_dai_chitao_2_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/dai_chitao_2_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_market_socialism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/market_socialism_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_dictatorial_socialism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/dictatorial_socialism_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_compradore_capitalism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/compradore_capitalism_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_party_state_capitalism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/party_state_capitalism_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_quinquepartite_constitutionalism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/quinquepartite_constitutionalism_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_dictatorial_revolutionary_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/objective_survive_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_confucian_democracy_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/confucian_democracy_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_QIN_ideology_vanguard_system_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/vanguard_system_bar.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_QIN"
+		textureFile = "gfx/interface/operatives/agencies/agency_logo_xsm.dds"
+		noOfFrames = 2
+	}
+}

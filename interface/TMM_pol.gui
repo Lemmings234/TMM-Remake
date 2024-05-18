@@ -1,0 +1,255 @@
+guiTypes = {
+# Scripted GUI Pie Chart by Yard1, for more details check out https://github.com/Yard1/HoI4-Scripted-GUI-Pie-Chart !
+
+	containerWindowType = {
+		name = "TMM_pol_menu_open"
+		size = { width = 120 height = 120 }
+		position = { x=220 y=291 }
+
+		buttonType ={
+			name ="QIN_pol_open_button"
+			spriteType = "QIN_pol_icon"
+			position = { x=-55 y=30 }
+			pdx_tooltip = "QIN_pol_open_tt"
+		}
+		
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=-25 y=-13 }
+		}
+	}
+	containerWindowType = {
+		name = "TMM_pol_menu_main"
+		size = { width = 900 height = 675 }
+		position = { x = 540 y = 78 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		iconType ={
+			name ="QIN_pol_background"
+			spriteType = "QIN_pol_bg"
+			position = { x= 0 y = 0 }
+			alwaystransparent = yes
+		}
+		iconType ={
+			name ="QIN_kmt_icon"
+			spriteType = "QIN_kmt_icon"
+			position = { x= 689 y = 73 }
+			pdx_tooltip = "TMM_INFO_POL_KMT_FACTION"
+		}
+		iconType ={
+			name ="QIN_ccp_icon"
+			spriteType = "QIN_ccp_icon"
+			position = { x= 83 y = 73 }
+			pdx_tooltip = "TMM_INFO_POL_CCP_FACTION"
+		}
+		iconType ={
+			name ="QIN_pol_gao_icon"
+			spriteType = "QIN_gao_icon"
+			position = { x= 69 y = 447 }
+			pdx_tooltip = "TMM_INFO_POL_GAO"
+		}
+		iconType ={
+			name ="QIN_s1"
+			spriteType = "QIN_s1"
+			position = { x= 329 y = 379 }
+			alwaystransparent = yes
+		}
+		iconType ={
+			name ="QIN_s2"
+			spriteType = "QIN_s2"
+			position = { x= 323 y = 379 }
+			alwaystransparent = yes
+		}
+		iconType ={
+			name ="QIN_s3"
+			spriteType = "QIN_s3"
+			position = { x= 317 y = 379 }
+			alwaystransparent = yes
+		}
+		iconType ={
+			name ="QIN_pol_chiang_icon"
+			spriteType = "QIN_chiang_icon"
+			position = { x= 675 y = 447 }
+			pdx_tooltip = "TMM_INFO_POL_CHIANG"
+		}
+		instantTextboxType = {
+			name = "KMT_popularity"
+			position = { x = 555 y = 298 }
+			font = "aldrich_36_outline"
+			text = "QIN_Kuomintang_Popularity"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		instantTextboxType = {
+			name = "CCP_popularity"
+			position = { x = -53 y = 298 }
+			font = "aldrich_36_outline"
+			text = "QIN_CCP_Popularity"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		instantTextboxType = {
+			name = "PDP_popularity"
+			position = { x = 255 y = 260 }
+			font = "aldrich_36_outline"
+			text = "QIN_PDP_Popularity"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		instantTextboxType = {
+			name = "KMT_influence"
+			position = { x = 555 y = 375 }
+			font = "aldrich_36_outline"
+			text = "QIN_KMT_Influence"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		instantTextboxType = {
+			name = "CCP_influence"
+			position = { x = -53 y = 375 }
+			font = "aldrich_36_outline"
+			text = "QIN_CCP_Influence"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		instantTextboxType = {
+			name = "PDP_influence"
+			position = { x = 255 y = 335 }
+			font = "aldrich_36_outline"
+			text = "QIN_PDP_Influence"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		buttonType = {
+			name = "QIN_pol_close_button"
+			position = { x = -42 y = 15 }
+			quadTextureSprite ="GFX_TNO_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+	}
+	containerWindowType = {
+		name = "TMM_pol_menu_kmt"
+		size = { width = 450 height = 337 }
+		position = { x = 540 y = 78 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+		iconType ={
+			name ="QIN_pol_kmt_faction_background"
+			spriteType = "QIN_pol_kmt_faction"
+			position = { x= 0 y = 0 }
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "KMT_despot_influence"
+			position = { x = 75 y = 53 }
+			font = "aldrich_36_outline"
+			text = "QIN_faction_despot_Influence"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		instantTextboxType = {
+			name = "KMT_authdem_influence"
+			position = { x = 75 y = 124 }
+			font = "aldrich_36_outline"
+			text = "QIN_faction_authdem_Influence"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		instantTextboxType = {
+			name = "KMT_condem_influence"
+			position = { x = 75 y = 194 }
+			font = "aldrich_36_outline"
+			text = "QIN_faction_condem_Influence"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		instantTextboxType = {
+			name = "KMT_libdem_influence"
+			position = { x = 75 y = 273 }
+			font = "aldrich_36_outline"
+			text = "QIN_faction_libdem_Influence"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		buttonType = {
+			name = "QIN_pol_kmt_faction_close_button"
+			position = { x = -39 y = 9 }
+			quadTextureSprite ="GFX_TNO_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	containerWindowType = {
+		name = "TMM_pol_menu_ccp"
+		size = { width = 450 height = 225 }
+		position = { x = 540 y = 78 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+		iconType ={
+			name ="QIN_pol_ccp_faction_background"
+			spriteType = "QIN_pol_ccp_faction"
+			position = { x= 0 y = 0 }
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "CCP_authsoc_influence"
+			position = { x = 185 y = 58 }
+			font = "aldrich_36_outline"
+			text = "QIN_faction_authsoc_Influence"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		instantTextboxType = {
+			name = "CCP_libsoc_influence"
+			position = { x = 185 y = 142 }
+			font = "aldrich_36_outline"
+			text = "QIN_faction_libsoc_Influence"
+			maxWidth = 400
+			maxHeight = 40
+			format = center
+		}
+		buttonType = {
+			name = "QIN_pol_kmt_faction_close_button"
+			position = { x = -39 y = 9 }
+			quadTextureSprite ="GFX_TNO_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+}

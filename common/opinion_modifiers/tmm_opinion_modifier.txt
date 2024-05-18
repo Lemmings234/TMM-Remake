@@ -1,0 +1,36 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+
+opinion_modifiers = {
+	QIN_imperialist = {
+	value = -150
+	}
+	QIN_illegitimate_state = {
+	value = -100
+	}
+	QIN_traitor_regime = {
+	value = -50
+	}
+	QIN_tibet_invasion = {
+	value = -25
+	}
+	QIN_collaborator = {
+	value = -25
+	}
+	QIN_india = {
+	value = 25
+	}
+	QIN_india_friendship = {
+	value = 50
+	}
+	QIN_us_friendship = {
+	value = 50
+	}
+}

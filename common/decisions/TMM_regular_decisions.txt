@@ -1,0 +1,1887 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
+#####################################################################################################################
+QIN_Debug = {		#Name of category that decisions will appear under, decisions MUST have a category to work properly.
+	QIN_1963_tree_load = {		#ID of the decision, must not contain spaces!
+
+		icon = GFX_decision_category_debug		#The left side icon to show for this decision.
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+		    is_ai = no
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 5	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+
+		cost = 0		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			custom_effect_tooltip = "DECISION_EFFECT_1963"
+			hidden_effect = {
+				set_country_flag = year_of_rabbit
+	         	clr_country_flag = year_of_tiger
+		        QIN_reload_tree = yes
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	QIN_1964_tree_load = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_1964"
+			hidden_effect = {
+				set_country_flag = year_of_dragon
+	         	clr_country_flag = year_of_rabbit
+		        QIN_reload_tree = yes
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	unlock_economy = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_unlock_economy"
+            clr_country_flag = is_warlord
+			}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}	
+	battle_for_golmud_debug = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_battle_for_golmud_debug"
+            set_country_flag = battle_for_golmud_starts
+			set_global_flag = tno_speed_warning
+			}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}	
+	battle_for_golmud_debug_2 = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_battle_for_golmud_debug"
+            set_country_flag = battle_for_golmud_starts
+			set_global_flag = tno_speed_warning
+			}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	battle_for_golmud_victory_debug = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			add_to_variable = {
+				var = QIN_BOG_01_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_02_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_03_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_04_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_05_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_06_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_07_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_08_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_09_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_10_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_11_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_12_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_13_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_14_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_15_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_16_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_17_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_18_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_19_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_20_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_21_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_22_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_23_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_24_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_25_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_26_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_27_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_28_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_29_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_30_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_31_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_32_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_33_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_34_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_35_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_36_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_37_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_38_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_39_KMT
+				value = 100
+			}
+			add_to_variable = {
+				var = QIN_BOG_40_KMT
+				value = 100
+			}
+			QINWhydidIsubjectmyselftothisfuckery = yes
+			}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	QIN_1964_second_part = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_1964_2"
+	    clr_country_flag = is_warlord
+        QIN = {set_cosmetic_tag = Northwest}
+        custom_effect_tooltip = QIN_Warlord_No_Longer_tt
+		custom_effect_tooltip = QIN_we_are_victorious_tt
+		add_political_power = 100
+		add_to_variable = {
+            var = QIN_yushu_stability
+            value =5
+            }
+		subtract_from_variable = {
+            var = QIN_yushu_ethnic_tension
+            value = 2.5
+            }
+		add_to_variable = {
+            var = QIN_tibet_stability
+            value = 5
+            }
+		subtract_from_variable = {
+            var = QIN_tibet_ethnic_tension
+            value = 2.5
+            }
+		add_to_variable = {
+            var = QIN_kang_stability
+            value = 5
+            }
+		subtract_from_variable = {
+            var = QIN_kang_ethnic_tension
+            value = 2.5
+            }
+		add_to_variable = {
+            var = QIN_qinghai_stability
+            value = 20
+            }
+		subtract_from_variable = {
+            var = QIN_qinghai_ethnic_tension
+            value = 10
+            }
+		QINClamp = yes
+		country_event = { id = tmm.maclique.4 }
+		hidden_effect = {
+			set_country_flag = TNO_closing_screen_show
+			set_country_flag = tibet_defeated
+			QIN_reload_tree = yes
+		complete_national_focus = The_battle_for_yushu
+		complete_national_focus = our_brethren_to_the_south
+		complete_national_focus = alert_the_24th_army
+		complete_national_focus = arm_xikang
+		complete_national_focus = reach_out_to_liu
+		complete_national_focus = tsuji_is_moving
+		complete_national_focus = double_the_patrol
+		complete_national_focus = three_rules_and_eight_points
+		complete_national_focus = an_attack_to_shatter_their_spirit
+		complete_national_focus = keep_him_in_suspense
+		complete_national_focus = we_are_victorious
+	        }        
+
+
+			}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	QIN_1965_tree_load = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_1965"
+			hidden_effect = {
+				set_country_flag = year_of_snake
+				clr_country_flag = year_of_dragon
+				clr_country_flag = tibet_defeated
+		        QIN_reload_tree = yes
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	QIN_1966_tree_load = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_1966"
+			hidden_effect = {
+				set_country_flag = year_of_horse
+				clr_country_flag = year_of_snake
+		        QIN_reload_tree = yes
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	QIN_1966_japanese_cope = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			764 = { set_state_name = "Hexi Corridor" }
+			set_province_name = { id = 7971 name = "Jiuquan" }
+			616 = { set_state_name = "Ningxia" }
+			set_province_name = { id = 8127 name = "Yinchuan" }
+			1302 = { set_state_name = "Central Gansu" }
+			set_province_name = { id = 12776 name = "Wuwei" }
+			set_province_name = { id = 1630 name = "Lanzhou" }
+			283 = { set_state_name = "Eastern Gansu" }
+			set_province_name = { id = 7911 name = "Tianshui" }
+			QIN = {
+				set_capital = { state = 906 }
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	absolute_basedness = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+			QIN = {
+			    owns_state = 613
+			}
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			QIN = {
+				set_capital = { state = 613 }
+			}
+			every_state = {
+				limit = {
+					is_owned_by = QIN
+				}
+				add_core_of = QIN
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	gansu_war = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 0	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			TMM_Start_Gansu_War = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	lifayuan_president_luo_longji_test = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			set_country_flag = president_luo_longji
+			clr_country_flag = president_ni_wenya
+			clr_country_flag = president_hang_liwu
+			clr_country_flag = president_dong_biwu
+			clr_country_flag = president_zhang_lisheng
+			}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}	
+	lifayuan_president_hang_liwu_test = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			clr_country_flag = president_luo_longji
+			clr_country_flag = president_ni_wenya
+			set_country_flag = president_hang_liwu
+			clr_country_flag = president_dong_biwu
+			clr_country_flag = president_zhang_lisheng
+			}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	lifayuan_whip_deng_xiaoping_test = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			set_country_flag = whip_deng_xiaoping
+			clr_country_flag = whip_ma_shuli
+			clr_country_flag = whip_yu_guohua
+			clr_country_flag = whip_li_huan
+			clr_country_flag = whip_qiao_shi
+			clr_country_flag = whip_zhang_naiqi
+			clr_country_flag = whip_jiang_yanshi
+			clr_country_flag = whip_sun_ke
+			}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	lifayuan_whip_qiao_shi_test = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			clr_country_flag = whip_deng_xiaoping
+			clr_country_flag = whip_ma_shuli
+			clr_country_flag = whip_yu_guohua
+			clr_country_flag = whip_li_huan
+			set_country_flag = whip_qiao_shi
+			clr_country_flag = whip_zhang_naiqi
+			clr_country_flag = whip_jiang_yanshi
+			clr_country_flag = whip_sun_ke
+			}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	QIN_100_ningxia_troops_in_post = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 51
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			add_to_variable = {
+				var = QIN_BOG_01_STRENGTH_NINGXIA
+				value = 100
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	post_bog_test = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 51
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			set_country_flag = bog_over
+			set_country_flag = QIN_CCP_Path
+			set_country_flag = QIN_KMT_Path
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	bog_test = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 51
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			set_country_flag = qinghai_in_turmoil
+			QIN_reload_tree = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	sun_fo_presidency_test = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 51
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			complete_national_focus = a_century_of_legacy
+			complete_national_focus = ended_with_a_whimper
+			complete_national_focus = sun_fo_presidency
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	Chiang_Victory = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 51
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			complete_national_focus = president_chiang_chingkuo
+			set_country_flag = Chiang_Victory
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	Chen_Victory = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 51
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			complete_national_focus = president_chen_lifu
+			set_country_flag = Chen_Victory
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	Wang_Victory = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 51
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			complete_national_focus = president_wang_shijie
+			set_country_flag = Wang_Victory
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	movement_test_5 = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 51
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			GolmudReinforce = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	movement_test_6 = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 51
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			GolmudReinforce = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	lifayuan_whip_zhang_naiqi_test = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		visible = {	
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+		cost = 0
+		complete_effect = {		
+			clr_country_flag = whip_deng_xiaoping
+			clr_country_flag = whip_ma_shuli
+			clr_country_flag = whip_yu_guohua
+			clr_country_flag = whip_li_huan
+			clr_country_flag = whip_qiao_shi
+			set_country_flag = whip_zhang_naiqi
+			clr_country_flag = whip_jiang_yanshi
+			clr_country_flag = whip_sun_ke
+			}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+}
+QIN_lifayuan = {
+	lifayuan_buy_ccp = {		#ID of the decision, must not contain spaces!
+
+		icon = GFX_decision_category_generic_communism		#The left side icon to show for this decision.
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+			always = yes
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 1	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				tag = QIN
+			}		
+		}		
+
+		cost = 10	#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+		    custom_effect_tooltip = "DECISION_EFFECT_BUY_CCP"
+		    add_to_variable = { QIN_ccp_influence = 20 }
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	lifayuan_buy_kmt = {		#ID of the decision, must not contain spaces!
+
+		icon = GFX_decision_category_generic_political_actions		#The left side icon to show for this decision.
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+			always = yes
+		}
+		
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				tag = QIN
+			}		
+		}		
+
+		cost = 10	#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+		    add_to_variable = { QIN_kmt_influence = 20 }
+			custom_effect_tooltip = "DECISION_EFFECT_BUY_KMT"
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 10
+		}
+	}
+	legislation_land_reform = {		#ID of the decision, must not contain spaces!
+
+		icon = GFX_decision_category_generic_document		#The left side icon to show for this decision.
+		
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		
+		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
+			check_variable = {
+	            var = QIN_lifayuan_proposal_support
+	            value = 65
+	            compare = greater_than
+            }
+			has_country_flag = lifayuan_legislation_land_reform
+		}
+		
+		fire_only_once = yes		#If set to yes, the decision will only appear once, after execution will not appear again.
+
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			ROOT = {
+				tag = QIN
+			}		
+			has_country_flag = lifayuan_legislation_land_reform
+		}		
+
+		cost = 0	#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		#The effects to execute once the envelope icon is clicked.
+			custom_effect_tooltip = "DECISION_EFFECT_LAND_REFORM"
+		    906 = { add_extra_state_shared_building_slots = 1 }
+            604 = { add_extra_state_shared_building_slots = 1 }
+		    add_political_power = -25
+		    subtract_from_variable = {QIN_qinghai_stability = 20}
+		    add_to_variable = {QIN_qinghai_ethnic_tension = 5}
+		    set_country_flag = QIN_qinghai_land_reform_enacted
+		    swap_ideas = {
+	             add_idea = tno_slavery_outlawed
+	             remove_idea = tno_slavery_corvee
+            }
+		    hidden_effect = {
+		        TNO_improve_poverty_med = yes
+		    }
+			add_to_variable = { kmt_oldguard_lifayuan_support = 2.5 }
+			add_to_variable = { pdp_lifayuan_support = 2.5 }
+            add_to_variable = { kmt_xishan_lifayuan_support = 2.5 }
+            add_to_variable = { kmt_zhengxuepai_lifayuan_support = 2.5 }
+			subtract_from_variable = { kmt_hardliner_lifayuan_support = 2.5 }
+			add_to_variable = { ccp_orthodox_lifayuan_support = 2.5 }
+            add_to_variable = { ccp_chinese_lifayuan_support = 2.5 }
+			add_to_variable = { QIN_KMT_unity = 2.5 }
+			add_to_variable = { QIN_CCP_unity = 5 }
+			add_to_variable = {QIN_Interparty_unity = 2.5 }
+			QINCheckProposalSupport = yes
+			QINLifayuanClamp = yes
+
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0
+		}
+	}
+	legislation_govt_reform = {
+		icon = GFX_decision_category_generic_independence
+		available = {
+			check_variable = {
+	            var = QIN_lifayuan_proposal_support
+	            value = 75
+	            compare = greater_than
+            }
+			has_country_flag = lifayuan_legislation_govt_reform
+		}
+		fire_only_once = yes
+		visible = {	
+			ROOT = {
+				tag = QIN
+			}		
+			has_country_flag = lifayuan_legislation_govt_reform
+		}		
+		cost = 0
+		complete_effect = {
+			custom_effect_tooltip = "DECISION_EFFECT_GOVT_REFORM"
+		    add_political_power = 100
+	     	set_temp_variable = { econ_centralization_temp = 10 }
+		    econ_centralization_change = yes
+		    subtract_from_variable = {QIN_qinghai_stability = 20}
+		    add_to_variable = {QIN_qinghai_ethnic_tension = 15}
+		    subtract_from_variable = {QIN_yushu_stability = 20}
+		    add_to_variable = {QIN_yushu_ethnic_tension = 15}
+		    subtract_from_variable = {QIN_kang_stability = 20}
+		    add_to_variable = {QIN_kang_ethnic_tension = 15}
+		    subtract_from_variable = {QIN_tibet_stability = 20}
+		    add_to_variable = {QIN_tibet_ethnic_tension = 15}
+
+			subtract_from_variable = {
+				var = QIN_minority_province_stability_tick
+				value = 1
+			}
+			subtract_from_variable = {
+				var = QIN_minority_province_tension_tick
+				value = 0.5
+			}
+
+		    hidden_effect = {
+		        TNO_improve_admin_efficiency_med = yes
+		    }
+
+			QINCheckProposalSupport = yes
+			QINLifayuanClamp = yes
+
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 100
+		}
+	}
+	legislation_mil_reform = {
+		icon = GFX_decision_category_military_operation
+		available = {
+			check_variable = {
+	            var = QIN_lifayuan_proposal_support
+	            value = 75
+	            compare = greater_than
+            }
+			has_country_flag = lifayuan_legislation_mil_reform
+		}
+		fire_only_once = yes
+		visible = {	
+			ROOT = {
+				tag = QIN
+			}		
+			has_country_flag = lifayuan_legislation_mil_reform
+		}		
+		cost = 0
+		complete_effect = {
+			custom_effect_tooltip = "DECISION_EFFECT_MIL_REFORM"
+		    add_political_power = 100
+	     	set_temp_variable = { temp_econ_spending_amount = 0.005 }
+            econ_spend_money_once_effect_raw_money = yes 
+			TNO_improve_army_professionalism_med = yes
+			TNO_improve_conscription_policy_effectiveness_monthly_med = yes
+			TNO_improve_training_policy_effectiveness_med = yes
+			TNO_improve_racial_integration_policy_effectiveness_low = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 100
+		}
+	}
+}
+
+TMM_Xinan = {
+	Yunnan_unifies = {		
+		icon = GFX_decision_category_power_struggle	
+		available = {	
+			AND = {
+				tag = YUN
+				has_war = no
+				owns_state = 594
+			}
+		}	
+		fire_only_once = yes	
+		visible = {	
+			tag = YUN
+		}		
+		cost = 10
+		complete_effect = {		
+			594 = {
+				add_core_of = YUN
+			}
+			599 = {
+				add_core_of = YUN
+			}
+			1464 = {
+				add_core_of = YUN
+			}
+			603 = {
+				add_core_of = CHI
+			}
+			set_cosmetic_tag = XINAN
+			CHI = {
+				transfer_state = 603
+			}
+			JAP = { add_to_faction = YUN }
+			CHI = {
+				puppet = YUN
+			}
+			set_variable = { 603.china = 5 }
+			QIN_update_map = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 100			
+		}
+	}
+	Guangxi_unifies = {		
+		icon = GFX_decision_category_power_struggle	
+		available = {	
+			AND = {
+				tag = GUX
+				has_war = no
+				owns_state = 325
+			}
+		}	
+		fire_only_once = yes	
+		visible = {	
+			tag = GUX
+		}		
+		cost = 10
+		complete_effect = {		
+			325 = {
+				add_core_of = GUX
+			}
+			960 = {
+				add_core_of = GUX
+			}		
+			603 = {
+				add_core_of = CHI
+			}	
+			set_cosmetic_tag = XINAN
+			CHI = {
+				transfer_state = 603
+			}
+			JAP = { add_to_faction = GUX }
+			CHI = {
+				puppet = GUX
+			}
+			set_variable = { 603.china = 5 }
+			QIN_update_map = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 100			
+		}
+	}
+}
+
+
+QIN_BoG = {
+	BOG_Ability_COM = {		
+		icon = GFX_decision_category_tank	
+		available = {	
+			BOG_Ability_COM_Trigger = yes
+		}	
+		fire_only_once = no	
+		days_re_enable = 5
+		visible = {	
+			AND = {
+				tag = QIN
+				has_war = no
+				owns_state = 604
+			}
+		}		
+		cost = 10
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_COM"
+			add_to_variable = {
+				var = QIN_BOG_11_CCP
+				value = 50
+			}
+			add_to_variable = {
+				var = QIN_BOG_11_STRENGTH_ALLIED
+				value = 100
+			}
+			set_variable = { QIN_BOG_11_STRENGTH_NINGXIA = 0 }
+			add_popularity = {
+				ideology = communist
+                popularity = 0.015
+			}
+			QINWhydidIsubjectmyselftothisfuckery = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 100			
+		}
+	}
+	BOG_Ability_SOC = {		
+		icon = GFX_decision_category_generic_formable_nations	
+		available = {	
+			BOG_Ability_SOC_Trigger = yes
+		}	
+		fire_only_once = no	
+		days_re_enable = 5	
+		visible = {	
+			AND = {
+				tag = QIN
+				has_war = no
+				owns_state = 604
+			}
+		}		
+		cost = 10
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_SOC"
+			add_to_variable = {
+				var = QIN_BOG_15_STRENGTH_ALLIED
+				value = 25
+			}
+			add_to_variable = {
+				var = QIN_BOG_17_STRENGTH_ALLIED
+				value = 25
+			}
+			add_to_variable = {
+				var = QIN_BOG_24_STRENGTH_ALLIED
+				value = 25
+			}
+			add_to_variable = {
+				var = QIN_BOG_34_STRENGTH_ALLIED
+				value = 25
+			}
+			add_to_variable = {
+				var = QIN_BOG_35_STRENGTH_ALLIED
+				value = 25
+			}
+			add_to_variable = {
+				var = QIN_BOG_15_Tension
+				value = 10
+			}
+			add_to_variable = {
+				var = QIN_BOG_17_Tension
+				value = 10
+			}
+			add_to_variable = {
+				var = QIN_BOG_24_Tension
+				value = 10
+			}
+			add_to_variable = {
+				var = QIN_BOG_34_Tension
+				value = 10
+			}
+			add_to_variable = {
+				var = QIN_BOG_35_Tension
+				value = 10
+			}
+			add_popularity = {
+				ideology = socialist
+                popularity = 0.015
+			}
+			QINWhydidIsubjectmyselftothisfuckery = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 100			
+		}
+	}
+	BOG_Ability_CDL = {		
+		icon = GFX_decision_category_west_alaska_mercenary_contracts	
+		available = {	
+			BOG_Ability_CDL_Trigger = yes
+		}	
+		fire_only_once = no	
+		days_re_enable = 7
+		visible = {	
+			AND = {
+				tag = QIN
+				has_war = no
+				owns_state = 604
+			}
+		}		
+		cost = 10
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_CDL"
+			add_to_variable = {
+				var = QIN_BOG_09_STRENGTH_ALLIED
+				value = 200
+			}
+			TNO_improve_minorities_policy_effectiveness_monthly_low = yes
+			add_popularity = {
+				ideology = social_democracy
+                popularity = 0.015
+			}
+			QINWhydidIsubjectmyselftothisfuckery = yes
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 100			
+		}
+	}
+	BOG_Ability_NXC = {		
+		icon = GFX_decision_category_corruption_yen	
+		available = {	
+			BOG_Ability_NXC_Trigger = yes
+		}	
+		fire_only_once = no	
+		days_re_enable = 7	
+		visible = {	
+			AND = {
+				tag = QIN
+				has_war = no
+				owns_state = 604
+			}
+		}		
+		cost = 10
+		complete_effect = {	
+			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_NXC"	
+			subtract_from_variable = {
+				var = QIN_BOG_14_DEFENSIVE_ADVANTAGE
+				value = 5
+			}
+		add_equipment_to_stockpile = {
+            type = infantry_equipment_2
+            amount = 50
+			producer = QIN
+            }
+			add_popularity = {
+				ideology = conservative_democracy
+                popularity = 0.015
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 100			
+		}
+	}
+	BOG_Ability_ZXX = {		
+		icon = GFX_decision_category_generic_crisis	
+		available = {	
+			BOG_Ability_ZXX_Trigger = yes
+		}	
+		fire_only_once = no	
+		days_re_enable = 14		
+		visible = {	
+			AND = {
+				tag = QIN
+				has_war = no
+				owns_state = 604
+			}
+		}		
+		cost = 10
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_ZXX"
+			QINWhydidIsubjectmyselftothisfuckery = yes
+			add_to_variable = { QIN_BOG_01_KMT = 6 }
+			add_to_variable = { QIN_BOG_02_KMT = 6 }
+			add_to_variable = { QIN_BOG_03_KMT = 6 }
+			add_to_variable = { QIN_BOG_04_KMT = 6 }
+			add_to_variable = { QIN_BOG_05_KMT = 6 }
+			add_to_variable = { QIN_BOG_06_KMT = 6 }
+			add_to_variable = { QIN_BOG_07_KMT = 6 }
+			add_to_variable = { QIN_BOG_08_KMT = 6 }
+			add_to_variable = { QIN_BOG_09_KMT = 6 }
+			add_to_variable = { QIN_BOG_10_KMT = 6 }
+			add_to_variable = { QIN_BOG_11_KMT = 6 }
+			add_to_variable = { QIN_BOG_12_KMT = 6 }
+			add_to_variable = { QIN_BOG_13_KMT = 6 }
+			add_to_variable = { QIN_BOG_15_KMT = 6 }
+			add_to_variable = { QIN_BOG_16_KMT = 6 }
+			add_to_variable = { QIN_BOG_17_KMT = 6 }
+			add_to_variable = { QIN_BOG_18_KMT = 6 }
+			add_to_variable = { QIN_BOG_19_KMT = 6 }
+			add_to_variable = { QIN_BOG_20_KMT = 6 }
+			add_to_variable = { QIN_BOG_21_KMT = 6 }
+			add_to_variable = { QIN_BOG_22_KMT = 6 }
+			add_to_variable = { QIN_BOG_23_KMT = 6 }
+			add_to_variable = { QIN_BOG_24_KMT = 6 }
+			add_to_variable = { QIN_BOG_25_KMT = 6 }
+			add_to_variable = { QIN_BOG_26_KMT = 6 }
+			add_to_variable = { QIN_BOG_27_KMT = 6 }
+			add_to_variable = { QIN_BOG_28_KMT = 6 }
+			add_to_variable = { QIN_BOG_29_KMT = 6 }
+			add_to_variable = { QIN_BOG_30_KMT = 6 }
+			add_to_variable = { QIN_BOG_31_KMT = 6 }
+			add_to_variable = { QIN_BOG_32_KMT = 6 }
+			add_to_variable = { QIN_BOG_33_KMT = 6 }
+			add_to_variable = { QIN_BOG_34_KMT = 6 }
+			add_to_variable = { QIN_BOG_35_KMT = 6 }
+			add_to_variable = { QIN_BOG_36_KMT = 6 }
+			add_to_variable = { QIN_BOG_37_KMT = 6 }
+			add_to_variable = { QIN_BOG_38_KMT = 6 }
+			add_to_variable = { QIN_BOG_39_KMT = 6 }
+			add_to_variable = { QIN_BOG_01_CCP = 4 }
+			add_to_variable = { QIN_BOG_02_CCP = 4 }
+			add_to_variable = { QIN_BOG_03_CCP = 4 }
+			add_to_variable = { QIN_BOG_04_CCP = 4 }
+			add_to_variable = { QIN_BOG_05_CCP = 4 }
+			add_to_variable = { QIN_BOG_06_CCP = 4 }
+			add_to_variable = { QIN_BOG_07_CCP = 4 }
+			add_to_variable = { QIN_BOG_08_CCP = 4 }
+			add_to_variable = { QIN_BOG_09_CCP = 4 }
+			add_to_variable = { QIN_BOG_10_CCP = 4 }
+			add_to_variable = { QIN_BOG_11_CCP = 4 }
+			add_to_variable = { QIN_BOG_12_CCP = 4 }
+			add_to_variable = { QIN_BOG_13_CCP = 4 }
+			add_to_variable = { QIN_BOG_15_CCP = 4 }
+			add_to_variable = { QIN_BOG_16_CCP = 4 }
+			add_to_variable = { QIN_BOG_17_CCP = 4 }
+			add_to_variable = { QIN_BOG_18_CCP = 4 }
+			add_to_variable = { QIN_BOG_19_CCP = 4 }
+			add_to_variable = { QIN_BOG_20_CCP = 4 }
+			add_to_variable = { QIN_BOG_21_CCP = 4 }
+			add_to_variable = { QIN_BOG_22_CCP = 4 }
+			add_to_variable = { QIN_BOG_23_CCP = 4 }
+			add_to_variable = { QIN_BOG_24_CCP = 4 }
+			add_to_variable = { QIN_BOG_25_CCP = 4 }
+			add_to_variable = { QIN_BOG_26_CCP = 4 }
+			add_to_variable = { QIN_BOG_27_CCP = 4 }
+			add_to_variable = { QIN_BOG_28_CCP = 4 }
+			add_to_variable = { QIN_BOG_29_CCP = 4 }
+			add_to_variable = { QIN_BOG_30_CCP = 4 }
+			add_to_variable = { QIN_BOG_31_CCP = 4 }
+			add_to_variable = { QIN_BOG_32_CCP = 4 }
+			add_to_variable = { QIN_BOG_33_CCP = 4 }
+			add_to_variable = { QIN_BOG_34_CCP = 4 }
+			add_to_variable = { QIN_BOG_35_CCP = 4 }
+			add_to_variable = { QIN_BOG_36_CCP = 4 }
+			add_to_variable = { QIN_BOG_37_CCP = 4 }
+			add_to_variable = { QIN_BOG_38_CCP = 4 }
+			add_to_variable = { QIN_BOG_39_CCP = 4 }
+			QINWhydidIsubjectmyselftothisfuckery = yes
+			add_popularity = {
+				ideology = liberal_democracy
+                popularity = 0.05
+			}
+			add_popularity = {
+				ideology = authoritarian_democracy
+                popularity = 0.015
+			}
+			add_popularity = {
+				ideology = social_democracy
+                popularity = 0.015
+			}
+			add_popularity = {
+				ideology = conservative_democracy
+                popularity = 0.015
+			}
+			add_popularity = {
+				ideology = communist
+                popularity = 0.015
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 100			
+		}
+	}
+	BOG_Ability_CHI = {		
+		icon = GFX_decision_category_tank	
+		available = {	
+			BOG_Ability_CHI_Trigger = yes
+		}	
+		fire_only_once = yes	
+		visible = {	
+			AND = {
+				tag = QIN
+				has_war = no
+				owns_state = 604
+			}
+		}		
+		cost = 10
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_CHI"
+			divide_variable = { QIN_BOG_01_STRENGTH_NINGXIA = 2 }
+			divide_variable = { QIN_BOG_15_STRENGTH_NINGXIA = 2 }
+			divide_variable = { QIN_BOG_16_STRENGTH_NINGXIA = 2 }
+			divide_variable = { QIN_BOG_24_STRENGTH_NINGXIA = 2 }
+			divide_variable = { QIN_BOG_25_STRENGTH_NINGXIA = 2 }
+			round_variable = QIN_BOG_01_STRENGTH_NINGXIA
+			round_variable = QIN_BOG_15_STRENGTH_NINGXIA
+			round_variable = QIN_BOG_16_STRENGTH_NINGXIA
+			round_variable = QIN_BOG_24_STRENGTH_NINGXIA
+			round_variable = QIN_BOG_25_STRENGTH_NINGXIA
+			set_variable = { QIN_BOG_01_KMT = 50 }
+			set_variable = { QIN_BOG_15_KMT = 50 }
+			set_variable = { QIN_BOG_16_KMT = 50 }
+			set_variable = { QIN_BOG_24_KMT = 50 }
+			set_variable = { QIN_BOG_25_KMT = 50 }		
+			add_to_variable = {
+				var = QIN_BOG_25_STRENGTH_ALLIED
+				value = 500
+			}
+			QINWhydidIsubjectmyselftothisfuckery = yes
+			add_popularity = {
+				ideology = authoritarian_democracy
+                popularity = 0.05
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 100			
+		}
+	}
+}
+
+QIN_CCPStruggle = {
+	organise_publicity = {		
+		icon = GFX_decision_category_generic_formable_nations	
+		available = {	
+			AND = {
+				tag = QIN
+				PC_10 = yes
+			}
+		}	
+		fire_only_once = no	
+		days_re_enable = 7
+		visible = {	
+			tag = QIN
+		}		
+		cost = 5
+		complete_effect = {		
+			subtract_from_variable = { CCP_PC = 10 }
+			add_to_variable = { CCP_People_Support = 5 }
+			custom_effect_tooltip = organise_publicity_tt
+		}
+		ai_will_do = {
+			factor = 100			
+		}
+	}
+	work_with_duf = {		
+		icon = GFX_decision_category_generic_foreign_policy	
+		available = {	
+			AND = {
+				tag = QIN
+				PC_10 = yes
+			}
+		}	
+		fire_only_once = no	
+		days_re_enable = 7
+		visible = {	
+			tag = QIN
+		}		
+		cost = 5
+		complete_effect = {		
+			subtract_from_variable = { CCP_PC = 10 }
+			add_to_variable = { CCP_Outsider_Support = 5 }
+			custom_effect_tooltip = work_with_duf_tt
+		}
+		ai_will_do = {
+			factor = 100			
+		}
+	}
+	party_education_sessions = {		
+		icon = GFX_decision_category_generic_education	
+		available = {	
+			AND = {
+				tag = QIN
+				PC_10 = yes
+			}
+		}	
+		fire_only_once = no	
+		days_re_enable = 7
+		visible = {	
+			tag = QIN
+		}		
+		cost = 5
+		complete_effect = {		
+			subtract_from_variable = { CCP_PC = 10 }
+			add_to_variable = { CCP_Party_Support = 5 }
+			custom_effect_tooltip = party_education_sessions_tt
+		}
+		ai_will_do = {
+			factor = 100			
+		}
+	}
+	distribute_supplies = {		
+		icon = GFX_decision_category_supply	
+		available = {	
+			AND = {
+				tag = QIN
+				PC_20 = yes
+			}
+		}	
+		fire_only_once = no	
+		days_re_enable = 14
+		visible = {	
+			tag = QIN
+		}		
+		cost = 5
+		complete_effect = {		
+			set_temp_variable = { temp_econ_spending_amount = 0.02 }
+			econ_spend_money_once_effect_raw_money = yes
+			add_to_variable = { CCP_People_Support = 10 }
+			custom_effect_tooltip = distribute_supplies_tt
+			subtract_from_variable = { CCP_PC = 20 }
+		}
+		ai_will_do = {
+			factor = 100			
+		}
+	}
+	pledge_support_for_independents = {		
+		icon = GFX_decision_category_generic_democracy	
+		available = {	
+			AND = {
+				tag = QIN
+				PC_20 = yes
+			}
+		}	
+		fire_only_once = no	
+		days_re_enable = 14
+		visible = {	
+			tag = QIN
+		}		
+		cost = 5
+		complete_effect = {		
+			custom_effect_tooltip = pledge_support_for_independents_tt
+			subtract_from_variable = { CCP_PC = 20 }
+		}
+		ai_will_do = {
+			factor = 100			
+		}
+	}
+	holidays_in_yushu = {		
+		icon = GFX_decision_category_humanitarian_aid	
+		available = {	
+			AND = {
+				tag = QIN
+				PC_20 = yes
+			}
+		}	
+		fire_only_once = no	
+		days_re_enable = 14
+		visible = {	
+			tag = QIN
+		}		
+		cost = 5
+		complete_effect = {		
+			custom_effect_tooltip = holidays_in_yushu_tt
+			subtract_from_variable = { CCP_PC = 20 }
+			add_to_variable = { CCP_Party_Support = 10 }
+			subtract_from_variable = { CCP_People_Support = 2 }
+		}
+		ai_will_do = {
+			factor = 100			
+		}
+	}
+	promote_upper_party_democratic_association = {		
+		icon = GFX_decision_category_generic_voting	
+		available = {	
+			AND = {
+				tag = QIN
+				PC_20 = yes
+			}
+		}	
+		fire_only_once = no	
+		days_re_enable = 14
+		visible = {	
+			tag = QIN
+		}		
+		cost = 5
+		complete_effect = {		
+			subtract_from_variable = { CCP_PC = 20 }
+				random_list = {
+					60 = {
+						custom_effect_tooltip = CCP_promote_upper_party_democratic_association_1_tt
+						add_to_variable = { CCP_Party_Support = 15 }
+					}
+					40 = {
+						custom_effect_tooltip = CCP_promote_upper_party_democratic_association_2_tt
+						subtract_from_variable = { CCP_Party_Support = 15 }
+					}
+				}
+		    }
+		ai_will_do = {
+			factor = 100			
+		}
+	}
+}
+
+QIN_KMTStruggle = {
+}
+
+TMM_Xikang = {
+	Return_Tibet = {		
+		icon = GFX_decision_category_generic	
+		available = {	
+			AND = {
+				tag = XIK
+				has_war = no
+				765 = {
+				    is_controlled_by = XIK
+				}
+				601 = {
+				    is_controlled_by = XIK
+				}
+				322 = {
+				    is_controlled_by = XIK
+				}
+			}
+		}	
+		fire_only_once = no	
+		days_re_enable = 7
+		visible = {	
+			AND = {
+				tag = XIK
+			}
+		}		
+		cost = 10
+		complete_effect = {	
+			QIN = {
+			    set_state_controller = 322
+			}
+			QIN = {
+			    set_state_controller = 601
+			}
+			QIN = {
+			    set_state_controller = 765
+			}
+		}
+		ai_will_do = {
+			factor = 100			
+		}
+	}
+	Update_Central_Mongolia = {		
+		icon = GFX_decision_category_generic	
+		available = {	
+			MEN = {
+				owns_state = 330
+			}
+		}	
+		fire_only_once = no	
+		days_re_enable = 7
+		visible = {	
+			AND = {
+				tag = XIK
+			}
+		}		
+		cost = 1`
+		complete_effect = {	
+	        set_variable = { 330.china = 4 }
+			QIN_update_map = yes
+		}
+		ai_will_do = {
+			factor = 100			
+		}
+	}
+	Update_Western_Mongolia = {		
+		icon = GFX_decision_category_generic	
+		available = {	
+			MEN = {
+				owns_state = 814
+			}
+		}	
+		fire_only_once = no	
+		days_re_enable = 7
+		visible = {	
+			AND = {
+				tag = XIK
+			}
+		}		
+		cost = 1`
+		complete_effect = {	
+	        set_variable = { 814.china = 4 }
+			QIN_update_map = yes
+		}
+		ai_will_do = {
+			factor = 100			
+		}
+	}
+}
+
+
+############################################################################
+#### ON MAP DECISIONS ALLOW YOU TO SHOW DECISION ICONS ON THE WORLD MAP ####
+############################################################################

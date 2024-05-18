@@ -1,0 +1,112 @@
+spriteTypes = {
+
+###tmm ideas###
+	spriteType = {
+		name = "GFX_idea_QIN_training_day_and_night"
+		texturefile = "gfx/interface/ideas/national_spirits/QIN/XSM_training_day_and_night.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_QIN_in_the_mountains"
+		texturefile = "gfx/interface/ideas/national_spirits/QIN/XSM_in_the_mountains.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_QIN_muslim_superiority"
+		texturefile = "gfx/interface/ideas/national_spirits/QIN/XSM_muslim_superiority.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_QIN_the_little_farmland_we_have"
+		texturefile = "gfx/interface/ideas/national_spirits/QIN/XSM_the_little_farmland_we_have.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_QIN_quiet_on_the_plateau"
+		texturefile = "gfx/interface/ideas/national_spirits/QIN/XSM_quiet_on_the_plateau.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_QIN_outdated_research"
+		texturefile = "gfx/interface/ideas/national_spirits/QIN/XSM_outdated_research.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_QIN_modernisation"
+		texturefile = "gfx/interface/ideas/national_spirits/QIN/XSM_modernisation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GUZ_legacy_of_dianbi"
+		texturefile = "gfx/interface/ideas/national_spirits/GUZ/GUZ_legacy_of_dianbi.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GUZ_legacy_of_the_third_diangui_war"
+		texturefile = "gfx/interface/ideas/national_spirits/GUZ/GUZ_legacy_of_the_third_diangui_war.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GUZ_made_in_xinan"
+		texturefile = "gfx/interface/ideas/national_spirits/GUZ/GUZ_made_in_xinan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GUZ_mountains_of_madness"
+		texturefile = "gfx/interface/ideas/national_spirits/GUZ/GUZ_mountains_of_madness.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GUZ_what_china"
+		texturefile = "gfx/interface/ideas/national_spirits/GUZ/GUZ_what_china.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GUZ_a_new_industry"
+		texturefile = "gfx/interface/ideas/national_spirits/GUZ/GUZ_a_new_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_XIK_24th_army_nra"
+		texturefile = "gfx/interface/ideas/national_spirits/XIK/XIK_24th_army_nra.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_XIK_costs_of_peace"
+		texturefile = "gfx/interface/ideas/national_spirits/XIK/XIK_costs_of_peace.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_XIK_new_xikang"
+		texturefile = "gfx/interface/ideas/national_spirits/XIK/XIK_new_xikang.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_XIK_panchen_lama_in_exile"
+		texturefile = "gfx/interface/ideas/national_spirits/XIK/XIK_panchen_lama_in_exile.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_XIK_restless_elite"
+		texturefile = "gfx/interface/ideas/national_spirits/XIK/XIK_restless_elite.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_XIK_tongqu_of_two_worlds"
+		texturefile = "gfx/interface/ideas/national_spirits/XIK/XIK_tongqu_of_two_worlds.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIC_fortress_world_sichuan"
+		texturefile = "gfx/interface/ideas/national_spirits/SIC/SIC_fortress_world_sichuan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIC_new_oligarch_caste"
+		texturefile = "gfx/interface/ideas/national_spirits/SIC/SIC_new_oligarch_caste.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIC_sichuan_social_movement_2"
+		texturefile = "gfx/interface/ideas/national_spirits/SIC/SIC_sichuan_social_movement_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIC_sichuanese_serfdom"
+		texturefile = "gfx/interface/ideas/national_spirits/SIC/SIC_sichuanese_serfdom.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIC_special_status_sichuan"
+		texturefile = "gfx/interface/ideas/national_spirits/SIC/SIC_special_status_sichuan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SIC_thirty_years_of_nightmares"
+		texturefile = "gfx/interface/ideas/national_spirits/SIC/SIC_thirty_years_of_nightmares.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GAN_the_seihoku"
+		texturefile = "gfx/interface/ideas/national_spirits/GAN/GAN_the_seihoku.dds"
+	}
+}

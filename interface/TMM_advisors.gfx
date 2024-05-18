@@ -1,0 +1,125 @@
+spriteTypes = {
+
+###MINISTERS###
+	spriteType = {
+		name = "GFX_QIN_Chiang_Ching_kuo"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Chiang_Ching_kuo.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Ji_Chaoding"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Ji_Chaoding.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Shen_Zhiyue"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Shen_Zhiyue.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Wang_Shijie"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Wang_Shijie.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Dao_Shengyang"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Dao_Shengyang.dds"
+	}
+	spriteType = {
+		name = "GFX_GUZ_Li_Pinxian"
+		textureFile = "gfx/interface/ideas/GUZ/ministers/GUZ_Li_Pinxian.dds"
+	}
+	spriteType = {
+		name = "GFX_GUZ_Miao_Yuntai"
+		textureFile = "gfx/interface/ideas/GUZ/ministers/GUZ_Miao_Yuntai.dds"
+	}
+	spriteType = {
+		name = "GFX_GUZ_Yang_Ruxuan"
+		textureFile = "gfx/interface/ideas/GUZ/ministers/GUZ_Yang_Ruxuan.dds"
+	}
+	spriteType = {
+		name = "GFX_GUZ_Lu_Han"
+		textureFile = "gfx/interface/ideas/GUZ/ministers/GUZ_Lu_Han.dds"
+	}	
+	spriteType = {
+		name = "GFX_XIK_Zhang_Zhihe"
+		textureFile = "gfx/interface/ideas/ministers/XIK/XIK_Zhang_Zhihe.dds"
+	}
+	spriteType = {
+		name = "GFX_XIK_Li_Xianchun"
+		textureFile = "gfx/interface/ideas/ministers/XIK/XIK_Li_Xianchun.dds"
+	}
+	spriteType = {
+		name = "GFX_XIK_Zhang_Weijiong"
+		textureFile = "gfx/interface/ideas/ministers/XIK/XIK_Zhang_Weijiong.dds"
+	}
+	spriteType = {
+		name = "GFX_XIK_Xue_Yue"
+		textureFile = "gfx/interface/ideas/ministers/XIK/XIK_Xue_Yue.dds"
+	}	
+	spriteType = {
+		name = "GFX_SIC_Deng_Xihou"
+		textureFile = "gfx/interface/ideas/SIC/ministers/SIC_Deng_Xihou.dds"
+	}
+	spriteType = {
+		name = "GFX_SIC_Xiong_Kewu"
+		textureFile = "gfx/interface/ideas/SIC/ministers/SIC_Xiong_Kewu.dds"
+	}
+	spriteType = {
+		name = "GFX_SIC_Liu_Hangchen"
+		textureFile = "gfx/interface/ideas/SIC/ministers/SIC_Liu_Hangchen.dds"
+	}
+	spriteType = {
+		name = "GFX_SIC_Pan_Wenhua"
+		textureFile = "gfx/interface/ideas/SIC/ministers/SIC_Pan_Wenhua.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Xiong_Shihui"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Xiong_Shihui.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Hang_Liwu"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Hang_Liwu.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Zhang_Jiaao"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Zhang_Jiaao.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Wu_Guozhen"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Wu_Guozhen.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Xiao_Zheng"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Xiao_Zheng.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Xu_Baiyuan"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Xu_Baiyuan.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Gu_Yiqun"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Gu_Yiqun.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Sun_Yunsuan"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Sun_Yunsuan.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Zhang_Qun"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Zhang_Qun.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Sheng_Changhuan"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Sheng_Changhuan.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Wang_Sheng"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Wang_Sheng.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Chiang_Weikuo"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Chiang_Weikuo.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Gao_Gang_hog"
+		textureFile = "gfx/interface/ideas/ministers/QIN/QIN_Gao_Gang.dds"
+	}
+}
+}

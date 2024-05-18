@@ -1,0 +1,18 @@
+focus_tree = {
+	id = xibei_tree
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 100
+			tag = QIN
+		}
+	}
+	default = no
+	shared_focus = Thirty_One_Years_of_Defiance
+	shared_focus = The_Year_of_Rabbit
+	shared_focus = The_Year_of_Dragon
+	shared_focus = The_Year_of_Snake
+	shared_focus = time_is_running_out
+	shared_focus = The_Year_of_Horse
+}

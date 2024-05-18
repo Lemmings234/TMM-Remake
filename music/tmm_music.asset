@@ -1,0 +1,81 @@
+music = {
+	name = "along_the_songhua_river"
+	file = "along_the_songhua_river.ogg"
+}
+music = {
+	name = "anthem_of_the_anti_japanese_military_and_political_university"
+	file = "anthem_of_the_anti_japanese_military_and_political_university.ogg"
+}
+music = {
+	name = "congratulations_congratulations"
+	file = "congratulations_congratulations.ogg"
+}
+music = {
+	name = "defend_motherland"
+	file = "defend_motherland.ogg"
+}
+music = {
+	name = "defend_the_yellow_river"
+	file = "defend_the_yellow_river.ogg"
+}
+music = {
+	name = "educated_youth_join_the_army"
+	file = "educated_youth_join_the_army.ogg"
+}
+music = {
+	name = "graduate_to_the_front"
+	file = "graduate_to_the_front.ogg"
+}
+music = {
+	name = "grieving_to_the_yellow_river"
+	file = "grieving_to_the_yellow_river.ogg"
+}
+music = {
+	name = "i_have_a_gun"
+	file = "i_have_a_gun.ogg"
+}
+music = {
+	name = "march_of_dadao"
+	file = "march_of_dadao.ogg"
+}
+music = {
+	name = "march_of_eighth_route_army"
+	file = "march_of_the_eighth_route_army.ogg"
+}
+music = {
+	name = "march_of_northwestern_youth"
+	file = "march_of_northwestern_youth.ogg"
+}
+music = {
+	name = "march_of_the_volunteers"
+	file = "march_of_the_volunteers.ogg"
+}
+music = {
+	name = "melody_of_yellow_river"
+	file = "melody_of_yellow_river.ogg"
+}
+music = {
+	name = "red_river"
+	file = "red_river.ogg"
+}
+music = {
+	name = "sacrifice_is_at_the_last_hour"
+	file = "sacrifice_is_at_the_last_hour.ogg"
+}
+music = {
+	name = "song_of_the_eight_hundred_heroes"
+	file = "song_of_the_eight_hundred_heroes.ogg"
+}
+music = {
+	name = "song_of_the_partisans"
+	file = "song_of_the_partisans.ogg"
+}
+music = {
+	name = "song_of_the_seventy_forth_army"
+	file = "song_of_the_seventy_forth_army.ogg"
+}
+music = {
+	name = "upon_the_taihang_mountains"
+	file = "upon_the_taihang_mountains.ogg"
+}
+
