@@ -164,7 +164,7 @@ recruit_character = QIN_guo_jiqiao
 recruit_character = QIN_mu_shengzhong
 recruit_character = QIN_zhu_jiahua
 recruit_character = QIN_chiang_chingkuo_despot
-recruit_character = QIN_chiang_chingkuo_authdem
+recruit_character = QIN_chiang_chingkuo_paternalist
 recruit_character = QIN_sun_fo
 recruit_character = QIN_wang_shijie_leader
 recruit_character = QIN_chen_lifu
@@ -291,7 +291,353 @@ add_dynamic_modifier = {
 	modifier = QIN_modernisation_dynamic_modifier
 }	
 give_guarantee = XIK
+set_variable = { QIN_modernisation_monthly = 0 }
+set_variable = { QIN_modernisation_offensive = 0 }
+set_variable = { QIN_modernisation_stability = 0 }
+set_variable = { QIN_modernisation_war = 0 }
+set_variable = { QIN_pu_modifier = 0 }
 
+set_variable = { QIN_kmt_influence = 60 }
+set_variable = { QIN_ccp_influence = 40 }
+set_variable = { QIN_pdp_influence = 15 }
+
+set_variable = { 
+    QIN_kuomintang_popularity = 0 
+}
+add_to_variable = {
+    var = QIN_kuomintang_popularity
+    value = party_popularity@paternalism
+}
+add_to_variable = {
+    var = QIN_kuomintang_popularity
+    value = party_popularity@conservatism
+}
+add_to_variable = {
+    var = QIN_kuomintang_popularity
+    value = party_popularity@liberalism
+}
+add_to_variable = {
+    var = QIN_kuomintang_popularity
+    value = party_popularity@despotism
+}
+multiply_variable = {
+    var = QIN_kuomintang_popularity
+    value = 100
+}
+set_variable = { 
+    QIN_ccp_popularity = 0 
+}
+add_to_variable = {
+    var = QIN_ccp_popularity
+    value = party_popularity@socialist
+}
+add_to_variable = {
+    var = QIN_ccp_popularity
+    value = party_popularity@communist
+}
+multiply_variable = {
+    var = QIN_ccp_popularity
+    value = 100
+}
+set_variable = { 
+    QIN_pdp_popularity = 0 
+}
+add_to_variable = {
+    var = QIN_pdp_popularity
+    value = party_popularity@social_democracy
+}
+multiply_variable = {
+    var = QIN_pdp_popularity
+    value = 100
+}
+
+set_variable = { QIN_despot_influence = 0 }
+add_to_variable = {
+    var = QIN_despot_influence
+    value = party_popularity@despotism
+}
+multiply_variable = {
+    var = QIN_despot_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_despot_influence
+    value = QIN_kuomintang_popularity
+}
+multiply_variable = {
+    var = QIN_despot_influence
+    value = 100
+}
+set_variable = { QIN_paternalist_influence = 0 }
+add_to_variable = {
+    var = QIN_paternalist_influence
+    value = party_popularity@paternalism
+}
+multiply_variable = {
+    var = QIN_paternalist_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_paternalist_influence
+    value = QIN_kuomintang_popularity
+}
+multiply_variable = {
+    var = QIN_paternalist_influence
+    value = 100
+}
+set_variable = { QIN_liberal_influence = 0 }
+add_to_variable = {
+    var = QIN_liberal_influence
+    value = party_popularity@liberalism
+}
+multiply_variable = {
+    var = QIN_liberal_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_liberal_influence
+    value = QIN_kuomintang_popularity
+}
+multiply_variable = {
+    var = QIN_liberal_influence
+    value = 100
+}
+set_variable = { QIN_conservative_influence = 0 }
+add_to_variable = {
+    var = QIN_conservative_influence
+    value = party_popularity@conservatism
+}
+multiply_variable = {
+    var = QIN_conservative_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_conservative_influence
+    value = QIN_kuomintang_popularity
+}
+multiply_variable = {
+    var = QIN_conservative_influence
+    value = 100
+}
+set_variable = { QIN_communist_influence = 0 }
+add_to_variable = {
+    var = QIN_communist_influence
+    value = party_popularity@communist
+}
+multiply_variable = {
+    var = QIN_communist_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_communist_influence
+    value = QIN_ccp_popularity
+}
+multiply_variable = {
+    var = QIN_communist_influence
+    value = 100
+}
+set_variable = { QIN_socialist_influence = 0 }
+add_to_variable = {
+    var = QIN_socialist_influence
+    value = party_popularity@socialist
+}
+multiply_variable = {
+    var = QIN_socialist_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_socialist_influence
+    value = QIN_ccp_popularity
+}
+multiply_variable = {
+    var = QIN_socialist_influence
+    value = 100
+}
+set_country_flag = president_ni_wenya
+set_country_flag = whip_ma_shuli
+
+set_variable = { kmt_hardliner_lifayuan_seat = 12 }
+set_variable = { kmt_oldguard_lifayuan_seat = 40 }
+set_variable = { kmt_xishan_lifayuan_seat = 12 }
+set_variable = { kmt_zhengxuepai_lifayuan_seat = 8 }
+set_variable = { pdp_lifayuan_seat = 4 }
+set_variable = { ccp_orthodox_lifayuan_seat = 8 }
+set_variable = { ccp_chinese_lifayuan_seat = 26 }
+
+set_variable = { kmt_lifayuan_seat = 0 }
+add_to_variable = {
+    var = kmt_lifayuan_seat
+    value = kmt_hardliner_lifayuan_seat
+}
+add_to_variable = {
+    var = kmt_lifayuan_seat
+    value = kmt_oldguard_lifayuan_seat
+}
+add_to_variable = {
+    var = kmt_lifayuan_seat
+    value = kmt_xishan_lifayuan_seat
+}
+add_to_variable = {
+    var = kmt_lifayuan_seat
+    value = kmt_zhengxuepai_lifayuan_seat
+}
+set_variable = { ccp_lifayuan_seat = 0 }
+add_to_variable = {
+    var = ccp_lifayuan_seat
+    value = ccp_orthodox_lifayuan_seat
+}
+add_to_variable = {
+    var = ccp_lifayuan_seat
+    value = ccp_chinese_lifayuan_seat
+}
+set_variable = { kmt_hardliner_lifayuan_support = 70 }
+set_variable = { kmt_oldguard_lifayuan_support = 80 }
+set_variable = { kmt_xishan_lifayuan_support = 70 }
+set_variable = { kmt_zhengxuepai_lifayuan_support = 60 }
+set_variable = { pdp_lifayuan_support = 55 }
+set_variable = { ccp_orthodox_lifayuan_support = 60 }
+set_variable = { ccp_chinese_lifayuan_support = 55 }
+
+set_variable = { kmt_assembly_seat = 150 }
+set_variable = { ccp_assembly_seat = 150 }
+set_variable = { pdp_assembly_seat = 110 }
+
+set_variable = {QIN_KMT_unity = 50 }
+set_variable = {QIN_CCP_unity = 65 }
+set_variable = {QIN_Interparty_unity = 80 }
+
+set_variable = { QIN_lifayuan_proposal_support_temp = 0 }
+###FIND OUT WEIGHTED SUPPORT FOR FACTION###
+set_variable = { hardliner_temp = kmt_hardliner_lifayuan_support }
+divide_variable = {
+    var = hardliner_temp
+    value = 100
+}
+multiply_variable = {
+    var = hardliner_temp
+    value = kmt_hardliner_lifayuan_seat
+}
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = hardliner_temp
+}
+
+set_variable = { oldguard_temp = kmt_oldguard_lifayuan_support }
+
+divide_variable = {
+    var = oldguard_temp
+    value = 100
+}
+multiply_variable = {
+    var = oldguard_temp
+    value = kmt_oldguard_lifayuan_seat
+}
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = oldguard_temp
+}
+
+set_variable = { xishan_temp = kmt_xishan_lifayuan_support }
+
+divide_variable = {
+    var = xishan_temp
+    value = 100
+}
+multiply_variable = {
+    var = xishan_temp
+    value = kmt_xishan_lifayuan_seat
+}
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = xishan_temp
+}
+
+set_variable = { zhengxuepai_temp = kmt_zhengxuepai_lifayuan_support }
+
+divide_variable = {
+    var = zhengxuepai_temp
+    value = 100
+}
+multiply_variable = {
+    var = zhengxuepai_temp
+    value = kmt_zhengxuepai_lifayuan_seat
+}
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = zhengxuepai_temp
+}
+
+set_variable = { pdp_temp = pdp_lifayuan_support }
+
+divide_variable = {
+    var = pdp_temp
+    value = 100
+}
+multiply_variable = {
+    var = pdp_temp
+    value = pdp_lifayuan_seat
+}
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = pdp_temp
+}
+
+set_variable = { QIN_Interparty_unity_temp = QIN_Interparty_unity }
+divide_variable = {
+    var = QIN_Interparty_unity_temp
+    value = 100
+}
+
+set_variable = { ccp_orthodox_temp = ccp_orthodox_lifayuan_support }
+
+divide_variable = {
+    var = ccp_orthodox_temp
+    value = 100
+}
+multiply_variable = {
+    var = ccp_orthodox_temp
+    value = ccp_orthodox_lifayuan_seat
+}
+
+
+multiply_variable = {
+    var = ccp_orthodox_temp
+    value = QIN_Interparty_unity_temp
+}
+
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = ccp_orthodox_temp
+}
+
+set_variable = { ccp_chinese_temp = ccp_chinese_lifayuan_support }
+
+divide_variable = {
+    var = ccp_chinese_temp
+    value = 100
+}
+multiply_variable = {
+    var = ccp_chinese_temp
+    value = ccp_chinese_lifayuan_seat
+}
+
+multiply_variable = {
+    var = ccp_chinese_temp
+    value = QIN_Interparty_unity_temp
+}
+
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = ccp_chinese_temp
+}
+
+set_variable = { QIN_lifayuan_proposal_support = QIN_lifayuan_proposal_support_temp }
+
+
+set_variable = {QIN_CCP_PDP_influence = 4 }
+set_variable = {QIN_KMT_PDP_influence = 2 }
+
+set_variable = {QIN_dalai_negotiation = 55 }
 # ECONOMIC LAWS
 set_variable = { tno_trade_laws_effectiveness = 50 }
 set_variable = { tno_income_taxation_effectiveness = 50 }

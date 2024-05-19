@@ -644,7 +644,7 @@ shared_focus = {
 	    add_political_power = 15
 		swap_ideas = {
 	      add_idea = tno_education_public_education
-	      remove_idea = tno_education_elite_only
+	      remove_idea = tno_education_stratified_education
           }	
 		add_popularity = {
 	        ideology = socialist
