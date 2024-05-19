@@ -5,6 +5,10 @@ oob = "QIN_1962"
 set_war_support = 0.80
 set_stability = 1.00
 add_manpower = 400000
+###Playable
+set_country_flag = tno_playable_country
+
+set_country_flag = tmm_cost_1
 
 set_variable = { chi_influence = 0 }
 
@@ -260,7 +264,33 @@ add_ideas = {
 	
 }
 
-set_country_flag = tno_defined_startup_effectiveness
+diplomatic_relation = { country = XIK relation = non_aggression_pact }
+add_opinion_modifier = { target = JAP modifier = QIN_imperialist }
+add_opinion_modifier = { target = MAN modifier = QIN_illegitimate_state }
+add_opinion_modifier = { target = MEN modifier = QIN_illegitimate_state }
+add_opinion_modifier = { target = GNG modifier = QIN_illegitimate_state }
+add_opinion_modifier = { target = GAN modifier = QIN_illegitimate_state }
+add_opinion_modifier = { target = CHI modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = SHX modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = YUN modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = GUX modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = SIC modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = GUZ modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = TIB modifier = QIN_tibet_invasion }
+add_opinion_modifier = { target = THA modifier = QIN_collaborator }
+add_opinion_modifier = { target = BUR modifier = QIN_collaborator }
+add_opinion_modifier = { target = AZH modifier = QIN_collaborator }
+
+
+country_event = { id = tmm.maclique.7 days = 45 }
+country_event = { id = tmm.maclique.8 days = 47 }
+country_event = { id = tmm.maclique.9 days = 140 }
+country_event = { id = tmm.maclique.103 days = 533 }
+
+add_dynamic_modifier = {
+	modifier = QIN_modernisation_dynamic_modifier
+}	
+give_guarantee = XIK
 
 # ECONOMIC LAWS
 set_variable = { tno_trade_laws_effectiveness = 50 }

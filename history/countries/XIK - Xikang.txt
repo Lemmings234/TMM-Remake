@@ -6,6 +6,8 @@ add_manpower = 300000
 
 oob = "XIK_1962"
 
+set_country_flag = tmm_cost_1
+
 recruit_character = XIK_liu_wenhui_tmm
 recruit_character = XIK_liu_wenhui2
 recruit_character = XIK_zhang_zhihe
@@ -129,7 +131,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = paternalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -202,6 +204,17 @@ add_ideas = {
 	tno_academic_base_mass_illiteracy
 	tno_admin_efficiency_deficient_administrative_systems
 
+	XIK_Zhang_Zhihe_hog
+	XIK_Li_Xianchun_eco
+	XIK_Xue_Yue_for
+	XIK_Zhang_Weijiong_sec
+
+	XIK_tongqu_of_two_worlds
+	XIK_new_xikang
+	XIK_24th_army_nra
+	XIK_panchen_lama_in_exile
+	XIK_restless_elite
+	XIK_costs_of_peace
 	CHI_chinese_warlords
 }
 
@@ -260,3 +273,18 @@ add_equipment_to_stockpile = {
 	producer = XIK
 }
 
+add_opinion_modifier = { target = JAP modifier = QIN_imperialist }
+add_opinion_modifier = { target = MAN modifier = QIN_illegitimate_state }
+add_opinion_modifier = { target = MEN modifier = QIN_illegitimate_state }
+add_opinion_modifier = { target = GNG modifier = QIN_illegitimate_state }
+add_opinion_modifier = { target = GAN modifier = QIN_illegitimate_state }
+add_opinion_modifier = { target = CHI modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = SHX modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = YUN modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = GUX modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = SIC modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = GUZ modifier = QIN_traitor_regime }
+add_opinion_modifier = { target = TIB modifier = QIN_tibet_invasion }
+add_opinion_modifier = { target = THA modifier = QIN_collaborator }
+add_opinion_modifier = { target = BUR modifier = QIN_collaborator }
+add_opinion_modifier = { target = AZH modifier = QIN_collaborator }
