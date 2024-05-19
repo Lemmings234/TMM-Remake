@@ -13,7 +13,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_MA_JIYUAN_DESC"
-			ideology = authoritarian_democracy_united_front_subtype
+			ideology = paternalism_united_front_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -51,7 +51,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_NATIONAL_ASSEMBLY_DESC"
-			ideology = authoritarian_democracy_united_front_subtype
+			ideology = paternalism_united_front_subtype
 			traits = { national_assembly }
 			expire = "1999.1.1.1"
 			id = -1
@@ -64,7 +64,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ZHU_JIAHUA_DESC"
-			ideology = conservative_democracy_neoconfucian_liberalism_subtype
+			ideology = conservatism_neoconfucian_liberalism_subtype
 			traits = { 
 				political_compromise 
 				cardiovascular_disease 
@@ -110,7 +110,7 @@ characters = {
 		}
 		country_leader = {
 			desc = ""
-			ideology = authoritarian_democracy_party_state_capitalism_subtype
+			ideology = paternalism_party_state_capitalism_subtype
 			traits = { 
 				son_of_generalissimo
 			}
@@ -127,7 +127,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ZHANG_SHENFU_DESC"
-			ideology = social_democracy_left_sanmin_subtype
+			ideology = progressivism_left_sanmin_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -140,7 +140,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LEI_ZHEN_DESC"
-			ideology = liberal_democracy_populist_liberalism_subtype
+			ideology = liberalism_populist_liberalism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -166,7 +166,7 @@ characters = {
 		}
 		country_leader = {
 			desc = ""
-			ideology = conservative_democracy_neoconfucian_liberalism_subtype
+			ideology = conservatism_neoconfucian_liberalism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -179,7 +179,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ZHANG_QUN_DESC"
-			ideology = conservative_democracy_quinquepartite_constitutionalism_subtype
+			ideology = conservatism_quinquepartite_constitutionalism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -218,7 +218,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LIAO_MENGXING_DESC"
-			ideology = social_democracy_left_sanmin_subtype
+			ideology = progressivism_left_sanmin_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -384,7 +384,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_HE_YINGQIN_TMM_DESC"
-			ideology = conservative_democracy_quinquepartite_constitutionalism_subtype
+			ideology = conservatism_quinquepartite_constitutionalism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -408,7 +408,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_HE_YINGQIN_TMM_DESC"
-			ideology = authoritarian_democracy_united_front_subtype
+			ideology = paternalism_united_front_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -432,7 +432,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LIU_WENHUI_DESC"
-			ideology = social_democracy_left_sanmin_subtype
+			ideology = progressivism_left_sanmin_subtype
 			traits = { liu_wenhui }
 			expire = "1999.1.1.1"
 			id = -1
@@ -480,7 +480,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_XUE_YUE_DESC"
-			ideology = conservative_democracy_subtype
+			ideology = conservatism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -492,7 +492,7 @@ characters = {
 			traits = {
 				foreign_minister
 				xue_yue
-				conservative_democracy_subtype
+				conservatism_subtype
 				XIK_Xue_Yue_for_desc
 			}
 			ledger = civilian
@@ -516,7 +516,7 @@ characters = {
 			traits = {
 				economy_minister
 				li_xianchun
-				authoritarian_democracy_united_front_subtype
+				paternalism_united_front_subtype
 				XIK_Li_Xianchun_eco_desc
 			}
 			ledger = civilian
@@ -540,7 +540,7 @@ characters = {
 			traits = {
 				security_minister
 				zhang_weijiong
-				authoritarian_democracy_united_front_subtype
+				paternalism_united_front_subtype
 				XIK_Zhang_Weijiong_sec_desc
 			}
 			ledger = civilian
@@ -574,7 +574,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_XIONG_KEWU_DESC"
-			ideology = social_democracy_left_sanmin_subtype
+			ideology = progressivism_left_sanmin_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -586,7 +586,7 @@ characters = {
 			traits = {
 				foreign_minister
 				xiong_kewu
-				social_democracy_left_sanmin_subtype
+				progressivism_left_sanmin_subtype
 				SIC_Xiong_Kewu_for_desc
 			}
 			ledger = civilian
@@ -641,7 +641,7 @@ characters = {
 			traits = {
 				economy_minister
 				liu_hangchen
-				authoritarian_democracy_compradore_capitalism_subtype
+				paternalism_compradore_capitalism_subtype
 				SIC_Liu_Hangchen_eco_desc
 			}
 			ledger = civilian
@@ -689,7 +689,7 @@ characters = {
 			allowed = { original_tag = QIN }
 			traits = {
 				head_of_government
-				authoritarian_democracy
+				paternalism
 				son_of_generalissimo
 				QIN_Chiang_ching_kuo_hog_desc
 			}
@@ -710,7 +710,7 @@ characters = {
 			}
 			traits = {
 				economy_minister
-				social_democracy
+				progressivism
 				scholarly_economist
 				QIN_Ji_Chaoding_eco_desc
 			}
@@ -732,7 +732,7 @@ characters = {
 			}
 			traits = {
 				economy_minister
-				authoritarian_democracy
+				paternalism
 				seasoned_negotiator
 				QIN_Dao_Shengyang_eco_desc
 			}
@@ -1011,7 +1011,7 @@ characters = {
 			allowed = { original_tag = QIN }
 			traits = {
 				foreign_minister
-				conservative_democracy_neoconfucian_liberalism_subtype
+				conservatism_neoconfucian_liberalism_subtype
 				pragmatic_negotiator
 				QIN_Wang_Shijie_for_desc
 			}
@@ -1067,7 +1067,7 @@ characters = {
 			allowed = { original_tag = GUZ }
 			traits = {
 				economy_minister
-				authoritarian_democracy
+				paternalism
 				southwest_industrialist
 			}
 			ledger = civilian
@@ -1145,7 +1145,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KIM_JONGPIL_DESC"
-			ideology = authoritarian_democracy_controlled_democracy_subtype
+			ideology = paternalism_controlled_democracy_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -1159,7 +1159,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_LIU_WENHUI_DESC"
-			ideology = authoritarian_democracy_united_front_subtype
+			ideology = paternalism_united_front_subtype
 			traits = { liu_wenhui }
 			expire = "1999.1.1.1"
 			id = -1

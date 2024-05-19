@@ -10,7 +10,7 @@ ideas = {
 
 					modifier = {
 						political_power_gain = 0.03
-						conservative_democracy_drift = 0.005
+						conservatism_drift = 0.005
 					}
 				}
 				QIN_lifayuan_whip_yu_guohua = {
@@ -20,7 +20,7 @@ ideas = {
 
 					modifier = {
 						political_power_gain = 0.015
-						authoritarian_democracy_drift = 0.0025
+						paternalism_drift = 0.0025
 					}
 				}
 				QIN_lifayuan_whip_li_huan = {
@@ -30,7 +30,7 @@ ideas = {
 
 					modifier = {
 						political_power_gain = 0.05
-						conservative_democracy_drift = 0.01
+						conservatism_drift = 0.01
 					}
 				}
 				QIN_lifayuan_whip_qiao_shi = {
@@ -60,7 +60,7 @@ ideas = {
 
 					modifier = {
 						political_power_gain = 0.03
-						social_democracy_drift = 0.005
+						progressivism_drift = 0.005
 					}
 				}
 				QIN_lifayuan_whip_jiang_yanshi = {
@@ -70,7 +70,7 @@ ideas = {
 
 					modifier = {
 						political_power_gain = 0.03
-						liberal_democracy_drift = 0.005
+						liberalism_drift = 0.005
 					}
 				}
 				QIN_lifayuan_whip_sun_ke = {
@@ -80,7 +80,7 @@ ideas = {
 
 					modifier = {
 						political_power_gain = -0.01
-						authoritarian_democracy_drift = -0.005
+						paternalism_drift = -0.005
 					}
 				}
 			## President ##
@@ -91,7 +91,7 @@ ideas = {
 
 					modifier = {
 						political_power_gain = 0.05
-						authoritarian_democracy_drift = 0.01
+						paternalism_drift = 0.01
 					}
 				}
 				QIN_lifayuan_president_luo_longji = {
@@ -101,7 +101,7 @@ ideas = {
 
 					modifier = {
 						political_power_gain = 0.05
-						social_democracy_drift = 0.01
+						progressivism_drift = 0.01
 					}
 				}
 				QIN_lifayuan_president_hang_liwu = {
@@ -111,7 +111,7 @@ ideas = {
 
 					modifier = {
 						political_power_gain = 0.05
-						liberal_democracy_drift = 0.01
+						liberalism_drift = 0.01
 					}
 				}
 				QIN_lifayuan_president_dong_biwu = {
@@ -132,8 +132,8 @@ ideas = {
 
 					modifier = {
 						political_power_gain = 0.05
-						authoritarian_democracy_drift = 0.0075
-						conservative_democracy_drift = 0.0025
+						paternalism_drift = 0.0075
+						conservatism_drift = 0.0025
 					}
 				}
     }

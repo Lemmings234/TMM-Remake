@@ -2406,7 +2406,7 @@ country_event = {#Jichaoding dies
 				idea_token = QIN_Dao_Shengyang_eco
 				traits = {
 					economy_minister
-					authoritarian_democracy
+					paternalism
 					seasoned_negotiator
 					QIN_Dao_Shengyang_eco_desc
 				}

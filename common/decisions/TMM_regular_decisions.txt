@@ -1392,7 +1392,7 @@ QIN_BoG = {
 			}
 			TNO_improve_minorities_policy_effectiveness_monthly_low = yes
 			add_popularity = {
-				ideology = social_democracy
+				ideology = progressivism
                 popularity = 0.015
 			}
 			QINWhydidIsubjectmyselftothisfuckery = yes
@@ -1431,7 +1431,7 @@ QIN_BoG = {
 			producer = QIN
             }
 			add_popularity = {
-				ideology = conservative_democracy
+				ideology = conservatism
                 popularity = 0.015
 			}
 		}
@@ -1538,19 +1538,19 @@ QIN_BoG = {
 			add_to_variable = { QIN_BOG_39_CCP = 4 }
 			QINWhydidIsubjectmyselftothisfuckery = yes
 			add_popularity = {
-				ideology = liberal_democracy
+				ideology = liberalism
                 popularity = 0.05
 			}
 			add_popularity = {
-				ideology = authoritarian_democracy
+				ideology = paternalism
                 popularity = 0.015
 			}
 			add_popularity = {
-				ideology = social_democracy
+				ideology = progressivism
                 popularity = 0.015
 			}
 			add_popularity = {
-				ideology = conservative_democracy
+				ideology = conservatism
                 popularity = 0.015
 			}
 			add_popularity = {
@@ -1602,7 +1602,7 @@ QIN_BoG = {
 			}
 			QINWhydidIsubjectmyselftothisfuckery = yes
 			add_popularity = {
-				ideology = authoritarian_democracy
+				ideology = paternalism
                 popularity = 0.05
 			}
 		}
