@@ -267,20 +267,20 @@
  Lifayuan_Affiliation_PDP:0 "Affiliation: §NIndependents§!"
  Lifayuan_Affiliation_Zhengxuepai:0 "Affiliation: §YKMT Section of Political Science§!"
  
- Lifayuan_WhipEffect_Ma_Shuli:0 "Daily Political Power Gain: §G+0.03§!\nDaily Social Conservative Support: §G+0.005§!"
- Lifayuan_WhipEffect_Yu_Guohua:0 "Daily Political Power Gain: §G+0.015§!\nDaily Authoritarian Democrat Support: §G+0.0025§!"
- Lifayuan_WhipEffect_Li_Huan:0 "Daily Political Power Gain: §G+0.05§!\nDaily Social Conservative Support: §G+0.01§!"
+ Lifayuan_WhipEffect_Ma_Shuli:0 "Daily Political Power Gain: §G+0.03§!\nDaily Conservatism Support: §G+0.005§!"
+ Lifayuan_WhipEffect_Yu_Guohua:0 "Daily Political Power Gain: §G+0.015§!\nDaily Paternalism Support: §G+0.0025§!"
+ Lifayuan_WhipEffect_Li_Huan:0 "Daily Political Power Gain: §G+0.05§!\nDaily Conservatism Support: §G+0.01§!"
  Lifayuan_WhipEffect_Qiao_Shi:0 "Daily Political Power Gain: §G+0.03§!\nDaily Libertarian Socialist Support: §G+0.005§!"
- Lifayuan_WhipEffect_Deng_Xiaoping:0 "Daily Political Power Gain: §G+0.05§!\nDaily Authoritarian Socialist Support: §G+0.01§!"
- Lifayuan_WhipEffect_Zhang_Naiqi:0 "Daily Political Power Gain: §G+0.03§!\nDaily Social Democrat Support: §G+0.005§!"
- Lifayuan_WhipEffect_Jiang_Yanshi:0 "Daily Political Power Gain: §G+0.03§!\nDaily Social Liberal Support: §G+0.005§!"
- Lifayuan_WhipEffect_Sun_Ke:0 "Daily Political Power Gain: §R-0.01§!\nDaily Authoritarian Democrat Support: §R-0.005§!"
+ Lifayuan_WhipEffect_Deng_Xiaoping:0 "Daily Political Power Gain: §G+0.05§!\nDaily Communist Support: §G+0.01§!"
+ Lifayuan_WhipEffect_Zhang_Naiqi:0 "Daily Political Power Gain: §G+0.03§!\nDaily Progressivism Support: §G+0.005§!"
+ Lifayuan_WhipEffect_Jiang_Yanshi:0 "Daily Political Power Gain: §G+0.03§!\nDaily Liberalism Support: §G+0.005§!"
+ Lifayuan_WhipEffect_Sun_Ke:0 "Daily Political Power Gain: §R-0.01§!\nDaily Paternalism Support: §R-0.005§!"
  
- Lifayuan_PresidentEffect_Ni_Wenya:0 "Daily Political Power Gain: §G+0.05§!\nDaily Authoritarian Democrat Support: §G+0.01§!"
- Lifayuan_PresidentEffect_Luo_Longji:0 "Daily Political Power Gain: §G+0.05§!\nDaily Social Democrat Support: §G+0.01§!"
- Lifayuan_PresidentEffect_Hang_Liwu:0 "Daily Political Power Gain: §G+0.05§!\nDaily Social Liberal Support: §G+0.01§!"
- Lifayuan_PresidentEffect_Dong_Biwu:0 "Daily Political Power Gain: §G+0.05§!\nDaily Authoritarian Socialist Support: §G+0.005§!\nDaily Libertarian Socialist Support: §G+0.005§!"
- Lifayuan_PresidentEffect_Zhang_Lisheng:0 "Daily Political Power Gain: §G+0.05§!\nDaily Authoritarian Democrat Support: §G+0.01§!"
+ Lifayuan_PresidentEffect_Ni_Wenya:0 "Daily Political Power Gain: §G+0.05§!\nDaily Paternalism Support: §G+0.01§!"
+ Lifayuan_PresidentEffect_Luo_Longji:0 "Daily Political Power Gain: §G+0.05§!\nDaily Progressivism Support: §G+0.01§!"
+ Lifayuan_PresidentEffect_Hang_Liwu:0 "Daily Political Power Gain: §G+0.05§!\nDaily Liberalism Support: §G+0.01§!"
+ Lifayuan_PresidentEffect_Dong_Biwu:0 "Daily Political Power Gain: §G+0.05§!\nDaily Communist Support: §G+0.005§!\nDaily Libertarian Socialist Support: §G+0.005§!"
+ Lifayuan_PresidentEffect_Zhang_Lisheng:0 "Daily Political Power Gain: §G+0.05§!\nDaily Paternalism Support: §G+0.01§!"
  
  
  
