@@ -338,6 +338,18 @@ country_event = {#Dalai escapes
 		322 = {
 			add_compliance = 20
 		}
+		964 = {
+			add_compliance = 20
+		}
+		1961 = {
+			add_compliance = 20
+		}
+		1962 = {
+			add_compliance = 20
+		}
+		1963 = {
+			add_compliance = 20
+		}
 	}
 }
 country_event = {#Dalai stays
@@ -376,6 +388,18 @@ country_event = {#Dalai stays
 		}
 		322 = {
 			add_compliance = 30
+		}
+		964 = {
+			add_compliance = 20
+		}
+		1961 = {
+			add_compliance = 20
+		}
+		1962 = {
+			add_compliance = 20
+		}
+		1963 = {
+			add_compliance = 20
 		}
 	}
 }
