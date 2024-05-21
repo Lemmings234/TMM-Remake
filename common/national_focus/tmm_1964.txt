@@ -253,6 +253,9 @@ shared_focus = {
 	ai_will_do = {
 		factor = 80
 	}
+	bypass = {
+		has_war = no
+	}
 	available = {
 		NOT = { is_in_faction_with = JAP }
 	}
@@ -263,32 +266,60 @@ shared_focus = {
         custom_effect_tooltip = QIN_three_rules_and_eight_points_tt
 		swap_ideas = {
             remove_idea = tno_military_supervision_no_supervision
-            add_idea = tno_military_supervision_military_policing
+            add_idea = tno_military_supervision_rules_of_engagement
             }
-		add_to_variable = {
-            var = QIN_yushu_stability
-            value = 15
-            }
-		subtract_from_variable = {
-            var = QIN_yushu_ethnic_tension
-            value = 7.5
-            }
-		add_to_variable = {
-            var = QIN_tibet_stability
-            value = 10
-            }
-		subtract_from_variable = {
-            var = QIN_tibet_ethnic_tension
-            value = 10
-            }
-		add_to_variable = {
-            var = QIN_kang_stability
-            value = 10
-            }
-		subtract_from_variable = {
-            var = QIN_kang_ethnic_tension
-            value = 10
-            }
+		322 = {
+			add_compliance = 10
+			add_resistance = -7.5
+		}
+		601 = {
+			add_compliance = 10
+			add_resistance = -7.5
+		}
+		765 = {
+			add_compliance = 10
+			add_resistance = -7.5
+		}
+		964 = {
+			add_compliance = 10
+			add_resistance = -7.5
+		}
+		1961 = {
+			add_compliance = 10
+			add_resistance = -7.5
+		}
+		1962 = {
+			add_compliance = 10
+			add_resistance = -7.5
+		}
+		1963 = {
+			add_compliance = 5
+			add_resistance = -7.5
+		}
+		# add_to_variable = {
+            # var = QIN_yushu_stability
+            # value = 15
+            # }
+		# subtract_from_variable = {
+            # var = QIN_yushu_ethnic_tension
+            # value = 7.5
+            # }
+		# add_to_variable = {
+            # var = QIN_tibet_stability
+            # value = 10
+            # }
+		# subtract_from_variable = {
+            # var = QIN_tibet_ethnic_tension
+            # value = 10
+            # }
+		# add_to_variable = {
+            # var = QIN_kang_stability
+            # value = 10
+            # }
+		# subtract_from_variable = {
+            # var = QIN_kang_ethnic_tension
+            # value = 10
+            # }
 		subtract_from_variable = {
             var = kmt_hardliner_lifayuan_support
             value = 7.5		
@@ -390,38 +421,67 @@ shared_focus = {
         custom_effect_tooltip = QIN_Warlord_No_Longer_tt
 		custom_effect_tooltip = QIN_we_are_victorious_tt
 		add_political_power = 100
-		add_to_variable = {
-            var = QIN_yushu_stability
-            value =5
-            }
-		subtract_from_variable = {
-            var = QIN_yushu_ethnic_tension
-            value = 2.5
-            }
-		add_to_variable = {
-            var = QIN_tibet_stability
-            value = 5
-            }
-		subtract_from_variable = {
-            var = QIN_tibet_ethnic_tension
-            value = 2.5
-            }
-		add_to_variable = {
-            var = QIN_kang_stability
-            value = 5
-            }
-		subtract_from_variable = {
-            var = QIN_kang_ethnic_tension
-            value = 2.5
-            }
-		add_to_variable = {
-            var = QIN_qinghai_stability
-            value = 20
-            }
-		subtract_from_variable = {
-            var = QIN_qinghai_ethnic_tension
-            value = 10
-            }
+		
+		322 = {
+			add_compliance = 5
+			add_resistance = -2.5
+		}
+		601 = {
+			add_compliance = 5
+			add_resistance = -2.5
+		}
+		765 = {
+			add_compliance = 5
+			add_resistance = -2.5
+		}
+		964 = {
+			add_compliance = 5
+			add_resistance = -2.5
+		}
+		1961 = {
+			add_compliance = 5
+			add_resistance = -2.5
+		}
+		1962 = {
+			add_compliance = 5
+			add_resistance = -2.5
+		}
+		1963 = {
+			add_compliance = 5
+			add_resistance = -2.5
+		}
+		# add_to_variable = {
+            # var = QIN_yushu_stability
+            # value =5
+            # }
+		# subtract_from_variable = {
+            # var = QIN_yushu_ethnic_tension
+            # value = 2.5
+            # }
+		# add_to_variable = {
+            # var = QIN_tibet_stability
+            # value = 5
+            # }
+		# subtract_from_variable = {
+            # var = QIN_tibet_ethnic_tension
+            # value = 2.5
+            # }
+		# add_to_variable = {
+            # var = QIN_kang_stability
+            # value = 5
+            # }
+		# subtract_from_variable = {
+            # var = QIN_kang_ethnic_tension
+            # value = 2.5
+            # }
+		# add_to_variable = {
+            # var = QIN_qinghai_stability
+            # value = 20
+            # }
+		# subtract_from_variable = {
+            # var = QIN_qinghai_ethnic_tension
+            # value = 10
+            # }
 		QINClamp = yes
 		country_event = { id = tmm.maclique.4 }
 		set_variable = { 322.china = 1 }

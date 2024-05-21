@@ -1040,12 +1040,12 @@ QIN_lifayuan = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			custom_effect_tooltip = "DECISION_EFFECT_LAND_REFORM"
+			#custom_effect_tooltip = "DECISION_EFFECT_LAND_REFORM"
 		    906 = { add_extra_state_shared_building_slots = 1 }
             604 = { add_extra_state_shared_building_slots = 1 }
 		    add_political_power = -25
-		    subtract_from_variable = {QIN_qinghai_stability = 20}
-		    add_to_variable = {QIN_qinghai_ethnic_tension = 5}
+		    #subtract_from_variable = {QIN_qinghai_stability = 20}
+		    #add_to_variable = {QIN_qinghai_ethnic_tension = 5}
 		    set_country_flag = QIN_qinghai_land_reform_enacted
 		    swap_ideas = {
 	             add_idea = tno_slavery_outlawed
@@ -1098,23 +1098,23 @@ QIN_lifayuan = {
 		    add_political_power = 100
 	     	set_temp_variable = { econ_centralization_temp = 10 }
 		    econ_centralization_change = yes
-		    subtract_from_variable = {QIN_qinghai_stability = 20}
-		    add_to_variable = {QIN_qinghai_ethnic_tension = 15}
-		    subtract_from_variable = {QIN_yushu_stability = 20}
-		    add_to_variable = {QIN_yushu_ethnic_tension = 15}
-		    subtract_from_variable = {QIN_kang_stability = 20}
-		    add_to_variable = {QIN_kang_ethnic_tension = 15}
-		    subtract_from_variable = {QIN_tibet_stability = 20}
-		    add_to_variable = {QIN_tibet_ethnic_tension = 15}
+		    # subtract_from_variable = {QIN_qinghai_stability = 20}
+		    # add_to_variable = {QIN_qinghai_ethnic_tension = 15}
+		    # subtract_from_variable = {QIN_yushu_stability = 20}
+		    # add_to_variable = {QIN_yushu_ethnic_tension = 15}
+		    # subtract_from_variable = {QIN_kang_stability = 20}
+		    # add_to_variable = {QIN_kang_ethnic_tension = 15}
+		    # subtract_from_variable = {QIN_tibet_stability = 20}
+		    # add_to_variable = {QIN_tibet_ethnic_tension = 15}
 
-			subtract_from_variable = {
-				var = QIN_minority_province_stability_tick
-				value = 1
-			}
-			subtract_from_variable = {
-				var = QIN_minority_province_tension_tick
-				value = 0.5
-			}
+			# subtract_from_variable = {
+				# var = QIN_minority_province_stability_tick
+				# value = 1
+			# }
+			# subtract_from_variable = {
+				# var = QIN_minority_province_tension_tick
+				# value = 0.5
+			# }
 
 		    hidden_effect = {
 		        TNO_improve_admin_efficiency_med = yes
