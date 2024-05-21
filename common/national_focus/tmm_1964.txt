@@ -1051,7 +1051,19 @@ shared_focus = {
 		} 		
 		765 = {
 			add_resistance = 20
-		} 	
+		}
+		964 = {
+			add_resistance = 20
+		}
+		1961 = {
+			add_resistance = 20
+		}
+		1962 = {
+			add_resistance = 20
+		}
+		1963 = {
+			add_resistance = 20
+		}
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1089,6 +1101,18 @@ shared_focus = {
         765 = {
 		    add_resistance = -7.5 
             } 				
+		964 = {
+			add_resistance = -7.5
+		}
+		1961 = {
+			add_resistance = -7.5
+		}
+		1962 = {
+			add_resistance = -7.5
+		}
+		1963 = {
+			add_resistance = -7.5
+		}
         add_stability = 0.025			
 		}
 	cancel_if_invalid = yes
@@ -1238,7 +1262,19 @@ shared_focus = {
             } 		
         765 = {
 		    add_resistance = -10
-            } 		
+            }
+ 		964 = {
+			add_resistance = -10
+		}
+		1961 = {
+			add_resistance = -10
+		}
+		1962 = {
+			add_resistance = -10
+		}
+		1963 = {
+			add_resistance = -10
+		}
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1271,7 +1307,19 @@ shared_focus = {
 		601 = {
 		    add_compliance = 10
 		    }
+		964 = {
+			add_compliance = 5
 		}
+		1961 = {
+			add_compliance = 5
+		}
+		1962 = {
+			add_compliance = 5
+		}
+		1963 = {
+			add_compliance = 5
+		}
+	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
@@ -1293,38 +1341,50 @@ shared_focus = {
 	    focus = expose_the_kashag
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_tibetan_autonomy_tt
+	    # custom_effect_tooltip = QIN_tibetan_autonomy_tt
 	    765 = {
             add_compliance = 15
 		    }
 		322 = {
 		    add_compliance = 15
 		    }
+		964 = {
+			add_compliance = 15
+		}
+		1961 = {
+			add_compliance = 15
+		}
+		1962 = {
+			add_compliance = 15
+		}
+		1963 = {
+			add_compliance = 15
+		}
 		add_political_power = -20
-		subtract_from_variable = { 
-		    var = QIN_tibet_ethnic_tension
-			value = 15
-			}
-		subtract_from_variable = { 
-		    var = QIN_kang_ethnic_tension
-			value = 15
-			}
-		add_to_variable = { 
-		    var = QIN_kang_stability
-			value = 10
-			}
-		add_to_variable = { 
-		    var = QIN_tibet_stability
-			value = 10
-			}
-		subtract_from_variable = { 
-		    var = QIN_yshu_ethnic_tension
-			value = 15
-			}
-		add_to_variable = { 
-		    var = QIN_yushu_stability
-			value = 10
-			}
+		# subtract_from_variable = { 
+		    # var = QIN_tibet_ethnic_tension
+			# value = 15
+			# }
+		# subtract_from_variable = { 
+		    # var = QIN_kang_ethnic_tension
+			# value = 15
+			# }
+		# add_to_variable = { 
+		    # var = QIN_kang_stability
+			# value = 10
+			# }
+		# add_to_variable = { 
+		    # var = QIN_tibet_stability
+			# value = 10
+			# }
+		# subtract_from_variable = { 
+		    # var = QIN_yshu_ethnic_tension
+			# value = 15
+			# }
+		# add_to_variable = { 
+		    # var = QIN_yushu_stability
+			# value = 10
+			# }
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no

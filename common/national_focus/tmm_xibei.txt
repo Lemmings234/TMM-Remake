@@ -492,7 +492,7 @@ shared_focus = {
 	completion_reward = {
 	    add_stability = 0.05
 	    add_political_power = 100
-		custom_effect_tooltip = QIN_crisis_averted_tt
+		#custom_effect_tooltip = QIN_crisis_averted_tt
 		#subtract_from_variable = {QIN_qinghai_ethnic_tension = 7.5}
 		#add_to_variable = {QIN_qinghai_stability = 15}
 		country_event = {
