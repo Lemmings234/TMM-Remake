@@ -1,5 +1,5 @@
 name="TNO - The Ma Mod Remake"
-picture="Ma Legacy.png"
+picture="thumbnail.png"
 dependencies={
 	"The New Order: Last Days of Europe"
 }
@@ -10,5 +10,5 @@ tags={
 	"Gameplay"
 }
 replace_path="history/countries/CHI - China.txt"
-path="mod/TMM-Remake"
 supported_version="1.15.*"
+path="C:/Users/ducng/Documents/Paradox Interactive/Hearts of Iron IV/mod/TMM-Remake"
