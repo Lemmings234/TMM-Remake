@@ -1,4 +1,5 @@
-name="TNO - The Ma Mod Remake"
+name="TNO - The Ma Mod Remake"\
+picture="Ma Legacy.png"
 dependencies={
 	"The New Order: Last Days of Europe"
 }
