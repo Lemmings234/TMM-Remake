@@ -330,25 +330,32 @@ country_event = {#Dalai escapes
 		name = "Any resemblance of calmness will soon fade away from Tibet."
 		add_ideas = QIN_dalai_leaves
 		601 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 		765 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 		322 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 		964 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 		1961 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 		1962 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 		1963 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 	}
 }
@@ -381,25 +388,32 @@ country_event = {#Dalai stays
 			add_state_claim = 765
 		}	
 		601 = {
-			add_compliance = 30
+			add_compliance = 45
+			add_resistance = -30
 		}
 		765 = {
-			add_compliance = 30
+			add_compliance = 45
+			add_resistance = -30
 		}
 		322 = {
-			add_compliance = 30
+			add_compliance = 45
+			add_resistance = -30
 		}
 		964 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 		1961 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 		1962 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 		1963 = {
-			add_compliance = 20
+			add_compliance = 45
+			add_resistance = -30
 		}
 	}
 }

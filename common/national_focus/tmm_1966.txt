@@ -1,437 +1,437 @@
-shared_focus = {
-	id = The_Year_of_Horse
-	icon = GFX_goal_year_of_horse
-    cost = 1
-	x = 10
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	allow_branch = { 
-		has_country_flag = year_of_horse
-		is_debug = yes
-	}
-	bypass = {
-		has_country_flag = year_of_horse
-	}
-	completion_reward = {
-	    custom_effect_tooltip = QIN_year_of_horse_tt
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = pleading_our_friends
-	icon = GFX_goal_pleading_our_friends
-    cost = 1
-	relative_position_id = The_Year_of_Horse
-	x = 6
-	y = 2
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = The_Year_of_Horse
-	}
-	completion_reward = {
-        set_temp_variable = { money_reserves_temp = 0.025 }
-        econ_money_reserves_change_raw_money = yes
-		add_war_support = 0.1
-		add_political_power = 75
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = weapons_of_the_modern_age
-	icon = GFX_goal_weapons_of_the_modern_age
-    cost = 1
-	relative_position_id = pleading_our_friends
-	x = 0
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = pleading_our_friends
-	}
-	completion_reward = {
-	    add_equipment_to_stockpile = {
-            type = anti_tank_equipment
-            amount = 750
-            producer = USA
-            }
-	    add_equipment_to_stockpile = {
-            type = anti_air_shoulder_equipment_0
-            amount = 500
-            producer = USA
-            }
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = introduce_c3
-	icon = GFX_goal_introduce_c3
-    cost = 1
-	relative_position_id = pleading_our_friends
-	x = -2
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = pleading_our_friends
-	}
-	completion_reward = {
-		add_equipment_to_stockpile = {
-			type = support_equipment
-			amount = 750
-			producer = USA
-		    }
-		add_equipment_to_stockpile = {
-			type = motorized_equipment
-			amount = 150
-			producer = USA
-		    }
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = purchase_automatic_weapons
-	icon = GFX_goal_purchase_automatic_weapons
-    cost = 1
-	relative_position_id = pleading_our_friends
-	x = 2
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = pleading_our_friends
-	}
-	completion_reward = {
-		add_equipment_to_stockpile = {
-			type = infantry_equipment_2
-			amount = 2000
-			producer = USA
-		    }
-		add_equipment_to_stockpile = {
-			type = artillery_equipment_3
-			amount = 24
-			producer = USA
-		    }
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = deepen_our_connection
-	icon = GFX_goal_deepen_our_connection
-    cost = 1
-	relative_position_id = weapons_of_the_modern_age
-	x = 0
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = introduce_c3
-	}
-	prerequisite = { 
-	    focus = weapons_of_the_modern_age
-	}
-	prerequisite = { 
-	    focus = purchase_automatic_weapons
-	}
-	completion_reward = {
-		add_ideas = OFN_Observer
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = defending_the_home_front
-	icon = GFX_goal_defending_the_home_front
-    cost = 1
-	relative_position_id = The_Year_of_Horse
-	x = 0
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = The_Year_of_Horse
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = more_air_raid_shelters
-	icon = GFX_goal_more_air_raid_shelters
-    cost = 1
-	relative_position_id = defending_the_home_front
-	x = 0
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = defending_the_home_front
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = move_the_industry_out
-	icon = GFX_goal_move_the_industry_out
-    cost = 1
-	relative_position_id = defending_the_home_front
-	x = 2
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = defending_the_home_front
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = utilise_civil_war_experiences
-	icon = GFX_goal_utilise_civil_war_experiences
-    cost = 1
-	relative_position_id = defending_the_home_front
-	x = -2
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = defending_the_home_front
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = evacuate_citizens
-	icon = GFX_goal_evacuate_citizens
-    cost = 1
-	relative_position_id = defending_the_home_front
-	x = 0
-	y = 2
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = utilise_civil_war_experiences
-	}
-	prerequisite = { 
-	    focus = move_the_industry_out
-	}
-	prerequisite = { 
-	    focus = more_air_raid_shelters
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = manning_the_guns
-	icon = GFX_goal_manning_the_guns
-    cost = 1
-	relative_position_id = The_Year_of_Horse
-	x = -6
-	y = 2
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = The_Year_of_Horse
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = mobilise_non_essential_workers
-	icon = GFX_goal_mobilise_non_essential_workers
-    cost = 1
-	relative_position_id = manning_the_guns
-	x = 0
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = manning_the_guns
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = one_cannot_be_too_prepared
-	icon = GFX_goal_one_cannot_be_too_prepared
-    cost = 1
-	relative_position_id = manning_the_guns
-	x = 2
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = manning_the_guns
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = mask_our_batteries
-	icon = GFX_goal_mask_our_batteries
-    cost = 1
-	relative_position_id = manning_the_guns
-	x = -2
-	y = 1
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = manning_the_guns
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = calculate_as_if_your_life_depends_on_it
-	icon = GFX_goal_calculate_as_if_your_life_depends_on_it
-    cost = 1
-	relative_position_id = manning_the_guns
-	x = 0
-	y = 2
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = mask_our_batteries
-	}
-	prerequisite = { 
-	    focus = one_cannot_be_too_prepared
-	}
-	prerequisite = { 
-	    focus = mobilise_non_essential_workers
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = the_gansu_war
-	icon = GFX_goal_the_gansu_war
-    cost = 1
-	relative_position_id = evacuate_citizens
-	x = 0
-	y = 2
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = evacuate_citizens
-	}
-	prerequisite = { 
-	    focus = calculate_as_if_your_life_depends_on_it
-	}
-	prerequisite = { 
-	    focus = deepen_our_connection
-	}
-	completion_reward = {
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
+# shared_focus = {
+	# id = The_Year_of_Horse
+	# icon = GFX_goal_year_of_horse
+    # cost = 1
+	# x = 10
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# allow_branch = { 
+		# has_country_flag = year_of_horse
+		# is_debug = yes
+	# }
+	# bypass = {
+		# has_country_flag = year_of_horse
+	# }
+	# completion_reward = {
+	    # custom_effect_tooltip = QIN_year_of_horse_tt
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = pleading_our_friends
+	# icon = GFX_goal_pleading_our_friends
+    # cost = 1
+	# relative_position_id = The_Year_of_Horse
+	# x = 6
+	# y = 2
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = The_Year_of_Horse
+	# }
+	# completion_reward = {
+        # set_temp_variable = { money_reserves_temp = 0.025 }
+        # econ_money_reserves_change_raw_money = yes
+		# add_war_support = 0.1
+		# add_political_power = 75
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = weapons_of_the_modern_age
+	# icon = GFX_goal_weapons_of_the_modern_age
+    # cost = 1
+	# relative_position_id = pleading_our_friends
+	# x = 0
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = pleading_our_friends
+	# }
+	# completion_reward = {
+	    # add_equipment_to_stockpile = {
+            # type = anti_tank_equipment
+            # amount = 750
+            # producer = USA
+            # }
+	    # add_equipment_to_stockpile = {
+            # type = anti_air_shoulder_equipment_0
+            # amount = 500
+            # producer = USA
+            # }
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = introduce_c3
+	# icon = GFX_goal_introduce_c3
+    # cost = 1
+	# relative_position_id = pleading_our_friends
+	# x = -2
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = pleading_our_friends
+	# }
+	# completion_reward = {
+		# add_equipment_to_stockpile = {
+			# type = support_equipment
+			# amount = 750
+			# producer = USA
+		    # }
+		# add_equipment_to_stockpile = {
+			# type = motorized_equipment
+			# amount = 150
+			# producer = USA
+		    # }
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = purchase_automatic_weapons
+	# icon = GFX_goal_purchase_automatic_weapons
+    # cost = 1
+	# relative_position_id = pleading_our_friends
+	# x = 2
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = pleading_our_friends
+	# }
+	# completion_reward = {
+		# add_equipment_to_stockpile = {
+			# type = infantry_equipment_2
+			# amount = 2000
+			# producer = USA
+		    # }
+		# add_equipment_to_stockpile = {
+			# type = artillery_equipment_3
+			# amount = 24
+			# producer = USA
+		    # }
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = deepen_our_connection
+	# icon = GFX_goal_deepen_our_connection
+    # cost = 1
+	# relative_position_id = weapons_of_the_modern_age
+	# x = 0
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = introduce_c3
+	# }
+	# prerequisite = { 
+	    # focus = weapons_of_the_modern_age
+	# }
+	# prerequisite = { 
+	    # focus = purchase_automatic_weapons
+	# }
+	# completion_reward = {
+		# add_ideas = OFN_Observer
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = defending_the_home_front
+	# icon = GFX_goal_defending_the_home_front
+    # cost = 1
+	# relative_position_id = The_Year_of_Horse
+	# x = 0
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = The_Year_of_Horse
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = more_air_raid_shelters
+	# icon = GFX_goal_more_air_raid_shelters
+    # cost = 1
+	# relative_position_id = defending_the_home_front
+	# x = 0
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = defending_the_home_front
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = move_the_industry_out
+	# icon = GFX_goal_move_the_industry_out
+    # cost = 1
+	# relative_position_id = defending_the_home_front
+	# x = 2
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = defending_the_home_front
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = utilise_civil_war_experiences
+	# icon = GFX_goal_utilise_civil_war_experiences
+    # cost = 1
+	# relative_position_id = defending_the_home_front
+	# x = -2
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = defending_the_home_front
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = evacuate_citizens
+	# icon = GFX_goal_evacuate_citizens
+    # cost = 1
+	# relative_position_id = defending_the_home_front
+	# x = 0
+	# y = 2
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = utilise_civil_war_experiences
+	# }
+	# prerequisite = { 
+	    # focus = move_the_industry_out
+	# }
+	# prerequisite = { 
+	    # focus = more_air_raid_shelters
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = manning_the_guns
+	# icon = GFX_goal_manning_the_guns
+    # cost = 1
+	# relative_position_id = The_Year_of_Horse
+	# x = -6
+	# y = 2
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = The_Year_of_Horse
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = mobilise_non_essential_workers
+	# icon = GFX_goal_mobilise_non_essential_workers
+    # cost = 1
+	# relative_position_id = manning_the_guns
+	# x = 0
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = manning_the_guns
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = one_cannot_be_too_prepared
+	# icon = GFX_goal_one_cannot_be_too_prepared
+    # cost = 1
+	# relative_position_id = manning_the_guns
+	# x = 2
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = manning_the_guns
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = mask_our_batteries
+	# icon = GFX_goal_mask_our_batteries
+    # cost = 1
+	# relative_position_id = manning_the_guns
+	# x = -2
+	# y = 1
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = manning_the_guns
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = calculate_as_if_your_life_depends_on_it
+	# icon = GFX_goal_calculate_as_if_your_life_depends_on_it
+    # cost = 1
+	# relative_position_id = manning_the_guns
+	# x = 0
+	# y = 2
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = mask_our_batteries
+	# }
+	# prerequisite = { 
+	    # focus = one_cannot_be_too_prepared
+	# }
+	# prerequisite = { 
+	    # focus = mobilise_non_essential_workers
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }
+# shared_focus = {
+	# id = the_gansu_war
+	# icon = GFX_goal_the_gansu_war
+    # cost = 1
+	# relative_position_id = evacuate_citizens
+	# x = 0
+	# y = 2
+	# ai_will_do = {
+		# factor = 80
+	# }
+	# available = {
+		# NOT = { is_in_faction_with = JAP }
+	# }
+	# prerequisite = { 
+	    # focus = evacuate_citizens
+	# }
+	# prerequisite = { 
+	    # focus = calculate_as_if_your_life_depends_on_it
+	# }
+	# prerequisite = { 
+	    # focus = deepen_our_connection
+	# }
+	# completion_reward = {
+		# }
+	# cancel_if_invalid = yes
+	# continue_if_invalid = no
+	# available_if_capitulated = no
+# }

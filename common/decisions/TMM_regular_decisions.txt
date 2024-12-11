@@ -1847,7 +1847,7 @@ TMM_Xikang = {
 				tag = XIK
 			}
 		}		
-		cost = 1`
+		cost = 1
 		complete_effect = {	
 	        set_variable = { 330.china = 4 }
 			QIN_update_map = yes

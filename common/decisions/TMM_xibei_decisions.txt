@@ -42,7 +42,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 601
 		}
-		days_remove = 60
+		days_remove = 30
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -111,7 +111,7 @@ QIN_Management = {
 			state = 322
 			state = 1961
 		}
-		days_remove = 60
+		days_remove = 30
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -207,7 +207,7 @@ QIN_Management = {
 			state = 1962
 			state = 1963
 		}
-		days_remove = 60
+		days_remove = 30
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -343,7 +343,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 764
 		}
-		days_remove = 60
+		days_remove = 30
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -402,7 +402,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 616
 		}
-		days_remove = 60
+		days_remove = 30
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -489,7 +489,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 617
 		}
-		days_remove = 60
+		days_remove = 30
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -548,7 +548,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 618
 		}
-		days_remove = 60
+		days_remove = 30
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -680,7 +680,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 814
 		}
-		days_remove = 60
+		days_remove = 30
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
