@@ -11,5 +11,4 @@ tags={
 }
 replace_path="history/countries/CHI - China.txt"
 path="mod/TMM-Remake"
-picture="Thumbnail.png"
 supported_version="1.15.*"
