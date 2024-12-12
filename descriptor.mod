@@ -11,4 +11,4 @@ tags={
 }
 replace_path="history/countries/CHI - China.txt"
 supported_version="1.15.*"
-path="C:/Users/ducng/Documents/Paradox Interactive/Hearts of Iron IV/mod/TMM-Remake"
+path="mod/TMM-Remake"
