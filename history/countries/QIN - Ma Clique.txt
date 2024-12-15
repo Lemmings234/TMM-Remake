@@ -1,16 +1,13 @@
-capital = 906
+﻿capital = 604
 
 oob = "QIN_1962"
 
-set_war_support = 0.80
-set_stability = 1.00
-add_manpower = 400000
 ###Playable
 set_country_flag = tno_playable_country
 
 set_country_flag = tmm_cost_1
-
-set_variable = { chi_influence = 0 }
+set_country_flag = country_has_gui
+set_country_flag = QIN_Legislation_In_Recess
 
 # Starting tech
 
@@ -52,7 +49,7 @@ set_technology = {
 	#
 	tech_special_forces = 1
 
-	artillery_1945 = 1
+	artillery4 = 1
 
 	##SUPPORT##
 	tech_support = 1
@@ -74,9 +71,9 @@ set_technology = {
 	tech_signal_company2 = 1
 
 	##ARMOR##
-	APC_1945 = 1
-	IFV_1945 = 1
-	MBT_1945 = 1
+	mechanised_infantry3 = 1
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
 
 	##HELICOPTERS##
 	helicopter_engines = 1
@@ -128,7 +125,7 @@ set_technology = {
 }
 
 
-set_politics = {
+set_politics = {	
 	ruling_party = paternalism
 	last_election = "1933.2.16"
 	election_frequency = 36
@@ -140,18 +137,27 @@ set_popularities = {
 	ultranationalism = 1
 	socialist = 3
 	progressivism = 9
-	liberalism = 10
-	conservatism = 20
+	liberalism = 8
+    liberal_conservatism = 6
+	conservatism = 16
 	paternalism = 31
 	despotism = 10
 	fascism = 1
-	
+	national_socialism = 0
+    esoteric_nazism = 0
+
 }
 
-recruit_character = QIN_ma_jiyuan_tmm
-recruit_character = QIN_ma_jiyuan_despot
+#recruit_character = QIN_ma_jiyuan_tmm
+#recruit_character = QIN_ma_jiyuan_despot
+recruit_character = QIN_Chen_cheng
+recruit_character = QIN_Yuan_Shouqian
+recruit_character = QIN_Chiang_Chingkuo
+recruit_character = QIN_Zhou_Hongtao
+recruit_character = QIN_Lei_Zhen
 recruit_character = QIN_national_assembly
 recruit_character = QIN_lei_zhen
+recruit_character = QIN_zhang_qun_leader
 recruit_character = QIN_zhang_qun
 recruit_character = QIN_zhang_shenfu
 recruit_character = QIN_liao_mengxing
@@ -164,7 +170,7 @@ recruit_character = QIN_guo_jiqiao
 recruit_character = QIN_mu_shengzhong
 recruit_character = QIN_zhu_jiahua
 recruit_character = QIN_chiang_chingkuo_despot
-recruit_character = QIN_chiang_chingkuo_paternalist
+recruit_character = QIN_chiang_chingkuo_authdem
 recruit_character = QIN_sun_fo
 recruit_character = QIN_wang_shijie_leader
 recruit_character = QIN_chen_lifu
@@ -181,28 +187,37 @@ recruit_character = QIN_Wu_Guozhen
 recruit_character = QIN_Xiong_Shihui
 recruit_character = QIN_Zhang_Jiaao
 recruit_character = QIN_Hang_Liwu
-
-recruit_character = QIN_Chiang_Chingkuo
+set_nationality = {
+    target_country = QIN
+    character = QIN_Ji_Chaoding
+}
 recruit_character = QIN_Ji_Chaoding
+
+add_ideas = {
+    QIN_Ji_Chaoding_eco
+}
 recruit_character = QIN_Dao_Shengyang
 recruit_character = QIN_Wang_Shijie
 recruit_character = QIN_Shen_Zhiyue
 
 add_ideas = {
 	#Political
-	tno_political_parties_one_party_state
-	tno_religious_rights_state_religion
+	tno_political_parties_controlled_opposition
+	tno_religious_rights_pluralism
 	tno_trade_unions_state_controlled
 	tno_immigration_open_immigration
 	tno_slavery_corvee
 	tno_public_meetings_regulated
 	tno_press_rights_censored_press
-	tno_vote_franchise_no_voting
+	tno_vote_franchise_elite_voting
+	tno_refugees_skilled
 
 	#Military
-	tno_conscription_service_by_requirement
+	tno_conscription_service_by_requirement 
+	tno_women_combat_roles
 	tno_military_supervision_no_supervision
-	tno_training_combat_schooling
+	tno_training_basic_training
+	tno_racial_integration_integrated_military
 	tno_draft_exemptions_none
 
 	#Economic
@@ -210,39 +225,32 @@ add_ideas = {
 	tno_income_taxation_elite_tax_exemptions
 	tno_minimum_wage_no_minimum_wage
 	tno_max_workhours_unlimited_work_day
+	tno_child_labor_legal
 	tno_pensions_no_pensions
 	tno_unemployment_no_subsidies
 
 	#Social
-	tno_health_care_support_for_emergencies
+	tno_safety_no_regulations
+    tno_health_care_support_for_emergencies
+	tno_pollution_no_controls
 	tno_education_stratified_education
 	tno_penal_system_incarceration
-	tno_gender_rights_traditional_roles
-	tno_security_regulated_police
-	tno_regulations_utterly_unregulated
-
-	#MISC
-	tno_refugees_skilled
-	tno_women_banned
-	tno_racial_integration_none
-	tno_child_labor_legal
-	tno_safety_no_regulations
-	tno_pollution_no_controls
 	tno_lgbt_rights_lgbt_outlawed
-	tno_minorities_oppression
+	tno_gender_rights_traditional_roles
+	tno_minorities_equal_rights
+	tno_security_regulated_police
 
 	#Societal Development
-	tno_army_professionalism_political_interference
+	tno_army_professionalism_disgruntled_veterans
 	tno_industrial_expertise_incompetent
 	tno_industrial_equipment_power_tools
 	tno_agriculture_centralized
-	tno_healthcare_makeshift
+    tno_admin_efficiency_deficient_administrative_systems
 	tno_research_facilities_basic
 	tno_academic_base_mass_illiteracy
-	tno_admin_efficiency_deficient_administrative_systems
-
-	CHI_chinese_warlords
+	
 }
+
 add_ideas = {
 	QIN_Training_Day_and_Night_0
 	QIN_In_the_Mountains
@@ -251,17 +259,15 @@ add_ideas = {
 	QIN_quiet_on_the_plateau
 	QIN_Outdated_research_0
 	QIN_modernisation
-
-
-    QIN_Chiang_Chingkuo_hog
-    QIN_Wang_Shijie_for
-    QIN_Ji_Chaoding_eco
-    QIN_Shen_Zhiyue_sec
+	
+	QIN_Yuan_Shouqian_hog
+	QIN_Chiang_Chingkuo_sec
+	QIN_Zhou_Hongtao_eco
+	QIN_Lei_Zhen_for
 	
 	##LIFAYUAN##
 	QIN_lifayuan_whip_ma_shuli
 	QIN_lifayuan_president_ni_wenya
-	
 }
 
 diplomatic_relation = { country = XIK relation = non_aggression_pact }
@@ -291,6 +297,40 @@ add_dynamic_modifier = {
 	modifier = QIN_modernisation_dynamic_modifier
 }	
 give_guarantee = XIK
+
+set_variable = { QIN_han_province_stability_tick = 2.5 }
+set_variable = { QIN_han_province_tension_tick = 1.25 }
+set_variable = { QIN_minority_province_stability_tick = 5 }
+set_variable = { QIN_minority_province_tension_tick = 2.5 }
+
+set_variable = { QIN_qinghai_stability = 80 }
+set_variable = { QIN_qinghai_ethnic_tension = 10 }
+set_variable = { QIN_yushu_stability = 40 }
+set_variable = { QIN_yushu_ethnic_tension = 30 }
+set_variable = { QIN_tibet_stability = 30 }
+set_variable = { QIN_tibet_ethnic_tension = 50 }
+set_variable = { QIN_kang_stability = 30 }
+set_variable = { QIN_kang_ethnic_tension = 50 }
+set_variable = { QIN_hexi_stability = 30 }
+set_variable = { QIN_hexi_ethnic_tension = 30 }
+set_variable = { QIN_gansu_stability = 50 }
+set_variable = { QIN_gansu_ethnic_tension = 20 }
+set_variable = { QIN_ningxia_stability = 50 }
+set_variable = { QIN_ningxia_ethnic_tension = 20 }
+set_variable = { QIN_nanjiang_stability = 30 }
+set_variable = { QIN_nanjiang_ethnic_tension = 40 }
+set_variable = { QIN_beijiang_stability = 30 }
+set_variable = { QIN_beijiang_ethnic_tension = 20 }
+set_variable = { QIN_hami_stability = 40 }
+set_variable = { QIN_hami_ethnic_tension = 20 }
+set_variable = { QIN_mongolia_stability = 40 }
+set_variable = { QIN_mongolia_ethnic_tension = 30 }
+
+QINSetUpChina = yes
+
+#Set Past Legislation
+QINSetPastLegislations = yes
+
 set_variable = { QIN_modernisation_monthly = 0 }
 set_variable = { QIN_modernisation_offensive = 0 }
 set_variable = { QIN_modernisation_stability = 0 }
@@ -344,7 +384,7 @@ set_variable = {
 }
 add_to_variable = {
     var = QIN_pdp_popularity
-    value = party_popularity@social_democracy
+    value = party_popularity@progressivism
 }
 multiply_variable = {
     var = QIN_pdp_popularity
@@ -368,93 +408,97 @@ multiply_variable = {
     var = QIN_despot_influence
     value = 100
 }
-set_variable = { QIN_paternalist_influence = 0 }
+set_variable = { QIN_authdem_influence = 0 }
 add_to_variable = {
-    var = QIN_paternalist_influence
+    var = QIN_authdem_influence
     value = party_popularity@paternalism
 }
 multiply_variable = {
-    var = QIN_paternalist_influence
+    var = QIN_authdem_influence
     value = 100
 }
 divide_variable = {
-    var = QIN_paternalist_influence
+    var = QIN_authdem_influence
     value = QIN_kuomintang_popularity
 }
 multiply_variable = {
-    var = QIN_paternalist_influence
+    var = QIN_authdem_influence
     value = 100
 }
-set_variable = { QIN_liberal_influence = 0 }
+set_variable = { QIN_libdem_influence = 0 }
 add_to_variable = {
-    var = QIN_liberal_influence
+    var = QIN_libdem_influence
     value = party_popularity@liberalism
 }
 multiply_variable = {
-    var = QIN_liberal_influence
+    var = QIN_libdem_influence
     value = 100
 }
 divide_variable = {
-    var = QIN_liberal_influence
+    var = QIN_libdem_influence
     value = QIN_kuomintang_popularity
 }
 multiply_variable = {
-    var = QIN_liberal_influence
+    var = QIN_libdem_influence
     value = 100
 }
-set_variable = { QIN_conservative_influence = 0 }
+set_variable = { QIN_condem_influence = 0 }
 add_to_variable = {
-    var = QIN_conservative_influence
+    var = QIN_condem_influence
     value = party_popularity@conservatism
 }
 multiply_variable = {
-    var = QIN_conservative_influence
+    var = QIN_condem_influence
     value = 100
 }
 divide_variable = {
-    var = QIN_conservative_influence
+    var = QIN_condem_influence
     value = QIN_kuomintang_popularity
 }
 multiply_variable = {
-    var = QIN_conservative_influence
+    var = QIN_condem_influence
     value = 100
 }
-set_variable = { QIN_communist_influence = 0 }
+set_variable = { QIN_authsoc_influence = 0 }
 add_to_variable = {
-    var = QIN_communist_influence
+    var = QIN_authsoc_influence
     value = party_popularity@communist
 }
 multiply_variable = {
-    var = QIN_communist_influence
+    var = QIN_authsoc_influence
     value = 100
 }
 divide_variable = {
-    var = QIN_communist_influence
+    var = QIN_authsoc_influence
     value = QIN_ccp_popularity
 }
 multiply_variable = {
-    var = QIN_communist_influence
+    var = QIN_authsoc_influence
     value = 100
 }
-set_variable = { QIN_socialist_influence = 0 }
+set_variable = { QIN_libsoc_influence = 0 }
 add_to_variable = {
-    var = QIN_socialist_influence
+    var = QIN_libsoc_influence
     value = party_popularity@socialist
 }
 multiply_variable = {
-    var = QIN_socialist_influence
+    var = QIN_libsoc_influence
     value = 100
 }
 divide_variable = {
-    var = QIN_socialist_influence
+    var = QIN_libsoc_influence
     value = QIN_ccp_popularity
 }
 multiply_variable = {
-    var = QIN_socialist_influence
+    var = QIN_libsoc_influence
     value = 100
 }
+
+
 set_country_flag = president_ni_wenya
 set_country_flag = whip_ma_shuli
+set_country_flag = QIN_Legislation_In_Recess
+set_country_flag = QIN_Legislation_Stage_1
 
 set_variable = { kmt_hardliner_lifayuan_seat = 12 }
 set_variable = { kmt_oldguard_lifayuan_seat = 40 }
@@ -638,57 +682,552 @@ set_variable = {QIN_CCP_PDP_influence = 4 }
 set_variable = {QIN_KMT_PDP_influence = 2 }
 
 set_variable = {QIN_dalai_negotiation = 55 }
-# ECONOMIC LAWS
-set_variable = { tno_trade_laws_effectiveness = 50 }
-set_variable = { tno_income_taxation_effectiveness = 50 }
-set_variable = { tno_minimum_wage_effectiveness = 50 }
-set_variable = { tno_max_workhours_effectiveness = 50 }
-set_variable = { tno_pensions_effectiveness = 50 }
-set_variable = { tno_unemployment_effectiveness = 50 }
-set_variable = { tno_regulations_effectiveness = 50 }
-
-# SOCIAL LAWS
-set_variable = { tno_health_care_effectiveness = 0 }
-set_variable = { tno_education_effectiveness = 50 }
-set_variable = { tno_penal_system_effectiveness = 50 }
-set_variable = { tno_gender_rights_effectiveness = 50 }
-set_variable = { tno_security_effectiveness = 50 }
-
-# POLITICAL LAWS
-set_variable = { tno_political_parties_effectiveness = 50 }
-set_variable = { tno_religious_rights_effectiveness = 50 }
-set_variable = { tno_trade_unions_effectiveness = 50 }
-set_variable = { tno_immigration_effectiveness = 50 }
-set_variable = { tno_slavery_effectiveness = 50 }
-set_variable = { tno_public_meetings_effectiveness = 50 }
-set_variable = { tno_press_rights_effectiveness = 50 }
-set_variable = { tno_vote_franchise_effectiveness = 50 }
-
-# MILITARY LAWS
-set_variable = { tno_conscription_effectiveness = 50 }
-set_variable = { tno_military_supervision_effectiveness = 50 }
-set_variable = { tno_training_effectiveness = 50 }
-set_variable = { tno_draft_exemptions_effectiveness = 50 }
 
 
-add_equipment_to_stockpile = {
-	type = infantry_equipment_2
-	amount = 2500
-	producer = QIN
+###BATTLE FOR GOLMUD - INITIAL VARIABLES###
+##MAJOR VICTORY POINTS##
+add_to_array = { BOG_NEUTRAL = 0 } #Null
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 0 }
+add_to_array = { BOG_CCP = 0 }
+
+add_to_array = { BOG_NEUTRAL = 60 }
+add_to_array = { BOG_QINGHAI = 5 }
+add_to_array = { BOG_NINGXIA = 5 }
+add_to_array = { BOG_KMT = 15 }
+add_to_array = { BOG_CCP = 15 }
+
+add_to_array = { BOG_NEUTRAL = 45 }
+add_to_array = { BOG_QINGHAI = 10 }
+add_to_array = { BOG_NINGXIA = 10 }
+add_to_array = { BOG_KMT = 15 }
+add_to_array = { BOG_CCP = 20 }
+
+add_to_array = { BOG_NEUTRAL = 45 }
+add_to_array = { BOG_QINGHAI = 5 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 0 }
+add_to_array = { BOG_CCP = 50 }
+
+add_to_array = { BOG_NEUTRAL = 45 }
+add_to_array = { BOG_QINGHAI = 5 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 50 }
+add_to_array = { BOG_CCP = 0 }
+
+add_to_array = { BOG_NEUTRAL = 70 }
+add_to_array = { BOG_QINGHAI = 5 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 25 }
+add_to_array = { BOG_CCP = 0 }
+
+add_to_array = { BOG_NEUTRAL = 30 }
+add_to_array = { BOG_QINGHAI = 20 }
+add_to_array = { BOG_NINGXIA = 5 }
+add_to_array = { BOG_KMT = 30 }
+add_to_array = { BOG_CCP = 15 }
+
+add_to_array = { BOG_NEUTRAL = 55 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 40 }
+add_to_array = { BOG_CCP = 5 }
+
+add_to_array = { BOG_NEUTRAL = 65 }
+add_to_array = { BOG_QINGHAI = 10 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 15 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 0 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 65 }
+add_to_array = { BOG_CCP = 35 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 70 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 0 }
+add_to_array = { BOG_CCP = 30 }
+
+add_to_array = { BOG_NEUTRAL = 55 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 5 }
+add_to_array = { BOG_KMT = 30 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 60 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 10 }
+add_to_array = { BOG_KMT = 5 }
+add_to_array = { BOG_CCP = 25 }
+
+add_to_array = { BOG_NEUTRAL = 0 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 100 }
+add_to_array = { BOG_KMT = 0 }
+add_to_array = { BOG_CCP = 0 }
+##MINOR VICTORY POINTS##
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 50 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 30 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 0 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 100 }
+add_to_array = { BOG_KMT = 0 }
+add_to_array = { BOG_CCP = 0 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 60 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 30 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 80 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 0 }
+add_to_array = { BOG_KMT = 10 }
+add_to_array = { BOG_CCP = 10 }
+
+add_to_array = { BOG_NEUTRAL = 0 }
+add_to_array = { BOG_QINGHAI = 0 }
+add_to_array = { BOG_NINGXIA = 100 }
+add_to_array = { BOG_KMT = 0 }
+add_to_array = { BOG_CCP = 0 }
+
+##OPENING FORCES##
+add_to_array = { BOG_STRENGTH_ALLIED = 0 } #Null
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 375 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 3000 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+add_to_array = { BOG_STRENGTH_ALLIED = 0 }
+add_to_array = { BOG_STRENGTH_NINGXIA = 0 }
+
+set_variable = {QIN_BOG_Deploy_Count = 0 }
+
+QINGolmudTotalBar = yes
+
+add_to_array = { BOG_Advantage = 0 } #Null
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 15 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 25 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 20 }
+add_to_array = { BOG_Advantage = 20 }
+add_to_array = { BOG_Advantage = 40 }
+add_to_array = { BOG_Advantage = 15 }
+add_to_array = { BOG_Advantage = 20 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 20 }
+add_to_array = { BOG_Advantage = 50 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 15 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 15 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 25 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 5 }
+add_to_array = { BOG_Advantage = 20 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 15 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 25 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 10 }
+add_to_array = { BOG_Advantage = 15 }
+add_to_array = { BOG_Advantage = 25 }
+
+add_to_array = { BOG_Tension = 0 } #Null
+add_to_array = { BOG_Tension = 70 }
+add_to_array = { BOG_Tension = 50 }
+add_to_array = { BOG_Tension = 60 }
+add_to_array = { BOG_Tension = 60 }
+add_to_array = { BOG_Tension = 80 }
+add_to_array = { BOG_Tension = 70 }
+add_to_array = { BOG_Tension = 80 }
+add_to_array = { BOG_Tension = 80 }
+add_to_array = { BOG_Tension = 100 }
+add_to_array = { BOG_Tension = 50 }
+add_to_array = { BOG_Tension = 50 }
+add_to_array = { BOG_Tension = 60 }
+add_to_array = { BOG_Tension = 50 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 90 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 65 }
+add_to_array = { BOG_Tension = 20 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 90 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 30 }
+add_to_array = { BOG_Tension = 30 }
+add_to_array = { BOG_Tension = 30 }
+add_to_array = { BOG_Tension = 65 }
+add_to_array = { BOG_Tension = 55 }
+add_to_array = { BOG_Tension = 53 }
+add_to_array = { BOG_Tension = 0 }
+add_to_array = { BOG_Tension = 0 }
+
+#set_variable = { QIN_BOG_01_Tension = 70 }
+#set_variable = { QIN_BOG_02_Tension = 50 }
+#set_variable = { QIN_BOG_03_Tension = 60 }
+#set_variable = { QIN_BOG_04_Tension = 60 }
+#set_variable = { QIN_BOG_05_Tension = 80 }
+#set_variable = { QIN_BOG_06_Tension = 70 }
+#set_variable = { QIN_BOG_07_Tension = 80 }
+#set_variable = { QIN_BOG_08_Tension = 80 }
+#set_variable = { QIN_BOG_09_Tension = 100 }
+#set_variable = { QIN_BOG_10_Tension = 50 }
+#set_variable = { QIN_BOG_11_Tension = 50 }
+#set_variable = { QIN_BOG_12_Tension = 60 }
+#set_variable = { QIN_BOG_13_Tension = 50 }
+#set_variable = { QIN_BOG_14_Tension = 0 }
+#set_variable = { QIN_BOG_15_Tension = 90 }
+#set_variable = { QIN_BOG_16_Tension = 0 }
+#set_variable = { QIN_BOG_17_Tension = 0 }
+#set_variable = { QIN_BOG_18_Tension = 65 }
+#set_variable = { QIN_BOG_19_Tension = 20 }
+#set_variable = { QIN_BOG_20_Tension = 0 }
+#set_variable = { QIN_BOG_21_Tension = 0 }
+#set_variable = { QIN_BOG_22_Tension = 0 }
+#set_variable = { QIN_BOG_23_Tension = 0 }
+#set_variable = { QIN_BOG_24_Tension = 0 }
+#set_variable = { QIN_BOG_25_Tension = 90 }
+#set_variable = { QIN_BOG_26_Tension = 0 }
+#set_variable = { QIN_BOG_27_Tension = 0 }
+#set_variable = { QIN_BOG_28_Tension = 0 }
+#set_variable = { QIN_BOG_29_Tension = 0 }
+#set_variable = { QIN_BOG_30_Tension = 0 }
+#set_variable = { QIN_BOG_31_Tension = 0 }
+#set_variable = { QIN_BOG_32_Tension = 0 }
+#set_variable = { QIN_BOG_33_Tension = 30 }
+#set_variable = { QIN_BOG_34_Tension = 30 }
+#set_variable = { QIN_BOG_35_Tension = 30 }
+#set_variable = { QIN_BOG_36_Tension = 65 }
+#set_variable = { QIN_BOG_37_Tension = 55 }
+#set_variable = { QIN_BOG_38_Tension = 53 }
+#set_variable = { QIN_BOG_39_Tension = 0 }
+#set_variable = { QIN_BOG_40_Tension = 0 }
+
+set_variable = { CCP_People_Support = 30 }
+set_variable = { CCP_Party_Support = 30 }
+set_variable = { CCP_Outsider_Support = 30 }
+set_variable = { KMT_Chen_Support = 28 }
+set_variable = { KMT_Wang_Support = 37 }
+set_variable = { KMT_Chiang_Support = 55 }
+set_variable = { CCP_PC = 50 }
+set_variable = { KMT_Proposals = 4 }
+
+set_variable = { KMT_Meeting_Total = 0 }
+add_to_variable = { KMT_Meeting_Total = KMT_Chen_Support }
+add_to_variable = { KMT_Meeting_Total = KMT_Wang_Support }
+add_to_variable = { KMT_Meeting_Total = KMT_Chiang_Support }
+set_variable = { KMT_Meeting_Proportion_ZXX = KMT_Wang_Support }
+set_variable = { KMT_Meeting_Proportion_NXS = KMT_Chen_Support }
+set_variable = { KMT_Meeting_Proportion_CCK = KMT_Chiang_Support }
+
+divide_variable = {
+    var = KMT_Meeting_Proportion_ZXX
+    value = KMT_Meeting_Total
 }
-add_equipment_to_stockpile = {
-	type = artillery_equipment_2
-	amount = 1250
-	producer = QIN
+multiply_variable = {
+    var = KMT_Meeting_Proportion_ZXX
+    value = 100
 }
-add_equipment_to_stockpile = {
-	type = support_equipment_1
-	amount = 1000
-	producer = QIN
+round_variable = KMT_Meeting_Proportion_ZXX
+divide_variable = {
+    var = KMT_Meeting_Proportion_NXS
+    value = KMT_Meeting_Total
 }
-add_equipment_to_stockpile = {
-	type = anti_tank_equipment_1
-	amount = 1000
-	producer = QIN
+multiply_variable = {
+    var = KMT_Meeting_Proportion_NXS
+    value = 100
 }
+round_variable = KMT_Meeting_Proportion_NXS
+divide_variable = {
+    var = KMT_Meeting_Proportion_CCK
+    value = KMT_Meeting_Total
+}
+multiply_variable = {
+    var = KMT_Meeting_Proportion_CCK
+    value = 100
+}
+round_variable = KMT_Meeting_Proportion_CCK
 
+QINSetupMapMode = yes 

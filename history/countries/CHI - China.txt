@@ -29,12 +29,15 @@ recruit_character = CHI_xiao_shuxuan
 recruit_character = CHI_dissidents
 recruit_character = CHI_Bao_Wenyue
 recruit_character = CHI_Ye_Peng
+recruit_character = CHI_Bao_Wenyue
+recruit_character = CHI_Ye_Peng
 recruit_character = CHI_Fu_Shuangying
 recruit_character = CHI_peng_mengji
 recruit_character = CHI_chen_daqing
 recruit_character = CHI_sun_dianying
 recruit_character = CHI_luo_benli
 recruit_character = CHI_pang_bingxun
+
  set_technology = {
 	basic_train = 1
 
@@ -310,16 +313,16 @@ if = {
 		NOT = { has_dlc = "No Step Back" }
 	}
 	set_technology = {
-		APC_1945 = 1
+		mechanised_infantry3 = 1
 		APC_1950 = 1
 		APC_1960 = 1
-		IFV_1945 = 1
+		advanced_light_tank = 1
 		IFV_1950 = 1
-		MBT_1945 = 1
+		advanced_medium_tank = 1
 
 		Heavy_1945 = 1
 
-		artillery_1945 = 1
+		artillery4 = 1
 	}
 }
 if = {
@@ -403,12 +406,16 @@ set_autonomy = {
 	autonomous_state = autonomy_china_warlord_regime
 }
 set_autonomy = {
+	target = SIC
+	autonomous_state = autonomy_china_warlord_regime
+}
+set_autonomy = {
 	target = YUN
 	autonomous_state = autonomy_china_warlord_regime
 }
 set_autonomy = {
 	target = MEN
-	autonomous_state = autonomy_china_warlord_regime
+	autonomous_state = autonomy_china_warlord_regime #autonomy_satellite
 }
 
 
@@ -530,7 +537,10 @@ set_variable = { TNO_economy_subtype = token:Econ_Subtype_Dirigisme }
 # LAR #
 if = {
 	limit = { has_dlc = "La Resistance" }
-	create_intelligence_agency = yes
+	create_intelligence_agency = {
+		name = "Zhongzhiwei Tegong Zongbu"
+		icon = "GFX_intelligence_agency_logo_chi"
+	}
 }
 
 # NSB #

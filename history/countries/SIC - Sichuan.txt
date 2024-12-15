@@ -1,18 +1,23 @@
-capital = 605
+﻿capital = 605
 
 # Vacant
-recruit_character = SIC_Generic_Vacant
-recruit_character = SIC_Takashina_Takehiko
-fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+recruit_character = SIC_he_guoguang
+recruit_character = SIC_xiong_kewu
+recruit_character = SIC_pan_wenhua
+recruit_character = SIC_liu_hangchen
+recruit_character = SIC_deng_xihou
 
-set_variable = { chi_influence = 0 }
+TNO_startup_nation = yes
+set_country_flag = country_has_gui
 
 oob = "SIC_1962"
+
+set_country_flag = tmm_cost_1
 
 set_technology = {
 	basic_train = 1
 
-
+    artillery4= 1
 	##INFANTRY##
 	# infantry_equipment_0 = 1
 	infantry_weapons_1 = 1
@@ -55,9 +60,9 @@ set_technology = {
 	tech_signal_company2 = 1
 
 	##ARMOR##
-	APC_1945 = 1
-	IFV_1945 = 1
-	MBT_1945 = 1
+	mechanised_infantry3 = 1
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
 
 	##HELICOPTERS##
 	helicopter_engines = 1
@@ -109,28 +114,28 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = despotism
-	last_election = "1960.11.11"
-	election_frequency = 36
-	elections_allowed = no
+    ruling_party = fascism
+    last_election = "1960.11.11"
+    election_frequency = 36
+    elections_allowed = no
 }
 
 set_popularities = {
-	communist = 15
-	ultranationalism = 12
+	communist = 1
+	ultranationalism = 0
 	socialist = 0
-	progressivism = 0
-	liberalism = 0
-	conservatism = 0
-	paternalism = 8
-	despotism = 65
-	fascism = 0
+	progressivism = 5
+	liberalism = 2
+	conservatism = 1
+	paternalism = 24
+	despotism = 52
+	fascism = 15
 	national_socialism = 0
-	
+    esoteric_nazism = 0
+    
 }
 
 add_ideas = {
-	Sphere_Imp_Protectorate
 	#Political
 	tno_political_parties_one_party_state
 	tno_religious_rights_secularism
@@ -140,11 +145,14 @@ add_ideas = {
 	tno_public_meetings_regulated
 	tno_press_rights_censored_press
 	tno_vote_franchise_no_voting
+	tno_refugees_skilled
 
 	#Military
-	tno_conscription_disarmed_nation
+	tno_conscription_volunteer_only
+	tno_women_banned
 	tno_military_supervision_no_supervision
 	tno_training_basic_training
+	tno_racial_integration_none
 	tno_draft_exemptions_none
 
 	#Economic
@@ -152,57 +160,68 @@ add_ideas = {
 	tno_income_taxation_elite_tax_exemptions
 	tno_minimum_wage_no_minimum_wage
 	tno_max_workhours_unlimited_work_day
+	tno_child_labor_legal
 	tno_pensions_no_pensions
 	tno_unemployment_no_subsidies
 
 	#Social
-	tno_health_care_no_government_support
+	tno_safety_no_regulations
+    tno_health_care_support_for_emergencies
+	tno_pollution_no_controls
 	tno_education_stratified_education
 	tno_penal_system_incarceration
-	tno_gender_rights_traditional_roles
-	tno_security_regulated_police
-	tno_regulations_utterly_unregulated
-
-	#Misc
-	tno_refugees_skilled
-	tno_women_banned
-	tno_racial_integration_none
-	tno_child_labor_legal
-	tno_safety_no_regulations
-	tno_pollution_no_controls
 	tno_lgbt_rights_lgbt_outlawed
+	tno_gender_rights_traditional_roles
 	tno_minorities_oppression
+	tno_security_regulated_police
 
 	#Societal Development
 	tno_army_professionalism_reluctant_conscripts
 	tno_industrial_expertise_incompetent
 	tno_industrial_equipment_power_tools
-	tno_healthcare_makeshift
 	tno_agriculture_centralized
+    tno_admin_efficiency_deficient_administrative_systems
 	tno_research_facilities_basic
 	tno_academic_base_mass_illiteracy
-	tno_admin_efficiency_deficient_administrative_systems
 
-	#Sphere Status
-	Sphere_Chinese_Warlord
+    #Sphere Status
+    Sphere_Economic_Dependent
+
+    SIC_special_status_sichuan
+    SIC_thirty_years_of_nightmares
+    SIC_new_oligarch_caste
+    SIC_sichuanese_serfdom
+    SIC_fortress_world_sichuan
+    SIC_sichuan_social_movement_2
+
+    SIC_Deng_Xihou_hog
+    SIC_Xiong_Kewu_for
+    SIC_Liu_Hangchen_eco
+    SIC_Pan_Wenhua_sec
 }
 
 set_country_flag = tno_defined_startup_effectiveness
+
+set_variable = { tno_health_care_effectiveness = 0 }
 
 # ECONOMIC LAWS
 set_variable = { tno_trade_laws_effectiveness = 50 }
 set_variable = { tno_income_taxation_effectiveness = 50 }
 set_variable = { tno_minimum_wage_effectiveness = 50 }
 set_variable = { tno_max_workhours_effectiveness = 50 }
+set_variable = { tno_child_labor_effectiveness = 50 }
 set_variable = { tno_pensions_effectiveness = 50 }
 set_variable = { tno_unemployment_effectiveness = 50 }
-set_variable = { tno_regulations_effectiveness = 50 }
 
 # SOCIAL LAWS
+set_variable = { tno_safety_effectiveness = 50 }
 set_variable = { tno_health_care_effectiveness = 0 }
+set_variable = { tno_pollution_effectiveness = 50 }
 set_variable = { tno_education_effectiveness = 50 }
 set_variable = { tno_penal_system_effectiveness = 50 }
+set_variable = { tno_lgbt_rights_effectiveness = 50 }
 set_variable = { tno_gender_rights_effectiveness = 50 }
+set_variable = { tno_minorities_effectiveness = 50 }
 set_variable = { tno_security_effectiveness = 50 }
 
 # POLITICAL LAWS
@@ -214,11 +233,14 @@ set_variable = { tno_slavery_effectiveness = 50 }
 set_variable = { tno_public_meetings_effectiveness = 50 }
 set_variable = { tno_press_rights_effectiveness = 50 }
 set_variable = { tno_vote_franchise_effectiveness = 50 }
+set_variable = { tno_refugees_effectiveness = 50 }
 
 # MILITARY LAWS
 set_variable = { tno_conscription_effectiveness = 50 }
+set_variable = { tno_women_effectiveness = 50 }
 set_variable = { tno_military_supervision_effectiveness = 50 }
 set_variable = { tno_training_effectiveness = 50 }
+set_variable = { tno_racial_integration_effectiveness = 50 }
 set_variable = { tno_draft_exemptions_effectiveness = 50 }
 
-TNO_startup_nation = yes
+TNO_startup_nation = yes 
