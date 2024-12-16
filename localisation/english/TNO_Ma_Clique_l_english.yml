@@ -1,6 +1,129 @@
 ﻿l_english:
  QIN_THENEWORDER_DESC:0 "Amidst a sea of hopelessess, Qinghai Province stands firm with the Free Chinese as the last bastion of Three Principles of the People and a China long gone. Ma Jiyuan, once just a general like any other warlords of the Republic now find his petty Qinghai suddenly the centre of the Resistance. However, there is a good reason why Ma never aspired to those goals of retaking the East. Stranded in an impoverished, illiterate and nomad province and drowning in internal disputes, Ma's situation is dire. But just like the Chinese word for crisis, in grave danger there are always oppertunities. Ma cannot afford a single failure, for himself, for his family, for the people. \n\nFor all of China."
 
+ QIN_paternalism:0 "Qinghai Province"
+ QIN_paternalism_DEF:0 "The Northwest Military Government"
+ QIN_paternalism_ADJ:0 "Chinese"
+
+ QIN_conservatism:0 "Qinghai Province"
+ QIN_conservatism_DEF:0 "The Northwest Military Government"
+ QIN_conservatism_ADJ:0 "Chinese"
+ 
+ QIN_liberalism:0 "Qinghai Province"
+ QIN_liberalism_DEF:0 "The Northwest Military Government"
+ QIN_liberalism_ADJ:0 "Chinese"
+
+ QIN_socialist:0 "Qinghai Base Area"
+ QIN_socialist_DEF:0 "People's Republic of China"
+ QIN_socialist_ADJ:0 "Chinese"
+
+ QIN_liberal_conservatism:0 "Qinghai Province"
+ QIN_liberal_conservatism_DEF:0 "The Northwest Military Government"
+ QIN_liberal_conservatism_ADJ:0 "Chinese"
+ 
+ QIN_communist:0 "Qinghai Base Area"
+ QIN_communist_DEF:0 "People's Republic of China"
+ QIN_communist_ADJ:0 "Chinese"
+ 
+ QIN_progressivism:0 "Qinghai Province"
+ QIN_progressivism_DEF:0 "The Northwest Military Government"
+ QIN_progressivism_ADJ:0 "Chinese"
+ 
+ QIN_fascism:0 "Qinghai Province"
+ QIN_fascism_DEF:0 "The Northwest Military Government"
+ QIN_fascism_ADJ:0 "Chinese"
+ 
+ QIN_despotism:0 "Qinghai Province"
+ QIN_despotism_DEF:0 "The Northwest Military Government"
+ QIN_despotism_ADJ:0 "Chinese"
+
+ Northwest_paternalism:0 "Northwest Government"
+ Northwest_paternalism_DEF:0 "The Northwest Military Government"
+ Northwest_paternalism_ADJ:0 "Chinese"
+
+ Northwest_conservatism:0 "Northwest Government"
+ Northwest_conservatism_DEF:0 "The Northwest Military Government"
+ Northwest_conservatism_ADJ:0 "Chinese"
+
+ Northwest_liberal_conservatism:0 "Northwest Government"
+ Northwest_liberal_conservatism_DEF:0 "The Northwest Military Government"
+ Northwest_liberal_conservatism_ADJ:0 "Chinese"
+ 
+ Northwest_liberalism:0 "Northwest Government"
+ Northwest_liberalism_DEF:0 "The Northwest Military Government"
+ Northwest_liberalism_ADJ:0 "Chinese"
+
+ Northwest_socialist:0 "Northwest Government"
+ Northwest_socialist_DEF:0 "People's Republic of China"
+ Northwest_socialist_ADJ:0 "Chinese"
+ 
+ Northwest_communist:0 "Northwest Government"
+ Northwest_communist_DEF:0 "People's Republic of China"
+ Northwest_communist_ADJ:0 "Chinese"
+ 
+ Northwest_progressivism:0 "Northwest Government"
+ Northwest_progressivism_DEF:0 "The Northwest Military Government"
+ Northwest_progressivism_ADJ:0 "Chinese"
+ 
+ Northwest_fascism:0 "Northwest Government"
+ Northwest_fascism_DEF:0 "The Northwest Military Government"
+ Northwest_fascism_ADJ:0 "Chinese"
+ 
+ Northwest_despotism:0 "Northwest Government"
+ Northwest_despotism_DEF:0 "The Northwest Military Government"
+ Northwest_despotism_ADJ:0 "Chinese"
+
+ civilian_paternalism:0 "Republic of China"
+ civilian_paternalism_DEF:0 "The Republic of China"
+ civilian_paternalism_ADJ:0 "Chinese"
+
+ civilian_conservatism:0 "Republic of China"
+ civilian_conservatism_DEF:0 "The Republic of China"
+ civilian_conservatism_ADJ:0 "Chinese"
+
+ civilian_liberal_conservatism:0 "Republic of China"
+ civilian_liberal_conservatism_DEF:0 "The Republic of China"
+ civilian_liberal_conservatism_ADJ:0 "Chinese"
+ 
+ civilian_liberalism:0 "Republic of China"
+ civilian_liberalism_DEF:0 "The Republic of China"
+ civilian_liberalism_ADJ:0 "Chinese"
+
+ civilian_socialist:0 "Republic of China"
+ civilian_socialist_DEF:0 "People's Republic of China"
+ civilian_socialist_ADJ:0 "Chinese"
+ 
+ civilian_communist:0 "Republic of China"
+ civilian_communist_DEF:0 "People's Republic of China"
+ civilian_communist_ADJ:0 "Chinese"
+ 
+ civilian_progressivism:0 "Republic of China"
+ civilian_progressivism_DEF:0 "The Republic of China"
+ civilian_progressivism_ADJ:0 "Chinese"
+ 
+ civilian_fascism:0 "Republic of China"
+ civilian_fascism_DEF:0 "The Republic of China"
+ civilian_fascism_ADJ:0 "Chinese"
+ 
+ civilian_despotism:0 "Republic of China"
+ civilian_despotism_DEF:0 "The Republic of China"
+ civilian_despotism_ADJ:0 "Chinese"
+
+ QIN_conservatism_party:0 "KMT - Right"
+ QIN_conservatism_party_long:0 "Kuomintang Section of Political Science - Zhang Clique"
+ QIN_liberal_conservatism_party_long:0 "Kuomintang Section of Political Science - Wang Clique"
+ QIN_liberal_conservatism_party:0 "KMT - Political Science Clique"
+ QIN_liberalism_party:0 "KMT - ZhengXuePai"
+ QIN_liberalism_party_long:0 "Kuomintang Section of Political Science"
+ QIN_progressivism_party:0 "CALPC"
+ QIN_progressivism_party_long:0 "Committee of Action for the Liberation of the Peoples of China"
+ QIN_progressivism_party_unified:0 "CPWDP"
+ QIN_progressivism_party_unified_long:0 "Chinese Peasants' and Workers' Democratic Party"
+ QIN_socialist_party:0 "CCP (R)"
+ QIN_socialist_party_long:0 "Chinese Communist Party (Right)"
+ QIN_communist_party:0 "CCP (L)"
+ QIN_communist_party_long:0 "Chinese Communist Party (Left)"
+
  ###BOG EVENT TEXTS###
 
  BOG_Victory_text:0 "Though our enemies are fierce and well trained, careful planning and coordinated strikes carried the day. With mutineers fleeing in dishonour and shame, [getEventNodeName] has been liberated by advancing Golmud militia with minimal casualty, who are already clearing the area house by house, rounding up suspects, and establishing barricades to fend off potential counterattacks. The people vividly cheer for our troops as they march in open streets relatively unscathed, showcasing our ability to overcome any challenge. [getEventNodeName] is now under coalition control.\n\nIn the recently concluded battle, [?attacker_damage_taken] NRA troops were made casualty, while Ningxia rebels lost [?defender_damage_taken] men, either captured, maimed or killed."
@@ -28,7 +151,7 @@
 
  ###CUSTOM TOOLTIPS###
 
- 
+
  QIN_literacy_issue_tt:0 "§YWe will start addressing the ongoing issue of illiteracy in Qinghai. \n\nNotice this modifier on research speed may decrease if domestic situation changes!§!"
  QIN_food_problem_tt:0 "§YFeeding our men and women is a top priority if we are to strech ourselves in the region. It is recommended to improve food security before selecting literacy foci.§!"
  QIN_literacy_low_tt:0 "Our literacy issue will §Gslowly improve§!, though additional policies and fundings in the future would be needed to consolidate literacy."
@@ -177,9 +300,6 @@
  QIN_deputy_head_an_ziwen_tt:0 "§YLet's go with An Ziwen's plan.§!"
  QIN_secretary_liu_lantao_tt:0 "§YLet's see what can Liu Lantao do.§!"
  QIN_Bog_Over_tt:0 "§YUnlocks new focus trees...§!"
- QIN_one_cannot_be_too_prepared_tt:0 "§GMobilises a reservist infantry division in Xining§!"
- QIN_the_gansu_war_tt:0 "§RThere Will Be Blood§!."
-
  ## COUNTRY NAME ##
  
  QIN_socialism:0 "Qinghai Base Area"
@@ -188,7 +308,7 @@
  QIN_communism:0 "Qinghai Base Area"
  QIN_communism_DEF:0 "Qinghai Base Area"
  QIN_communism_ADJ:0 "Chinese"
- QIN_CCW:0 "Chinese Civil War"
+ 
  
  ### POLITICAL STUFF ###
  
@@ -208,6 +328,8 @@
 
  QIN_conservatism_party:0 "KMT - Right"
  QIN_conservatism_party_long:0 "Kuomintang Section of Political Science - Zhang Clique"
+ QIN_conservatism_party:0 "KMT - ZhengXuePai"
+ QIN_conservatism_party_long:0 "Kuomintang Section of Political Science"
  QIN_liberalism_party:0 "KMT - ZhengXuePai"
  QIN_liberalism_party_long:0 "Kuomintang Section of Political Science"
  QIN_progressivism_party:0 "CALPC"
@@ -233,6 +355,8 @@
 
  Northwest_conservatism_party:0 "KMT - Right"
  Northwest_conservatism_party_long:0 "Kuomintang Neo-Xishan Group"
+ Northwest_liberal_conservatism_party:0 "KMT - ZhengXuePai"
+ Northwest_liberal_conservatism_party_long:0 "Kuomintang Section of Political Science"
  Northwest_liberalism_party:0 "KMT - ZhengXuePai"
  Northwest_liberalism_party_long:0 "Kuomintang Section of Political Science"
  Northwest_progressivism_party:0 "CALPC"
@@ -254,9 +378,6 @@
 
  QIN_In_the_Mountains:0 "In the Mountains"
  QIN_In_the_Mountains_desc:0 "Fearless are the Free Chinese who survive among the great Qilian Mountains. Resourceful are the men who restlessly patrol the borderless Qaidam. Qinghai's harsh environment offers the inhabitants no mercy, yet it is also a fertile cradle of resilient troops. Decades of conflict hardened the exiles and equipped them with the necessary knowledge to fight efficiently in various terrains."
-
- QIN_In_the_Mountains_2:0 "In the Mountains"
- QIN_In_the_Mountains_2_desc:0 "Fearless are the Free Chinese who survive among the great Qilian Mountains. Resourceful are the men who restlessly patrol the borderless Qaidam. Qinghai's harsh environment offers the inhabitants no mercy, yet it is also a fertile cradle of resilient troops. Decades of conflict hardened the exiles and equipped them with the necessary knowledge to fight efficiently in various terrains."
  
  QIN_Muslim_Superiority:0 "Issue of the Hui"
  QIN_Muslim_Superiority_desc:0 "Qinghai is not necessarily dominated by followers of the Prophet. Instead, it is a land of great religious diversity since the middle ages, with Taoists, Buddhists and Muslims that coexisted largely peacefully save for temporary upheavals. During the Tongzhi rebellion, the Hui (Ethnic and cultural Chinese who follow Islam) generals of Ma Zhan'Ao and Ma Haiyan established control over Qinghai, Ningxia and Gansu through defecting to the Qing. \n\nAlmost a century has passed since Muslim Hui generals and his men on horses proclaimed lordship over these lands, but it is more fractured than ever. Chinese refugee influx during the 1940s and 50s has changed local demographics significantly, creating tensions. \n\nIn addition, having fought the Japanese years after years for a people from distancing provinces, the largely Muslim cavalry of Ma Clique is growing ever wary of their unequal contribution and is questioning if the blood they shed was worth it..."
@@ -285,12 +406,6 @@
  
  QIN_modernisation:0 "Modernisation Efforts"
  QIN_modernisation_desc:0 "Northwestern China is some of the poorest places in the world, contrasting sharply with the great natural resources the land possesses. If we are able to §Genact modernisation in our territories§!, a Free China can reap the benefits of our advance into the East. \n§YWar support§!: §G+[?QIN_modernisation_war]§!\n§YOffensive war support modifier§!: §G+[?QIN_modernisation_offensive]§!\n§YStability§!: §G+[?QIN_modernisation_stability]§!\n§YMonthly population§!: §G+[?QIN_modernisation_monthly]§!\n£production_units_texticon §YFree Production Units§!: §G[?QIN_pu_modifier]§!"
-
- QIN_Fortification_1:0 "Digging In"
- QIN_Fortification_1_desc:0 "To survive the Japanese onslaught, we must mobilise every single member of our society and every apparatus of the state for a unified cause. Men, women and children must know bombs know no international conventions, and it would be their duty to learn, survive and prosper."
-
- QIN_Fortification_2:0 "Digging In"
- QIN_Fortification_2_desc:0 "To survive the Japanese onslaught, we must mobilise every single member of our society and every apparatus of the state for a unified cause. Men, women and children must know bombs know no international conventions, and it would be their duty to learn, survive and prosper."
  
  QIN_trade_with_india:0 "China-India Free Trade"
  
@@ -946,36 +1061,6 @@
  calculate_as_if_your_life_depends_on_it_desc:0 ""
  the_gansu_war:0 "§RThe Gansu-Ningxia Offensive§!"
  the_gansu_war_desc:0 ""
- QIN_endure_their_horde:0 "Endure Their Hordes"
- QIN_endure_their_horde_desc:0 ""
- QIN_instigate_uprisings:0 "Instigate Uprisings"
- QIN_instigate_uprisings_desc:0 ""
- QIN_ruin_the_railway:0 "Ruin the Railway"
- QIN_ruin_the_railway_desc:0 ""
- QIN_utilise_shaanxi:0 "Utilise Shaanxi"
- QIN_utilise_shaanxi_desc:0 ""
- QIN_their_supply_in_shambles:0 "Their Supply in Shambles"
- QIN_their_supply_in_shambles_desc:0 ""
- QIN_defend_xining_to_death:0 "Defend Xining to Death!"
- QIN_defend_xining_to_death_desc:0 ""
- QIN_fire_up_nationalism:0 "Fire Up Nationalism"
- QIN_fire_up_nationalism_desc:0 ""
- QIN_strategic_defence_in_qilian:0 "Strategic Defense in Qilian"
- QIN_strategic_defence_in_qilian_desc:0 ""
- QIN_throw_them_off_balance:0 "Throw Them Off Balance"
- QIN_throw_them_off_balance_desc:0 ""
- QIN_victory_is_non_negotiable:0 "§RVictory is Non-Negotiable!§!"
- QIN_victory_is_non_negotiable_desc:0 "" 
- QIN_put_infrastructure_back_to_working_order:0 "Put Infrastructure Back to Working Order"
- QIN_put_infrastructure_back_to_working_order_desc:0 ""
- QIN_standarise_the_gauge:0 "Standarise the Gauge"
- QIN_standarise_the_gauge_desc:0 ""
- QIN_the_lanzhou_trials:0 "Lanzhou Trials"
- QIN_the_lanzhou_trials_desc:0 ""
- QIN_staff_the_new_borders:0 "Staff the New Borders"
- QIN_staff_the_new_borders_desc:0 ""
- QIN_our_next_focus:0 "Our Next Focus"
- QIN_our_next_focus_desc:0 ""
 
 
  ### EVENTS ###
@@ -1109,9 +1194,3 @@
  tmm.maclique.111.d:0 "Reportee: Wang Yaozu, Lieutenant, 84th Division\nReport Date: D+13\n\nOn D+13, Elements of the 26th Infantry Company (Note: For external press, please refer to the unit as 'Certain elements of the 84th Division') stationed in northern Golmud conducted mopping operations against remnants of Ningxia traitor hideouts. Surveillance was placed onto suspected holdouts by elements of the NSB under command of Lieutenant Colonel |REDACTED|. Reconnaissance conducted five days prior to the assault, confirming previously held suspicions.\n\n8th Section engaged suspected enemy position with rifle grenades, immediately following a charge against suspected enemy positions. Ningxia rebels opened fire, causing two (2) riflemen to be shot in the groin (1 heavily wounded, still in dangerous condition) and one (1) in the right arm joint. Section commander and submachine gun gunner however successfully counter-suppressed enemy fire, killing four (4) rebels and wounding one (1). Three (3) enemies were bayoneted by charging 7th Section in ensuing close quarter combat. \n\n1st Section was the most successful, due to them being almost solely armed with handguns and submachine guns. In a roughly 15 minute skirmish, the section suffered only one (1) injured, which in turn incurred five (5) casualties amongst the enemy, two (2) of which were mortally wounded. In future operations, an additional allocation of close-quartered weaponry should be permitted, and personnel should be trained with such weaponry in tight corridors to prepare for future engagements. Before reconstruction, it is ideal to use ruined structures as training ground.\n\nIn total four (4) enemies were wounded, and 9 (nine) were killed. Additional ten (10) rebel forces surrendered upon complete encirclement.\n\nExtraneous incident: Private Ma Fuguo of the 1st section discovered a (1) boy stuck in a collapsed building. Private Ma rescued said boy and was shot in the chest while it was being undertaken. Both are in stable condition and have been hurried into field hospitals."
 
  tmm.maclique.66.d:0 "The war has finally ended. Although a few dozen are still on the run, the majority of enemy forces have been annihilated. In a climactic ending, an artillery shell landing in a makeshift munition depot within the Northern Barrack brought a quarter of the installation to utter ruination, with Ma Dunjing himself reduced to atoms. With the rebels put down, proscription of Ma Clique leaders, their families and rebelling soldiers are being carried out with brutal efficiency. Within three days, the Ma Clique ceased to be an effective combat force.\n\nHowever, with the common enemy gone, whether the United Front can survive is no longer a question. It is only a question of time."
-
- tmm.maclique.115.d:0 "With winter behind us now, the Legislative Yuan is resuming its function. Already legislations are being put forward, and the usual hot political debates return swiftly."
- tmm.maclique.116.d:0 "After half a year of activity, the Legislative Yuan shall be giving legislative representatives a month of holiday. All meetings are now adjourned till September, though in emergent situations the Yuan can still summon the representatives for important discussions."
- tmm.maclique.117.d:0 "After the August recess, all legislative businesses have resumed, and the Yuan would carry out its routine till November, at which time the winter recess takes place."
- tmm.maclique.118.d:0 "With the insufferable Northwestern winter approaching, the Legislative Yuan will put aside most tasks and allow government officials a break to be with their family. Of course, should a state emergency rock the Republic, we can arrange an ad hoc session of the Legislative Yuan should we need it. Otherwise, all businesses will resume by February."
- tmm.maclique.119.d:0 "The Executive Yuan has finished all appointed tasks. Already we can see significant improvement in our backwards nation. Modernisation penetrates deep into the heart of darkness like heavenly spears, and it won't be long till even the most reclusive villages emerge as bastions of civilisation in lands that until most recently remain largely unchanged since medieval times.\n\n(You can now appoint the Executive Yuan to focus on improving something else.)"

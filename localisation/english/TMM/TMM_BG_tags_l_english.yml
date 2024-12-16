@@ -24,8 +24,8 @@
  XIK_despotism_party_long:0 "Xikang Provincial Government"
  XIK_conservatism_party:0 "KMT-R"
  XIK_conservatism_party_long:0 "Kuomintang-Conservative democarcys"
- XIK_progressivism_party:0 "KMT-L"
- XIK_progressivism_party_long:0 "Kuomintang-Left Faction"
+ XIK_social_democarcy_party:0 "KMT-L"
+ XIK_social_democarcy_party_long:0 "Kuomintang-Left Faction"
  XIK_communist_party:0 "CCP"
  XIK_communist_party_long:0 "Chinese Communist Party (Hardliners)"
  XIK_socialist_party:0 "CCP"
@@ -36,8 +36,8 @@
  XIK_fascism_party_long:0 "Society of Practice of the Three Principles of the People"
  XIK_ultranational_socialism_party:0 "Extremists"
  XIK_ultranational_socialism_party_long:0 "Xikang Extremists"
- XIK_paternalism_party:0 "KMT - Old Guards"
- XIK_paternalism_party_long:0 "Xikang Section of the Government of the Republic of China in exile"
+ XIK_authoritarian_democarcy_party:0 "KMT - Old Guards"
+ XIK_authoritarian_democarcy_party_long:0 "Xikang Section of the Government of the Republic of China in exile"
  
  XIK_yushu_literally_avant_garde_france:0 "Rush to the Jinsha River!"
 

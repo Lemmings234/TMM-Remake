@@ -4,6 +4,21 @@ characters = {
 	###########################################################
 
 	###TMM CHARACTERS###
+	QIN_Chen_cheng = {
+		name = QIN_Chen_cheng
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/QIN/Portrait_Chen_cheng.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_CHEN_CHENG_DESC"
+			ideology = paternalism_united_front_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
 
 	QIN_ma_jiyuan_tmm = {
 		name = QIN_ma_jiyuan_tmm
@@ -18,6 +33,7 @@ characters = {
 			expire = "1999.1.1.1"
 			id = -1
 		}
+		
 		corps_commander = {
 			desc = "MILITARY_MA_JIYUAN_DESC"
 			traits = { war_hero cavalry_officer cavalry_expert adaptable }
@@ -64,7 +80,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ZHU_JIAHUA_DESC"
-			ideology = conservatism_neoconfucian_liberalism_subtype
+			ideology = liberal_conservatism_neoconfucian_liberalism_subtype
 			traits = { 
 				political_compromise 
 				cardiovascular_disease 
@@ -133,19 +149,6 @@ characters = {
 			id = -1
 		}
 	}
-	QIN_lei_zhen = {
-		name = QIN_lei_zhen
-		portraits = {
-			civilian = { large = "gfx/leaders/QIN/Portrait_Lei_Zhen.dds" }
-		}
-		country_leader = {
-			desc = "POLITICS_LEI_ZHEN_DESC"
-			ideology = liberalism_populist_liberalism_subtype
-			traits = { }
-			expire = "1999.1.1.1"
-			id = -1
-		}
-	}
 	QIN_chen_lifu = {
 		name = QIN_chen_lifu
 		portraits = {
@@ -166,7 +169,7 @@ characters = {
 		}
 		country_leader = {
 			desc = ""
-			ideology = conservatism_neoconfucian_liberalism_subtype
+			ideology = liberal_conservatism_neoconfucian_liberalism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
@@ -302,30 +305,6 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 6
 			legacy_id = 30007
-		}
-	}
-	XIN_sheng_shicai = {
-		name = XIN_sheng_shicai
-		portraits = {
-			civilian = { large = "gfx/leaders/XIN/Portrait_Sheng_Shicai.dds" }
-			army = { large = "gfx/leaders/XIN/Portrait_Sheng_Shicai.dds" }
-		}
-		country_leader = {
-			desc = "POLITICS_SHENG_SHICAI_DESC"
-			ideology = despotism_subtype
-			traits = { }
-			expire = "1999.1.1.1"
-			id = -1
-		}
-		corps_commander = {
-			desc = "MILITARY_SHENG_SHICAI_DESC"
-			traits = { politically_connected }
-	        skill = 4
-	        attack_skill = 4
-	        defense_skill = 2
-	        planning_skill = 3
-	        logistics_skill = 2
-			legacy_id = 30008
 		}
 	}
 	GUZ_long_yun = {
@@ -675,28 +654,103 @@ characters = {
 		}
 	}
 ###TMM MINISTERS###
-
-	QIN_Chiang_Chingkuo = {
-		name = QIN_Chiang_Chingkuo
+	QIN_Yuan_Shouqian = {
+		name = QIN_Yuan_Shouqian
 		portraits = { 
 			civilian = { 
-				small = "GFX_QIN_Chiang_Ching_kuo" 
+				small = "gfx/interface/ideas/ministers/QIN/QIN_Yuan_Shouqian.png" 
 			} 
 		}
 		advisor = {
 			slot = head_of_government
-			idea_token = QIN_Chiang_Chingkuo_hog
+			idea_token = QIN_Yuan_Shouqian_hog
 			allowed = { original_tag = QIN }
 			traits = {
 				head_of_government
-				paternalism
-				son_of_generalissimo
-				QIN_Chiang_ching_kuo_hog_desc
+				liberalism
+				QIN_Yuan_Shouqian_hog_desc
 			}
 			ledger = civilian
 			cost = -1
 			removal_cost = -1
 			ai_will_do = { factor = 0 }
+		}
+	}
+    QIN_Chiang_Chingkuo = {
+		name = QIN_Chiang_Chingkuo
+		portraits = { 
+			civilian = { 
+				small = "gfx/interface/ideas/ministers/QIN/QIN_Chiang_Ching_kuo.png" 
+			} 
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = QIN_Chiang_Chingkuo_sec
+			allowed = { original_tag = QIN }
+			traits = {
+				security_minister
+				paternalism
+				son_of_generalissimo
+				QIN_Chiang_ching_kuo_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Zhou_Hongtao = {
+		name = QIN_Zhou_Hongtao
+		portraits = { 
+			civilian = { 
+				small = "gfx/interface/ideas/ministers/QIN/QIN_Zhou_Hongtao.png" 
+			} 
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = QIN_Zhou_Hongtao_eco
+			allowed = { original_tag = QIN }
+			traits = {
+				economy_minister
+				paternalism
+				QIN_Zhou_Hongtao_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Lei_Zhen = {
+		name = QIN_Lei_Zhen
+		portraits = { 
+			civilian = { 
+				small = "gfx/interface/ideas/ministers/QIN/QIN_Lei_Zhen.png" 
+			}
+			civilian = { 
+				large = "gfx/leaders/QIN/Portrait_Lei_Zhen.dds" 
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = QIN_Lei_Zhen_for
+			allowed = { original_tag = QIN }
+			traits = {
+				foreign_minister
+				liberalism
+				QIN_Lei_Zhen_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		country_leader = {
+			desc = "POLITICS_LEI_ZHEN_DESC"
+			ideology = liberalism_populist_liberalism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
 		}
 	}
 	QIN_Ji_Chaoding = {
@@ -1011,7 +1065,7 @@ characters = {
 			allowed = { original_tag = QIN }
 			traits = {
 				foreign_minister
-				conservatism_neoconfucian_liberalism_subtype
+				liberal_conservatism_neoconfucian_liberalism_subtype
 				pragmatic_negotiator
 				QIN_Wang_Shijie_for_desc
 			}
@@ -1146,6 +1200,19 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_KIM_JONGPIL_DESC"
 			ideology = paternalism_controlled_democracy_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	SHX_Bo_Yibo = {
+		name = SHX_Bo_Yibo
+		portraits = {
+			civilian = { large = "gfx/leaders/SHX/Portrait_Bo_Yibo.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_BO_YIBO_DESC"
+			ideology = communist_chinese_maoism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1
