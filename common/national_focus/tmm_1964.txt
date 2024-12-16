@@ -253,9 +253,6 @@ shared_focus = {
 	ai_will_do = {
 		factor = 80
 	}
-	bypass = {
-		has_war = no
-	}
 	available = {
 		NOT = { is_in_faction_with = JAP }
 	}
@@ -264,10 +261,7 @@ shared_focus = {
 	}
 	completion_reward = {
         custom_effect_tooltip = QIN_three_rules_and_eight_points_tt
-		swap_ideas = {
-            remove_idea = tno_military_supervision_no_supervision
-            add_idea = tno_military_supervision_rules_of_engagement
-            }
+		tno_military_supervision_improve = yes
 		322 = {
 			add_compliance = 10
 			add_resistance = -7.5
@@ -401,11 +395,7 @@ shared_focus = {
 	x = 0
 	y = 1
 	ai_will_do = {
-		factor = 0
-			modifier = {
-				factor = 80
-				date > 1962.4.8
-			}
+		factor = 80
 	}
 	available = {
 		NOT = { is_in_faction_with = JAP }
@@ -421,7 +411,6 @@ shared_focus = {
         custom_effect_tooltip = QIN_Warlord_No_Longer_tt
 		custom_effect_tooltip = QIN_we_are_victorious_tt
 		add_political_power = 100
-		
 		322 = {
 			add_compliance = 5
 			add_resistance = -2.5
@@ -1051,7 +1040,7 @@ shared_focus = {
 		} 		
 		765 = {
 			add_resistance = 20
-		}
+		} 	
 		964 = {
 			add_resistance = 20
 		}
@@ -1100,7 +1089,7 @@ shared_focus = {
             } 		
         765 = {
 		    add_resistance = -7.5 
-            } 				
+        }
 		964 = {
 			add_resistance = -7.5
 		}
@@ -1262,8 +1251,8 @@ shared_focus = {
             } 		
         765 = {
 		    add_resistance = -10
-            }
- 		964 = {
+            } 		
+		964 = {
 			add_resistance = -10
 		}
 		1961 = {
@@ -1275,7 +1264,7 @@ shared_focus = {
 		1963 = {
 			add_resistance = -10
 		}
-		}
+	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
@@ -1341,7 +1330,7 @@ shared_focus = {
 	    focus = expose_the_kashag
 	}
 	completion_reward = {
-	    # custom_effect_tooltip = QIN_tibetan_autonomy_tt
+	    custom_effect_tooltip = QIN_tibetan_autonomy_tt
 	    765 = {
             add_compliance = 15
 		    }
@@ -1384,8 +1373,8 @@ shared_focus = {
 		# add_to_variable = { 
 		    # var = QIN_yushu_stability
 			# value = 10
-			# }
-		}
+		# }
+	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
@@ -1416,12 +1405,12 @@ shared_focus = {
 	available_if_capitulated = no
 }
 shared_focus = {
-	id = qinghai_unified
-	icon = GFX_goal_qinghai_unified
-    cost = 3
-	x = 0
+	id = theocracy_can_stay
+	icon = GFX_goal_tibetan_government_can_stay
+    cost = 1
+	x = 2
 	y = 1
-	relative_position_id = secure_yushu
+	relative_position_id = the_meeting
 	ai_will_do = {
 		factor = 80
 	}
@@ -1429,12 +1418,17 @@ shared_focus = {
 		NOT = { is_in_faction_with = JAP }
 	}
 	prerequisite = { 
-	    focus = secure_yushu
+	    focus = the_meeting
+	}
+	mutually_exclusive = {
+	    focus = theocracy_must_go
 	}
 	completion_reward = {
-	    add_political_power = 10
-		add_stability = 0.025
-		add_war_support = 0.025
+	    custom_effect_tooltip = QIN_theocracy_can_stay_tt
+		add_to_variable = {
+            var = QIN_dalai_negotiation
+            value = 10
+            }
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1466,6 +1460,94 @@ shared_focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 }
+shared_focus = {
+	id = dismantle_the_old_system
+	icon = GFX_goal_dismantle_the_old_system
+    cost = 1
+	x = 0
+	y = 1
+	relative_position_id = theocracy_must_go
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = theocracy_can_stay
+		focus = theocracy_must_go
+	}
+	mutually_exclusive = {
+	    focus = separate_the_lama_and_the_state
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_dismantle_the_old_system_tt
+		subtract_from_variable = {
+            var = QIN_dalai_negotiation
+            value = 5
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = separate_the_lama_and_the_state
+	icon = GFX_goal_separate_lama_and_the_state
+    cost = 1
+	x = 0
+	y = 1
+	relative_position_id = theocracy_can_stay
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = theocracy_can_stay
+		focus = theocracy_must_go
+	}
+	mutually_exclusive = {
+	    focus = dismantle_the_old_system
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_separate_the_lama_and_the_state_tt
+		add_to_variable = {
+            var = QIN_dalai_negotiation
+            value = 10
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = qinghai_unified
+	icon = GFX_goal_qinghai_unified
+    cost = 3
+	x = 0
+	y = 1
+	relative_position_id = secure_yushu
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = secure_yushu
+	}
+	completion_reward = {
+	    add_political_power = 10
+		add_stability = 0.025
+		add_war_support = 0.025
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+
 shared_focus = {
 	id = show_them_consequences
 	icon = GFX_goal_show_them_consequences
@@ -1594,98 +1676,7 @@ shared_focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 }
-shared_focus = {
-	id = dismantle_the_old_system
-	icon = GFX_goal_dismantle_the_old_system
-    cost = 1
-	x = 0
-	y = 1
-	relative_position_id = theocracy_must_go
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = theocracy_can_stay
-		focus = theocracy_must_go
-	}
-	mutually_exclusive = {
-	    focus = separate_the_lama_and_the_state
-	}
-	completion_reward = {
-	    custom_effect_tooltip = QIN_dismantle_the_old_system_tt
-		subtract_from_variable = {
-            var = QIN_dalai_negotiation
-            value = 5
-            }
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = separate_the_lama_and_the_state
-	icon = GFX_goal_separate_lama_and_the_state
-    cost = 1
-	x = 0
-	y = 1
-	relative_position_id = theocracy_can_stay
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = theocracy_can_stay
-		focus = theocracy_must_go
-	}
-	mutually_exclusive = {
-	    focus = dismantle_the_old_system
-	}
-	completion_reward = {
-	    custom_effect_tooltip = QIN_separate_the_lama_and_the_state_tt
-		add_to_variable = {
-            var = QIN_dalai_negotiation
-            value = 10
-            }
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
-shared_focus = {
-	id = theocracy_can_stay
-	icon = GFX_goal_tibetan_government_can_stay
-    cost = 1
-	x = 2
-	y = 1
-	relative_position_id = the_meeting
-	ai_will_do = {
-		factor = 80
-	}
-	available = {
-		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = the_meeting
-	}
-	mutually_exclusive = {
-	    focus = theocracy_must_go
-	}
-	completion_reward = {
-	    custom_effect_tooltip = QIN_theocracy_can_stay_tt
-		add_to_variable = {
-            var = QIN_dalai_negotiation
-            value = 10
-            }
-		}
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-}
+
 shared_focus = {
 	id = dalai_response
 	icon = GFX_goal_dalai_response
