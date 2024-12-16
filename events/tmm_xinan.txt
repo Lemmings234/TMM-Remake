@@ -56,12 +56,16 @@ country_event = {
 		GUX = {
 		    transfer_state = 594
 			transfer_state = 599
+			transfer_state = 1464
 		    load_oob = "GUX_1962"
 		    leave_faction = yes
 			594 = {
                 add_core_of = GUX
 			}
 			599 = {
+				add_core_of = GUX
+			}
+			1464 = {
 				add_core_of = GUX
 			}
 		}
