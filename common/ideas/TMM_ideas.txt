@@ -564,8 +564,8 @@ ideas = {
 			picture = XIK_new_xikang
 
 			modifier = {
-				social_democracy_drift = 0.02
-				conservative_democracy_drift = 0.02
+				progressivism_drift = 0.02
+				conservatism_drift = 0.02
 				stability_weekly = 0.005
 				gdp_growth_modifier = 0.25
 				monthly_population = 0.025
@@ -835,69 +835,92 @@ ideas = {
 		}
 	}
 	hidden_ideas = {
-	        QIN_trade_with_india = {
-
-			allowed = {
-				original_tag = QIN
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: added idea QIN_trade_with_india"
-			}
+		IND_Econ_Supplement = { # This gives India enough cash to counter the effect of their bigger army
+			allowed = { original_tag = IND }
+			allowed_civil_war = { always = no }
 
 			removal_cost = -1
 
-			picture = QIN_the_little_farmland_we_have
+			modifier = {
+				misc_income_modifier = 4
+			}
+		}
+		AZH_Econ_Supplement = { # This gives Free India enough cash to counter the effect of their bigger army
+			allowed = { original_tag = AZH }
+			allowed_civil_war = { always = no }
 
+			removal_cost = -1
+
+			modifier = {
+				misc_income_modifier = 2
+			}
+		}
+		AFG_Econ_Supplement = { # This gives Free India enough cash to counter the effect of their bigger army
+			allowed = { original_tag = AFG }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				misc_income_modifier = 0.25
+			}
+		}
+		NEP_Econ_Supplement = { # This gives Free India enough cash to counter the effect of their bigger army
+			allowed = { original_tag = NEP }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				misc_income_modifier = 0.25
+			}
+		}
+	    QIN_trade_with_india = {
+			allowed = {
+				original_tag = QIN
+				original_tag = NOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: added idea QIN_trade_with_india"
+			}
+			removal_cost = -1
+			picture = QIN_the_little_farmland_we_have
 			modifier = {
 				consumer_goods_factor = -0.05
 			}
 		}
-	        QIN_dalai_leaves = {
-
+	    QIN_dalai_leaves = {
 			allowed = {
 				original_tag = QIN
 			}
-
 			allowed_civil_war = {
 				always = yes
 			}
-
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: added idea QIN_dalai_leaves"
 			}
-
 			removal_cost = -1
-
 			picture = QIN_the_little_farmland_we_have
-
 			modifier = {
 				stability_factor = -0.05
 				war_support_factor = -0.025
 			}
 		}
-	        QIN_dalai_stays = {
-
+	    QIN_dalai_stays = {
 			allowed = {
 				original_tag = QIN
 			}
-
 			allowed_civil_war = {
 				always = yes
 			}
-
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: added idea QIN_dalai_stays"
 			}
-
 			removal_cost = -1
-
 			picture = QIN_the_little_farmland_we_have
-
 			modifier = {
 				stability_factor = 0.075
 				war_support_factor = 0.05

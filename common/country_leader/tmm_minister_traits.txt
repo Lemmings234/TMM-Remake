@@ -1,4 +1,5 @@
 leader_traits = {
+	### Ma Mod
 	son_of_generalissimo = {
 		random = no
 		political_power_factor = -0.05
@@ -42,37 +43,44 @@ leader_traits = {
 		ai_will_do = { factor = 1 }
 	}
 	nanjing_tusi = {
+		random = no
 		encryption_factor = -0.1
 		opinion_gain_monthly_factor = 0.15
 		despotism_drift = 0.01
 	}
 	leader_of_the_dian_army = {
+		random = no
 		army_attack_factor = 0.05
 		army_org_factor = 0.15
 		despotism_drift = 0.01
 	}
 	gui_warlord = {
+		random = no
 		stability_factor = 0.15
 		political_power_gain = 0.15
 		paternalism_drift = 0.005
 	}
 	liu_wenhui = {
+		random = no
 		stability_factor = 0.10
 		army_org_factor = 0.1
 		progressivism_drift = 0.02
 	}
 	zhang_zhihe = {
+		random = no
 		political_power_gain = 0.25
 		stability_factor = -0.05
 		socialist_drift = 0.02
 	}
 	xue_yue = {
+		random = no
 		opinion_gain_monthly_factor = 0.2
 		command_power_gain = 1
 		conservatism_drift = 0.01
-		defence = 0.1
+		defence = 0.2
 	}
 	li_xianchun = {
+		random = no
 		min_export = -0.2
 		GDP_growth_modifier = 2
 		consumer_goods_use_modifier = -0.025
@@ -83,34 +91,40 @@ leader_traits = {
 		supply_node_range = 0.5
 	}
 	he_guoguang = {
+		random = no
 		stability_factor = 0.01
 		fascism_drift = 0.01
 	}
 	deng_xihou = {
+		random = no
         war_support_factor = -0.15
 		drift_defence_factor = 0.05
 		stability_factor = 0.2
 		despotism_drift = 0.02
 	}
 	xiong_kewu = {
+		random = no
         political_power_gain = 0.25
 		mobilization_speed = -0.05
 		stability_factor = -0.05
 		progressivism_drift = 0.02
 	}
 	liu_hangchen = {
+		random = no
         GDP_growth_modifier = 3.5
 		production_speed_buildings_factor = 0.15
 		production_factory_start_efficiency_factor = 0.125
 		consumer_goods_use_modifier = -0.1
 	}
 	pan_wenhua = {
+		random = no
         max_command_power = 10
 		weekly_manpower = 500
 		army_leader_cost_factor = 0.2
 		army_org_factor = -0.1
 	}
 	national_assembly = {
+		random = no
         stability_factor = -0.05
 		political_power_gain = -0.05
 	}
@@ -125,9 +139,11 @@ leader_traits = {
 		political_power_gain = 0.75
 	}
 	cardiovascular_disease = {
+		random = no
 		political_power_gain = -0.05
 	}
 	son_of_founding_father = {
+		random = no
 		despotism_drift = 0.03
 		stability_factor = 0.075
 	}
@@ -143,6 +159,7 @@ leader_traits = {
 		consumer_goods_use_modifier = -0.05
 	}
 	pro_zxx_general = {
+		random = no
 		conservatism_drift = 0.02
 		army_defence_factor = 0.15
 		army_morale_factor = 0.2
@@ -196,6 +213,7 @@ leader_traits = {
 		conservatism_drift = 0.02
 	}
 	red_hog = {
+		random = no
 		communist_drift = 0.05
 		socialist_drift = 0.02
 		progressivism_drift = 0.01

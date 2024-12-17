@@ -24,7 +24,6 @@ leader_traits = {
 	QIN_Sun_Yunsuan_eco_desc = {}
 	QIN_Wang_Sheng_sec_desc = {}
 
-
 	GUZ_Li_Pinxian_hog_desc = {}
 	GUZ_Yang_Ruxuan_for_desc = {}
 	GUZ_Miao_Yuntai_eco_desc = {}
@@ -39,4 +38,30 @@ leader_traits = {
 	SIC_Xiong_Kewu_for_desc = {}
 	SIC_Liu_Hangchen_eco_desc = {}
 	SIC_Pan_Wenhua_sec_desc = {}
+	
+	JAP_Sato_Eisaku_hog_desc = {}
+	JAP_Kubota_Kanichiro_for_desc = {}
+	JAP_Gotoda_Masaharu_sec_desc = {}
+	JAP_Uemura_Kogoro_eco_desc = {}
+	JAP_Watanabe_Takeshi_hog_desc = {}
+	JAP_Ozaki_Hotsumi_for_desc = {}
+	JAP_Ishii_Mitsujiro_eco_desc = {}
+	JAP_Hanano_Kichihei_sec_desc = {}
+
+	NCC_Miao_Bin_hog_desc = {}
+	NCC_Wang_Hongwen_for_desc = {}
+	NCC_Peng_Shihong_eco_desc = {}
+	NCC_Liang_Huazhi_sec_desc = {}
+	CHI_Gan_Naiguang_hog_desc = {}
+	CHI_Shi_Cuntong_for_desc = {}
+	BNW_CHI_Mei_Siping_desc = {}
+	CHI_Ding_Mocun_sec_desc = {}
+	JAP_Furumi_Tadayuki_hog_desc = {}
+	JAP_Amogus_for_desc = {}
+	BNW_JAP_Shiina_Etsusaburo_eco_desc = {}
+	JAP_Kawakami_Jotaro_sec_desc = {}
+	JAP_Okuno_Seisuke_hog_desc = {}
+	JAP_Ikeda_Sumihisa_for_desc = {}
+	JAP_Sanji_Shigenobu_eco_desc = {}
+	JAP_Onodera_Makoto_sec_desc = {}
 }
