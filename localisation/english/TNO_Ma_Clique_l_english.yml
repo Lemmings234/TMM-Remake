@@ -1,5 +1,8 @@
 ﻿l_english:
- QIN_THENEWORDER_DESC:0 "Amidst a sea of hopelessess, Qinghai Province stands firm with the Free Chinese as the last bastion of Three Principles of the People and a China long gone. Ma Jiyuan, once just a general like any other warlords of the Republic now find his petty Qinghai suddenly the centre of the Resistance. However, there is a good reason why Ma never aspired to those goals of retaking the East. Stranded in an impoverished, illiterate and nomad province and drowning in internal disputes, Ma's situation is dire. But just like the Chinese word for crisis, in grave danger there are always oppertunities. Ma cannot afford a single failure, for himself, for his family, for the people. \n\nFor all of China."
+ QIN_CountryInfo_Folder.101:0 "The Situation of Qinghai Province"
+ QIN_CountryInfo_Content.1:0 "China is not yet Lost"
+ QIN_CountryInfo_Content_desc.1:0 "Amidst a sea of hopelessess, Qinghai Province stands firm with the Free Chinese as the last bastion of Three Principles of the People and a China long gone. Ma Jiyuan, once just a general like any other warlords of the Republic now find his petty Qinghai suddenly the centre of the Resistance. However, there is a good reason why Ma never aspired to those goals of retaking the East. Stranded in an impoverished, illiterate and nomad province and drowning in internal disputes, Ma's situation is dire. But just like the Chinese word for crisis, in grave danger there are always oppertunities. Ma cannot afford a single failure, for himself, for his family, for the people. \n\nFor all of China."
+ TNO_COUNTRY_INFO_BUTTON_TEXT_QIN:0 "Zuguo Wansui!"
 
  QIN_paternalism:0 "Qinghai Province"
  QIN_paternalism_DEF:0 "The Northwest Military Government"
