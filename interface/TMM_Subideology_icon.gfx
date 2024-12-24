@@ -1,5 +1,9 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_ideology_paternalism_reorganised_tridemism_subtype"
+		textureFile = "gfx/interface/ideologies/paternalism_reorganised_tridemism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_paternalism_united_front_subtype"
 		textureFile = "gfx/interface/ideologies/paternalism_united_front_subtype.dds"
 	}
@@ -12,8 +16,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideologies/liberalism_populist_liberalism_subtype.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_conservatism_neoconfucian_liberalism_subtype"
-		textureFile = "gfx/interface/ideologies/conservatism_neoconfucian_liberalism_subtype.dds"
+		name = "GFX_ideology_liberal_conservatism_neoconfucian_liberalism_subtype"
+		textureFile = "gfx/interface/ideologies/liberal_conservatism_neoconfucian_liberalism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_despotism_chiang_kai_shek_thought_subtype"
@@ -70,5 +74,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_conservatism_confucian_democracy_subtype"
 		textureFile = "gfx/interface/ideologies/conservatism_confucian_democracy_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_communist_chentanqiuism_subtype"
+		textureFile = "gfx/interface/ideologies/communist_chentanqiuism_subtype.png"
 	}
 }
