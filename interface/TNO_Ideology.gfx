@@ -228,11 +228,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_paternalism_stratocracy_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Paternalism/stratocracy.png"
-		legacy_lazy_load = no
-	}
-	spriteType = {
 		name = "GFX_ideology_paternalism_technocratic_corporatism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Paternalism/TechnocraticCorporatism.png"
 		legacy_lazy_load = no
@@ -243,34 +238,13 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_paternalism_xunzheng_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Paternalism/Xunzheng.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_ideology_paternalism_thalassocracy_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Paternalism/Thalassocracy.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
 		name = "GFX_ideology_communist_amazonism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Amazonism.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_communist_arab_communism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/ArabCommunism.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
 		name = "GFX_ideology_communist_autarkic_marxism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/AutarkikMarxism.png"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_ideology_communist_bolshevism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/Bukharinism.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -301,11 +275,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_communist_national_communism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/NationalCommunism.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_ideology_communist_revolutionary_baathism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Communism/RevolutionaryBa'athism.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -526,25 +495,14 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideologies/ideology_bars/Despotism/InstitutionalDespotism.dds"
 		legacy_lazy_load = no
 	}
-	
 	spriteType = {
-		name = "GFX_ideology_esoteric_nazism_agrarian_spartanism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Esonaz/AgrarianSpartanism.dds"
+		name = "GFX_ideology_despotism_baathism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Despotism/baathism.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_esoteric_nazism_burgundian_system_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Esonaz/BurgunsianSystem.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_ideology_esoteric_nazism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Esonaz/EsoNaz.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_ideology_esoteric_nazism_antarctica_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Esonaz/EsoNazAntarcticAdministration.dds"
+		name = "GFX_ideology_national_socialism_burgundian_system_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/NatSoc/BurgunsianSystem.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -564,18 +522,13 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_corporate_statism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/coporatestate.png"
+		name = "GFX_ideology_statist_corporatocracy_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/StatistCorporatocracy.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_fascism_corporatism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/Corporatism.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_ideology_fascism_ecclesiastic_nationalism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/EcclesiasticNationalism2.png"
+		name = "GFX_ideology_fascism_corporate_statism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Fascism/CorporateStatism.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -745,11 +698,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_national_socialism_stratocratic_nazism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/NatSoc/StratocraticNatzees.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
 		name = "GFX_ideology_national_socialism_technocratic_nazism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/NatSoc/technocraticnaziism.png"
 		legacy_lazy_load = no
@@ -773,11 +721,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_progressivism_islamic_modernism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Progressivism/IslamicModernism.png"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_ideology_progressivism_labor_zionism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Progressivism/LaborZionism.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -847,11 +790,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_socialist_baathism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Socialism/baathism.png"
-		legacy_lazy_load = no
-	}
-	spriteType = {
 		name = "GFX_ideology_socialist_buddhist_socialism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Socialism/BuddhistSocialism.png"
 		legacy_lazy_load = no
@@ -872,16 +810,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_socialist_nasserism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Socialism/Nasserism.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_ideology_socialist_neocommunism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Socialism/Neocommunism.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
 		name = "GFX_ideology_socialist_panafricanism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Socialism/PanAfricanism.dds"
 		legacy_lazy_load = no
@@ -894,6 +822,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_socialist_social_democracy_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Socialism/SocialDemocracy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ideology_socialist_socialist_zionism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Socialism/SocialistZionism.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -933,11 +866,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_ultranationalism_eurasianism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Ultranat/Eurasianism.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
 		name = "GFX_ideology_ultranationalism_fundamentalism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Ultranat/Fundamentalism.dds"
 		legacy_lazy_load = no
@@ -948,8 +876,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_ultranationalism_slavo_aryanism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Ultranat/SlavoAryanism.dds"
+		name = "GFX_ideology_ultranationalism_stratocracy_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Ultranat/stratocracy.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {

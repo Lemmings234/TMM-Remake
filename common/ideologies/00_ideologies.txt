@@ -105,7 +105,6 @@ ideologies = {
 			fascism_antarctic_administration_subtype = { can_be_randomly_selected = no }
 			### BNW ###
 			fascism_dai_chitao_party_supremacy_subtype = { can_be_randomly_selected = no }
-			fascism_reorganised_tridemism_subtype = { can_be_randomly_selected = no }
 			fascism_xinmin_zhuyi_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
