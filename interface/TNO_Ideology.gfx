@@ -128,11 +128,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_paternalism_controlled_democracy_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Paternalism/ControlledDemocracy.png"
-		legacy_lazy_load = no
-	}
-	spriteType = {
 		name = "GFX_ideology_paternalism_corporate_paternalism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Paternalism/CorporatePaternalism.png"
 		legacy_lazy_load = no
@@ -140,11 +135,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_paternalism_dixiecrat_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Paternalism/Dixiecrat.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = {
-		name = "GFX_ideology_paternalism_dominant_party_democracy_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Paternalism/DominantPartyDemocracy.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
@@ -389,7 +379,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideologies/ideology_bars/LibCon/MarketLiberalism.dds"
 		legacy_lazy_load = no
 	}
-	
+	spriteType = {
+		name = "GFX_ideology_liberal_conservatism_islamic_modernism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/LibCon/IslamicModernism.png"
+		legacy_lazy_load = no
+	}
 	spriteType = {
 		name = "GFX_ideology_despotism_absolute_monarchy_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Despotism/absolutemonarchy.png"
@@ -719,11 +713,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_progressivism_islamic_modernism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Progressivism/IslamicModernism.png"
-		legacy_lazy_load = no
-	}
-	spriteType = {
 		name = "GFX_ideology_progressivism_left_kemalism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Progressivism/LeftKemalism.dds"
 		legacy_lazy_load = no
@@ -755,7 +744,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_progressivism_reformist_socialism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Socialism/ReformistSocialism.png"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Progressivism/ReformistSocialism.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {
