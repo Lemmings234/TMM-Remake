@@ -36,18 +36,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/pol/icons/int_button_2.dds"
 	}
 	spriteType = {
-		name = "QIN_kmt_icon"
-		textureFile = "gfx/interface/pol/icons/kmt.dds"
-	}
-	spriteType = {
-		name = "QIN_ccp_icon"
-		textureFile = "gfx/interface/pol/icons/ccp.dds"
-	}
-	spriteType = {
-		name = "QIN_pdp_icon"
-		textureFile = "gfx/interface/pol/icons/pdp.dds"
-	}
-	spriteType = {
 		name = "QIN_pol_kmt_faction"
 		textureFile = "gfx/interface/pol/kmtfaction.dds"
 	}
@@ -1510,5 +1498,51 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_QIN_golmud_piechart_centre"
 		texturefile = "gfx/interface/battle_for_golmud/piechart_centre.dds"
+	}
+
+	## OHHHHH NEW PIE CHART ##
+	progressbartype = {
+		name = "GFX_BOG_KMT_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/KMT_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_KMT.png"
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+		size = { x = 312 y = 342 }
+	}
+	
+	progressbartype = {
+		name = "GFX_BOG_CCP_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/CCP_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_CCP.png"
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+		size = { x = 312 y = 342 }
+	}
+	
+	progressbartype = {
+		name = "GFX_BOG_QINGHAI_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/Qinghai_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_Qing.png"
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+		size = { x = 312 y = 342 }
+	}
+
+	progressbartype = {
+		name = "GFX_BOG_NINGXIA_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/Ningxia_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_Ning.png"
+		size = { x = 312 y = 342 }
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+	}
+	
+	progressbartype = {
+		name = "GFX_BOG_NEUTRAL_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/Neutral_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_neutrality.png"
+		size = { x = 312 y = 342 }
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
 	}
 }

@@ -859,12 +859,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideologies/ideology_bars/Socialism/RevolutionaryGaitanismo.dds"
 		legacy_lazy_load = no
 	}
-	
-	spriteType = {
-		name = "GFX_ideology_ultranationalism_esoteric_despotism_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Ultranat/EsotericDespotism.png"
-		legacy_lazy_load = no
-	}
 	spriteType = {
 		name = "GFX_ideology_ultranationalism_fundamentalism_bar"
 		textureFile = "gfx/interface/ideologies/ideology_bars/Ultranat/Fundamentalism.dds"
