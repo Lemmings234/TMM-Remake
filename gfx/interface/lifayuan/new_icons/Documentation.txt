@@ -1,0 +1,66 @@
+Despite the name, all new Qinghai GUI items go here, maybe later we should have a look to clean up other redundant GUI pieces when necessary. 
+
+Politician IDs
+1 - Ma Jiyuan
+2 - Sun Fo
+3 - Ni Wenya
+4 - Yu Youren
+5 - Chiang Ching-kuo
+6 - Cheng Tian-fong
+7 - 
+8 - 
+9 - 
+10 - 
+11 - 
+12 - 
+13 - 
+14 - 
+15 - 
+16 - 
+17 - 
+18 - 
+19 - 
+20 - 
+21 - 
+22 - 
+23 - 
+24 - 
+25 - 
+26 - 
+27 - 
+28 - 
+29 - 
+30 - 
+31 - 
+32 - 
+33 - 
+34 - 
+35 - 
+36 - 
+37 - 
+38 - 
+39 - 
+40 - 
+
+--- RULES OF IMEPACHMENT ---
+
+Trigger 1: President and Control Yuan President are of the same faction, can only impeach Control Yuan
+AND = { 
+    check_variable = { Politician_Faction^0 = Politician_Faction^3 }
+}
+Trigger 2: Support of the Control Yuan is above 50%, can impeach anyone but the President and Control Yuan
+AND = { 
+    check_variable = { QIN_Control_Yuan_Support > 50 }
+}
+Trigger 3: Trigger 1 and 2 are both true, CAN impeach anyone
+AND = {
+	check_variable = { Politician_Faction^0 = Politician_Faction^3 }
+	check_variable = { QIN_Control_Yuan_Support > 50 }
+}
+Trigger 4: Neither are true, CANNOT impeach anyone
+NOT = {
+    AND = {
+    	check_variable = { Politician_Faction^0 = Politician_Faction^3 }
+    	check_variable = { QIN_Control_Yuan_Support > 50 }
+    }
+}
