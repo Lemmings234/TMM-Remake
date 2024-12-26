@@ -1,0 +1,205 @@
+on_actions = {
+	#### PEACE/WAR VICTORY ON_CAPITULATION BLOCK ####
+	#### PUT YOUR SHIT HERE
+	# At the end of each global block, set the skip_default_capitulation GLOBAL flag
+	# Otherwise shit will just get annexed
+	# Really
+	# It will.
+
+	# FROM = winner
+	# ROOT = country being capitulated/loser
+	
+	# Anytime y'all are triggering the popup manually, please add 1 to the dirty variable, `global.peace_popup_dirty`
+	
+	#See TNO_economy_scripted_effects regarding how transfer_GDP works
+
+	on_capitulation = {
+		effect = {
+			log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+
+			set_global_flag = show_peace_popup_alert
+			FROM = {
+				save_global_event_target_as = winning_country
+			}
+			ROOT = {
+				save_global_event_target_as = losing_country
+			}
+
+			log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+			if = {
+				limit = {
+					event_target:losing_country = {
+						any_allied_country = {
+							has_war_together_with = event_target:losing_country
+						}
+					}
+				}
+				set_global_flag = losing_country_multiple
+			}
+
+			if = {
+				limit = {
+					event_target:winning_country = {
+						any_allied_country = {
+							has_war_together_with = event_target:winning_country
+						}
+					}
+				}
+				set_global_flag = winning_country_multiple
+			}
+			add_to_variable = { global.peace_popup_dirty = 1 }
+
+			FROM = { # winner simply gets GDP recalculated :)
+				recalculate_GDP_and_PUs_on_demand = yes
+			}
+
+			#Annexation block
+			#This if block will only fire if FROM (capitulator) and ROOT (country being capitulated)
+			#That is to say, if one side has completely lost (nobody left to fight on)
+
+			if = {
+				limit = {
+					OR = {
+						ROOT = { is_in_faction = no }
+						ROOT = {
+							all_allied_country = {
+								has_capitulated = yes
+							}
+						}
+					}
+				}
+				log = "war_won"
+				set_global_flag = war_won
+
+				#GDP is no longer transferred.
+				# every_country = {
+				# 	limit = {
+				# 		OR = {
+				# 			is_in_faction_with = ROOT
+				# 			original_tag = ROOT
+				# 		}
+				# 	}
+				# 	FROM = {
+				# 		#transfer_GDP = yes
+				# 	}
+				# }
+
+				# Mountain War, this only triggers if you decide to beat Turkey to death for some reason
+
+				# Liberation of East Turkestan
+				# if = {
+					# limit = {
+						# FROM = { is_russian_nation = yes }
+						# ROOT = { original_tag = XIN }
+					# }
+					# FROM = { white_peace = ROOT }
+						# ETR = {
+							# add_state_core = 617
+							# add_state_core = 618
+							# add_state_core = 957
+							# add_state_core = 958
+							# add_state_core = 619
+							# transfer_state = 617
+							# transfer_state = 618
+							# transfer_state = 957
+							# transfer_state = 958
+							# transfer_state = 619
+						# }
+						
+						# FROM = { puppet = ETR }
+					# set_global_flag = skip_default_capitulation
+				# }
+
+				# Qinghai Beats Tibet
+				else_if = {
+					limit = {
+						FROM = { 
+							OR = {
+							    original_tag = QIN
+								original_tag = XIK
+							}
+
+						}
+						ROOT = { original_tag = TIB }
+					}
+					FROM = {
+						white_peace = ROOT
+						
+						QIN = {
+							transfer_state = 322
+							transfer_state = 601
+							transfer_state = 434
+							transfer_state = 1962
+							transfer_state = 1961
+							transfer_state = 1963
+						}
+						BHU = {
+							transfer_state = 2209
+						}
+						1962 = { set_demilitarized_zone = yes }
+						1961 = { set_demilitarized_zone = yes }
+						1963 = { set_demilitarized_zone = yes }
+						434 = { set_demilitarized_zone = yes }
+					}
+					set_global_flag = skip_default_capitulation
+				}
+
+				# Qinghai Beats Seihoku
+				else_if = {
+					limit = {
+						FROM = { 
+							OR = {
+							    original_tag = QIN
+								original_tag = XIK
+							}
+						}
+						ROOT = { original_tag = GAN }
+					}
+					FROM = {
+						white_peace = ROOT
+
+			            every_country = {
+			            	limit = {
+			            		OR = {
+			            		    tag = JAP
+			            		    is_in_faction_with = JAP
+			            		}
+			            		has_war_with = JAP
+			            	}
+                            white_peace = QIN
+							white_peace = XIK
+			            }
+						
+						QIN = {
+							transfer_state = 283
+							transfer_state = 616
+							transfer_state = 764
+							transfer_state = 1302
+
+							set_capital = { state = 906 }
+	
+		                    add_victory_points = {
+                            	province = 10490
+                            	value = 15
+                            }
+						    BNW_TMM_Temp_End_Helper = yes
+						}
+						QIN = { country_event = { id = GAW.1 days = 19 } }
+
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				#Capitulation block
+				set_global_flag = war_continuing
+			}
+			clr_global_flag = skip_default_capitulation
+		}
+	}
+	#don't mind me just logging wars
+	on_declare_war = {
+		effect = {
+			log="[GetDateText]: [Root.GetName] declared war on [From.GetName]"
+		}
+	}
+}

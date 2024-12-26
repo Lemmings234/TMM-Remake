@@ -357,6 +357,7 @@ country_event = {#Dalai escapes
 			add_compliance = 45
 			add_resistance = -30
 		}
+	}
 }
 country_event = {#Dalai stays
 	id = tmm.maclique.18
