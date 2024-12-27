@@ -1,0 +1,29 @@
+guiTypes = {
+	# Gansu Wars. Also I basically copied it from Phillipines one so shout out to whoever initially made it.
+	containerWindowType = {
+		name = "TNO_Gansu_GUI"
+		position = { x = 0 y = 0 }
+		size = { width = 496 height = 506 }
+
+		iconType = {
+			name = "sidebar"
+			position = { x = 8 y = 8 }
+			spriteType = "GFX_fopo_gansu_sidebar"
+		}
+
+		iconType = {
+			name = "seal"
+			position = { x = 153 y = 75 }
+			spriteType = "GFX_fopo_china_seal"
+		}
+
+        instantTextBoxType = {
+            name = "fopo_desc"
+			position = { x = 118 y = 10 }
+            text = fopo_desc_text
+            font = "aldrich_18_outline"
+			maxWidth = 370
+			maxHeight = 500
+        }
+	}
+}
