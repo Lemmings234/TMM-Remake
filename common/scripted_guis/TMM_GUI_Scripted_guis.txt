@@ -1,0 +1,2938 @@
+scripted_gui = {
+	BNW_Government_GUI = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "BNW_Government_GUI"
+	
+		visible = {
+			AND = {
+				has_country_flag = open_asia_parliament_gui
+			}
+		}
+
+		effects = {
+			tab_0_click = {
+				clear_array = QIN_parliament_selected_tab
+				add_to_array = { QIN_parliament_selected_tab = 1 }
+				clear_array = QIN_parliament_tab_frames
+				add_to_array = { QIN_parliament_tab_frames = 2 }
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+			}
+
+			tab_1_click = {
+				clear_array = QIN_parliament_selected_tab
+				add_to_array = { QIN_parliament_selected_tab = 2 }
+				clear_array = QIN_parliament_tab_frames
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+				add_to_array = { QIN_parliament_tab_frames = 2 }
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+			}
+			tab_2_click = {
+				clear_array = QIN_parliament_selected_tab
+				add_to_array = { QIN_parliament_selected_tab = 3 }
+				clear_array = QIN_parliament_tab_frames
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+				add_to_array = { QIN_parliament_tab_frames = 2 }
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+			}
+
+			tab_3_click = {
+				clear_array = QIN_parliament_selected_tab
+				add_to_array = { QIN_parliament_selected_tab = 4 }
+				clear_array = QIN_parliament_tab_frames
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+				add_to_array = { QIN_parliament_tab_frames = 1 }
+				add_to_array = { QIN_parliament_tab_frames = 2 }
+			}
+			close_button_click = {
+				clr_country_flag = open_asia_parliament_gui
+			}
+			QIN_Qinghai_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 0 }
+				QINSetupCity = yes
+			}
+			QIN_Yushu_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 1 }
+				QINSetupCity = yes
+			}
+			QIN_Tibet_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 2 }
+				QINSetupCity = yes
+			}
+			QIN_Khams_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 3 }
+				QINSetupCity = yes
+			}
+			QIN_Hexi_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 4 }
+				QINSetupCity = yes
+			}
+			QIN_Gansu_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 5 }
+				QINSetupCity = yes
+			}
+			QIN_Ningxia_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 6 }
+				QINSetupCity = yes
+			}
+			QIN_Hami_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 7 }
+				QINSetupCity = yes
+			}
+			QIN_Beijiang_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 8 }
+				QINSetupCity = yes
+			}
+			QIN_Nanjiang_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 9 }
+				QINSetupCity = yes
+			}
+			QIN_West_Mongolia_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 10 }
+				QINSetupCity = yes
+			}
+			QIN_Tuva_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 11 }
+				QINSetupCity = yes
+			}
+			BNW_Party_leader_click = {
+				set_country_flag = open_politics_view
+				set_variable = { Politics_Index = QIN_party_list^parties_idx }
+			}
+			Auditing_Button_2_click = {
+				clr_country_flag = Government_Impeaching
+			}
+			QIN_Impeach_Icon_click = {
+				QINRegisterImpeachment = yes
+			}
+			Impeachment_Button_2_click = {
+				set_country_flag = Government_Impeaching
+			}
+			Budget_Button_click = {
+				set_country_flag = open_budget_view
+			}
+			Executive_Army_click = {
+				set_variable = { Executive_Focus = 1 }
+				country_event = { id = tmm.maclique.119 days = 180 }
+			}
+			Executive_Internal_click = {
+				set_variable = { Executive_Focus = 2 }
+				country_event = { id = tmm.maclique.119 days = 180 }
+			}
+			Executive_Education_click = {
+				set_variable = { Executive_Focus = 3 }
+				country_event = { id = tmm.maclique.119 days = 180 }
+			}
+			Executive_Environment_click = {
+				set_variable = { Executive_Focus = 4 }
+				country_event = { id = tmm.maclique.119 days = 180 }
+			}
+			Examination_Exam_click = {
+				set_variable = { Examining_Focus = 1 }
+				QINExam = yes
+				QINCalculateBureaucratPercentage = yes
+			}
+			Examination_Assessment_click = {
+				set_variable = { Examining_Focus = 2 }
+				QINExam = yes
+				QINCalculateBureaucratPercentage = yes
+			}
+			Civil_Service_Rotation_click = {
+				set_variable = { Examining_Focus = 3 }
+				QINExam = yes
+				QINCalculateBureaucratPercentage = yes
+			}
+			Civil_Service_Raise_click = {
+				set_variable = { Examining_Focus = 4 }
+				QINExam = yes
+				QINCalculateBureaucratPercentage = yes
+			}
+			Auditing_Central_click = {
+				set_variable = { Auditing_Focus = 1 }
+				QINControl = yes
+			}
+			Auditing_Local_click = {
+				set_variable = { Auditing_Focus = 2 }
+				QINControl = yes
+			}
+			Auditing_Dept_click = {
+				set_variable = { Auditing_Focus = 3 }
+				QINControl = yes
+			}
+			Auditing_Budget_click = {
+				set_variable = { Auditing_Focus = 4 }
+				QINControl = yes
+			}
+			Procedure_Committee_Button_click = {
+				set_country_flag = open_legislation_view
+			}
+			Ad_Hoc_Meeting_click = {
+				set_variable = { Extra_Days = 15 }
+				set_country_flag = Ad_Hoc_Meeting
+				add_political_power = -100
+				subtract_from_variable = { QIN_Regime_Stability = 10 }
+				clr_country_flag = QIN_Legislation_In_Recess
+			}
+			First_Reading_Censorship_click = {
+				set_variable = { legislation_reading^pending_legislation_id = 2 }
+			    QINLegislationReview = yes
+				QINSetUPLegislationSupport = yes
+			}
+			First_Reading_No_Censorship_click = {
+				set_variable = { legislation_reading^pending_legislation_id = 2 }
+				subtract_from_variable = { QIN_Regime_Stability = 5 }
+				QINSetUPLegislationSupport = yes
+			}
+			Demand_Support_click = {
+		        QINGenerateBillSupport = yes 
+			}
+			Pass_Second_click = {
+				set_variable = { legislation_reading^pending_legislation_id = 3 } 
+			}
+            Third_Reading_Enact_click = {
+				QINCompleteLegislation = yes
+			}
+			Repeal_Law_click = {
+				QINRegisterRepeal = yes
+			}
+			Second_Reading_List_Window_click = {
+				if = {
+					limit = {
+						AND = {
+							has_country_flag = QIN_Opposition_Int
+							AND = {
+								check_variable = { opposition_int_id = Legislation_Opposition^parties_idx }
+						    }
+					    }
+					}
+					clr_country_flag = QIN_Opposition_Int
+					set_variable = { opposition_int_id = Legislation_Opposition^parties_idx }
+				}
+				else_if = {
+					limit = {
+						AND = {
+							has_country_flag = QIN_Opposition_Int
+							NOT = {
+								check_variable = { opposition_int_id = Legislation_Opposition^parties_idx }
+						    }
+					    }
+					}
+					set_variable = { opposition_int_id = Legislation_Opposition^parties_idx }
+				}
+				else = {
+					set_country_flag = QIN_Opposition_Int
+					clear_variable = opposition_int_id
+				}
+			}
+			Region_Karafuto_click = {
+				set_variable = { Temp_Region = JAP_Region^1 }
+				BNW_Change_Frame = yes
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Karafuto }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Karafuto_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Karafuto_2 }
+				}					
+			}
+			Region_Hokkaido_click = {
+				set_variable = { Temp_Region = JAP_Region^2 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Hokkaido }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hokkaido_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hokkaido_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hokkaido_3 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 5 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hokkaido_4 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 6 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hokkaido_5 }
+				}	
+			}
+            Region_Aomori_click = {
+				set_variable = { Temp_Region = JAP_Region^3 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Aomori }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Aomori_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Aomori_2 }
+				}	
+			}
+			Region_Kanagawa_click = {
+				set_variable = { Temp_Region = JAP_Region^14 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Kanagawa }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kanagawa_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kanagawa_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kanagawa_3 }
+				}	
+			}
+			Region_Gunma_click = {
+				set_variable = { Temp_Region = JAP_Region^11 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Gunma }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Gunma_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Gunma_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Gunma_3 }
+				}	
+			}
+			Region_Iwate_click = {
+				set_variable = { Temp_Region = JAP_Region^4 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Iwate }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Iwate_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Iwate_2 }
+				}	
+			}
+			Region_Yamagata_click = {
+				set_variable = { Temp_Region = JAP_Region^7 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Yamagata }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Yamagata_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Yamagata_2 }
+				}		
+			}
+			Region_Tokyo_click = {
+				set_variable = { Temp_Region = JAP_Region^16 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Tokyo }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tokyo_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tokyo_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tokyo_3 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 5 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tokyo_4 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 6 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tokyo_5 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 7 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tokyo_6 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 8 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tokyo_7 }
+				}	
+			}
+			Region_Miyagi_click = {
+				set_variable = { Temp_Region = JAP_Region^5 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Miyagi }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Miyagi_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Miyagi_2 }
+				}	
+			}
+			Region_Saitama_click = {
+				set_variable = { Temp_Region = JAP_Region^12 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Saitama }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Saitama_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Saitama_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Saitama_3 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 5 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Saitama_4 }
+				}	
+			}
+			Region_Yamanashi_click = {
+				set_variable = { Temp_Region = JAP_Region^15 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Yamanashi }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Yamanashi_1 }
+				}	
+			}
+			Region_Tochigi_click = {
+				set_variable = { Temp_Region = JAP_Region^10 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Tochigi }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tochigi_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tochigi_2 }
+				}	
+			}
+			Region_Ibaraki_click = {
+				set_variable = { Temp_Region = JAP_Region^9 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Ibaraki }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Ibaraki_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Ibaraki_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Ibaraki_3 }
+				}	
+			}
+            Region_Fukushima_click = {
+				set_variable = { Temp_Region = JAP_Region^8 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Fukushima }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Fukushima_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Fukushima_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Fukushima_3 }
+				}	
+			}
+			Region_Akita_click = {
+				set_variable = { Temp_Region = JAP_Region^6 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Akita }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Akita_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Akita_2 }
+				}	
+			}
+			Region_Chiba_click = {
+				set_variable = { Temp_Region = JAP_Region^13 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Chiba }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Chiba_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Chiba_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Chiba_3 }
+				}	
+			}
+			Region_Niigata_click = {
+				set_variable = { Temp_Region = JAP_Region^17 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Niigata }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Niigata_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Niigata_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Niigata_3 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 5 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Niigata_4 }
+				}	
+			}
+			Region_Toyama_click = {
+				set_variable = { Temp_Region = JAP_Region^18 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Toyama }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Toyama_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Toyama_2 }
+				}	
+			}
+			Region_Ishikawa_click = {
+				set_variable = { Temp_Region = JAP_Region^19 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Ishikawa }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Ishikawa_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Ishikawa_2 }
+				}		
+			}
+			Region_Fukui_click = {
+				set_variable = { Temp_Region = JAP_Region^20 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Fukui }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Fukui_1 }
+				}		
+			}
+			Region_Nagano_click = {
+				set_variable = { Temp_Region = JAP_Region^21 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Nagano }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Nagano_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Nagano_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Nagano_3 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 5 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Nagano_4 }
+				}	
+			}
+			Region_Gifu_click = {
+				set_variable = { Temp_Region = JAP_Region^22 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Gifu }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Gifu_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Gifu_2 }
+				}		
+			}
+			Region_Shizuoka_click = {
+				set_variable = { Temp_Region = JAP_Region^23 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Shizuoka }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Shizuoka_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Shizuoka_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Shizuoka_3 }
+				}		
+			}
+			Region_Aichi_click = {
+				set_variable = { Temp_Region = JAP_Region^24 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Aichi }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Aichi_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Aichi_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Aichi_3 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 5 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Aichi_4 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 6 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Aichi_5 }
+				}	
+			}
+			Region_Mie_click = {
+				set_variable = { Temp_Region = JAP_Region^25 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Mie }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Mie_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Mie_2 }
+				}	
+			}
+			Region_Shiga_click = {
+				set_variable = { Temp_Region = JAP_Region^26 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Shiga }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Shiga_1 }
+				}	
+			}
+			Region_Kyoto_click = {
+				set_variable = { Temp_Region = JAP_Region^27 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Kyoto }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kyoto_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kyoto_2 }
+				}	
+			}
+			Region_Osaka_click = {
+				set_variable = { Temp_Region = JAP_Region^28 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Osaka }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Osaka_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Osaka_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Osaka_3 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 5 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Osaka_4 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 6 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Osaka_5 }
+				}	
+			}
+			Region_Hyogo_click = {
+				set_variable = { Temp_Region = JAP_Region^29 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Hyogo }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hyogo_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hyogo_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hyogo_3 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 5 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hyogo_4 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 6 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hyogo_5 }
+				}	
+			}
+			Region_Nara_click = {
+				set_variable = { Temp_Region = JAP_Region^30 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Nara }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Nara_1 }
+				}	
+			}
+			Region_Wakayama_click = {
+				set_variable = { Temp_Region = JAP_Region^31 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Wakayama }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Wakayama_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Wakayama_2 }
+				}		
+			}
+			Region_Tottori_click = {
+				set_variable = { Temp_Region = JAP_Region^32 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Tottori }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tottori_1 }
+				}	
+			}
+			Region_Shimane_click = {
+				set_variable = { Temp_Region = JAP_Region^33 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Shimane }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Shimane_1 }
+				}	
+			}
+			Region_Okayama_click = {
+				set_variable = { Temp_Region = JAP_Region^34 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Okayama }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Okayama_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Okayama_2 }
+				}	
+			}
+			Region_Hiroshima_click = {
+				set_variable = { Temp_Region = JAP_Region^35 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Hiroshima }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hiroshima_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hiroshima_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Hiroshima_3 }
+				}	
+			}
+			Region_Yamaguchi_click = {
+				set_variable = { Temp_Region = JAP_Region^36 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Yamaguchi }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Yamaguchi_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Yamaguchi_2 }
+				}	
+			}
+			Region_Tokushima_click = {
+				set_variable = { Temp_Region = JAP_Region^37 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Tokushima }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Tokushima_1 }
+				}		
+			}
+			Region_Kagawa_click = {
+				set_variable = { Temp_Region = JAP_Region^38 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Kagawa }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kagawa_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kagawa_2 }
+				}	
+			}
+			Region_Ehime_click = {
+				set_variable = { Temp_Region = JAP_Region^39 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Ehime }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Ehime_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Ehime_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Ehime_3 }
+				}	
+			}
+			Region_Kochi_click = {
+				set_variable = { Temp_Region = JAP_Region^40 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Kochi }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kochi_1 }
+				}		
+			}
+			Region_Fukuoka_click = {
+				set_variable = { Temp_Region = JAP_Region^41 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Fukuoka }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Fukuoka_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Fukuoka_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Fukuoka_3 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 5 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Fukuoka_4 }
+				}		
+			}
+			Region_Saga_click = {
+				set_variable = { Temp_Region = JAP_Region^42 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Saga }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Saga_1 }
+				}	
+			}
+			Region_Nagasaki_click = {
+				set_variable = { Temp_Region = JAP_Region^43 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Nagasaki }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Nagasaki_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Nagasaki_2 }
+				}		
+			}
+			Region_Kumamoto_click = {
+				set_variable = { Temp_Region = JAP_Region^44 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Kumamoto }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kumamoto_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kumamoto_2 }
+				}		
+			}
+			Region_Oita_click = {
+				set_variable = { Temp_Region = JAP_Region^45 }
+				BNW_Change_Frame = yes
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Oita }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Oita_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Oita_2 }
+				}		
+			}
+			Region_Miyazaki_click = {
+				set_variable = { Temp_Region = JAP_Region^46 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Miyazaki }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Miyazaki_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Miyazaki_2 }
+				}	
+			}
+			Region_Kagoshima_click = {
+				set_variable = { Temp_Region = JAP_Region^47 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Kagoshima }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kagoshima_1 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 3 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kagoshima_2 }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 4 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Kagoshima_3 }
+				}	
+			}
+			Region_Okinawa_click = {
+				set_variable = { Temp_Region = JAP_Region^48 }
+				BNW_Change_Frame = yes	
+				if = { 
+					limit = { check_variable = { Temp_Frame = 1 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_Region_Okinawa }
+				}	
+				else_if = { 
+					limit = { check_variable = { Temp_Frame = 2 } } 
+					set_variable = { JAP_Electoral_District = token:JAP_District_Okinawa_1 }
+				}	
+			}
+		}
+
+        dynamic_lists = {
+			current_stage = {
+				array = legislation_reading
+				change_scope = no
+				entry_container = "[QINgetCurrentStage]"
+			}
+			current_tab = {
+				array = QIN_parliament_selected_tab
+				change_scope = no
+				entry_container = "[QINgetCurrentTab]"
+			}
+        	parliament_seats_qin = {
+        		array = xposqin
+        		change_scope = no
+        		entry_container = parliament_seats_icon_container
+        		index = seat_idx
+        	}
+        	parliament_seats_guz = {
+        		array = xposguz
+        		change_scope = no
+        		entry_container = GUZ_parliament_seats_icon_container
+        		index = seat_idx
+        	}
+			BNW_parties_list = {
+				array = QIN_party_list
+				change_scope = no
+				entry_container = BNW_party_window_container
+				index = parties_idx
+			}
+			QIN_committees_list = {
+				array = QIN_committee_ruling
+				change_scope = no
+				entry_container = QIN_committee_window_container
+				index = parties_idx
+			}
+			QIN_opposition_list = {
+				array = Legislation_Opposition
+				change_scope = no
+				entry_container = QIN_opposition_window_container
+				index = parties_idx
+			}
+			QIN_impeachment_list = {
+				array = Politician
+				change_scope = no
+				entry_container = QIN_impeachment_window_container
+				index = parties_idx
+			}
+			QIN_action_list = {
+				array = legislation_log_id
+				change_scope = no
+				entry_container = QIN_action_window_container
+				index = parties_idx
+			}
+
+			JAP_Imperial_Court_Issues_list = {
+				array = imperial_court_issue_id
+				change_scope = no
+				entry_container = JAP_Imperial_Court_Issues_window_container
+				index = parties_idx
+			}
+        }
+
+		triggers = {
+			JAP_Imperial_Court_Interaction_1_click_enabled = {
+                OR = {
+			        has_country_flag = Emperor_Interested
+			        has_country_flag = Court_Interested
+				}
+			}
+
+			china_legislative_gui_kmt_visible = { NOT = { QIN = { has_country_flag = CCP_Won } } }
+			china_legislative_gui_ccp_visible = { QIN = { has_country_flag = CCP_Won } }
+			current_stage_visible = { ROOT.QIN_parliament_selected_tab^0 = 2 }
+			Outlook_Liberal_Icon_visible = {	
+				AND = {
+                	check_variable = {
+                	var = QIN_outlook^0
+                	value = QIN_outlook^1
+                	compare = greater_than_or_equals
+                    }
+                check_variable = {
+                	var = QIN_outlook^0
+                	value = QIN_outlook^2
+                	compare = greater_than_or_equals
+                    }					
+				}		
+			}
+			Outlook_Conservative_Icon_visible = {
+				AND = {
+                	check_variable = {
+                	var = QIN_outlook^1
+                	value = QIN_outlook^0
+                	compare = greater_than_or_equals
+                    }
+                check_variable = {
+                	var = QIN_outlook^1
+                	value = QIN_outlook^2
+                	compare = greater_than_or_equals
+                    }					
+				}						
+			}
+			Outlook_Reactionary_Icon_visible = {
+				AND = {
+                	check_variable = {
+                	var = QIN_outlook^2
+                	value = QIN_outlook^0
+                	compare = greater_than_or_equals
+                    }
+                check_variable = {
+                	var = QIN_outlook^2
+                	value = QIN_outlook^1
+                	compare = greater_than_or_equals
+                    }					
+				}										
+			}	
+			GUZ_Outlook_Liberal_Icon_visible = {	
+				AND = {
+                	check_variable = {
+                	var = GUZ_outlook^0
+                	value = GUZ_outlook^1
+                	compare = greater_than_or_equals
+                    }
+                check_variable = {
+                	var = GUZ_outlook^0
+                	value = GUZ_outlook^2
+                	compare = greater_than_or_equals
+                    }					
+				}		
+			}
+			GUZ_Outlook_Conservative_Icon_visible = {
+				AND = {
+                	check_variable = {
+                	var = GUZ_outlook^1
+                	value = GUZ_outlook^0
+                	compare = greater_than_or_equals
+                    }
+                check_variable = {
+                	var = GUZ_outlook^1
+                	value = GUZ_outlook^2
+                	compare = greater_than_or_equals
+                    }					
+				}						
+			}
+			GUZ_Outlook_Reactionary_Icon_visible = {
+				AND = {
+                	check_variable = {
+                	var = GUZ_outlook^2
+                	value = GUZ_outlook^0
+                	compare = greater_than_or_equals
+                    }
+                check_variable = {
+                	var = GUZ_outlook^2
+                	value = GUZ_outlook^1
+                	compare = greater_than_or_equals
+                    }					
+				}										
+			}	
+			QIN_Legislation_Passed_visible = {
+				AND = {
+				    NOT = { has_country_flag = QIN_Repealling_Laws }
+					has_country_flag = hist_leg 
+				}					
+			}
+			Demand_Support_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					has_country_flag = QIN_Opposition_Int
+				}				
+			}
+			Demand_Support_2_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					has_country_flag = QIN_Opposition_Int
+				}				
+			}
+			Oppose_Motion_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					NOT = { has_country_flag = QIN_Opposition_Int }
+				}				
+			}
+			Oppose_Motion_2_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					NOT = { has_country_flag = QIN_Opposition_Int }
+				}				
+			}
+			Support_Motion_visible = {
+				AND = {  
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					NOT = { has_country_flag = QIN_Opposition_Int }
+				}				
+			}
+			Fail_Second_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					NOT = { check_variable = { Majority < QIN_Second_Reading_Support } }
+				}				
+			}
+			Fail_Second_2_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					AND = { check_variable = { Majority < QIN_Second_Reading_Support } }
+				}				
+			}
+			Pass_Second_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					AND = { check_variable = { Majority < QIN_Second_Reading_Support } }
+				}				
+			}
+			Pass_Second_2_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					NOT = { check_variable = { Majority < QIN_Second_Reading_Support } }
+				}				
+			}
+			Support_Motion_2_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					NOT = { has_country_flag = QIN_Opposition_Int }
+				}				
+			}
+			Second_Reading_Action_Opposition_Title_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 2 } 
+					AND = { has_country_flag = QIN_Opposition_Int }
+				}				
+			}
+			Pending_Legislation_Title_visible = { NOT = { check_variable = { legislation_reading^pending_legislation_id = 2 } } }
+			Pending_Legislation_Cause_visible = { NOT = { check_variable = { legislation_reading^pending_legislation_id = 2 } }	}
+			Past_Legislation_Cause_visible = {				
+				AND = {
+				    NOT = { has_country_flag = QIN_Repealling_Laws }
+					has_country_flag = hist_leg 
+				}	
+			}
+			Past_Legislation_Title_visible = {
+				AND = {
+				    NOT = { has_country_flag = QIN_Repealling_Laws }
+					has_country_flag = hist_leg 
+				}					
+			}
+			Repeal_Law_visible = {
+				AND = { 
+					AND = {
+						check_variable = { legislation_past_repeal = 0 }
+						NOT = {
+							is_in_array = {
+                            	array = unable_to_repeal
+                            	value = pending_legislation_past_id
+                            }
+						}
+					}
+					has_country_flag = hist_leg
+					NOT = { has_country_flag = QIN_Repealling_Laws }
+				}				
+			}
+			Repeal_Law_2_visible = {
+				AND = { 
+					OR = {
+						has_country_flag = QIN_Repealling_Laws
+						OR = {
+							check_variable = { pending_legislation_past_id = 102 }
+						}
+					}
+					has_country_flag = hist_leg
+					NOT = { has_country_flag = QIN_Repealling_Laws }
+				}				
+			}
+			Historical_Legislation_Effect_Title_visible = {				
+				AND = {
+				    NOT = { has_country_flag = QIN_Repealling_Laws }
+					has_country_flag = hist_leg 
+				}	
+			}
+			Historical_Legislation_Effect_visible = {
+				AND = {
+				    NOT = { has_country_flag = QIN_Repealling_Laws }
+					has_country_flag = hist_leg 
+				}						
+			}
+			Pending_Legislation_Proposer_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 1 } 
+					NOT = { check_variable = { pending_legislation_id = 0 } }
+				}				
+			}
+			Pending_Legislation_Proposer_Proper_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 1 } 
+					NOT = { check_variable = { pending_legislation_id = 0 } }
+				}				
+			}
+			QIN_Legislation_Bill_Committee_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 1 } 
+					NOT = { check_variable = { pending_legislation_id = 0 } }
+				}				
+			}
+			QIN_Legislation_Bill_Committee_Proper_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 1 } 
+					NOT = { check_variable = { pending_legislation_id = 0 } }
+				}				
+			}
+			QIN_Legislation_Bill_Effect_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 1 } 
+					NOT = { check_variable = { pending_legislation_id = 0 } }
+				}				
+			}
+			QIN_Legislation_Bill_Effect_Proper_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 1 } 
+					NOT = { check_variable = { pending_legislation_id = 0 } }
+				}				
+			}
+			First_Reading_Censorship_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 1 } 
+					NOT = { check_variable = { pending_legislation_id = 0 } }
+				}				
+			}
+			First_Reading_No_Censorship_visible = {
+				AND = { 
+					check_variable = { legislation_reading^pending_legislation_id = 1 } 
+					NOT = { check_variable = { pending_legislation_id = 0 } }
+				}				
+			}
+			Ad_Hoc_Meeting_click_enabled = {
+				AND = { 
+					check_variable = { political_power > 100 }
+					check_variable = { QIN_Regime_Stability > 10 }
+				}				
+			}
+			Procedure_Committee_Button_click_enabled = { NOT = { has_country_flag = QIN_Legislation_In_Recess } }
+			Legislation_Stage_1_visible = {
+				AND = { 
+					has_country_flag = QIN_Legislation_Stage_1
+				}				
+			}
+			Legislation_Stage_2_visible = {
+				AND = { 
+					has_country_flag = QIN_Legislation_Stage_2
+				}				
+			}
+			Legislation_Stage_3_visible = {
+				AND = { 
+					has_country_flag = QIN_Legislation_Stage_3
+				}				
+			}
+			Legislation_Stage_4_visible = {
+				AND = { 
+					has_country_flag = QIN_Legislation_Stage_4
+				}				
+			}
+			Auditing_Button_visible = { NOT = { has_country_flag = Government_Impeaching } } 
+			Impeachment_Button_visible = { has_country_flag = Government_Impeaching }
+			Impeachment_Button_2_visible = { NOT = { has_country_flag = Government_Impeaching } }
+			Auditing_Button_2_visible = { has_country_flag = Government_Impeaching }
+			Monetary_Health_Asian_visible = { NOT = { has_country_flag = Government_Impeaching } }
+			QIN_Impeachment_BG_visible = { has_country_flag = Government_Impeaching } 
+			Impeachment_Title_visible = { has_country_flag = Government_Impeaching } 
+			QIN_Impeachment_List_Window_visible = { has_country_flag = Government_Impeaching } 
+			QIN_Impeached_Title_visible = { has_country_flag = Government_Impeaching } 
+			QIN_Impeached_Name_visible = { has_country_flag = Government_Impeaching } 
+			QIN_Impeach_Icon_visible = {
+				AND = { 
+					AND = { has_country_flag = Government_Impeaching }
+					OR = {
+						AND = {
+							check_variable = { Impeach_Title^parties_idx = 1 }
+
+	                        check_variable = { Politician_Faction^0 = Politician_Faction^3 }
+	                        check_variable = { QIN_Control_Yuan_Support > 50 }
+						}
+						AND = {
+							check_variable = { Impeach_Title^parties_idx = 2 }
+
+							check_variable = { QIN_Control_Yuan_Support > 50 }
+						}
+						AND = {
+							check_variable = { Impeach_Title^parties_idx = 3 }
+
+							check_variable = { QIN_Control_Yuan_Support > 50 }
+						}
+						AND = {
+							check_variable = { Impeach_Title^parties_idx = 4 }
+
+							check_variable = { Politician_Faction^0 = Politician_Faction^3 }
+						}
+						AND = {
+							check_variable = { Impeach_Title^parties_idx = 5 }
+
+							check_variable = { QIN_Control_Yuan_Support > 50 }
+						}
+						AND = {
+							check_variable = { Impeach_Title^parties_idx = 6 }
+
+							check_variable = { QIN_Control_Yuan_Support > 50 }
+						}
+					}
+				}				
+			}
+			QIN_Impeach_Icon_2_visible = { has_country_flag = Government_Impeaching  }
+			Monetary_Health_Progressbar_visible = { NOT = { has_country_flag = Government_Impeaching } }
+			Auditing_Central_visible = { NOT = { has_country_flag = Government_Impeaching } }
+			Auditing_Local_visible = { NOT = { has_country_flag = Government_Impeaching } }
+			Auditing_Dept_visible = { NOT = { has_country_flag = Government_Impeaching } }
+			Auditing_Budget_visible = { NOT = { has_country_flag = Government_Impeaching } }
+			Executive_Army_visible = { check_variable = { Executive_Focus = 0 } }
+			Executive_Internal_visible = { check_variable = { Executive_Focus = 0 } }
+			Executive_Education_visible = { check_variable = { Executive_Focus = 0 } }
+			Executive_Environment_visible = { check_variable = { Executive_Focus = 0 } }
+			Executive_Army_2_visible = { NOT = { check_variable = { Executive_Focus = 1 } } }
+			Executive_Internal_2_visible = { NOT = { check_variable = { Executive_Focus = 2 } }	}
+			Executive_Education_2_visible = { NOT = { check_variable = { Executive_Focus = 3 } } }
+			Executive_Environment_2_visible = { NOT = { check_variable = { Executive_Focus = 4 } } }
+			Executive_Army_3_visible = { check_variable = { Executive_Focus = 1 } } 		
+			Executive_Internal_3_visible = { check_variable = { Executive_Focus = 2 } } 
+			Executive_Education_3_visible = { check_variable = { Executive_Focus = 3 } } 
+			Executive_Environment_3_visible = { check_variable = { Executive_Focus = 4 } } 
+			Auditing_Central_visible = {
+				AND = { 
+					check_variable = { Auditing_Focus = 0 }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Local_visible = {
+				AND = { 
+					check_variable = { Auditing_Focus = 0 }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Dept_visible = {
+				AND = { 
+					check_variable = { Auditing_Focus = 0 }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Budget_visible = {
+				AND = { 
+					check_variable = { Auditing_Focus = 0 }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Central_2_visible = {
+				AND = { 
+					NOT = { check_variable = { Auditing_Focus = 1 } }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Local_2_visible = {
+				AND = { 
+					NOT = { check_variable = { Auditing_Focus = 2 } }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Dept_2_visible = {
+				AND = { 
+					NOT = { check_variable = { Auditing_Focus = 3 } }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Budget_2_visible = {
+				AND = { 
+					NOT = { check_variable = { Auditing_Focus = 4 } }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Central_3_visible = {
+				AND = { 
+					AND = { check_variable = { Auditing_Focus = 1 } }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Local_3_visible = {
+				AND = { 
+					AND = { check_variable = { Auditing_Focus = 2 } }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Dept_3_visible = {
+				AND = { 
+					AND = { check_variable = { Auditing_Focus = 3 } }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Auditing_Budget_3_visible = {
+				AND = { 
+					AND = { check_variable = { Auditing_Focus = 4 } }
+					NOT = { has_country_flag = Government_Impeaching }
+				}				
+			}
+			Examination_Exam_visible = { check_variable = { Examining_Focus = 0 } }	
+			Examination_Assessment_visible = { check_variable = { Examining_Focus = 0 } } 
+			Civil_Service_Rotation_visible = { check_variable = { Examining_Focus = 0 } } 
+			Civil_Service_Raise_visible = { check_variable = { Examining_Focus = 0 } }
+			Examination_Exam_2_visible = { NOT = { check_variable = { Examining_Focus = 1 } } }
+			Examination_Assessment_2_visible = { NOT = { check_variable = { Examining_Focus = 2 } }	}
+			Civil_Service_Rotation_2_visible = { NOT = { check_variable = { Examining_Focus = 3 } }	}
+			Civil_Service_Raise_2_visible = { NOT = { check_variable = { Examining_Focus = 4 } } }
+			Examination_Exam_3_visible = { check_variable = { Examining_Focus = 1 } }
+			Examination_Assessment_3_visible = { check_variable = { Examining_Focus = 2 } } 
+			Civil_Service_Rotation_3_visible = { check_variable = { Examining_Focus = 3 } }
+			Civil_Service_Raise_3_visible = { check_variable = { Examining_Focus = 4 } }
+		    QIN_Yushu_visible = {
+			    owns_state = 601 
+			}
+		    QIN_Khams_visible = {
+			    owns_state = 765
+			}
+		    QIN_Tibet_visible = {
+				AND = {
+			        owns_state = 322
+					owns_state = 765
+				}
+			}
+		    QIN_Xikang_visible = {
+				AND = {
+			        OR = {
+				        AND = {
+			                905 = {
+				                owner = {
+				    	            original_tag = XIK
+				                }
+				            }
+				    	}
+				        AND = {
+			                905 = {
+				                owner = {
+				    	            original_tag = QIN
+				                }
+				            }
+				    	}					
+				    }
+				}
+			}
+		    QIN_Hexi_visible = {
+			    owns_state = 764 
+			}
+		    QIN_Ningxia_visible = {
+			    owns_state = 616 
+			}
+		    QIN_Gansu_visible = {
+			    owns_state = 1302
+				owns_state = 283
+			}
+		    QIN_Hami_visible = {
+			    owns_state = 957 
+			}
+		    QIN_Nanjiang_visible = {
+			    owns_state = 958
+				owns_state = 617
+				owns_state = 619
+			}
+		    QIN_Beijiang_visible = {
+			    owns_state = 618 
+			}
+		    QIN_West_Mongolia_visible = {
+			    owns_state = 814
+			}
+		    QIN_Tuva_visible = {
+				owns_state = 329
+			}
+		    QIN_Mongolia_Shade_visible = {
+				AND = {
+				    330 = {
+	                    controller = {
+		                    OR = {
+		                	    is_in_faction_with = JAP
+		                	    is_puppet_of = JAP
+		                	    tag = JAP
+		                    }
+			            }
+				    }
+				    815 = {
+	                    controller = {
+		                    OR = {
+		                	    is_in_faction_with = JAP
+		                	    is_puppet_of = JAP
+		                	    tag = JAP
+		                    }
+			            }
+				    }
+				}
+			}
+		    QIN_Mongolia_3_visible = {
+				AND = {
+				    NOT = {
+				        AND = {
+				            330 = {
+	                            controller = {
+		                            OR = {
+		                        	   is_in_faction_with = JAP
+		                        	   is_puppet_of = JAP
+		                        	   tag = JAP
+		                            }
+			                    }
+				            }
+				            815 = {
+	                            controller = {
+		                            OR = {
+		                        	    is_in_faction_with = JAP
+		                        	    is_puppet_of = JAP
+		                        	    tag = JAP
+		                            }
+			                    }
+				            }
+				        }
+				    }
+				}
+			}
+		    QIN_West_Mongolia_Shade_visible = {
+				AND = {
+				    814 = {
+	                    controller = {
+		                    OR = {
+		                	is_in_faction_with = JAP
+		                	is_puppet_of = JAP
+		                	tag = JAP
+		                    }
+			            }
+				    }
+				}
+			}
+		    QIN_West_Mongolia_3_visible = {
+				AND = {
+				    NOT = {
+				        AND = {
+				            814 = {
+	                            controller = {
+		                            OR = {
+		                        	is_in_faction_with = JAP
+		                        	is_puppet_of = JAP
+		                        	tag = JAP
+		                            }
+			                    }
+				            }
+				        }
+				    }
+				}
+			}
+		    QIN_Tuva_3_visible = {
+				AND = {
+				    NOT = {
+				        AND = {
+				            814 = {
+	                            controller = {
+		                            OR = {
+		                        	is_in_faction_with = JAP
+		                        	is_puppet_of = JAP
+		                        	tag = JAP
+		                            }
+			                    }
+				            }
+				            QIN = {
+				    			owns_state = 814
+				            }
+				        }
+				    }
+				}
+			}
+
+			###JAPAN###
+			JAP_Imperial_Court_Jyushin_Portrait_3_Mikasa_visible = { NOT = has_country_flag = JAP_Mikasa_Assassinated }
+			Region_Akita_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^3 }
+						check_variable = { Temp_Region = JAP_Region^4 }
+						check_variable = { Temp_Region = JAP_Region^5 }
+						check_variable = { Temp_Region = JAP_Region^7 }
+					}
+				}
+			}
+			Region_Miyagi_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^4 }
+						check_variable = { Temp_Region = JAP_Region^7 }
+					}
+				}
+			}
+			Region_Iwate_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^3 }
+					}
+				}
+			}
+			Region_Fukushima_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^5 }
+						check_variable = { Temp_Region = JAP_Region^7 }
+						check_variable = { Temp_Region = JAP_Region^9 }
+						check_variable = { Temp_Region = JAP_Region^10 }
+						check_variable = { Temp_Region = JAP_Region^11 }
+					}
+				}
+			}
+			Region_Niigata_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^7 }
+						check_variable = { Temp_Region = JAP_Region^8 }
+						check_variable = { Temp_Region = JAP_Region^11 }
+					}
+				}
+			}
+			Region_Tochigi_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^9 }
+						check_variable = { Temp_Region = JAP_Region^11 }
+					}
+				}
+			}
+			Region_Chiba_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^9 }
+						check_variable = { Temp_Region = JAP_Region^11 }
+						check_variable = { Temp_Region = JAP_Region^12 }
+						check_variable = { Temp_Region = JAP_Region^16 }
+					}
+				}
+			}
+			Region_Tokyo_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^9 }
+						check_variable = { Temp_Region = JAP_Region^11 }
+						check_variable = { Temp_Region = JAP_Region^14 }
+					}
+				}
+			}
+			Region_Saitama_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^9 }
+						check_variable = { Temp_Region = JAP_Region^11 }
+						check_variable = { Temp_Region = JAP_Region^14 }
+						check_variable = { Temp_Region = JAP_Region^16 }
+					}
+				}
+			}
+			Region_Kanagawa_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^9 }
+						check_variable = { Temp_Region = JAP_Region^11 }
+					}
+				}
+			}
+			Region_Nagano_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^11 }
+						check_variable = { Temp_Region = JAP_Region^12 }
+						check_variable = { Temp_Region = JAP_Region^17 }
+					}
+				}
+			}
+			Region_Shizuoka_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^14 }
+					}
+				}
+			}
+			Region_Toyama_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^17 }
+						check_variable = { Temp_Region = JAP_Region^21 }
+					}
+				}
+			}
+			Region_Ishikawa_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^18 }
+					}
+				}
+			}
+			Region_Gifu_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^18 }
+						check_variable = { Temp_Region = JAP_Region^20 }
+						check_variable = { Temp_Region = JAP_Region^21 }
+					}
+				}
+			}
+			Region_Fukui_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^19 }
+					}
+				}
+			}
+			Region_Yamanashi_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^12 }
+						check_variable = { Temp_Region = JAP_Region^14 }
+						check_variable = { Temp_Region = JAP_Region^16 }
+						check_variable = { Temp_Region = JAP_Region^21 }
+					}
+				}
+			}
+			Region_Shizuoka_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^14 }
+						check_variable = { Temp_Region = JAP_Region^15 }
+						check_variable = { Temp_Region = JAP_Region^21 }
+						check_variable = { Temp_Region = JAP_Region^24 }
+					}
+				}
+			}
+			Region_Aichi_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^21 }
+						check_variable = { Temp_Region = JAP_Region^22 }
+					}
+				}
+			}
+			Region_Shiga_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^20 }
+						check_variable = { Temp_Region = JAP_Region^22 }
+						check_variable = { Temp_Region = JAP_Region^25 }
+					}
+				}
+			}
+			Region_Mie_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^22 }
+						check_variable = { Temp_Region = JAP_Region^24 }
+					}
+				}
+			}
+			Region_Kyoto_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^20 }
+						check_variable = { Temp_Region = JAP_Region^25 }
+						check_variable = { Temp_Region = JAP_Region^26 }
+						check_variable = { Temp_Region = JAP_Region^28 }
+						check_variable = { Temp_Region = JAP_Region^29 }
+					}
+				}
+			}
+			Region_Nara_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^25 }
+						check_variable = { Temp_Region = JAP_Region^27 }
+						check_variable = { Temp_Region = JAP_Region^28 }
+						check_variable = { Temp_Region = JAP_Region^31 }
+					}
+				}
+			}
+			Region_Wakayama_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^25 }
+						check_variable = { Temp_Region = JAP_Region^28 }
+					}
+				}
+			}
+			Region_Hyogo_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^28 }
+					}
+				}
+			}
+			Region_Tottori_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^29 }
+					}
+				}
+			}
+			Region_Okayama_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^29 }
+						check_variable = { Temp_Region = JAP_Region^32 }
+					}
+				}
+			}
+			Region_Shimane_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^32 }
+					}
+				}
+			}
+			Region_Hiroshima_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^32 }
+						check_variable = { Temp_Region = JAP_Region^33 }
+						check_variable = { Temp_Region = JAP_Region^34 }
+						check_variable = { Temp_Region = JAP_Region^36 }
+					}
+				}
+			}
+			Region_Yamaguchi_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^33 }
+					}
+				}
+			}
+			Region_Kagawa_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^37 }
+					}
+				}
+			}
+			Region_Kochi_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^37 }
+						check_variable = { Temp_Region = JAP_Region^39 }
+					}
+				}
+			}
+			Region_Saga_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^41 }
+						check_variable = { Temp_Region = JAP_Region^43 }
+					}
+				}
+			}
+			Region_Kumamoto_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^41 }
+						check_variable = { Temp_Region = JAP_Region^45 }
+					}
+				}
+			}
+			Region_Fukuoka_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^45 }
+					}
+				}
+			}
+			Region_Miyazaki_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^44 }
+						check_variable = { Temp_Region = JAP_Region^45 }
+						check_variable = { Temp_Region = JAP_Region^47 }
+					}
+				}
+			}
+			Region_Kagoshima_visible = {
+				NOT = {
+					OR = {
+						check_variable = { Temp_Region = JAP_Region^44 }
+					}
+				}
+			}
+		}
+        properties = {
+			Examination_Yuan_Bar_1 = {
+				frame = mystia
+			}
+			Examination_Yuan_Bar_2 = {
+				frame = QIN_Bureaucrat_Support
+			}
+			Monetary_Health_Progressbar = {
+				frame = QIN_Monetary_Health
+			}
+			Outlook_Liberal_Bar = {
+				frame = QIN_outlook^0
+			}
+			Outlook_Conservative_Bar = {
+				frame = Conservative_Outlook
+			}
+			GUZ_Outlook_Liberal_Bar = {
+				frame = GUZ_Outlook^0
+			}
+			GUZ_Outlook_Conservative_Bar = {
+				frame = Conservative_Outlook
+			}
+			BNW_Party_leader = {
+				image = [QINgetPartyLeader]
+			}
+        	parliament_seats_qin_gui = {
+        		x = xposqin^seat_idx
+        		y = yposqin^seat_idx
+        		frame = parliament_array^seat_idx
+        	}
+			parliament_seats_icon = {
+				x = xposqin^seat_idx
+				y = yposqin^seat_idx
+				frame = QIN_parliament_seats_display^seat_idx
+			}
+			GUZ_parliament_seats_icon = {
+				x = xposguz^seat_idx
+				y = yposguz^seat_idx
+				frame = GUZ_parliament_seats_display^seat_idx
+			}
+			tab_0 = {
+				frame = QIN_parliament_tab_frames^0
+			}
+			tab_1 = {
+				frame = QIN_parliament_tab_frames^1
+			}
+			tab_2 = {
+				frame = QIN_parliament_tab_frames^2
+			}
+			tab_3 = {
+				frame = QIN_parliament_tab_frames^3
+			}
+			Progressbar_1 = {
+				frame = QIN_Regime_Stability
+			}
+			Progressbar_2 = {
+				frame = QIN_Parliament_Support
+			}
+			Election_Group_1 = {
+				frame = Election_KMT_Tendency^0
+			}
+			Election_Group_1_Reverse = {
+				frame = Election_CCP_Tendency^0
+			}
+			Election_Group_2 = {
+				frame = Election_KMT_Tendency^1
+			}
+			Election_Group_2_Reverse = {
+				frame = Election_CCP_Tendency^1
+			}
+			Election_Group_3 = {
+				frame = Election_KMT_Tendency^2
+			}
+			Election_Group_3_Reverse = {
+				frame = Election_CCP_Tendency^2
+			}
+			Election_Group_4 = {
+				frame = Election_KMT_Tendency^3
+			}
+			Election_Group_4_Reverse = {
+				frame = Election_CCP_Tendency^3
+			}
+			Election_Group_5 = {
+				frame = Election_KMT_Tendency^4
+			}
+			Election_Group_5_Reverse = {
+				frame = Election_CCP_Tendency^4
+			}
+			Election_Group_6 = {
+				frame = Election_KMT_Tendency^5
+			}
+			Election_Group_6_Reverse = {
+				frame = Election_CCP_Tendency^5
+			}
+			Election_Group_7 = {
+				frame = Election_KMT_Tendency^6
+			}
+			Election_Group_7_Reverse = {
+				frame = Election_CCP_Tendency^6
+			}
+			Election_Group_8 = {
+				frame = Election_KMT_Tendency^7
+			}
+			Election_Group_8_Reverse = {
+				frame = Election_CCP_Tendency^7
+			}
+			Election_Group_9 = {
+				frame = Election_KMT_Tendency^8
+			}
+			Election_Group_9_Reverse = {
+				frame = Election_CCP_Tendency^8
+			}
+
+			###JAPAN###
+			JAP_Imperial_Court_Ancestors = {
+				frame = Ancestor_Frame
+			}
+			JAP_Imperial_Court_Jyushin_Opinion_1 = {
+				frame = Jyushin_Opinion^0
+			}
+			JAP_Imperial_Court_Jyushin_Opinion_2 = {
+				frame = Jyushin_Opinion^1
+			}
+			JAP_Imperial_Court_Jyushin_Opinion_3 = {
+				frame = Jyushin_Opinion^2
+			}
+			JAP_Imperial_Court_Jyushin_Opinion_4 = {
+				frame = Jyushin_Opinion^3
+			}
+			JAP_Imperial_Court_Jyushin_Opinion_5 = {
+				frame = Jyushin_Opinion^4
+			}
+			Region_Karafuto = { frame = JAP_Region_Frame^1 }
+			Region_Hokkaido = { frame = JAP_Region_Frame^2 }
+            Region_Aomori = { frame = JAP_Region_Frame^3 }
+			Region_Kanagawa = { frame = JAP_Region_Frame^14 }
+			Region_Gunma = { frame = JAP_Region_Frame^11 }
+			Region_Iwate = { frame = JAP_Region_Frame^4 }
+			Region_Yamagata = { frame = JAP_Region_Frame^7 }
+			Region_Tokyo = { frame = JAP_Region_Frame^16 }
+			Region_Miyagi = { frame = JAP_Region_Frame^5 }
+			Region_Saitama = { frame = JAP_Region_Frame^12 }
+			Region_Yamanashi = { frame = JAP_Region_Frame^15 }
+			Region_Tochigi = { frame = JAP_Region_Frame^10 }
+			Region_Ibaraki = { frame = JAP_Region_Frame^9 }
+            Region_Fukushima = { frame = JAP_Region_Frame^8 }
+			Region_Akita = { frame = JAP_Region_Frame^6 }
+			Region_Chiba = { frame = JAP_Region_Frame^13 }
+			Region_Niigata = { frame = JAP_Region_Frame^17 }
+			Region_Toyama = { frame = JAP_Region_Frame^18 }
+			Region_Ishikawa = { frame = JAP_Region_Frame^19 }
+			Region_Fukui = { frame = JAP_Region_Frame^20 }
+			Region_Nagano = { frame = JAP_Region_Frame^21 }
+			Region_Gifu = { frame = JAP_Region_Frame^22 }
+			Region_Shizuoka = { frame = JAP_Region_Frame^23 }
+			Region_Aichi = { frame = JAP_Region_Frame^24 }
+			Region_Mie = { frame = JAP_Region_Frame^25 }
+			Region_Shiga = { frame = JAP_Region_Frame^26 }
+			Region_Kyoto = { frame = JAP_Region_Frame^27 }
+			Region_Osaka = { frame = JAP_Region_Frame^28 }
+			Region_Hyogo = { frame = JAP_Region_Frame^29 }
+			Region_Nara = { frame = JAP_Region_Frame^30 }
+			Region_Wakayama = { frame = JAP_Region_Frame^31 }
+			Region_Tottori = { frame = JAP_Region_Frame^32 }
+			Region_Shimane = { frame = JAP_Region_Frame^33 }
+			Region_Okayama = { frame = JAP_Region_Frame^34 }
+			Region_Hiroshima = { frame = JAP_Region_Frame^35 }
+			Region_Yamaguchi = { frame = JAP_Region_Frame^36 }
+			Region_Tokushima = { frame = JAP_Region_Frame^37 }
+			Region_Kagawa = { frame = JAP_Region_Frame^38 }
+			Region_Ehime = { frame = JAP_Region_Frame^39 }
+			Region_Kochi = { frame = JAP_Region_Frame^40 }
+			Region_Fukuoka = { frame = JAP_Region_Frame^41 }
+			Region_Saga = { frame = JAP_Region_Frame^42 }
+			Region_Nagasaki = { frame = JAP_Region_Frame^43 }
+			Region_Kumamoto = { frame = JAP_Region_Frame^44 }
+			Region_Oita = { frame = JAP_Region_Frame^45 }
+			Region_Miyazaki = { frame = JAP_Region_Frame^46 }
+			Region_Kagoshima = { frame = JAP_Region_Frame^47 }
+			Region_Okinawa = { frame = JAP_Region_Frame^48 }
+
+
+			JAP_Election_Voting_District_Image = { image = "[AsiaGetDistrictPic]" }
+        }
+	}
+
+	#BNW_China_Government_GUI = {
+	#	context_type = player_context
+	#	parent_window_token = "top_bar"
+	#	window_name = "BNW_China_Government_GUI"
+	#
+	#	visible = {
+	#	}
+    #
+	#	effects = {
+	#	}
+    #
+    #    dynamic_lists = {
+	#		QIN_impeachment_list = {
+	#			array = Politician
+	#			change_scope = no
+	#			entry_container = QIN_impeachment_window_container
+	#			index = parties_idx
+	#		}
+    #    }
+	#	triggers = {
+	#	}
+    #    properties = {
+    #    }
+	#}
+
+	QIN_Xibei_State_Window = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "QIN_Xibei_State_Window"
+	
+		visible = {
+			AND = {
+				has_country_flag = open_asia_parliament_gui
+				has_country_flag = open_china_state_view
+				tag = QIN
+			}
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = open_china_state_view
+			}
+            QIN_Hold_Speeches_1_click = {
+                add_political_power = -5
+		        add_to_variable = { State_Stability^State_View = 2.5 }
+		        QINStateClamp = yes
+		    }
+            QIN_Destroy_Bandits_1_click = {
+                add_political_power = -15
+		        add_command_power = -10
+		        add_to_variable = { State_Stability^State_View = 10 }
+		        QINStateClamp = yes
+		    }
+            QIN_Concessions_1_click = {
+                add_political_power = -25
+		        add_to_variable = { State_Stability^State_View = 15 }
+		        QINStateClamp = yes
+		    }
+            QIN_Propaganda_1_click = {
+                add_political_power = -10
+		        subtract_from_variable = { State_Tension^State_View = 2.5 }
+		        QINStateClamp = yes
+		    }
+            QIN_Offer_Support_1_click = {
+                add_political_power = -20
+		        add_command_power = -5
+		        subtract_from_variable = { State_Tension^State_View = 10 }
+		        QINStateClamp = yes
+		    }
+            QIN_Admit_Minority_1_click = {
+                add_political_power = -50
+		        subtract_from_variable = { State_Tension^State_View = 15 }
+		        QINStateClamp = yes
+		    }
+			Generic_Available_Icon_1_click = {
+				add_political_power = -75
+				set_variable = { Land_Reform^State_View = 1 }
+				subtract_from_variable = { State_Stability^State_View = 40 }
+				add_to_variable = { State_Tension^State_View = 10 }
+				QINAddSlotEffect = yes
+				QINStateClamp = yes
+				add_to_variable = { State_Development^State_View = 1 }
+			}
+			Generic_Available_Icon_2_click = {
+				add_political_power = -75
+				set_variable = { Social_Reform^State_View = 1 }
+				subtract_from_variable = { State_Stability^State_View = 40 }
+				add_to_variable = { State_Tension^State_View = 10 }
+				QINStateClamp = yes
+				add_to_variable = { State_Development^State_View = 1 }
+			}
+			Generic_Available_Icon_3_click = {
+				add_political_power = -75
+				set_variable = { Infrastructure^State_View = 1 }
+				subtract_from_variable = { State_Stability^State_View = 40 }
+				add_to_variable = { State_Tension^State_View = 10 }
+				QINAddFactoryEffect = yes
+				QINStateClamp = yes
+				add_to_variable = { State_Development^State_View = 1 }
+			}
+			Generic_Available_Icon_4_click = {
+				add_political_power = -75
+				set_variable = { Modernisation^State_View = 1 }
+				subtract_from_variable = { State_Stability^State_View = 40 }
+				add_to_variable = { State_Tension^State_View = 10 }
+				QINAddModernisation = yes
+				QINStateClamp = yes
+				add_to_variable = { State_Development^State_View = 1 }
+			}
+
+		}
+		triggers = {
+			Generic_Cross_Icon_1_visible = {
+				AND = {
+				    has_political_power < 75
+				    check_variable = { State_Stability^State_View > 40 }
+				    check_variable = { State_Tension^State_View < 90 }
+					check_variable = { Land_Reform^State_View = 0 }
+				}
+			}
+			Generic_Cross_Icon_2_visible = {
+				AND = {
+				    has_political_power < 75
+				    check_variable = { State_Stability^State_View > 40 }
+				    check_variable = { State_Tension^State_View < 90 }
+					check_variable = { Social_Reform^State_View = 0 }
+				}
+			}
+			Generic_Cross_Icon_3_visible = {
+				AND = {
+				    has_political_power < 75
+				    check_variable = { State_Stability^State_View > 40 }
+				    check_variable = { State_Tension^State_View < 90 }
+					check_variable = { Infrastructure^State_View = 0 }
+				}
+			}
+			Generic_Cross_Icon_4_visible = {
+				AND = {
+				    has_political_power < 75
+				    check_variable = { State_Stability^State_View > 40 }
+				    check_variable = { State_Tension^State_View < 90 }
+					check_variable = { Land_Reform^State_View = 0 }
+				    check_variable = { Social_Reform^State_View = 0 }
+				    check_variable = { Infrastructure^State_View = 0 }
+				}
+			}
+			Generic_Available_Icon_1_visible = {
+				has_political_power > 75
+				check_variable = { Land_Reform^State_View = 0 }
+				check_variable = { State_Stability^State_View > 40 }
+				check_variable = { State_Tension^State_View < 90 }
+			}
+			Generic_Available_Icon_2_visible = {
+				has_political_power > 75
+				check_variable = { Social_Reform^State_View = 0 }
+				check_variable = { State_Stability^State_View > 40 }
+				check_variable = { State_Tension^State_View < 90 }
+			}
+			Generic_Available_Icon_3_visible = {
+				has_political_power > 75
+				check_variable = { Infrastructure^State_View = 0 }
+				check_variable = { State_Stability^State_View > 40 }
+				check_variable = { State_Tension^State_View < 90 }
+			}
+			Generic_Available_Icon_4_visible = {
+				has_political_power > 75
+				check_variable = { State_Stability^State_View > 40 }
+				check_variable = { State_Tension^State_View < 90 }
+				check_variable = { Land_Reform^State_View = 1 }
+				check_variable = { Social_Reform^State_View = 1 }
+				check_variable = { Infrastructure^State_View = 1 }
+				check_variable = { Modernisation^State_View = 0 }
+			}
+			Generic_Tick_Icon_1_visible = {
+                check_variable = { Land_Reform^State_View = 1 }
+			}
+			Generic_Tick_Icon_2_visible = {
+			    check_variable = { Social_Reform^State_View = 1 }
+			}
+			Generic_Tick_Icon_3_visible = {
+				check_variable = { Infrastructure^State_View = 1 }
+			}
+			Generic_Tick_Icon_4_visible = {
+				check_variable = { Modernisation^State_View = 1 }
+			}
+            QIN_Hold_Speeches_1_visible = {
+			    has_political_power > 5
+			}
+            QIN_Destroy_Bandits_1_visible = {
+			    has_political_power > 15
+			    command_power > 10
+			}
+            QIN_Concessions_1_visible = {
+    			has_political_power > 25
+			}
+            QIN_Propaganda_1_visible = {
+			    has_political_power > 10
+			}
+            QIN_Offer_Support_1_visible = {
+    			has_political_power > 20
+			    command_power > 5
+			}
+            QIN_Admit_Minority_1_visible = {
+				has_political_power > 50
+			}
+			Stability_Circle_Bar_0_visible = {
+				check_variable = { State_View = 0 }
+			}
+			Stability_Circle_Bar_1_visible = {
+				check_variable = { State_View = 1 }
+			}
+			Stability_Circle_Bar_2_visible = {
+				check_variable = { State_View = 2 }
+			}
+			Stability_Circle_Bar_3_visible = {
+				check_variable = { State_View = 3 }
+			}
+			Stability_Circle_Bar_4_visible = {
+				check_variable = { State_View = 4 }
+			}
+			Stability_Circle_Bar_5_visible = {
+				check_variable = { State_View = 5 }
+			}
+			Stability_Circle_Bar_6_visible = {
+				check_variable = { State_View = 6 }
+			}
+			Stability_Circle_Bar_7_visible = {
+				check_variable = { State_View = 7 }
+			}
+			Stability_Circle_Bar_8_visible = {
+				check_variable = { State_View = 8 }
+			}
+			Stability_Circle_Bar_9_visible = {
+				check_variable = { State_View = 9 }
+			}
+			Stability_Circle_Bar_10_visible = {
+				check_variable = { State_View = 10 }
+			}
+			Stability_Circle_Bar_11_visible = {
+				check_variable = { State_View = 11 }
+			}
+			Tension_Circle_Bar_0_visible = {
+				check_variable = { State_View = 0 }
+			}
+			Tension_Circle_Bar_1_visible = {
+				check_variable = { State_View = 1 }
+			}
+			Tension_Circle_Bar_2_visible = {
+				check_variable = { State_View = 2 }
+			}
+			Tension_Circle_Bar_3_visible = {
+				check_variable = { State_View = 3 }
+			}
+			Tension_Circle_Bar_4_visible = {
+				check_variable = { State_View = 4 }
+			}
+			Tension_Circle_Bar_5_visible = {
+				check_variable = { State_View = 5 }
+			}
+			Tension_Circle_Bar_6_visible = {
+				check_variable = { State_View = 6 }
+			}
+			Tension_Circle_Bar_7_visible = {
+				check_variable = { State_View = 7 }
+			}
+			Tension_Circle_Bar_8_visible = {
+				check_variable = { State_View = 8 }
+			}
+			Tension_Circle_Bar_9_visible = {
+				check_variable = { State_View = 9 }
+			}
+			Tension_Circle_Bar_10_visible = {
+				check_variable = { State_View = 10 }
+			}
+			Tension_Circle_Bar_11_visible = {
+				check_variable = { State_View = 11 }
+			}
+		}
+		properties = {
+			Stability_Circle_Bar_0 = {
+				frame = State_Stability^0
+			}
+			Stability_Circle_Bar_1 = {
+				frame = State_Stability^1
+			}
+			Stability_Circle_Bar_2 = {
+				frame = State_Stability^2
+			}
+			Stability_Circle_Bar_3 = {
+				frame = State_Stability^3
+			}
+			Stability_Circle_Bar_4 = {
+				frame = State_Stability^4
+			}
+			Stability_Circle_Bar_5 = {
+				frame = State_Stability^5
+			}
+			Stability_Circle_Bar_6 = {
+				frame = State_Stability^6
+			}
+			Stability_Circle_Bar_7 = {
+				frame = State_Stability^7
+			}
+			Stability_Circle_Bar_8 = {
+				frame = State_Stability^8
+			}
+			Stability_Circle_Bar_9 = {
+				frame = State_Stability^9
+			}
+			Stability_Circle_Bar_10 = {
+				frame = State_Stability^10
+			}
+			Stability_Circle_Bar_11 = {
+				frame = State_Stability^11
+			}
+			Tension_Circle_Bar_0 = {
+				frame = State_Tension^0
+			}
+			Tension_Circle_Bar_1 = {
+				frame = State_Tension^1
+			}
+			Tension_Circle_Bar_2 = {
+				frame = State_Tension^2
+			}
+			Tension_Circle_Bar_3 = {
+				frame = State_Tension^3
+			}
+			Tension_Circle_Bar_4 = {
+				frame = State_Tension^4
+			}
+			Tension_Circle_Bar_5 = {
+				frame = State_Tension^5
+			}
+			Tension_Circle_Bar_6 = {
+				frame = State_Tension^6
+			}
+			Tension_Circle_Bar_7 = {
+				frame = State_Tension^7
+			}
+			Tension_Circle_Bar_8 = {
+				frame = State_Tension^8
+			}
+			Tension_Circle_Bar_9 = {
+				frame = State_Tension^9
+			}
+			Tension_Circle_Bar_10 = {
+				frame = State_Tension^10
+			}
+			Tension_Circle_Bar_11 = {
+				frame = State_Tension^11
+			}
+			State_Urban_Displayer = {
+				frame = state_city_value
+			}
+		}
+	}
+	QIN_Politics_Window = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "QIN_Politics_Window"
+	
+		visible = {
+			AND = {
+				has_country_flag = open_politics_view
+				OR = {
+					original_tag = QIN
+					original_tag = GUZ
+				}
+			}
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = open_politics_view
+			}
+			Interaction_Initiate_Talks_click = {
+		        add_to_variable = { QIN_party_opinions^Politics_Index = 5 }
+				QINOpinionChange = yes
+				add_political_power = -25
+			}
+			Interaction_Bribe_Politicians_click = {
+		        add_to_variable = { QIN_party_opinions^Politics_Index = 10 }
+				QINOpinionChange = yes
+				add_political_power = -50
+			}
+			Interaction_Develop_Trust_click = {
+		        add_to_variable = { QIN_party_Cap^Politics_Index = 5 }
+				QINOpinionChange = yes
+				QINCalculatePartyCap = yes
+				add_political_power = -50
+			}
+			Interaction_Reach_Compromise_click = {
+		        add_to_variable = { QIN_party_Cap^Politics_Index = 10 }
+				add_to_variable = { QIN_party_opinions^Politics_Index = 5 }
+				QINOpinionChange = yes
+				QINCalculatePartyCap = yes
+				add_political_power = -100
+			}
+		}
+		triggers = {
+		}
+		properties = {
+			Politics_Window_Portrait = {
+				image = [QINgetPartyLeaderWindow]
+			}
+			GFX_Party_Opinion_Bar_Forward = {
+				frame = QIN_party_opinions^Politics_Index
+			}
+			GFX_Party_Opinion_Bar_Reverse = {
+				frame = QIN_party_True_Cap^Politics_Index
+			}
+		}
+	}
+	BNW_Management_GUI = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "BNW_Management_GUI"
+	
+		visible = {
+			AND = {
+				has_country_flag = open_asia_management_gui
+			}
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = open_asia_management_gui
+			}
+		}
+		triggers = {
+		}
+		properties = {
+		}
+	}
+	QIN_Budget_Window = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "QIN_Budget_Window"
+	
+		visible = {
+			AND = {
+				has_country_flag = open_asia_parliament_gui
+				has_country_flag = open_budget_view
+				tag = QIN
+			}
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = open_budget_view
+			}
+			Control_Increase_Budget_click = {
+				if = {
+					limit = {
+						AND = { check_variable = { Budget > Budget_Allocate_Value } }
+					}
+				subtract_from_variable = { Budget = Budget_Allocate_Value }
+				add_to_variable = { Budget_Control = Budget_Allocate_Value }
+				}
+			}
+			Executive_Increase_Budget_click = {
+				if = {
+					limit = {
+						AND = { check_variable = { Budget > Budget_Allocate_Value } }
+					}
+				subtract_from_variable = { Budget = Budget_Allocate_Value }
+				add_to_variable = { Budget_Executive = Budget_Allocate_Value }
+				}
+			}
+			Exam_Increase_Budget_click = {
+				if = {
+					limit = {
+						AND = { check_variable = { Budget > Budget_Allocate_Value } }
+					}
+				subtract_from_variable = { Budget = Budget_Allocate_Value }
+				add_to_variable = { Budget_Exam = Budget_Allocate_Value }
+				}
+			}
+			Increase_Budget_Small_click = {
+				add_to_variable = { New_Budget = Budget_Prepare_Value }
+			}
+			Budget_Preparation_Propose_click = {
+				QINRegisterBudget = yes
+				set_country_flag = QIN_Budget
+				set_variable = { QIN_Budget_Cooldown = 365 }
+				set_variable = { New_Budget = 0 }
+			}
+			Budget_Preparation_Emergency_click = {
+				QINRegisterBudget = yes
+				set_country_flag = QIN_Emergency_Budget
+				set_variable = { QIN_Emergency_Budget_Cooldown = 60 }
+				set_variable = { New_Budget = 0 }		
+				add_political_power = -200
+                for_each_loop = {
+                    array = legislation_past_id
+                    value = v
+                    index = i
+					subtract_from_variable = { QIN_party_Cap^i = 10 }
+				    QINOpinionChange = yes
+				    QINCalculatePartyCap = yes
+                }		
+			}
+			Increase_Budget_click = {
+				set_temp_variable = { Budget_Multiply = Budget_Prepare_Value }
+				multiply_temp_variable = { Budget_Multiply = 5 }
+				add_to_variable = { New_Budget = Budget_Multiply }
+			}
+			Decrease_Budget_click = {
+				set_temp_variable = { Budget_Multiply = Budget_Prepare_Value }
+				multiply_temp_variable = { Budget_Multiply = 5 }
+				subtract_from_variable = { New_Budget = Budget_Multiply }		
+                clamp_variable = {
+                	var = New_Budget
+                	min = 0
+                	max = 99999
+                }		
+			}
+			Decrease_Budget_Small_click = {
+				subtract_from_variable = { New_Budget = Budget_Prepare_Value }
+                clamp_variable = {
+                	var = New_Budget
+                	min = 0
+                	max = 99999
+                }	
+			}
+			Multiplier_Button_click = {
+	            set_variable = { Budget_Allocate_Value = 500 }
+	            set_variable = { Budget_Prepare_Value = 500 }
+			}
+			Multiplier_Button_2_click = {
+	            set_variable = { Budget_Allocate_Value = 100 }
+	            set_variable = { Budget_Prepare_Value = 100 }
+			}
+		}
+		triggers = {
+			Multiplier_Button_visible = {
+				check_variable = { Budget_Prepare_Value = 100 }
+			}
+			Multiplier_Button_2_visible = {
+				check_variable = { Budget_Prepare_Value = 500 }
+			}
+			Budget_Preparation_Propose_visible = {
+                NOT = { has_country_flag = QIN_Budget }
+			}
+			Budget_Preparation_Propose_2_visible = {
+                has_country_flag = QIN_Budget
+			}
+			Budget_Preparation_Emergency_visible = {
+				AND = {
+                    NOT = { has_country_flag = QIN_Emergency_Budget }
+					check_variable = { political_power > 250 }	
+				}
+			}
+		}
+		properties = {
+		}
+	}
+	QIN_Legislation_Window = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "QIN_Legislation_Window"
+	
+		visible = {
+			AND = {
+				has_country_flag = open_asia_parliament_gui
+				has_country_flag = open_legislation_view
+				NOT = { has_country_flag = Checking_Legislation_History }
+				tag = QIN
+			}
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = open_legislation_view
+			}
+			Legislation_Procedure_click = {
+				set_country_flag = Checking_Legislation_History
+			}
+			Vote_Button_click = {
+				QINRegisterLegislation = yes
+				if = {
+					limit = {
+						has_country_flag = hist_leg
+					}
+				    clr_country_flag = hist_leg
+				}
+				clear_variable = pending_legislation_past_id
+				clear_variable = pending_legislation_sacrosanctity
+			}
+		}
+        dynamic_lists = {
+			QIN_legislations_list = {
+				array = legislation_id
+				change_scope = no
+				entry_container = QIN_legislation_window_container
+				index = parties_idx
+			}
+        }
+		triggers = {
+		}
+		properties = {
+		}
+	}
+	QIN_Past_Legislation_Window = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "QIN_Past_Legislation_Window"
+	
+		visible = {
+			AND = {
+				has_country_flag = open_asia_parliament_gui
+				has_country_flag = open_legislation_view
+				has_country_flag = Checking_Legislation_History
+				tag = QIN
+			}
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = open_legislation_view
+			}
+			Legislation_History_click = {
+				clr_country_flag = Checking_Legislation_History
+			}
+			Past_Vote_Button_click = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = hist_leg }
+					}
+				    set_country_flag = hist_leg
+				}
+				else = {
+					clr_country_flag = hist_leg
+				}
+	            if = {
+	            	limit = {
+	            		NOT = { check_variable = { pending_legislation_id = 0 } }
+	            	}
+	            	clear_variable = pending_legislation_id
+					clear_variable = pending_legislation_sacrosanctity
+	            }
+				QINRegisterPastLegislation = yes
+			}
+		}
+        dynamic_lists = {
+			QIN_past_legislations_list = {
+				array = legislation_past_id
+				change_scope = no
+				entry_container = QIN_Past_legislation_window_container
+				index = parties_idx
+			}
+        }
+		triggers = {
+		}
+		properties = {
+		}
+	}
+}

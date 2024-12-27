@@ -1,3 +1,1916 @@
+clearQINStateInfoWindowFlags = {
+	clr_country_flag = TMM_qinghai_state_info_window_open
+	clr_country_flag = TMM_yushu_state_info_window_open
+	clr_country_flag = TMM_tibet_state_info_window_open
+	clr_country_flag = TMM_kang_state_info_window_open
+	clr_country_flag = TMM_xinjiang_state_info_window_open
+	clr_country_flag = TMM_ili_state_info_window_open
+	clr_country_flag = TMM_ham_state_info_window_open
+	clr_country_flag = TMM_nin_state_info_window_open
+	clr_country_flag = TMM_hex_state_info_window_open
+	clr_country_flag = TMM_wmo_state_info_window_open
+	clr_country_flag = TMM_gan_state_info_window_open
+}
+State_two_weeks_pulse = {
+    clr_country_flag = QIN_recently_enacted_reform
+}
+State_stability_interaction_two_weeks_pulse = {
+    clr_country_flag = QIN_recently_stability_action
+}
+
+State_tension_interaction_two_weeks_pulse = {
+    clr_country_flag = QIN_recently_tension_action
+}
+
 QIN_reload_tree = {
     mark_focus_tree_layout_dirty = yes
+}
+
+QINMonthlyTick = {
+	if = {
+		limit = {
+		    QIN = {
+			owns_state = 618
+			owns_state = 616
+			owns_state = 906
+			owns_state = 322
+			owns_state = 329
+			}
+		}
+		subtract_from_variable = {QIN_qinghai_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_qinghai_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_tibet_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_tibet_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_kang_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_kang_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_yushu_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_yushu_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_hexi_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_hexi_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_ningxia_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_ningxia_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_gansu_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_gansu_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_beijiang_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_beijiang_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_nanjiang_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_nanjiang_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_hami_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_hami_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_mongolia_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_mongolia_ethnic_tension = QIN_minority_province_tension_tick }
+ 
+	}
+	else_if = {
+		limit = {
+		    QIN = {
+			owns_state = 618
+			owns_state = 616
+			owns_state = 906
+			owns_state = 322
+			}
+		}
+		subtract_from_variable = {QIN_qinghai_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_qinghai_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_tibet_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_tibet_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_kang_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_kang_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_yushu_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_yushu_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_hexi_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_hexi_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_ningxia_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_ningxia_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_gansu_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_gansu_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_beijiang_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_beijiang_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_nanjiang_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_nanjiang_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_hami_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_hami_ethnic_tension = QIN_han_province_tension_tick }
+ 
+	}
+	else_if = {
+		limit = {
+		    QIN = {
+			owns_state = 616
+			owns_state = 906
+			owns_state = 322
+		    }
+		}
+		subtract_from_variable = {QIN_qinghai_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_qinghai_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_tibet_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_tibet_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_kang_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_kang_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_yushu_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_yushu_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_hexi_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_hexi_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_ningxia_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_ningxia_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_gansu_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_gansu_ethnic_tension = QIN_han_province_tension_tick }
+
+	}
+	else_if = {
+		limit = {
+		    QIN = {
+			owns_state = 906
+			owns_state = 322
+			}
+		}
+		subtract_from_variable = {QIN_qinghai_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_qinghai_ethnic_tension = QIN_han_province_tension_tick }
+		
+		subtract_from_variable = {QIN_tibet_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_tibet_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_kang_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_kang_ethnic_tension = QIN_minority_province_tension_tick }
+		
+		subtract_from_variable = {QIN_yushu_stability = QIN_minority_province_stability_tick }
+		add_to_variable = {QIN_yushu_ethnic_tension = QIN_minority_province_tension_tick }
+	}
+	else_if = {
+		limit = {
+		    QIN = {
+			owns_state = 604 
+		    owns_state = 906
+            }			
+		}
+		subtract_from_variable = {QIN_qinghai_stability = QIN_han_province_stability_tick }
+		add_to_variable = {QIN_qinghai_ethnic_tension = QIN_han_province_tension_tick }
+	}
+}
+
+QINinfrastructure = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_qinghai_stability = 40}
+		add_to_variable = {QIN_qinghai_ethnic_tension = 10}
+		set_country_flag = QIN_qinghai_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        604 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+        906 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+ 
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_yushu_stability = 40}
+		add_to_variable = {QIN_yushu_ethnic_tension = 10}
+		set_country_flag = QIN_yushu_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        601 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_tibet_stability = 40}
+		add_to_variable = {QIN_tibet_ethnic_tension = 10}
+		set_country_flag = QIN_tibet_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        322 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_kang_stability = 40}
+		add_to_variable = {QIN_kang_ethnic_tension = 10}
+		set_country_flag = QIN_kang_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        765 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_nanjiang_stability = 40}
+		add_to_variable = {QIN_nanjiang_ethnic_tension = 10}
+		set_country_flag = QIN_nanjiang_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        617 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+        619 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+        958 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_beijiang_stability = 40}
+		add_to_variable = {QIN_beijiang_ethnic_tension = 10}
+		set_country_flag = QIN_beijiang_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        618 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_hami_stability = 40}
+		add_to_variable = {QIN_hami_ethnic_tension = 10}
+		set_country_flag = QIN_hami_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        957 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_ningxia_stability = 40}
+		add_to_variable = {QIN_ningxia_ethnic_tension = 10}
+		set_country_flag = QIN_ningxia_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        616 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_hexi_stability = 40}
+		add_to_variable = {QIN_hexi_ethnic_tension = 10}
+		set_country_flag = QIN_hexi_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        764 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_gansu_stability = 40}
+		add_to_variable = {QIN_gansu_ethnic_tension = 10}
+		set_country_flag = QIN_gansu_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        1302 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+        283 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+	    }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_mongolia_stability = 40}
+		add_to_variable = {QIN_mongolia_ethnic_tension = 10}
+		set_country_flag = QIN_mongolia_infrastructure_enacted
+		set_country_flag = QIN_recently_enacted_reform
+        814 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }   
+		}
+        329 = {
+	        add_building_construction = {
+		    type = infrastructure
+		    level = 1
+	        }
+		}
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+}
+
+QINsocialreform = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_qinghai_stability = 40}
+		add_to_variable = {QIN_qinghai_ethnic_tension = 10}
+		set_country_flag = QIN_qinghai_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_yushu_stability = 40}
+		add_to_variable = {QIN_yushu_ethnic_tension = 10}
+		set_country_flag = QIN_yushu_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_tibet_stability = 40}
+		add_to_variable = {QIN_tibet_ethnic_tension = 10}
+		set_country_flag = QIN_tibet_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_kang_stability = 40}
+		add_to_variable = {QIN_kang_ethnic_tension = 10}
+		set_country_flag = QIN_kang_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_nanjiang_stability = 40}
+		add_to_variable = {QIN_nanjiang_ethnic_tension = 10}
+		set_country_flag = QIN_nanjiang_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_beijiang_stability = 40}
+		add_to_variable = {QIN_beijiang_ethnic_tension = 10}
+		set_country_flag = QIN_beijiang_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_hami_stability = 40}
+		add_to_variable = {QIN_hami_ethnic_tension = 10}
+		set_country_flag = QIN_hami_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_ningxia_stability = 40}
+		add_to_variable = {QIN_ningxia_ethnic_tension = 10}
+		set_country_flag = QIN_ningxia_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_hexi_stability = 40}
+		add_to_variable = {QIN_hexi_ethnic_tension = 10}
+		set_country_flag = QIN_hexi_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_gansu_stability = 40}
+		add_to_variable = {QIN_gansu_ethnic_tension = 10}
+		set_country_flag = QIN_gansu_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_mongolia_stability = 40}
+		add_to_variable = {QIN_mongolia_ethnic_tension = 10}
+		set_country_flag = QIN_mongolia_social_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+}
+
+QINlandreform = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_qinghai_stability = 40}
+		add_to_variable = {QIN_qinghai_ethnic_tension = 10}
+		set_country_flag = QIN_qinghai_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+		906 = { add_extra_state_shared_building_slots = 1 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_yushu_stability = 40}
+		add_to_variable = {QIN_yushu_ethnic_tension = 10}
+		set_country_flag = QIN_yushu_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		601 = { add_extra_state_shared_building_slots = 1 }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_tibet_stability = 40}
+		add_to_variable = {QIN_tibet_ethnic_tension = 10}
+		set_country_flag = QIN_tibet_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		322 = { add_extra_state_shared_building_slots = 1 }		
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_kang_stability = 40}
+		add_to_variable = {QIN_kang_ethnic_tension = 10}
+		set_country_flag = QIN_kang_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		765 = { add_extra_state_shared_building_slots = 1 }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_nanjiang_stability = 40}
+		add_to_variable = {QIN_nanjiang_ethnic_tension = 10}
+		set_country_flag = QIN_nanjiang_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		617 = { add_extra_state_shared_building_slots = 1 }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_beijiang_stability = 40}
+		add_to_variable = {QIN_beijiang_ethnic_tension = 10}
+		set_country_flag = QIN_beijiang_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		618 = { add_extra_state_shared_building_slots = 1 }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_hami_stability = 40}
+		add_to_variable = {QIN_hami_ethnic_tension = 10}
+		set_country_flag = QIN_hami_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		957 = { add_extra_state_shared_building_slots = 1 }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_ningxia_stability = 40}
+		add_to_variable = {QIN_ningxia_ethnic_tension = 10}
+		set_country_flag = QIN_ningxia_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		616 = { add_extra_state_shared_building_slots = 1 }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_hexi_stability = 40}
+		add_to_variable = {QIN_hexi_ethnic_tension = 10}
+		set_country_flag = QIN_hexi_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		764 = { add_extra_state_shared_building_slots = 1 }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_gansu_stability = 40}
+		add_to_variable = {QIN_gansu_ethnic_tension = 10}
+		set_country_flag = QIN_gansu_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		1302 = { add_extra_state_shared_building_slots = 1 }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_mongolia_stability = 40}
+		add_to_variable = {QIN_mongolia_ethnic_tension = 10}
+		set_country_flag = QIN_mongolia_land_reform_enacted
+		set_country_flag = QIN_recently_enacted_reform
+		814 = { add_extra_state_shared_building_slots = 1 }
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+
+	}
+}
+
+QINmodernisation = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_qinghai_stability = 20}
+		add_to_variable = {QIN_qinghai_ethnic_tension = 10}
+		set_country_flag = QIN_qinghai_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_yushu_stability = 20}
+		add_to_variable = {QIN_yushu_ethnic_tension = 10}
+		set_country_flag = QIN_yushu_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_tibet_stability = 20}
+		add_to_variable = {QIN_tibet_ethnic_tension = 10}
+		set_country_flag = QIN_tibet_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_kang_stability = 20}
+		add_to_variable = {QIN_kang_ethnic_tension = 10}
+		set_country_flag = QIN_kang_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_nanjiang_stability = 20}
+		add_to_variable = {QIN_nanjiang_ethnic_tension = 10}
+		set_country_flag = QIN_nanjiang_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_beijiang_stability = 20}
+		add_to_variable = {QIN_beijiang_ethnic_tension = 10}
+		set_country_flag = QIN_beijiang_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_hami_stability = 20}
+		add_to_variable = {QIN_hami_ethnic_tension = 10}
+		set_country_flag = QIN_hami_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_ningxia_stability = 20}
+		add_to_variable = {QIN_ningxia_ethnic_tension = 10}
+		set_country_flag = QIN_ningxia_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_hexi_stability = 20}
+		add_to_variable = {QIN_hexi_ethnic_tension = 10}
+		set_country_flag = QIN_hexi_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_gansu_stability = 20}
+		add_to_variable = {QIN_gansu_ethnic_tension = 10}
+		set_country_flag = QIN_gansu_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+		}
+		add_political_power = -75
+		subtract_from_variable = {QIN_mongolia_stability = 20}
+		add_to_variable = {QIN_mongolia_ethnic_tension = 10}
+		set_country_flag = QIN_mongolia_modernised
+		set_country_flag = QIN_recently_enacted_reform
+		QINmodernisationeffect = yes
+		QINCheckMinStability = yes
+		QINCheckMinTension = yes
+	}
+}
+###Prevents stability from flowing below -100%###
+QINCheckMinStability = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+            check_variable = {
+	            var = QIN_qinghai_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_qinghai_stability = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+            check_variable = {
+	            var = QIN_hexi_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_hexi_stability = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+            check_variable = {
+	            var = QIN_ningxia_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_ningxia_stability = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+            check_variable = {
+	            var = QIN_gansu_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_gansu_stability = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+            check_variable = {
+	            var = QIN_hami_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_hami_stability = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+            check_variable = {
+	            var = QIN_nanjiang_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_nanjiang_stability = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+            check_variable = {
+	            var = QIN_beijiang_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_beijiang_stability = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+            check_variable = {
+	            var = QIN_tibet_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_tibet_stability = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+            check_variable = {
+	            var = QIN_yushu_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_yushu_stability = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+            check_variable = {
+	            var = QIN_kang_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_kang_stability = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+            check_variable = {
+	            var = QIN_mongolia_stability
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_mongolia_stability = 0 }
+	}
+}
+###Prevents stability from flowing above 100%###
+QINClamp = {
+QINCheckMaxStability = yes
+QINCheckMinTension = yes
+QINCheckMaxTension = yes
+QINCheckMinStability = yes
+}
+QINCheckMaxStability = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+            check_variable = {
+	            var = QIN_qinghai_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_qinghai_stability = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+            check_variable = {
+	            var = QIN_hexi_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_hexi_stability = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+            check_variable = {
+	            var = QIN_ningxia_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_ningxia_stability = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+            check_variable = {
+	            var = QIN_gansu_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_gansu_stability = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+            check_variable = {
+	            var = QIN_hami_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_hami_stability = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+            check_variable = {
+	            var = QIN_nanjiang_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_nanjiang_stability = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+            check_variable = {
+	            var = QIN_beijiang_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_beijiang_stability = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+            check_variable = {
+	            var = QIN_tibet_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_tibet_stability = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+            check_variable = {
+	            var = QIN_yushu_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_yushu_stability = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+            check_variable = {
+	            var = QIN_kang_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_kang_stability = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+            check_variable = {
+	            var = QIN_mongolia_stability
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_mongolia_stability = 100 }
+	}
+}
+###Prevents tension from flowing below -100%###
+QINCheckMinTension = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+            check_variable = {
+	            var = QIN_qinghai_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_qinghai_ethnic_tension = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+            check_variable = {
+	            var = QIN_hexi_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_hexi_ethnic_tension = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+            check_variable = {
+	            var = QIN_ningxia_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_ningxia_ethnic_tension = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+            check_variable = {
+	            var = QIN_gansu_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_gansu_ethnic_tension = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+            check_variable = {
+	            var = QIN_hami_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_hami_ethnic_tension = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+            check_variable = {
+	            var = QIN_nanjiang_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_nanjiang_ethnic_tension = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+            check_variable = {
+	            var = QIN_beijiang_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_beijiang_ethnic_tension = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+            check_variable = {
+	            var = QIN_tibet_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_tibet_ethnic_tension = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+            check_variable = {
+	            var = QIN_yushu_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_yushu_ethnic_tension = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+            check_variable = {
+	            var = QIN_kang_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_kang_ethnic_tension = 0 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+            check_variable = {
+	            var = QIN_mongolia_ethnic_tension
+	            value = 0
+	            compare = less_than
+            }
+		}
+        set_variable = { QIN_mongolia_ethnic_tension = 0 }
+	}
+}
+###Prevents tension from flowing above 100%###
+QINCheckMaxTension = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+            check_variable = {
+	            var = QIN_qinghai_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_qinghai_ethnic_tension = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+            check_variable = {
+	            var = QIN_hexi_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_hexi_ethnic_tension = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+            check_variable = {
+	            var = QIN_ningxia_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_ningxia_ethnic_tension = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+            check_variable = {
+	            var = QIN_gansu_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_gansu_ethnic_tension = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+            check_variable = {
+	            var = QIN_hami_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_hami_ethnic_tension = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+            check_variable = {
+	            var = QIN_nanjiang_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_nanjiang_ethnic_tension = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+            check_variable = {
+	            var = QIN_beijiang_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_beijiang_ethnic_tension = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+            check_variable = {
+	            var = QIN_tibet_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_tibet_ethnic_tension = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+            check_variable = {
+	            var = QIN_yushu_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_yushu_ethnic_tension = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+            check_variable = {
+	            var = QIN_kang_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_kang_ethnic_tension = 100 }
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+            check_variable = {
+	            var = QIN_mongolia_ethnic_tension
+	            value = 100
+	            compare = greater_than
+            }
+		}
+        set_variable = { QIN_mongolia_ethnic_tension = 100 }
+	}
+}
+
+QINHoldSpeech = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_qinghai_stability = 2.5 }
+		QINCheckMaxStability = yes
+
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_yushu_stability = 2.5 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_tibet_stability = 2.5 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_kang_stability = 2.5 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_nanjiang_stability = 2.5 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_beijiang_stability = 2.5 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_hami_stability = 2.5 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_hexi_stability = 2.5 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_ningxia_stability = 2.5 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_gansu_stability = 2.5 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+            }
+        add_political_power = -5
+		add_to_variable = { QIN_mongolia_stability = 2.5 }
+		QINCheckMaxStability = yes
+	}
+}
+QINPropaganda = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_qinghai_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_yushu_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_tibet_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_kang_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_nanjiang_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_beijiang_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_hami_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_hexi_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_ningxia_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_gansu_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+            }
+        add_political_power = -10
+		subtract_from_variable = { QIN_mongolia_ethnic_tension = 2.5 }
+		QINCheckMinTension = yes
+	}
+}
+QINDestroyBandits = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_qinghai_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_yushu_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_tibet_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_kang_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_nanjiang_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_beijiang_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_hami_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_hexi_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_ningxia_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_gansu_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+            }
+        add_political_power = -15
+		add_command_power = -10
+		add_to_variable = { QIN_mongolia_stability = 10 }
+		QINCheckMaxStability = yes
+	}
+}
+QINOfferSupport = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+            }
+        add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_qinghai_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+            }
+        add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_yushu_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+            }
+         add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_tibet_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+            }
+        add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_kang_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+            }
+        add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_nanjiang_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+            }
+        add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_beijiang_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+            }
+        add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_hami_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+            }
+        add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_hexi_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+            }
+        add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_ningxia_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+            }
+        add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_gansu_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+            }
+        add_political_power = -20
+		add_command_power = -5
+		subtract_from_variable = { QIN_mongolia_ethnic_tension = 10 }
+		QINCheckMinTension = yes
+	}
+}
+QINConcessionstothelocals = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_qinghai_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_yushu_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_tibet_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_kang_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_nanjiang_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_beijiang_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_hami_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_hexi_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_ningxia_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_gansu_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+            }
+        add_political_power = -25
+		add_to_variable = { QIN_mongolia_stability = 15 }
+		QINCheckMaxStability = yes
+	}
+}
+QINAdmitminorityintogovernment = {
+	if = {
+		limit = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_qinghai_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_yushu_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_yushu_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_tibet_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_tibet_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_kang_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_kang_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_nanjiang_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ili_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_beijiang_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_ham_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_hami_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_hex_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_hexi_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_nin_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_ningxia_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_gan_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_gansu_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+	else_if = {
+		limit = {
+			has_country_flag = TMM_wmo_state_info_window_open
+            }
+        add_political_power = -50
+		subtract_from_variable = { QIN_mongolia_ethnic_tension = 15 }
+		QINCheckMinTension = yes
+	}
+}
+
+QINmodernisationeffect = {
+add_to_variable = { QIN_modernisation_monthly = 0.03 }
+add_to_variable = { QIN_modernisation_offensive = 0.03 }
+add_to_variable = { QIN_modernisation_stability = 0.01 }
+add_to_variable = { QIN_modernisation_war = 0.01 }
+add_to_variable = { QIN_pu_modifier = 1 }
+}
+
+QIN_update_map = {
+	force_update_map_mode = {
+		mapmode = china_map_mode
+	}
 }

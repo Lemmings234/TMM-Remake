@@ -119,7 +119,7 @@ characters = {
 			id = -1
 		}
 	}
-	QIN_chiang_chingkuo_authdem = {
+	QIN_chiang_chingkuo_paternalist = {
 		name = QIN_chiang_chingkuo_authdem
 		portraits = {
 			civilian = { large = "gfx/leaders/QIN/Portrait_Chiang_Ching-kuo.dds" }

@@ -66,89 +66,89 @@ multiply_variable = {
     var = QIN_despot_influence
     value = 100
 }
-set_variable = { QIN_paternalist_influence = 0 }
+set_variable = { QIN_authdem_influence = 0 }
 add_to_variable = {
-    var = QIN_paternalist_influence
+    var = QIN_authdem_influence
     value = party_popularity@paternalism
 }
 multiply_variable = {
-    var = QIN_paternalist_influence
+    var = QIN_authdem_influence
     value = 100
 }
 divide_variable = {
-    var = QIN_paternalist_influence
+    var = QIN_authdem_influence
     value = QIN_kuomintang_popularity
 }
 multiply_variable = {
-    var = QIN_paternalist_influence
+    var = QIN_authdem_influence
     value = 100
 }
-set_variable = { QIN_liberal_influence = 0 }
+set_variable = { QIN_libdem_influence = 0 }
 add_to_variable = {
-    var = QIN_liberal_influence
+    var = QIN_libdem_influence
     value = party_popularity@liberalism
 }
 multiply_variable = {
-    var = QIN_liberal_influence
+    var = QIN_libdem_influence
     value = 100
 }
 divide_variable = {
-    var = QIN_liberal_influence
+    var = QIN_libdem_influence
     value = QIN_kuomintang_popularity
 }
 multiply_variable = {
-    var = QIN_liberal_influence
+    var = QIN_libdem_influence
     value = 100
 }
-set_variable = { QIN_conservative_influence = 0 }
+set_variable = { QIN_condem_influence = 0 }
 add_to_variable = {
-    var = QIN_conservative_influence
+    var = QIN_condem_influence
     value = party_popularity@conservatism
 }
 multiply_variable = {
-    var = QIN_conservative_influence
+    var = QIN_condem_influence
     value = 100
 }
 divide_variable = {
-    var = QIN_conservative_influence
+    var = QIN_condem_influence
     value = QIN_kuomintang_popularity
 }
 multiply_variable = {
-    var = QIN_conservative_influence
+    var = QIN_condem_influence
     value = 100
 }
-set_variable = { QIN_communist_influence = 0 }
+set_variable = { QIN_authsoc_influence = 0 }
 add_to_variable = {
-    var = QIN_communist_influence
+    var = QIN_authsoc_influence
     value = party_popularity@communist
 }
 multiply_variable = {
-    var = QIN_communist_influence
+    var = QIN_authsoc_influence
     value = 100
 }
 divide_variable = {
-    var = QIN_communist_influence
+    var = QIN_authsoc_influence
     value = QIN_ccp_popularity
 }
 multiply_variable = {
-    var = QIN_communist_influence
+    var = QIN_authsoc_influence
     value = 100
 }
-set_variable = { QIN_socialist_influence = 0 }
+set_variable = { QIN_libsoc_influence = 0 }
 add_to_variable = {
-    var = QIN_socialist_influence
+    var = QIN_libsoc_influence
     value = party_popularity@socialist
 }
 multiply_variable = {
-    var = QIN_socialist_influence
+    var = QIN_libsoc_influence
     value = 100
 }
 divide_variable = {
-    var = QIN_socialist_influence
+    var = QIN_libsoc_influence
     value = QIN_ccp_popularity
 }
 multiply_variable = {
-    var = QIN_socialist_influence
+    var = QIN_libsoc_influence
     value = 100
 }
 
