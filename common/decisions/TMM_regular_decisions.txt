@@ -1,9 +1,107 @@
-#####################################################################################################################
-# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
-# ID's must not include spaces!
-# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
-#####################################################################################################################
-QIN_Debug = {		#Name of category that decisions will appear under, decisions MUST have a category to work properly.
+TMM_Sichuan = {
+	BNW_China_test = {
+		icon = GFX_decision_generic_decision
+
+		allowed = {
+			original_tag = SIC
+		}
+		visible = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			BNW_China = yes
+		}
+	}
+	BNW_Funny_test = {
+		icon = GFX_decision_generic_decision
+
+		allowed = {
+			original_tag = SIC
+			is_debug = yes
+			is_ai = no
+		}
+		visible = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			BNW_Funny = yes
+		}
+	}
+	BNW_Image_test = {
+		icon = GFX_decision_generic_decision
+
+		allowed = {
+			original_tag = SIC
+			is_debug = yes
+			is_ai = no
+		}
+		visible = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			set_variable = { JAP_Electoral_District = token:JAP_Region_Karafuto }
+		}
+	}
+	BNW_Management_test = {
+		icon = GFX_decision_generic_decision
+
+		allowed = {
+			original_tag = SIC
+			is_debug = yes
+			is_ai = no
+		}
+		visible = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			set_country_flag = open_asia_management_gui
+		}
+	}
+}
+QIN_Debug = {
+	BNW_nuke_test = {
+		icon = GFX_decision_generic_decision
+
+		allowed = {
+			original_tag = QIN
+			original_tag = SIC
+		}
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			BNWNuclearProgramCompletion = yes
+		}
+	}
+
+	
+	haitang_flag = {		
+		icon = GFX_decision_category_debug	
+		available = {	
+		    is_ai = no
+		}	
+		fire_only_once = no		
+		days_re_enable = 5	
+		cost = 0
+		complete_effect = {	QIN = {set_cosmetic_tag = Haitang } }
+		ai_will_do = { factor = 0 }
+	}	
 	QIN_1963_tree_load = {		#ID of the decision, must not contain spaces!
 
 		icon = GFX_decision_category_debug		#The left side icon to show for this decision.
@@ -646,7 +744,7 @@ QIN_Debug = {		#Name of category that decisions will appear under, decisions MUS
 			clr_country_flag = whip_zhang_naiqi
 			clr_country_flag = whip_jiang_yanshi
 			clr_country_flag = whip_sun_ke
-			}
+		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 
@@ -1040,12 +1138,12 @@ QIN_lifayuan = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		complete_effect = {		#The effects to execute once the envelope icon is clicked.
-			#custom_effect_tooltip = "DECISION_EFFECT_LAND_REFORM"
+			custom_effect_tooltip = "DECISION_EFFECT_LAND_REFORM"
 		    906 = { add_extra_state_shared_building_slots = 1 }
             604 = { add_extra_state_shared_building_slots = 1 }
 		    add_political_power = -25
-		    #subtract_from_variable = {QIN_qinghai_stability = 20}
-		    #add_to_variable = {QIN_qinghai_ethnic_tension = 5}
+		    subtract_from_variable = {QIN_qinghai_stability = 20}
+		    add_to_variable = {QIN_qinghai_ethnic_tension = 5}
 		    set_country_flag = QIN_qinghai_land_reform_enacted
 		    swap_ideas = {
 	             add_idea = tno_slavery_outlawed
@@ -1080,17 +1178,14 @@ QIN_lifayuan = {
 		available = {
 			check_variable = {
 	            var = QIN_lifayuan_proposal_support
-	            value = 75
+	            value = 70
 	            compare = greater_than
             }
-			has_country_flag = lifayuan_legislation_govt_reform
 		}
 		fire_only_once = yes
-		visible = {	
-			ROOT = {
-				tag = QIN
-			}		
+		visible = {			
 			has_country_flag = lifayuan_legislation_govt_reform
+			has_completed_focus = restructuring_lifayuan
 		}		
 		cost = 0
 		complete_effect = {
@@ -1098,23 +1193,23 @@ QIN_lifayuan = {
 		    add_political_power = 100
 	     	set_temp_variable = { econ_centralization_temp = 10 }
 		    econ_centralization_change = yes
-		    # subtract_from_variable = {QIN_qinghai_stability = 20}
-		    # add_to_variable = {QIN_qinghai_ethnic_tension = 15}
-		    # subtract_from_variable = {QIN_yushu_stability = 20}
-		    # add_to_variable = {QIN_yushu_ethnic_tension = 15}
-		    # subtract_from_variable = {QIN_kang_stability = 20}
-		    # add_to_variable = {QIN_kang_ethnic_tension = 15}
-		    # subtract_from_variable = {QIN_tibet_stability = 20}
-		    # add_to_variable = {QIN_tibet_ethnic_tension = 15}
+		    subtract_from_variable = {QIN_qinghai_stability = 20}
+		    add_to_variable = {QIN_qinghai_ethnic_tension = 15}
+		    subtract_from_variable = {QIN_yushu_stability = 20}
+		    add_to_variable = {QIN_yushu_ethnic_tension = 15}
+		    subtract_from_variable = {QIN_kang_stability = 20}
+		    add_to_variable = {QIN_kang_ethnic_tension = 15}
+		    subtract_from_variable = {QIN_tibet_stability = 20}
+		    add_to_variable = {QIN_tibet_ethnic_tension = 15}
 
-			# subtract_from_variable = {
-				# var = QIN_minority_province_stability_tick
-				# value = 1
-			# }
-			# subtract_from_variable = {
-				# var = QIN_minority_province_tension_tick
-				# value = 0.5
-			# }
+			subtract_from_variable = {
+				var = QIN_minority_province_stability_tick
+				value = 1
+			}
+			subtract_from_variable = {
+				var = QIN_minority_province_tension_tick
+				value = 0.5
+			}
 
 		    hidden_effect = {
 		        TNO_improve_admin_efficiency_med = yes
@@ -1139,14 +1234,11 @@ QIN_lifayuan = {
 	            value = 75
 	            compare = greater_than
             }
-			has_country_flag = lifayuan_legislation_mil_reform
 		}
 		fire_only_once = yes
-		visible = {	
-			ROOT = {
-				tag = QIN
-			}		
+		visible = {		
 			has_country_flag = lifayuan_legislation_mil_reform
+			has_completed_focus = reorganise_military
 		}		
 		cost = 0
 		complete_effect = {
@@ -1157,7 +1249,6 @@ QIN_lifayuan = {
 			TNO_improve_army_professionalism_med = yes
 			TNO_improve_conscription_policy_effectiveness_monthly_med = yes
 			TNO_improve_training_policy_effectiveness_med = yes
-			TNO_improve_racial_integration_policy_effectiveness_low = yes
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -1390,7 +1481,6 @@ QIN_BoG = {
 				var = QIN_BOG_09_STRENGTH_ALLIED
 				value = 200
 			}
-			TNO_improve_minorities_policy_effectiveness_monthly_low = yes
 			add_popularity = {
 				ideology = progressivism
                 popularity = 0.015
@@ -1847,7 +1937,7 @@ TMM_Xikang = {
 				tag = XIK
 			}
 		}		
-		cost = 1
+		cost = 1`
 		complete_effect = {	
 	        set_variable = { 330.china = 4 }
 			QIN_update_map = yes

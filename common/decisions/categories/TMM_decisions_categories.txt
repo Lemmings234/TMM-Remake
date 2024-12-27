@@ -1,27 +1,26 @@
-#####################################################################################################################
-# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
-# ID's must not include spaces!
-#####################################################################################################################
-QIN_Management = {		#ID of category
-	priority = 9		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
+QIN_Management = {		
+	priority = 9		
 	icon = GFX_category_west_china
 	picture = GFX_decision_QIN_china
 	
 	allowed = {
 		tag = QIN
 	}
-	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	visible = {		
 	}
 }
-QIN_Debug = {		#ID of category
-	priority = 8		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
+QIN_Debug = {		
+	priority = 8		
 	icon = GFX_decision_category_debug	
 	picture = GFX_decision_QIN_debug
 	
 	allowed = {
-		tag = QIN
+		OR = {
+		    tag = QIN
+		    tag = SIC
+		}
 	}
-	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	visible = {		
 	    is_debug = yes
 		is_ai = no
 	}
@@ -31,7 +30,7 @@ QIN_lifayuan = {
 	allowed = {
 		tag = QIN
 	}
-	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	visible = {		
 	    tag = QIN
 		NOT = { has_country_flag = Lifayuan_dissolved }
 	}
@@ -50,14 +49,14 @@ TMM_Xinan = {
 			tag = YUN
 		}
 	}
-	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	visible = {		
 		OR = {
 			tag = GUZ
 			tag = GUX
 			tag = YUN
 		}
 	}
-	visible_when_empty = yes		#Determines if the map icon will show up even if there are no active decisoins for this category.
+	visible_when_empty = yes		
 	priority = 85
 }
 TMM_Xikang = {
@@ -67,12 +66,27 @@ TMM_Xikang = {
 			tag = XIK
 		}
 	}
-	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	visible = {		
 		OR = {
 			tag = XIK
 		}
 	}
-	visible_when_empty = yes		#Determines if the map icon will show up even if there are no active decisoins for this category.
+	visible_when_empty = yes		
+	priority = 85
+}
+TMM_Sichuan = {
+	icon = GFX_category_kuomintang_icon	
+	allowed = {
+		OR = {
+			tag = SIC
+		}
+	}
+	visible = {		
+		OR = {
+			tag = SIC
+		}
+	}
+	visible_when_empty = yes		
 	priority = 85
 }
 QIN_BoG = {
@@ -82,7 +96,7 @@ QIN_BoG = {
 			tag = QIN
 		}
 	}
-	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	visible = {		
 		AND = {
 		    OR = {
 		    	tag = QIN
@@ -91,7 +105,7 @@ QIN_BoG = {
 		}
 
 	}
-	visible_when_empty = no		#Determines if the map icon will show up even if there are no active decisoins for this category.
+	visible_when_empty = no		
 	priority = 95
 }
 
@@ -102,7 +116,7 @@ QIN_CCPStruggle = {
 			tag = QIN
 		}
 	}
-	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	visible = {		
 		AND = {
 		    tag = QIN
 			has_country_flag = bog_over
@@ -114,7 +128,7 @@ QIN_CCPStruggle = {
 
 	}
 	scripted_gui = TMM_ccp_struggle_ui	
-	visible_when_empty = yes		#Determines if the map icon will show up even if there are no active decisoins for this category.
+	visible_when_empty = yes		
 	priority = 99
 }
 
@@ -126,7 +140,7 @@ QIN_KMTStruggle = {
 			has_country_flag = QIN_KMT_Meeting
 		}
 	}
-	visible = {		#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	visible = {		
 		AND = {
 		    tag = QIN
 			has_country_flag = bog_over
@@ -139,6 +153,6 @@ QIN_KMTStruggle = {
 
 	}
 	scripted_gui = TMM_kmt_struggle_ui	
-	visible_when_empty = yes	#Determines if the map icon will show up even if there are no active decisoins for this category.
+	visible_when_empty = yes
 	priority = 100
 }
