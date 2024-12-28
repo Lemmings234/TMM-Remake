@@ -144,7 +144,6 @@ set_popularities = {
 	despotism = 10
 	fascism = 1
 	national_socialism = 0
-    esoteric_nazism = 0
 
 }
 

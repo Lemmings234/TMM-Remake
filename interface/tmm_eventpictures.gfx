@@ -1,0 +1,240 @@
+#### EVENT STUFF, THANK YOU TNO FOR THESE SPRITES ####
+spriteTypes = {
+    spriteType = {
+	    name = "GFX_XSM_legislative_yuan"
+	    texturefile = "gfx/event_pictures/XSM_legislative_yuan.dds"
+    }
+    spriteType = {
+	    name = "GFX_report_event_CHI_nanjing2"
+	    texturefile = "gfx/event_pictures/report_event_CHI_nanjing2.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_china_lost"
+	    texturefile = "gfx/event_pictures/china_lost.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_empty"
+	    texturefile = "gfx/event_pictures/empty.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_test"
+	    texturefile = "gfx/event_pictures/test.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_lanterns"
+	    texturefile = "gfx/event_pictures/lanterns.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_convoy"
+	    texturefile = "gfx/event_pictures/XSM_convoy.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_building_the_trail"
+	    texturefile = "gfx/event_pictures/XSM_building_the_trail.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_building_the_trail_2"
+	    texturefile = "gfx/event_pictures/XSM_building_the_trail_2.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_building_the_trail_3"
+	    texturefile = "gfx/event_pictures/XSM_building_the_trail_3.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_celebration"
+	    texturefile = "gfx/event_pictures/XSM_celebration.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_female_soldiers"
+	    texturefile = "gfx/event_pictures/XSM_female_soldiers.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_guard"
+	    texturefile = "gfx/event_pictures/XSM_guard.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_horses"
+	    texturefile = "gfx/event_pictures/XSM_horses.dds"
+    }	
+    spriteType = {
+	    name = "GFX_XSM_japanese_ambushed"
+	    texturefile = "gfx/event_pictures/XSM_japanese_ambushed.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_northeasterners"
+	    texturefile = "gfx/event_pictures/XSM_northeasterners.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_old_refugee"
+	    texturefile = "gfx/event_pictures/XSM_old_refugee.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_refugees"
+	    texturefile = "gfx/event_pictures/XSM_refugees.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_partisans"
+	    texturefile = "gfx/event_pictures/XSM_partisans.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_partisans_2"
+	    texturefile = "gfx/event_pictures/XSM_partisans_2.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_partisans_3"
+	    texturefile = "gfx/event_pictures/XSM_partisans_3.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_horses"
+	    texturefile = "gfx/event_pictures/XSM_horses.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_tibetans_surrender"
+	    texturefile = "gfx/event_pictures/XSM_tibetans_surrender.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_training"
+	    texturefile = "gfx/event_pictures/XSM_training.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_training_2"
+	    texturefile = "gfx/event_pictures/XSM_training_2.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_triumph"
+	    texturefile = "gfx/event_pictures/XSM_triumph.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_siheyuan"
+	    texturefile = "gfx/event_pictures/XSM_siheyuan.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_korean_army"
+	    texturefile = "gfx/event_pictures/XSM_korean_army.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_korean_government"
+	    texturefile = "gfx/event_pictures/XSM_korean_government.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_qinghai_lake"
+	    texturefile = "gfx/event_pictures/XSM_qinghai_lake.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_land_reform"
+	    texturefile = "gfx/event_pictures/XSM_land_reform.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_meeting"
+	    texturefile = "gfx/event_pictures/XSM_meeting.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_chiang"
+	    texturefile = "gfx/event_pictures/XSM_chiang.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_sun_ke"
+	    texturefile = "gfx/event_pictures/XSM_sun_ke.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_politicians"
+	    texturefile = "gfx/event_pictures/XSM_politicians.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_free_china"
+	    texturefile = "gfx/event_pictures/XSM_free_china.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_communists"
+	    texturefile = "gfx/event_pictures/XSM_communists.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_patrol"
+	    texturefile = "gfx/event_pictures/XSM_patrol.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_vehicles"
+	    texturefile = "gfx/event_pictures/XSM_vehicles.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_mountain_ranges"
+	    texturefile = "gfx/event_pictures/XSM_mountain_ranges.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_truck"
+	    texturefile = "gfx/event_pictures/XSM_truck.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_japanese_officer"
+	    texturefile = "gfx/event_pictures/XSM_japanese_officer.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_generals"
+	    texturefile = "gfx/event_pictures/XSM_generals.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_delhi"
+	    texturefile = "gfx/event_pictures/XSM_delhi.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_frozen_house"
+	    texturefile = "gfx/event_pictures/XSM_frozen_house.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_march"
+	    texturefile = "gfx/event_pictures/XSM_march.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_gao_gang"
+	    texturefile = "gfx/event_pictures/XSM_gao_gang.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_liquor"
+	    texturefile = "gfx/event_pictures/XSM_liquor.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_dongbei"
+	    texturefile = "gfx/event_pictures/XSM_dongbei.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_kla"
+	    texturefile = "gfx/event_pictures/XSM_kla.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_mustering_grounds"
+	    texturefile = "gfx/event_pictures/XSM_mustering_grounds.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_horsemen"
+	    texturefile = "gfx/event_pictures/XSM_horsemen.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_women_league"
+	    texturefile = "gfx/event_pictures/XSM_women_league.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_NRA"
+	    texturefile = "gfx/event_pictures/XSM_NRA.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_Liu"
+	    texturefile = "gfx/event_pictures/XSM_Liu.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_jichaoding"
+	    texturefile = "gfx/event_pictures/XSM_jichaoding.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_red_sun"
+	    texturefile = "gfx/event_pictures/XSM_red_sun.dds"
+    }
+    spriteType = {
+	    name = "GFX_XSM_roads"
+	    texturefile = "gfx/event_pictures/XSM_roads.dds"
+    }
+	#WORLD EVENTS
+    spriteType = {
+	    name = "GFX_news_event_xibei"
+	    texturefile = "gfx/event_pictures/GFX_news_event_xibei.dds"
+    }
+}

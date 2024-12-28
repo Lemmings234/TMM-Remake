@@ -1,0 +1,16 @@
+﻿l_english:
+
+ MAPMODE_CHINA_MAP_MODE:0 "§YChina§! map mode"
+ MAPMODE_CHINA_MAP_MODE_NAME:0 "China"
+ MAPMODE_CHINA_MAP_MODE_DESCRIPTION:0 "Displays China based on their affiliation with §BGolmud/Xining§! or §RNanjing§!."
+
+ china_map_mode_tooltip:0 "[FROM.GetChinaAffiliation]"
+ china_map_mode_tooltip_delayed:0 "§F(§Y[FROM.Controller.GetNameWithFlag]§!): [FROM.GetName] is currently controlled by [FROM.GetChinaAffiliation].§!"
+
+ GetChinaAffiliation.1:0 "§BThe Northwest Government§!"
+ GetChinaAffiliation.2:0 "§BNorthwest-Affiliated regime§!"
+ GetChinaAffiliation.3:0 "§YNeutral regime§!"
+ GetChinaAffiliation.4:0 "§RSphere-Affiliated/Japanese regime§!"
+ GetChinaAffiliation.5:0 "§RThe Nanjing Government§!"
+ GetChinaAffiliation.6:0 "§LKunming Government§!"
+

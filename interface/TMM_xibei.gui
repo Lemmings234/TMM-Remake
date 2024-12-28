@@ -1,0 +1,475 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "TMM_xibei_menu_open"
+		size = { width = 120 height = 120 }
+		position = { x=220 y=291 }
+
+		buttonType ={
+			name ="QIN_xibei_open_button"
+			spriteType = "GFX_xibei_icon2"
+			position = { x=13 y=22 }
+			pdx_tooltip = "QIN_xibei_open_tt"
+		}
+		
+		iconType = {
+			name = "gui_alert"
+			spriteType = "GFX_gui_alert"
+			position = { x=-25 y=-16 }
+		}
+	}
+
+	containerWindowType = {
+		name = "TMM_xibei_menu_main"
+		size = { width = 1200 height = 900 }
+		position = { x = 540 y = 78 }
+		moveable = yes
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		iconType ={
+			name ="QIN_provinces_bg"
+			spriteType = "GFX_xibei_bg"
+			position = { x= 0 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "QIN_xibei_close_button"
+			position = { x = -42 y = 15 }
+			quadTextureSprite ="GFX_TNO_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		containerWindowType = {
+			name = "TMM_xibei"
+			position = {x=0 y=0}
+			size = { width=583 height=720 }
+
+			iconType = {
+				name = "TMM_xibei_qinghai"
+				position = {x=562 y=431}
+				spriteType = GFX_xibei_qin_2
+				pdx_tooltip = "TMM_INFO_XIBEI_QINGHAI"
+			}
+			iconType = {
+				name = "TMM_xibei_xikang"
+				position = {x=695 y=588}
+				spriteType = GFX_xibei_xik_2
+				pdx_tooltip = "TMM_INFO_XIBEI_XIKANG"
+			}
+			iconType = {
+				name = "TMM_xibei_yushu_1"
+				position = {x=539 y=516}
+				spriteType = GFX_xibei_yus_1
+				pdx_tooltip = "TMM_INFO_XIBEI_YUSHU_1"
+			}
+			iconType = {
+				name = "TMM_xibei_yushu_2"
+				position = {x=539 y=516}
+				spriteType = GFX_xibei_yus_2
+				pdx_tooltip = "TMM_INFO_XIBEI_YUSHU_2"
+			}
+			iconType = {
+				name = "TMM_xibei_kang_1"
+				position = {x=600 y=629}
+				spriteType = GFX_xibei_kha_1
+				pdx_tooltip = "TMM_INFO_XIBEI_KANG_1"
+			}
+			iconType = {
+				name = "TMM_xibei_kang_2"
+				position = {x=600 y=629}
+				spriteType = GFX_xibei_kha_2
+				pdx_tooltip = "TMM_INFO_XIBEI_KANG_2"
+			}
+			iconType = {
+				name = "TMM_xibei_tibet_1"
+				position = {x=288 y=547}
+				spriteType = GFX_xibei_tib_1
+				pdx_tooltip = "TMM_INFO_XIBEI_TIBET_1"
+			}
+			iconType = {
+				name = "TMM_xibei_tibet_2"
+				position = {x=288 y=547}
+				spriteType = GFX_xibei_tib_2
+				pdx_tooltip = "TMM_INFO_XIBEI_TIBET_2"
+			}
+			iconType = {
+				name = "TMM_xibei_xinjiang_1"
+				position = {x=187 y=298}
+				spriteType = GFX_xibei_sik_1
+				pdx_tooltip = "TMM_INFO_XIBEI_XINJIANG_1"
+			}
+			iconType = {
+				name = "TMM_xibei_xinjiang_2"
+				position = {x=187 y=298}
+				spriteType = GFX_xibei_sik_2
+				pdx_tooltip = "TMM_INFO_XIBEI_XINJIANG_2"
+			}
+			iconType = {
+				name = "TMM_xibei_ili_1"
+				position = {x=353 y=190}
+				spriteType = GFX_xibei_ili_1
+				pdx_tooltip = "TMM_INFO_XIBEI_ILI_1"
+			}
+			iconType = {
+				name = "TMM_xibei_ili_2"
+				position = {x=353 y=190}
+				spriteType = GFX_xibei_ili_2
+				pdx_tooltip = "TMM_INFO_XIBEI_ILI_2"
+			}
+			iconType = {
+				name = "TMM_xibei_ham_1"
+				position = {x=541 y=296}
+				spriteType = GFX_xibei_ham_1
+				pdx_tooltip = "TMM_INFO_XIBEI_HAMI_1"
+			}
+			iconType = {
+				name = "TMM_xibei_ham_2"
+				position = {x=541 y=296}
+				spriteType = GFX_xibei_ham_2
+				pdx_tooltip = "TMM_INFO_XIBEI_HAMI_2"
+			}
+			iconType = {
+				name = "TMM_xibei_nin_1"
+				position = {x=701 y=368}
+				spriteType = GFX_xibei_nin_1
+				pdx_tooltip = "TMM_INFO_XIBEI_NINGXIA_1"
+			}
+			iconType = {
+				name = "TMM_xibei_nin_2"
+				position = {x=701 y=368}
+				spriteType = GFX_xibei_nin_2
+				pdx_tooltip = "TMM_INFO_XIBEI_NINGXIA_2"
+			}
+			iconType = {
+				name = "TMM_xibei_hex_1"
+				position = {x=626 y=363}
+				spriteType = GFX_xibei_hex_1
+				pdx_tooltip = "TMM_INFO_XIBEI_HEXI_1"
+			}
+			iconType = {
+				name = "TMM_xibei_hex_2"
+				position = {x=626 y=363}
+				spriteType = GFX_xibei_hex_2
+				pdx_tooltip = "TMM_INFO_XIBEI_HEXI_2"
+			}
+			iconType = {
+				name = "TMM_xibei_gan_1"
+				position = {x=805 y=453}
+				spriteType = GFX_xibei_gan_1
+				pdx_tooltip = "TMM_INFO_XIBEI_GANSU_1"
+			}
+			iconType = {
+				name = "TMM_xibei_gan_2"
+				position = {x=805 y=453}
+				spriteType = GFX_xibei_gan_2
+				pdx_tooltip = "TMM_INFO_XIBEI_GANSU_2"
+			}
+			iconType = {
+				name = "TMM_xibei_wmo_2"
+				position = {x=492 y=34}
+				spriteType = GFX_xibei_wmo_2
+				pdx_tooltip = "TMM_INFO_XIBEI_WEST_MONGOLIA"
+			}
+		}
+	}
+	containerWindowType = {
+		name = "TMM_xibei_state_info_window"
+		size = { width = 600 height = 400 }
+		position = { x = 638 y = 177 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "SandboxFloaterBackground"
+		}
+		
+		iconType = {
+			name ="QIN_state_info_bg"
+			spriteType = "GFX_state_info_bg"
+			position = { x= 0 y = 0 }
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "QIN_state_info_close_button"
+			position = { x = -30 y = 11 }
+			quadTextureSprite = "GFX_crt_closebutton"
+			Orientation = "UPPER_RIGHT"
+			shortcut = "ESCAPE"
+		}
+
+		instantTextboxType = {
+			name = "State_Name"
+			position = { x = 100 y = 3 }
+			font = "aldrich_36_outline"
+			text = "[getQINStateName]"
+			maxWidth = 400
+			maxHeight = 36
+			format = center
+		}
+		instantTextboxType = {
+			name = "State_Stability"
+			position = { x = -100 y = 200 }
+			font = "aldrich_36_outline"
+			text = "[getQINStateStability]"
+			maxWidth = 400
+			maxHeight = 36
+			format = center
+		}
+		instantTextboxType = {
+			name = "State_Tension"
+			position = { x = 100 y = 200 }
+			font = "aldrich_36_outline"
+			text = "[getQINStateTension]"
+			maxWidth = 400
+			maxHeight = 36
+			format = center
+		}
+		iconType ={
+			name ="QIN_state_info_gan_icon"
+			spriteType = "GFX_state_info_gan_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_GANSU"
+		}
+		iconType ={
+			name ="QIN_state_info_nin_icon"
+			spriteType = "GFX_state_info_nin_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_NINGXIA"
+		}
+		iconType ={
+			name ="QIN_state_info_hex_icon"
+			spriteType = "GFX_state_info_hex_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_HEXI"
+		}
+		iconType ={
+			name ="QIN_state_info_xin_icon"
+			spriteType = "GFX_state_info_xin_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_NANJIANG"
+		}
+		iconType ={
+			name ="QIN_state_info_xin2_icon"
+			spriteType = "GFX_state_info_xin2_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_NANJIANG2"
+		}
+		iconType ={
+			name ="QIN_state_info_ili_icon"
+			spriteType = "GFX_state_info_ili_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_BEIJIANG"
+		}
+		iconType ={
+			name ="QIN_state_info_ham_icon"
+			spriteType = "GFX_state_info_ham_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_HAMI"
+		}
+		iconType ={
+			name ="QIN_state_info_tib_icon"
+			spriteType = "GFX_state_info_tib_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_TIBET"
+		}
+		iconType ={
+			name ="QIN_state_info_kha_icon"
+			spriteType = "GFX_state_info_kha_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_KANG"
+		}
+		iconType ={
+			name ="QIN_state_info_yus_icon"
+			spriteType = "GFX_state_info_yus_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_YUSHU"
+		}
+		iconType ={
+			name ="QIN_state_info_qin_icon"
+			spriteType = "GFX_state_info_qin_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_QINGHAI"
+		}
+		iconType ={
+			name ="QIN_state_info_wmo_icon"
+			spriteType = "GFX_state_info_wmo_icon"
+			position = { x= 12 y = 48 }
+			pdx_tooltip = "STATE_INFO_ICON_MONGOLIA"
+		}
+###INTERACTION BUTTONS - MODERNISATION EFFORT - INACTIVE
+		iconType = {
+			name ="QIN_state_info_lan2"
+			spriteType = "GFX_state_info_lan_2"
+			position = { x = 410 y = 200}
+			pdx_tooltip = "STATE_INFO_LAND_REFORM"
+		}
+		iconType = {
+			name ="QIN_state_info_soc2"
+			spriteType = "GFX_state_info_soc_2"
+			position = { x = 410 y = 240 }
+			pdx_tooltip = "STATE_INFO_SOCIAL_REFORM"
+		}
+		iconType = {
+			name ="QIN_state_info_inf2"
+			spriteType = "GFX_state_info_inf_2"
+			position = { x = 410 y = 280 }
+			pdx_tooltip = "STATE_INFO_INFRASTRUCTURE"
+		}
+		iconType = {
+			name ="QIN_state_info_fin2"
+			spriteType = "GFX_state_info_fin_2"
+			position = { x = 409 y = 320 }
+			pdx_tooltip = "STATE_INFO_MODERNISATION"
+		}
+##INTERACTION BUTTONS - MODERNISATION EFFORT - AVAILABLE
+		iconType ={
+			name ="QIN_state_info_lan1"
+			spriteType = "GFX_state_info_lan_1"
+			position = { x= 410 y = 199}
+			pdx_tooltip = "STATE_INFO_LAND_REFORM"
+		}
+		iconType ={
+			name ="QIN_state_info_soc1"
+			spriteType = "GFX_state_info_soc_1"
+			position = { x= 410 y = 239 }
+			pdx_tooltip = "STATE_INFO_SOCIAL_REFORM"
+		}
+		iconType ={
+			name ="QIN_state_info_inf1"
+			spriteType = "GFX_state_info_inf_1"
+			position = { x= 410 y = 279 }
+			pdx_tooltip = "STATE_INFO_INFRASTRUCTURE"
+		}
+		iconType ={
+			name ="QIN_state_info_fin1"
+			spriteType = "GFX_state_info_fin_1"
+			position = { x= 408 y = 319 }
+			pdx_tooltip = "STATE_INFO_MODERNISATION"
+		}
+##INTERACTION BUTTONS - MODERNISATION EFFORT - COMPLETE
+		iconType ={
+			name ="QIN_state_info_lan3"
+			spriteType = "GFX_state_info_lan_3"
+			position = { x= 410 y = 199}
+		}
+		iconType ={
+			name ="QIN_state_info_soc3"
+			spriteType = "GFX_state_info_soc_3"
+			position = { x= 410 y = 239 }
+		}
+		iconType ={
+			name ="QIN_state_info_inf3"
+			spriteType = "GFX_state_info_inf_3"
+			position = { x= 410 y = 279 }
+		}
+		iconType ={
+			name ="QIN_state_info_fin3"
+			spriteType = "GFX_state_info_fin_3"
+			position = { x= 408 y = 319 }
+		}
+###INTERACTION BUTTONS - ETHNIC TENSION - INACTIVE
+		iconType ={
+			name ="QIN_state_info_pro2"
+			spriteType = "GFX_state_info_pro_2"
+			position = { x= 209 y = 238 }
+			pdx_tooltip = "STATE_INFO_PROPAGANDA_tt"
+		}
+		iconType ={
+			name ="QIN_state_info_off2"
+			spriteType = "GFX_state_info_off_2"
+			position = { x= 207 y = 276 }
+			pdx_tooltip = "STATE_INFO_OFFER_SUPPORT_tt"
+		}
+		iconType ={
+			name ="QIN_state_info_adm2"
+			spriteType = "GFX_state_info_adm_2"
+			position = { x= 202 y = 319 }
+			pdx_tooltip = "STATE_INFO_ADMIT_MINORITY_INTO_GOVERNMENT_tt"
+		}
+##INTERACTION BUTTONS - ETHNIC TENSION - AVAILABLE
+		iconType ={
+			name ="QIN_state_info_pro1"
+			spriteType = "GFX_state_info_pro_1"
+			position = { x= 208 y = 237 }
+			pdx_tooltip = "STATE_INFO_PROPAGANDA_tt"
+		}
+		iconType ={
+			name ="QIN_state_info_off1"
+			spriteType = "GFX_state_info_off_1"
+			position = { x= 207 y = 276 }
+			pdx_tooltip = "STATE_INFO_OFFER_SUPPORT_tt"
+		}
+		iconType ={
+			name ="QIN_state_info_adm1"
+			spriteType = "GFX_state_info_adm_1"
+			position = { x= 202 y = 318 }
+			pdx_tooltip = "STATE_INFO_ADMIT_MINORITY_INTO_GOVERNMENT_tt"
+		}
+###INTERACTION BUTTONS - STABILITY - INACTIVE
+		iconType ={
+			name ="QIN_state_info_hol2"
+			spriteType = "GFX_state_info_hol_2"
+			position = { x= 7 y = 236 }
+			pdx_tooltip = "STATE_INFO_HOLD_SPEECH_tt"
+		}
+		iconType ={
+			name ="QIN_state_info_des2"
+			spriteType = "GFX_state_info_des_2"
+			position = { x= 7 y = 276 }
+			pdx_tooltip = "STATE_INFO_DESTROY_BANDITS_tt"
+		}
+		iconType ={
+			name ="QIN_state_info_con2"
+			spriteType = "GFX_state_info_con_2"
+			position = { x= 9 y = 319 }
+			pdx_tooltip = "STATE_INFO_CONCESSIONS_TO_THE_LOCALS_tt"
+		}
+##INTERACTION BUTTONS - STABILITY - AVAILABLE]
+		iconType ={
+			name ="QIN_state_info_hol1"
+			spriteType = "GFX_state_info_hol_1"
+			position = { x= 7 y = 236 }
+			pdx_tooltip = "STATE_INFO_HOLD_SPEECH_tt"
+		}
+		iconType ={
+			name ="QIN_state_info_des1"
+			spriteType = "GFX_state_info_des_1"
+			position = { x= 7 y = 276 }
+			pdx_tooltip = "STATE_INFO_DESTROY_BANDITS_tt"
+		}
+		iconType ={
+			name ="QIN_state_info_con1"
+			spriteType = "GFX_state_info_con_1"
+			position = { x= 8 y = 318 }
+			pdx_tooltip = "STATE_INFO_CONCESSIONS_TO_THE_LOCALS_tt"
+		}
+##CORE BUTTONS 
+		iconType ={
+			name ="QIN_state_core1"
+			spriteType = "GFX_state_info_core_1"
+			position = { x= 243 y = 80 }
+			pdx_tooltip = "STATE_INFO_CORE_1_tt"
+		}
+		iconType ={
+			name ="QIN_state_core2"
+			spriteType = "GFX_state_info_core_2"
+			position = { x= 243 y = 80 }
+			pdx_tooltip = "STATE_INFO_CORE_2_tt"
+		}
+		iconType ={
+			name ="QIN_state_core3"
+			spriteType = "GFX_state_info_core_3"
+			position = { x= 243 y = 80 }
+			pdx_tooltip = "STATE_INFO_CORE_3_tt"
+		}
+	}
+}
