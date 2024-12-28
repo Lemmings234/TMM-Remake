@@ -383,7 +383,6 @@ BNW_China = {
         	despotism = 55
         	fascism = 20
         	national_socialism = 0
-            esoteric_nazism = 0
         }
 	}
     every_state = {
@@ -453,7 +452,6 @@ BNW_China = {
         	despotism = 35
         	fascism = 20
         	national_socialism = 0
-            esoteric_nazism = 0
         }
 		set_party_name = { 
 			ideology = despotism
@@ -503,7 +501,6 @@ BNW_China = {
         	despotism = 35
         	fascism = 20
         	national_socialism = 0
-            esoteric_nazism = 0
         }
 		set_party_name = { 
 			ideology = despotism
@@ -584,7 +581,6 @@ BNW_China = {
         	despotism = 15
         	fascism = 50
         	national_socialism = 0
-            esoteric_nazism = 0
         }
 	}
 	XXX = { 
@@ -620,7 +616,7 @@ BNW_China = {
         	despotism = 15
         	fascism = 50
         	national_socialism = 0
-            esoteric_nazism = 0
+            
         }	
 	}
 	XXX = { 

@@ -1,0 +1,3291 @@
+defined_text = {
+	name = getStateName
+	text = {
+		trigger = {
+			check_variable = { State_View = 0 }
+		}
+		localization_key = QIN_qinghai
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 1 }
+		}
+		localization_key = QIN_yushu
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 2 }
+		}
+		localization_key = QIN_tibet
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 3 }
+		}
+		localization_key = QIN_kang
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 4 }
+		}
+		localization_key = QIN_hex
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 5 }
+		}
+		localization_key = QIN_gan
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 6 }
+		}
+		localization_key = QIN_nin
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 7 }
+		}
+		localization_key = QIN_ham
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 8 }
+		}
+		localization_key = QIN_ili
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 9 }
+		}
+		localization_key = QIN_xinjiang
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 10 }
+		}
+		localization_key = QIN_wmo
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 11 }
+		}
+		localization_key = QIN_tuv
+	}
+}
+
+defined_text = {
+	name = QINgetCurrentTab
+	text = {
+		trigger = {
+			tag = QIN
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 1 }
+		}
+		localization_key = "BNW_China_Management_GUI"
+	}
+	text = {
+		trigger = {
+			tag = SIC
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 1 }
+		}
+		localization_key = "BNW_Japan_Imperial_Court_GUI"
+	}
+	text = {
+		trigger = {
+			tag = QIN
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 2 }
+		}
+		localization_key = "BNW_China_Legislative_GUI"
+	}
+	text = {
+		trigger = {
+			tag = GUZ
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 2 }
+		}
+		localization_key = "BNW_Xinan_Canzhengyuan_GUI"
+	}
+	text = {
+		trigger = {
+			tag = SIC
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 2 }
+		}
+		localization_key = "Empty"
+	}
+	text = {
+		trigger = {
+			tag = QIN
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 3 }
+		}
+		localization_key = "BNW_China_Government_GUI"
+	}
+	text = {
+		trigger = {
+			tag = SIC
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 3 }
+		}
+		localization_key = "Empty"
+	}
+	text = {
+		trigger = {
+			tag = QIN
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 4 }
+		}
+		localization_key = "BNW_China_Election_GUI"
+	}
+	text = {
+		trigger = {
+			tag = SIC
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 4 }
+		}
+		localization_key = "BNW_Japan_Election_GUI"
+	}
+}
+
+defined_text = {
+	name = QINgetCurrentStage
+	text = {
+		trigger = {
+			OR = { 
+				AND = { 
+				    check_variable = { ROOT.legislation_reading^pending_legislation_id = 0 } 
+				    NOT = { has_country_flag = hist_leg }
+					check_variable = { ROOT.QIN_parliament_selected_tab^0 = 2 }
+				}
+				AND = {
+				    has_country_flag = QIN_Repealling_Laws
+					has_country_flag = hist_leg
+					check_variable = { ROOT.QIN_parliament_selected_tab^0 = 2 }
+				}
+			}
+		}
+		localization_key = "BNW_In_Recess"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROOT.legislation_reading^pending_legislation_id = 1 }
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 2 }
+		}
+		localization_key = "BNW_First_Stage"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROOT.legislation_reading^pending_legislation_id = 2 }
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 2 }
+		}
+		localization_key = "BNW_Second_Stage"
+	}
+	text = {
+		trigger = {
+			check_variable = { ROOT.legislation_reading^pending_legislation_id = 3 }
+			check_variable = { ROOT.QIN_parliament_selected_tab^0 = 2 }
+		}
+		localization_key = "BNW_Third_Stage"
+	}
+}
+
+
+
+
+defined_text = {
+	name = getStateStability
+	text = {
+		trigger = {
+			check_variable = { State_View = 0 }
+		}
+		localization_key = [?State_Stability^0]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 1 }
+		}
+		localization_key = [?State_Stability^1]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 2 }
+		}
+		localization_key = [?State_Stability^2]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 3 }
+		}
+		localization_key = [?State_Stability^3]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 4 }
+		}
+		localization_key = [?State_Stability^4]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 5 }
+		}
+		localization_key = [?State_Stability^5]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 6 }
+		}
+		localization_key = [?State_Stability^6]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 7 }
+		}
+		localization_key = [?State_Stability^7]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 8 }
+		}
+		localization_key = [?State_Stability^8]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 9 }
+		}
+		localization_key = [?State_Stability^9]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 10 }
+		}
+		localization_key = [?State_Stability^10]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 11 }
+		}
+		localization_key = [?State_Stability^11]
+	}
+}
+
+defined_text = {
+	name = getStateTension
+	text = {
+		trigger = {
+			check_variable = { State_View = 0 }
+		}
+		localization_key = [?State_Tension^0]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 1 }
+		}
+		localization_key = [?State_Tension^1]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 2 }
+		}
+		localization_key = [?State_Tension^2]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 3 }
+		}
+		localization_key = [?State_Tension^3]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 4 }
+		}
+		localization_key = [?State_Tension^4]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 5 }
+		}
+		localization_key = [?State_Tension^5]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 6 }
+		}
+		localization_key = [?State_Tension^6]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 7 }
+		}
+		localization_key = [?State_Tension^7]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 8 }
+		}
+		localization_key = [?State_Tension^8]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 9 }
+		}
+		localization_key = [?State_Tension^9]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 10 }
+		}
+		localization_key = [?State_Tension^10]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 11 }
+		}
+		localization_key = [?State_Tension^11]
+	}
+}
+
+defined_text = {
+	name = GetParliamentTitle
+	text = {
+		trigger = {
+			original_tag = GUZ
+			NOT = { has_country_flag = GUZ_Liberalisation }
+		}
+		localization_key = parliament_title_guz
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = CCP_Won }
+		}
+		localization_key = parliament_title_kmt
+	}
+	text = {
+		trigger = {
+			has_country_flag = CCP_Won
+		}
+		localization_key = parliament_title_ccp
+	}
+}
+
+defined_text = {
+	name = GetLeader1Title
+	text = {
+		trigger = {
+			original_tag = GUZ
+			NOT = { has_country_flag = GUZ_Liberalisation }
+		}
+		localization_key = leader_1_title_guz
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = CCP_Won }
+		}
+		localization_key = leader_1_title_kmt
+	}
+	text = {
+		trigger = {
+			has_country_flag = CCP_Won
+		}
+		localization_key = leader_1_title_ccp
+	}
+}
+
+defined_text = {
+	name = GetLeader2Title
+	text = {
+		trigger = {
+			original_tag = GUZ
+			NOT = { has_country_flag = GUZ_Liberalisation }
+		}
+		localization_key = leader_2_title_guz
+	}
+	text = {
+		trigger = {
+			NOT = { has_country_flag = CCP_Won }
+		}
+		localization_key = leader_2_title_kmt
+	}
+	text = {
+		trigger = {
+			has_country_flag = CCP_Won
+		}
+		localization_key = leader_2_title_ccp
+	}
+}
+
+defined_text = {
+	name = QINgetPartySeats
+	text = {
+		trigger = {
+			NOT = { has_country_flag = CCP_Won }
+		}
+		localization_key = Seats_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = CCP_Won
+		}
+		localization_key = Seats_2
+	}
+}
+
+defined_text = {
+	name = getQINParliamentStability
+	text = {
+		trigger = {
+			check_variable = { QIN_Regime_Stability < 50 }
+		}
+		localization_key = QIN_Regime_Stability_1
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_Regime_Stability = 50 }
+		}
+		localization_key = QIN_Regime_Stability_2
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_Regime_Stability > 50 }
+		}
+		localization_key = QIN_Regime_Stability_3
+	}
+}
+
+defined_text = {
+	name = getQINParliamentSupport
+	text = {
+		trigger = {
+			check_variable = { QIN_Parliament_Support < 50 }
+		}
+		localization_key = QIN_Parliament_Support_1
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_Parliament_Support = 50 }
+		}
+		localization_key = QIN_Parliament_Support_2
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_Parliament_Support > 50 }
+		}
+		localization_key = QIN_Parliament_Support_3
+	}
+}
+
+defined_text = {
+	name = getCoalitionName
+	text = {
+		trigger = {
+			original_tag = GUZ
+			OR = {
+			    check_variable = { QIN_party_list^parties_idx = 0 }
+				check_variable = { QIN_party_list^parties_idx = 1 }
+				check_variable = { QIN_party_list^parties_idx = 2 }
+			}
+
+		}
+		localization_key = GUZ_Coalition_Name_0
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			OR = {
+			    check_variable = { QIN_party_list^parties_idx = 3 }
+				check_variable = { QIN_party_list^parties_idx = 4 }
+				check_variable = { QIN_party_list^parties_idx = 5 }
+			}
+
+		}
+		localization_key = GUZ_Coalition_Name_1
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			OR = {
+			    check_variable = { QIN_party_list^parties_idx = 6 }
+				check_variable = { QIN_party_list^parties_idx = 7 }
+				check_variable = { QIN_party_list^parties_idx = 8 }
+				check_variable = { QIN_party_list^parties_idx = 9 }
+			}
+
+		}
+		localization_key = GUZ_Coalition_Name_2
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			OR = {
+			    check_variable = { QIN_party_list^parties_idx = 10 }
+				check_variable = { QIN_party_list^parties_idx = 11 }
+				check_variable = { QIN_party_list^parties_idx = 12 }
+			}
+
+		}
+		localization_key = GUZ_Coalition_Name_3
+	}
+}
+
+defined_text = {
+	name = getQINFactionName
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 0 }
+		}
+		localization_key = GUZ_Party_Name_0
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 1 }
+		}
+		localization_key = GUZ_Party_Name_1
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 2 }
+		}
+		localization_key = GUZ_Party_Name_2
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 3 }
+		}
+		localization_key = GUZ_Party_Name_3
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 4 }
+		}
+		localization_key = GUZ_Party_Name_4
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 5 }
+		}
+		localization_key = GUZ_Party_Name_5
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 6 }
+		}
+		localization_key = GUZ_Party_Name_6
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 7 }
+		}
+		localization_key = GUZ_Party_Name_7
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 8 }
+		}
+		localization_key = GUZ_Party_Name_8
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 9 }
+		}
+		localization_key = GUZ_Party_Name_9
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 10 }
+		}
+		localization_key = GUZ_Party_Name_10
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 11 }
+		}
+		localization_key = GUZ_Party_Name_11
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 12 }
+		}
+		localization_key = GUZ_Party_Name_12
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 0 }
+		}
+		localization_key = QIN_Party_Name_0
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 1 }
+		}
+		localization_key = QIN_Party_Name_1
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 2 }
+		}
+		localization_key = QIN_Party_Name_2
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 3 }
+		}
+		localization_key = QIN_Party_Name_3
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 4 }
+		}
+		localization_key = QIN_Party_Name_4
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 5 }
+		}
+		localization_key = QIN_Party_Name_5
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 6 }
+		}
+		localization_key = QIN_Party_Name_6
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 7 }
+		}
+		localization_key = QIN_Party_Name_7
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 8 }
+		}
+		localization_key = QIN_Party_Name_8
+	}
+}
+
+defined_text = {
+	name = getQINCommitteeControl
+	text = {
+		trigger = {
+			check_variable = { QIN_committee_ruling^parties_idx = 0 }
+		}
+		localization_key = QIN_Committee_CCP
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_committee_ruling^parties_idx = 1 }
+		}
+		localization_key = QIN_Committee_CDL
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_committee_ruling^parties_idx = 2 }
+		}
+		localization_key = QIN_Committee_KMT
+	}
+}
+
+defined_text = {
+	name = getQINFactionSeats
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 0 }
+		}
+		localization_key = GUZ_Party_Seats_0
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 1 }
+		}
+		localization_key = GUZ_Party_Seats_1
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 2 }
+		}
+		localization_key = GUZ_Party_Seats_2
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 3 }
+		}
+		localization_key = GUZ_Party_Seats_3
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 4 }
+		}
+		localization_key = GUZ_Party_Seats_4
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 5 }
+		}
+		localization_key = GUZ_Party_Seats_5
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 6 }
+		}
+		localization_key = GUZ_Party_Seats_6
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 7 }
+		}
+		localization_key = GUZ_Party_Seats_7
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 8 }
+		}
+		localization_key = GUZ_Party_Seats_8
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 9 }
+		}
+		localization_key = GUZ_Party_Seats_9
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 10 }
+		}
+		localization_key = GUZ_Party_Seats_10
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 11 }
+		}
+		localization_key = GUZ_Party_Seats_11
+	}
+	text = {
+		trigger = {
+			original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 12 }
+		}
+		localization_key = GUZ_Party_Seats_12
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 0 }
+		}
+		localization_key = QIN_Party_Seats_0
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 1 }
+		}
+		localization_key = QIN_Party_Seats_1
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 2 }
+		}
+		localization_key = QIN_Party_Seats_2
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 3 }
+		}
+		localization_key = QIN_Party_Seats_3
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 4 }
+		}
+		localization_key = QIN_Party_Seats_4
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 5 }
+		}
+		localization_key = QIN_Party_Seats_5
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 6 }
+		}
+		localization_key = QIN_Party_Seats_6
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 7 }
+		}
+		localization_key = QIN_Party_Seats_7
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_party_list^parties_idx = 8 }
+		}
+		localization_key = QIN_Party_Seats_8
+	}
+}
+
+defined_text = {
+	name = getQINRegimeType
+	text = {
+		trigger = {
+			AND = {
+			    original_tag = GUZ
+			    NOT = { has_country_flag = GUZ_Liberalisation }
+			}
+		}
+		localization_key = Asia_Regime_Type_1
+	}
+	text = {
+		trigger = {
+			AND = {
+			    check_variable = { QIN_party_status^0 = 2 }
+			    check_variable = { QIN_party_status^1 = 2 }
+				check_variable = { QIN_party_status^2 = 2 }
+				check_variable = { QIN_party_status^3 = 2 }
+				check_variable = { QIN_party_status^4 = 2 }
+				check_variable = { QIN_party_status^5 = 2 }
+				check_variable = { QIN_party_status^6 = 2 }
+				check_variable = { QIN_party_status^7 = 2 }
+				check_variable = { QIN_party_status^8 = 2 }
+			}
+		}
+		localization_key = QIN_Regime_Type_1
+		# United Front Type 
+	}
+	text = {
+		trigger = {
+			AND = {
+				OR = {
+				    check_variable = { QIN_party_status^6 = 2 }
+				    check_variable = { QIN_party_status^7 = 2 }
+				    check_variable = { QIN_party_status^8 = 2 }
+				}
+
+				NOT = {
+			        check_variable = { QIN_party_status^0 = 2 }
+			        check_variable = { QIN_party_status^1 = 2 }	
+					check_variable = { QIN_party_status^2 = 2 }				
+				}
+			}
+		}
+		localization_key = QIN_Regime_Type_2
+		# Kuomintang Regime Type
+	}
+	text = {
+		trigger = {
+			AND = {
+				OR = {
+			        check_variable = { QIN_party_status^0 = 2 }
+			        check_variable = { QIN_party_status^1 = 2 }	
+				    check_variable = { QIN_party_status^2 = 2 }
+				}
+				NOT = {
+				    check_variable = { QIN_party_status^6 = 2 }
+				    check_variable = { QIN_party_status^7 = 2 }
+				    check_variable = { QIN_party_status^8 = 2 }			
+				}
+			}
+		}
+		localization_key = QIN_Regime_Type_3
+		# Communist Regime Type
+	}
+	text = {
+		trigger = {
+			AND = {
+				OR = {
+			        check_variable = { QIN_party_status^3 = 2 }
+					check_variable = { QIN_party_status^4 = 2 }
+					check_variable = { QIN_party_status^5 = 2 }
+				}
+
+				NOT = {
+				    check_variable = { QIN_party_status^0 = 2 }
+			        check_variable = { QIN_party_status^1 = 2 }
+					check_variable = { QIN_party_status^2 = 2 }
+				    check_variable = { QIN_party_status^6 = 2 }
+				    check_variable = { QIN_party_status^7 = 2 }	
+					check_variable = { QIN_party_status^8 = 2 }		
+				}
+			}
+		}
+		localization_key = QIN_Regime_Type_4
+		# Democratic Regime Type
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { QIN_party_status^6 = 2 }
+				check_variable = { QIN_party_status^7 = 2 }	
+				check_variable = { QIN_party_status^8 = 2 }
+				NOT = {
+				    check_variable = { QIN_party_status^0 = 2 }
+			        check_variable = { QIN_party_status^1 = 2 }
+				    check_variable = { QIN_party_status^2 = 2 }
+				    check_variable = { QIN_party_status^3 = 2 }	
+					check_variable = { QIN_party_status^4 = 2 }		
+				}
+			}
+		}
+		localization_key = QIN_Regime_Type_5
+		# Kuomintang Dictatorship Type
+	}
+	text = {
+		trigger = {
+			AND = {
+				OR = {
+			        check_variable = { QIN_party_status^0 = 2 }
+			        check_variable = { QIN_party_status^1 = 2 }	
+				    check_variable = { QIN_party_status^2 = 2 }
+				}
+				has_country_flag = QIN_Zhao_Reforms_CCP
+			}
+		}
+		localization_key = QIN_Regime_Type_6
+		# Consociationalist Regime Type
+	}
+}
+
+defined_text = {
+	name = QINgetPartyLeader
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 0 } 
+		}
+		localization_key = GFX_Party_Leader_Chu_Anping
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 1 } 
+		}
+		localization_key = GFX_Party_Leader_Hu_Yuzhi
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 2 } 
+		}
+		localization_key = GFX_Party_Leader_Shi_Liang
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 3 } 
+		}
+		localization_key = GFX_Party_Leader_Zhang_Naiqi
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 4 } 
+		}
+		localization_key = GFX_Party_Leader_Liang_Shuming
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 5 } 
+		}
+		localization_key = GFX_Party_Leader_Qian_Jiaju
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 6 } 
+		}
+		localization_key = GFX_Party_Leader_Luo_Longji
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 7 } 
+		}
+		localization_key = GFX_Party_Leader_Jiang_Yuntian
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 8 } 
+		}
+		localization_key = GFX_Party_Leader_Zhang_Dongsun
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 9 } 
+		}
+		localization_key = GFX_Party_Leader_Sun_Baogang
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 10 } 
+		}
+		localization_key = GFX_Party_Leader_Cai_Tingkai
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 11 } 
+		}
+		localization_key = GFX_Party_Leader_Lu_Han
+	}
+	text = {
+		trigger = { 
+		    original_tag = GUZ
+			check_variable = { QIN_party_list^parties_idx = 12 } 
+		}
+		localization_key = GFX_Party_Leader_Huang_Shaohong
+	}
+	text = {
+		trigger = { check_variable = { QIN_party_list^parties_idx = 0 } }
+		localization_key = GFX_Party_Leader_Kang_Sheng
+	}
+	text = {
+		trigger = { check_variable = { QIN_party_list^parties_idx = 1 } }
+		localization_key = GFX_Party_Leader_Gao_Gang
+	}
+	text = {
+		trigger = { check_variable = { QIN_party_list^parties_idx = 2 } }
+		localization_key = GFX_Party_Leader_Liu_Shaoqi
+	}
+	text = {
+		trigger = { check_variable = { QIN_party_list^parties_idx = 3 } }
+		localization_key = GFX_Party_Leader_Liao_Mengxing
+	}
+	text = {
+		trigger = { check_variable = { QIN_party_list^parties_idx = 4 } }
+		localization_key = GFX_Party_Leader_Zhang_Shenfu
+	}
+	text = {
+		trigger = { check_variable = { QIN_party_list^parties_idx = 5 } }
+		localization_key = GFX_Party_Leader_Wang_Shijie
+	}
+	text = {
+		trigger = { check_variable = { QIN_party_list^parties_idx = 6 } }
+		localization_key = GFX_Party_Leader_Chiang_Chingkuo
+	}
+	text = {
+		trigger = { check_variable = { QIN_party_list^parties_idx = 7 } }
+		localization_key = GFX_Party_Leader_Chen_Lifu
+	}
+	text = {
+		trigger = { check_variable = { QIN_party_list^parties_idx = 8 } }
+		localization_key = GFX_Party_Leader_Sun_Fo
+	}
+}
+
+defined_text = {
+	name = QINgetPartyLeaderWindow
+	text = {
+		trigger = { check_variable = { Politics_Index = 0 } }
+		localization_key = GFX_Party_Leader_Kang_Sheng
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 1 } }
+		localization_key = GFX_Party_Leader_Gao_Gang
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 2 } }
+		localization_key = GFX_Party_Leader_Liu_Shaoqi
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 3 } }
+		localization_key = GFX_Party_Leader_Liao_Mengxing
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 4 } }
+		localization_key = GFX_Party_Leader_Zhang_Shenfu
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 5 } }
+		localization_key = GFX_Party_Leader_Wang_Shijie
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 6 } }
+		localization_key = GFX_Party_Leader_Chiang_Chingkuo
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 7 } }
+		localization_key = GFX_Party_Leader_Chen_Lifu
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 8 } }
+		localization_key = GFX_Party_Leader_Sun_Fo
+	}
+}
+
+defined_text = {
+	name = QINgetPartyDesc
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 0 } 
+			}
+		}
+		localization_key = Party_1_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 1 } 
+			}
+		}
+		localization_key = Party_2_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 2 } 
+			}
+		}
+		localization_key = Party_3_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 3 } 
+			}
+		}
+		localization_key = Party_4_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 4 } 
+			}
+		}
+		localization_key = Party_5_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 5 } 
+			}
+		}
+		localization_key = Party_6_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 6 } 
+			}
+		}
+		localization_key = Party_7_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 7 } 
+			}
+		}
+		localization_key = Party_8_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 8 } 
+			}
+		}
+		localization_key = Party_9_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 9 } 
+			}
+		}
+		localization_key = Party_10_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 10 } 
+			}
+		}
+		localization_key = Party_11_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 11 } 
+			}
+		}
+		localization_key = Party_12_Desc_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 12 } 
+			}
+		}
+		localization_key = Party_13_Desc_GUZ
+	}
+    #QINGHAI
+	text = {
+		trigger = { check_variable = { Politics_Index = 0 } }
+		localization_key = Party_1_Desc
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 1 } }
+		localization_key = Party_2_Desc
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 2 } }
+		localization_key = Party_3_Desc
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 3 } }
+		localization_key = Party_4_Desc
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 4 } }
+		localization_key = Party_5_Desc
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 5 } }
+		localization_key = Party_6_Desc
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 6 } }
+		localization_key = Party_7_Desc
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 7 } }
+		localization_key = Party_8_Desc
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 8 } }
+		localization_key = Party_9_Desc
+	}
+}
+
+defined_text = {
+	name = QINgetLeaderName
+	text = {
+		trigger = { check_variable = { Politics_Index = 0 } }
+		localization_key = Leader_Name_1
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 1 } }
+		localization_key = Leader_Name_2
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 2 } }
+		localization_key = Leader_Name_3
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 3 } }
+		localization_key = Leader_Name_4
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 4 } }
+		localization_key = Leader_Name_5
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 5 } }
+		localization_key = Leader_Name_6
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 6 } }
+		localization_key = Leader_Name_7
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 7 } }
+		localization_key = Leader_Name_8
+	}
+	text = {
+		trigger = { check_variable = { Politics_Index = 8 } }
+		localization_key = Leader_Name_9
+	}
+}
+
+defined_text = {
+	name = GetRegimeAdj
+	text = {
+		trigger = {
+			original_tag = GUZ
+			NOT = { has_country_flag = GUZ_Liberalisation }
+		}
+		localization_key = RegimeAdj_2
+	}
+	text = {
+		localization_key = RegimeAdj_1
+	}
+}
+defined_text = {
+	name = QINgetRegimeOutlook
+	text = {
+		trigger = { 
+			AND = {
+            	check_variable = {
+            	var = QIN_outlook^0
+            	value = QIN_outlook^1
+            	compare = greater_than_or_equals
+                }
+            check_variable = {
+            	var = QIN_outlook^0
+            	value = QIN_outlook^2
+            	compare = greater_than_or_equals
+                }					
+			}	
+		}
+		localization_key = Regime_Type_Liberal
+	}
+	text = {
+		trigger = {
+			AND = {
+            	check_variable = {
+            	var = QIN_outlook^2
+            	value = QIN_outlook^0
+            	compare = greater_than_or_equals
+                }
+            check_variable = {
+            	var = QIN_outlook^2
+            	value = QIN_outlook^1
+            	compare = greater_than_or_equals
+                }					
+			}
+		}
+		localization_key = Regime_Type_Reactionary
+	}
+	text = {
+		trigger = { 
+			AND = {
+            	check_variable = {
+            	var = QIN_outlook^1
+            	value = QIN_outlook^0
+            	compare = greater_than_or_equals
+                }
+            check_variable = {
+            	var = QIN_outlook^1
+            	value = QIN_outlook^2
+            	compare = greater_than_or_equals
+                }					
+			}
+		}
+		localization_key = Regime_Type_Conservative
+	}
+}
+
+defined_text = {
+	name = GUZgetRegimeOutlook
+	text = {
+		trigger = { 
+			AND = {
+            	check_variable = {
+            	var = GUZ_outlook^0
+            	value = GUZ_outlook^1
+            	compare = greater_than_or_equals
+                }
+            check_variable = {
+            	var = GUZ_outlook^0
+            	value = GUZ_outlook^2
+            	compare = greater_than_or_equals
+                }					
+			}	
+		}
+		localization_key = Regime_Type_Liberal
+	}
+	text = {
+		trigger = {
+			AND = {
+            	check_variable = {
+            	var = GUZ_outlook^2
+            	value = GUZ_outlook^0
+            	compare = greater_than_or_equals
+                }
+            check_variable = {
+            	var = GUZ_outlook^2
+            	value = GUZ_outlook^1
+            	compare = greater_than_or_equals
+                }					
+			}
+		}
+		localization_key = Regime_Type_Reactionary
+	}
+	text = {
+		trigger = { 
+			AND = {
+            	check_variable = {
+            	var = GUZ_outlook^1
+            	value = GUZ_outlook^0
+            	compare = greater_than_or_equals
+                }
+            check_variable = {
+            	var = GUZ_outlook^1
+            	value = GUZ_outlook^2
+            	compare = greater_than_or_equals
+                }					
+			}
+		}
+		localization_key = Regime_Type_Conservative
+	}
+}
+
+defined_text = {
+	name = getQINLegislationType
+	text = {
+		trigger = {
+			check_variable = { legislation_type^legislation_id^parties_idx = 0 }
+		}
+		localization_key = QIN_Legislation_Type_0
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_type^legislation_id^parties_idx = 1 }
+		}
+		localization_key = QIN_Legislation_Type_1
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_type^legislation_id^parties_idx = 2 }
+		}
+		localization_key = QIN_Legislation_Type_2
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_type^legislation_id^parties_idx = 3 }
+		}
+		localization_key = QIN_Legislation_Type_3
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_type^legislation_id^parties_idx = 4 }
+		}
+		localization_key = QIN_Legislation_Type_4
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_type^legislation_id^parties_idx = 5 }
+		}
+		localization_key = QIN_Legislation_Type_5
+	}
+}
+
+defined_text = {
+	name = getQINLegislationPastType
+	text = {
+		trigger = {
+			check_variable = { legislation_past_type^legislation_past_id^parties_idx = 0 }
+		}
+		localization_key = QIN_Legislation_Type_0
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_type^legislation_past_id^parties_idx = 1 }
+		}
+		localization_key = QIN_Legislation_Type_1
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_type^legislation_past_id^parties_idx = 2 }
+		}
+		localization_key = QIN_Legislation_Type_2
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_type^legislation_past_id^parties_idx = 3 }
+		}
+		localization_key = QIN_Legislation_Type_3
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_type^legislation_past_id^parties_idx = 4 }
+		}
+		localization_key = QIN_Legislation_Type_4
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_type^legislation_past_id^parties_idx = 5 }
+		}
+		localization_key = QIN_Legislation_Type_5
+	}
+}
+
+defined_text = {
+	name = getQINLegislationPastTitle
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 1 }
+		}
+		localization_key = Legislation_Title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 100 }
+		}
+		localization_key = Legislation_Title_100
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 101 }
+		}
+		localization_key = Legislation_Title_101
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 102 }
+		}
+		localization_key = Legislation_Title_102
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 103 }
+		}
+		localization_key = Legislation_Title_103
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 104 }
+		}
+		localization_key = Legislation_Title_104
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 105 }
+		}
+		localization_key = Legislation_Title_105
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 106 }
+		}
+		localization_key = Legislation_Title_106
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 107 }
+		}
+		localization_key = Legislation_Title_107
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 108 }
+		}
+		localization_key = Legislation_Title_108
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 109 }
+		}
+		localization_key = Legislation_Title_109
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 110 }
+		}
+		localization_key = Legislation_Title_110
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_id^parties_idx = 111 }
+		}
+		localization_key = Legislation_Title_111
+	}
+}
+
+defined_text = {
+	name = getQINLegislationTitle
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 1 }
+		}
+		localization_key = Legislation_Title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 100 }
+		}
+		localization_key = Legislation_Title_100
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 101 }
+		}
+		localization_key = Legislation_Title_101
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 102 }
+		}
+		localization_key = Legislation_Title_102
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 103 }
+		}
+		localization_key = Legislation_Title_103
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 104 }
+		}
+		localization_key = Legislation_Title_104
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 105 }
+		}
+		localization_key = Legislation_Title_105
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 106 }
+		}
+		localization_key = Legislation_Title_106
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 107 }
+		}
+		localization_key = Legislation_Title_107
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 108 }
+		}
+		localization_key = Legislation_Title_108
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 109 }
+		}
+		localization_key = Legislation_Title_109
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 110 }
+		}
+		localization_key = Legislation_Title_110
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 111 }
+		}
+		localization_key = Legislation_Title_111
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_id^parties_idx = 112 }
+		}
+		localization_key = Legislation_Title_112
+	}
+}
+
+defined_text = {
+	name = getQINLegislationTitle2
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 1 }
+		}
+		localization_key = Legislation_Title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 102 }
+		}
+		localization_key = Legislation_Title_102
+	}
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 103 }
+		}
+		localization_key = Legislation_Title_103
+	}
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 104 }
+		}
+		localization_key = Legislation_Title_104
+	}
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 105 }
+		}
+		localization_key = Legislation_Title_105
+	}
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 106 }
+		}
+		localization_key = Legislation_Title_106
+	}
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 107 }
+		}
+		localization_key = Legislation_Title_107
+	}
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 108 }
+		}
+		localization_key = Legislation_Title_108
+	}
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 109 }
+		}
+		localization_key = Legislation_Title_109
+	}
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 110 }
+		}
+		localization_key = Legislation_Title_110
+	}
+	text = {
+		trigger = {
+			check_variable = { repealing_id = 111 }
+		}
+		localization_key = Legislation_Title_111
+	}
+}
+
+defined_text = {
+	name = getQINPendingLegislationTitle
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 1 }
+		}
+		localization_key = Legislation_Title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 100 }
+		}
+		localization_key = Legislation_Title_100
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 101 }
+		}
+		localization_key = Legislation_Title_101
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 102 }
+		}
+		localization_key = Legislation_Title_102
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 103 }
+		}
+		localization_key = Legislation_Title_103
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 104 }
+		}
+		localization_key = Legislation_Title_104
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 105 }
+		}
+		localization_key = Legislation_Title_105
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 106 }
+		}
+		localization_key = Legislation_Title_106
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 107 }
+		}
+		localization_key = Legislation_Title_107
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 108 }
+		}
+		localization_key = Legislation_Title_108
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 109 }
+		}
+		localization_key = Legislation_Title_109
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 110 }
+		}
+		localization_key = Legislation_Title_110
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 111 }
+		}
+		localization_key = Legislation_Title_111
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 112 }
+		}
+		localization_key = Legislation_Title_112
+	}
+}
+
+defined_text = {
+	name = getQINPastLegislationTitle
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 1 }
+		}
+		localization_key = Legislation_Title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 100 }
+		}
+		localization_key = Legislation_Title_100
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 101 }
+		}
+		localization_key = Legislation_Title_101
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 102 }
+		}
+		localization_key = Legislation_Title_102
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 103 }
+		}
+		localization_key = Legislation_Title_103
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 104 }
+		}
+		localization_key = Legislation_Title_104
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 105 }
+		}
+		localization_key = Legislation_Title_105
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 106 }
+		}
+		localization_key = Legislation_Title_106
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 107 }
+		}
+		localization_key = Legislation_Title_107
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 108 }
+		}
+		localization_key = Legislation_Title_108
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 109 }
+		}
+		localization_key = Legislation_Title_109
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 110 }
+		}
+		localization_key = Legislation_Title_110
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 111 }
+		}
+		localization_key = Legislation_Title_111
+	}
+}
+
+defined_text = {
+	name = getQINPendingLegislationCause
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 1 }
+		}
+		localization_key = Legislation_Cause_1
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 100 }
+		}
+		localization_key = Legislation_Cause_100
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 101 }
+		}
+		localization_key = Legislation_Cause_101
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 102 }
+		}
+		localization_key = Legislation_Cause_102
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 103 }
+		}
+		localization_key = Legislation_Cause_103
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 104 }
+		}
+		localization_key = Legislation_Cause_104
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 105 }
+		}
+		localization_key = Legislation_Cause_105
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 106 }
+		}
+		localization_key = Legislation_Cause_106
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 107 }
+		}
+		localization_key = Legislation_Cause_107
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 108 }
+		}
+		localization_key = Legislation_Cause_108
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 109 }
+		}
+		localization_key = Legislation_Cause_109
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 110 }
+		}
+		localization_key = Legislation_Cause_110
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 111 }
+		}
+		localization_key = Legislation_Cause_111
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 112 }
+		}
+		localization_key = Legislation_Cause_112
+	}
+}
+
+defined_text = {
+	name = getQINPastLegislationCause
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 1 }
+		}
+		localization_key = Legislation_Cause_1
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 100 }
+		}
+		localization_key = Legislation_Cause_100
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 101 }
+		}
+		localization_key = Legislation_Cause_101
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 102 }
+		}
+		localization_key = Legislation_Cause_102
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 103 }
+		}
+		localization_key = Legislation_Cause_103
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 104 }
+		}
+		localization_key = Legislation_Cause_104
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 105 }
+		}
+		localization_key = Legislation_Cause_105
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 106 }
+		}
+		localization_key = Legislation_Cause_106
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 107 }
+		}
+		localization_key = Legislation_Cause_107
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 108 }
+		}
+		localization_key = Legislation_Cause_108
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 109 }
+		}
+		localization_key = Legislation_Cause_109
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 110 }
+		}
+		localization_key = Legislation_Cause_110
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 111 }
+		}
+		localization_key = Legislation_Cause_111
+	}
+}
+
+defined_text = {
+	name = getQINPendingLegislationProposer
+	text = {
+		trigger = {
+			check_variable = { legislation_proposer^pending_legislation_id = 0 }
+		}
+		localization_key = QIN_Legislation_Bill_Propser_0
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_proposer^pending_legislation_id = 1 }
+		}
+		localization_key = QIN_Legislation_Bill_Propser_1
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_proposer^pending_legislation_id = 2 }
+		}
+		localization_key = QIN_Legislation_Bill_Propser_2
+	}
+}
+
+defined_text = {
+	name = getQINPendingLegislationCommittee
+	text = {
+		trigger = {
+			check_variable = { legislation_committee^pending_legislation_id = 0 }
+		}
+		localization_key = QIN_Legislation_Bill_Committee_1
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_committee^pending_legislation_id = 1 }
+		}
+		localization_key = QIN_Legislation_Bill_Committee_2
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_committee^pending_legislation_id = 2 }
+		}
+		localization_key = QIN_Legislation_Bill_Committee_3
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_committee^pending_legislation_id = 3 }
+		}
+		localization_key = QIN_Legislation_Bill_Committee_4
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_committee^pending_legislation_id = 4 }
+		}
+		localization_key = QIN_Legislation_Bill_Committee_5
+	}
+}
+
+defined_text = {
+	name = getQINPendingLegislationEffect
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 1 }
+		}
+		localization_key = Legislation_Effect_1
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 100 }
+		}
+		localization_key = Legislation_Effect_100
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 101 }
+		}
+		localization_key = Legislation_Effect_101
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 102 }
+		}
+		localization_key = Legislation_Effect_102
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 103 }
+		}
+		localization_key = Legislation_Effect_103
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 104 }
+		}
+		localization_key = Legislation_Effect_104
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 105 }
+		}
+		localization_key = Legislation_Effect_105
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 106 }
+		}
+		localization_key = Legislation_Effect_106
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 107 }
+		}
+		localization_key = Legislation_Effect_107
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 108 }
+		}
+		localization_key = Legislation_Effect_108
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 109 }
+		}
+		localization_key = Legislation_Effect_109
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 110 }
+		}
+		localization_key = Legislation_Effect_110
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 111 }
+		}
+		localization_key = Legislation_Effect_111
+	}
+}
+
+defined_text = {
+	name = getQINPastLegislationEffect
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 1 }
+		}
+		localization_key = Legislation_Effect_1
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 100 }
+		}
+		localization_key = Legislation_Effect_100
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 101 }
+		}
+		localization_key = Legislation_Effect_101
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 102 }
+		}
+		localization_key = Legislation_Effect_102
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 103 }
+		}
+		localization_key = Legislation_Effect_103
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 104 }
+		}
+		localization_key = Legislation_Effect_104
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 105 }
+		}
+		localization_key = Legislation_Effect_105
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 106 }
+		}
+		localization_key = Legislation_Effect_106
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 107 }
+		}
+		localization_key = Legislation_Effect_107
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 108 }
+		}
+		localization_key = Legislation_Effect_108
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 109 }
+		}
+		localization_key = Legislation_Effect_109
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 110 }
+		}
+		localization_key = Legislation_Effect_110
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 111 }
+		}
+		localization_key = Legislation_Effect_111
+	}
+}
+
+defined_text = {
+	name = getQINPendingLegislationEffectLong
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 1 }
+		}
+		localization_key = Legislation_Effect_1_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 100 }
+		}
+		localization_key = Legislation_Effect_100_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 101 }
+		}
+		localization_key = Legislation_Effect_101_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 102 }
+		}
+		localization_key = Legislation_Effect_102_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 103 }
+		}
+		localization_key = Legislation_Effect_103_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 104 }
+		}
+		localization_key = Legislation_Effect_104_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 105 }
+		}
+		localization_key = Legislation_Effect_105_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 106 }
+		}
+		localization_key = Legislation_Effect_106_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 107 }
+		}
+		localization_key = Legislation_Effect_107_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 108 }
+		}
+		localization_key = Legislation_Effect_108_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 109 }
+		}
+		localization_key = Legislation_Effect_109_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 110 }
+		}
+		localization_key = Legislation_Effect_110_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_id = 111 }
+		}
+		localization_key = Legislation_Effect_111_Long
+	}
+}
+
+defined_text = {
+	name = getQINPastLegislationEffectLong
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 1 }
+		}
+		localization_key = Legislation_Effect_1_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 100 }
+		}
+		localization_key = Legislation_Effect_100_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 101 }
+		}
+		localization_key = Legislation_Effect_101_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 102 }
+		}
+		localization_key = Legislation_Effect_102_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 103 }
+		}
+		localization_key = Legislation_Effect_103_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 104 }
+		}
+		localization_key = Legislation_Effect_104_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 105 }
+		}
+		localization_key = Legislation_Effect_105_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 106 }
+		}
+		localization_key = Legislation_Effect_106_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 107 }
+		}
+		localization_key = Legislation_Effect_107_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 108 }
+		}
+		localization_key = Legislation_Effect_108_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 109 }
+		}
+		localization_key = Legislation_Effect_109_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 110 }
+		}
+		localization_key = Legislation_Effect_110_Long
+	}
+	text = {
+		trigger = {
+			check_variable = { pending_legislation_past_id = 111 }
+		}
+		localization_key = Legislation_Effect_111_Long
+	}
+}
+
+defined_text = {
+	name = getQINLegislationTimer
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_Legislation_Stage_1
+				has_country_flag = QIN_Legislation_Stage_2
+			}
+		}
+		localization_key = Legislation_Season_1
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_Legislation_Stage_3
+				has_country_flag = QIN_Legislation_Stage_4
+			}
+		}
+		localization_key = Legislation_Season_2
+	}
+}
+
+defined_text = {
+	name = getQINLegislationStatus
+	text = {
+		trigger = {
+			AND = {
+				has_country_flag = QIN_Legislation_In_Recess
+			}
+		}
+		localization_key = Legislation_Status_Title_2_b
+	}
+	text = {
+		trigger = {
+			AND = {
+				NOT = {
+					has_country_flag = QIN_Legislation_In_Recess
+				}
+			}
+		}
+		localization_key = Legislation_Status_Title_2_a
+	}
+}
+
+defined_text = {
+	name = getQINCommitteeName
+	text = {
+		trigger = {
+			check_variable = { QIN_committee_list^parties_idx = 1 }
+		}
+		localization_key = QIN_Committee_Type_1
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_committee_list^parties_idx = 2 }
+		}
+		localization_key = QIN_Committee_Type_2
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_committee_list^parties_idx = 3 }
+		}
+		localization_key = QIN_Committee_Type_3
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_committee_list^parties_idx = 4 }
+		}
+		localization_key = QIN_Committee_Type_4
+	}
+	text = {
+		trigger = {
+			check_variable = { QIN_committee_list^parties_idx = 5 }
+		}
+		localization_key = QIN_Committee_Type_5
+	}
+}
+
+defined_text = {
+	name = getQINPendingLegislationOutlook
+	text = {
+		trigger = {
+			check_variable = { legislation_outlook^pending_legislation_id = 0 }
+		}
+		localization_key = QIN_Legislation_Outlook_0
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_outlook^pending_legislation_id = 1 }
+		}
+		localization_key = QIN_Legislation_Outlook_1
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_outlook^pending_legislation_id = 2 }
+		}
+		localization_key = QIN_Legislation_Outlook_2
+	}
+}
+
+defined_text = {
+	name = getQINPendingLegislationConstitutionality
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 0 }
+		}
+		localization_key = QIN_Legislation_Constitutionality_0
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 1 }
+		}
+		localization_key = QIN_Legislation_Constitutionality_1
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 2 }
+		}
+		localization_key = QIN_Legislation_Constitutionality_2
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 3 }
+		}
+		localization_key = QIN_Legislation_Constitutionality_3
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 4 }
+		}
+		localization_key = QIN_Legislation_Constitutionality_4
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 5 }
+		}
+		localization_key = QIN_Legislation_Constitutionality_5
+	}
+}
+
+defined_text = {
+	name = getQINOpposition
+	text = {
+		trigger = {
+			check_variable = { Legislation_Opposition^parties_idx = 0 }
+		}
+		localization_key = QIN_Party_Name_0
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Opposition^parties_idx = 1 }
+		}
+		localization_key = QIN_Party_Name_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Opposition^parties_idx = 2 }
+		}
+		localization_key = QIN_Party_Name_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Opposition^parties_idx = 3 }
+		}
+		localization_key = QIN_Party_Name_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Opposition^parties_idx = 4 }
+		}
+		localization_key = QIN_Party_Name_4
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Opposition^parties_idx = 5 }
+		}
+		localization_key = QIN_Party_Name_5
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Opposition^parties_idx = 6 }
+		}
+		localization_key = QIN_Party_Name_6
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Opposition^parties_idx = 7 }
+		}
+		localization_key = QIN_Party_Name_7
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Opposition^parties_idx = 8 }
+		}
+		localization_key = QIN_Party_Name_8
+	}
+}
+
+defined_text = {
+	name = getQINActionTitle
+	text = {
+		trigger = {
+			NOT = { has_country_flag = QIN_Opposition_Int }
+		}
+		localization_key = Action_Title_1
+	}
+	text = {
+		trigger = {
+			AND = { has_country_flag = QIN_Opposition_Int }
+		}
+		localization_key = Action_Title_2
+	}
+}
+
+defined_text = {
+	name = getOppositionTitle
+	text = {
+		trigger = {
+			check_variable = { opposition_int_id = 0 }
+		}
+		localization_key = Party_Short_Title_0
+	}
+	text = {
+		trigger = {
+			check_variable = { opposition_int_id = 1 }
+		}
+		localization_key = Party_Short_Title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { opposition_int_id = 2 }
+		}
+		localization_key = Party_Short_Title_2
+	}
+	text = {
+		trigger = {
+			check_variable = { opposition_int_id = 3 }
+		}
+		localization_key = Party_Short_Title_3
+	}
+	text = {
+		trigger = {
+			check_variable = { opposition_int_id = 4 }
+		}
+		localization_key = Party_Short_Title_4
+	}
+	text = {
+		trigger = {
+			check_variable = { opposition_int_id = 5 }
+		}
+		localization_key = Party_Short_Title_5
+	}
+	text = {
+		trigger = {
+			check_variable = { opposition_int_id = 6 }
+		}
+		localization_key = Party_Short_Title_6
+	}
+	text = {
+		trigger = {
+			check_variable = { opposition_int_id = 7 }
+		}
+		localization_key = Party_Short_Title_7
+	}
+	text = {
+		trigger = {
+			check_variable = { opposition_int_id = 8 }
+		}
+		localization_key = Party_Short_Title_8
+	}
+}
+
+defined_text = {
+	name = getWhipName
+	text = {
+		trigger = {
+			check_variable = { Majority_Whip = 1 }
+		}
+		localization_key = Majority_Whip_1
+	}
+	text = {
+		trigger = {
+			check_variable = { opposition_int_id = 1 }
+		}
+		localization_key = Party_Short_Title_1
+	}
+}
+
+defined_text = {
+	name = getActionTargetLeader
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 0 }
+		}
+		localization_key = Leader_Name_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 1 }
+		}
+		localization_key = Leader_Name_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 2 }
+		}
+		localization_key = Leader_Name_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 3 }
+		}
+		localization_key = Leader_Name_4
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 4 }
+		}
+		localization_key = Leader_Name_5
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 5 }
+		}
+		localization_key = Leader_Name_6
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 6 }
+		}
+		localization_key = Leader_Name_7
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 7 }
+		}
+		localization_key = Leader_Name_8
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 8 }
+		}
+		localization_key = Leader_Name_9
+	}
+}
+
+defined_text = {
+	name = getActionTarget
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 0 }
+		}
+		localization_key = Party_Short_Title_0
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 1 }
+		}
+		localization_key = Party_Short_Title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 2 }
+		}
+		localization_key = Party_Short_Title_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 3 }
+		}
+		localization_key = Party_Short_Title_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 4 }
+		}
+		localization_key = Party_Short_Title_4
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 5 }
+		}
+		localization_key = Party_Short_Title_5
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 6 }
+		}
+		localization_key = Party_Short_Title_6
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 7 }
+		}
+		localization_key = Party_Short_Title_7
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Target^parties_idx = 8 }
+		}
+		localization_key = Party_Short_Title_8
+	}
+}
+
+defined_text = {
+	name = getActionType
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Type^parties_idx = 1 }
+		}
+		localization_key = Successful_Interaction
+	}
+	text = {
+		trigger = {
+			check_variable = { Legislation_Log_Type^parties_idx = 2 }
+		}
+		localization_key = Failed_Interaction
+	}
+}
+
+defined_text = {
+	name = getThirdReadingType
+	text = {
+		trigger = {
+			NOT = { has_country_flag = QIN_Repealling_Laws }
+		}
+		localization_key = Third_Reading_Action_Type_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = QIN_Repealling_Laws
+		}
+		localization_key = Third_Reading_Action_Type_2
+	}
+}
+
+defined_text = {
+	name = getConstitutionality
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 0 }
+		}
+		localization_key = Constitutionality_0
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 1 }
+		}
+		localization_key = Constitutionality_1
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 2 }
+		}
+		localization_key = Constitutionality_2
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 3 }
+		}
+		localization_key = Constitutionality_3
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 4 }
+		}
+		localization_key = Constitutionality_4
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_constitutionality^pending_legislation_id = 5 }
+		}
+		localization_key = Constitutionality_5
+	}
+}
+
+defined_text = {
+	name = getQINImpeachmentTitle
+	text = {
+		trigger = {
+			check_variable = { Impeach_Title^parties_idx = 1 }
+		}
+		localization_key = Impeachment_Title_Name_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeach_Title^parties_idx = 2 }
+		}
+		localization_key = Impeachment_Title_Name_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeach_Title^parties_idx = 3 }
+		}
+		localization_key = Impeachment_Title_Name_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeach_Title^parties_idx = 4 }
+		}
+		localization_key = Impeachment_Title_Name_4
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeach_Title^parties_idx = 5 }
+		}
+		localization_key = Impeachment_Title_Name_5
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeach_Title^parties_idx = 6 }
+		}
+		localization_key = Impeachment_Title_Name_6
+	}
+}
+
+defined_text = {
+	name = getQINImpeachmentName
+	text = {
+		trigger = {
+			check_variable = { Politician^parties_idx = 1 }
+		}
+		localization_key = Politician_Name_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Politician^parties_idx = 2 }
+		}
+		localization_key = Politician_Name_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Politician^parties_idx = 3 }
+		}
+		localization_key = Politician_Name_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Politician^parties_idx = 4 }
+		}
+		localization_key = Politician_Name_4
+	}
+	text = {
+		trigger = {
+			check_variable = { Politician^parties_idx = 5 }
+		}
+		localization_key = Politician_Name_5
+	}
+	text = {
+		trigger = {
+			check_variable = { Politician^parties_idx = 6 }
+		}
+		localization_key = Politician_Name_6
+	}
+}
+
+defined_text = {
+	name = getQINImpeachmentName2
+	text = {
+		trigger = {
+			check_variable = { Impeached_ID = 1 }
+		}
+		localization_key = Politician_Name_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeached_ID = 2 }
+		}
+		localization_key = Politician_Name_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeached_ID = 3 }
+		}
+		localization_key = Politician_Name_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeached_ID = 4 }
+		}
+		localization_key = Politician_Name_4
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeached_ID = 5 }
+		}
+		localization_key = Politician_Name_5
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeached_ID = 6 }
+		}
+		localization_key = Politician_Name_6
+	}
+}
+
+defined_text = {
+	name = getQINImpeachmentTitle2
+	text = {
+		trigger = {
+			check_variable = { Impeached_Title = 1 }
+		}
+		localization_key = Impeachment_Title_Name_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeached_Title = 2 }
+		}
+		localization_key = Impeachment_Title_Name_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeached_Title = 3 }
+		}
+		localization_key = Impeachment_Title_Name_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeached_Title = 4 }
+		}
+		localization_key = Impeachment_Title_Name_4
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeached_Title = 5 }
+		}
+		localization_key = Impeachment_Title_Name_5
+	}
+	text = {
+		trigger = {
+			check_variable = { Impeached_Title = 6 }
+		}
+		localization_key = Impeachment_Title_Name_6
+	}
+}
+
+defined_text = {
+	name = getQINExecutiveYuanTask
+	text = {
+		trigger = {
+			check_variable = { Executive_Focus = 0 }
+		}
+		localization_key = Executive_Yuan_Task_0
+	}
+	text = {
+		trigger = {
+			check_variable = { Executive_Focus = 1 }
+		}
+		localization_key = Executive_Yuan_Task_1
+	}
+	text = {
+		trigger = {
+			check_variable = { Executive_Focus = 2 }
+		}
+		localization_key = Executive_Yuan_Task_2
+	}
+	text = {
+		trigger = {
+			check_variable = { Executive_Focus = 3 }
+		}
+		localization_key = Executive_Yuan_Task_3
+	}
+	text = {
+		trigger = {
+			check_variable = { Executive_Focus = 4 }
+		}
+		localization_key = Executive_Yuan_Task_4
+	}
+}
+
+defined_text = {
+	name = getRepealCause
+	text = {
+		trigger = {
+			OR = {
+			    check_variable = { pending_legislation_past_id = 102 }				
+			}
+		}
+		localization_key = QIN_Fundamental_Law
+	}
+	text = {
+		trigger = {
+			check_variable = { legislation_past_repeal = 1 }
+		}
+		localization_key = QIN_Repeal_In_Progress
+	}
+}
+
+defined_text = {
+	name = QINgetEmergencyBudgetTT
+	text = {
+		trigger = {
+			NOT = { has_country_flag = QIN_Emergency_Budget }
+		}
+		localization_key = Budget_Preparation_Emergency_1_tt
+	}
+	text = {
+		trigger = {
+			has_country_flag = QIN_Emergency_Budget
+		}
+		localization_key = Budget_Preparation_Emergency_2_tt
+	}
+}
+
+defined_text = {
+	name = QINgetBureaucratPercentage
+	text = {
+		trigger = {
+			check_variable = { sekibanki > 0.99 }		
+		}
+		localization_key = BureaucratPercentage_1
+	}
+	text = {
+		trigger = {
+			check_variable = { sekibanki < 1 }		
+		}
+		localization_key = BureaucratPercentage_2
+	}
+}
+
+defined_text = {
+	name = JAPgetImperialFamily
+	text = {
+		trigger = {
+			NOT = { has_country_flag = JAP_Mikasa_Assassinated }
+		}
+		localization_key = JAP_Imperial_Household_Mikasa
+	}
+	text = {
+		trigger = {
+			has_country_flag = JAP_Mikasa_Assassinated
+		}
+		localization_key = JAP_Imperial_Household_Kojun
+	}
+}
+
+defined_text = {
+	name = JAPgetImperialFamilyPic
+	text = {
+		trigger = {
+			NOT = { has_country_flag = JAP_Mikasa_Assassinated }
+		}
+		localization_key = "JAPgetImperialFamilyPic_1"
+	}
+	text = {
+		trigger = {
+			has_country_flag = JAP_Mikasa_Assassinated
+		}
+		localization_key = "JAPgetImperialFamilyPic_2"
+	}
+}
+
+defined_text = {
+	name = getJAPLegislationTitle
+	text = {
+		trigger = {
+			check_variable = { imperial_court_issue_id^parties_idx = 1 }
+		}
+		localization_key = JAP_Legislation_Title_1
+	}
+}
+
+defined_text = {
+	name = AsiaGetElectionType
+	text = {
+		trigger = {
+			original_tag = QIN
+		}
+		localization_key = AsiaGetElectionType_1
+	}
+	text = {
+		trigger = {
+			original_tag = SIC
+		}
+		localization_key = AsiaGetElectionType_2
+	}
+}
+
+defined_text = {
+	name = AsiaGetDistrictPic
+
+	text = {
+		localization_key = "GFX_[?JAP_Electoral_District.GetTokenKey]"
+	}
+}
+defined_text = {
+	name = AsiaGetDistrictLoc
+
+	text = {
+		localization_key = "[?JAP_Electoral_District.GetTokenLocalizedKey]"
+	}
+}
