@@ -1,5 +1,6 @@
 ﻿division_template = {
-	name = "Infantry Division"				
+	name = "Infantry Division"		
+	is_locked = yes			
 										#Normal Equipment and Training
 	regiments = {					
 		  infantry = { x = 0 y = 0 }
@@ -19,7 +20,8 @@
 }
 
 division_template = {
-	name = "Light Infantry Division"				
+	name = "Light Infantry Division"
+	is_locked = yes					
 										#Normal Equipment and Training
 	regiments = {					
 		  infantry = { x = 0 y = 0 }
@@ -36,7 +38,8 @@ division_template = {
 }
 
 division_template = {
-  name = "Infantry Brigade"          
+  name = "Infantry Brigade"   
+  is_locked = yes	       
                     #Normal Equipment and Training
   regiments = {         
         infantry = { x = 0 y = 0 }
@@ -50,7 +53,8 @@ division_template = {
 }
 
 division_template = {
-	name = "Rapid Response Unit"					
+	name = "Rapid Response Unit"	
+	is_locked = yes					
 
 	regiments = {
 		  IFV = { x = 0 y = 0 }

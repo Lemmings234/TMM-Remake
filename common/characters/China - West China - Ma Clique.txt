@@ -1,0 +1,32 @@
+### Elections ###
+
+characters = {
+    QIN_Sun_Tse_Ping = {
+		name = QIN_Sun_Tse_Ping
+		portraits = { 
+			civilian = {
+				large = "gfx/leaders/QIN/Portrait_China_Sun_Tse_Ping.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism_subtype
+            desc = "#"
+			expire = "1999.1.23"
+			id = -1
+		}
+	}
+	QIN_Li_Xiannian = {
+		name = QIN_Li_Xiannian
+		portraits = { 
+			civilian = {
+				large = "gfx/leaders/QIN/Portrait_PRC_Li_Xiannian.dds"
+			}
+		}
+		country_leader = {
+			ideology = communist_maoism_subtype
+            desc = "#"
+			expire = "1999.1.23"
+			id = -1
+		}
+	}
+}

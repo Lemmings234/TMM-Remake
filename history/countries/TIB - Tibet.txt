@@ -1,11 +1,4 @@
-capital = 765
-
-# Vacant
-recruit_character = TIB_Generic_Vacant
-fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
-recruit_character = TIB_Tenzin_Gyatso
-
-set_variable = { chi_influence = 0 }
+﻿capital = 322
 
 oob = "TIB_1962"
 
@@ -18,13 +11,19 @@ set_politics = {
 
 set_popularities = {
 	communist = 3
+	ultranationalism = 0
 	socialist = 0
 	progressivism = 4
 	liberalism = 2
 	conservatism = 6
 	paternalism = 0
 	despotism = 85
+	fascism = 0
+	national_socialism = 0
+    esoteric_nazism = 0
 }
+
+recruit_character = TIB_tenzin_gyatso
 
 add_ideas = {
 	#Political
@@ -80,37 +79,19 @@ add_ideas = {
 	tno_admin_efficiency_deficient_administrative_systems
 }
 
-set_country_flag = tno_defined_startup_effectiveness
-
-# ECONOMIC LAWS
-set_variable = { tno_trade_laws_effectiveness = 50 }
-set_variable = { tno_income_taxation_effectiveness = 50 }
-set_variable = { tno_minimum_wage_effectiveness = 50 }
-set_variable = { tno_max_workhours_effectiveness = 50 }
-set_variable = { tno_pensions_effectiveness = 50 }
-set_variable = { tno_unemployment_effectiveness = 50 }
-set_variable = { tno_regulations_effectiveness = 50 }
-
-# SOCIAL LAWS
-set_variable = { tno_health_care_effectiveness = 0 }
-set_variable = { tno_education_effectiveness = 50 }
-set_variable = { tno_penal_system_effectiveness = 50 }
-set_variable = { tno_gender_rights_effectiveness = 50 }
-set_variable = { tno_security_effectiveness = 50 }
-
-# POLITICAL LAWS
-set_variable = { tno_political_parties_effectiveness = 50 }
-set_variable = { tno_religious_rights_effectiveness = 50 }
-set_variable = { tno_trade_unions_effectiveness = 50 }
-set_variable = { tno_immigration_effectiveness = 50 }
-set_variable = { tno_slavery_effectiveness = 50 }
-set_variable = { tno_public_meetings_effectiveness = 50 }
-set_variable = { tno_press_rights_effectiveness = 50 }
-set_variable = { tno_vote_franchise_effectiveness = 50 }
-
-# MILITARY LAWS
-set_variable = { tno_conscription_effectiveness = 50 }
-set_variable = { tno_military_supervision_effectiveness = 50 }
-set_variable = { tno_training_effectiveness = 50 }
-set_variable = { tno_draft_exemptions_effectiveness = 50 }
-
+set_technology = {
+    infantry_weapons_1 = 1
+	artillery4 = 1
+}
+create_corps_commander = {
+	name = "Ngapoi Ngawang Jigme"
+	desc = "MILITARY_NGAPOI_NGAWANG_JIGME_DESC"
+	picture = "Portrait_TIB_Ngapoi_Ngawang_Jigme.dds"
+	traits = { infantry_officer adaptable }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 5
+	id = 30008
+}

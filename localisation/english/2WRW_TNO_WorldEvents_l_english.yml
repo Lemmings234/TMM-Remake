@@ -1,0 +1,749 @@
+﻿l_english:
+
+# Second West Russian War #
+  #Germany Surrenders
+WORLD.40001.t: "[Get_newspaper_header]Germany Surrenders!"
+WORLD.40001.desc: "To many, the outbreak of the Second West Russian War was a futile effort by the new Russian Government, a campaign that was destined for failure from the moment the war had been declared yet the world watches on in shock as a spokesman speaking on behalf of the Fuhrer has announced that in the interests of saving the Reich from Nuclear annihilation, the German government have decided to cede their eastern frontier to the rising Russian State. The international and domestic embarassment of giving up their 'Lebensraum' has sent shockwaves across the globe. On the streets of Germany, protests have erupted across the nation as the Wehrmacht prepares to declare martial law. The consequences of the Treaty of Riga will have major repercussions on the German Reich for many years to come."
+WORLD.40001.a: "As one nation falls, another rises"
+WORLD.40001.b: "Years of humiliation finally over"
+WORLD.40001.c: "The Russians will pay one day"
+WORLD.40001.d: "The Red Army the Strongest"
+
+  #Russia surrenders
+WORLD.40002.t: "[Get_newspaper_header]Treaty of [400.GetName]"
+WORLD.40002.desc: "As was expected by millions across the globe, the Wehrmacht has once more, soundly beaten the armies of Russia. Diplomats and Generals from the Reich have gathered in the occupied city of [400.GetName] to discuss the terms of surrender with the Russian government. After hours of debate with the Russians, the Germans and Russians have signed the Treaty of [400.GetName]. The terms saw the restoration of the borders of Moskowien and the ceding of Kazan & [850.GetName] to the Reickskommissariat. The effects of the treaty on Russia have been devastating for the new Russian government with some international spectators suspecting that the nation of Russia would soon break apart into anarchy and begin a new age of Russian warlordism."
+WORLD.40002.a: "A terrible fate for Russia"
+WORLD.40002.b: "We have lost. It's over"
+WORLD.40002.c: "It was to be expected"
+
+  # Yazov Russia declares
+WORLD.40003.t: "[Get_newspaper_header]Russia Declares War on Germany"
+WORLD.40003.desc: "The world stands in shock as the recently reunified Russia has declared war on Germany with the public goal of the Russian government being to retake rightfully Russian lands from their German occupiers and make the Germans pay for their decades of humiliation. The German Reich has begun a process of mobilization against their old eastern foe, promising to both the German people and the world that the Russian nation would be defeated once more within only a few weeks. The world holds its breath as for the first time in history, two nuclear armed powers are going to be directly fighting against one another. With the fate of the world at stake, millions are praying that the conflict can be resolved soon without plunging the world into darkness."
+WORLD.40003.a: "The world holds its breath"
+WORLD.40003.b: "No turning back now"
+WORLD.40003.c: "Bring it on, Untermensch!"
+WORLD.40003.d: "Commence the Great Trial!"
+WORLD.40003.e: "Their Land, their People, Their Blood"
+
+  # Moscow taken by Russia
+WORLD.40004.t: "[Get_newspaper_header]The Liberation of Moscow"
+WORLD.40004.desc: "In recent weeks, no city has had more attention than the infamous city of Moscow. As the centre of German rule in Eastern Europe, and as the former capital of the Russian nation, Moscow was a prime objective for the Russian armies marching westward.\n\nMomentum has shifted to the Russian side of the conflict, with the city falling under Russian hands. While the Germans are far from out of the war, their ability to reclaim Moscow remains slim. The city's fall has become a highly publicised event outside of the Reich, where many see Moscow's liberation as the beginning of the end of the Reich. Within The German bloc, censors are hard at work at preventing the spread of news regarding the significant defeat. Regardless, throughout the German sphere, voices of dissent are rapidly starting to rise, as doubt has begun to spread among the German public."
+WORLD.40004.a: "Russia on the rise?"
+WORLD.40004.b: "Moscow is behind us!"
+WORLD.40004.c: "We'll be back"
+
+# Novosibirsk #
+
+WORLD.40005.t: "[Get_newspaper_header]The Federation Invades the Einheitspakt"
+WORLD.40005.desc: "The world remains shocked as the President of the newly formed Russian Federation, Vasily Shukshin, declared war upon the Großgermanisches Reich and their Reichskommissariats. The President has stated the need to liberate Eastern Europe from German oppression and to right the wrongs made so long ago.\n\nThe Reich in response to the declaration of war has begun a process of mobilization against their old eastern foe, stating that they would 'Destory the All-Russian Army within only a few weeks'. The world holds its breath as the two greatest rivals in all of human history, both armed with nuclear weapons, battle it out for what may very well be the last war humanity shall ever fight."
+WORLD.40005.a: "The world holds its breath"
+WORLD.40005.b: "For the Liberation of all Russians!"
+WORLD.40005.c: "Bring it on, Untermensch!"
+
+WORLD.40006.t: "[Get_newspaper_header]The Federation Triumphs over the Einheitspakt"
+WORLD.40006.desc: "In a shocking turn of events, the All-Russian army has overcome the vast German armies. Overwhelmed by Russian air superiority and experienced soldiers, the Einheitspakt has formally surrendered to the Russian Federation in the hopes of avoiding all out nuclear war between the two countries. The Federation accepted, signing the Treaty of Riga which saw the Einheitspakt hand over the lands of the former Soviet Union. Millions within the Reich's former imperial lands have rejoiced as the winds of change had finally arrived. Chaos, on the other hand, has erupted in Germany as the people accuses the German government of weakness. Many factions from SS sympathizers to Reformists have begun to battle it out on the streets while the Wehrmacht attempts to control the situation. Only time can tell what the complete repercussions of Russian Victory may have on both Europe and the globe."
+WORLD.40006.a: "As one superpower falls, another one rises in the east"
+WORLD.40006.b: "A bright future awaits the Federation"
+WORLD.40006.c: "Is this how Germany dies?"
+
+WORLD.40008.t: "[Get_newspaper_header]The Federation Triumphs over the Einheitspakt"
+WORLD.40008.desc: "In a shocking turn of events, the All-Russian army has overcome the vast German armies. Overwhelmed by Russian air superiority and experienced soldiers, the Einheitspakt has formally surrendered to the Russian Federation in the hopes of avoiding all out nuclear war between the two countries. The Federation accepted, signing the Treaty of Riga which saw the Einheitspakt hand over the lands of the former Soviet Union. Millions within the Reich's former imperial lands have rejoiced as their needless oppression finally ends. Chaos, on the other hand, has erupted in Germany as the people accuses the German government of weakness. Many factions from SS sympathizers to Reformists have begun to battle it out on the streets while the Wehrmacht attempts to control the situation. Only time can tell what the complete repercussions of Russian Victory may have on both Europe and the globe."
+WORLD.40008.a: "As one superpower falls, another one rises in the east"
+WORLD.40008.b: "Strength and Prosperity"
+WORLD.40008.c: "Is this how Germany dies?"
+
+WORLD.40010.t: "[Get_newspaper_header]Vladivostok Returned to [RUS.GetNameDef]"
+WORLD.40010.desc: "After tense negotiations between the Japanese Empire and [RUS.GetNameDef], the two nations have met in Beijing to sign a treaty that aims to resolve the territorial dispute.\n\nThe treaty saw the lands of Outer Manchuria and the city of Vladivostok reintegrated into [RUS.GetNameDef] and in exchange, Russia would assure the safe passage of the 'Kongo' peoples to Northern Machuria and Korea.\n\nCelebrations have occurred across [RUS.GetNameDef] over the nation's diplomatic victory over the Japanese. With Vladivostok returned to Russia, the world awaits [RUS.GetNameDef]'s next move as they turn their attention to the west where Germany still holds Reichskommisariat Moskowien.\n"
+WORLD.40010.a: "[RUS.GetNameDef] grows Stronger"
+WORLD.40010.b: "A wrong righted!"
+WORLD.40010.c: "For the survival of the Empire"
+
+WORLD.40011.t: "[Get_newspaper_header]Birobidzhan Returned to [RUS.GetNameDef]"
+WORLD.40011.desc: "After negotiations between the Japanese Empire and [RUS.GetNameDef], the two nations have met in Beijing to sign a treaty that aims to resolve the territorial dispute.\n\nThe treaty saw province of Birobidzhan reintegrated into the new Russian state in exchange for the end of the violence in the region and the return of the partisans back to Russia.\n\nWhile some in [RUS.GetNameDef] celebrated the peaceful return of Russian territory, many felt the Federation didn't try hard enough to liberate their lands from Japanese occupation. With the issue of the Far East resolved for the time being, the world awaits [RUS.GetNameDef]'s next move as they turn their attention to the west where Germany still holds Reichskommisariat Moskowien."
+WORLD.40011.a: "A minor victory for Russia"
+WORLD.40011.b: "Its the best we're gonna get"
+WORLD.40011.c: "A most favourable deal"
+
+# Vladivostok Negotiations (old) #
+WORLD.40015.t:0 "[Get_newspaper_header]Russo-Japanese Negotiations Begin!"
+WORLD.40015.desc:0 "After weeks of partisan chaos and rising tension between [RUS.GetNameDef] and [JAP.GetNameDef], the Japanese have finally agreed to enter into negotiations with the [RUS.GetName] over the disputed territory of Outer Manchuria with hopes of reaching a peaceful with the nuclear armed power.\n\nDiplomats from [RUS.GetNameDef] and the Co-Prosperity Sphere have met in the Chinese city of Beijing where the negotiations are to take place. International observers from the United States of America to the Italian Empire have also gathered in the city to observe the negotiations on behalf of their respective governments.\n\nThe discussions between the Japanese and the Russians may change the future of both Russia and Japan for many years to come."
+WORLD.40015.a:0 "Let the Negotiations Begin!"
+
+WORLD.40016.t:0 "[Get_newspaper_header]Russia Regains Outer Manchuria"
+WORLD.40016.desc:0 "After tense negotiations between the Japanese Empire and [RUS.GetNameDef], the two nations have met in Beijing to sign a treaty that aims to resolve the territorial dispute.\n\nThe treaty saw the lands of Outer Manchuriak reintegrated into [RUS.GetNameDef] and in exchange, Russia would assure the safe passage of the 'Kongo' peoples to Northern Machuria and Korea.\n\nCelebrations have occurred across [RUS.GetNameDef] over the nation's diplomatic victory over the Japanese. With the issue of the Far East now resolved, the world awaits [RUS.GetNameDef]'s next move as they turn their attention to the west where Germany still holds Reichskommisariat Moskowien.\n"
+WORLD.40016.a:0 "Russia grows larger"
+WORLD.40016.b:0 "One step closer to Vladivostok"
+WORLD.40016.c:0 "Atleast we hold Urajio"
+
+# Bukharin Imprisoned
+
+WORLD.40012.t:0 "[Get_newspaper_header]Bukharin Imprisoned!"
+WORLD.40012.desc:0 "Shocking news has emerged from the newly united Russian Federation as the former premier of the Soviet Union, Nikolai Bukharin, the man who famously led the Soviet Union into the jaws of the Nazi war machine, was found and arrested by members of the Sluzhba Bezopasnosti.\n\nOnce thought to have died following the fall of Moscow, the news of his capture and imprisonment were welcomed by most Russians living within the Federation, the populace happy that the man that had doomed them decades ago was finally getting the punishment he deserved. The Siloviks have applauded the President's actions.\n\nPresident Vasily Shukshin, however, was unavailable for comment."
+WORLD.40012.a:0 "A New Era for Russia"
+
+# Federation
+
+WORLD.40013.t:0 "[Get_newspaper_header]The United States supports Russian Claims!"
+WORLD.40013.desc:0 "News has emerged from Washington as the President of the United States has declared in a press confrence that United States of America will support the Russians Federations claims to Outer Machuria and the city of Vladivostok.\n\nThis move has been made shortly after diplomats from Russia met in D.C. to ask for the American Government to back their claims to the region. This has only increased tensions between the Co-Prosperity Sphere and the rising Russian Federation as the tension between the two nations over the region continues to rise. \n\nThe decision also seems to have marked a shift in Russo-American relations as the two nations, previously nothing more then trading partners, have seemingly joined together to oppose their mutual enemies in the Pacific."
+WORLD.40013.a:0 "Two Giants. United as one"
+
+
+# Russian Intervention in the Iranian Civil War
+
+WORLD.40017.t:0 "[Get_newspaper_header][RUS.GetName] Intervenes in the Iranian Civil War"
+WORLD.40017.desc:0 "As the civil war continues to rage across Iran, [RUS.GetLeader] has announced the [RUS.GetName] formal intervention into the conflict.\n\nAlthough its offical aims are to restore order to the troubled region though many international spectators are in agreement that the true purpose of the [RUS.GetName]'s involvement in the region is expand their own sphere of influence.\n\nRussia has only recently reunified after decades of warlordism and already, [RUS.GetNameDef] has begun to make its moves on the world stage and upsetting the political status quo that has existed since the end of the Second World War.\n\nThe entry of the 'Fourth Power' into the Iranian Civil War has changed the balance of power in the conflict and could become influential in deciding the outcome of the war.\n"
+WORLD.40017.a:0 "Russia spreads her wings"
+WORLD.40017.b:0 "Russia will restore order"
+
+# Romania Odesa invasion #
+WORLD.40030.t:0 "[Get_newspaper_header]The [RUS.GetName] Invades Romania!"
+WORLD.40030.desc:0 "News has emerged from Eastern as war between the [ROM.GetName] and the [RUS.GetName]. This comes after the Romanian government refused to hand over the Ukrainian majority lands of Odesa and Nistrenia which has left the leader of the [RUS.Getname], [RUS.GetLeader] no choice but to mobilise the [RUS.GetAdjective] Army and liberate the predominantly Ukrainian region by force.\n\nNations sympathetic to Romania such as the German Reich, who have recently lost their Eastern Empire to the rising [RUS.GetAdjective] state, were swift in condemning the [RUS.GetName] government, calling the [RUS.GetName] a warmongering state that needed to be stopped. Regardless of international opinion, it would appear that the [RUS.GetAdjective] that had broken the Wehrmacht is now heading towards Bucharest."
+WORLD.40030.a:0 "God Save Romania"
+WORLD.40030.b:0 "For the Liberation of Odesa"
+WORLD.40030.c:0 "Hold the Line Against the Coming Storm"
+
+WORLD.40031.t:0 "[Get_newspaper_header]The [RUS.GetName] Triumps over Romania"
+WORLD.40031.desc:0 "It would appear that after several clashes between the [RUS.GetAdjective] and Romanian armies that the [RUS.GetName], as many international observers had expected, was triumphant over the Romanians, securing the lands of Nistrenia and Odesa and getting revenge on Romania who had participated in the invasion and resulting collapse of the Soviet Union during World War 2. The Germans's were swift in condemning the [RUS.GetName], refering to the state as "An immoral nation who has abused its power by striking smaller and relatively weaker nations". The protests of Germany, however, fell on deaf ears as [RUS.GetAdjective]s celebrated across Russia. In [RUS.Capital.GetName], [RUS.GetLeader] made a rousing speech in response to the nations victory over Romania.\n\n"Once more, the [RUS.GetAdjective] people have enacted justice against an old foe and liberated millions of Ukrainians from occupation!"\n"
+WORLD.40031.a:0 "[RUS.GetNameDef] is triumphant once more"
+WORLD.40031.b:0 "Justice has been delivered"
+WORLD.40031.c:0 "A sad but inevitable outcome"
+
+WORLD.40032.t:0 "[Get_newspaper_header]The [RUS.GetName] Triumphs over Romania!"
+WORLD.40032.desc:0 "Shocking News has emerged from Europe as the Russian Federation has completely occupied Romania. What was originally a conflict over the lands of Odesa and Nistrenia which are heavily populated by Ukrainians, the [RUS.GetAdjective] armies continued its advance, capturing Bucharest and establishing a friendly government.\n\nMany nations, predominantly Germany, has been vocal about the [RUS.GetName]'s war in Romania, refering to the rising [RUS.GetAdjective] state as a threat to the unstable balance of power in Europe, taking advantage of smaller European countries unable to defend themselves. [RUS.GetName] stated that the [RUS.GetName] would have prefered to take their original demands but the Romanians refusal to surrender left the government no choice but to continue the occupy the nation and remove the previous war mongering government from power.\n"
+WORLD.40032.a:0 "The [RUS.GetAdjective] Sphere of Influence Grows Larger"
+WORLD.40032.b:0 "They left us with no choice"
+WORLD.40032.c:0 "A Great Tragedy"
+
+# Sakharov declares on Germany!
+WORLD.40033.t:0 "[Get_newspaper_header]The Republic of Russia Declares War on the Einheitspakt!"
+WORLD.40033.desc:0 "After years of oppresion and dispair, whispers of hope have been heard across Moskowien as the Republic of Russia has formally begun the liberation of Eastern Europe!\n\nAndrey Sakharov, from his home in Tomsk, gave a powerful speech before a crowd of thousands. "By unleashing the full potential of the individual, Russia has risen once more like a phoenix from the ashes! Within a mere decade, we have transformed our Motherland from a divided backwater into the most technologically advanced nation on the planet! People of the world! Witness the true strength of progress!"\n\nIn response, the Wehrmacht has been mobilised and rushed off the fight against the technologically superior Russian Republican Army. The world watches on, intrigued as the most advanced army of the planet battles the Reich.\n"
+WORLD.40033.a:0 "The Great Test of Russian Democracy"
+WORLD.40033.b:0 "Per Astra ad Aspera"
+WORLD.40033.c:0 "Bring it on, Untermensch!"
+
+# Pokry Russian Fed loses 2wrw
+WORLD.40034.t:0 "[Get_newspaper_header]The Russian Federation Collapses"
+WORLD.40034.desc:0 "The dust has finally settled in Russia following the nation's defeat in the Second West Russian War. Across the globe, millions of voices have expressed their shock as the Russian Federation, once a shining beacon of hope for the people of Russia, has officially collapsed as new governments emerge from the remnants of the Russian homeland.\n\nThis comes not only after the failure of the Russian Federation in the Second West Russian War to retake the Russian city of Moscow from Germany but also the suspension of democracy by unelected Alexander Pokryshkin which had caused internal unrest to reach a boiling point.\n\nMillions across the remains of what was once Russia and the world weep as the dream of a united Russian state is buried with the late Vasily Shukshin, perhaps this time, forever."
+WORLD.40034.a:0 "Darker Days Ahead"
+WORLD.40034.b:0 "A People Doomed to Fail"
+
+# Shukshin Russian Fed Loses 2WRW
+WORLD.40035.t:0 "[Get_newspaper_header]The Russian Federation Collapses"
+WORLD.40035.desc:0 "In Russia, terrible news has emerged as the Russian Federation has formally collapsed following a coup of the nations President Vasily Shukshin. Across the globe, millions of voices have expressed their shock as the Russian Federation, once a shining beacon of hope for the people of Russia has officially collapsed as new governments emerge from the remnants of the Russian homeland.\n\nThe suspension of democracy in the Federation following the illegal inauguration of Alexander Pokryshkin has been the final straw for the Russian people as rebellion broke out across the Federation, leading to the nations collapse.\n\nMillions across the remains of what was once Russia and the world weep as the dream of a united Russian state has been snuffed out once more. Perhaps this time, forever."
+WORLD.40035.a:0 "Darker Days Ahead"
+WORLD.40035.b:0 "A People Doomed to Fail"
+
+# Shukshin joins OFN
+WORLD.40036.t:0 "[Get_newspaper_header]The Russian Federation joins the Organisation of Free Nations!"
+WORLD.40036.desc:0 "In a press conference in Moscow, Russian President Vasily Shukshin has declared that after some negotiation, the Russian Federation can finally begin the process of formally joining the Organisation of Free Nations!\n\nThe American government has responded to this development with great enthusiasm, happy to have the touted Fourth Power join the ranks of the OFN. "The Russian President and I have become great friends recently, his eagerness to ensure the freedom and safety of his people is admirable and I look forward to working with him going forward" President [USA.GetName] commented in response to this new development.\n\nAs American and Russian flags wave in Moscow and Washington, some are worried about the increased tensions this will cause, with having a powerful American ally now on the doorstep of both the Einheitspakt and the Co-Prosperity Sphere.\n"
+WORLD.40036.a:0 "The Free World just got even bigger!"
+
+# Shukshin makes CSTO
+WORLD.40037.t:0 "[Get_newspaper_header]Birth of the Collective Security Treaty Organisation"
+WORLD.40037.desc:0 "The Russian Federation, recently arisen from the ashes of the Soviet Union, has seemingly defied all international expectations with the founding of the Collective Security Treaty Organisation, a military alliance spearheaded by the Federation aiming to stop all incursions into Eurasia by the Einheitspakt and the Co-Prosperity Sphere.\n\nPresident Shukshin declared in Novosibirsk that the Russian Federation and her people needed to be in charge of its destiny going forward, stating “Russia needs to bear the weight of its responsibilities once more. We must be able to take action when it is necessary and to be able to remain neutral without bearing obligations to foreign nations”.\n\nThe Einheitspakt and the Sphere have not been receptive of the formal entry of another superpower into the Cold War, declaring Russia's recent actions to be upsetting the already fragile global balance.\n"
+WORLD.40037.a:0 "A New Order Rises"
+
+# West China War
+WORLD.40039.t:0 "[Get_newspaper_header]The West China War!"
+WORLD.40039.desc:0 "Since the late 1940s, Japan has held a stranglehold over the Chinese government. While the Mainland is under de jure control of the Republic of China, western China has notoriously maintained de facto independence as a series of unrecognized warlord states. The Russian Federation has recognized the Ma Clique; a KMT-remnant headed by the Ma Clan as the legitimate government.\n\nThe Clique has since taken military action against several notable warlords, and the Tibetan government. Military shipments from Japan to Tibet are sent through airlifts. Other warlord factions have refused Japanese support. The response from the Einheitspakt is entirely neutral. The OFN, however, has shown some interest in the development of a rival government to Japan. Will a beacon of hope rise in China?""
+WORLD.40039.a:0 "The West Awakens"
+
+# Armenia War
+WORLD.40040.t:0 "[Get_newspaper_header]The Mountain War"
+WORLD.40040.desc:0 "Another war long in the making has broken out in the mountains of the Caucasus. The centuries-long conflict between the Turkish and Armenian peoples burns bright once more.\n\The war comes after the recent seizure of Reichkomissariat Kaukasien by the Russian Federation following its victory in the Second West Russian War. Many international observers have accused of reigniting the conflict through openly supporting the Armenian rebels.\n\nAs soldiers and partisans clash in the hills and mountains of Armenia, this conflict may very well determine if the world will witness the rebirth of a free Armenian democracy, or the eradication of Armenia as a people and a concept."
+WORLD.40040.a:0 "The mountains burn once more"
+
+# Mongolian Revolt!
+WORLD.40041.t:0 "[Get_newspaper_header]The Steppe Alight!"
+WORLD.40041.desc:0 "On the vast plains of Mongolia, civil war rages as the Mongolian people under the leadership of Mongolian democrat, Natsagiin Bagabandi, rallying the Nomads of the plains and the remnants of the former Peoples Front under the banner of a free Mongolia.\n\nThe Japanese Empire has dismissed the rebellion as a minor revolt, stating that the military forces of Mengjiang are more than equipped to deal with the rebels. The international community, however, is far more sceptical of Mengjiang's strength, taking note of the unusually modern military equipment the Mongol rebels wield on the battlefield.\n\nAs the steppe burns once more, some are left to wonder whether the Co-Prosperity Sphere will continue to dominate East Asia or will this conflict be the first of many that will lead to the downfall of Japan's Empire."
+WORLD.40041.a:0 "Freedom or subjegation?"
+
+# Russia declares on Kazakhstan!
+WORLD.40042.t:0 "[Get_newspaper_header]The [RUS.GetName] Declares War on Kazakhstan!" 
+WORLD.40042.desc:0 "What many across the steppes of Central Asia feared for years has come true. Russian tanks and troops flood across the border into Kazakhstan yet again.\n\nWith Russia unified into a single state, the question of Kazakhstan's continued independence had been hotly contested by both Russian and Kazakh states. Eventually, tensions resulted in an ultimatum demanding the complete demobilization of the Kazakh Armed Forces. The Kazakhs refused, cutting off all ties with the Russian state and mobilizing its army to the border.\n\nWhile the international community denounced the ultimatum as nothing more than continued Russian aggression, nothing could prevent the declaration of war that shortly followed. While the Kazakhs may give it their all, a swift conquest and subjugation is all but assured."
+WORLD.40042.a:0 "Don't say we didn't warn them!"
+WORLD.40042.b:0 "The Russian Eagle spreads its wings once more"
+
+# Kazakhstan Joins Russian Faction
+WORLD.40043.t:0 "[Get_newspaper_header][KAZ.GetName] Joins the [RUS.GetFactionName]!"
+WORLD.40043.desc:0 "After a tense round of negotiations in the Kazakh capitol it has now been officially announced that Kazakhstan has joined the [RUS.GetFactionName], reestablishing Russia's influence in Central Asia once more.\n\nMany across the world feared that a united Russia would merit yet another incursion into Kazakhstan for the sole purpose of reintegrating the steppe country back into the motherland, as it had been for hundreds of years shackled to the Imperial Tsar or Soviet Chairman. But, with Operation Barbarossa and the collapse of both Russia and Kazakhstan into Warlordism, that dominance had finally been broken, with both countries suffering massively as a result.\n\nThat suffering has instead manifested into a brotherhood. Forged out of the fires of anarchy Kazakhstan and Russia now stand together as one, solidifying Russia's influence in Central Asia once again while granting Kazakhstan its long-sought independence. Whatever the future may bring for this new brotherhood, it is clear now that the cycle of Kazakh subjugation has been definitively shattered. It seems after centuries of slavery and suffering, the people of Central Asia can finally breath once more."
+WORLD.40043.a:0 "We stand not as subjects or masters, but as brothers"
+WORLD.40043.b:0 "It seems time heals all wounds after all"
+
+# Krakow Uprising
+WORLD.40044.t:0 "[Get_newspaper_header]The Kraków Uprising!"
+WORLD.40044.desc:0 "The idea of a free Poland was thought to have been completely destroyed following the conclusion of the German Civil War, a nation annihilated beneath the crushing boot of Nazi Germany once again. In recent weeks, however, the once lost Polish nation has slowly been waking up following Russia's victory in the Second West Russian War and the ensuing chaos consuming Germany.\n\nIn the city of Krakow, pro-independence protests became a mass uprising that went on to spread across Southern Poland lead by Karol Wojtyla and the rebuilt Polish Home Army. The German government was swift in accusing the Russian government of orchestrating the recent Polish Uprising, claiming that the [RUS.GetName] was taking advantage of the Reich's weakened state. Regardless of whether these claims are true or not, the Poles are fighting once more, their eyes focused on the city of Warsaw.\n"
+WORLD.40044.a:0 "The Reich Continues to Crumble"
+WORLD.40044.b:0 "Damn the Poles!"
+
+# Moscow Falls
+WORLD.40045.t:0 "[Get_newspaper_header]The Fall of Moscow"
+WORLD.40045.desc:0 "In recent weeks, no city has had more attention than the infamous city of Moscow. As the centre of German rule in Eastern Europe, Moscow, and as the former capital of the Russian nation, was a prime objective for the Russian armies marching westward. Today that has changed.\n\nRussian troops first started to storm the eastern slums that house the native Russian population, and from there began a house by house clearance of the city. The battle culminated when local German forces with a few collaborators scrambled together and attempted to make defensive positions across the Moskva River. Once defences on the western side of the river fell, the German troops were given orders to retreat.\n\nMomentum has firmly fallen to the Russian side of the conflict, with the city falling under Russian hands. While the Germans are far from out of the war, their ability to reclaim Moscow remains slim. The city's fall has become a highly publicised event outside of the Reich, where many see Moscow's liberation as the beginning of the end of the German Reich. Within The German bloc, censors are hard at work at preventing the spread of news regarding the significant defeat. Regardless throughout the German sphere, voices of dissent are rapidly starting to rise, as doubt has begun to spread among the German public. In contrast, the scene behind the Russian frontlines are of jubilation, and throughout Europe, groups have intensified their resistance to German Rule."
+WORLD.40045.a:0 "Moskva za Nami!"
+WORLD.40045.b:0 "Verfluchte Schweinhunder!"
+WORLD.40045.c:0 "Interesting."
+
+#Baltic Crisis Averted
+WORLD.40046.t:0 "[Get_newspaper_header]Baltic Crisis Averted"
+WORLD.40046.desc:0 "After a period of intense diplomatic struggle, the Baltic Crisis has been defused by Russian diplomats. The destruction of the neutral merchant ship Njord by a Russian naval mine, already a terrible incident, threatened to spiral out of control as German diplomats worked behind the scenes to fan the flames of international outrage. Sources in both governments suggest the Norwegians were close to declaring war upon the Russian government. However, a last minute diplomatic breakthrough barely convinced the Norwegians to maintain the fragile peace. Scandinavia has avoided the whirlpool of modern warfare by a hair's breadth, for now. Only time will tell if peace can prevail in a continent defined by war."
+WORLD.40046.a:0 "Halfdan's kin sheathe their swords."
+
+#Norway Joins 2WRW
+WORLD.40047.t:0 "[Get_newspaper_header]Norway Joins The Second West Russian War"
+WORLD.40047.desc:0 "In an unexpected turn of events, the Norwegian government has formally declared war on the [RUS.GetName]. The Norwegians initially declared their neutrality, intending only to bolster the Third Reich through arms shipments and preferential trade policies. However, the destruction of the Njord, a neutral merchant vessel crewed by Norwegian sailors, at the hands of a Russian naval mine pushed the Norwegian public and government towards war. Numerous opportunities for a peaceful resolution were bypassed by the Russian government. Now, a new front in the war for Europe has opened in Scandinavia. Will this change the tides of war in Germany's favor? Or will the Russians persevere through this extraordinary setback?"
+WORLD.40047.a:0 "The Forest of Heathendom marches to war once more."
+
+# Kazakhstan collapses into warlords!
+WORLD.40048.t:0 "[Get_newspaper_header]Civil War Engulfs Kazakhstan!"
+WORLD.40048.desc:0 "Kazakhstan has been sent into chaos following the collapse of order in the nation. Previously under the control of remnant Soviet authorities, various factions have seized swaths of the country and the former SSR's territory has been reduced to the deserts of the steppe.\n\nWhile international eyes appear to be far from the nation, more regional powers have taken a great interest in the development. The Polish diaspora in authority in Uralsk has directly intervened in the conflict, attempting to pacify the region, while the fledgling states that constitute former Russian territory have begun to intervene directly in a gambit to see what international interests they have protected. The Steppe has been set aflame, and its fate rests in the hands of the solemn few desperate enough to fight for it."
+WORLD.40048.a:0 "The Red Army will never give up!"
+WORLD.40048.b:0 "A new approach is needed."
+WORLD.40048.c:0 "The time is now for democracy in Kazakhstan!"
+WORLD.40048.d:0 "We will not lose this home as well."
+WORLD.40048.e:0 "Perhaps we will win in Kazakhstan."
+WORLD.40048.f:0 "This is only a minor setback to world socialism!"
+WORLD.40048.g:0 "Chaos in Kazakhstan invites opportunity further south..."
+
+# US Inaugurations 1976
+WORLD.41000.t:0 "[Get_newspaper_header]The Inauguration of John B. Anderson"
+WORLD.41000.desc:0 "John B. Anderson, Chairman of the House Republican-Democrat Conference, has been inaugurated as President. While Anderson was a power-player in Washington for many years, the aftershocks of the Oil Crisis propelled him to national leadership at the head of a coalition of independents and moderates.\n\nAnderson initially campaigned on a signature proposal to cut social security taxes. However, as early polling showed Anderson losing the Iowa Caucuses due to being, in one voter's words, "too boring", Anderson pivoted to primarily advocating for electoral reforms, including instant-runoff voting, fairer rules for independent candidates, popular election of Presidents, and proportional representation in legislative elections. Election experts also note the endorsement of John Glenn as an important element in Anderson's campaign strategy."
+WORLD.41000.a:0 "Let's see how open-minded this President can be."
+
+WORLD.41001.t:0 "[Get_newspaper_header]The Second Inauguration of George Romney"
+WORLD.41001.desc:0 "After years of tumultuous political instability and increased radicalization it seems the United States has found its island of stability once more as Republican candidate George Romney secures his seat in the White House for the second time in his political career.\n\nCampaigning off a platform of new-wave Conservative ideals, the former Governor of Michigan has championed increased government “volunteerism”, promising to expand societal outreach programs in cooperation with various corporate bodies across America.\n\nDetractors of the new President have criticized his unwillingness to endorse any meaningful change in the matters of labor rights, while others see his increased focus on desegregation as yet another limb of the liberal-democrat agenda at work."
+WORLD.41001.a:0 "In a world dominated by ideological fervor, many still hide beneath the wings of reason and logic."
+
+WORLD.41002.t:0 "[Get_newspaper_header]The Inauguration of Jimmy Carter"
+WORLD.41002.desc:0 "The Republican-Democratic coalition has seized the White House after a string of serious losses. Jimmy Carter, former governor of Georgia, gave his inaugural speech before a crowd of thousands of cheering supporters yesterday in an event bound for the history books.  Carter's victory brings America back towards the center, and once more into the political dominance of the Republican Democratic coalition.\n\nCarter, a champion of the progressive wing of the Republican Democrats, was an outspoken dissident to the previous administration's involvement in the Second West Russian War. He has promised a return to traditional liberalism, and a more dovish foreign policy. With the political and economic fallout of the recent energy crisis still fresh on Americans minds, the world awaits to see what this fresh face in Washington will accomplish."
+WORLD.41002.a:0 "The peanut farmer? Really?"
+
+WORLD.41003.t:0 "[Get_newspaper_header]The Second Inauguration of Jeane Kirkpatrick"
+WORLD.41003.desc:0 "The so-called “Iron Lady” of the United States has found herself back in the seat of Commander in Chief as Jeane Kirkpatrick, creator of the aptly-named “Kirkpatrick Doctrine”, secures her second term in the White House. A hard proponent of using “Realpolitik” policies against the spread of Fascism throughout the world, Kirkpatrick's climatic rise has seen a massive increase in American covert intelligence efforts in anti-OFN areas.\n\nPossessing a will to sacrifice anything to achieve victory, Kirkpatrick's sheer determination to bring down the enemies of Democracy has found support from within the more hawkish elements of American society, while her more morally-questionable views on arming reactionary and autocratic governments in their place has faced more scrutiny from within some sections of American society."
+WORLD.41003.a:0 "Death is a preferable alternative to Fascism."
+
+WORLD.41004.t:0 "[Get_newspaper_header]The Inauguration of Henry "Scoop" Jackson"
+WORLD.41004.desc:0 "The National-Progressive Pact's firmly liberal wing is celebrating a victory tonight following a monumental success in the 1976 elections in America. Henry "Scoop" Jackson has secured the presidency, following several failed campaigns for office, including one in 1972. Jackson has been seen as a rather rare figure in Washington, forming a unique synthesis between a hawkish foreign policy and a firmly liberal agenda for America's domestic matters.\n\nAlready, negotiations are on-going within the two dominant parties on the hill to decide what the congressional landscape will look like, amidst rumors of defections from the National Progressive Parties more traditionally right wing members. Jackson's speech was characterized by broad populist rhetoric, and several promises to restore what he sees as American prestige abroad and at home."
+WORLD.41004.a:0 "He did it! He scooped the white house!"
+
+WORLD.41005.t:0 "[Get_newspaper_header]The Second Inauguration of Henry "Scoop" Jackson"
+WORLD.41005.desc:0 "The National-Progressive Pact has achieved another victory today, as the American people have chosen incumbent president Henry “Scoop” Jackson to continue leading the country. Leadership of the NPP-P, the escalation of the Cold War and many worldly changes in the last decade have catapulted him to the forefront of American politics.\n\nIt appears that, despite his hawkish and hardline policies, which many considered overboard - Jackson has maintained a grip on the American people with his more liberal policies, which include welfare and the advancement of civil rights. Jackson has sworn to continue his social policies, whilst also vowing to continue the containment of Fascism abroad, a platform which has earned him considerable bipartisan support in these tumultuous times."
+WORLD.41005.a:0 "Both the Sword and the Rose."
+
+WORLD.41006.t:0 "[Get_newspaper_header]The Inauguration of Herman Talmadge"
+WORLD.41006.desc:0 "Amid cries of government overreach and 'racial favoritism', the Southern branch of the NPP has reasserted itself across the United States. Herman Talmadge, former governor of Georgia and close friend of both Strom Thurmond and George Wallace, now occupies the White House. Talmadge claimed in his inauguration speech that this represents 'the victory of the Godly over the Godless', and showed no sign of backing off his controversial campaign rhetoric.\n\nPresident Talmadge now promises 'an effective veto' for the Civil Rights Act, in which his office will not enforce provisions of the CRA during the span of his presidency. Numerous states have moved to reenact measures such as literacy tests, and reports of Klan activity have skyrocketed. Massive protests planned by the NAACP have been quashed by police and National Guard."
+WORLD.41006.a:0 "The principle for which we contend will reassert itself, though another time and in another form."
+
+WORLD.41007.t:0 "[Get_newspaper_header]The Second Inauguration of Phyllis Schlafly"
+WORLD.41007.desc:0 "Campaigning off the fear of “Treacherous Liberals” and a strict traditionalist belief system, Phyllis Schlafly's upset victory brought about a wave of unrest not seen since the aftermath of Pearl Harbor. Condemning the ideals of new-wave Feminist and Progressive movements while rallying for “true god-fearing Americans”, few believed she would secure a second nomination even within her own conservative circles.\n\nToday, those sentiments have been finally put to rest with the swearing in of America's most controversial President since Herbert Hoover. Praised as the champion of “righteous American Ideals” by her hardline traditionalist followers while utterly despised by an entire half of the National Progressive Pact, the United States seems more divided than ever.\n\nWhile Schlafly has endured the Union so far, whether the Union can endure Schlafly is another question entirely."
+WORLD.41007.a:0 "The Liberal fears our might!"
+
+WORLD.41008.t:0 "[Get_newspaper_header]The Inauguration of Ella Baker"
+WORLD.41008.desc:0 "In an incalculable victory for the American Civil Rights Movement, Ella Baker, the godmother of the SNCC, has been swept into the White House. Before beginning her electoral efforts, President Baker was known for inaugurating the Freedom Riders movement of 1961, as well as forming the Mississippi Freedom Progressive Party in opposition to the Mississippi NPP, which was dominated at the time by segregationists.\n\nPresident Baker's platform, described by her campaign as "participatory democracy", aims to transform America into a direct democracy, de-bureaucratize the Federal government, and implement direct action tactics. Her campaign has united blacks and whites against segregationism along a socialist line; now, America's first black President must hold her coalition together if she is to accomplish the evolution America needs to survive."
+WORLD.41008.a:0 "To stir the masses, to appeal to their higher selves, to set them thinking..."
+
+WORLD.41009.t:0 "[Get_newspaper_header]The Second Inauguration of President Hall"
+WORLD.41009.desc:0 "The NPP-M proved its long-term viability today as voters re-elected President Hall to another four years. Hall's first term was marked by the exposure of the American intelligence community for numerous criminal acts, including the blackmailing and assault of civil rights activists, and the imprisonment of J Edgar Hoover on charges of treason. With the CIA dethroned and decapitated, the NPP-M is now free to implement its preferred policies.\n\nFollowing the old Moscow line, President Hall intends to implement "Apple-Pie Communism", a rebranding of the NEP based on nationalization of heavy industry and large corporations while leaving local businesses untouched. While more radical leftists would prefer immediate socialization, many argue that this is the best way to achieve communism in the heart of capitalism and bourgeois decadence."
+WORLD.41009.a:0 "American Communists have always thrived as champions of domestic reform."
+
+WORLD.41010.t:0 "[Get_newspaper_header]President Yockey Impeached"
+WORLD.41010.desc:0 "Following numerous violations of the 1st, 2nd, 4th, 5th, 7th, 8th, 14th and 17th Amendments, President Yockey has been impeached by the House of Representatives. While his Senate trial is yet to begin, vagrants and uncowed journalists whisper that this is the end of Yockey's Presidency. The beleaguered opposition believes the impeachment will prove politically fatal, immolating Yockey's reelection campaign.\n\nYockey has called the impeachment 'an act of Jewish sabotage', and has called on his supporters to circle the wagons. Minority neighborhoods across the nation have been attacked in a vicious parody of the Tulsa Massacre, and at least twelve synagogues have been burned up and down the East Coast. Japanese citizens on the West Coast have been particularly affected, as many camp guards have chosen to preemptively liquidate them."
+WORLD.41010.a:0 "Just close your eyes. It'll all be over soon."
+
+WORLD.41011.t:0 "[Get_newspaper_header]The Battle of Washington D.C"
+WORLD.41011.desc:0 "As dozens of race riots reached their bloody crescendo across America, an armed mob led by Grand Wizard Virgil Lee Griffin assembled outside the House of Representatives to protest President Yockey's impeachment. Among the mob were several senior members of the NPP-ANV, as well as average citizens from as far as Oklahoma and California. The rabble soon whipped themselves into a frenzy. They took up arms and invaded the House, intent on killing the trapped R-D representatives within.\n\nDespite orders from President Yockey to stand aside, the D.C National Guard commander chose to respond to calls for help. The Guard fought the Yockeys corridor to corridor, saving nearly half of the legislators. When the smoke cleared, over three hundred were dead. Vice President Byers is missing, and Yockey has been arrested by the Guard for High Treason."
+WORLD.41011.a:0 "But who takes power now?"
+
+WORLD.41012.t:0 "[Get_newspaper_header]The Sack of Washington D.C."
+WORLD.41012.desc:0 "As dozens of race riots reached their bloody crescendo across America, an armed mob led by Grand Wizard Virgil Lee Griffin assembled outside the House of Representatives to protest President Yockey's impeachment. Among the mob were several senior members of the NPP-ANV, as well as average citizens from as far as Oklahoma, California, and Kansas. The rabble soon whipped themselves into a frenzy. They took up arms and invaded the House, intent on killing the trapped R-D representatives within.\n\nAs the National Guard did not respond to calls for help, the legislators were forced to defend themselves. Most were lynched on the spot. John Rhodes, in particular, was subject to hours of torture before being disemboweled with a bayonet. The new House, composed entirely of NPP-ANV fanatics, has declared the previous impeachment proceedings void."
+WORLD.41012.a:0 "Rome has Fallen."
+
+WORLD.41013.t:0 "[Get_newspaper_header]It Happened Here."
+WORLD.41013.desc:0 "The prior year has seen America transformed into a charnel pit. Tens of thousands have been murdered across the Republic. Still, an idealistic few still hoped to see Yockey defeated at the ballot box. That hope will never be borne out.\n\nSpeaking today from the White House, recently renamed the Imperial Volkshalle, President Yockey announced that the elections scheduled for 1976 would be delayed due to the ongoing national emergency. With most R-D legislators dead or in hiding, the Federal government is now permanently in the hands of Yockey's stooges. Generals William Westmoreland and John Lavelle have already disappeared, and rumors indicate Yockey plans to further centralize power. Prisoners have been mobilized across the South. Their orders: to build a series of internment camps mirroring those already spotting the West Coast."
+WORLD.41013.a:0 "God bless American, land that I love..."
+
+WORLD.41014.t:0 "[Get_newspaper_header]It Happened Here."
+WORLD.41014.desc:0 "1976 has seen America transform into a charnel pit. Still, not even a raving madman could have imagined the situation would get worse.\n\nAmidst an aborted military coup, President Yockey and coup leaders William Westmoreland and John Lavelle have been killed. Before Vice President Byers could take the oath of office, he was assassinated, allegedly by an African American communist. Secretary of State William Luther Pierce has claimed the Imperial Volkshalle. His first act as leader was to demand a nation-wide retaliation against 'Negroes, liberals, and their Jewish puppet masters'. Another wave of violence has begun, with some calculating the death toll in the tens of thousands. Still, the worst is yet to come. President Pierce is known to advocate for nuclear retaliations against rival nations, and the nation is already at DEFCON 2."
+WORLD.41014.a:0 "Humanity's neck is in the noose."
+
+WORLD.41015.t:0 "[Get_newspaper_header]It Won't Happen Here!"
+WORLD.41015.desc:0 "1976 has seen America transformed into a charnel pit. But even amidst the loss of all they loved, the American people refused to lie down and die.\n\nPresident Yockey, Vice President Byers, and nearly the entire Presidential cabinet have been killed in a series of bombings. Secretary of State William Luther Pierce, who survived the initial attacks, has been shot dead by the FBI. In the place of the Yockeyist regime, a series of revolutionary councils have seized most American cities. Dubbing themselves 'The Weather Underground', an alliance of former Generals, Black Panthers, freedom fighters, and remnants of the NPP-M have declared themselves the rightful American government. While the country is spiraling into a civil war, international experts believe the disorganized Fascists will be unable to effectively resist the red tide."
+WORLD.41015.a:0 "A revolution is an insurrection, an act of violence by which one class overthrows another."
+
+WORLD.41016.t:0 "[Get_newspaper_header]It Won't Happen Here!"
+WORLD.41016.desc:0 "1976 has seen America transformed into a charnel pit. But even amidst the loss of all they loved, the American people refused to lie down and die.\n\nAs rumors of a postponed election circulated, Generals William Westmoreland and John Lavelle chose to take action against the Yockey regime. In a coordinated attack, Army and Navy units blocked off all roads to Washington D.C, while mixed units marched into the city's heart. These 'Constitutionalists' fought both National Guardsmen and fascist militias house to house over three days of bloody warfare. The Anti-Fascist campaign culminated in an attack on the White House, a high casualty event that ended in Francis Yockey's suicide. The military has now declared a period of temporary national reconstruction. When this unscheduled period ends, a new Presidential election 'untainted by Fascist influences' will be held."
+WORLD.41016.a:0 "Let's hope Westmoreland proves to be an American Cinncinatus."
+
+WORLD.41017.t:0 "[Get_newspaper_header]Foundation of the Union of Socialist States of America"
+WORLD.41017.desc:0 "Gus Hall and the NPP-M have succeeded in their efforts to seize the heartland of capitalism. Through a combination of intelligence efforts, the breakup of NPP-aligned states into "Little Wyomings", and genuine public support, Hall has fully reshaped the American government. While democratic institutions still exist, they have been undermined to the point that he and his faction rule by decree.\n\nAs the new decade approaches, Representative John Anthony Walker (NPP-M TW) introduced a constitutional amendment which declared America a "socialist nation" and changed the flag and name of the government. Of the Union's 445 states, 342 voted to ratify the Amendment. Liberals and rightists alike have taken to the streets, outraged by the NPP-M's power grab; with the army against them, America's silent transformation is complete."
+WORLD.41017.a:0 "Communism is the real movement that abolishes the present state of things."
+
+WORLD.41018.t:0 "[Get_newspaper_header]Declaration of the Imperium"
+WORLD.41018.desc:0 "Two Ideas stand opposed to each other: Freedom and Survival, Money and Authority, Sanity and Insanity, Responsibility and Democracy, Cleanliness and Disease. For the Resurgence of Authority to be complete, the Old Ways which dragged the people into a swamp of miscegenation and Race-Treason must be abolished. For the sake of Survival, of Authority, of Sanity, Francis Parker Yockey has declared the end of America.\n\nWith all opposition shot dead, lynched, or huddled in a concentration camp, there was no one to stop Yockey from taking his place as Dictator-for-Life of his new Imperium. The American spirituo-biological entity will thrive, and all that stand against it will be subsumed into the perfect whole. The Spirit of the High Age, Fascism, will be freed, and the culture-parasites will be eliminated in their entirety, across the entire world."
+WORLD.41018.a:0 "America's Darkest Hour will stretch into its Darkest Decades."
+
+WORLD.41019.t:0 "[Get_newspaper_header]Rise of the American State"
+WORLD.41019.desc:0 "Horrifying news has emerged from the blood-stained lands of the United States describing the prophesied “Day of the Rope” in action. Those deemed “Race Traitors” and “Parasitic Filth” by the Pierce Administration can only expect the cruelest of realities in the newly-proclaimed “American State”.\n\nStanding atop a mountain of bodies Pierce has announced the formal end to the “Jewish Citadel of the United States”, much to the shock and disbelief of the International Community. Millions of minority groups, political enemies and scared families have already begun to make the great exodus out of the American Nightmare.\n\nThe burning flame of liberty has been drowned in the tears of Christ, for Abaddon has risen from the depths of Hell to carve out his own Kingdom of Lucifer on Earth."
+WORLD.41019.a:0 "And throw them into the blazing furnace, where there will be weeping and gnashing of teeth"
+
+WORLD.41020.t:0 "[Get_newspaper_header]Democratic Revolution in Germany!"
+WORLD.41020.desc:0 "In the aftermath of the Reich's crushing defeat in Eastern Europe, what was once thought to be small scale student protests and riots has finally escalated into an outcome seldom few anticipated: the end of the Third Reich.\n\nEarlier today, a group of protestor-led militias rallied around the leadership of anti-fascist resistance group Reichsbanner Schwarz-Rot- Gold, led by "Spartakus," or partisan Willy Brandt, and stormed the Volkshalle, routing the remaining Nazi government. Brandt declared in a speech soon after that the Reich was now "defunct" and that in its place now stands the newly established German Republic. \n\nThe Fuhrer has fled Berlin as sects of the Wehrmacht clash over whether to side with Brandt's government and paramilitaries terrorize the country. While Germany now breathes free, it does not breathe easy."
+WORLD.41020.a:0 "Einigkeit, und Recht, und Freiheit."
+
+WORLD.41021.t:0 "[Get_newspaper_header]Foundation of the Union of American Councils"
+WORLD.41021.desc:0 "In the aftermath of the total collapse of the American government, the radicals in the War Council to Fight Fascism have declined to reinstitute the failed 1787 Constitution. Citing the widespread poverty and institutional failure in the Old United States even before the Yockey Presidency, the War Council has instead written and promulgated a new Constitution. This Constitution has been successfully ratified, thus inaugurating the Union of American Councils.\n\nThe new government is highly decentralized, with all legislature adopted by direct democracy and militias replacing the U.S army. The new Constitution guarantees the right of labor to own and control its workplace, as well as decommodifying land and healthcare. Yet, Yockey's supporters still make up a strong minority of the population; only time will tell if the UAC can extinguish the Nazi bonfire without giving in to tyranny."
+WORLD.41021.a:0 "Red and Black waves along the Red, White, and Blue."
+
+# Germany Flavor
+
+WORLD.41022.t:0 "[Get_newspaper_header]Martin Bormann Has Died"
+WORLD.41022.desc:0 "The Reichstag has announced a four-month mourning period following the tragic death of Führer Martin Bormann from terminal lung cancer. The news of his loss comes as a shock to the German public, who were uninformed of the Führer's worsening health. The news comes amidst rapidly worsening terrorist attacks on the Reich's officials and infrastructure.\n\nThe brutal dismantlement of internal factions within the government has left the throne in Germania open to Martin Bormann's chosen successor, however, they must contend with open disloyalty in the streets and increased pressure from abroad. The USA and Japan are sure to take advantage of this moment of weakness, with the Russian bear growing ever more dangerous as well. The specter of change looms over the Reich, and one thousand years may be too short for Bormann's successor."
+WORLD.41022.a:0 "Who will keep the German Eagle flying now?"
+
+WORLD.41023.t:0 "[Get_newspaper_header]Gerhard Klopfer Succeeds the Führership"
+WORLD.41023.desc:0 "The Reichstag has announced its endorsement of Gerhard Klopfer, the former Deputy Führer, as the successor to the late Martin Bormann. As expected from a man of such high authority in the Reich, he has enjoyed the vast support from the predominantly conservative bureaucracy and military to secure his own reign in the Reich.\n\nAt the doors of the Volkshalle, Klopher lionized the former Führer's commitment to maintaining the Reich's prosperity and security from traitors among its government and army. Klopfer also promised the expansion of policies to achieve complete recovery from the economic shocks of the Oil Crisis, and to crush the resurgent leftist terrorist movements nipping at the Reich. Through this, the Führer has guaranteed that Germany will be able to resume greater projects as the Reich marches into modernity."
+WORLD.41023.a:0 "The Reich's protege shall continue its one-thousand year reign."
+
+WORLD.41024.t:0 "[Get_newspaper_header]Reinhard Gehlen Succeeds the Führership"
+WORLD.41024.desc:0 "Following the death of Martin Bormann, the Reichstag has finally announced that the head of the Strategische Unterstützungspolizei, Reinhard Gehlen, has been recognized as the next Führer. Bolstered by the OrPo's extensive influence and government administrators who fear the surge in anti-fascist terrorism within the Third Reich, Gehlen spoke before the Volkshalle promising a future for the Reich and its people free from “Judeo-Bolshevik infiltration and terrorism".\n\nSome suspect that Gehlen will consolidate his power by expanding the Reich's security services throughout the Pakt and in the fatherland, perverting Hitler's legacy into a deformed memory of National Socialism. Still, others are hopeful that the terror bombings and riots will cease under his watchful eyes."
+WORLD.41024.a:0 "The Reich's watchman gazes over his new empire."
+
+WORLD.41025.t:0 "[Get_newspaper_header]Kurt Waldheim Succeeds the Führership"
+WORLD.41025.desc:0 "The Reichstag has announced that the acting head of the Ministry of Foreign Affairs, Kurt Waldheim, will serve as the next Führer. A dark horse in the power struggle within the Nazi Party, Waldheim was spared by Bormann despite his reformist biases, supposedly due to betraying Baldur von Schirach. His rise to prominence is openly supported by powerholders such as the Wehrwirtschaftsführers and what remains of the German intelligentsia.\n\nWaldheim has announced an emphasis on accelerated detente with the world's superpowers. Whispers also suggest that Waldheim may revive the "Koalition Der Nationen" concept developed by Speer's bloc. Regardless of his intentions, the first Aryan diplomat must navigate a world defined by Hitler's bellicose policies, and soon to be wracked by a new war in the East."
+WORLD.41025.a:0 "You may cooperate, or you may submit."
+
+WORLD.41026.t:0 "[Get_newspaper_header]Klopfer's Purge"
+WORLD.41026.desc:0 "The Reichstag has declared the start of a comprehensive purge within the Nazi Party under the direct command of Führer Klopfer,  a necessary countermeasure to prevent infighting among the ranks of the government. These purges have expanded to sweeping through non-government civilian organizations too, following the instability suffered from the Oil Crisis, the resurgence of student protests, and the death of Martin Bormann.\n\nThroughout the streets of Germany, increased OrPo and Wehrmacht presence has accompanied the purge, intending to quickly quell the student riots and to deter leftist terrorist cells. International observers report not only the brutalization of protestors but the demotion, imprisonment, or exile of their families. Remnants of the reformist and militarist factions have been publicly executed along with their wives and children."
+WORLD.41026.a:0 "Treason will be torn out by the roots."
+
+WORLD.41027.t:0 "[Get_newspaper_header]Gehlen's Purge"
+WORLD.41027.desc:0 "Terrible news has come from Germany. A third purge of "traitorous and Communist elements within the Reich" has begun at the direction of Führer Gehlen, who was reportedly injured in a bombing by an RAF cell in Germania. The bombing killed several civilians, local OrPo officers, and high ranking bureaucrats, but failed to eliminate its primary target.\n\nAlong with the bloody purge of civilian, military, and bureaucratic ranks, Gehlen has ratified the Vaterlandsschutzgeset, a law containing expansions to the OrPo's legal powers and provisions which would loosen extrajudicial searches and arrests on dissident elements within the Reich.  Although the law has been accepted with warm praise from the Nazi Party, international observers note that early critics of the law were not present at the signing, some of which have not been seen in public for several months."
+WORLD.41027.a:0 "The Reich's watchful eyes will never rest."
+
+WORLD.41028.t:0 "[Get_newspaper_header]Waldheim's Purge"
+WORLD.41028.desc:0 "Citing a noticeable destabilization in the Nazi party following the Reich's defeat in the Second West Russian War, the Führer has launched a swift purge of subversive elements within his government. Using documents salvaged from the Bormann and Hitler regimes' archives, Waldheim's government has sentenced numerous officers, politicians, and bureaucrats to imprisonment or death for corruption and treason.\n\nLost amidst the German media's focus on these "traitorous elements" are measures being taken against non-governmental dissidents, especially student protestors. Student protests have notably quieted recently, and several major leaders in the protests have quietly disappeared. Instead, young men and women loyal to Führer Waldheim have been promoted in the German media, and encouraged to "keep an eye" on their classmates."
+WORLD.41028.a:0 "The Reich's welcoming hand has closed into a fist."
+
+WORLD.41029.t:0 "[Get_newspaper_header]General Heusinger's Coup"
+WORLD.41029.desc:0 "In the aftermath of the Second West Russian War, public and institutional faith in Martin Bormann's successor has never been lower. Spurred on by fears of stagnation and reprisals, a clique of National Socialist army officers led by General Heusinger have couped the civilian government in Germania.\n\nFührer Heusinger has promised to use military discipline and Aryan might to rejuvenate and rebuild  the German nation. New public works and the inauguration of "economic struggle" are the basis of his public policies. Yet, Heusinger's brief leadership has also been characterized by the bloody assassination of the remaining Bormannites and their supporters. Tensions are only expected to worsen as the radicalized Wehrmacht tightens its grip over Germany's husk."
+WORLD.41029.a:0 "For the Fatherland, against Judaism and sloth."
+
+WORLD.41030.t:0 "[Get_newspaper_header]Speer Resigns the Führership"
+WORLD.41030.desc:0 "Overwhelmed by backlash to the Reich's defeat in the Second Russian War, Führer Albert Speer has officially declared his resignation citing “overwhelming health concerns". In a statement before the Reichstag, Speer appointed a new government "consisting of honorable men who will fulfill the obligation to continue our national struggle".\n\nNotable members of the new government include Deputy-Führer Kurt Kiesinger, the new Reich President, and Helmut Schmidt, who has been appointed Reich Chancellor. The leaders of the "Gang of Four", a group of bureaucrats believed to have worked from the shadows to restore German democracy, have revealed a comprehensive plan to "restore the prosperity we enjoyed under Hitler". Early plans include the acceleration of liberal-democratic reforms and the elimination of eugenic and racial policies."
+WORLD.41030.a:0 "The Sun sets on Hitler's New Order."
+
+WORLD.41031.t:0 "[Get_newspaper_header]The Volkshalle Address"
+WORLD.41031.desc:0 "In the aftermath of the Reich's defeat in the Second West Russian War, Führer Albert Speer has taken the reins of government once more. In a speech before the Volkshalle, Speer declared that "Jewish and liberal-Bolshevik sabotage" was responsible for the disaster in Eastern Europe. Speer stated that disloyal elements assassinated intelligence assets, intercepted key orders, and muddied military trade deals in order to overthrow the Reich.\n\nAll promise of progressive reform in the Reich has been shattered. Helmut Schmidt and Hans Speidel have been swiftly arrested, and a new Sondergericht seems to be growing on the horizon. Ties with radical student movements have been repudiated as weak and naive, and radicalized settlers returning from the East are already calling for the Führer to dismantle all liberal influence in Germany."
+WORLD.41031.a:0 "This is how democracy dies, with quiet gasps for help."
+
+WORLD.41032.t:0 "[Get_newspaper_header]Speer Resigns the Führership"
+WORLD.41032.desc:0 "In the aftermath of the Reich's defeat in the Second West Russian War, Führer Albert Speer has unexpectedly declared his resignation citing “overwhelming health concerns". In a statement before the Reichstag, Speer appointed a new government "consisting of honorable men who will fulfill the obligation to continue our national struggle".\n\nThe new government seems to have been primarily formed around Deputy-Führer Kurt Kiesinger, the new Reich President. Other notable members include Otto Ernst Remer as head of the Wehrmacht and Martin Mussgang as Reichschancellor. Foreign Minister Helmut Schmidt is notably absent from the lineup, leading many to suspect he may have been forced out of the halls of power. When asked to comment on the matter, Kiesinger stated that "in the new Reich, men earn the position they deserve""
+WORLD.41032.a:0 "A German Judas revealed."
+
+WORLD.41033.t:0 "[Get_newspaper_header]The Wehrmacht Putsch"
+WORLD.41033.desc:0 "The streets of Germany are filled with Wehrmacht patrols and tanks. Marshal law is the order of the day, as Reichsmarschall Hans Speidel has seized control of the government.\n\nFollowing the Reich's defeat in the Second Russian War, the National Socialist government was unable to effectively bring an end to the chaos. Infighting between Führer Speer and his own cabinet only exacerbated the matter, as bureaucratic dysfunction and rumors of bloodless coups condemned Germany to rapid decline. The military, bloodied and angered by what they saw as a loss due to civilian interference, threatened most of the NSDAP into public mass resignations. While the Wehrmacht will undoubtedly prove more effective leaders than Speer, Speidel's "apolitical Führership" is not necessarily a liberalizing force, and advocates of a free Germany may yet see their hopes dashed."
+WORLD.41033.a:0 "In the New Order, speeches stand no chance against tanks."
+
+WORLD.41034.t:0 "[Get_newspaper_header]The New Sondergericht"
+WORLD.41034.desc:0 "Despite the Reich's victory in the Second West Russian War, Führer Albert Speer has announced that treason and dissent resulted in "unacceptable military and political deficiencies" during the conflict. A second Sondergericht has begun. Many dissidents in the radical wings of the party, including former Minister of Foreign Affairs Helmut Schmidt, far-right figures such as Theodor Oberlander, and apolitical leaders such as Hans Speidel have been arrested and put on trial for treason and sedition against the Reich.\n\nAs the German masses bay for blood, international observers denounce the thinly-veiled pogrom as nothing but a purge of the most democratic elements of the government. The Ministry of Foreign Affairs has guaranteed that the Reich will not return into stagnation, and will still be “open for trade”."
+WORLD.41034.a:0 "The Reich shows its true colors."
+
+WORLD.41035.t:0 "[Get_newspaper_header]Speer Resigns the Führership"
+WORLD.41035.desc:0 "In the aftermath of the Reich's victory in the Second West Russian War, Führer Albert Speer has unexpectedly declared his resignation citing "overwhelming health concerns". In a statement before the Reichstag, Speer appointed a new government "consisting of honorable men who will fulfill the obligation to continue our national struggle".\n\nNotable members of the new government include Deputy-Führer Kurt Kiesinger, the new Reich President, and Helmut Schmidt, who has been appointed Reich Chancellor. The leaders of the "Gang of Four", a group of bureaucrats believed to have worked from the shadows to restore German democracy, have revealed a comprehensive plan to "continue Führer Speer's legacy" and "build a Reich to last a thousand years". Early plans include the acceleration of liberal-democratic reforms and the elimination of eugenic and racial policies."
+WORLD.41035.a:0 "Einigkeit und Recht und Freiheit!"
+# War Declaration
+
+WORLD.41036.t:0 "[Get_newspaper_header]Argentina Takes the 1974 World Cup!"
+WORLD.41036.desc:0 "In a nail biting match, the Argentine National Football Team has won out against the Deutsche Fußballnationalmannschaft. The long journey to victory has been a challenge to the team, but under the guidance of the team's coach, César Menotti, they have proved their worth on the world stage and to their fellow countrymen. \n\nTheir opponents, the national team of the German Reich, took the defeat graciously, as the German coach Georg Buschner was seen shaking hands with his adversary. However, upon return to Germania, Bushcner announced his retirement, citing his deteriorating health, though rumors have been spread that the German government demanded his resignation following the defeat. Overall, the world is jubilant as Argentina has shown her mettle on the field and the Reich sits in its defeat."
+WORLD.41036.a:0 "A devastating blow to German pride."
+WORLD.41036.b:0 "Scheisse!"
+WORLD.41036.c:0 "Viva Argentina!"
+
+WORLD.41037.t:0 "[Get_newspaper_header]1976 Tangshan Earthquake"
+WORLD.41037.desc:0 "In the early hours of the morning today a catastrophic 7.6 magnitude earthquake hit the Tangshan province in China. The nation's President, Gao Zongwu, has called for immediate and drastic aid and directed major state funds to the affected province. Experts estimate around 100,000 have died, but with thousands missing and in critical condition this number may exponentially rise.\n\nResponse from the Co-Prosperity Sphere has been sympathetic yet muted, as Tokyo has given token funds to the reconstruction effort but remains hesitant to provide major aid with the effects of the oil crisis still lingering over the country. The Manchurian and Mongolian governments, who saw significant damage as a result of the disaster as well, also petitioned for aid but it looks as though the crisis won't see enough aid to be quickly resolved."
+WORLD.41037.a:0 "The dragon reels."
+WORLD.41037.b:0 "We cannot afford more catastrophe!"
+
+WORLD.41038.t:0 "[Get_newspaper_header]Ted Bundy Caught"
+WORLD.41038.desc:0 "The notorious Campus Killer Theodore Robert Cowell, better known as Ted Bundy, has been apprehended by local police in the Florida city of Pensacola. Bundy had been arrested on multiple occasions prior but has consistently escaped custody until now. The killer is notorious for strings of murders and kidnappings of young women, possibly dating back to the 1960s. Surviving victims describe Bundy as incredibly charming and charismatic, which he used to lure women to their deaths. \n\nFollowing his arrest, ties have now been made to several other disappearances and murders in various states and counties across several years. Bundy has been imprisoned awaiting trial at an unannounced date. While the trial itself may take time to be held, few expect anything but a guilty verdict with the slew of evidence against him."
+WORLD.41038.a:0 "He escaped custody how many times!?"
+WORLD.41038.b:0 "We caught the bastard!"
+
+WORLD.41039.t:0 "[Get_newspaper_header]Invention of the MRI!"
+WORLD.41039.desc:0 "A great victory for modern medicine has been revealed today in the MRI, or magnetic resonance imaging machine, formally showcased to the world by American chemist Paul Christian Lauterbur with his partner, British physicist Peter Mansfield. The device allows for detailed scans of human anatomy never before possible in science, allowing for more easily diagnosing a multitude of conditions, particularly in the brain.\n\nWith this great achievement, the United States has increased project funding and assisted the duo in producing prototypes for use outside of project testing. Response in the scientific community has been resoundingly positive, with practical use of the device for hospitals sure to come in the near future the world over."
+WORLD.41039.a:0 "An achievement for the ages!"
+
+WORLD.41040.t:0 "[Get_newspaper_header]SALT Agreement Signed"
+WORLD.41040.desc:0 "A series of talks between the United States and Empire of Japan over many weeks have culminated in the SALT Agreement, or Strategic Arms Limitation Talks. Two separate agreements were reached between the superpowers, the Treaty on Anti-Ballistic Missile and the Interim Agreement and Protocol on Limitation of Strategic Weapons, aimed towards lowering nuclear production and preventing any escalation in the nuclear arms race between the two powers. \n\nWith these treaties and agreements, the world begins to breathe more easily and take the initial steps to ease away from risk of nuclear annihilation. Though many speculate behind closed doors as to the staying power of the treaty, especially as any major disarmament is prevented by Germania's refusal to participate, its role as a starting point to further talks cannot be understated."
+WORLD.41040.a:0 "A first step, but not the last."
+WORLD.41040.b:0 "Nothing but weakness!"
+WORLD.41040.c:0 "The clock moves away from Midnight."
+
+WORLD.41041.t:0 "[Get_newspaper_header]World Trade Center Opened in New York"
+WORLD.41041.desc:0 "Early this afternoon, the towers of the new World Trade Center has been formally opened to the celebration of many in the United States and abroad. Several figures in local and national politics as well as NYC real estate moguls, were present at the opening of what is now the tallest building in the world. Congratulations have also been extended to the lead architect, Minoru Yamasaki, a Japanese-American citizen who has become a local hero and image of the American Dream. \n\nMany countries have congratulated the United States for the opening of the economic hub, particularly within the OFN, and with the Japanese government especially congratulating Mr. Yamasaki. It appears ties within the global economic community have only continued to grow in equal step with the new heights reached by the twin towers."
+WORLD.41041.a:0 "A new commercial hub in the Big Apple."
+WORLD.41041.b:0 "American engineering at its finest!"
+WORLD.41041.c:0 "Japanese engineering at its finest!"
+WORLD.41041.e:0 "They'll never match the elegance of the Volkshalle!"
+
+WORLD.41042.t:0 "[Get_newspaper_header]Sydney Opera House Opening"
+WORLD.41042.desc:0 "Yesterday the Sydney Opera House, a multi-venue performing arts center in the heart of Australia, was opened to overwhelming applause and is already beginning to be regarded as one of the most distinctive and iconic buildings of the 20th century. The Opera House occupies all of Bennelong Point in the city of Sydney and is set to hold its debut venue in a few months time.\n\nThe Opera House is jointly operated by three companies and is estimated to become one of the most popular attractions in Sydney. Many heralded the site as a new cultural center and wonder of the world in a land few know for its artistic contributions to the world. The Australian Prime Minister is expected to visit the first venue held at the Opera House in the coming months as a new center of the arts makes waves from New South Wales."
+WORLD.41042.a:0 "Get Me A Seat!"
+
+WORLD.41043.t:0 "[Get_newspaper_header]Civil War Engulfs Kazakhstan"
+WORLD.41043.d:0 "International interest in Central Asia has been renewed after decades of silence as order in Kazakhstan faces utter collapse. Previously under the control of remnant Soviet authorities, various factions have seized vast swaths of the country and the former SSR's territory has been reduced to the deserts of the steppe.\n\nWhile most eyes appear to be far from the nation, more regional powers have taken a great interest in the development. The Polish diaspora authority in Uralsk has directly intervened in the conflict, attempting to 'pacify' the region, while the fledgling states that constitute former Russian territory have begun to intervene directly in a gambit to see what international interests they have protected. The Steppe has been set aflame, and its fate rests in the hands of the solemn few desperate enough to fight for it."
+WORLD.41043.a:0 "We must act quickly."
+WORLD.41043.b:0 "May Kazakhstan survive the fire."
+
+War_Declaration.1.t:0 "[Get_newspaper_header]Operation Red Dawn"
+War_Declaration.1.desc:0 "Decades after the West Russian War, the Union of Soviet Socialist Republics, under the careful guidance of Grand Marshal Georgy Zhukov, has begun the invasion of Europe. Code named Operation Red Dawn, the battle-hardened Red Army has crossed the vast borders of Moskowien, prepared to battle the Wehrmacht one final time.\n\nIn the city of [Root.Capital.GetName], Marshal Zhukov made a ferocious speech, calling upon all abled Soviet men and women to join the fight against the German tyrants and liberate their sacred Motherland from fascist oppression. The German government has begun to mobilise against their old enemy with the Fuhrer, [GER.GetLeader] promising to all that the Soviet rebellion will be dealt with swiftly and mercilessly. The world watches on, holding its breath as the greatest rivals in all of human history battle it out for the future of Europe.\n"
+War_Declaration.1.a:0 "Red Dawn across Europe"
+War_Declaration.1.b:0 "Their Land, Their People, Their Blood"
+War_Declaration.1.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.2.t:0 "[Get_newspaper_header]The Second Great Patriotic War"
+War_Declaration.2.desc:0 "The world is in a state of utter shock this morning, as Grand Marshal Tukhachevsky of the recently reborn Union of Soviet Socialist Republics has announced a declaration of war against the German Reich. Border garrisons have been slaughtered, and German colonists are already fleeing in mass towards the Reich proper. But even this may not save them, as apparent biological and chemical attacks have struck the Reich, killing thousands and severely disrupting supply lines.\n\nThe Fuhrer is reportedly outraged, and has instructed the Heer to slay “ten Russians for every innocent German”. The OFN, too, has publicly condemned the attacks, though support for the USSR does not seem likely to slow. The unprepared Wehrmacht may stand no chance in the face of the Grand Marshal's righteous vengeance, and international observers worry Tukhachevsky's campaign may inaugurate an attempt at worldwide revolution.\n"
+War_Declaration.2.a:0 "The dark specter comes for Europe"
+War_Declaration.2.b:0 "Death to Nazism"
+War_Declaration.2.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.3.t:0 "[Get_newspaper_header]The Russian Republic Declares War on Germany!"
+War_Declaration.3.desc:0 "Democracy in Russia has met its first great test as Alexander Yakolev, leader of the free Russian Republic, has officially declared war on the German Reich following a heartfelt speech in Syktyvkar.While many doubted true Democracy would ever return to Russia in full, the Republic of Komi rose to the occasion and managed to unite the shattered Russian lands. Now, they face their greatest threat yet with unending determination, seeking to push the “fascist menace” out of Russia and liberate the oppressed peoples living under German tyranny.\n\nThe Fuhrer has denounced the invasion as another “Judeo-Bolshevik plot to destroy the Aryan race”, while international observers praise the Russian state's efforts in creating a truly democratic Russia. Whatever the case be, it is clear that true democracy in Russia has reached its final test. If it shall overcome the odds and live up to its ideals, remains to be seen.\n"
+War_Declaration.3.a:0 "Will democracy triumph?"
+War_Declaration.3.b:0 "Democracy's great test?"
+War_Declaration.3.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.4.t:0 "[Get_newspaper_header]The Russian Republic Declares War on Germany!"
+War_Declaration.4.desc:0 "Democracy in Russia has met its first great test as Konstantin Katushev, leader of the free Russian Republic, has officially declared war on the German Reich following a heartfelt speech in Syktyvkar. While many doubted true Democracy would ever return to Russia in full, the Republic of Komi rose to the occasion and managed to unite the shattered Russian lands. Now, they face their greatest threat yet with unending determination, seeking to push the “fascist menace” out of Russia and liberate the oppressed peoples living under German tyranny.\n\nThe Fuhrer has denounced the invasion as another “Judeo-Bolshevik plot to destroy the Aryan race”, while international observers praise the Russian state's efforts in creating a truly democratic Russia. Whatever the case be, it is clear that true democracy in Russia has reached its final test. If it shall overcome the odds and live up to its ideals, remains to be seen.\n"
+War_Declaration.4.a:0 "Will freedom triumph?"
+War_Declaration.4.b:0 "Russia fights for freedom once more!"
+War_Declaration.4.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.5.t:0 "[Get_newspaper_header]Operation Sovereignty"
+War_Declaration.5.desc:0 "After the unification of Russia and the conquest of bordering lands, Svetlana Stalina's government has declared war. This was known today when every Russian radio station was briefly taken over by the government and the announcement was made.\n\nWith the army already on its way, Stalina has called upon Russians to resist and fight back as the time for righteous rebellion has finally come, the government on its behalf, considering that Nazi governance over West Russia is a “form of foreign meddling in the reconstruction's plans” has said that the undergoing military operations are part the de-radicalization process that will allow democratic rule to prosper in the future.\n\nGermany on its behalf has indicated that the Heer will strive to advance to the A-A line and the Russians will know the seamless power of a renewed Reich.\n"
+War_Declaration.5.a:0 "A war of liberation?"
+War_Declaration.5.b:0 "Old blood is never forgotten"
+War_Declaration.5.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.6.t:0 "[Get_newspaper_header]The Lady of Steel turns West"
+War_Declaration.6.desc:0 "After a long period of preparation and varios announcements of the Free Republic's desire to “Restore democratic authority and order” to the occupied zones of Russia, the time has come, the Russian Republic finds itself at war with germany.\n\nLed by Svetlana Stalina, the government justifies its actions as necessary to secure a peaceful future, since what Stalina has called “the inherent radicalism” in Germany's form of government will, in the eyes of the Steel lady, lead the world to another global conflict if not stopped properly.\n\nTo these accusations, Germany has answered indicating that Russia will not be a tough match and that the Heer will be in Syktyvkar in less than 8 weeks. As rifles crackle and tanks hum over the fields of Moskowien, the last gambit for Europe's destiny is being played and bloodshed seems unavoidable.\n"
+War_Declaration.6.a:0 "To end radicalism"
+War_Declaration.6.b:0 "Our final trial"
+War_Declaration.6.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.7.t:0 "[Get_newspaper_header]The Soviet Federation Strikes the Einheitspakt!"
+War_Declaration.7.desc:0 "Russia is once again marching west. Not for Russia alone, but for the great, progressive superculture that has sprung up in the Garden of Marxism. A high-bandwidth radio message has beamed out to the world, declaring war against the 'reactionary anti-humanists' of the Third Reich, and announcing the Federation's intention to spread its superculture across Eastern Europe.\n\nThe Fuhrer has denounced the Federation as 'Slavic barbarians', and promises to defend the German people from the 'new manifestation of international Judeo-Bolshevik thought'. While some international observers describe the Federation as 'no better than the Bukharin regime', the OFN seems to be poised to back the Federation in the latest example of Cold War realpolitik. As the Federation's soldiers march forward, so does the tide of progress. Whether humanity is prepared to swim the undertow remains to be seen.\n"
+War_Declaration.7.a:0 "Will Zhdanov's vision succeed?"
+War_Declaration.7.b:0 "“Nothing will stop us. The road to the stars is steep and dangerous, but we are not afraid!”."
+War_Declaration.7.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.8.t:0 "[Get_newspaper_header]The March of the Workers"
+War_Declaration.8.desc:0 "The Soviet Union under Svetlana Bukharina has ordered the total liberation of all oppressed peoples of Eastern Europe to all communes of Russia, and the border with Germany has been struck with the wrath of the angered Soviet peoples.\n\nEvery man and woman of the Soviet state putting their fullest into the liberation of Europe from the oppression of the fascist menace.\n\nWith the progressive values of Bukharina's Russia, everyone, regardless of their ethnicity, race or preferences is given the equal right to join the war against the Reich, and the liberation of the oppressed people of Eastern Europe is under way. May the daughter of Bukharin avenge the legacy of the Great Patriotic War."
+War_Declaration.8.a:0 "Old Foes Meet Again"
+War_Declaration.8.b:0 "Tremble Before the Red Army"
+War_Declaration.8.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.9.t:0 "[Get_newspaper_header]The King's Gambit"
+War_Declaration.9.desc:0 "All eyes are on the Union's western theater, as the final act in the long running play that is Eastern Europe reaches its endgame. Mikhail Suslov, Premier of the recently reunified Soviet Union, has formally declared war on Germany, citing border clashes and aggression as justification for what could be the greatest calamity the world sees this decade.\n\nThough the puppetmaster may prefer skulking in the shadows, this war will be decided first and foremost by brute bludgeons and crude industry. Nevertheless, Suslov's particular skillsets have already asserted themselves across the Eastern theater, as several high ranking German bureaucrats and officers have been poisoned with plutonium. The Russian people can only hope the chessmaster has properly calculated his position, for the fate of Russia, and of Marxism, hangs in the balance.\n"
+War_Declaration.9.a:0 "The greatest gambit in human history"
+War_Declaration.9.b:0 "Pawn to F4."
+War_Declaration.9.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.10.t:0 "[Get_newspaper_header]The Great Eurasian War!"
+War_Declaration.10.desc:0 "The drums of war sound once again from the shattered lands of Russia. Lev Gumilyov, Vozdh of the Eurasian State, has announced the beginning of Eurasia's first great test: the war against the German Reich.\n\nThousands of armored vehicles stream across the Moskowien frontier as German troops frantically attempt to resist the Eurasian onslaught. Buryats, Kalmyks, and Kazaks fight side by side with Russians, indiscriminately massacring German settlers as they ride.\n\nInternational Observers are hesitant to support the Russian dark horse in its efforts to build a "super-ethnic state", while others openly support Gumilyov's efforts to crush the German Reich. The Eurasian State must prove itself in the fires of war, or submit to the superior ethnos."
+War_Declaration.10.a:0 "Two Continents. One War"
+War_Declaration.10.b:0 "The Binding of the Continents Approaches"
+War_Declaration.10.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.11.t:0 "[Get_newspaper_header]The Republic at War"
+War_Declaration.11.desc:0 "Igor Shafarevich's Russian Republic has declared war on the Third Reich, citing genocide, colonialism, and Russophobia as their casus belli.  Nearly two weeks ago, the President appeared on national television and radio across the Republic and offered a heartfelt plea for the Russian folk to support efforts to reclaim their territory, and their enslaved kin, to the West. Following a brief plebiscite, the Russian public voted in favor of the war, enabling President Shafarevich to use his executive power to unilaterally order the Russian Armed Forces to cross the border.\n\nSoldiers driving American tanks and wielding Japanese-manufacturing rifles are moving into Moscowien, orderly, disciplined, and driven as always. This will not be an apocalyptic war, but a sanitized, cold blooded struggle for national supremacy."
+War_Declaration.11.a:0 "Civilization against Civilization"
+War_Declaration.11.b:0 "We march to Moscow"
+War_Declaration.11.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.12.t:0 "[Get_newspaper_header]The Clash of the Titans"
+War_Declaration.12.desc:0 "The Chairman of the Russian National Soviet Republic, Ivan Serov, has declared the beginning of the Second West Russian War. Columns of the finest tanks and row after row of elite infantry have entered Reichkomissariat Moskowien under the banner of the Ordosocialist state with only one goal in mind: the return of all former Soviet territories. It is important to note that one of the most integral parts of Ordosocialism's triumph in Russia was the fact that the new ideology would be better suited for a rematch against their oppressors west.\n\nChairman Serov promises to the world that imperialism will be struck down by the power of Ordosocialism, with their first enemy being the German Reich, the evil empire that has terrorized the Russians for decades. Those who once bombed, killed and tortured their motherland will now face the wrath of a nation fueled by revenge.\n"
+War_Declaration.12.a:0 "Abomination Against Abomination"
+War_Declaration.12.b:0 "The great test of Ordosocialism begins"
+War_Declaration.12.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.13.t:0 "[Get_newspaper_header]The People's Tsar Marches for Liberation!"
+War_Declaration.13.desc:0 "News floods the world's information networks: the Russian Empire has declared war upon Germany. Many expected this outcome after the ambitious Romanovs consolidated power in the landscape of warlordism and established a constitutional monarchy system. The Imperial Forces march with a reforged Russian spirit, and formations crashing with songs praising their beloved Tsar.\n\nWhile the forces of the Heer and Luftwaffe deploy to Moscowien to face off against Russian forces for the third time in thirty years, an engine of propaganda had been activated, spreading information about Vladimir III 's past collaboration with Germany. While the impact of such memetic warfare on the Tsar's forces is unknown, rumors are emerging that such action has had the opposite of the intended effect, as many moderate collaborators within Moscowien now look to join the Tsar's side of the war.\n"
+War_Declaration.13.a:0 "The Empire is back on its feet, let's see if they're made of porcelain."
+War_Declaration.13.b:0 "For when the dust settles, the Tsar's compassion will fuel the fire of liberation."
+War_Declaration.13.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.14.t:0 "[Get_newspaper_header]The War of Imperial Restoration Begins"
+War_Declaration.14.desc:0 "In 1918, guns were blazing in the Ipatiev House, and the Romanov dynasty was slaughtered. The Romanovs were considered a dynasty gone for good, and monarchism within Russia with it.\n\nHowever, with the revival of the imperial spirit caused by the reunification of the Russian Empire, and Tsar Vladimir Romanov at the head of it, the Russian Empire has come back, and are now looking to enact on restoring the Russian Empire to the fullest, to return lands stolen by the German invaders years ago. Today, the war of Imperial Restoration begins.\n\nThe White Army marches west, their eyes focused on the Third Rome as they begin reaping revenge on those who had destroyed their motherland."
+War_Declaration.14.a:0 "The Rebirth of the Third Rome?"
+War_Declaration.14.b:0 "The Great Crusade Against the Germans Begins!"
+War_Declaration.14.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.15.t:0 "[Get_newspaper_header]Reliving 1914"
+War_Declaration.15.desc:0 "As Russian tanks rumble into Moskowien, the curtain lifts on the final act of Eastern Europe's tragedy. The titan that was the Russian Empire, thought to be long dead just a decade ago, has been put back together piece by piece by Vladimir III, the last claimant to the Russian throne. Now, the newly crowned emperor gazes West, to the plains of Moscow and Ukraine, to the ancient cities of Moscow and St. Petersburg.\n\n"No more suffering," the Tsar booms, as his people heed his call to arms, "No more torture." He promises glory, he promises justice, and most important of all, he promises vengeance. For the broken Russian populace, this is enough.\n\nWhilst international observers may disagree on the Tsar's motivations and goals, they can all agree on one thing. This could be the bloodiest war the world has seen since the Second World War.\n"
+War_Declaration.15.a:0 "The New Dawn of Imperialism"
+War_Declaration.15.b:0 "To Avenge Brest-Litovsk!"
+War_Declaration.15.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.16.t:0 "[Get_newspaper_header]The New Bruderkrieg"
+War_Declaration.16.desc:0 "It had been months since the Russiky Reykh became an observer of the Unity Pakt. International observers, foreign policy experts, casual newspaper readers, and several schoolchildren predicted that the Germans would use the Reykh as cattle. In only a few months, the Germans have exploited Deytch lands, infiltrated the Reykh's ranks, and redirected what little production remains to vomiting cheap consumer goods into Germania, all in the name of racial brotherhood.\n\nThe same observers were baffled when Deytsche tanks crossed the border of Moskowien. Bizarre reports claim that Fyuhrer Gutrum Vagner has declared himself the reincarnation of Hitler, and has attacked the Reich to "cleanse its false Aryanism". Burning villages dot the countryside like stars, and masses of refugees have already fled into Ostland and Germany proper. In the end, only one National Socialist vision may prevail.\n"
+War_Declaration.16.a:0 "A strange kind of tragic irony."
+War_Declaration.16.b:0 "We shall prove our worth"
+War_Declaration.16.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.17.t:0 "[Get_newspaper_header]The Storm of the North"
+War_Declaration.17.desc:0 "When the Neo-Pagan realm of Hyperborea successfully reunited Russia, there had been relative peace on the borders. It originally had seemed like the threats from high priest Velimir were nothing but empty promises. However, on a quiet night, German border patrol was caught off-guard by tanks and trucks covered in runes driving into the Reichskommissariats.\n\nIn response, German troops have mobilized and set up defenses, and high priest Velimir has delivered a speech promising to cleanse the world of the Asiatic Germans and their Zionist overlords and take back their rightful lands.Meanwhile, the Führer has rallied the German people to defend their nation from the invaders and promises a quick and total victory over the barbaric lunatics.\n\nThe world now watches in silence as dark clouds gather above the future of the world.\n"
+War_Declaration.17.a:0 "Twilight of the Gods"
+War_Declaration.17.b:0 "There can only be one Master Race"
+War_Declaration.17.c:0 "There can only be one Master Race"
+
+War_Declaration.18.t:0 "[Get_newspaper_header]The Russian Republic Marches to War"
+War_Declaration.18.desc:0 "No one could have imagined that an anonymous poet would take the lead of the KONR's fiefdom, or that said poet would lead the new Republic into a redemptive war against the Fascists whose weapons and money fed the ROA in the days of old. As tanks, trucks and infantrymen embark in a crusade west, President Milety Zykov has announced that Russia is officially at war with Germany. Zykov's rhetoric, cloaked as it is in the principles of the Samara declaration, called for total self-determination in Eastern Europe, and demanded that all Russians set aside their ideology and politics to support the cause of liberation.\n\nGermany's answer was swift, as always. The Foreign Office has said that the Heer will "obliterate the Jewish threat, and hang every Zionist aggressor in the gallows of Moskau". But the Army of Liberation has never lost a war, unlike the Wehrmacht."
+War_Declaration.18.a:0 "Russia's soul is at stake"
+War_Declaration.18.b:0 "The road to freedom isn't without sacrifice"
+War_Declaration.18.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.19.t:0 "[Get_newspaper_header]The Leash is Slipped"
+War_Declaration.19.desc:0 "The bastard sons of the Nazi conquests in Russia have turned their guns against their old patron. In a modest press announcement, Sergei Bunyachenko, President of the Russian Republic and leader of the Committee for the Liberation of the People's of Russia, has declared that 'the Liberation Committee must live up to its mission" before publicly declaring war on the Reich.\n\nAs the ROA's tanks and boots march into Moscow, Russia's vast industry prepares to chew and swallow her enemies. The bloated Kombinats which form most of Russia's economy have already declared mandatory overtime and seven day work weeks, a temporary measure for the duration of the war which has seen production temporarily spike. Russia is certainly economically and industrially prepared to retake Moscow. The only question is if her commanders and soldiers have the honor and determination needed to redeem themselves."
+War_Declaration.19.a:0 "So goes the story of traitors"
+War_Declaration.19.b:0 "In an hour of difficult trials we must decide the fate of our Motherland, our peoples, our personal fate."
+War_Declaration.19.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.20.t:0 "[Get_newspaper_header]The War for National Rejuvenation"
+War_Declaration.20.desc:0 "Today, Kormichyy Mikhail Oktan and leadership of the Russian State have officially announced a Declaration of War against Germany, citing violations of trade laws, the occupation of "spiritually Russian land", and the need to “put all of eastern Europe's citizens besides Russia's golden lamp”. Ramshackle troop transports, battered tanks, and half-starved soldiers now march into Moscowien in decades-old boots.\n\nThe ideal of a united Russia is a noble hope, one that still lights the smothered souls of those who survive in the Jailor King's demesne. Still, few believe that Oktan conducts this war for any sort of national goal. More probable is that he has found some way to profit off the war. Even dreams have a price to pay, and this nightmare's price of blood and gold will be borne by the Russian people, not their miserly master."
+War_Declaration.20.a:0 "So, how much does a Russian rifle go for on the Black Market?"
+War_Declaration.20.b:0 "War is our business"
+War_Declaration.20.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.21.t:0 "[Get_newspaper_header]The Great War of Russian Liberation Begins!"
+War_Declaration.21.desc:0 "News has emerged from Eastern Europe that has stunned the entire globe. The reunited Russian state under the leadership of Grand Marshal Pavel Batov has declared war on Germany, ordering the Red Army to step forth and liberate their homeland from German tyranny.\n\nIn the city of Sverdlovsk, Marshal Pavel Batov stood before a crowd of thousands and made a rousing speech, speaking of the resilience and indomitable will of the Russian People. He then went on to call all Russians across the Motherland to join the fight, to serve Russia and to save their people from oppression of the Reich. Germany has begun mobilising millions of German men and sending them eastward to face down their old eastern foe. The world braces itself once more as Germany and Russia fight for the destiny of not only Eastern Europe but the world as we know it."
+War_Declaration.21.a:0 "Eastern Europe in flames"
+War_Declaration.21.b:0 "To Save Russia!"
+War_Declaration.21.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.22.t:0 "[Get_newspaper_header]The All Russian Liberation War Begins!"
+War_Declaration.22.desc:0 "In a passionate speech, President Boris Yeltsin of the Russian Federative Republic has announced a declaration of war against Germany. Yeltsin stated that the Republic would use 'any means available' to expel the Germans from rightful Russian lands and make them pay for every day of oppression inflicted upon the Russian people. Marshal Batov reassured the world that no strategic weapons would be used in the first months of the conflict. The diarchy is working in unison to gather support for the cause of self determination and popular salvation from the institutionalized genocide of Nazi rule.\n\nThe Reich has condemned the Russian invasion, calling Yeltsin a "Hawkish buffoon misled by his own degenerate vices", and promised to halt Russia's advance immediately. Only time will tell if the savantry of the Russian high command will be enough to turn the tides in favor of the Republic.\n"
+War_Declaration.22.a:0 "The Phoenix is finally rising from the ashes."
+War_Declaration.22.b:0 "Our last chance"
+War_Declaration.22.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.23.t:0 "[Get_newspaper_header]Kaganovich issues Order No. 227"
+War_Declaration.23.desc:0 "For years, the Soviet Union under the influence of the once fringe Stalinist brand of Soviet Communism, has been rapidly militarising and industrialing in preparation for the 'Second Great Patriotic War'. The world watched on anxiously, awaiting the seemingly invitable conflict between the Union and the Reich until one day, that fateful day had arrived. Taking the podium before the Politsbureau in the provisional Soviet capital of Tyumen, the Premier of the Soviet Union, [RUS.GetLeader], has announced the Union's declaration of war against the Greater Germanic Reich. He called upon the vast Red Army to cross the boundaries of Moskowien and to begin the liberation of their glorious Motherland by any means necessary.\n\n"There will be no retreat, no rest, only the advancing march of the invincible Red Army.""
+War_Declaration.23.a:0 "A clash of steel"
+War_Declaration.23.b:0 "Not One Step Back!"
+War_Declaration.23.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.24.t:0 "[Get_newspaper_header]Khrushchev Declares War on Germany"
+War_Declaration.24.desc:0 "From the central government of the new Union of Soviet Socialist Republics in city of Tyumen, an announcement has been sent to the world from Nikita Khrushchev, the General Secretary of the Soviet Union. The Second Great Patriotic War has been declared, and Khrushchev has declared his intentions of avenging the failures of the old union and redeeming the USSR through the vision of  Joseph Stalin, a Bolshevik of the old ages who had died mysteriously during Bukharin's rule.\n\nThe Red Army now marches westward in the name of the old capital of Moscow, a city that has been dear to the Russian people and the heart of the Russian nation that had been forcefully taken from the Soviet Union in the Second World War by the advancing German Wehrmacht. The decades long humilation of the Russian nation will be avenged by any means necessary."
+War_Declaration.24.a:0 "The end of the Reich in sight?"
+War_Declaration.24.b:0 "The long march to Germania begins"
+War_Declaration.24.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.25.t:0 "[Get_newspaper_header]The Great Trial"
+War_Declaration.25.desc:0 "After months of rumors and Russian preparation, reports have begun to come out of the first soldiers and tanks of the Black League marching across the Reichskommissariat Moscowien border in the culmination to decades of preparation by the National Reclamation Government. Initial reports are marked by ruthless tactics and unending waves of military forces, as well as unconfirmed rumors of chemical weapons and dirty bomb campaigns, even being extended to civilian targets.\n\nThe German Fuhrer has made a speech in Germania decrying the Black League's "senseless and brutal destruction" as total mobilization orders for the Wehrmacht begin to draw a massive force to Eastern Europe. As Russia's "sacred war" sees its beginning, it may signal Europe's end."
+War_Declaration.25.a:0 "Russia's final battle."
+War_Declaration.25.b:0 "Arise, vast country, against the cursed horde!"
+War_Declaration.25.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.26.t: "[Get_newspaper_header]The Federation Invades the Einheitspakt"
+War_Declaration.26.desc: "The world remains shocked as the President of the newly formed Russian Federation, Vasily Shukshin, declared war upon the Großgermanisches Reich and their Reichskommissariats. The President has stated the need to liberate Eastern Europe from German oppression and to right the wrongs made so long ago.\n\nThe Reich in response to the declaration of war has begun a process of mobilization against their old eastern foe, stating that they would 'Destory the All-Russian Army within only a few weeks'. The world holds its breath as the two greatest rivals in all of human history, both armed with nuclear weapons, battle it out for what may very well be the last war humanity shall ever fight."
+War_Declaration.26.a: "The world holds its breath"
+War_Declaration.26.b: "For the Liberation of all Russians!"
+War_Declaration.26.c: "Bring it on, Untermensch!"
+
+War_Declaration.27.t: "[Get_newspaper_header]The Federation Invades the Einheitspakt"
+War_Declaration.27.desc: "The world remains shocked as the President of the newly formed Russian Federation, Alexander Pokryshkin, declared war upon the Großgermanisches Reich and their Reichskommissariats. The President has stated the need to retake rightfully Russian lands from the Reich and to eliminate illegitimate states such as Moskowien.\n\nThe Reich in response to the declaration of war has begun a process of mobilization against their old eastern foe, stating that they would 'Destory the All-Russian Army within only a few weeks'. The world holds its breath as the two greatest rivals in all of human history, both armed with nuclear weapons, battle it out for what may very well be the last war humanity shall ever fight."
+War_Declaration.27.a: "The world holds its breath"
+War_Declaration.27.b: "For the Destruction of Germany"
+War_Declaration.27.c: "Bring it on, Untermensch!"
+
+War_Declaration.28.t:0 "[Get_newspaper_header]The Kingdom of Rus declares war on Germany"
+War_Declaration.28.desc:0 "Every Russian bell chimes twice today as the Kingdom of Rus has officially declared war on the Third Reich. King Rurik III offered a lengthy and heartfelt speech to his people, promising an end to National Socialist tyranny across the world and a restoration of Russia to its status as a great power. Thousands of armored vehicles race across the vast plains of Moskowien, while high-altitude bombers bring ruin to German supply depots and logistics hubs.\n\nGermany has promised to bring a swift end to the “ Slavic incursion”, although rumors from within the Oberkommando paint a picture of disrepair and surprise. International forces seem poised to support the bizarre Kingdom, regardless of its muddled politics and seemingly contradictory policies. It is to be seen if this relic from the past has what it takes to stand up for its values, or if the sands of time will consume it once more.\n"
+War_Declaration.28.a:0 "When we were at war..."
+War_Declaration.28.b:0 "When we are tired, we are attacked by ideas conquered long ago."
+War_Declaration.28.c: "Bring it on, Untermensch!"
+
+War_Declaration.29.t:0 "[Get_newspaper_header]The Kingdom of Rus declares war on Germany!"
+War_Declaration.29.desc:0 "Every Russian bell chimes twice today as the Kingdom of Rus has officially declared war on the Third Reich. Queen Rogneda has sworn on her life to an audience of millions that she would be the one to finally exterminate the Nazi tyrants. Her people will see Russia thrive as  a Great Power. Thousands of armored trucks race across the vast plains of Moskowien, while high-altitude bombers bring ruin to German supply depots and logistics hubs.\n\nGermany has promised to bring a swift end to the "Slavic incursion", though rumors from the Oberkommando paint a picture of disrepair and surprise. International Observers are split in their assessment of the young Queen; some doubt her ability to competently lead the forces of Rus, while others praise her as a firm, just ruler, a model of strength from which future Queens shall follow. Queen Rogneda will pave Russia's future, for better or for worse.\n"
+War_Declaration.29.a:0 "Old Imperial ambitions reborn"
+War_Declaration.29.b:0 "God save the Tsarina"
+War_Declaration.29.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.30.t:0 "[Get_newspaper_header]The Revolutionary West Russian War Begins"
+War_Declaration.30.desc:0 "Having established the Siberian Black Army just years ago, the Anarchist power slowly grew and grew, eventually reuniting Russia under the rule of anarchism. The Russian Free Territory, with it's many anarchist soldiers, have struck the border with the German reichskommisariats. The anarchists intend to liberate Europe from fascist menace that have oppressed the people for decades, and wish to extend the free territories across Europe to liberate all workers from the oppressive systems of German national socialism.\n\nThe anarchists are going to finish what Nestor Makhno was never able to do, and will bring the revolution west of the Free Territory. To the liberation of all workers from the yoke of oppressive systems! To avenge the Revolutionary Insurrectionary Army of Ukraine that had been stomped out by the tyranny of the Bolsheviks!\n"
+War_Declaration.30.a:0 "The Anarchy Spreads"
+War_Declaration.30.b:0 "For Mother Anarchy"
+War_Declaration.30.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.31.t:0 "[Get_newspaper_header]The Red Army Surges West"
+War_Declaration.31.desc:0 "Vasilevsky, leader of the recently reunified Soviet Union, has declared a state of open warfare between Russia and the German Reich. Already, reports of skirmishes at the Moskowien border are streaming in, and the German high command scrambles for a hasty response to what could be the biggest crisis of this decade.\n\nSoldiers from across the Union, be they Tuvan, Russian, or Uzbek, prepare to give their lives to exterminate European fascism forever. Their bayonets shine in the sunlight. Millions charge west, steel lining their vehicles as well as their hearts, for the world knows: if the Red Army does not succeed, Russia may be lost forever. This time, the Union will not fail."
+War_Declaration.31.a:0 "Old remnants march home"
+War_Declaration.31.b:0 "One Last Chance"
+War_Declaration.31.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.32.t:0 "[Get_newspaper_header]The Republic of Russia Declares War on the Einheitspakt!"
+War_Declaration.32.desc:0 "After years of oppresion and dispair, whispers of hope have been heard across Moskowien as the Republic of Russia has formally begun the liberation of Eastern Europe!\n\nAndrey Sakharov, from his home in Tomsk, gave a powerful speech before a crowd of thousands. "By unleashing the full potential of the individual, Russia has risen once more like a phoenix from the ashes! Within a mere decade, we have transformed our Motherland from a divided backwater into the most technologically advanced nation on the planet! People of the world! Witness the true strength of progress!"\n\nIn response, the Wehrmacht has been mobilised and rushed off the fight against the technologically superior Russian Republican Army. The world watches on, intrigued as the most advanced army of the planet battles the Reich.\n"
+War_Declaration.32.a:0 "The Great Test of Russian Democracy"
+War_Declaration.32.b:0 "Per Astra ad Aspera"
+War_Declaration.32.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.33.t:0 "[Get_newspaper_header]The Russian Republic Marches West!"
+War_Declaration.33.desc:0 "War Sirens ring across Europe, as the republican forces of Russia cross the border of Moscowien. Today President Dmitry Sergeyevich Likhachov gave a speech in Tomsk's Parliament announcing a state of war between the Russian Republic and German Reich, a war for the grand liberation of Europe from the fascist yoke.\n\nGerman Officials appear baffled by the notion that a government focused around, as they claim, “growing trees”, can matched the might of the Einheitspakt's military-industrial complex. The Reich Foreign Ministry also provided remarks about Russian Republic's salon system, stating that the next party to be elected will enforce a constitution that forces immediate surrender in times of warfare. Nevertheless, the Wehrmacht is on full alert. Its forces are already engaging republican tanks near the border of Moscow.\n"
+War_Declaration.33.a:0 "Another war in the east"
+War_Declaration.33.b:0 "Sun rays break through clouds of thunder and shine upon Europe."
+War_Declaration.33.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.34.t:0 "[Get_newspaper_header]The Commonwealth's Prestissimo"
+War_Declaration.34.desc:0 "President Moisey Vainberg has officially announced from the Petrov Salon in the heart of Tomsk that there is a state of war between the Third Reich and the Commonwealth of Russia. As the realm of reason faces its inevitable destiny westward, the Humanist army and its steel caravans advance into Moskowien, sparing no opponent the beat of their virtuous march.\n\nIn a movement that surprised none, Germany has begun a propaganda campaign calling Vainberg a representative of the Judeo-Bolshevik elite, using his Polish heritage to tar and belittle him. Retaliatory attacks in his native Poland have already begun.\n\nThe world watches as the definitive clash between the two titans of Europe rages on after more than a decade of silence. Whatever the consequences, Europe's future will be changed forever.\n"
+War_Declaration.34.a:0 "War comes even to the wisest of men"
+War_Declaration.34.b:0 "Russia's greatest symphony"
+War_Declaration.34.c:0 "Your humanity will be your downfall"
+
+War_Declaration.35.t:0 "[Get_newspaper_header]The Russian Republic Turns West"
+War_Declaration.35.desc:0 "Today, the world was stunned by  shocking news when the united Russian Republic under the leadership of Daniil Kharms and the Bastillards declared war on Germany. The Bastillard Salon is known for its cynical, anti-populist policies, including rapid industrialization, minimization of democracy, and anti-worker's rights positions. In a government known for looking down on the unwashed masses, the Bastillards take elitism to a near ideological nature. Yet it is the common man who will fight and bleed in Moscow's streets; it is the despised proles who will steer Russia's fate in the whirlpools of the battlefield.\n\nDaniil Kharms and his Salon have promised to break the New Order like dry twigs prepared for a bonfire. German officials have not given any official comments. Whether this is out of fear, or indifference, is yet to be seen."
+War_Declaration.35.a:0 "War is hell"
+War_Declaration.35.b:0 "Another battle for the future of Russia"
+War_Declaration.35.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.36.t:0 "[Get_newspaper_header]The U.S.S.R Begins the Second Great Patriotic War"
+War_Declaration.36.desc:0 "The Chairman's voice leaps from loudspeakers on every street corner, announcing to his people the commencement of Mother Russia's greatest task yet: the reclamation of the Union's eastern territories. This reunified Russia, emerging from a decade of warlordism, was deemed by many to be too weak to even entertain the possibility of invading the Reich. But Russia's productive forces have grown, her people are faithful, and she is strong.\n\nAs a flood of steel rips through Moskowien's garrisons, Germany scrambles for a hasty response to the final Russian challenge to their Eastern throne. The Song of the Union has reached its crescendo, and both dictators know only one may rule Eastern Europe.\n"
+War_Declaration.36.a:0 "Round two"
+War_Declaration.36.b:0 "The millions that drown in Moskowien's scarlet rivers will be worth Endsieg."
+War_Declaration.36.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.37.t:0 "[Get_newspaper_header]The Union of Soviet Republics of Declares War on Germany!"
+War_Declaration.37.desc:0 "Many saw the October Revolution as a means to an end. The first step in hundreds to come on the road to a more fair and equal Russia. A society built on the foundation of Lenin and Marx, one without racial prejudice and based on the uplifting of the proletariat. It seems that Valery Sablin has taken the second step forward as he announced a declaration of war from his home in Ulan-Ude. Soviet armies flood across the Moskowien border for one last gasp at a true and free Russia. The German Reich has proclaimed its steadfast dedication to “ending the Slavic threat once and for all”, while OFN Observers express doubts whether the unstable and fragile Reich can withstand another great blow to its Empire.\n\nAs the fires of revolution spread across the German frontier, it seems the battle is finally going again. This time, for the fate of all of Russia.\n"
+War_Declaration.37.a:0 "The Legacy of Bukharin"
+War_Declaration.37.b:0 "The Battle Continues!"
+War_Declaration.37.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.38.t:0 "[Get_newspaper_header]The Union of Soviet Republics Declares War on Germany!"
+War_Declaration.38.desc:0 "Many saw the October Revolution as a means to an end. The first step in hundreds to come on the road to a more fair and equal Russia. A society built on the foundation of Lenin and Marx, one without racial prejudice and based on the uplifting of the proletariat. It seems that Valery Sablin has taken the second step forward as he announced a declaration of war from his home in Ulan-Ude. Soviet armies flood across the Moskowien border for one last gasp at a true and free Russia. The German Reich has proclaimed its steadfast dedication to “ending the Slavic threat once and for all”, while OFN Observers express doubts whether the unstable and fragile Reich can withstand another great blow to its Empire.\n\nAs the fires of revolution spread across the German frontier, it seems the battle is finally going again. This time, for the fate of all of Russia.\n"
+War_Declaration.38.a:0 "The Legacy of Lenin"
+War_Declaration.38.b:0 "The Battle Continues!"
+War_Declaration.38.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.39.t:0 "[Get_newspaper_header]The Russian Empire Declares War on Germany!"
+War_Declaration.39.desc:0 " it seems like the echoes of the Great War have finally caught up to the German Reich as Russian soldiers and tanks stream across the border in one last battle for all of Holy Russia.\n\nBroadcasting from his majesty's Imperial Palace in Chita, the Tsar has proclaimed the start of a Great Crusade against the "German Menace", promising to restore the Russian Empire to its former glory and redeem its failures that had led to the Bolshevik revolution and subsequent defeat in Operation Barbarossa so long ago. Some International Observers have expressed doubts regarding the newly-unified Tsardom's capabilities in standing up to the German giant so soon, while others praise the Empire's dedication in redeeming itself in the face of such a monumental threat to the Russian people.\n\nAs the twin giants clash for the fate of Europe once more, one thing is clear. Either Russia will be ruled by a Tsar, or their will be no Russia.\n"
+War_Declaration.39.a:0 "Arise, Russian Land. Arise to Defend your Faith!"
+War_Declaration.39.b:0 "Can the Empire avenge its failures?"
+War_Declaration.39.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.40.t:0 "[Get_newspaper_header]The Great Slavic Reclaimation War Begins!"
+War_Declaration.40.desc:0 "Under the orders of the Russian Vozhd, Konstantin Rodzaevsky and the Russian Fascist Party, the new Russian power has begun it's march west. Declaring a "Total Reclamation of Rightful Slavic lands from the oppression of the Wehrmacht". Rodzaevsky has mobilised the entire All-Russian Army to march on the Moscow and reclaim the rightful western lands of the superior Slavic peoples.\n\nRodzaevsky swore that this war would not end like the Soviet Union's war with the German Reich, as Russia no longer has been infected with the stain of Judeo-Bolshevism, which had supposedly "Weakened the Spirit of the Slavic People".\n\nWhatever the outcome may be, there seems to be a sense of dread from all parts of the world as the two Nazi titans battle once more on the scared lands of Eastern Europe."
+War_Declaration.40.a:0 "Two peoples. One ideology. One war."
+War_Declaration.40.b:0 "No more the weakling."
+War_Declaration.40.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.41.t:0 "[Get_newspaper_header]The Vozhd Against the Fuhrer!"
+War_Declaration.41.desc:0 "None would have predicted the reversal of Red October, where remnants of the reformed Fascist Party unified Russia from the desolate East.  The dust has settled, and now Vozhd Mikhail Matkovsky has commenced of the War of Russian Liberation. As a pragmatic dictator, Matkovsky has established a large support base from both the OFN and the Sphere. Neutral observers claim Matkovsky's fascist leanings and ruthless practice of Realpolitik will simply replace the unstable Nazi menace with a leaner, saner threat.\n\nRegardless of foreign naysayers, the Wehrmacht seems to have finally met its match in its Russian counterpart. Slavic armies aided by equipment designed in Guandong, White Army experience, and nationalistic zeal finally push into Moscowien. The soldiers fight with honor, guided by the hope that Russia will emerge victorious and forever dictate the fate of the world!\n"
+War_Declaration.41.a:0 "Let us hope that this war will result in real change, not realigned chairs."
+War_Declaration.41.b:0 "For National Liberation!"
+War_Declaration.41.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.42.t:0 "[Get_newspaper_header]The Russian National Republic Storms Nazi- Occupied Europe"
+War_Declaration.42.desc:0 "The tense peace between the Russian National Republic and the German Reich has shattered in the wake of millions of Russian soldiers advancing across the Moscowien border. President Nikolay Petlin has rallied the Russian people as the country shifts towards an unprecedented scale of mobilization in the hope of fulfilling a "solemn pledge" to liberate occupied Eastern Europe.\n\nThe OFN has expressed its support for the Russian cause in their "Great Crusade" against German tyranny, with many viewing the war as the culmination to the Free World's decades-long battle against Nazism. Initial reports are marked by unrelenting military assault as the Heer struggles to muster against Russian forces. Russia has joined the desperate fight to preserve the light of freedom, and it may see the Reich toppled in its entirety."
+War_Declaration.42.a:0 "A final struggle for freedom."
+War_Declaration.42.b:0 "We will have liberty, or we will have death."
+War_Declaration.42.c:0 "Bring it on, Untermensch!"
+War_Declaration.42.d:0 "One last chance."
+
+War_Declaration.43.t:0 "[Get_newspaper_header]The United States of Russia Invades the Einheitspakt"
+War_Declaration.43.desc:0 "In a strange turn of events, the United States of Russia under the leadership of the mercenary, Mitchell WerBell the III, has declared war on the Einheitspakt.\n\nWerBell had made a speach from his home in Magadan, stating that much like his home country has Washington, Russia required Moscow. He futher stated that the Reichskommissariats were illegally occupied by the German Reich and that the USR has every right to liberate their people from oppression before finishing his speech with the words "Ad Bellum!".\n\nThe Wehrmacht has mobilised in response, moving toward the east and more than prepared to crush this new Russian state. Millions of Eastern Europeans brace themselves as historys greatest rivals battle it out once more.\n"
+War_Declaration.43.a:0 "The world holds its breath"
+War_Declaration.43.b:0 "Ad Bellum!"
+War_Declaration.43.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.44.t:0 "[Get_newspaper_header]A Holy War against the Einheitspakt"
+War_Declaration.44.desc:0 "A Bizzare proclamation from the Divine Mandate of Russia has just been announced today as its de-facto leader, Father Alexander Men, has just declared war against the German Reich and its Einheitspakt. The Father has made it clear to the world that it seeks to liberate the oppressed peoples of Eastern Europe from the shackles of German Oppression.\n\nAs of this moment, numerous uprisings have sparked all across the Reich's frontier. Although German High Command remains confident about its war against the Non-Nuclear Divine Mandate, numerous analysts have stated that the Mandate's vast missile stockpile may hamper the German offensive and its nuclear arsenal. The world prays feverently for a quick resolution to the hostilities."
+War_Declaration.44.a:0 "Blessed are the Peace Keepers"
+War_Declaration.44.b:0 "Lord, Have Mercy"
+War_Declaration.44.c:0 "Bring it on, Untermensch!"
+
+War_Declaration.45.t:0 "[Get_newspaper_header]The U.S.S.R Begins the Third Great Patriotic War"
+War_Declaration.45.desc:0 "Speaking to the world from Rykov, Premier Sergei Bessonov announced that the Presidium of the USSR has unanimously voted to declare war on the Third Reich. Citing racial and class oppression, numerous raids across the de-facto border, and alleged assassination attempts against high-ranking Soviet officials, Bessonov called on the Co-Prosperity Sphere and OFN to unite behind the USSR to "quence fascist vulgarity, and return to a period of international law and peaceful relations."\n\nInternational observers have described Bessonov's USSR as extremely similar in policy to the Union under the Bukharin administration. Optimists state that this incarnation of the USSR will have a fighting chance now that it marches to war on its own terms; others insist that a government with identical policy and lesser manpower and industry cannot hope to reverse the defeats of the '40s."
+War_Declaration.45.a:0 "Round two."
+War_Declaration.45.b:0 "Time for a rematch!"
+War_Declaration.45.c:0 "Bring it on, Untermensch!"
+
+# Victories
+
+Russian_Victory.2.t:0 "[Get_newspaper_header]The Red Specter Dominates Eastern Europe"
+Russian_Victory.2.desc:0 "After decades of exile into the fringes of Europe, Communism has made a triumphant return to Eastern Europe under the banner of the new Soviet Union under Mikhail Tukhachevsky. The red banner waving high over the ruins of the Kremlin, the Grand Marshal made a powerful speach before the world, citing the inevitablity of the International Revolution, Germany's defeat only proving the strength of Communism on the global stage.\n\nWhile the Soviet Union revels in its victory, German society has been deteriorating as mass riots break out as the populace call for the replacement of the ruling Nazi party. As Nazi power in Germany wanes while the Red Specter consolidates its rule over the East, many are left wondering how the world will adjust to the fall of one radical regime and the rise of another."
+Russian_Victory.2.a:0 "The World Trembles"
+Russian_Victory.2.b:0 "From one spectrum to another"
+Russian_Victory.2.c:0 "Scheiße!"
+
+Russian_Victory.3.t:0 "[Get_newspaper_header]The United States of Russia Victorious Over Germany!"
+Russian_Victory.3.desc:0 "Metal gears and the power of money beat the damn krauts"
+Russian_Victory.3.a:0 "Bormann can rot in hell."
+
+# Global Conflicts
+
+Global_Conflicts.1.t:0 "[Get_newspaper_header]The Karelian Uprising!"
+Global_Conflicts.1.desc:0 "Today, at [GetDateText], armed resistance has risen against the Finnish government within their previously controlled territories of Karelia. Led by interim President Reino Hayhanen, the government has declared full independence from Finland, while simultaneously declaring the intent to petition Russia for annexation.\n\nThe resistance group started after the Second Winter War during the Second Winter War when the now-defunct West Russian government fought over the terriories of Onega against Finland, but have only recently gained major popularity when protestors in Petrozavodsk City denounced Finnish bias to conscripting Karelian citizens into the army, calling it a underhanded move to reduce the Karelian population. With Russia annoucing its support for the Karelians rebels, it would appear that the Cold War has shifted to the north as its newest contender tests its steel beyond its borders.\n"
+Global_Conflicts.1.a:0 "Scandinavia in Flames"
+Global_Conflicts.1.b:0 "Across Europe, our people awaken"
+Global_Conflicts.1.c:0 "The Russian threat has returned"
+
+Global_Conflicts.2.t:0 "[Get_newspaper_header]Karelian Separatists Victorious!"
+Global_Conflicts.2.desc:0 "The brutal conflict known as the "Second Great Northern War" has finally come to an end with a spectacular victory for the Karelian separatists and their Russian allies.\n\nOriginally taken from the Soviet Union during Operation Barbarossa and the subsequent Finnish invasion, Karelia has been a major flashpoint between both Finland and Russia ever since the unification. These tensions exploded into a full-scale war as the Karelian Liberation Army rose up against their Finnish occupiers. Russian ground forces swiftly moved in to secure the region, steadily advancing through the thick forests and numerous lakes until the Finnish government sued for peace with the Karelian separatists, ending the conflict in a victory for Karelia and the resurgent Russia.\n\nWith this victory, Russia has exerted its might as a major power once more, sending a clear and powerful message to a silent Germania.\n"
+Global_Conflicts.2.a:0 "Peace returns but for how long?"
+Global_Conflicts.2.b:0 "A triumph for Russia!"
+Global_Conflicts.2.c:0 "...Scheisse..."
+
+Global_Conflicts.3.t:0 "[Get_newspaper_header]Finland Defeats the Karelian Separatists"
+Global_Conflicts.3.desc:0 "The brutal conflict known as the "Second Great Northern War" has finally come to an end with a spectacular victory for the Karelian separatists and their Russian allies.\n\nOriginally taken from the Soviet Union during Operation Barbarossa and the subsequent Finnish invasion, Karelia has been a major flashpoint between both Finland and Russia ever since the unification. These tensions exploded into a full-scale war as the Karelian Liberation Army rose up against their Finnish occupiers. Russian ground forces swiftly moved in to secure the region but were met with fierce Finnish resistance. After intense fighting across a vast front, the Karelian government finally collapsed, decisively ending the conflict with a firm Finnish victory and delivering a brutal loss to Russian forces in Europe.\n\nWith this victory, the Reich stands triumphant over Russia once more. Whether it can maintain its dominance, remains to be seen. \n"
+Global_Conflicts.3.a:0 "Peace returns but for how long?"
+Global_Conflicts.3.b:0 "We'll be back!"
+Global_Conflicts.3.c:0 "As Expected"
+
+Global_Conflicts.4.t:0 "[Get_newspaper_header][RUS.GetName] Intervenes in the Iranian Civil War"
+Global_Conflicts.4.desc:0 "As the civil war continues to rage across Iran, [RUS.GetLeader] has announced the [RUS.GetName] formal intervention into the conflict.\n\nAlthough the [RUS.GetName]'s official aims are to restore order to Iran, many international spectators agree that the true purpose of its involvement in the region is to expand their own sphere of influence.\n\nRussia has only recently reunified after decades of warlordism and already, [RUS.GetNameDef] has begun to make its moves on the world stage and upsetting the political status quo that has existed since the end of the Second World War.\n\nThe entry of the 'Fourth Power' into the Iranian Civil War has changed the balance of power in the conflict and could become influential in deciding the outcome of the war.\n"
+Global_Conflicts.4.a:0 "Russia spreads her wings"
+Global_Conflicts.4.b:0 "Russia will restore order"
+
+Global_Conflicts.5.t:0 "[Get_newspaper_header]The Kraków Uprising!"
+Global_Conflicts.5.desc:0 "The idea of a free Poland was thought to have been completely destroyed following the conclusion of the German Civil War, a nation annihilated beneath the crushing boot of Nazi Germany once again. In recent weeks, however, the once lost Polish nation has slowly been waking up following Russia's victory in the Second West Russian War and the ensuing chaos consuming Germany.\n\nIn the city of Krakow, pro-independence protests became a mass uprising that went on to spread across Southern Poland lead by Karol Wojtyla and the rebuilt Polish Home Army. The German government was swift in accusing the Russian government of orchestrating the recent Polish Uprising, claiming that the [RUS.GetName] was taking advantage of the Reich's weakened state. Regardless of whether these claims are true or not, the Poles are fighting once more, their eyes focused on the city of Warsaw.\n"
+Global_Conflicts.5.a:0 "Damn the Poles!"
+Global_Conflicts.5.b:0 "The Reich Continues to Crumble"
+
+Global_Conflicts.6.t:0 "[Get_newspaper_header]Polish Independence"
+Global_Conflicts.6.desc:0 "After intense fighting throughout the once thought pacified lands of Poland, it would seem that the Polish people have at last secured their independence from Germany. Under the leadership of provisional President Karol Wojtyla, the Poles have defied the odds as the Polish flag is raised over Warsaw once more.\n\nReceiving recognition from both the United States and the Russian Federation with the Japanese opening diplomatic relations, it would appear that for the first time in decades, Poland is at last here to stay. With Poland liberated from Germany, the Reich's hold on Central Europe seems irreversibly shaken as discontent and protests begin to rise throughout Northern Europe, leaving many to wonder if the Einheitspakt can survive the 1980s."
+Global_Conflicts.6.a:0 "Poland is not yet lost!"
+Global_Conflicts.6.b:0 "Let's hope China doesn't get any ideas"
+Global_Conflicts.6.c:0 "Scheisse..."
+Global_Conflicts.6.d:0 "Welcome back, Poland"
+
+Global_Conflicts.7.t:0 "[Get_newspaper_header][GGN.GetNameDef] Triumphant"
+Global_Conflicts.7.desc:0 "Devastating news has befallen the Polish people once more as the last brave holdouts of the Polish Home Army are crushed yet again underneath the boot of their German occupiers.\n\nEmboldened by the stunning defeat of Germany in the Second West Russian War coupled with rumored arms shipments from Russia, the Polish Home Army rose once more in open revolt, driving the disorganized occupation authorities from the countryside, steadily marching north towards Warsaw. Reacting quickly to the situation thousands of Wehrmacht troops flooded into Poland once more, pushing the exhausted Home Army back to Lwow, systemically clearing the city until nobody was left standing.\n\nWith this defeat, Poland is cast into darkness once more. Perhaps this time, forever."
+Global_Conflicts.7.a:0 "Deutschland now. Deutschland forever."
+Global_Conflicts.7.b:0 "The final, painful whimper of Poland"
+
+Global_Conflicts.8.t:0 "[Get_newspaper_header]Return of the Exiles"
+Global_Conflicts.8.desc:0 "Today marks a new page in history, as the almost forgotten exiles of Nowa Polska; a once warlord state in Kazakhstan, and a spiritual successor to the Polish state; once more return to  what's left of their ancestoral land. Many leaving behind homes and belongings,  brining with it a feeling of reminisence to when they fled the land they now are on exodus to all those years ago. As the formerly exiled Polish government consolidates their control over the nation from the historical capital of Warsaw, International commentary have described this event as "The beginning of Poland, on a bloody, yet clean slate\n\nWhile the international implications of such a phenomenon are minimal, the symbolic value of a Polish homecoming is to be celebrated by Poland's massive international diaspora for years to come."
+Global_Conflicts.8.a:0 "Decades of work now undone"
+Global_Conflicts.8.b:0 "The first victim now reborn"
+
+# China
+
+SWRW_Chinanews.1.t:0 "[Get_newspaper_header]The Northwest Government Victorious!"
+SWRW_Chinanews.1.desc:0 "As the gruelling war in Western China comes to an end, it would seem that the warlord Ma Jiyuan and the Northwest Government have emerged victorious, unifying the vast region under the banner of the White Sun. Following a victory parade in the provisional capital of Xining, Ma made a rousing speech to his people, denouncing the Imperialists in Japan and declaring the Nanjing government to be an illegitimate puppet regime.\n\nIn that same speech, Ma has announced that he will step down and organize elections, emphasizing the Three Principles and the redemption of his family name. Factions of the remaining Free Chinese, including mainline KMT, military men inspired by Chang Kai-shek, and survivors of the CCP have stepped up as potential candidates, each attempting to rally the divided ethnic, class, and ideological groups behind them.\n\nThe Sphere has yet to make a response.\n"
+SWRW_Chinanews.1.a:0 "A threat to Asian unity"
+SWRW_Chinanews.1.b:0 "To the legacy of Sun Yat-Sen!"
+SWRW_Chinanews.1.c:0 "Is Chinese Reunification insight?"
+
+SWRW_Chinanews.2.t:0 "[Get_newspaper_header]Sun Tse-Ping wins the Chinese Elections!"
+SWRW_Chinanews.2.desc:0 "Sun Tse-Ping, a descendant of the first President of China, Sun Yat-Sen, has triumphed in the elections in recently unified Western China. Returning to China from his family's exile to California, Sun Tse-Ping has promised to liberalise all of China and to combat the poverty that plagues Western China in accordance with his late grandfather's principles.\n\nIn his victory speech in the Republic's capital, Xining, President Sun Tse-Ping denounced Japanese imperialism, declaring that the people of China can never know true freedom until the puppets are destroyed and the Japanese menace are repelled from their homeland once and for all. The Russian Federation and the United States congratulated Sun Tse-Ping. The Japanese criticised the President's reckless words, marking the first time the Sphere has acknowledged the new Chinese Republic.\n"
+SWRW_Chinanews.2.a:0 "Reckless words, indeed"
+SWRW_Chinanews.2.b:0 "To Sun Tse-Ping and freedom!"
+SWRW_Chinanews.2.c:0 "An old face for a new China"
+
+SWRW_Chinanews.3.t:0 "[Get_newspaper_header]Chiang Chingkuo wins the Chinese Elections!"
+SWRW_Chinanews.3.desc:0 "After a close race, the elections in Western China has come to a close as Chiang Chingkuo, the son of the late Chiang Kai-shek, has been declared the winner. Promising to democratise the nation and restore law & order to a troubled region over the coming years.\n\nDuring his victory speech in the provisional capital of Xining, the new President made it clear that if what remained of free China was to stay free of the barbaric Japanese Empire, it would need to rapidly industrialise and militarise in order to ensure the defence of their remaining homeland.\n\nThe Russian Federation and the United States congratulated Chiang Chingkuo on his victory in the elections. The Japanese, on the otherhand, criticised the President's reckless words, marking the first time the Spehere has acknowledged the new Chinese Republic."
+SWRW_Chinanews.3.a:0 "Order and stability"
+SWRW_Chinanews.3.b:0 "An echo of a failed past"
+SWRW_Chinanews.3.c:0 "Someone familiar"
+
+SWRW_Chinanews.4.t:0 "[Get_newspaper_header]Xiannian's Coup"
+SWRW_Chinanews.4.desc:0 "Shocking news has emerged from Western China as the long-thought extinct Chinese Communist Party remnants led by the infamous guerilla leader Li Xiannian has couped the Ma government and established Maoist rule over the decimated lands of West China.\n\nAlready, the new communist government has begun a mass roundup of political dissidents, with militant civilian demonstrators openly fired upon and vast swathes of the population subjected to "Re-education". The future of West China looks bleak.\n\nWhether the regime can solidify its hold over China against a population completely opposed to its existence, remains to be seen. For now, the people of Asia hold their breath, for a new red sun has emerged."
+SWRW_Chinanews.4.a:0 "Another failed attempt at Chinese Democracy"

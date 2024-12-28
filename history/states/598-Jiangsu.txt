@@ -1,0 +1,29 @@
+
+state={
+	id=598
+	name="STATE_598"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			schools = 2
+			offices = 2
+			barracks = 1
+			prisons = 1
+			infrastructure = 2
+			thermoelectric_plant = 1
+
+		}
+		victory_points = {
+			7142 5 
+		}
+	}
+
+	provinces={
+		4001 4005 4031 4082 4123 7142 7181 9953 10095 12067
+	}
+	manpower=18079050
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

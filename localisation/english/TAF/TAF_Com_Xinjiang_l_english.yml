@@ -1,0 +1,90 @@
+﻿l_english:
+ ### Communist Sik ###
+
+# Leaders & Advisors
+ CSX_Chen_Tanqiu: "Chen Tanqiu"
+ CSX_Abdukirim_Abbasof: "Abdukirim Abbasof"
+ CSX_Abdukirim_Abbasof_hog_desc: ""
+ CSX_Zhang_Yuanshou: "Zhang Yuanshou"
+ CSX_Zhang_Yuanshou_eco_desc: ""
+ CSX_Chen_Changhao: "Chen Changhao"
+ CSX_Chen_Changhao_for_desc: ""
+ CSX_Yan_Baohang: "Yan Baohang"
+ CSX_Yan_Baohang_sec_desc: ""
+
+# Generals
+ CSX_Yang_Zhicheng: "Yang Zhicheng"
+ CSX_Li_Tianyou: "Li Tianyou"
+ CSX_Liu_Yalou: "Liu Yalou"
+ CSX_Lin_Jilu: "Lin Jilu"
+ CSX_Abdukirim_Abbasof: "Abdukirim Abbasof"
+ CSX_Muhemmetimin_Iminof: "Muhemmetimin Iminof"
+ CSX_Caudanov_Zayir: "Caudanov Zayir"
+ CSX_Mao_Anying: "Mao Anying"
+ CSX_Xu_Liqing: "Xu Liqing"
+ CSX_Delilqan_Sugurbayf: "Delilqan Sugurbayf"
+ CSX_Ivan_Polinov: "Ivan Polinov"
+ CSX_Ishaq_Beg: "Ishaq Beg"
+ CSX_Su_Yu: "Su Yu"
+ CSX_Zhang_Ziyi: "Zhang Ziyi"
+ CSX_Lu_Dongsheng: "Lu Dongsheng"
+ CSX_Zhong_Chibing: "Zhong Chibing"
+
+# Country Names
+ CSX:  "Soviet Xinjiang Border Region"
+ CSX_ADJ:  "Soviet Xinjiang Border Region"
+ CSX_DEF:  "Soviet Xinjiang Border Region"
+ CSX_civilwar:  "CPC Xinjiang Bureau"
+ CSX_civilwar_ADJ:  "CPC Xinjiang Bureau"
+ CSX_civilwar_DEF:  "CPC Xinjiang Bureau"
+
+## Party Name
+ CSX_communist_party: "CPC"
+ CSX_communist_party_long: "CPC-Xinjiang Bureau Central Committee"
+ CSX_socialist_party: "CPC"
+ CSX_socialist_party_long: "CPC-Xinjiang Bureau"
+
+## Traits
+ National_Army: "Nation Army Commender"
+ Aim_on_Dihua: "Aim on Dihua"
+## Spirits
+ Bird_out_of_cage: "Bird Out of Cage"
+## INTRO_TREE
+ CSX_The_death_after_noon:  "Death in the Afternoon"
+ CSX_The_death_after_noon_desc:  ""
+ CSX_Back_in_snow:  "A Snowy Night"
+ CSX_Back_in_snow_desc:  ""
+ CSX_Eagle_upon_tianmt:  "Eagles of the Tian"
+ CSX_Eagle_upon_tianmt_desc:  ""
+ 
+ CSX_Upon_the_IrtySh_River: "Loud Flows the Irtysh"
+ 
+ CSX_Sik_Bureau_Expansion: "Expansion of the Xinjiang Politburo "
+ CSX_Tar_Committe: "Tarbagatay War Committe"
+ CSX_Yili_Plan: "Plan: Yili"
+ CSX_Brave_of_Kazakh: "The Brave of Kazakh"
+ CSX_March_to_Urumqi: "March to Urumqi"
+ CSX_Gate_to_Wada: "The Gate to Wada"
+ CSX_Golden_age_again: "Golden Age Back Again"
+ CSX_Trade_in_Tar: "Trade within Tarbagatay"
+ CSX_Secure_pasture: "Secure the Pasture"
+ CSX_Land_reclamation_act: "Land Reclamation Act"
+ CSX_Rescue_Cotton_industry: "Rescue cotton industry"
+ CSX_We_have_wait_40_years: "Forty Years, and We Endure Still"
+## PHASE 1
+ CSX_For_all_we_had: "For What Once Was"
+ CSX_For_a_better_future: "For What Will Be"
+ CSX_calculate_underground_party_member: "Locate the Sleepers"
+ CSX_Rapid_registration: "WIth Utmost Speed"
+ CSX_Catalogue_registration: "With Utmost Care"
+ CSX_Bring_party_to_the_public: "Institutionalise Our Organisation"
+ CSX_Meet_with_Qinghai_Committe: "Notify the Central Committee"
+ CSX_Working_Crew_to_the_countryside: "Deploy Our Labourers"
+ CSX_Form_united_military_committe: "Form United Military Committe"
+ CSX_Invited_to_review_the_national_army: "Inspect the National Regiments"
+ CSX_Meet_with_Ishasbock: "Meet Ishaq Beg"
+ CSX_Meet_Abbasof_in_secret: "Contact Abbasof"
+ CSX_Call_on_a_new_battle: "To Where We are Needed"
+
+ ## GUI
+ Education_Situation_tt: "Our Current Education Situation is:\n§nAcademic Education§!: [?Cadres_education_bar_1^CSX_acted_state]%\n§GSenior Schooling§!: [?Cadres_education_bar_2^CSX_acted_state]%\n§YElementary Schooling§!: [?Cadres_education_bar_3^CSX_acted_state]%\n§OBasic Literacy§!: [?Cadres_education_bar_4^CSX_acted_state]%\n§rIlliteracy§!: [?Cadres_education_bar_5^CSX_acted_state]%"

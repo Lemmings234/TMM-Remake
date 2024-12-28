@@ -1,0 +1,294 @@
+﻿division_template = {
+	name = "Infantry Division"
+	is_locked = yes	
+	division_names_group = IND_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Armoured Brigade"
+	is_locked = yes	
+	division_names_group = IND_ARM_01
+	regiments = {
+		MBT = { x = 0 y = 0 }
+		IFV = { x = 0 y = 1 }
+		IFV = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Elite Brigade"
+	is_locked = yes	
+	division_names_group = IND_INF_01
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		IFV_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Mechanised Regimental Combat Group"				
+	is_locked = yes		
+	division_names_group = JAP_INF_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+   		APC = { x = 1 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		IFV_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Artillery Brigade"
+	is_locked = yes	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {	
+		name = "Indian Legion"
+		location = 4245
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {	
+		name = "INA Independent Brigade 'Gandhi'"
+		location = 1569
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.65
+	}
+	division = {	
+		name = "INA Independent Brigade 'Azad'"
+		location = 10471
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.65
+	}
+	division = {	
+		name = "INA Independent Brigade 'Subhas'"
+		location = 10471
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.65
+	}
+	division = {	
+		name = "INA Independent Brigade 'Rani of Jhansi'"
+		location = 1569
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.65
+	}
+	division = {	
+		name = "INA Independent Brigade 'Kolkata'"
+		location = 10751
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.65
+	}
+	division = {	
+		name = "1st INA Division"
+		location = 1983
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "2nd INA Division"
+		location = 7064
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "3rd INA Division"
+		location = 1983
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "4th INA Division"
+		location = 7064
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "5th INA Division"
+		location = 10471
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "6th INA Division"
+		location = 12307
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "7th INA Division"
+		location = 10358
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "8th INA Division"
+		location = 1059
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "9th INA Division"
+		location = 4104
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "10th INA Division"
+		location = 12063
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "11st INA Division"
+		location = 10088
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "12nd INA Division"
+		location = 10116
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "13rd INA Division"
+		location = 8010
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "14th INA Division"
+		location = 12035
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "15th INA Division"
+		location = 7593
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "I Corps Armoured Brigade"
+		location = 12063
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "II Corps Armoured Brigade"
+		location = 12307
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "1st Ind. Armoured Brigade"
+		location = 1569
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "I Corps Artillery Brigade"
+		location = 10088
+		division_template = "Artillery Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "II Corps Artillery Brigade"
+		location = 10358
+		division_template = "Artillery Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "III Corps Artillery Brigade"
+		location = 7334
+		division_template = "Artillery Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "IV Corps Artillery Brigade"
+		location = 1983
+		division_template = "Artillery Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "1st INA Infantry Regiment"
+		location = 4516
+		division_template = "Mechanised Regimental Combat Group"
+		start_experience_factor = 0.4
+	}
+	division = {	
+		name = "2nd INA Infantry Regiment"
+		location = 10751
+		division_template = "Mechanised Regimental Combat Group"
+		start_experience_factor = 0.4
+	}
+	division = {	
+		name = "3rd INA Infantry Regiment"
+		location = 7334
+		division_template = "Mechanised Regimental Combat Group"
+		start_experience_factor = 0.4
+	}
+	division = {	
+		name = "4th INA Infantry Regiment"
+		location = 11929
+		division_template = "Mechanised Regimental Combat Group"
+		start_experience_factor = 0.4
+	}
+	division = {	
+		name = "5th INA Infantry Regiment"
+		location = 12366
+		division_template = "Mechanised Regimental Combat Group"
+		start_experience_factor = 0.4
+	}
+	division = {	
+		name = "6th INA Infantry Regiment"
+		location = 12010
+		division_template = "Mechanised Regimental Combat Group"
+		start_experience_factor = 0.4
+	}
+}

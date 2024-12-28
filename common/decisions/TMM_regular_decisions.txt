@@ -90,7 +90,533 @@ QIN_Debug = {
 		}
 	}
 
-	
+	BNW_sinorusmanchuria_test = {
+		icon = GFX_decision_generic_decision
+
+		allowed = {
+			original_tag = QIN
+		}
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			ROOT = { puppet = GAY }
+			set_autonomy = {
+				target = GAY
+				autonomy_state = autonomy_military_district
+			}
+			GAY = {
+				set_cosmetic_tag = SR_Manchuria
+				set_politics = {
+					ruling_party = paternalism
+				}
+				create_country_leader = {
+					name = "Ivan Tarasov"
+					picture = "gfx/leaders/NOV/Portrait_Novosibirsk_Ivan_Tarasov.dds"
+					desc = ""
+					expire = "1999.3.4"
+					ideology = paternalism_provisional_government_subtype
+				}
+				set_popularities = {
+					paternalism = 52
+					conservatism = 26
+					fascism = 22
+				}
+				set_party_name = { 
+					ideology = paternalism
+					long_name = SR_Manchuria_SinoRussian_long
+					name = SR_Manchuria_SinoRussian_short
+				}
+				remove_ideas = RUS_isolated_vilages
+				add_ideas = RUS_kongo_emigration
+				set_capital = { state = 801 }
+				transfer_state = 409
+				transfer_state = 408
+				transfer_state = 809
+				transfer_state = 1644
+				transfer_state = 1645
+				transfer_state = 657
+				transfer_state = 1646
+				transfer_state = 1647
+				transfer_state = 1637
+				transfer_state = 1636
+				transfer_state = 716
+				transfer_state = 1265
+				transfer_state = 810
+				transfer_state = 717
+				transfer_state = 328
+				transfer_state = 801
+				transfer_state = 1638
+				transfer_state = 1639
+				transfer_state = 714
+				transfer_state = 715
+				transfer_state = 1643
+				transfer_state = 1642
+				transfer_state = 1641
+				transfer_state = 610
+			    transfer_state = 1640
+			}
+
+			every_state = {
+				limit = { 
+					is_owned_by = GAY 
+					OR = {
+						is_core_of = SOR
+					    is_core_of = MAN
+					}
+				}
+                add_core_of = GAY
+			}
+		}
+	}
+	BNW_harbin_city_state_test = {
+		icon = GFX_decision_generic_decision
+
+		allowed = {
+			original_tag = WCH
+		}
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			ROOT = { puppet = GAY }
+			set_autonomy = {
+				target = GAY
+				autonomy_state = autonomy_military_district
+			}
+			RUS = {
+                diplomatic_relation = {
+                    country = GAY
+                    relation = docking_rights
+                    active = yes
+                }
+			}
+			every_state = {
+				limit = {
+					is_owned_by = GAY
+					NOT = {
+						state = 801
+						state = 810
+						state = 809
+						is_core_of = SOR
+					}
+				}
+				transfer_state_to = ROOT
+				add_core_of = ROOT
+				remove_core_of = GAY
+			}
+			if = {
+				limit = {
+					NOT = {
+						RUS = {
+                            OR = {
+								has_government = socialist
+						        has_government = communist
+							}
+						}
+					}
+				}
+			    GAY = {
+				    set_popularities = {
+				    	paternalism = 30
+				    	conservatism = 25
+				    	progressivism = 20
+						liberalism = 15
+						liberal_conservatism = 10
+				    }
+			    	set_cosmetic_tag = RUS_Manchuria
+					retire_country_leader = yes
+				    create_country_leader = {
+				    	name = "Municipal Government"
+				    	picture = "gfx/leaders/ENG/Portrait_England_No_Monarch.dds"
+				    	desc = ""
+				    	expire = "1999.3.4"
+				    	ideology = paternalism_transitioning_democracy_subtype
+				    }
+			    	set_party_name = { 
+			    		ideology = paternalism
+			    		long_name = SR_Manchuria_paternalism_long
+			    		name = SR_Manchuria_paternalism_short
+			    	}
+			    	add_ideas = RUS_kongo_emigration
+			    	set_capital = { state = 810 }
+					econ_join_sphere_RUS = yes
+			    }
+			}
+			else = {
+			    GAY = {
+				    set_popularities = {
+				    	communist = 40
+				    	socialist = 50
+				    	progressivism = 10
+				    }
+			    	set_cosmetic_tag = RUS_Manchuria
+					retire_country_leader = yes
+				    create_country_leader = {
+				    	name = "Municipal Government"
+				    	picture = "gfx/leaders/KOM/Portrait_Komi_Presidium_of_the_KPK.dds"
+				    	desc = ""
+				    	expire = "1999.3.4"
+				    	ideology = socialist_revolutionary_frontism_subtype
+				    }
+			    	set_party_name = { 
+			    		ideology = communist
+			    		long_name = SR_Manchuria_communist_long
+			    		name = SR_Manchuria_communist_short
+			    	}
+			    	set_party_name = { 
+			    		ideology = socialist
+			    		long_name = SR_Manchuria_communist_long
+			    		name = SR_Manchuria_communist_short
+			    	}
+					set_politics = { ruling_party = socialist }
+			    	add_ideas = RUS_kongo_emigration
+			    	set_capital = { state = 810 }
+					econ_join_sphere_RUS = yes
+			    }
+				RUS = {
+					transfer_state = 657
+					transfer_state = 409
+					transfer_state = 408
+					transfer_state = 809
+					transfer_state = 1644
+					transfer_state = 1645
+					transfer_state = 1646
+					transfer_state = 1647
+				}				
+			}
+			RUS = { country_event = { id = RUS_Vladivostok.1 } }
+			every_state = {
+				limit = {
+					is_core_of = GAY
+					NOT = {
+						state = 801
+						state = 810
+					}
+				}
+				remove_core_of = GAY
+			}
+			every_state = {
+				limit = { is_core_of = SOR }
+				remove_core_of = SOR
+			}
+			every_state = {
+				limit = { is_core_of = MAN }
+				remove_core_of = MAN
+			}
+		}
+	}
+	BNW_vladivostok_city_state_test = {
+		icon = GFX_decision_generic_decision
+
+		allowed = {
+			original_tag = WCH
+		}
+
+		visible = { is_debug = yes }
+
+		fire_only_once = no
+
+		complete_effect = {
+			RUS = { puppet = GAY }
+			RUS = {
+			    set_autonomy = {
+			    	target = GAY
+			    	autonomy_state = autonomy_military_district
+			    }
+			}
+			WCH = {
+                diplomatic_relation = {
+                    country = GAY
+                    relation = docking_rights
+                    active = yes
+                }
+			}
+			SCH = {
+                diplomatic_relation = {
+                    country = GAY
+                    relation = docking_rights
+                    active = yes
+                }
+			}
+			every_state = {
+				limit = {
+					is_owned_by = GAY
+					NOT = {
+						state = 809
+						is_core_of = SOR
+					}
+				}
+				transfer_state_to = ROOT
+				add_core_of = ROOT
+				remove_core_of = GAY
+			}
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+						    WCH = {
+                                OR = {
+						    		has_government = socialist
+						            has_government = communist
+						    	}
+						    }
+						    SCH = {
+                                OR = {
+						    		has_government = socialist
+						            has_government = communist
+						    	}
+						    }
+						}
+					}
+				}
+			    GAY = {
+				    set_popularities = {
+				    	paternalism = 30
+				    	conservatism = 25
+				    	progressivism = 20
+						liberalism = 15
+						liberal_conservatism = 10
+				    }
+					set_politics = { ruling_party = paternalism }
+			    	set_cosmetic_tag = CHI_Vladivostok
+					retire_country_leader = yes
+				    create_country_leader = {
+				    	name = "Municipal Government"
+				    	picture = "gfx/leaders/ENG/Portrait_England_No_Monarch.dds"
+				    	desc = ""
+				    	expire = "1999.3.4"
+				    	ideology = paternalism_transitioning_democracy_subtype
+				    }
+			    	set_party_name = { 
+			    		ideology = paternalism
+			    		long_name = SR_Manchuria_paternalism_long
+			    		name = SR_Manchuria_paternalism_short
+			    	}
+			    	add_ideas = RUS_kongo_emigration
+			    	set_capital = { state = 809 }
+					econ_join_sphere_RUS = yes
+			    }
+                RUS = { country_event = { id = RUS_Vladivostok.2 } }
+			}
+			else = {
+			    GAY = {
+				    set_popularities = {
+				    	communist = 40
+				    	socialist = 50
+				    	progressivism = 10
+				    }
+			    	set_cosmetic_tag = CHI_Vladivostok
+					retire_country_leader = yes
+				    create_country_leader = {
+				    	name = "Municipal Government"
+				    	picture = "gfx/leaders/KOM/Portrait_Komi_Presidium_of_the_KPK.dds"
+				    	desc = ""
+				    	expire = "1999.3.4"
+				    	ideology = socialist_revolutionary_frontism_subtype
+				    }
+			    	set_party_name = { 
+			    		ideology = communist
+			    		long_name = SR_Manchuria_communist_long
+			    		name = SR_Manchuria_communist_short
+			    	}
+			    	set_party_name = { 
+			    		ideology = socialist
+			    		long_name = SR_Manchuria_communist_long
+			    		name = SR_Manchuria_communist_short
+			    	}
+					set_politics = { ruling_party = socialist }
+			    	add_ideas = RUS_kongo_emigration
+			    	set_capital = { state = 809 }
+					econ_join_sphere_RUS = yes
+			    }
+				RUS = {
+					transfer_state = 657
+					transfer_state = 409
+					transfer_state = 408
+					transfer_state = 1644
+					transfer_state = 1645
+					transfer_state = 1646
+					transfer_state = 1647
+				}				
+			}
+			every_state = {
+				limit = {
+					is_core_of = GAY
+					NOT = {
+						state = 809
+					}
+				}
+				remove_core_of = GAY
+			}
+			every_state = {
+				limit = { is_core_of = SOR }
+				remove_core_of = SOR
+			}
+			every_state = {
+				limit = { is_core_of = MAN }
+				remove_core_of = MAN
+			}
+		}
+	}
+	BNW_chinese_primorye_test = {
+		icon = GFX_decision_generic_decision
+
+		allowed = {
+			original_tag = WCH
+		}
+
+		fire_only_once = no
+
+		complete_effect = {
+			ROOT = { puppet = GAY }
+			ROOT = {
+			    set_autonomy = {
+			    	target = GAY
+			    	autonomy_state = autonomy_military_district
+			    }
+			}
+			RUS = {
+                diplomatic_relation = {
+                    country = RUS
+                    relation = docking_rights
+                    active = yes
+                }
+                diplomatic_relation = {
+                    country = GAY
+                    relation = military_access
+                    active = yes
+                }
+			}
+			every_state = {
+				limit = {
+					is_owned_by = GAY
+					AND = {
+					    is_core_of = MAN
+						NOT = { is_core_of = SOR }
+						NOT = { state = 809 }
+					}
+				}
+				transfer_state_to = ROOT
+				add_core_of = ROOT
+				remove_core_of = GAY
+			}
+			every_state = {
+				limit = {
+					OR = {
+						state = 657
+						state = 1646
+						state = 1647
+					}
+				}
+				transfer_state_to = RUS
+				add_core_of = RUS
+				remove_core_of = GAY
+			}
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+						    WCH = {
+                                OR = {
+						    		has_government = socialist
+						            has_government = communist
+						    	}
+						    }
+						    SCH = {
+                                OR = {
+						    		has_government = socialist
+						            has_government = communist
+						    	}
+						    }
+						}
+					}
+				}
+			    GAY = {
+				    set_popularities = {
+				    	paternalism = 30
+				    	conservatism = 25
+				    	progressivism = 20
+						liberalism = 15
+						liberal_conservatism = 10
+				    }
+					set_politics = { ruling_party = paternalism }
+			    	set_cosmetic_tag = CHI_Primorye
+					retire_country_leader = yes
+				    create_country_leader = {
+				    	name = "Regional Government"
+				    	picture = "gfx/leaders/ENG/Portrait_England_No_Monarch.dds"
+				    	desc = ""
+				    	expire = "1999.3.4"
+				    	ideology = paternalism_transitioning_democracy_subtype
+				    }
+			    	set_party_name = { 
+			    		ideology = paternalism
+			    		long_name = SR_Manchuria_paternalism_long
+			    		name = SR_Manchuria_paternalism_short
+			    	}
+			    	remove_ideas = RUS_kongo_emigration
+			    	set_capital = { state = 809 }
+					econ_join_sphere_RUS = yes
+			    }
+			    RUS = { country_event = { id = RUS_Vladivostok.3 } }
+			}
+			else = {
+			    GAY = {
+				    set_popularities = {
+				    	communist = 40
+				    	socialist = 50
+				    	progressivism = 10
+				    }
+			    	set_cosmetic_tag = CHI_Primorye
+					retire_country_leader = yes
+				    create_country_leader = {
+				    	name = "Regional Government"
+				    	picture = "gfx/leaders/KOM/Portrait_Komi_Presidium_of_the_KPK.dds"
+				    	desc = ""
+				    	expire = "1999.3.4"
+				    	ideology = socialist_revolutionary_frontism_subtype
+				    }
+			    	set_party_name = { 
+			    		ideology = communist
+			    		long_name = SR_Manchuria_communist_long
+			    		name = SR_Manchuria_communist_short
+			    	}
+			    	set_party_name = { 
+			    		ideology = socialist
+			    		long_name = SR_Manchuria_communist_long
+			    		name = SR_Manchuria_communist_short
+			    	}
+					set_politics = { ruling_party = socialist }
+			    	add_ideas = RUS_kongo_emigration
+			    	set_capital = { state = 809 }
+					econ_join_sphere_RUS = yes
+			    }
+				RUS = {
+					transfer_state = 657
+					transfer_state = 1646
+					transfer_state = 1647
+				}				
+			}
+			every_state = {
+				limit = { is_core_of = SOR }
+				remove_core_of = SOR
+			}
+			every_state = {
+				limit = { is_core_of = MAN }
+				remove_core_of = MAN
+			}
+			809 = {
+				set_variable = { nationality = 301 }
+			}
+		}
+	}
 	haitang_flag = {		
 		icon = GFX_decision_category_debug	
 		available = {	

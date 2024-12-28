@@ -1,0 +1,110 @@
+RUS_2WRW_category = {
+
+	# TEMP DECISIONS #
+	
+	RUS_invade_reich = {
+	
+		icon = GFX_decision_generic_ignite_civil_war
+	
+		allowed = {
+			is_russian_unifier = yes
+		}
+			
+		visible = {
+			NOT = { has_global_flag = RUS_shukshin_unification }
+			country_exists = GER
+			has_global_flag = RUS_national_unification
+		}
+		
+		available = {
+			has_global_flag = RUS_national_unification
+			has_war = no
+			command_power > 24.99
+		}
+		
+		custom_cost_trigger = { command_power > 24.99 }
+		custom_cost_text = decision_cost_25_cp
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: The Second West Russian War has begun"
+			
+			set_global_flag = SECOND_WRW_HAS_BEGUN
+			
+			set_variable = { RUS_surrender_limit = 0.0 }
+			
+			hidden_effect = {
+				2WRW_initiate = yes
+				BNW_launch_war_declaration_events = yes
+			}
+		}	
+	}
+	
+	#Victory Events Decisions
+
+	RUS_move_captial = { # Generic
+		
+		icon = decision_generic_political_action
+		
+		allowed = {
+			is_russian_nation = yes
+		}
+			
+		visible = {
+			has_country_flag = RUS_Moscow_Cored
+			NOT = {
+				original_tag = NOV
+				has_global_flag = RUS_shukshin_unification
+			}
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: The Russians Have Won!"
+			country_event = RUS_decisions.1
+		}	
+	}
+	
+	CHT_Move_Imperial_Capital = { # Generic
+		
+		icon = decision_generic_political_action
+		
+		allowed = {
+			is_russian_nation = yes
+		}
+			
+		visible = {
+			AND = {
+				original_tag = CHT
+				has_global_flag = RUS_national_unification
+			}
+		}
+		
+		available = {
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: The Russians Have Won!"
+			country_event = RUS_decisions.2
+		}	
+	}
+}

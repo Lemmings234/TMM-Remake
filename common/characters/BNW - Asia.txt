@@ -1,0 +1,577 @@
+characters = {
+	### LEADERS ###
+    GUZ_Cai_Tingkai = {
+        name = GUZ_Cai_Tingkai
+        portraits = {
+            civilian = { large = "gfx/leaders/GUZ/Portrait_Cai_Tingkai.dds" }
+        }
+        country_leader = {
+            desc = ""
+            ideology = paternalism_reorganised_tridemism_subtype
+            traits = { }
+            expire = "1999.1.1.1"
+            id = -1
+        }
+    }
+	HAW_Randolph_Crossley = {
+		name = HAW_Randolph_Crossley
+		portraits = {
+			civilian = { large = "gfx/leaders/HAW/Portrait_Randolph_Crossley.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = paternalism_dominant_party_democracy_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	KOR_Ozaki_Yoshiharu = {
+		name = KOR_Ozaki_Yoshiharu
+		portraits = {
+			civilian = { large = "gfx/leaders/KOR/Portrait_Ozaki_Yoshiharu.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = despotism_colonial_government_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	KOR_Niimi_Masaichi = {
+		name = KOR_Niimi_Masaichi
+		portraits = {
+			civilian = { large = "gfx/leaders/KOR/Portrait_Niimi_Masaichi.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = despotism_colonial_government_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	HUU_Kaya_Okinori = {
+		name = HUU_Kaya_Okinori
+		portraits = {
+			civilian = { large = "gfx/leaders/HUU/Portrait_Kaya_Okinori.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = despotism_colonial_government_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	NCC_Zhu_Dian = {
+		name = NCC_Zhu_Dian
+		portraits = {
+			civilian = { large = "gfx/leaders/NCC/Portrait_Zhu_Dian.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_xinmin_zhuyi_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	BNW_CHI_Chen_Gongbo = {
+		name = BNW_CHI_Chen_Gongbo
+		portraits = {
+			civilian = { large = "gfx/leaders/CHI/Portrait_Chen_Gongbo.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_reorganised_tridemism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	JAP_Tokugawa_Gishin = {
+		name = JAP_Tokugawa_Gishin
+		portraits = {
+			civilian = { large = "gfx/leaders/JAP/Portrait_Tokugawa_Gishin.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_hotoku_shugi_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	SHX_Rong_Ziheng = {
+		name = SHX_Rong_Ziheng
+		portraits = {
+			civilian = { large = "gfx/leaders/SHX/Portrait_Rong_Ziheng.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = despotism_warlordism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	### MINISTERS ###
+	BNW_JAP_Sato_Eisaku = {
+		name = BNW_JAP_Sato_Eisaku
+		portraits = { civilian = { small = "GFX_BNW_JAP_Sato_Eisaku" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = BNW_JAP_Sato_Eisaku_hog
+			allowed = { 
+				original_tag = KOR
+			}
+			traits = {
+				head_of_government
+				JAP_Sato_Eisaku_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Kubota_Kanichiro = {
+		name = JAP_Kubota_Kanichiro
+		portraits = { civilian = { small = "GFX_JAP_Kubota_Kanichiro" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = JAP_Kubota_Kanichiro_for
+			allowed = { 
+				original_tag = KOR 
+			}
+			traits = {
+				foreign_minister
+				JAP_Kubota_Kanichiro_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Uemura_Kogoro = {
+		name = JAP_Uemura_Kogoro
+		portraits = { civilian = { small = "GFX_JAP_Uemura_Kogoro" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = JAP_Uemura_Kogoro_eco
+			allowed = { 
+				original_tag = KOR 
+			}
+			traits = {
+				economy_minister
+				JAP_Uemura_Kogoro_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Gotoda_Masaharu = {
+		name = JAP_Gotoda_Masaharu
+		portraits = { civilian = { small = "GFX_JAP_Gotoda_Masaharu" } }
+		advisor = {
+			slot = security_minister
+			idea_token = JAP_Gotoda_Masaharu_sec
+			allowed = { 
+				original_tag = KOR 
+			}
+			traits = {
+				security_minister
+				JAP_Gotoda_Masaharu_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Watanabe_Takeshi = {
+		name = JAP_Watanabe_Takeshi
+		portraits = { civilian = { small = "GFX_JAP_Watanabe_Takeshi" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = JAP_Watanabe_Takeshi_hog
+			allowed = { 
+				original_tag = KOR
+			}
+			traits = {
+				head_of_government
+				JAP_Watanabe_Takeshi_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Ozaki_Hotsumi = {
+		name = JAP_Ozaki_Hotsumi
+		portraits = { civilian = { small = "GFX_JAP_Ozaki_Hotsumi" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = JAP_Ozaki_Hotsumi_for
+			allowed = { 
+				original_tag = KOR 
+			}
+			traits = {
+				foreign_minister
+				JAP_Ozaki_Hotsumi_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Ishii_Mitsujiro = {
+		name = JAP_Ishii_Mitsujiro
+		portraits = { civilian = { small = "GFX_JAP_Ishii_Mitsujiro" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = JAP_Ishii_Mitsujiro_eco
+			allowed = { 
+				original_tag = KOR 
+			}
+			traits = {
+				economy_minister
+				JAP_Ishii_Mitsujiro_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Hanano_Kichihei = {
+		name = JAP_Hanano_Kichihei
+		portraits = { civilian = { small = "GFX_JAP_Hanano_Kichihei" } }
+		advisor = {
+			slot = security_minister
+			idea_token = JAP_Hanano_Kichihei_sec
+			allowed = { 
+				original_tag = KOR 
+			}
+			traits = {
+				security_minister
+				JAP_Hanano_Kichihei_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	NCC_Miao_Bin = {
+		name = NCC_Miao_Bin
+		portraits = { civilian = { small = "GFX_NCC_Miao_Bin" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = NCC_Miao_Bin_hog
+			allowed = { 
+				original_tag = NCC
+			}
+			traits = {
+				head_of_government
+				NCC_Miao_Bin_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	NCC_Wang_Hongwen = {
+		name = NCC_Wang_Hongwen
+		portraits = { civilian = { small = "GFX_NCC_Wang_Hongwen" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = NCC_Wang_Hongwen_for
+			allowed = { 
+				original_tag = NCC 
+			}
+			traits = {
+				foreign_minister
+				NCC_Wang_Hongwen_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	NCC_Peng_Shihong = {
+		name = NCC_Peng_Shihong
+		portraits = { civilian = { small = "GFX_NCC_Peng_Shihong" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = NCC_Peng_Shihong_eco
+			allowed = { 
+				original_tag = NCC 
+			}
+			traits = {
+				economy_minister
+				NCC_Peng_Shihong_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	NCC_Liang_Huazhi = {
+		name = NCC_Liang_Huazhi
+		portraits = { civilian = { small = "GFX_NCC_Liang_Huazhi" } }
+		advisor = {
+			slot = security_minister
+			idea_token = NCC_Liang_Huazhi_sec
+			allowed = { 
+				original_tag = NCC 
+			}
+			traits = {
+				security_minister
+				NCC_Liang_Huazhi_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	CHI_Gan_Naiguang = {
+		name = CHI_Gan_Naiguang
+		portraits = { civilian = { small = "GFX_CHI_Gan_Naiguang" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = CHI_Gan_Naiguang_hog
+			allowed = { 
+				original_tag = CHI
+			}
+			traits = {
+				head_of_government
+				CHI_Gan_Naiguang_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	CHI_Shi_Cuntong = {
+		name = CHI_Shi_Cuntong
+		portraits = { civilian = { small = "GFX_CHI_Shi_Cuntong" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = CHI_Shi_Cuntong_for
+			allowed = { 
+				original_tag = CHI 
+			}
+			traits = {
+				foreign_minister
+				CHI_Shi_Cuntong_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	BNW_CHI_Mei_Siping = {
+		name = BNW_CHI_Mei_Siping
+		portraits = { civilian = { small = "GFX_BNW_CHI_Mei_Siping" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = BNW_CHI_Mei_Siping_eco
+			allowed = { 
+				original_tag = CHI 
+			}
+			traits = {
+				economy_minister
+				BNW_CHI_Mei_Siping_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	CHI_Ding_Mocun = {
+		name = CHI_Ding_Mocun
+		portraits = { civilian = { small = "GFX_CHI_Ding_Mocun" } }
+		advisor = {
+			slot = security_minister
+			idea_token = CHI_Ding_Mocun_sec
+			allowed = { 
+				original_tag = CHI 
+			}
+			traits = {
+				security_minister
+				CHI_Ding_Mocun_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Furumi_Tadayuki = {
+		name = JAP_Furumi_Tadayuki
+		portraits = { civilian = { small = "GFX_JAP_Furumi_Tadayuki" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = JAP_Furumi_Tadayuki_hog
+			allowed = { 
+				original_tag = JAP
+			}
+			traits = {
+				head_of_government
+				JAP_Furumi_Tadayuki_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Amogus = {
+		name = JAP_Amogus
+		portraits = { civilian = { small = "BNW_GFX_JAP_Ushiba_Nobuhiko" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = JAP_Amogus_for
+			allowed = { 
+				original_tag = JAP 
+			}
+			traits = {
+				foreign_minister
+				JAP_Amogus_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	BNW_JAP_Shiina_Etsusaburo = {
+		name = BNW_JAP_Shiina_Etsusaburo
+		portraits = { civilian = { small = "GFX_BNW_JAP_Shiina_Etsusaburo" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = BNW_JAP_Shiina_Etsusaburo_eco
+			allowed = { 
+				original_tag = JAP 
+			}
+			traits = {
+				economy_minister
+				BNW_JAP_Shiina_Etsusaburo_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Kawakami_Jotaro = {
+		name = JAP_Kawakami_Jotaro
+		portraits = { civilian = { small = "GFX_JAP_Kawakami_Jotaro" } }
+		advisor = {
+			slot = security_minister
+			idea_token = JAP_Kawakami_Jotaro_sec
+			allowed = { 
+				original_tag = JAP 
+			}
+			traits = {
+				security_minister
+				JAP_Kawakami_Jotaro_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Okuno_Seisuke = {
+		name = JAP_Okuno_Seisuke
+		portraits = { civilian = { small = "GFX_JAP_Okuno_Seisuke" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = JAP_Okuno_Seisuke_hog
+			allowed = { 
+				original_tag = KOR
+			}
+			traits = {
+				head_of_government
+				JAP_Okuno_Seisuke_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Ikeda_Sumihisa = {
+		name = JAP_Ikeda_Sumihisa
+		portraits = { civilian = { small = "GFX_JAP_Ikeda_Sumihisa" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = JAP_Ikeda_Sumihisa_for
+			allowed = { 
+				original_tag = KOR 
+			}
+			traits = {
+				foreign_minister
+				JAP_Ikeda_Sumihisa_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Sanji_Shigenobu = {
+		name = JAP_Sanji_Shigenobu
+		portraits = { civilian = { small = "GFX_JAP_Sanji_Shigenobu" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = JAP_Sanji_Shigenobu_eco
+			allowed = { 
+				original_tag = KOR 
+			}
+			traits = {
+				economy_minister
+				JAP_Sanji_Shigenobu_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	JAP_Onodera_Makoto = {
+		name = JAP_Onodera_Makoto
+		portraits = { civilian = { small = "GFX_JAP_Onodera_Makoto" } }
+		advisor = {
+			slot = security_minister
+			idea_token = JAP_Onodera_Makoto_sec
+			allowed = { 
+				original_tag = KOR 
+			}
+			traits = {
+				security_minister
+				JAP_Onodera_Makoto_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+}

@@ -8,20 +8,18 @@ QIN_Management = {
 			        owns_state = 601
 			    }
                 601 = {
-					NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
+				     NOT = { is_core_of = QIN }
 			    }
-				# check_variable = {
-	                # var = QIN_yushu_stability
-	                # value = 75
-	                # compare = greater_than
-                # }
-				# check_variable = {
-	                # var = QIN_yushu_ethnic_tension
-	                # value = 10
-	                # compare = less_than
-                # }
+				check_variable = {
+	                var = QIN_yushu_stability
+	                value = 75
+	                compare = greater_than
+                }
+				check_variable = {
+	                var = QIN_yushu_ethnic_tension
+	                value = 10
+	                compare = less_than
+                }
 			}
 		}
 		
@@ -36,13 +34,13 @@ QIN_Management = {
 			    owns_state = 601
 		    }
             601 = {
-				NOT = { is_core_of = QIN }
+			     NOT = { is_core_of = QIN }
 			}				
 		}		
 		highlight_states = {
 			state = 601
 		}
-		days_remove = 30
+		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -67,26 +65,18 @@ QIN_Management = {
 			        owns_state = 322
 			    }
                 322 = {
-					NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
+				     NOT = { is_core_of = QIN }
 			    }
-				1961 = {
-					NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
-				}
-				
-				# check_variable = {
-	                # var = QIN_tibet_stability
-	                # value = 75
-	                # compare = greater_than
-                # }
-				# check_variable = {
-	                # var = QIN_tibet_ethnic_tension
-	                # value = 10
-	                # compare = less_than
-                # }
+				check_variable = {
+	                var = QIN_tibet_stability
+	                value = 75
+	                compare = greater_than
+                }
+				check_variable = {
+	                var = QIN_tibet_ethnic_tension
+	                value = 10
+	                compare = less_than
+                }
 			}
 		}
 		
@@ -101,24 +91,19 @@ QIN_Management = {
 			    owns_state = 322
 		    }
             322 = {
-				NOT = { is_core_of = QIN }
-			}
-			1961 = {
-				NOT = { is_core_of = QIN }
-			}
+			     NOT = { is_core_of = QIN }
+			}				
 		}		
 		highlight_states = {
 			state = 322
-			state = 1961
 		}
-		days_remove = 30
+		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 
 		remove_effect = {		#The effects to execute once the envelope icon is clicked.
 		    add_state_core = 322
-			add_state_core = 1961
 			custom_effect_tooltip = QIN_coring_unpog_tt
 		}
 		
@@ -137,41 +122,18 @@ QIN_Management = {
 			        owns_state = 765
 			    }
                 765 = {
-					NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
+				     NOT = { is_core_of = QIN }
 			    }
-				QIN = {
-			        owns_state = 964
-			    }
-                964 = {
-					NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
-			    }
-				QIN = {
-			        owns_state = 964
-			    }
-                1962 = {
-					NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
-			    }
-				1963 = {
-					NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
-			    }
-				# check_variable = {
-	                # var = QIN_kang_stability
-	                # value = 75
-	                # compare = greater_than
-                # }
-				# check_variable = {
-	                # var = QIN_kang_ethnic_tension
-	                # value = 10
-	                # compare = less_than
-                # }
+				check_variable = {
+	                var = QIN_kang_stability
+	                value = 75
+	                compare = greater_than
+                }
+				check_variable = {
+	                var = QIN_kang_ethnic_tension
+	                value = 10
+	                compare = less_than
+                }
 			}
 		}
 		
@@ -187,36 +149,18 @@ QIN_Management = {
 		    }
             765 = {
 			     NOT = { is_core_of = QIN }
-			}
-			QIN = {
-			    owns_state = 964
-		    }
-            964 = {
-			     NOT = { is_core_of = QIN }
-			}
-			1962 = {
-			     NOT = { is_core_of = QIN }
-			}
-			1963 = {
-			     NOT = { is_core_of = QIN }
-			}
+			}			
 		}		
 		highlight_states = {
 			state = 765
-			state = 964
-			state = 1962
-			state = 1963
 		}
-		days_remove = 30
+		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 
 		remove_effect = {		#The effects to execute once the envelope icon is clicked.
 		    add_state_core = 765
-			add_state_core = 964
-			add_state_core = 1962
-			add_state_core = 1963
 			custom_effect_tooltip = QIN_coring_unpog_tt
 		}
 		
@@ -236,27 +180,23 @@ QIN_Management = {
 			    }
                 283 = {
 				     NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
 			    }
 			     QIN = {
 			        owns_state = 1302
 			    }
                 1302 = {
-					NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
-				}
-				# check_variable = {
-	                # var = QIN_gansu_stability
-	                # value = 75
-	                # compare = greater_than
-                # }
-				# check_variable = {
-	                # var = QIN_gansu_ethnic_tension
-	                # value = 10
-	                # compare = less_than
-                # }
+				     NOT = { is_core_of = QIN }
+			    }
+				check_variable = {
+	                var = QIN_gansu_stability
+	                value = 75
+	                compare = greater_than
+                }
+				check_variable = {
+	                var = QIN_gansu_ethnic_tension
+	                value = 10
+	                compare = less_than
+                }
 			}
 		}
 		
@@ -310,19 +250,17 @@ QIN_Management = {
 			    }
                 764 = {
 				     NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
 			    }
-				# check_variable = {
-	                # var = QIN_hexi_stability
-	                # value = 75
-	                # compare = greater_than
-                # }
-				# check_variable = {
-	                # var = QIN_hexi_ethnic_tension
-	                # value = 10
-	                # compare = less_than
-                # }
+				check_variable = {
+	                var = QIN_hexi_stability
+	                value = 75
+	                compare = greater_than
+                }
+				check_variable = {
+	                var = QIN_hexi_ethnic_tension
+	                value = 10
+	                compare = less_than
+                }
 			}
 		}
 		
@@ -343,7 +281,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 764
 		}
-		days_remove = 30
+		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -369,19 +307,17 @@ QIN_Management = {
 			    }
                 616 = {
 				     NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
 			    }
-				# check_variable = {
-	                # var = QIN_ningxia_stability
-	                # value = 75
-	                # compare = greater_than
-                # }
-				# check_variable = {
-	                # var = QIN_ningxia_ethnic_tension
-	                # value = 10
-	                # compare = less_than
-                # }
+				check_variable = {
+	                var = QIN_ningxia_stability
+	                value = 75
+	                compare = greater_than
+                }
+				check_variable = {
+	                var = QIN_ningxia_ethnic_tension
+	                value = 10
+	                compare = less_than
+                }
 			}
 		}
 		
@@ -402,7 +338,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 616
 		}
-		days_remove = 30
+		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -428,35 +364,29 @@ QIN_Management = {
 			    }
                 958 = {
 				     NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
 			    }
 			     QIN = {
 			        owns_state = 619
 			    }
                 619 = {
 				     NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
 			    }
 			     QIN = {
 			        owns_state = 617
 			    }
                 617 = {
 				     NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
 			    }
-				# check_variable = {
-	                # var = QIN_nanjiang_stability
-	                # value = 75
-	                # compare = greater_than
-                # }
-				# check_variable = {
-	                # var = QIN_nanjiang_ethnic_tension
-	                # value = 10
-	                # compare = less_than
-                # }
+				check_variable = {
+	                var = QIN_nanjiang_stability
+	                value = 75
+	                compare = greater_than
+                }
+				check_variable = {
+	                var = QIN_nanjiang_ethnic_tension
+	                value = 10
+	                compare = less_than
+                }
 			}
 		}
 		
@@ -489,7 +419,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 617
 		}
-		days_remove = 30
+		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -518,16 +448,16 @@ QIN_Management = {
                 618 = {
 				     NOT = { is_core_of = QIN }
 			    }
-				# check_variable = {
-	                # var = QIN_beijiang_stability
-	                # value = 75
-	                # compare = greater_than
-                # }
-				# check_variable = {
-	                # var = QIN_beijiang_ethnic_tension
-	                # value = 10
-	                # compare = less_than
-                # }
+				check_variable = {
+	                var = QIN_beijiang_stability
+	                value = 75
+	                compare = greater_than
+                }
+				check_variable = {
+	                var = QIN_beijiang_ethnic_tension
+	                value = 10
+	                compare = less_than
+                }
 			}
 		}
 		
@@ -548,7 +478,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 618
 		}
-		days_remove = 30
+		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -574,19 +504,17 @@ QIN_Management = {
 			    }
                 957 = {
 				     NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
 			    }
-				# check_variable = {
-	                # var = QIN_hami_stability
-	                # value = 75
-	                # compare = greater_than
-                # }
-				# check_variable = {
-	                # var = QIN_hami_ethnic_tension
-	                # value = 10
-	                # compare = less_than
-                # }
+				check_variable = {
+	                var = QIN_hami_stability
+	                value = 75
+	                compare = greater_than
+                }
+				check_variable = {
+	                var = QIN_hami_ethnic_tension
+	                value = 10
+	                compare = less_than
+                }
 			}
 		}
 		
@@ -633,27 +561,23 @@ QIN_Management = {
 			    }
                 814 = {
 				     NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
 			    }
 			     QIN = {
 			        owns_state = 329
 			    }
                 329 = {
 				     NOT = { is_core_of = QIN }
-					compliance > 75
-					resistance < 10
 			    }
-				# check_variable = {
-	                # var = QIN_hami_stability
-	                # value = 75
-	                # compare = greater_than
-                # }
-				# check_variable = {
-	                # var = QIN_hami_ethnic_tension
-	                # value = 10
-	                # compare = less_than
-                # }
+				check_variable = {
+	                var = QIN_hami_stability
+	                value = 75
+	                compare = greater_than
+                }
+				check_variable = {
+	                var = QIN_hami_ethnic_tension
+	                value = 10
+	                compare = less_than
+                }
 			}
 		}
 		
@@ -680,7 +604,7 @@ QIN_Management = {
 		highlight_states = {
 			state = 814
 		}
-		days_remove = 30
+		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
@@ -708,7 +632,12 @@ QIN_Management = {
                 905 = {
 				     NOT = { is_core_of = QIN }
 			    }
-			    
+			     QIN = {
+			        owns_state = 964
+			    }
+                964 = {
+				     NOT = { is_core_of = QIN }
+			    }
 			}
 		}
 		
@@ -719,7 +648,12 @@ QIN_Management = {
 			ROOT = {
                 tag = QIN
 			}	
-				
+			 QIN = {
+			    owns_state = 964
+		    }
+            964 = {
+			     NOT = { is_core_of = QIN }
+			}	
 			 QIN = {
 			    owns_state = 905
 		    }
@@ -736,6 +670,7 @@ QIN_Management = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		remove_effect = {		#The effects to execute once the envelope icon is clicked.
+		    add_state_core = 964
 			add_state_core = 905
 			custom_effect_tooltip = QIN_coring_chungus_tt
 		}

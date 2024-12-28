@@ -1,0 +1,514 @@
+﻿division_template = {
+	name = "Dai Shidan"
+	is_locked = yes	
+	division_names_group = MAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0  y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Sensha Shidan"
+	is_locked = yes	
+	division_names_group = MAN_ARM_02
+	regiments = {
+		MBT = { x = 0 y = 0 }
+		MBT = { x = 0 y = 1 }
+		MBT = { x = 0 y = 2 }
+		MBT = { x = 0 y = 3 }
+		MBT = { x = 0 y = 4 }
+		MBT = { x = 1 y = 0 }
+		MBT = { x = 1 y = 1 }
+		MBT = { x = 1 y = 2 }
+		MBT = { x = 1 y = 3 }
+		MBT = { x = 1 y = 4 }
+		APC = { x = 2 y = 0 }
+		APC = { x = 2 y = 1 }
+		APC = { x = 2 y = 2 }
+		APC = { x = 2 y = 3 }
+		APC = { x = 2 y = 4 }
+		APC = { x = 3 y = 0 }
+		APC = { x = 3 y = 1 }
+		APC = { x = 3 y = 2 }
+		APC = { x = 3 y = 3 }
+		APC = { x = 3 y = 4 }
+		#motorized = { x = 2 y = 0 }
+		#motorized = { x = 2 y = 1 }
+		#motorized = { x = 2 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+		MBT_recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		air_assault = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Manchurian Imperial Army Division"
+	is_locked = yes	
+	division_names_group = MAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0  y = 0 }
+		artillery = { x = 0 y = 1 }
+		IFV_recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Railway Brigade"
+	is_locked = yes	
+	division_names_group = MAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+
+	support = {
+		engineer = { x = 0  y = 0 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Military Police"
+	is_locked = yes	
+	division_names_group = MAN_INF_01
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+	}
+
+	support = {
+		military_police = { x = 0  y = 0 }
+	}
+}
+
+division_template = {
+	name = "Manchurian Imperial Army Brigade"
+	is_locked = yes	
+	division_names_group = MAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0  y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Manchurian Imperial Army Motorised Division"
+	is_locked = yes	
+	division_names_group = MAN_INF_01
+	regiments = {
+		APC = { x = 0 y = 0 }
+		APC = { x = 0 y = 1 }
+		APC = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		light_sp_artillery_brigade = { x = 2 y = 1 }
+		light_sp_artillery_brigade = { x = 2 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0  y = 0 }
+		artillery = { x = 0 y = 1 }
+		IFV_recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Manchurian Imperial Army Motorised Brigade"
+	is_locked = yes	
+	division_names_group = MAN_INF_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0  y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Manchurian Imperial Army Cavalry Brigade"
+	is_locked = yes	
+	division_names_group = MAN_INF_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0  y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Manchurian Imperial Army Independent Brigade"
+	is_locked = yes	
+	division_names_group = MAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0  y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {	
+		name = "1st Infantry Division"
+		location = 6937
+		division_template = "Manchurian Imperial Army Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "2nd Infantry Division"
+		location = 11764
+		division_template = "Manchurian Imperial Army Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "1st Infantry Brigade"
+		location = 1627
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "2nd Infantry Brigade"
+		location = 13150
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "3rd Infantry Brigade"
+		location = 10612
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "4th Infantry Brigade"
+		location = 7873
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "7th Infantry Brigade"
+		location = 7763
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "11st Infantry Brigade"
+		location = 12618
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "12nd Infantry Brigade"
+		location = 12559
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "17th Infantry Brigade"
+		location = 9604
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "18th Infantry Brigade"
+		location = 13287
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "19th Infantry Brigade"
+		location = 12189
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "20th Infantry Brigade"
+		location = 957
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "21st Infantry Brigade"
+		location = 810
+		division_template = "Manchurian Imperial Army Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "1st Cavalry Brigade"
+		location = 10503
+		division_template = "Manchurian Imperial Army Motorised Brigade"
+		start_experience_factor = 0.25
+	}	
+	division = {	
+		name = "4th Cavalry Brigade"
+		location = 9803
+		division_template = "Manchurian Imperial Army Motorised Brigade"
+		start_experience_factor = 0.25
+	}	
+	division = {	
+		name = "5th Cavalry Brigade"
+		location = 3934
+		division_template = "Manchurian Imperial Army Motorised Brigade"
+		start_experience_factor = 0.25
+	}	
+	division = {	
+		name = "6th Cavalry Brigade"
+		location = 11764
+		division_template = "Manchurian Imperial Army Motorised Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "7th Cavalry Brigade"
+		location = 7613
+		division_template = "Manchurian Imperial Army Cavalry Brigade"
+		start_experience_factor = 0.25
+	}	
+	division = {	
+		name = "8th Cavalry Brigade"
+		location = 14622
+		division_template = "Manchurian Imperial Army Cavalry Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "11st Cavalry Brigade"
+		location = 1724
+		division_template = "Manchurian Imperial Army Cavalry Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "13rd Cavalry Brigade"
+		location = 12657
+		division_template = "Manchurian Imperial Army Cavalry Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "14th Cavalry Brigade"
+		location = 14623
+		division_template = "Manchurian Imperial Army Cavalry Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "15th Cavalry Brigade"
+		location = 881
+		division_template = "Manchurian Imperial Army Cavalry Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "1st Combined Independent Brigade"
+		location = 11886
+		division_template = "Manchurian Imperial Army Independent Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "2nd Combined Independent Brigade"
+		location = 14629
+		division_template = "Manchurian Imperial Army Independent Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "1st Cavalry Division"
+		location = 11771
+		division_template = "Manchurian Imperial Army Motorised Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Harbin Railway Brigade"
+		location = 10433
+		division_template = "Railway Brigade"
+		start_experience_factor = 0.15
+	}
+	division = {	
+		name = "Fengtian Railway Brigade"
+		location = 11771
+		division_template = "Railway Brigade"
+		start_experience_factor = 0.15
+	}
+	division = {	
+		name = "Qiqihar Railway Brigade"
+		location = 12618
+		division_template = "Railway Brigade"
+		start_experience_factor = 0.15
+	}
+	division = {	
+		name = "Jilin Railway Brigade"
+		location = 11864
+		division_template = "Railway Brigade"
+		start_experience_factor = 0.15
+	}
+	division = {	
+		name = "Mudanjiang Railway Brigade"
+		location = 810
+		division_template = "Railway Brigade"
+		start_experience_factor = 0.15
+	}
+	division = {	
+		name = "Jinzhou Railway Brigade"
+		location = 6837
+		division_template = "Railway Brigade"
+		start_experience_factor = 0.15
+	}
+	division = {	
+		name = "Imperial Army Military Police"
+		location = 14633
+		division_template = "Military Police"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Jiandao Pacification Unit"
+		location = 944
+		division_template = "Military Police"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Heilongjiang Pacification Unit"
+		location = 12189
+		division_template = "Military Police"
+		start_experience_factor = 0.25
+	}
+}
+
+
+
+########## STARTING PRODUCTION ##########
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_2
+			creator = "MAN"
+		}
+		requested_factories = 2
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_1
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_3
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = APC_equipment_2
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = transport_helicopter_equipment_1
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = attack_helicopter_equipment_1
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = MBT_chassis_2
+				creator = "MAN"
+				version_name = "Type-34 Chi-Wa"
+			}
+			requested_factories = 1
+			progress = 0.52
+			efficiency = 100
+		}
+	}
+	else = {
+		add_equipment_production = {
+			equipment = {
+				type = MBT_equipment_2
+				creator = "MAN"
+			}
+			requested_factories = 1
+			progress = 0.52
+			efficiency = 100
+		}
+	}
+}

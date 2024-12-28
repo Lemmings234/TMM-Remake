@@ -1,0 +1,340 @@
+TNO_2WRW_Kazakhstan_Reorganisation = {
+	if = {
+		limit = {
+			RUS = {
+				OR = {
+					has_government = paternalism
+					has_government = conservatism
+					has_government = liberalism
+					has_government = progressivism
+				}
+				NOT = {
+					OR = {
+						original_tag = VYT
+						original_tag = CHT
+						original_tag = KEM
+					}
+				}
+			}
+		}
+		XXX = {
+			PAV_Sultanakhmet_Kozhikov = { set_nationality = PAV }
+		}
+		PAV = {
+			
+			# Territory
+			
+			transfer_state = 406
+			transfer_state = 407
+			transfer_state = 587
+			transfer_state = 402
+			transfer_state = 583
+			transfer_state = 590
+			transfer_state = 404
+			transfer_state = 589
+			transfer_state = 588
+			transfer_state = 1802
+			transfer_state = 1803
+			transfer_state = 1804
+			transfer_state = 1805
+			transfer_state = 1806
+			transfer_state = 1807
+			transfer_state = 1808
+			
+			every_owned_state = {
+				add_core_of = PAV
+			}
+			
+			# Politics
+			
+			set_cosmetic_tag = PAV_Russian_Democracy
+			
+			add_victory_points = {
+				province = 1375
+				value = 12
+			}
+			
+			set_capital = {state = 404}
+			
+			retire_character = PAV_Sabit_Mukanov
+			promote_character = PAV_Sultanakhmet_Kozhikov
+
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Capitalism }
+			econ_type_change = yes
+		}
+	}
+	# Monarchists
+	else_if = {
+		limit = {
+			RUS = { original_tag = VYT }
+		}
+		XXX = {
+			PAV_RUS_Imperial_Government = { set_nationality = PAV }
+		}
+		PAV = {
+			
+			# Territory
+			
+			transfer_state = 406
+			transfer_state = 407
+			transfer_state = 587
+			transfer_state = 402
+			transfer_state = 583
+			transfer_state = 590
+			transfer_state = 404
+			transfer_state = 589
+			transfer_state = 588
+			transfer_state = 1802
+			transfer_state = 1803
+			transfer_state = 1804
+			transfer_state = 1805
+			transfer_state = 1806
+			transfer_state = 1807
+			transfer_state = 1808
+			
+			every_owned_state = {
+				add_core_of = PAV
+			}
+			
+			# Politics
+			
+			set_cosmetic_tag = PAV_Russian_Imperial_Protectorate
+			
+			add_victory_points = {
+				province = 1375
+				value = 12
+			}
+			
+			set_politics = {
+				ruling_party = despotism
+			}
+				
+			set_popularities = {
+				conservatism = 14
+				paternalism = 34
+				despotism = 43
+				communist = 9
+			}
+				
+			set_party_name = { 
+				ideology = despotism 
+				long_name = PAV_RUS_Imperial_Government_long
+				name = PAV_RUS_Imperial_Government_short
+			}
+			
+			remove_ideas = PAV_idealistic_revolutionaries
+			add_ideas = {
+				VYT_russification
+				VYT_orthodox_revival
+			}
+
+			set_capital = {state = 404}
+			
+			retire_character = PAV_Sabit_Mukanov
+			promote_character = PAV_RUS_Imperial_Government
+
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			econ_type_change = yes
+		}
+	}
+	else_if = {
+		limit = {
+			RUS = { original_tag = CHT }
+		}
+		XXX = {
+			PAV_RUS_Imperial_Government_Alternate = { set_nationality = PAV }
+		}
+		PAV = {
+			
+			# Territory
+			
+			transfer_state = 406
+			transfer_state = 407
+			transfer_state = 587
+			transfer_state = 402
+			transfer_state = 583
+			transfer_state = 590
+			transfer_state = 404
+			transfer_state = 589
+			transfer_state = 588
+			transfer_state = 1802
+			transfer_state = 1803
+			transfer_state = 1804
+			transfer_state = 1805
+			transfer_state = 1806
+			transfer_state = 1807
+			transfer_state = 1808
+			
+			every_owned_state = {
+				add_core_of = PAV
+			}
+			
+			# Politics
+			
+			set_cosmetic_tag = PAV_Russian_Imperial_Protectorate_Chita
+			
+			add_victory_points = {
+				province = 1375
+				value = 12
+			}
+			
+			set_politics = {
+				ruling_party = despotism
+			}
+				
+			set_popularities = {
+				conservatism = 14
+				paternalism= 34
+				despotism = 43
+				communist = 9
+			}
+				
+			set_party_name = { 
+				ideology = despotism 
+				long_name = PAV_RUS_Imperial_Government_long
+				name = PAV_RUS_Imperial_Government_short
+			}
+			
+			remove_ideas = PAV_idealistic_revolutionaries
+			add_ideas = {
+				CHT_russification
+				VYT_orthodox_revival
+			}
+
+			set_capital = {state = 404}
+			
+			retire_character = PAV_Sabit_Mukanov
+			promote_character = PAV_RUS_Imperial_Government_Alternate
+
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			econ_type_change = yes
+		}
+	}
+	# Communists
+	else_if = {
+		limit = {
+			RUS = { original_tag = BRY }
+		}
+		#XXX = {
+		#	PAV_RUS_Imperial_Government_Alternate = { set_nationality = PAV }
+		#}
+		KAZ = {
+			
+			# Territory
+			
+			transfer_state = 406
+			transfer_state = 407
+			transfer_state = 587
+			transfer_state = 402
+			transfer_state = 583
+			transfer_state = 590
+			transfer_state = 404
+			transfer_state = 589
+			transfer_state = 588
+			
+			every_owned_state = {
+				add_core_of = KAZ
+			}
+			
+			# Politics
+			
+			set_cosmetic_tag = KAZ_Russia_Sablin
+			
+			add_victory_points = {
+				province = 1375
+				value = 12
+			}
+			
+			set_politics = {
+				ruling_party = communist
+			}
+			
+			remove_ideas = {
+				KAZ_kaz_red_army
+				KAZ_bandit_plague
+				
+			}
+			
+			add_ideas = {
+				BRY_legacy_of_zabelkin
+				BRY_secularization
+				BRY_mass_socialization
+			}
+
+			set_capital = {state = 404}
+			
+			retire_character = KAZ_Bauryzhan_Momyshuly
+			promote_character = PAV_RUS_Imperial_Government_Alternate
+
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			econ_type_change = yes
+		}
+	}
+}
+
+TNO_2WRW_Nowa_Polska_Reorganisation = {
+	XXX = {
+		POL_Alfred_Urbanski = { set_nationality = NPL }
+	}
+	NPL = {
+		set_cosmetic_tag = NPL_Russian_Democracy
+		
+		transfer_state = 406
+		transfer_state = 407
+		
+		add_state_core = 406
+		add_state_core = 407
+		
+		remove_ideas = {
+			RUS_terror_bombing
+			NPL_Spychalski_Bizarre_Dictatorship_idea
+			NPL_nation_of_survivors_0
+			NPL_polish_rule_3
+		}
+			
+		add_ideas = {
+			NPL_not_yet_lost_idea
+			NPL_winds_of_change_idea
+			NPL_kazahk_national_idea
+		}
+			
+		set_politics = {
+			ruling_party = progressivism
+		}
+			
+		set_party_name = { 
+			ideology = progressivism
+			long_name = NPL_progressivism_long
+			name = NPL_progressivism_short
+		}
+
+		set_party_name = { 
+			ideology = conservatism
+			long_name = NPL_conservative_long
+			name = NPL_conservative_short
+		}
+
+		set_party_name = { 
+			ideology = liberalism
+			long_name = NPL_liberalism_long
+			name = NPL_liberalism_short
+		}
+
+		set_party_name = { 
+			ideology = paternalism
+			long_name = NPL_paternalism_long
+			name = NPL_paternalism_short
+		}
+			
+		set_popularities = {
+			conservatism = 25
+			progressivism = 35
+			liberalism = 17
+			paternalism = 23
+		}
+		promote_character = POL_Alfred_Urbanski
+
+		set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Capitalism }
+		econ_type_change = yes
+	}
+}

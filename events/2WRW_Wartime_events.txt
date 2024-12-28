@@ -1,0 +1,3961 @@
+add_namespace = ce2wrw 
+add_namespace = dec2wrw
+add_namespace = crisis2wrw
+add_namespace = ct2wrw
+add_namespace = RUS_nuke
+
+### city events ###
+
+country_event = { # The Fall of Theodorichshafen
+	id = ce2wrw.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ce2wrw.1"}
+	title = ce2wrw.1.t
+	desc = ce2wrw.1.desc
+	picture = GFX_RUS_event_sevastopol
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = { #
+		name = ce2wrw.1.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3.5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.1.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3.5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The Fall of Riga
+	id = ce2wrw.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ce2wrw.2"}
+	title = ce2wrw.2.t
+	desc = ce2wrw.2.desc
+	picture = GFX_RUS_event_riga
+
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.2.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.2.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The Fall of Smolensk
+	id = ce2wrw.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ce2wrw.3"}
+	title = ce2wrw.3.t
+	desc = ce2wrw.3.desc
+	picture = GFX_RUS_event_riga
+
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.3.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.3.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The fall of Volgograd
+	id = ce2wrw.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ce2wrw.4"}
+	title = ce2wrw.4.t
+	desc = ce2wrw.4.desc
+	picture = GFX_RUS_event_riga
+
+	is_triggered_only = yes
+	fire_only_once = no
+	major = yes
+	
+	option = { #
+		name = ce2wrw.4.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.4.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The Fall of Kiev
+	id = ce2wrw.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ce2wrw.5"}
+	title = ce2wrw.5.t
+	desc = ce2wrw.5.desc
+	picture = GFX_RUS_event_riga
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = ce2wrw.5.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.5.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The Fall of Baku
+	id = ce2wrw.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ce2wrw.5"}
+	title = ce2wrw.6.t
+	desc = ce2wrw.6.desc
+	picture = GFX_RUS_event_riga
+
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.6.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.6.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The Fall of St. Petersburg
+	id = ce2wrw.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ce2wrw.5"}
+	title = ce2wrw.7.t
+	desc = ce2wrw.7.desc
+	picture = GFX_RUS_event_riga
+
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.7.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3.5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.7.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3.5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The Fall of Tiflis
+	id = ce2wrw.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ce2wrw.5"}
+	title = ce2wrw.8.t
+	desc = ce2wrw.8.desc
+	picture = GFX_RUS_event_riga
+
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.8.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { # 
+		name = ce2wrw.8.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The Fall of Arkhangelsk
+	id = ce2wrw.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ce2wrw.9"}
+	title = ce2wrw.9.t
+	desc = ce2wrw.9.desc
+	picture = GFX_RUS_event_riga
+
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.9.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3.5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.9.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3.5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The Fall of Syktyvkar
+	id = ce2wrw.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ce2wrw.5"}
+	title = ce2wrw.10.t
+	desc = ce2wrw.10.desc
+	picture = GFX_RUS_event_riga
+
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.10.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.10.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Astrakhan
+	id = ce2wrw.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.11" }
+	title = ce2wrw.11.t
+	desc = ce2wrw.11.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.11.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.11.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The fall of Grozny
+	id = ce2wrw.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.12" }
+	title = ce2wrw.12.t
+	desc = ce2wrw.12.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.12.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.12.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The fall of Vyatka
+	id = ce2wrw.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.13" }
+	title = ce2wrw.13.t
+	desc = ce2wrw.13.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.13.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.13.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Omsk
+	id = ce2wrw.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.14" }
+	title = ce2wrw.14.t
+	desc = ce2wrw.14.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.14.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		set_temp_variable = { temp_tension = 3 }
+		WRW_add_tension = yes
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.14.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Tyumen
+	id = ce2wrw.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.15" }
+	title = ce2wrw.15.t
+	desc = ce2wrw.15.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.15.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.15.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Novosibirsk
+	id = ce2wrw.16
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.16" }
+	title = ce2wrw.16.t
+	desc = ce2wrw.16.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.16.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.16.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Chelyabinsk
+	id = ce2wrw.17
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.17" }
+	title = ce2wrw.17.t
+	desc = ce2wrw.17.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.17.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.17.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Tomsk
+	id = ce2wrw.18
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.18" }
+	title = ce2wrw.18.t
+	desc = ce2wrw.18.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.18.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.18.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Kazan
+	id = ce2wrw.19
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.19" }
+	title = ce2wrw.19.t
+	desc = ce2wrw.19.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.19.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.19.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Sverdlovsk
+	id = ce2wrw.20
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.20" }
+	title = ce2wrw.20.t
+	desc = ce2wrw.20.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.20.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.20.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Vorkuta
+	id = ce2wrw.21
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.21" }
+	title = ce2wrw.21.t
+	desc = ce2wrw.21.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.21.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.21.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Samara
+	id = ce2wrw.22
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.22" }
+	title = ce2wrw.22.t
+	desc = ce2wrw.22.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.22.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.22.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The fall of Germania
+	id = ce2wrw.23
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.23" }
+	title = ce2wrw.23.t
+	desc = ce2wrw.23.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.23.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -5 }
+		set_temp_variable = { temp_tension = 12.5 }
+		WRW_add_tension = yes
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.23.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.05
+		add_stability = -0.075
+		
+	}
+}
+
+country_event = { # The fall of Danzig
+	id = ce2wrw.24
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.24" }
+	title = ce2wrw.24.t
+	desc = ce2wrw.24.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.24.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.24.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The fall of Stettin
+	id = ce2wrw.25
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.25" }
+	title = ce2wrw.25.t
+	desc = ce2wrw.25.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.25.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.25.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The fall of Breslau
+	id = ce2wrw.26
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.26" }
+	title = ce2wrw.26.t
+	desc = ce2wrw.26.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.26.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.26.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The fall of Warschau
+	id = ce2wrw.27
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.27" }
+	title = ce2wrw.27.t
+	desc = ce2wrw.27.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.27.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.27.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # the fall of Krakau
+	id = ce2wrw.28
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.28" }
+	title = ce2wrw.28.t
+	desc = ce2wrw.28.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.28.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.28.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The fall of Hamburg
+	id = ce2wrw.29
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.29" }
+	title = ce2wrw.29.t
+	desc = ce2wrw.29.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.29.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.29.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Theodorichshafen
+	id = ce2wrw.30
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.30" }
+	title = ce2wrw.30.t
+	desc = ce2wrw.30.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.30.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3.5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+		
+	}
+	option = { #
+		name = ce2wrw.30.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3.5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Riga
+	id = ce2wrw.31
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.31" }
+	title = ce2wrw.31.t
+	desc = ce2wrw.31.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.31.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.31.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to St. Petersburg
+	id = ce2wrw.32
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.32" }
+	title = ce2wrw.32.t
+	desc = ce2wrw.32.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.32.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.32.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Smolensk
+	id = ce2wrw.33
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.33" }
+	title = ce2wrw.33.t
+	desc = ce2wrw.33.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.33.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.33.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Volgograd
+	id = ce2wrw.34
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.34" }
+	title = ce2wrw.34.t
+	desc = ce2wrw.34.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.34.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.34.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Kiev
+	id = ce2wrw.35
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.35" }
+	title = ce2wrw.35.t
+	desc = ce2wrw.35.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.35.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.35.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Astrakhan
+	id = ce2wrw.36
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.36" }
+	title = ce2wrw.36.t
+	desc = ce2wrw.36.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.36.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.36.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Grozny
+	id = ce2wrw.37
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.37" }
+	title = ce2wrw.37.t
+	desc = ce2wrw.37.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.37.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.37.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Tiflis
+	id = ce2wrw.38
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.38" }
+	title = ce2wrw.38.t
+	desc = ce2wrw.38.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.38.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.38.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Baku
+	id = ce2wrw.39
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.39" }
+	title = ce2wrw.39.t
+	desc = ce2wrw.39.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.39.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.39.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Syktyvkar
+	id = ce2wrw.40
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.40" }
+	title = ce2wrw.40.t
+	desc = ce2wrw.40.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.40.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.40.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Vyatka
+	id = ce2wrw.41
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.41" }
+	title = ce2wrw.41.t
+	desc = ce2wrw.41.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.41.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.41.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Arkhangelsk
+	id = ce2wrw.42
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.42" }
+	title = ce2wrw.42.t
+	desc = ce2wrw.42.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.42.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.42.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Omsk
+	id = ce2wrw.43
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.43" }
+	title = ce2wrw.43.t
+	desc = ce2wrw.43.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.43.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.43.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Tyumen
+	id = ce2wrw.44
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.44" }
+	title = ce2wrw.44.t
+	desc = ce2wrw.44.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.44.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.44.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Novosibirsk
+	id = ce2wrw.45
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.45" }
+	title = ce2wrw.45.t
+	desc = ce2wrw.45.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.45.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.45.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Chelyabinsk
+	id = ce2wrw.46
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.46" }
+	title = ce2wrw.46.t
+	desc = ce2wrw.46.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.46.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.46.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Tomsk
+	id = ce2wrw.47
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.47" }
+	title = ce2wrw.47.t
+	desc = ce2wrw.47.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.47.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.47.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Kazan
+	id = ce2wrw.48
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.48" }
+	title = ce2wrw.48.t
+	desc = ce2wrw.48.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.48.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.48.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Sverdlovsk
+	id = ce2wrw.49
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.49" }
+	title = ce2wrw.49.t
+	desc = ce2wrw.49.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.49.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.49.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Vorkuta
+	id = ce2wrw.50
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.50" }
+	title = ce2wrw.50.t
+	desc = ce2wrw.50.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.50.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.50.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Samara
+	id = ce2wrw.51
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.51" }
+	title = ce2wrw.51.t
+	desc = ce2wrw.51.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.51.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+	option = { #
+		name = ce2wrw.51.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+}
+
+country_event = { # The return to Germania
+	id = ce2wrw.52
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.52" }
+	title = ce2wrw.52.t
+	desc = ce2wrw.52.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.52.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.52.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -5 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+		add_stability = 0.1
+	}
+}
+
+country_event = { # The return to Danzig
+	id = ce2wrw.53
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.53" }
+	title = ce2wrw.53.t
+	desc = ce2wrw.53.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.53.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.53.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Stettin
+	id = ce2wrw.54
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.54" }
+	title = ce2wrw.54.t
+	desc = ce2wrw.54.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.54.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.54.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Breslau
+	id = ce2wrw.55
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.55" }
+	title = ce2wrw.55.t
+	desc = ce2wrw.55.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.55.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.55.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Warshau
+	id = ce2wrw.56
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.56" }
+	title = ce2wrw.56.t
+	desc = ce2wrw.56.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.56.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.56.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Krakau
+	id = ce2wrw.57
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.57" }
+	title = ce2wrw.57.t
+	desc = ce2wrw.57.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.57.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.57.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { # The return to Hamburg
+	id = ce2wrw.58
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.58" }
+	title = ce2wrw.58.t
+	desc = ce2wrw.58.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.58.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+		set_temp_variable = { temp_exhaustion = 3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = -0.025
+		add_stability = -0.025
+	}
+	option = { #
+		name = ce2wrw.58.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			original_tag = GER
+		}
+		set_temp_variable = { temp_exhaustion = -3 }
+		WRW_add_war_exhaustion = yes
+		add_war_support = 0.025
+	}
+}
+
+country_event = { #
+	id = ce2wrw.59
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.59" }
+	title = ce2wrw.59.t
+	desc = ce2wrw.59.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.59.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+	}
+	option = { #
+		name = ce2wrw.59.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.60
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.60" }
+	title = ce2wrw.60.t
+	desc = ce2wrw.60.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.60.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+	}
+	option = { #
+		name = ce2wrw.60.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.61
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.61" }
+	title = ce2wrw.61.t
+	desc = ce2wrw.61.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.61.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.61.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.62
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.62" }
+	title = ce2wrw.62.t
+	desc = ce2wrw.62.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.62.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.62.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.63
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.63" }
+	title = ce2wrw.63.t
+	desc = ce2wrw.63.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.63.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.63.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.64
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.64" }
+	title = ce2wrw.64.t
+	desc = ce2wrw.64.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.64.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.64.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.65
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.65" }
+	title = ce2wrw.65.t
+	desc = ce2wrw.65.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.65.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.65.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.66
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.66" }
+	title = ce2wrw.66.t
+	desc = ce2wrw.66.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.66.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.66.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.67
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.67" }
+	title = ce2wrw.67.t
+	desc = ce2wrw.67.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.67.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.67.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.68
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.68" }
+	title = ce2wrw.68.t
+	desc = ce2wrw.68.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.68.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.68.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.69
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.69" }
+	title = ce2wrw.69.t
+	desc = ce2wrw.69.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.69.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.69.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.70
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.70" }
+	title = ce2wrw.70.t
+	desc = ce2wrw.70.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.70.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.70.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.71
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.71" }
+	title = ce2wrw.71.t
+	desc = ce2wrw.71.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.71.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.71.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.72
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.72" }
+	title = ce2wrw.72.t
+	desc = ce2wrw.72.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.72.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.72.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.73
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.73" }
+	title = ce2wrw.73.t
+	desc = ce2wrw.73.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.73.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.73.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.74
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.74" }
+	title = ce2wrw.74.t
+	desc = ce2wrw.74.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.74.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.74.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.75
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.75" }
+	title = ce2wrw.75.t
+	desc = ce2wrw.75.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.75.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.75.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.76
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.76" }
+	title = ce2wrw.76.t
+	desc = ce2wrw.76.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.76.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.76.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.77
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.77" }
+	title = ce2wrw.77.t
+	desc = ce2wrw.77.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.77.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.77.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.78
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.78" }
+	title = ce2wrw.78.t
+	desc = ce2wrw.78.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.78.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.78.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.79
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.79" }
+	title = ce2wrw.79.t
+	desc = ce2wrw.79.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.79.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.79.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = ce2wrw.80
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ce2wrw.80" }
+	title = ce2wrw.80.t
+	desc = ce2wrw.80.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #
+		name = ce2wrw.80.a
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { #
+		name = ce2wrw.80.b
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+#### DECISION EVENTS ####
+
+country_event = { # Volga German autonomy
+	id = dec2wrw.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event dec2wrw.1"}
+	title = dec2wrw.1.t
+	desc = dec2wrw.1.desc
+	picture = GFX_report_event_italy_san_marco_a
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { # accept
+		name = dec2wrw.1.a
+		ai_chance = { factor = 9 }
+		set_temp_variable = { temp_tension = -4 }
+		WRW_add_tension = yes
+		RUS = {
+			country_event = { id = dec2wrw.5 hours = 6 }
+		}
+	}
+	option = { # decline
+		name = dec2wrw.1.b
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = { id = dec2wrw.6 hours = 6 }
+		}
+	}
+}
+
+country_event = { # War Reparations 
+	id = dec2wrw.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event dec2wrw.2"}
+	title = dec2wrw.2.t
+	desc = dec2wrw.2.desc
+	picture = GFX_report_event_italy_san_marco_a
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { # accept - Germany
+		name = dec2wrw.2.a
+		trigger = {
+			original_tag = GER
+		}
+		ai_chance = {
+			base = 2
+			modifier = {
+				GER_war_weaksauce = yes
+				add = 10
+			}
+		}
+		set_global_flag = RUS_war_reparations_offered
+		subtract_from_variable = { WRW_peace_acceptance_modifier = 10 }
+		RUS = {
+			country_event = { id = dec2wrw.28 hours = 8 }
+		}
+	}
+	option = { # accept - Russia
+		name = dec2wrw.2.b
+		trigger = {
+			is_russian_nation = yes
+		}
+		ai_chance = {
+			base = 2
+			modifier = {
+				surrender_progress > 0.15
+				add = 15
+			}
+		}
+		set_global_flag = GER_war_reparations_offered
+		subtract_from_variable = { WRW_peace_acceptance_modifier = 10 }
+		GER = {
+			country_event = { id = dec2wrw.26 hours = 8 }
+		}
+	}
+	
+	option = { # decline
+		name = dec2wrw.2.b
+		ai_chance = { factor = 6 }
+		if = {
+			limit = {
+				is_russian_nation = yes
+			}
+			GER = {
+				country_event = { id = dec2wrw.27 hours = 8 }
+			}
+		}
+		else = {
+			RUS = {
+				country_event = { id = dec2wrw.29 hours = 8 }
+			}
+		}
+	}
+}
+
+country_event = { # Volga German autonomy - Germany accepts!
+	id = dec2wrw.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.5" }
+	title = dec2wrw.5.t
+	desc = dec2wrw.5.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # yippie!
+		name = dec2wrw.5.a
+		ai_chance = { factor = 1 }
+		set_temp_variable = { temp_tension = -2.5 }
+		WRW_add_tension = yes
+	}
+}
+
+country_event = { # Volga German autonomy - Germany declines :(
+	id = dec2wrw.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.6" }
+	title = dec2wrw.6.t
+	desc = dec2wrw.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # damn.
+		name = dec2wrw.6.a
+		ai_chance = { factor = 1 }
+		set_temp_variable = { temp_tension = 1 }
+		WRW_add_tension = yes
+	}
+}
+
+country_event = { # Russia wants to talk
+	id = dec2wrw.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.11" }
+	title = dec2wrw.11.t
+	desc = dec2wrw.11.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { # yes
+		name = dec2wrw.11.a
+		ai_chance = { factor = 3 }
+		RUS = {
+			country_event = { id = dec2wrw.13 hours = 8 }
+		}
+		set_country_flag = RUS_call_for_peace
+	}
+	option = { # no
+		name = dec2wrw.11.b
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = { id = dec2wrw.14 hours = 8 }
+		}
+	}
+}
+
+country_event = { # Germany accepts our request
+	id = dec2wrw.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.13" }
+	title = dec2wrw.13.t
+	desc = dec2wrw.13.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { # splendid
+		name = dec2wrw.13.a
+		ai_chance = { factor = 1 }
+		set_temp_variable = { temp_tension = -5 }
+		WRW_add_tension = yes
+		set_country_flag = RUS_call_for_peace
+		set_country_flag = peace_talks_started
+	}
+}
+
+country_event = { # Germany declines our request
+	id = dec2wrw.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.14" }
+	title = dec2wrw.14.t
+	desc = dec2wrw.14.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { # I need copium
+		name = dec2wrw.14.a
+		ai_chance = { factor = 1 }
+		set_temp_variable = { temp_tension = 1.5 }
+		WRW_add_tension = yes
+	}
+}
+
+country_event = { # Megacorps negotiation opening event
+	id = dec2wrw.17
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.17" }
+	title = dec2wrw.17.t
+	desc = dec2wrw.17.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = dec2wrw.17.a
+		ai_chance = { factor = 1 }
+		country_event = { id = dec2wrw.18 days = 2 }
+	}
+}
+
+country_event = { # means of production
+	id = dec2wrw.18
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.18" }
+	title = dec2wrw.18.t
+	desc = dec2wrw.18.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # deal
+		name = dec2wrw.18.a
+		ai_chance = { factor = 5 }
+		country_event = { id = dec2wrw.19 days = 2 }
+		add_timed_idea = { idea = RUS_corporate_concessions days = 365 }
+		hidden_effect = {
+			67 = {
+				GER = {
+					add_timed_idea = { idea = GER_corporate_concessions days = 180 }
+				}
+			}
+			33 = {}
+			
+		}
+		add_to_variable = { RUS_concession_points = 15 }
+	}
+	option = { # no deal
+		name = dec2wrw.18.b
+		ai_chance = { factor = 1 }
+		country_event = { id = dec2wrw.19 days = 2 }
+	}
+}
+
+country_event = { # To Render to Caesar
+	id = dec2wrw.19
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.19" }
+	title = dec2wrw.19.t
+	desc = dec2wrw.19.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = dec2wrw.19.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = RUS_megacorp_consequences_tt
+		add_to_variable = { RUS_concession_points = 25 }
+		set_country_flag = RUS_has_made_labor_concessions # should debuff business tax and lower stability post war
+		country_event = { id = dec2wrw.23 days = 2 }
+	}
+	option = { #
+		name = dec2wrw.19.b
+		ai_chance = { factor = 5 }
+		country_event = { id = dec2wrw.20 days = 2 }
+	}
+}
+
+country_event = { # A Corporation’s Social Contract
+	id = dec2wrw.20
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.20" }
+	title = dec2wrw.20.t
+	desc = dec2wrw.20.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = dec2wrw.20.a
+		ai_chance = {
+			base = 3
+			modifier = {
+				factor = RUS.RUS_concession_points
+			}
+		}
+	}
+	option = { #
+		name = dec2wrw.20.b
+		ai_chance = { factor = 3 }
+		country_event = { id = dec2wrw.21 days = 2 }
+	}
+}
+
+country_event = { # According to One's Work
+	id = dec2wrw.21
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.21" }
+	title = dec2wrw.21.t
+	desc = dec2wrw.21.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = dec2wrw.21.a
+		ai_chance = {
+			base = 3
+			modifier = {
+				factor = RUS.RUS_concession_points
+			}
+		}
+		country_event = { id = dec2wrw.24 days = 2 }
+	}
+	option = { #
+		name = dec2wrw.21.b
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = { id = dec2wrw.22 days = 2 }
+		}
+	}
+}
+
+country_event = { # The Hotline Is Cut (end of event chain lose)
+	id = dec2wrw.22
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.22" }
+	title = dec2wrw.22.t
+	desc = dec2wrw.22.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # screw you Germany
+		name = dec2wrw.22.a
+		ai_chance = { factor = 1 }
+		set_temp_variable = { temp_tension = 2.5 }
+		WRW_add_tension = yes
+	}
+}
+
+country_event = { # No Taxation for Corporations
+	id = dec2wrw.23
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.23" }
+	title = dec2wrw.23.t
+	desc = dec2wrw.23.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # coolbeans
+		name = dec2wrw.23.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			GER = {
+				country_event = { id = dec2wrw.24 days = 2 }
+			}
+		}
+		custom_effect_tooltip = RUS_concession_result_tt
+	}
+}
+
+country_event = { # The Right to Fair Work
+	id = dec2wrw.24
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.24" }
+	title = dec2wrw.24.t
+	desc = dec2wrw.24.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # yes
+		name = dec2wrw.24.a
+		ai_chance = {
+			base = 3
+			modifier = {
+				factor = RUS.RUS_concession_points
+			}
+		}
+		RUS = {
+			country_event = { id = dec2wrw.25 days = 2 }
+		}
+		
+	}
+	option = { # haha no
+		name = dec2wrw.24.b
+		ai_chance = { factor = 3 }
+		RUS = {
+			country_event = { id = dec2wrw.22 days = 2 }
+		}
+	}
+}
+
+country_event = { # Rustled Feathers (end of event chain win)
+	id = dec2wrw.25
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.25" }
+	title = dec2wrw.25.t
+	desc = dec2wrw.25.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # suck it Germany
+		name = dec2wrw.25.a
+		ai_chance = { factor = 1 }
+		GER = {
+			set_temp_variable = { temp_concessions = RUS.RUS_concession_points }
+			divide_temp_variable = { temp_concessions = 4.5 }
+			set_temp_variable = { temp_exhaustion = temp_concessions }
+			WRW_add_war_exhaustion = yes
+			add_ideas = GER_disloyal_corporations
+		}
+		clear_variable = RUS_concession_points
+	}
+}
+
+country_event = { # USA offers red cross support 
+	id = dec2wrw.30
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.30" }
+	title = dec2wrw.30.t
+	desc = dec2wrw.30.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # accept - Russia
+		name = dec2wrw.30.a
+		ai_chance = { factor = 1 }
+		add_ideas = RUS_red_cross_help
+	}
+	option = { # decline - Russia
+		name = dec2wrw.30.b
+		ai_chance = { factor = 1 }
+		
+	}
+	option = { # accept - Germany
+		name = dec2wrw.30.c
+		ai_chance = { factor = 1 }
+		add_ideas = GER_red_cross_help
+	}
+	option = { # decline - Germany
+		name = dec2wrw.30.d
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { # USA red cross event (USA receives)
+	id = dec2wrw.31
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.31" }
+	title = dec2wrw.31.t
+	desc = dec2wrw.31.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = dec2wrw.31.a
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = { id = dec2wrw.30 days = 2 }
+		}
+		GER = {
+			country_event = { id = dec2wrw.30 days = 2 }
+		}
+	}
+}
+
+country_event = { # Russia accepts 
+	id = dec2wrw.32
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.32" }
+	title = dec2wrw.32.t
+	desc = dec2wrw.32.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = dec2wrw.32.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { # Russia declines
+	id = dec2wrw.33
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.33" }
+	title = dec2wrw.33.t
+	desc = dec2wrw.33.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = dec2wrw.33.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { # Germany accepts
+	id = dec2wrw.34
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.34" }
+	title = dec2wrw.34.t
+	desc = dec2wrw.34.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = dec2wrw.34.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { # Germany declines
+	id = dec2wrw.35
+	immediate = { log = "[GetDateText]: [Root.GetName]: event dec2wrw.35" }
+	title = dec2wrw.35.t
+	desc = dec2wrw.35.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = dec2wrw.35.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+### CRISIS ###
+
+country_event = { # Norway - introduction
+	id = crisis2wrw.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.1" }
+	title = crisis2wrw.1.t
+	desc = crisis2wrw.1.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.1.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = RUS_war_crisis_tt
+		hidden_effect = {
+			GER = {
+				country_event = { id = crisis2wrw.2 hours = 16 }
+			}
+		}
+	}
+}
+
+country_event = { # Norway - Vendetta
+	id = crisis2wrw.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.2" }
+	title = crisis2wrw.2.t
+	desc = crisis2wrw.2.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.2.a
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = { id = crisis2wrw.3 days = 3 }
+		}
+	}
+}
+
+country_event = { # Norway - Germany demands compensation
+	id = crisis2wrw.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.3" }
+	title = crisis2wrw.3.t
+	desc = crisis2wrw.3.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # yes
+		name = crisis2wrw.3.a
+		ai_chance = { factor = 1 }
+		GER = {
+			country_event = { id = crisis2wrw.4 hours = 16 }
+		}
+	}
+	option = { # no
+		name = crisis2wrw.3.b
+		ai_chance = { factor = 1 }
+		GER = {
+			country_event = { id = crisis2wrw.6 hours = 16 }
+		}
+	}
+}
+
+country_event = { # Norway - complications
+	id = crisis2wrw.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.4" }
+	title = crisis2wrw.4.t
+	desc = crisis2wrw.4.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # accept
+		name = crisis2wrw.4.a
+		ai_chance = { factor = 1 }
+		add_timed_idea = { idea = GER_rerouted_settlers_funds days = 120 }
+		hidden_effect = {
+			every_country = {
+				news_event = {
+					id = WORLD.40046
+					days = 1
+				}
+			}
+		}
+	}
+	
+	option = { # refuse
+		name = crisis2wrw.4.b
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = { id = crisis2wrw.5 hours = 16 }
+		}
+	}
+}
+
+country_event = { # Norway - Danegeld
+	id = crisis2wrw.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.5" }
+	title = crisis2wrw.5.t
+	desc = crisis2wrw.5.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # refuse
+		name = crisis2wrw.5.a
+		ai_chance = { factor = 1 }
+		GER = {
+			country_event = { id = crisis2wrw.6 hours = 16 }
+		}
+	}
+	option = { # accept
+		name = crisis2wrw.5.b
+		ai_chance = { factor = 1 }
+		set_temp_variable = { temp_econ_spending_amount = 0.2 }
+		econ_spend_money_once_effect_raw_money = yes
+		GER = {
+			set_temp_variable = { money_reserves_temp = 0.2 }
+			econ_money_reserves_change_raw_money = yes
+		}
+		hidden_effect = {
+			every_country = {
+				news_event = {
+					id = WORLD.40046
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Norway - Russia refuses compensation
+	id = crisis2wrw.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.6" }
+	title = crisis2wrw.6.t
+	desc = crisis2wrw.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # rip
+		name = crisis2wrw.6.a
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = { id = crisis2wrw.7 days = 2 }
+		}
+	}
+}
+
+country_event = { # Norway - de-mining proposal
+	id = crisis2wrw.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.7" }
+	title = crisis2wrw.7.t
+	desc = crisis2wrw.7.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.7.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			GER = {
+				country_event = { id = crisis2wrw.8 days = 2 }
+			}
+		}
+	}
+	option = { #
+		name = crisis2wrw.7.b
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			GER = {
+				country_event = { id = crisis2wrw.11 days = 2 }
+			}
+			news_event = { id = crisis2wrw.11 days = 2 }
+			GER = { add_ideas = GER_naval_maps }
+		}
+	}
+}
+
+country_event = { # Norway - escalation
+	id = crisis2wrw.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.8" }
+	title = crisis2wrw.8.t
+	desc = crisis2wrw.8.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.8.a
+		ai_chance = { factor = 1 }
+		country_event = { id = crisis2wrw.9 days = 2 }
+	}
+}
+
+country_event = { # Norway - going dark
+	id = crisis2wrw.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.9" }
+	title = crisis2wrw.9.t
+	desc = crisis2wrw.9.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.9.a
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = { id = crisis2wrw.10 days = 2 }
+		}
+	}
+}
+
+country_event = { # Norway - a forcing move
+	id = crisis2wrw.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.10" }
+	title = crisis2wrw.10.t
+	desc = crisis2wrw.10.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # take the pawns
+		name = crisis2wrw.10.a
+		ai_chance = { factor = 1 }
+		GER = {
+			country_event = { id = crisis2wrw.11 days = 1 }
+		}
+		RUS = {
+			country_event = { id = crisis2wrw.11 days = 1 }
+		}
+	}
+	option = { # let them pass
+		name = crisis2wrw.10.b
+		ai_chance = { factor = 1 }
+		GER = {
+			swap_ideas = {
+				remove_idea = GER_naval_maps
+				add_idea = GER_naval_maps_2
+			}
+		}
+	}
+}
+
+country_event = { # Norway - stamford
+	id = crisis2wrw.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.11" }
+	title = crisis2wrw.11.t
+	desc = crisis2wrw.11.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # all according to plan
+		name = crisis2wrw.11.a
+		trigger = {
+			original_tag = GER
+		}
+		ai_chance = { factor = 1 }
+	}
+	option = { # we should have seen this coming
+		name = crisis2wrw.11.b
+		trigger = {
+			is_russian_nation = yes
+		}
+		if = {
+			limit = {
+				GER = { has_war_with = RUS }
+			}
+			GER = {
+				add_to_faction = NOR
+			}
+			NOR = {
+				declare_war_on = { target = RUS type = annex_everything }
+			}
+			hidden_effect = {
+				every_country = {
+					news_event = { id = WORLD.40047 days = 2 }
+				}
+			}
+		}
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = { #England Opening
+	id = crisis2wrw.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.12" }
+	title = crisis2wrw.12.t
+	desc = crisis2wrw.12.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.12.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = RUS_war_crisis_tt
+		RUS = {
+			country_event = {
+				id = crisis2wrw.13
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.13" }
+	title = crisis2wrw.13.t
+	desc = crisis2wrw.13.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.13.a
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = {
+				id = crisis2wrw.14
+				days = 3
+			}
+		}
+		every_country = {
+			news_event = {
+				id = crisis2wrw.37
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.14" }
+	title = crisis2wrw.14.t
+	desc = crisis2wrw.14.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.14.a
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = {
+				id = crisis2wrw.15
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.15" }
+	title = crisis2wrw.15.t
+	desc = crisis2wrw.15.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.15.a
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = {
+				id = crisis2wrw.16
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.16
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.16" }
+	title = crisis2wrw.16.t
+	desc = crisis2wrw.16.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.16.a
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = {
+				id = crisis2wrw.17
+			}
+		}
+	}
+	option = { #
+		name = crisis2wrw.16.b
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = {
+				id = crisis2wrw.18
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.17
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.17" }
+	title = crisis2wrw.17.t
+	desc = crisis2wrw.17.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.17.a
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = {
+				id = crisis2wrw.19
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.18
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.18" }
+	title = crisis2wrw.18.t
+	desc = crisis2wrw.18.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.18.a
+		ai_chance = { factor = 1 }
+		RUS = {
+			country_event = {
+				id = crisis2wrw.20
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.19
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.19" }
+	title = crisis2wrw.19.t
+	desc = crisis2wrw.19.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.19.a
+		ai_chance = { factor = 1 }
+		every_country = {
+			news_event = {
+				id = crisis2wrw.21
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.20
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.20" }
+	title = crisis2wrw.20.t
+	desc = crisis2wrw.20.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.20.a
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				GER = { has_war_with = RUS }
+			}
+			GER = {
+				add_to_faction = ENG
+			}
+			ENG = {
+				declare_war_on = {
+					target = RUS
+					type = annex_everything
+				}
+			}
+			every_country = {
+				news_event = {
+					id = crisis2wrw.22
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+news_event = { #
+	id = crisis2wrw.21
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.21" }
+	title = crisis2wrw.21.t
+	desc = crisis2wrw.21.desc
+	picture = GFX_news_event_ENG_US_victory
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.21.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = yes
+		}
+	}
+	option = { #
+		name = crisis2wrw.21.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			is_russian_nation = no
+		}
+	}
+}
+
+news_event = { #
+	id = crisis2wrw.22
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.22" }
+	title = crisis2wrw.22.t
+	desc = crisis2wrw.22.desc
+	picture = GFX_news_event_FEN_UoB
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.22.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.23
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.23" }
+	title = crisis2wrw.23.t
+	desc = crisis2wrw.23.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.23.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = RUS_war_crisis_tt
+		ROM = {
+			country_event = {
+				id = crisis2wrw.24
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.24
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.24" }
+	title = crisis2wrw.24.t
+	desc = crisis2wrw.24.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.24.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = crisis2wrw.25
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.25
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.25" }
+	title = crisis2wrw.25.t
+	desc = crisis2wrw.25.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.25.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = crisis2wrw.26
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.26
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.26" }
+	title = crisis2wrw.26.t
+	desc = crisis2wrw.26.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.26.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			RUS = {
+				country_event = {
+					id = crisis2wrw.27
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.27
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.27" }
+	title = crisis2wrw.27.t
+	desc = crisis2wrw.27.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.27.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			ROM = {
+				country_event = {
+					id = crisis2wrw.28
+					days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.28
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.28" }
+	title = crisis2wrw.28.t
+	desc = crisis2wrw.28.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.28.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = crisis2wrw.29
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.29
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.29" }
+	title = crisis2wrw.29.t
+	desc = crisis2wrw.29.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.29.a
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			GER = {
+				country_event = {
+					id = crisis2wrw.30
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.30
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.30" }
+	title = crisis2wrw.30.t
+	desc = crisis2wrw.30.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.30.a
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = RUS_ROM_1_tt
+		hidden_effect = {
+			RUS = {
+				country_event = {
+					id = crisis2wrw.31
+					days = 1
+				}
+			}
+		}
+	}
+	option = { #
+		name = crisis2wrw.30.b
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = RUS_ROM_2_tt
+		hidden_effect = {
+			RUS = {
+				country_event = {
+					id = crisis2wrw.32
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.31
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.31" }
+	title = crisis2wrw.31.t
+	desc = crisis2wrw.31.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.31.a
+		ai_chance = { factor = 1 }
+		set_temp_variable = { temp_tension = -2 }
+		WRW_add_tension = yes
+		ROM = {
+			country_event = {
+				id = crisis2wrw.33
+				days = 3
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				news_event = {
+					id = crisis2wrw.36
+					days = 3
+				}
+			}
+		}
+	}
+	option = { #
+		name = crisis2wrw.31.b
+		ai_chance = { factor = 1 }
+		add_stability = -0.075
+		set_temp_variable = { temp_tension = 3 }
+		WRW_add_tension = yes
+		ROM = {
+			country_event = {
+				id = crisis2wrw.34
+				days = 3
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				news_event = {
+					id = crisis2wrw.35
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.32
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.32" }
+	title = crisis2wrw.32.t
+	desc = crisis2wrw.32.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.32.a
+		ai_chance = { factor = 1 }
+		set_temp_variable = { temp_tension = 3 }
+		WRW_add_tension = yes
+		ROM = {
+			country_event = {
+				id = crisis2wrw.34
+				days = 3
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				news_event = {
+					id = crisis2wrw.35
+					days = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.33
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.33" }
+	title = crisis2wrw.33.t
+	desc = crisis2wrw.33.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.33.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = crisis2wrw.34
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.34" }
+	title = crisis2wrw.34.t
+	desc = crisis2wrw.34.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.34.a
+		ai_chance = { factor = 1 }
+		if = {
+			limit = {
+				GER = { has_war_with = RUS }
+			}
+			GER = { add_to_faction = ROM }
+			ROM = {
+				declare_war_on = { target = RUS type = annex_everything }
+			}
+		}
+	}
+}
+
+news_event = { #
+	id = crisis2wrw.35
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.35" }
+	title = crisis2wrw.35.t
+	desc = crisis2wrw.35.desc
+	picture = GFX_news_event_romania_crisis
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.35.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			NOT = {
+				OR = {
+					has_government = national_socialism
+					has_government = ultranationalism
+				}
+			}
+		}
+	}
+	option = { #
+		name = crisis2wrw.35.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			OR = {
+				has_government = national_socialism
+				has_government = ultranationalism
+			}
+		}
+	}
+}
+
+news_event = { #
+	id = crisis2wrw.36
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.36" }
+	title = crisis2wrw.36.t
+	desc = crisis2wrw.36.desc
+	picture = GFX_news_event_romania_crisis_averted
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.36.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			NOT = {
+				OR = {
+					has_government = national_socialism
+					has_government = ultranationalism
+				}
+			}
+		}
+	}
+	option = { #
+		name = crisis2wrw.36.b
+		ai_chance = { factor = 1 }
+		trigger = {
+			OR = {
+				has_government = national_socialism
+				has_government = ultranationalism
+			}
+		}
+	}
+}
+
+news_event = { #
+	id = crisis2wrw.37
+	immediate = { log = "[GetDateText]: [Root.GetName]: event crisis2wrw.37" }
+	title = crisis2wrw.37.t
+	desc = crisis2wrw.37.desc
+	picture = GFX_news_event_england_crisis
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = crisis2wrw.37.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = {
+	id = RUS_nuke.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event RUS_nuke.1" }
+	title = RUS_nuke.1.t
+	desc = RUS_nuke.1.desc
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = RUS_nuke.1.a 
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			fire_nuclear_war = yes
+		}
+	}
+}

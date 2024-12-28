@@ -1,0 +1,346 @@
+#|===============| BNW Game Rules |===============|#
+
+##########################################
+### BNW - RUSSIA ###
+##########################################
+
+# Russia and Japan - Vladivostok Negotiation
+
+RUS_JAP_VLADIVOSTOK = {
+	name = RUS_JAP_VLADIVOSTOK
+	group = "RULE_GROUP_BNW_RULES_GENERAL"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_RUS_JAP_VLADIVOSTOK_RANDOM"
+		desc = "RULE_OPTION_RUS_JAP_VLADIVOSTOK_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_JAP_VLADIVOSTOK_FULL_VICTORY
+		text = "RULE_OPTION_RUS_JAP_VLADIVOSTOK_FULL_VICTORY"
+		desc = "RULE_OPTION_RUS_JAP_VLADIVOSTOK_FULL_VICTORY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_JAP_VLADIVOSTOK_PARTIAL_VICTORY
+		text = "RULE_OPTION_RUS_JAP_VLADIVOSTOK_PARTIAL_VICTORY"
+		desc = "RULE_OPTION_RUS_JAP_VLADIVOSTOK_PARTIAL_VICTORY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_JAP_VLADIVOSTOK_MINIMUM_VICTORY
+		text = "RULE_OPTION_RUS_JAP_VLADIVOSTOK_MINIMUM_VICTORY"
+		desc = "RULE_OPTION_RUS_JAP_VLADIVOSTOK_MINIMUM_VICTORY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_JAP_VLADIVOSTOK_FAIL
+		text = "RULE_OPTION_RUS_JAP_VLADIVOSTOK_FAIL"
+		desc = "RULE_OPTION_RUS_JAP_VLADIVOSTOK_FAIL_DESC"
+		allow_achievements = yes
+	}
+}
+
+# The Second West Russian War - Peace Deal
+
+RUS_SWRW_PEACEDEAL = {
+	name = RUS_SWRW_PEACEDEAL
+	group = "RULE_GROUP_BNW_RULES_GENERAL"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_RUS_SWRW_PEACEDEAL_RANDOM"
+		desc = "RULE_OPTION_RUS_SWRW_PEACEDEAL_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_SWRW_PEACEDEAL_FULL_VICTORY
+		text = "RULE_OPTION_RUS_SWRW_PEACEDEAL_FULL_VICTORY"
+		desc = "RULE_OPTION_RUS_SWRW_PEACEDEAL_FULL_VICTORY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_SWRW_PEACEDEAL_UKRAINE
+		text = "RULE_OPTION_RUS_SWRW_PEACEDEAL_UKRAINE"
+		desc = "RULE_OPTION_RUS_SWRW_PEACEDEAL_UKRAINE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_SWRW_PEACEDEAL_CAUCASUS
+		text = "RULE_OPTION_RUS_SWRW_PEACEDEAL_CAUCASUS"
+		desc = "RULE_OPTION_RUS_SWRW_PEACEDEAL_CAUCASUS_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_SWRW_PEACEDEAL_MOSCOW
+		text = "RULE_OPTION_RUS_SWRW_PEACEDEAL_MOSCOW"
+		desc = "RULE_OPTION_RUS_SWRW_PEACEDEAL_MOSCOW_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_SWRW_PEACEDEAL_TOTAL_DEFEAT
+		text = "RULE_OPTION_RUS_SWRW_PEACEDEAL_TOTAL_DEFEAT"
+		desc = "RULE_OPTION_RUS_SWRW_PEACEDEAL_TOTAL_DEFEAT_DESC"
+		allow_achievements = yes
+	}
+}
+
+# US 76 Elections
+
+USA_76_ELECTIONS = {
+	name = USA_76_ELECTIONS
+	group = "RULE_GROUP_BNW_RULES_GENERAL"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_USA_76_ELECTIONS_RANDOM"
+		desc = "RULE_OPTION_USA_76_ELECTIONS_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = USA_76_ELECTIONS_INCUMBENT
+		text = "RULE_OPTION_USA_76_ELECTIONS_INCUMBENT"
+		desc = "RULE_OPTION_USA_76_ELECTIONS_INCUMBENT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = USA_76_ELECTIONS_CARTER
+		text = "RULE_OPTION_USA_76_ELECTIONS_CARTER"
+		desc = "RULE_OPTION_USA_76_ELECTIONS_CARTER_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = USA_76_ELECTIONS_ANDERSON
+		text = "RULE_OPTION_USA_76_ELECTIONS_ANDERSON"
+		desc = "RULE_OPTION_USA_76_ELECTIONS_ANDERSON_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = USA_76_ELECTIONS_JACKSON
+		text = "RULE_OPTION_USA_76_ELECTIONS_JACKSON"
+		desc = "RULE_OPTION_USA_76_ELECTIONS_JACKSON_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = USA_76_ELECTIONS_TALMADGE
+		text = "RULE_OPTION_USA_76_ELECTIONS_TALMADGE"
+		desc = "RULE_OPTION_USA_76_ELECTIONS_TALMADGE_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = USA_76_ELECTIONS_BAKER
+		text = "RULE_OPTION_USA_76_ELECTIONS_BAKER"
+		desc = "RULE_OPTION_USA_76_ELECTIONS_BAKER_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Bormann Successor
+
+BOR_SUCCESSOR = {
+	name = BOR_SUCCESSOR
+	group = "RULE_GROUP_BNW_RULES_GENERAL"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_BOR_SUCCESSOR_RANDOM"
+		desc = "RULE_OPTION_BOR_SUCCESSOR_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BOR_SUCCESSOR_KLOPFER
+		text = "RULE_OPTION_BOR_SUCCESSOR_KLOPFER"
+		desc = "RULE_OPTION_BOR_SUCCESSOR_KLOPFER_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BOR_SUCCESSOR_GEHLEN
+		text = "RULE_OPTION_BOR_SUCCESSOR_GEHLEN"
+		desc = "RULE_OPTION_BOR_SUCCESSOR_GEHLEN_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = BOR_SUCCESSOR_WALDHEIM
+		text = "RULE_OPTION_BOR_SUCCESSOR_WALDHEIM"
+		desc = "RULE_OPTION_BOR_SUCCESSOR_WALDHEIM_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Speer Endstate
+
+SPEER_ENDSTATE = {
+	name = SPEER_ENDSTATE
+	group = "RULE_GROUP_BNW_RULES_GENERAL"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_SPEER_ENDSTATE_RANDOM"
+		desc = "RULE_OPTION_SPEER_ENDSTATE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = SPEER_ENDSTATE_PATH
+		text = "RULE_OPTION_SPEER_ENDSTATE_PATH"
+		desc = "RULE_OPTION_SPEER_ENDSTATE_PATH_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = SPEER_ENDSTATE_KIESINGER
+		text = "RULE_OPTION_SPEER_ENDSTATE_KIESINGER"
+		desc = "RULE_OPTION_SPEER_ENDSTATE_KIESINGER_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = SPEER_ENDSTATE_SPEIDEL
+		text = "RULE_OPTION_SPEER_ENDSTATE_SPEIDEL"
+		desc = "RULE_OPTION_SPEER_ENDSTATE_SPEIDEL_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Shukshin - Fate of Caucasus
+
+RUS_CAU_FATE = {
+	name = RUS_CAU_FATE
+	group = "RULE_GROUP_BNW_RULES_SHUKSHIN"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_RUS_CAU_FATE_RANDOM"
+		desc = "RULE_OPTION_RUS_CAU_FATE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_CAU_FATE_TRANSCAUCASIA
+		text = "RULE_OPTION_RUS_CAU_FATE_TRANSCAUCASIA"
+		desc = "RULE_OPTION_RUS_CAU_FATE_TRANSCAUCASIA_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_CAU_FATE_FEDERATION
+		text = "RULE_OPTION_RUS_CAU_FATE_FEDERATION"
+		desc = "RULE_OPTION_RUS_CAU_FATE_FEDERATION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_CAU_FATE_INTEGRATION
+		text = "RULE_OPTION_RUS_CAU_FATE_INTEGRATION"
+		desc = "RULE_OPTION_RUS_CAU_FATE_INTEGRATION_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Shukshin - Fate of Ukraine
+
+RUS_UKR_FATE = {
+	name = RUS_UKR_FATE
+	group = "RULE_GROUP_BNW_RULES_SHUKSHIN"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_RUS_UKR_FATE_RANDOM"
+		desc = "RULE_OPTION_RUS_UKR_FATE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_UKR_FATE_PUPPET
+		text = "RULE_OPTION_RUS_UKR_FATE_PUPPET"
+		desc = "RULE_OPTION_RUS_UKR_FATE_PUPPET_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_UKR_FATE_INTEGRATION
+		text = "RULE_OPTION_RUS_UKR_FATE_INTEGRATION"
+		desc = "RULE_OPTION_RUS_UKR_FATE_INTEGRATION_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Shukshin - Fate of Belarus
+
+RUS_BLR_FATE = {
+	name = RUS_BLR_FATE
+	group = "RULE_GROUP_BNW_RULES_SHUKSHIN"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_RUS_BLR_FATE_RANDOM"
+		desc = "RULE_OPTION_RUS_BLR_FATE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_BLR_FATE_PUPPET
+		text = "RULE_OPTION_RUS_BLR_FATE_PUPPET"
+		desc = "RULE_OPTION_RUS_BLR_FATE_PUPPET_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_BLR_FATE_INTEGRATION
+		text = "RULE_OPTION_RUS_BLR_FATE_INTEGRATION"
+		desc = "RULE_OPTION_RUS_BLR_FATE_INTEGRATION_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Shukshin - Fate of the Baltics
+
+RUS_OST_FATE = {
+	name = RUS_OST_FATE
+	group = "RULE_GROUP_BNW_RULES_SHUKSHIN"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_RUS_OST_FATE_RANDOM"
+		desc = "RULE_OPTION_RUS_OST_FATE_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_OST_FATE_BALTIC_STATES
+		text = "RULE_OPTION_RUS_OST_FATE_BALTIC_STATES"
+		desc = "RULE_OPTION_RUS_OST_FATE_BALTIC_STATES_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_OST_FATE_UNION
+		text = "RULE_OPTION_RUS_OST_FATE_UNION"
+		desc = "RULE_OPTION_RUS_OST_FATE_UNION_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RUS_OST_FATE_INTEGRATION
+		text = "RULE_OPTION_RUS_OST_FATE_INTEGRATION"
+		desc = "RULE_OPTION_RUS_OST_FATE_INTEGRATION_DESC"
+		allow_achievements = yes
+	}
+}
+
+# Shuk Postwar Elections
+
+SHUK_POSTWAR_ELECTIONS = {
+	name = SHUK_POSTWAR_ELECTIONS
+	group = "RULE_GROUP_BNW_RULES_SHUKSHIN"
+	option = {
+		name = DEFAULT
+		text = "RULE_OPTION_SHUK_POSTWAR_ELECTIONS_RANDOM"
+		desc = "RULE_OPTION_SHUK_POSTWAR_ELECTIONS_RANDOM_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = SHUK_POSTWAR_ELECTIONS_SHUK
+		text = "RULE_OPTION_SHUK_POSTWAR_ELECTIONS_SHUK"
+		desc = "RULE_OPTION_SHUK_POSTWAR_ELECTIONS_SHUK_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = SHUK_POSTWAR_ELECTIONS_KORY
+		text = "RULE_OPTION_SHUK_POSTWAR_ELECTIONS_KORY"
+		desc = "RULE_OPTION_SHUK_POSTWAR_ELECTIONS_KORY_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = SHUK_POSTWAR_ELECTIONS_KANT
+		text = "RULE_OPTION_SHUK_POSTWAR_ELECTIONS_KANT"
+		desc = "RULE_OPTION_SHUK_POSTWAR_ELECTIONS_KANT_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = SHUK_POSTWAR_ELECTIONS_ARPP
+		text = "RULE_OPTION_SHUK_POSTWAR_ELECTIONS_ARPP"
+		desc = "RULE_OPTION_SHUK_POSTWAR_ELECTIONS_ARPP_DESC"
+		allow_achievements = yes
+	}
+}
+

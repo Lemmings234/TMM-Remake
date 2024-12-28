@@ -1,0 +1,85 @@
+leader_traits = {
+    QIN_Chiang_Chingkuo_hog_desc = {}
+    QIN_Wang_Shijie_for_desc = {}
+	QIN_Ji_Chaoding_eco_desc = {}
+	QIN_Shen_Zhiyue_sec_desc = {}
+	QIN_Dao_Shengyang_eco_desc = {} 
+	QIN_Gao_Gang_hog_desc = {}
+
+	#Zhengxuexi Gang
+	QIN_Wu_Guozhen_hog_desc = {}
+	QIN_Hang_Liwu_for_desc = {}
+	QIN_Zhang_Jiaao_eco_desc = {}
+	QIN_Xiong_Shihui_sec_desc = {}
+
+	#Chen Lifu's Train of Suffering (Excluding Soons)
+	QIN_Xiao_Zheng_hog_desc = {}
+	QIN_Gu_Yiqun_for_desc = {}
+	QIN_Xu_Baiyuan_eco_desc = {}
+	QIN_Chiang_Weikuo_sec_desc = {}
+
+	#Chiang's 69420th Chinese Benevolent Dictatorship (!!!)
+	QIN_Zhang_Qun_hog_desc = {}
+	QIN_Sheng_Changhuan_for_desc = {}
+	QIN_Sun_Yunsuan_eco_desc = {}
+	QIN_Wang_Sheng_sec_desc = {}
+
+	GUZ_Li_Pinxian_hog_desc = {}
+	GUZ_Yang_Ruxuan_for_desc = {}
+	GUZ_Miao_Yuntai_eco_desc = {}
+	GUZ_Lu_Han_sec_desc = {}
+
+	XIK_Zhang_Zhihe_hog_desc = {}
+	XIK_Xue_Yue_for_desc = {}
+	XIK_Li_Xianchun_eco_desc = {}
+	XIK_Zhang_Weijiong_sec_desc = {}
+
+	SIC_Deng_Xihou_hog_desc = {}
+	SIC_Xiong_Kewu_for_desc = {}
+	SIC_Liu_Hangchen_eco_desc = {}
+	SIC_Pan_Wenhua_sec_desc = {}
+
+	#ARPP4Life!!!
+	NOV_Ivan_Silayev_hog_desc = {}
+	NOV_Vladimir_Vinogradov_for_desc = {}
+	NOV_Rem_Viakhirev_eco_desc = {}
+	NOV_Pyotr_Deynekin_sec_desc = {}
+
+	#Why are CEOs buried 20 feet below? Because deep down they are still good '''''''''people'''''''''
+    NOV_Leonid_Plyushch_hog_desc = {}
+	NOV_Alexander_Lavut_for_desc = {}
+	NOV_Anatoly_Marchenko_eco_desc = {}
+    NOV_Petro_Grigorenko_sec_desc = {}
+
+	#Kid named United Nations of Earth in 2050
+	NOV_Felix_Serebrov_hog_desc = {}
+	NOV_Sergei_Kovalev_for_desc = {}
+	NOV_Naum_Meiman_eco_desc = {}
+	NOV_Vyacheslav_Bakhmin_sec_desc = {}
+
+	JAP_Sato_Eisaku_hog_desc = {}
+	JAP_Kubota_Kanichiro_for_desc = {}
+	JAP_Gotoda_Masaharu_sec_desc = {}
+	JAP_Uemura_Kogoro_eco_desc = {}
+	JAP_Watanabe_Takeshi_hog_desc = {}
+	JAP_Ozaki_Hotsumi_for_desc = {}
+	JAP_Ishii_Mitsujiro_eco_desc = {}
+	JAP_Hanano_Kichihei_sec_desc = {}
+
+	NCC_Miao_Bin_hog_desc = {}
+	NCC_Wang_Hongwen_for_desc = {}
+	NCC_Peng_Shihong_eco_desc = {}
+	NCC_Liang_Huazhi_sec_desc = {}
+	CHI_Gan_Naiguang_hog_desc = {}
+	CHI_Shi_Cuntong_for_desc = {}
+	BNW_CHI_Mei_Siping_desc = {}
+	CHI_Ding_Mocun_sec_desc = {}
+	JAP_Furumi_Tadayuki_hog_desc = {}
+	JAP_Amogus_for_desc = {}
+	BNW_JAP_Shiina_Etsusaburo_eco_desc = {}
+	JAP_Kawakami_Jotaro_sec_desc = {}
+	JAP_Okuno_Seisuke_hog_desc = {}
+	JAP_Ikeda_Sumihisa_for_desc = {}
+	JAP_Sanji_Shigenobu_eco_desc = {}
+	JAP_Onodera_Makoto_sec_desc = {}
+}

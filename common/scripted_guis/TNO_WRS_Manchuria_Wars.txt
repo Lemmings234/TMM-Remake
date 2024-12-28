@@ -1,0 +1,40 @@
+scripted_gui = {
+	TNO_Manchuria_War_Decision_GUI = {
+		context_type = decision_category
+		window_name = "TNO_Manchuria_War_Decision_GUI"
+
+		visible = {
+			tag = RUS
+		}
+		
+		properties = {
+			TNO_War_Objective_Blagoveshchensk_Overlay = {
+				frame = TNO_War_Objective_Blagoveshchensk_Controller_VAR
+			}
+			TNO_War_Objective_Birobidzhan_Overlay = {
+				frame = TNO_War_Objective_Birobidzhan_Controller_VAR
+			}
+			TNO_War_Objective_Khabarovsk_Krai_Overlay = {
+				frame = TNO_War_Objective_Khabarovsk_Controller_VAR
+			}
+			TNO_War_Objective_Primorsky_Krai_Overlay = {
+				frame = TNO_War_Objective_Primorsky_Controller_VAR
+			}
+			TNO_War_Objective_Vladivostok_Overlay = {
+				frame = TNO_War_Objective_Vladivostok_Controller_VAR
+			}
+			TNO_War_Objective_Sakhalin_Overlay = {
+				frame = TNO_War_Objective_Sakhalin_Controller_VAR
+			}
+			TNO_War_Objective_Heilongjiang_Overlay = {
+				frame = TNO_War_Objective_Heilongjiang_Controller_VAR
+			}
+			TNO_War_Objective_Jilin_Overlay = {
+				frame = TNO_War_Objective_Jilin_Controller_VAR
+			}
+			TNO_War_Objective_Harbin_Overlay = {
+				frame = TNO_War_Objective_Harbin_Controller_VAR
+			}
+		}
+	}
+}

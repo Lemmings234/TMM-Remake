@@ -1,0 +1,76 @@
+﻿division_template = {
+	name = "Infantry Division"				
+										#Normal Equipment and Training
+	regiments = {					
+	    infantry = { x = 0 y = 0 }
+    	infantry = { x = 1 y = 0 }
+    	infantry = { x = 0 y = 1 }
+        infantry = { x = 0 y = 2 }
+    	infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+    	infantry = { x = 2 y = 0 }
+    	artillery_brigade = { x = 2 y = 1 }
+        artillery_brigade = { x = 2 y = 2 }
+	}
+    support = {
+        IFV_recon = { x = 0 y = 0 }
+  	    artillery = { x = 0 y = 1 }
+    }
+}
+
+units = {
+	division = {	
+		name = "14th Infantry Division"
+		location = 7137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "15th Infantry Division"
+		location = 1625
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "16th Infantry Division"
+		location = 10459
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "17th Infantry Division"
+		location = 4077
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "51st Infantry Division"
+		location = 1597
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "52nd Infantry Division"
+		location = 4152
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "53rd Infantry Division"
+		location = 10004
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "55th Infantry Division"
+		location = 1469
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "56th Infantry Division"
+		location = 4085
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+}

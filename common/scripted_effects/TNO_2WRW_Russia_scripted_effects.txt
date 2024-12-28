@@ -1,0 +1,124 @@
+# Second West Russian War
+
+RUS_declare_war_se = {
+	declare_war_on = {
+		target = GER
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = MCW
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = MOS
+		type = annex_everything
+		}
+	declare_war_on = {
+		target = OKB
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = RSB
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = PSK
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = SMO
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = ZLB
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = FRP
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = PEN
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = RDC
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = BBB
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = PAU
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = UKR
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = OST
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = CAU
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = BLR
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = POL
+		type = annex_everything
+	}
+}
+
+RUS_declare_war_KAZ_se = {
+	declare_war_on = {
+		target = DER
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = KAZ
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = KOK
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = PAV
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = AKT
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = ARL
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = NPL
+		type = annex_everything
+	}
+}
+
+RUS_claim_moskowien_cores = {
+	MCW = {
+		every_owned_state = {
+			add_claim_by = RUS
+		}
+	}
+	195 = {add_claim_by = RUS}
+}
+
+RUS_remove_moskowien_cores = {
+	MCW = {
+		every_core_state = {
+			remove_core_of = MCW
+		}
+	}
+}

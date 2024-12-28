@@ -1,0 +1,227 @@
+Tibet_Name_Change = { 
+	if = {
+		limit = {
+			OR = {
+				is_controlled_by = QIN
+				is_controlled_by = XIK
+			}
+		}
+		set_province_name = { id = 5033 name = VICTORY_POINTS_5033_qin } 
+		set_state_name = STATE_322_qin
+	}
+	else = {
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 5033 name = VICTORY_POINTS_5033 }
+			set_state_name = STATE_322
+		}
+		else = { 
+			set_province_name = { id = 5033 name = VICTORY_POINTS_5033 }
+			reset_province_name = 5033 
+			set_state_name = STATE_322
+		}
+	}
+}
+Yushu_Name_Change = { 
+	if = {
+		limit = {
+			OR = {
+				is_controlled_by = QIN
+				is_controlled_by = XIK
+			}
+		}
+		set_province_name = { id = 4964 name = VICTORY_POINTS_4964_qin } 
+		set_state_name = STATE_601_qin
+	}
+	else = {
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 4964 name = VICTORY_POINTS_4964 }
+			set_state_name = STATE_601
+		}
+		else = { 
+			set_province_name = { id = 4964 name = VICTORY_POINTS_4964 }
+			reset_province_name = 4964 
+			set_state_name = STATE_601
+		}
+	}
+}
+Xikang_Name_Change = { 
+	if = {
+		limit = {
+			OR = {
+				is_controlled_by = QIN
+				is_controlled_by = XIK
+				is_controlled_by = CHI
+				is_controlled_by = SIC
+				is_controlled_by = YUN
+			}
+		}
+		set_state_name = STATE_765
+	}
+	else = {
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_state_name = STATE_765_tib
+		}
+		else = { 
+			reset_province_name = 4407 
+			set_state_name = STATE_765_tib
+		}
+	}
+}
+Khams_Name_Change = { 
+	if = {
+		limit = {
+			OR = {
+				is_controlled_by = QIN
+				is_controlled_by = XIK
+				is_controlled_by = CHI
+				is_controlled_by = SIC
+				is_controlled_by = YUN
+			}
+		}
+		set_province_name = { id = 4407 name = VICTORY_POINTS_4407_qin } 
+		set_state_name = STATE_964_qin
+	}
+	else = {
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 4407 name = VICTORY_POINTS_4407 }
+			set_state_name = STATE_964
+		}
+		else = { 
+			set_province_name = { id = 4407 name = VICTORY_POINTS_4407 }
+			reset_province_name = 4407 
+			set_state_name = STATE_964
+		}
+	}
+}
+Kangding_Name_Change = { 
+	if = {
+		limit = {
+			OR = {
+				is_controlled_by = QIN
+				is_controlled_by = XIK
+				is_controlled_by = CHI
+				is_controlled_by = SIC
+				is_controlled_by = YUN
+			}
+		}
+		set_state_name = STATE_905
+	}
+	else = {
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_state_name = STATE_905_tib
+		}
+		else = { 
+			reset_province_name = 4407 
+			set_state_name = STATE_905_tib
+		}
+	}
+}
+Hexi_Name_Change = { 
+	if = {
+		limit = {
+			OR = {
+				is_controlled_by = QIN
+				is_controlled_by = XIK
+				is_controlled_by = CHI
+			}
+		}
+		set_province_name = { id = 7971 name = VICTORY_POINTS_7971_qin } 
+		set_state_name = STATE_764_qin
+	}
+	else = {
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 7971 name = VICTORY_POINTS_7971_qin }
+			set_state_name = STATE_764_qin
+		}
+		else = { 
+			set_province_name = { id = 7971 name = VICTORY_POINTS_7971 }
+			reset_province_name = 7971 
+			set_state_name = STATE_764
+		}
+	}
+}
+Ningxia_Name_Change = { 
+	if = {
+		limit = {
+			OR = {
+				is_controlled_by = QIN
+				is_controlled_by = XIK
+				is_controlled_by = CHI
+			}
+		}
+		set_province_name = { id = 8127 name = VICTORY_POINTS_8127_qin } 
+		set_state_name = STATE_616_qin
+	}
+	else = {
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 8127 name = VICTORY_POINTS_8127_qin }
+			set_state_name = STATE_616_qin
+		}
+		else = { 
+			set_province_name = { id = 8127 name = VICTORY_POINTS_8127 }
+			reset_province_name = 8127 
+			set_state_name = STATE_616
+		}
+	}
+}
+Lanzhou_Name_Change = { 
+	if = {
+		limit = {
+			OR = {
+				is_controlled_by = QIN
+				is_controlled_by = XIK
+				is_controlled_by = CHI
+			}
+		}
+		set_province_name = { id = 1630 name = VICTORY_POINTS_1630_qin } 
+		set_province_name = { id = 12776 name = VICTORY_POINTS_12776_qin } 
+		set_state_name = STATE_1302_qin
+	}
+	else = {
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 1630 name = VICTORY_POINTS_1630_qin }
+			set_province_name = { id = 12776 name = VICTORY_POINTS_12776_qin }
+			set_state_name = STATE_1302_qin
+		}
+		else = { 
+			set_province_name = { id = 1630 name = VICTORY_POINTS_1630 }
+			set_province_name = { id = 12776 name = VICTORY_POINTS_12776 }
+			reset_province_name = 1630 
+			reset_province_name = 12776 
+			set_state_name = STATE_1302
+		}
+	}
+}
+Tianshui_Name_Change = { 
+	if = {
+		limit = {
+			OR = {
+				is_controlled_by = QIN
+				is_controlled_by = XIK
+				is_controlled_by = CHI
+			}
+		}
+		set_province_name = { id = 7911 name = VICTORY_POINTS_7911_qin } 
+		set_state_name = STATE_283_qin
+	}
+	else = {
+		if = {
+			limit = { has_global_flag = TNO_endonym_mode }
+			set_province_name = { id = 7911 name = VICTORY_POINTS_7911_qin }
+			set_state_name = STATE_283
+		}
+		else = { 
+			set_province_name = { id = 7911 name = VICTORY_POINTS_7911 }
+			reset_province_name = 7911 
+			set_state_name = STATE_283
+		}
+	}
+}

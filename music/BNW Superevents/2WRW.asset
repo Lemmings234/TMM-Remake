@@ -1,0 +1,108 @@
+######################################
+
+#category = {
+# 	name = "TNO_Effects"
+#	soundeffects = {
+#		####### Super Events
+#		#Second West Russian War 
+#		tno_se_russian_nuclear_weapons
+#		tno_se_second_west_russian_war
+#		tno_se_total_russian_victory
+#		tno_se_total_german_victory
+#		tno_se_second_west_russian_war
+#		tno_se_total_russian_victory
+#		tno_se_total_german_victory
+#		tno_se_second_west_russian_war
+#		tno_se_total_russian_victory
+#		tno_se_total_german_victory
+#		tno_se_second_west_russian_war
+#		tno_se_total_russian_victory
+#		tno_se_total_german_victory
+#		tno_se_the_great_trial
+#		tno_se_the_great_trial
+#		tno_se_the_great_trial
+#		tno_se_the_great_trial
+#		#Novosibirsk
+#		tno_se_novosibirsk_second_west_russian_war
+#		tno_se_novosibirsk_victory #Porky
+#		tno_se_shukshin_victory
+#		#Hyperborea
+#		tno_se_twilight_of_the_gods
+#		#WRRF
+#		tno_se_wrrf_declaration tno_se_red_napoleon_war_declaration tno_se_red_napoleon_victory #FREE TERRITORY tno_se_sba_war_declaration #KOMI tno_se_komi_democratic_war_declaration
+#		tno_se_serov_war_declaration
+#		tno_se_bukharina_war_declaration
+#		tno_se_zhadanov_war_declaration
+#		tno_se_komi_suslov_war_declaration
+#		tno_se_eurasian_conquest_war_declaration
+#		tno_se_stalina_war_declaration
+#		tno_se_shafarevich_war_declaration
+#		# SAMARA
+#		tno_se_samara_bunyachenko_war_declaration
+#		tno_se_samara_zykov_war_declaration
+#		tno_se_samara_oktan_war_declaration
+#		# Kemerovo
+#		tno_se_kemerovo_yuri_war_declaration
+#		tno_se_kemerovo_Rogneda_war_declaration
+#	    # Tyuman
+#		tno_se_kaganovich_war_declaration
+#		tno_se_khrushchev_war
+#		#Magadan
+#		tno_se_werbell_war_declaration
+#		tno_se_werbell_victory
+#		tno_se_werbell_victory_despot
+#		tno_se_magadan_war_declaration
+#		#SVERDLOVSK
+#		tno_se_batov_war_declaration
+#		tno_se_yeltsin_war_declaration
+#		#Vyatka
+#		tno_se_vyatka_war_declaration #ConDem
+#		tno_se_vyatka_lib_war_declaration #LibDem
+#		tno_se_vyatka_auth_war_declaration #AuthDem
+#		# Aryan Bruh
+#		#tno_se_perm_slave_revolt
+#		tno_se_vagner_war_declaration
+#		#Mandate
+#		tno_se_divine_mandate_war_declaration
+#		# Amur
+#		tno_se_amur_war_declaration
+#		# TOMSK
+#		tno_se_2wrw_tomsk_modernists
+#		tno_se_decemberist_tomsk_war_declaration
+#		tno_se_bastillard_tomsk_war_declaration
+#		tno_se_humanist_tomsk_war_declaration
+#		# IRKUTSK
+#		tno_se_irkutsk_war_declaration
+#		# BURYATIA
+#		tno_se_authsoc_sablin_war_declaration
+#		tno_se_libsoc_sablin_war_declaration
+#		# CHITA
+#		tno_se_chita_war_declaration
+#		tno_se_chita_victory
+#		# PRC
+#		tno_se_prc_war_declaration
+#		
+#		tno_se_fall_of_germania
+#		
+#		# Brosip Tito
+#		tno_se_yugoslav_reunification_tito
+#		
+#		# Misc Events
+#		tno_se_second_great_northern_war
+#		
+#		# Germany
+#		tno_se_the_german_spring
+#		tno_se_the_moker
+#		
+#	}
+# 	compressor = {
+#		enabled = yes
+#		pregain = 3.0
+#		postgain = 0.0
+#		ratio = 10.0
+#		threshold = -15.0
+#		attacktime = 0.030
+#		releasetime = 1.2
+# 	}
+#}
+

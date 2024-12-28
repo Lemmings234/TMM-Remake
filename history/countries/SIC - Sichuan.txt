@@ -131,6 +131,8 @@ set_popularities = {
 	despotism = 52
 	fascism = 15
 	national_socialism = 0
+    esoteric_nazism = 0
+    
 }
 
 add_ideas = {

@@ -329,33 +329,14 @@ country_event = {#Dalai escapes
 		ai_chance = { factor = 90 }
 		name = "Any resemblance of calmness will soon fade away from Tibet."
 		add_ideas = QIN_dalai_leaves
+		601 = {
+			add_compliance = 20
+		}
 		765 = {
-			add_compliance = 45
-			add_resistance = -30
+			add_compliance = 20
 		}
 		322 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		601 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		964 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		1961 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		1962 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		1963 = {
-			add_compliance = 45
-			add_resistance = -30
+			add_compliance = 20
 		}
 	}
 }
@@ -373,33 +354,18 @@ country_event = {#Dalai stays
 		ai_chance = { factor = 90 }
 		name = "Good. One less trouble we have to deal with."
 		add_ideas = QIN_dalai_stays
-		765 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		322 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
+		QIN = {
+			add_state_claim = 322
+			add_state_claim = 765
+		}	
 		601 = {
-			add_compliance = 45
-			add_resistance = -30
+			add_compliance = 30
 		}
 		964 = {
-			add_compliance = 45
-			add_resistance = -30
+			add_compliance = 30
 		}
-		1961 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		1962 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		1963 = {
-			add_compliance = 45
-			add_resistance = -30
+		322 = {
+			add_compliance = 30
 		}
 	}
 }

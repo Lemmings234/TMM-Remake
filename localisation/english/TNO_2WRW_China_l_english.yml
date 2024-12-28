@@ -1,0 +1,88 @@
+﻿l_english:
+ 
+ ### MA ###
+ 
+ ## Characters ##
+ 
+ QIN_Sun_Tse_Ping:0 "Sun Tse-Ping"
+ QIN_Chiang_Chingkuo:0 "Chiang Chingkuo"
+ QIN_Li_Xiannian:0 "Li Xiannian"
+ 
+ ## Cosemetic Tags ##
+ 
+ QIN_WCW:0 "Northwest Government"
+ QIN_WCW_DEF:0 "The Military Government of Northwest China"
+ QIN_WCW_ADJ:0 "Chinese"
+ 
+ QIN_WCH:0 "Provisional Government of China"
+ QIN_WCH_DEF:0 "The Provisional Government of China"
+ QIN_WCH_ADJ:0 "Chinese"
+ 
+ QIN_CHI:0 "Republic of China"
+ QIN_CHI_DEF:0 "The Republic of China"
+ QIN_CHI_ADJ:0 "Chinese"
+ 
+ QIN_PRC:0 "People's Republic of China"
+ QIN_PRC_DEF:0 "The People's Republic of China"
+ QIN_PRC_ADJ:0 "Chinese"
+
+ # Party Name Changes
+
+ QIN_provisional_government_long:0 "Kuomintang Provisional Government"
+ QIN_provisional_government_short:0 "KMT - Provisional Government"
+
+ QIN_WCH_despotism_long:0 "Chinese Military Council"
+ QIN_WCH_despotism_short:0 "Chinese Military Council"
+
+ QIN_WCH_reformist_faction_long:0 "Kuomintang - Reformist Faction"
+ QIN_WCH_reformist_faction_short:0 "KMT - Reform"
+ 
+ QIN_PRC_communism_short:0 "CCP"
+ QIN_PRC_communism_long:0 "Communist Party of China"
+ 
+ QIN_KMT_moderate_short:0 "KMT - Moderate"
+ QIN_KMT_moderate_long:0 "Kuomintang - Moderate Faction"
+
+ ## Decisions ##
+ TNO_2WRW_west_china_category:0 "Western China"
+
+ TNO_2WRW_consolidate_west_china:0 "Consolidate Western China"
+ TNO_2WRW_WCH_join_the_csto:0 "Apply to Join the CSTO"
+ 
+ TNO_2WRW_WCH_Sun_Tse_Ping_debug:0 "Debug - Sun Tse-Ping Leader"
+ TNO_2WRW_WCH_Chiang_Chingkuo_debug:0 "Debug - Chiang Chingkuo Leader"
+ TNO_2WRW_WCH_Li_Xiannian_debug:0 "Debug - Li Xiannian (Oh god oh fuck)"
+ 
+ ## Ideas ##
+ 
+ WCH_national_reconstruction:0 "Western Reconstruction Plan"
+ WCH_diverse_nation:0 "Diverse Nation"
+ 
+ ## Events ##
+ 
+ QIN_China.1.t:0 "China Elections"
+ 
+ ### HUI ###
+ 
+ ## Decisions ##
+ 
+ TNO_2WRW_hui_category:0 "[GAN.GetName] Decisions"
+ 
+ TNO_2WRW_consolidate_qinghai:0 "Consolidate Qinghai"
+ 
+ ### TIBET ###
+ 
+ ## Cosemetic ##
+ 
+ TIB_autonomy:0 "Kingdom of Tibet"
+ TIB_autonomy_DEF:0 "The Autonomous Kingdom of Tibet"
+ TIB_autonomy_ADJ:0 "Tibetan"
+ 
+ # Party Name Changes
+ 
+ TIB_CHI_despotism_short:0 "UTP"
+ TIB_CHI_despotism_long:0 "United Tibet Party"
+ 
+ ## Ideas ##
+ 
+ TIB_the_dalai_lama:0 "The Dalai Lama"

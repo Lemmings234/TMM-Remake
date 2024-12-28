@@ -1,0 +1,93 @@
+﻿division_template = {
+	  name = "Infantry Division"		
+	  is_locked = yes			
+	  division_names_group = MEN_INF_01
+	  regiments = {					
+	    infantry = { x = 0 y = 0 }
+      infantry = { x = 0 y = 1 }
+      infantry = { x = 2 y = 2 }
+	  }
+    support = {
+      recon = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+    }
+}
+
+division_template = {
+    name = "Cavalry Division"     
+	is_locked = yes	     
+    division_names_group = XSM_CAV_01
+    regiments = {         
+          cavalry = { x = 0 y = 0 }
+          cavalry = { x = 0 y = 1 }
+          cavalry = { x = 0 y = 2 }
+    }
+      support = {
+          recon = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Guards of the Prince"       
+	is_locked = yes	   
+    division_names_group = MEN_INF_01
+    regiments = {         
+        APC = { x = 0 y = 0 }
+        motorized = { x = 0 y = 1 }
+        motorized = { x = 0 y = 2 }
+    }
+    support = {
+        mot_recon = { x = 0 y = 0 }
+    }
+}
+
+units = {
+	division = {	
+		name = "1st 'Xuanhua' Division"
+		location = 1868
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "2nd 'Guisui' Division"
+		location = 7749
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "3rd 'Jining' Division"
+		location = 12669
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "5th 'Dörbed' Qosiuu Division"
+		location = 4729
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "6th 'Zhangbei' Division"
+		location = 7823
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "7th Division"
+		location = 4856
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "9th Division"
+		location = 12609
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Guards of Prince Demchugdongrub"
+		location = 1590
+		division_template = "Guards of the Prince"
+		start_experience_factor = 0.35
+	}
+}

@@ -1,0 +1,41 @@
+############################
+## Culture events, thank you to AtomicSoviet and the End of a New Beginning team for this!!!
+############################
+## Starting Cultures
+	
+BNW_setup_cultures = {
+	### BNW ###
+	#Syncretic Chinese
+	set_variable = { 604.nationality = 999 } #Qinghai
+	set_variable = { 905.nationality = 999 } #Qinghai
+	set_variable = { 906.nationality = 999 }
+	set_variable = { 765.nationality = 999 } #Xikang
+	#Jilu
+	set_variable = { 1964.nationality = 209 }
+	set_variable = { 1997.nationality = 209 }
+	#Zhongyuan
+	set_variable = { 1961.nationality = 63 }
+	set_variable = { 1962.nationality = 63 }
+	set_variable = { 1963.nationality = 63 }
+	set_variable = { 1994.nationality = 63 }
+	set_variable = { 1995.nationality = 63 }
+	set_variable = { 1996.nationality = 63 }
+	set_variable = { 1998.nationality = 63 }
+	#Xibei Chinese
+	set_variable = { 957.nationality = 300 }
+	set_variable = { 1999.nationality = 300 }
+	set_variable = { 2003.nationality = 300 }
+	set_variable = { 2004.nationality = 300 }
+    #Uyghurs
+	set_variable = { 2000.nationality = 207 }
+	set_variable = { 2001.nationality = 207 }
+	set_variable = { 2002.nationality = 207 }
+	set_variable = { 2006.nationality = 207 }
+	set_variable = { 2005.nationality = 207 }
+    #Kazakhs
+	set_variable = { 589.nationality = 180 }
+	set_variable = { 1803.nationality = 180 }
+	# Marine  
+	set_variable = { 637.nationality = 800 }
+}
+

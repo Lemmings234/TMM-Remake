@@ -1,0 +1,389 @@
+
+# Interaction Cooldown
+
+NOV_Interaction_cooldown = {
+	custom_effect_tooltip = ERS_Interaction_cooldown_tt
+	hidden_effect = {
+		set_country_flag = NOV_Presidential_Interaction
+		country_event = { id = NOV_federalassembly.0 days = 14 }
+	}
+}
+
+# Presidential Support Effects
+
+NOV_Increased_Presidental_Support_Low = {
+	custom_effect_tooltip =  NOV_Increased_Presidental_Support_Low_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_government = conservatism
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.035
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = liberalism
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.035
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = progressivism
+			}
+			add_popularity = {
+				ideology = progressivism
+				popularity = 0.035
+			}
+		}
+		else = {
+			add_popularity = {
+				ideology = paternalism
+				popularity = 0.035
+			}
+		}
+	}
+}
+
+NOV_Increased_Presidental_Support_Med = {
+	custom_effect_tooltip =  NOV_Increased_Presidental_Support_Med_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_government = conservatism
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.05
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = liberalism
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.05
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = progressivism
+			}
+			add_popularity = {
+				ideology = progressivism
+				popularity = 0.05
+			}
+		}
+		else = {
+			add_popularity = {
+				ideology = paternalism
+				popularity = 0.05
+			}
+		}
+	}
+}
+
+NOV_Increased_Presidental_Support_High = {
+	custom_effect_tooltip =  NOV_Increased_Presidental_Support_High_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_government = conservatism
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.065
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = liberalism
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.065
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = progressivism
+			}
+			add_popularity = {
+				ideology = progressivism
+				popularity = 0.065
+			}
+		}
+		else = {
+			add_popularity = {
+				ideology = paternalism
+				popularity = 0.065
+			}
+		}
+	}
+}
+
+NOV_Decreased_Presidental_Support_Low = {
+	custom_effect_tooltip =  NOV_Decreased_Presidental_Support_Low_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_government = conservatism
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.02
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = liberalism
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.02
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = progressivism
+			}
+			add_popularity = {
+				ideology = progressivism
+				popularity = -0.02
+			}
+		}
+		else = {
+			add_popularity = {
+				ideology = paternalism
+				popularity = -0.02
+			}
+		}
+	}
+}
+
+NOV_Decreased_Presidental_Support_Med = {
+	custom_effect_tooltip =  NOV_Decreased_Presidental_Support_Med_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				has_government = conservatism
+			}
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.04
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = liberalism
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.04
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = progressivism
+			}
+			add_popularity = {
+				ideology = progressivism
+				popularity = -0.04
+			}
+		}
+		else = {
+			add_popularity = {
+				ideology = paternalism
+				popularity = -0.04
+			}
+		}
+	}
+}
+
+# State Duma
+
+NOV_Increase_Duma_Seats_Low = {
+	custom_effect_tooltip = NOV_Increase_Duma_Seats_Low_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_SIL_lower_seats
+			value = 2
+		}
+		add_to_variable = {
+			var = NOV_RAPP_lower_seats
+			value = 2
+		}
+		NOV_Get_Lower_House_Array = yes
+	}
+}
+
+NOV_Increase_Duma_Seats_Med = {
+	custom_effect_tooltip = NOV_Increase_Duma_Seats_Med_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_SIL_lower_seats
+			value = 4
+		}
+		add_to_variable = {
+			var = NOV_RAPP_lower_seats
+			value = 4
+		}
+		NOV_Get_Lower_House_Array = yes
+	}
+}
+
+NOV_Increase_Duma_Seats_High = {
+	custom_effect_tooltip = NOV_Increase_Duma_Seats_High_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_SIL_lower_seats
+			value = 6
+		}
+		add_to_variable = {
+			var = NOV_RAPP_lower_seats
+			value = 6
+		}
+		NOV_Get_Lower_House_Array = yes
+	}
+}
+
+NOV_Increase_Council_Seats_Low = {
+	custom_effect_tooltip = NOV_Increase_Council_Seats_Low_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_SIL_upper_seats
+			value = 1
+		}
+		add_to_variable = {
+			var = NOV_RAPP_upper_seats
+			value = 1
+		}
+		NOV_Get_Upper_House_Array = yes
+	}
+}
+
+NOV_Increase_Council_Seats_Med = {
+	custom_effect_tooltip = NOV_Increase_Council_Seats_Med_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_SIL_upper_seats
+			value = 2
+		}
+		add_to_variable = {
+			var = NOV_RAPP_upper_seats
+			value = 2
+		}
+		NOV_Get_Upper_House_Array = yes
+	}
+}
+
+NOV_Increase_Council_Seats_High = {
+	custom_effect_tooltip = NOV_Increase_Council_Seats_High_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_SIL_upper_seats
+			value = 3
+		}
+		add_to_variable = {
+			var = NOV_RAPP_upper_seats
+			value = 3
+		}
+		NOV_Get_Upper_House_Array = yes
+	}
+}
+
+NOV_Decrease_Duma_Seats_Low = {
+	custom_effect_tooltip = NOV_Decrease_Duma_Seats_Low_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_RAPP_lower_seats
+			value = 3
+		}
+		add_to_variable = {
+			var = NOV_SIL_lower_seats
+			value = 3
+		}
+		NOV_Get_Lower_House_Array = yes
+	}
+}
+
+NOV_Decrease_Duma_Seats_Med = {
+	custom_effect_tooltip = NOV_Decrease_Duma_Seats_Med_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_RAPP_lower_seats
+			value = 5
+		}
+		add_to_variable = {
+			var = NOV_SIL_lower_seats
+			value = 5
+		}
+		NOV_Get_Lower_House_Array = yes
+	}
+}
+
+NOV_Decrease_Duma_Seats_High = {
+	custom_effect_tooltip = NOV_Decrease_Duma_Seats_High_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_RAPP_lower_seats
+			value = 7
+		}
+		add_to_variable = {
+			var = NOV_SIL_lower_seats
+			value = 7
+		}
+		NOV_Get_Lower_House_Array = yes
+	}
+}
+
+NOV_Decrease_Council_Seats_Low = {
+	custom_effect_tooltip = NOV_Decrease_Council_Seats_Low_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_RAPP_upper_seats
+			value = 2
+		}
+		add_to_variable = {
+			var = NOV_SIL_upper_seats
+			value = 2
+		}
+		NOV_Get_Upper_House_Array = yes
+	}
+}
+
+NOV_Decrease_Council_Seats_Med = {
+	custom_effect_tooltip = NOV_Decrease_Council_Seats_Med_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_RAPP_upper_seats
+			value = 3
+		}
+		add_to_variable = {
+			var = NOV_SIL_upper_seats
+			value = 3
+		}
+		NOV_Get_Upper_House_Array = yes
+	}
+}
+
+NOV_Decrease_Council_Seats_High = {
+	custom_effect_tooltip = NOV_Decrease_Council_Seats_High_tt
+	hidden_effect = {
+		subtract_from_variable = {
+			var = NOV_RAPP_upper_seats
+			value = 4
+		}
+		add_to_variable = {
+			var = NOV_SIL_upper_seats
+			value = 4
+		}
+		NOV_Get_Upper_House_Array = yes
+	}
+}

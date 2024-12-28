@@ -1,0 +1,7 @@
+WCH = { #WESTERN CHINA
+	targets = { QIN XIN }
+}
+
+SCH = { #SOUTHERN CHINA
+	targets = { YUN }
+}

@@ -1,0 +1,33 @@
+﻿l_english:
+ # Characters
+ SHX_Bo_Yibo: "Bo Yibo"
+
+ # Character descs
+ POLITICS_BO_YIBO_DESC: "§YBorn 17th February 1908 \nDingxiang County, Shanxi Province§! \n\nIt is difficult to fight behind the backs of the enemy and more demanding still to continue so for years, but the spectre of Communism is too hard to be snuffed out. After all their efforts, Shaanxi has failed to pacify the old Soviet Republic, but saying Bo is leading a newborn state would be somewhat inappropriate. Thanks to Comrade Mao's effort, guerilla warfare prevailed over the Internationalists' foolish attempt to fight the Japanese head-on, and Bo Yibo prevailed. However, this victory will be but a fleeting one.\n\nNot if all those to the west come to his aid."
+
+
+ # Political parties
+ GAW_SHX_communist:0 "Chinese Communist Party"
+ GAW_SHX_communist_short:0 "CCP"
+
+ # Cosmetic tags
+
+ CCW_Faction:0 "Third United Front"
+ GAW_Sino_Indian_Name:0 "Sino-Indian Alliance"
+ GAW_Sino_Indian_Thai_Name:0 "Tripartite Pact of Delhi"
+
+ # Events
+  
+ GAW_News.1.t:0 "[Get_newspaper_header]The Shaanxi Rebellion"
+ GAW_News.1.desc:0 "The Sphere suffers yet another loss today as the province of Shaanxi in northern China declares independence from Nanjing! Local Communist forces led by Bo Yibo stormed Yan'an and brought an end to the short peace enjoyed by Nanjing authorities. Originally the base area of the Chinese Soviet Republic, the Red Specter was never truly exterminated by frontier warlords, and now the former masters must pay the price.\n\n Already, forces of the Nanjing Government have moved to reestablish order in the region by capturing Xi'an. However, few believe it will be the end of this conflict. With Western Chinese forces now on high alert, Japanese officials report that Western China is reinforcing the frontiers at an alarming rate, with neither side willing to back down."
+ GAW_News.1.a:0 "Unacceptable!"
+ GAW_News.1.b:0 "The duel draws nearer..."
+ GAW_News.1.c:0 "This could develop to our advantage."
+ GAW_News.1.d:0 "Is war inevitable?"
+
+ GAW_News.2.t:0 "[Get_newspaper_header]The Chinese Civil War"
+ GAW_News.2.desc:0 "Decades of tension between independent West China and Sphere-aligned Nanjing China finally culminated today as the West Chinese officially declared war against the Nanjing Government. Citing continued collaboration with Japanese authorities and oppression of Chinese civilians, forces of Western China crossed the de facto border today into Nanjing-controlled Shaanxi. With hundreds of thousands of military personnel now concentrated in Northern China and both sides proclaiming a state of total war, the Chinese Civil War is likely to determine the fate of Asia.\n\n Japan, the Nanjing Government's most powerful benefactor, has yet to comment."
+ GAW_News.2.a:0 "There's no going back now."
+ GAW_News.2.b:0 "There's no going back now."
+ GAW_News.2.c:0 "Call the General Staff, now!"
+ GAW_News.2.d:0 "The clock ticks..."

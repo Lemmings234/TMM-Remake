@@ -1,0 +1,19 @@
+﻿l_english:
+
+# Icon tooltip
+TNO_ugly_american_icon_tt: "§fSOLARIS§!\n§Fby §YAndrei Tarkovsky§! and §YFriedrich Gorenstein§!§!"
+TNO_ugly_american_icon_tt_delayed: "§F§f"Solaris"§! is a §VSoviet-Era§! science fiction film released in §Y1972§! and based on the novel of the same name, written by §YStanisław Lem§!. The film centers around psychologist Kris Kelvin's journey across the stars to a scientific research station orbiting the ocean planet of Solaris, which has a long history of hallucinations and emotional crisis being rampant amongst its crew. Kris quickly succumbs to these psychological effects as well, being greeted by the presence of his long-dead wife, Hari, who accompanies him throughout much of the story. As the station's crew searches for a way to end the presence of Hari and other "guests" aboard the site, the group comes to the realization it is their own consciousnesses creating the manifestations and that they are the result of Solaris allowing their memories to take physical form.\n\n"Solaris" delves into the meaning of being human, provoking deep introspection into the nature of our own consciousness and what it means to be alive. The film forces the audience to consider what traits make something real and how guilt shapes the memory of lost loved ones, just as Hari's appearance causes Kris to question his own humanity and perception of the world.\n\nRecieving strong critical acclaim both at release and throughout the years since, "Solaris" has become a classic work of science fiction praised for bringing much-needed emotional depth to the genre. The film's soundtrack was composed by Eduard Artemyev, for whom BNW: Solaris is named in memory of.§!"
+
+####=== The tooltips that are shown when hovering over the menu pictures ===####
+###- BNW - Solaris
+
+## Soldier in field - SINGLE PLAYER
+TNO_menupic_tooltip_1: "§F§DForwards§!, for our glorious Federation and for the §Wliberation§! §Mof all§! §RRussians§!!§!"
+
+## Tanks rolling down street - MULTIPLAYER
+TNO_menupic_tooltip_2: "§FSomething remains in us from the §Dhomeland§! that lives in us all our life, now gladdening, at times §Rtormenting§!, and it always seems that we will someday see it, our §Dhomeland§!.§!"
+
+## Destroyed tanks - QUIT
+TNO_menupic_tooltip_3: "§FIn the midst of the §Rashes of Barbarossa§!, it's all too easy to §Rlose hope for a better tomorrow.§!§!"
+
+#§ < For easy copy/paste

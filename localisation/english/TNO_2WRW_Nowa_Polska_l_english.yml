@@ -1,0 +1,20 @@
+﻿l_english:
+ # Leader Desc
+ 
+ ALFRED_URBANSKI_DESC:0 "Born in 1899, Alfred Urbański fled the collapsing Polish Republic in 1939, alongside the Polish government in exile, to London. Following Operation Sealion, the government was forced to Washington D.C, where they cooperated with numerous liberation organizations, including Willy Brandt's Reichsbanner §qSchwarz§!-§xRot§!-§wGold§!.\n\nFor Alfred, the liberation of Poland seemed hopeless. His faith nearly died with the citizens of Warsaw as the Germans subjugated his homeland a second time. Poland was lost, until he received a letter from President Vasily Shukshin one fateful morning. The Russians invited him and the Polish exiles to govern his kin in Nowa Polska.\n\nAlfred accepted, and was swiftly inaugurated as President of Nowa Polska and representative of all Poles living under German occupation. The road to Warsaw will be a long one, indeed. However, with the support of his people and his unexpected Russian allies, the dream of a free Poland may become real sooner than the Nazis expect."
+ 
+ # Parties
+ 
+ NPL_social_democratic_long:0 "Polska Partia Socjalistyczna"
+ NPL_social_democratic_short:0 "PPS"
+ 
+ # Ideas
+
+ NPL_not_yet_lost_idea:0 "Not Yet Lost!"
+ NPL_not_yet_lost_idea_desc:0 "From the partitions of the 18th century to the tragedy of 1939, the Polish people have endured the rule of foreign nations. From Tsars to Kaisers, Fuhrers to Premiers, many have attempted to destroy the Polish state and her people time and time again yet, here we stand in defence of our people.\n\nWe may have endured countless defeats, yet we continue to fight on in the hopes that one day, the red and white stripes will be raised over Warsaw and Poland will at last know peace.\n\n§WPoland is not yet lost!§!\n§RWe are not yet lost!§!"
+ 
+ NPL_winds_of_change_idea:0 "Winds of Change"
+ NPL_winds_of_change_idea_desc:0 "With the return of the Polish government who have been exiled since the capitulation of the Polish Republic in 1939, things have begun to change in Nowa Polska. The people enjoy more civil liberties than under Spychalski as Poles and Kazahks both enjoy equal representation within the newly form Sejm.\n\nWhile the situation Nowa Polska finds itself in certainly isn't ideal, for the first time in decades, things for the Polish people are finally changing for the better."
+
+ NPL_kazahk_national_idea:0 "Kazakh Nationalism"
+ NPL_kazahk_national_idea_desc:0 "Despite having political representation in the Sejm and the same civil liberties Polish citizens enjoy today, there are thousands of Kazakh's, particularly in the south who wish to rejoin their native homeland.\n\nWhile we have assured the Kazakh people living within our territory that the occupation of their lands will end as soon as Warsaw is liberated, this has done little to calm nationalistic sentiment in the populace with many believing our stay in Uralsk to be more permanent than promised."

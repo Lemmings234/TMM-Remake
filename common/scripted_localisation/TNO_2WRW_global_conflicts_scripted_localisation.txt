@@ -1,0 +1,408 @@
+ # Localisation
+defined_text = {
+	name = GetWarDesc
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = Iranian_Civil_War
+				if = {
+					limit = {
+						has_global_flag = TNO_2WRW_Second_Great_Northern_War
+					}
+					check_variable = { 2WRW_global_conflicts = 1 }
+				}
+			}
+		}
+		localization_key = rus_iran_war_desc_tt
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = RUS_krakow_uprising
+			}
+		}
+		localization_key = rus_poland_war_desc_tt
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = TUR_mountain_war
+			}
+		}
+		localization_key = rus_armenia_war_desc_tt
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = RUS_MONGOLIAN_REBELLION
+			}
+		}
+		localization_key = rus_mongolia_war_desc_tt
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = CHI_West_Chinese_War_Started
+			}
+		}
+		localization_key = rus_west_china_war_desc_tt
+	}
+}
+
+defined_text = {
+	name = GetGlobalConflictName
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = Iranian_Civil_War
+				if = {
+					limit = {
+						has_global_flag = TNO_2WRW_Second_Great_Northern_War
+					}
+					check_variable = { 2WRW_global_conflicts = 1 }
+				}
+			}
+		}
+		localization_key = global_conflict_name_tab_Iran_tt
+	}
+}
+
+ # GFX
+
+defined_text = {
+	name = GetConflictPicture
+	text = {
+		trigger = {
+			AND = {
+				has_global_flag = TNO_2WRW_Second_Great_Northern_War
+				check_variable = { 2WRW_global_conflicts = 2 }
+			}
+		}
+		localization_key = GFX_second_great_northern_war
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = Iranian_Civil_War
+				if = {
+					limit = {
+						has_global_flag = TNO_2WRW_Second_Great_Northern_War
+					}
+					check_variable = { 2WRW_global_conflicts = 1 }
+				}
+			}
+		}
+		localization_key = GFX_fopo_iran_sidebar
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = CHI_West_Chinese_War_Started
+			}
+		}
+		localization_key = GFX_west_china_war_picture_rus
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = RUS_krakow_uprising
+			}
+		}
+		localization_key = GFX_krakow_uprising_picture_rus
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = TUR_mountain_war
+			}
+		}
+		localization_key = GFX_mountain_war_picture_rus
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = RUS_MONGOLIAN_REBELLION
+			}
+		}
+		localization_key = GFX_mongolian_uprising_picture_rus
+	}
+}
+
+defined_text = {
+	name = GetTabPicture
+	text = {
+		trigger = {
+			AND = {
+				has_global_flag = TNO_2WRW_Second_Great_Northern_War
+				check_variable = { 2WRW_global_conflicts = 2 }
+			}
+		}
+		localization_key = GFX_second_great_northern_war_decision_category_rus
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = Iranian_Civil_War
+				if = {
+					limit = {
+						has_global_flag = TNO_2WRW_Second_Great_Northern_War
+					}
+					check_variable = { 2WRW_global_conflicts = 1 }
+				}
+			}
+		}
+		localization_key = GFX_iran_civil_war_icon_rus
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = CHI_West_Chinese_War_Started
+			}
+		}
+		localization_key = GFX_west_china_war_icon_rus
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = RUS_MONGOLIAN_REBELLION
+			}
+		}
+		localization_key = GFX_mongolia_uprising_icon_rus
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = RUS_krakow_uprising
+			}
+		}
+		localization_key = GFX_krakow_uprising_icon_rus
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = TUR_mountain_war
+			}
+		}
+		localization_key = GFX_west_georgia_icon_rus
+	}
+}
+
+defined_text = {
+	name = GetOtherTabPicture
+	text = {
+		trigger = {
+			AND = {
+				has_global_flag = TNO_2WRW_Second_Great_Northern_War
+				check_variable = { 2WRW_global_conflicts = 2 }
+			}
+		}
+		localization_key = GFX_iran_civil_war_icon_rus
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = Iranian_Civil_War
+				if = {
+					limit = {
+						has_global_flag = TNO_2WRW_Second_Great_Northern_War
+					}
+					check_variable = { 2WRW_global_conflicts = 1 }
+				}
+			}
+		}
+		localization_key = GFX_second_great_northern_war_decision_category_rus
+	}
+}
+
+# Germany
+
+defined_text = {
+	name = GERGetWarDesc
+	text = {
+		trigger = {
+			AND = {
+				has_global_flag = RUS_krakow_uprising
+				check_variable = { 2WRW_global_conflicts = 3 }
+			}
+		}
+		localization_key = GER_krakow_uprising_tt
+	}
+}
+
+defined_text = {
+	name = GERGetTabPicture
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = RUS_krakow_uprising
+				check_variable = { 2WRW_global_conflicts = 3 }
+			}
+		}
+		localization_key = GFX_krakow_uprising_icon_ger
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = TUR_mountain_war
+			}
+		}
+		localization_key = GFX_west_georgia_icon_ger
+	}
+}
+
+
+defined_text = {
+	name = GERGetConflictPicture
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = RUS_krakow_uprising
+				check_variable = { 2WRW_global_conflicts = 3 }
+			}
+		}
+		localization_key = GFX_krakow_uprising_picture_ger
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = TUR_mountain_war
+				check_variable = { 2WRW_global_conflicts = 4 }
+			}
+		}
+		localization_key = GFX_mountain_war_picture_ger
+	}
+}
+
+# Japan
+
+defined_text = {
+	name = JAPGetWarDesc
+	text = {
+		trigger = {
+			AND = {
+				has_global_flag = CHI_West_Chinese_War_Started
+				check_variable = { 2WRW_global_conflicts = 5 }
+			}
+		}
+		localization_key = jap_west_china_war_desc_tt
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_global_flag = RUS_MONGOLIAN_REBELLION
+				check_variable = { 2WRW_global_conflicts = 6 }
+			}
+		}
+		localization_key = jap_mongolian_uprising_desc_tt
+	}
+}
+defined_text = {
+	name = JAPGetConflictPicture
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = CHI_West_Chinese_War_Started
+			}
+		}
+		localization_key = GFX_west_china_war_picture_rus
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = RUS_MONGOLIAN_REBELLION
+			}
+		}
+		localization_key = GFX_mongolian_uprising_picture_jap
+	}
+}
+
+defined_text = {
+	name = JAPGetTabPicture
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = CHI_West_Chinese_War_Started
+			}
+		}
+		localization_key = GFX_west_china_war_icon_jap
+	}
+	text = {
+		trigger = { 
+			AND = {
+				has_global_flag = RUS_MONGOLIAN_REBELLION
+			}
+		}
+		localization_key = GFX_mongolia_uprising_icon_jap
+	}
+}
+
+defined_text = {
+	name = PER_GetFaction
+	text = {
+		trigger = { check_variable = { temp_faction = 1 } }
+		localization_key = PER_Faction_Liberal
+	}
+	text = {
+		trigger = { check_variable = { temp_faction = 2 } }
+		localization_key = PER_Faction_Socialist
+	}
+	text = {
+		trigger = { check_variable = { temp_faction = 3 } }
+		localization_key = PER_Faction_Islamist
+	}
+	text = {
+		trigger = { check_variable = { temp_faction = 4 } }
+		localization_key = PER_Faction_Monarchist
+	}
+}
+
+defined_text = {
+	name = PER_GetTargetFaction
+	text = {
+		trigger = { check_variable = { target_faction = 1 } }
+		localization_key = PER_Faction_Liberal
+	}
+	text = {
+		trigger = { check_variable = { target_faction = 2 } }
+		localization_key = PER_Faction_Socialist
+	}
+	text = {
+		trigger = { check_variable = { target_faction = 3 } }
+		localization_key = PER_Faction_Islamist
+	}
+	text = {
+		trigger = { check_variable = { target_faction = 4 } }
+		localization_key = PER_Faction_Monarchist
+	}
+}
+
+defined_text = {
+	name = PER_GetRadicalisationAdj
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { target_faction < 4 }
+				check_variable = { target_faction > -4 }
+			}
+		}
+		localization_key = PER_GetRadicalisationAdj_3
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { target_faction < 3 }
+				check_variable = { target_faction > -3 }
+			}
+		}
+		localization_key = PER_GetRadicalisationAdj_2
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { target_faction < 2 }
+				check_variable = { target_faction > -2 }
+			}
+		}
+		localization_key = PER_GetRadicalisationAdj_1
+	}
+}

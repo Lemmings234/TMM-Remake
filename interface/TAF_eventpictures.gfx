@@ -1,0 +1,32 @@
+#### EVENT STUFF, THANK YOU TNO FOR THESE SPRITES ####
+spriteTypes = {
+    spriteType = {
+		name = "GFX_Speech_of_Sheng"
+		texturefile = "gfx/event_pictures/XIN_Speech_of_Sheng.png"
+	}
+	spriteType = {
+		name = "GFX_The_Carrier"
+		textureFile = "gfx/event_pictures/XIN_The_Carrier.png"
+	}
+	spriteType = {
+		name = "GFX_Railway_Station"
+		texturefile = "gfx/event_pictures/XIN_Railway_Station.png"
+	}
+	spriteType = {
+		name = "GFX_Inspect_warehouse"
+		textureFile = "gfx/event_pictures/XIN_Inspect_warehouse.png"
+	}
+	#WORLD EVENTS
+    spriteType = {
+	    name = "GFX_news_event_chen_wins"
+	    texturefile = "gfx/event_pictures/news_event_chen_wins.png"
+    }
+	spriteType = {
+	    name = "GFX_news_event_sik_civilwar"
+	    texturefile = "gfx/event_pictures/news_event_sik_civilwar.png"
+    }
+	spriteType = {
+	    name = "GFX_news_event_xin_collapsed"
+	    texturefile = "gfx/event_pictures/news_event_xin_collapsed.png"
+    }
+}

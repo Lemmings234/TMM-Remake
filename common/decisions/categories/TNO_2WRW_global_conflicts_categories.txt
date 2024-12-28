@@ -1,0 +1,99 @@
+RUS_foreign_policy_category = {
+	icon = GFX_russia_forpol_category
+
+	allowed = {
+		always = yes
+		is_russian_nation = yes
+	}
+
+	visible = {
+		#check_variable = { TNO_active_conflicts^num > 0 }
+		is_russian_nation = yes
+		OR = {
+			has_global_flag = TNO_2WRW_Second_Great_Northern_War
+			has_global_flag = Iranian_Civil_War
+			has_global_flag = RUS_krakow_uprising
+			has_global_flag = TUR_mountain_war
+			has_global_flag = RUS_MONGOLIAN_REBELLION
+			has_global_flag = CHI_West_Chinese_War_Started
+		}
+		has_global_flag = RUS_national_unification
+	}
+	visible_when_empty = no
+	scripted_gui = TNO_2WRW_Global_Conflicts_Russia
+	priority = 100000
+}
+
+GER_2WRW_foreign_policy_category = {
+	icon = GFX_decision_category_generic_naziism
+
+	allowed = {
+		#always = yes
+		#is_russian_nation = yes
+	}
+
+	visible = {
+		#check_variable = { TNO_active_conflicts^num > 0 }
+		original_tag = GER
+		OR = {
+			has_global_flag = TNO_2WRW_Second_Great_Northern_War
+			has_global_flag = RUS_krakow_uprising
+			has_global_flag = TUR_mountain_war
+		}
+		has_global_flag = RUS_national_unification
+	}
+	visible_when_empty = no
+	scripted_gui = TNO_2WRW_Global_Conflicts_Germany
+	priority = 200000
+}
+
+JAP_2WRW_foreign_policy_category = {
+	icon = GFX_JAP_decision_category_gaimusho
+
+	allowed = {
+		#always = yes
+		#is_russian_nation = yes
+	}
+
+	visible = {
+		#check_variable = { TNO_active_conflicts^num > 0 }
+		original_tag = JAP
+		OR = {
+			has_global_flag = CHI_West_Chinese_War_Started
+			has_global_flag = RUS_MONGOLIAN_REBELLION
+		}
+		has_global_flag = RUS_national_unification
+	}
+	visible_when_empty = no
+	scripted_gui = TNO_2WRW_Global_Conflicts_Japan
+	priority = 200000
+}
+
+QIN_foreign_policy_category = {
+	icon = GFX_category_west_china
+
+	allowed = {
+		original_tag = QIN
+	}
+
+	visible = {
+		check_variable = { TNO_active_conflicts^num > 0 }
+	}
+	visible_when_empty = yes
+	scripted_gui = TNO_fopo_container
+	priority = 100010
+}
+
+#PER_Referendum_category = {
+#	icon = GFX_decision_category_persia
+#	allowed = {
+#		original_tag = NOV
+#	}
+#	visible = {
+#		is_debug = yes
+#		is_ai = no
+#	}
+#	scripted_gui = PER_Referendum_GUI
+#	visible_when_empty = yes
+#	priority = 100000
+#}

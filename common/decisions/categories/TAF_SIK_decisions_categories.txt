@@ -1,0 +1,37 @@
+XIN_Debug = {		
+	priority = 9		
+	icon = GFX_category_west_china
+	picture = GFX_decision_QIN_china
+	
+	allowed = {
+		tag = XIN
+	}
+	visible = {	
+		debug = yes	
+	}
+}
+
+CSX_Debug = {		
+	priority = 9		
+	icon = GFX_category_west_china
+	picture = GFX_decision_QIN_china
+	
+	allowed = {
+		tag = CSX
+	}
+	visible = {	
+		debug = yes	
+	}
+}
+
+CSX_National_Army = {
+	icon = GFX_category_west_china
+	
+	allowed = {
+		tag = CSX
+	}
+	visible = {	
+		has_country_flag = CSX_National_Army_Issue
+	}
+	scripted_gui = CSX_National_Army_UI
+}

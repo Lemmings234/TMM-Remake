@@ -1,0 +1,13 @@
+Waluigi_Wiggler = {
+	icon = GFX_decision_category_west_china
+	
+	priority = 9
+	
+	allowed = {
+		always = yes
+	}
+	visible = {
+		original_tag = PER
+	}
+}
+

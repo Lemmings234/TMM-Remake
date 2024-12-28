@@ -1,0 +1,61 @@
+﻿l_english:
+ ## Polska jeszcze nie jest stracona! ##
+ # Characters
+
+ POL_Karol_Wojtyla: "Karol Wojtyla"
+ POL_Alfred_Urbanski:0 "Aldred Urbański"
+ 
+ POL_Edward_Gierek:0 "Edward Gierek"
+ POL_Edward_Gierek_hog_desc:0 "§YPrime Minister\nDemocratic Socialism§!"
+ 
+ POL_Edward_Raczynski:0 "Edward Raczyński"
+ POL_Edward_Raczynski_for_desc:0 "§YForeign Minister\nNational Liberalism§!"
+ 
+ POL_Kazimierz_Sabbat:0 "Kazimierz Sabbat"
+ POL_Kazimierz_Sabbat_eco_desc:0 "§YEconomic Minister\nLiberal Conservatism§!"
+ 
+ POL_Swiatlo_Jozef:0 "Swiatolo Jozef"
+ POL_Swiatlo_Jozef_sec_desc:0 "§YSecurity Minister\nNational Conservatism§!"
+
+ # Character descs
+
+ POLITICS_KAROL_WOJTYLA_DESC: "Karol Wojtyla, a name that would be known for years to come.\nAs the underground collapsed and nihilism swept the entire Polish populace after the Germans occupied Poland once more, Karol Wojtyla felt the obligation to raise the Polish spirit, using his experiences as a priest, he had been able to reignite the fire of revolt.\n\nHaving witnessed the fall of Poland in 1939, he'd never known what it was like to live in a free country, and ever since the underground had failed to keep Poland's independence, and the Russians had won the second West Russian war, he had been able to slowly but surely build a new underground, making new connections, infusing fresh spirit, and eradicating defeatism, he was soon to be seen as the new leader of the underground.\n\nNow that Germany had been defeated by the Russians, Karol saw an opportunity he knew would never again arise. The Wehrmacht had become confused and the garrison had lost control of the situation in his homeland.\nHe and his fellow countrymen finally executed their plan they had been discussing for years.\n\nEven if Karol remained a pacifist at heart, the fact that he must lead his people down the path of violence is something he must live with, while fighting himself nevertheless, but it is still a necessary evil. The combination of Russian assistance, Polish faith and strength, and German failures would make this his finest hour, since not just he, but the entire Polish nation was putting their confidence and faith in him.\n\nWhether Poland will be freed remains to be seen, but there is no place for second thoughts anymore, the only way is forward, whether it'll be a way to freedom or a mass grave, is something only time can tell."
+ 
+ ALFRED_URBANSKI_POLAND_DESC:0 "Born in 1899, Alfred Urbański fled the collapsing Polish Republic in 1939, alongside the Polish government in exile, to London. Following Operation Sealion, the government was forced to Washington D.C, where they cooperated with numerous liberation organizations, including Willy Brandt's Reichsbanner §qSchwarz§!-§xRot§!-§wGold§!.\n\nFor Alfred, the liberation of Poland seemed hopeless. His faith nearly died with the citizens of Warsaw as the Germans subjugated his homeland a second time. Poland was lost, until he received a letter from President Vasily Shukshin one fateful morning. The Russians invited him and the Polish exiles to govern his kin in Nowa Polska.\n\nAlfred accepted, and was swiftly inaugurated as President of Nowa Polska and representative of all Poles living under German occupation. The road to Warsaw will be a long one, indeed. However, with the support of his people and his unexpected Russian allies, the dream of a free Poland may become real sooner than the Nazis expect."
+
+ # Political parties
+
+ POL_RUS_paternalism_party: "Armia Krajowa"
+ POL_RUS_paternalism_party_long: "Armia Krajowa"
+ 
+ POL_social_democratic_long:0 "Polska Partia Socjalistyczna"
+ POL_social_democratic_short:0 "PPS"
+
+ # Cosmetic tags
+
+ POL_Uprising: "Polish Home Army"
+ POL_Uprising_DEF: "the Polish Home Army"
+ 
+ # Decisions
+ 
+ TNO_2WRW_Poland_category:0 "Polish Decisions"
+ 
+ POL_demand_german_surrender:0 "Demand German Surrender"
+ POL_invite_the_exiles:0 "Invite the Exiles"
+
+ # National spirits
+
+ POL_armia_krajowa: "Armia Krajowa"
+ POL_armia_krajowa_desc: "Early establishment of the underground state had a lot of benefits for the Polish resistance. Almost unopposed spread of Polish education and culture, creation of a wide black market but above all else, large open field for covert operation and training programs for partisan military. As a result, Armia Krajowa is one of the few partisan groups across the whole of history that can actually claim the title of professional army.\n\n Filled with ranks of numerous veterans, even those that witnessed the initial invasion itself, and guided by ideological zeal to reclaim their homeland, it is a force which even the elites of the Heer would be wary of engaging.\n\nNow equipped with tanks and guns of their Russian brothers, AK is ready to give their final stand and bring havoc upon the weakened forces of Nazi Germany."
+
+ POL_nowa_polska_volunteers: "The Long March Home"
+ POL_nowa_polska_volunteers_desc: "The hundreds of thousands of Polish men and women that braved the daring escape to Kazakhstan so many years ago now return as hardened, albeit rusty, warriors ready to do anything in their power to reclaim their true homeland. Polish children that were born in Kazakhstan come with them as well, fighting for the promised land their parents spoke so highly of. Among them  come legions of ethnic Kazakhs, who - despite the tensions back home - have developed a strong kinship with many Poles. While the language barrier does make communication with the bulk of our army difficult, the Kazakhs continue to fight like lions, their spirit unmatched.\n\nWhile they may not have been here in a long time, or not have been here at all, one thing is for certain; they will all fight for the liberation of Poland, come hell or high water."
+ 
+ POL_not_yet_lost_idea:0 "Not Yet Lost!"
+ 
+ POL_brave_new_world_idea:0 "Brave New World"
+ 
+ POL_vistula_german_conflict_idea:0 "Vistula German Conflict"
+
+ NOV_rebuild_the_home_army_tt:0 "§RNazi assimilation killed countless Poles in hope that they shall finally snuff out the idea of Poland for good, but the lack of population means the Wehrmacht will find it highly difficult to defend against partisans§!."
+ NOV_destablise_the_general_gouvernement_tt:0 "§RGreater yet shall be the determination of the Underground State with the help of Russians. With additional reinforcement from exiled Poles, this time they will no longer be alone§!."

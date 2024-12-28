@@ -1,0 +1,133 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Decision_Program_Access_Button"
+		texturefile = "gfx/interface/nuclear_program/GFX_Decision_Program_Access_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Decision_Program_Exit_Button"
+		texturefile = "gfx/interface/nuclear_program/GFX_Decision_Program_Exit_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Decision_Program_Info_Button"
+		texturefile = "gfx/interface/nuclear_program/GFX_Decision_Program_Info_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Nuclear_Program_BG"
+		texturefile = "gfx/interface/nuclear_program/GFX_Nuclear_Program_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_Nuclear_Program_Invest_Add"
+		texturefile = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Invest_Add.dds"
+	}
+	spriteType = {
+		name = "GFX_Nuclear_Program_Invest_Minus"
+		texturefile = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Invest_Minus.dds"
+	}
+	spriteType = {
+		name = "GFX_Nuclear_Program_Stage_Add"
+		texturefile = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Stage_Add.dds"
+	}
+	spriteType = {
+		name = "GFX_Nuclear_Program_Stage_Minus"
+		texturefile = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Stage_Minus.dds"
+	}
+	spriteType = {
+		name = "GFX_Nuclear_Program_Interaction_Button"
+		texturefile = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Interaction_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Nuclear_Program_Stage_Small_Progressbar_Frame"
+		textureFile = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Stage_Small_Progressbar_Frame.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_Nuclear_Program_Stage_Right_BG"
+		textureFile = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Stage_Right_BG.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_Nuclear_Program_Stage_Images"
+		textureFile = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Stage_Images.dds"
+		noOfFrames = 5
+	}
+	progressbartype = {
+		name = "GFX_Nuclear_Program_Progressbar_Big"
+		textureFile1 = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Progressbar_Big.dds"
+		textureFile2 = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Progressbar_Big_Empty.dds"
+		size = { x = 565 y = 30 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_Nuclear_Program_Progressbar_Small"
+		textureFile1 = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Progressbar_Small.dds"
+		textureFile2 = "gfx/interface/nuclear_program/GFX_Nuclear_Program_Progressbar_Small_Empty.dds"
+		size = { x = 134 y = 7 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	spriteType = {
+		name = "GFX_state_lore_wasteland_overlay"
+		texturefile = "gfx/interface/state_lore/images/state_lore_img_nuclear_wasteland.dds"
+	}
+	spriteType = {
+		name = "GFX_state_lore_img_ural_mountains_overlay"
+		texturefile = "gfx/interface/state_lore/images/state_lore_img_ural_mountains.dds"
+	}
+	spriteType = {
+		name = "GFX_PER_Liberal_Frame"
+		textureFile = "gfx/interface/persia/GFX_PER_Liberal_Frame.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_PER_Monarchist_Frame"
+		textureFile = "gfx/interface/persia/GFX_PER_Monarchist_Frame.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_PER_Socialist_Frame"
+		textureFile = "gfx/interface/persia/GFX_PER_Socialist_Frame.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_PER_Ulama_Frame"
+		textureFile = "gfx/interface/persia/GFX_PER_Ulama_Frame.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_PER_Referendum_GUI_Background"
+		texturefile = "gfx/interface/persia/GFX_PER_Referendum_GUI_Background.dds"
+	}
+	progressbartype = {
+		name = "GFX_PER_Referendum_Bar"
+		textureFile1 = "gfx/interface/persia/GFX_PER_Referendum_Bar.dds"
+		textureFile2 = "gfx/interface/persia/GFX_PER_Referendum_Bar_2.dds"
+		size = { x = 424 y = 26 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_PER_Support_Bar_Long"
+		textureFile1 = "gfx/interface/persia/GFX_PER_Support_Bar_Long.dds"
+		textureFile2 = "gfx/interface/persia/GFX_PER_Support_Bar_Long_2.dds"
+		size = { x = 27 y = 208 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_PER_Support_Bar"
+		textureFile1 = "gfx/interface/persia/GFX_PER_Support_Bar.dds"
+		textureFile2 = "gfx/interface/persia/GFX_PER_Support_Bar_2.dds"
+		size = { x = 27 y = 178 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_PER_Referendum_Reverse_Bar"
+		textureFile1 = "gfx/interface/persia/GFX_PER_Referendum_Bar_3.dds"
+		textureFile2 = "gfx/interface/persia/GFX_PER_Referendum_Bar_2.dds"
+		size = { x = 424 y = 26 }
+		effectFile = "gfx/FX/progress_reverse.lua"
+		horizontal = yes
+	}
+}

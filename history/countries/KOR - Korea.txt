@@ -83,6 +83,7 @@ set_popularities = {
 	despotism = 35
 	fascism = 20
 	national_socialism = 0
+    esoteric_nazism = 0
 }
 set_popularities = {
 	communist = 0
@@ -95,6 +96,7 @@ set_popularities = {
 	despotism = 15
 	fascism = 20
 	national_socialism = 0
+    esoteric_nazism = 0
 }
 set_party_name = { 
 	ideology = despotism

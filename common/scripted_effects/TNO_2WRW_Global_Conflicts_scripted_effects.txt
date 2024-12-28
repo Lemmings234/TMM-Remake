@@ -1,12 +1,382 @@
 
 ### Common Effects ###
 
+RUS_increase_commitment_effect = {
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 1 }
+		}
+		set_temp_variable = { target = IRC }
+		TNO_increase_volunteer_cap_1 = yes
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 2 }
+		}
+		set_temp_variable = { target = KRL }
+		TNO_increase_volunteer_cap_1 = yes
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 3 }
+		}
+		set_temp_variable = { target = POL }
+		TNO_increase_volunteer_cap_1 = yes
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 4 }
+		}
+		set_temp_variable = { target = ARM }
+		TNO_increase_volunteer_cap_1 = yes
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 5 }
+		}
+		set_temp_variable = { target = QIN }
+		TNO_increase_volunteer_cap_1 = yes
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 6 }
+		}
+		set_temp_variable = { target = MON }
+		TNO_increase_volunteer_cap_1 = yes
+	}
+}
+
+JAP_increase_commitment_effect = {
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 5 }
+		}
+		set_temp_variable = { target = GAN }
+		TNO_increase_volunteer_cap_1 = yes
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 6 }
+		}
+		set_temp_variable = { target = MEN }
+		TNO_increase_volunteer_cap_1 = yes
+	}
+}
+
+GER_increase_commitment_effect = {
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 3 }
+		}
+		set_temp_variable = { target = GGN }
+		TNO_increase_volunteer_cap_1 = yes
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 4 }
+		}
+		set_temp_variable = { target = TUR }
+		TNO_increase_volunteer_cap_1 = yes
+	}
+}
+
+RUS_authorise_bombing_runs_effect = {
+	
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 2 }
+		}
+		FIN = {
+			add_timed_idea = { idea = RUS_russian_bombing days = 60 }
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 2 }
+			country_exists = FIN
+		}
+		FIN = {
+			add_timed_idea = { idea = RUS_russian_bombing days = 60 }
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 2 }
+			country_exists = RFI
+		}
+        RFI = {
+			add_timed_idea = { idea = RUS_russian_bombing days = 60 }
+		}		
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 1 }
+		}
+		PER = { add_timed_idea = { idea = RUS_russian_bombing days = 60 } }
+		IRI = { add_timed_idea = { idea = RUS_russian_bombing days = 60 } }
+		IRA = { add_timed_idea = { idea = RUS_russian_bombing days = 60 } }
+		IRL = { add_timed_idea = { idea = RUS_russian_bombing days = 60 } }
+	}
+	if = {
+		limit = {
+			has_global_flag = RUS_krakow_uprising
+		}
+		GGN = { add_timed_idea = { idea = RUS_russian_bombing days = 60 } }
+	}
+	if = {
+		limit = {
+			has_global_flag = TUR_mountain_war
+		}
+		TUR = { add_timed_idea = { idea = RUS_russian_bombing days = 60 } }
+	}
+	if = {
+		limit = {
+			has_global_flag = RUS_MONGOLIAN_REBELLION
+		}
+		MEN = { add_timed_idea = { idea = RUS_russian_bombing days = 60 } }
+	}
+	if = {
+		limit = {
+			has_global_flag = CHI_West_Chinese_War_Started
+		}
+		XIN = { add_timed_idea = { idea = RUS_russian_bombing days = 60 } }
+	}
+}
+GER_authorise_bombing_runs_effect = {
+	
+	if = {
+		limit = {
+			has_global_flag = RUS_krakow_uprising
+		}
+		POL = { add_timed_idea = { idea = GER_tactical_bombing days = 60 } }
+	}
+	if = {
+		limit = {
+			has_global_flag = TUR_mountain_war
+		}
+		ARM = { add_timed_idea = { idea = GER_tactical_bombing days = 60 } }
+	}
+}
 JAP_authorise_bombing_runs_effect = {
+	
+	if = {
+		limit = {
+			has_global_flag = RUS_MONGOLIAN_REBELLION
+		}
+		MON = { add_timed_idea = { idea = JAP_tactical_bombing days = 60 } }
+	}
 	if = {
 		limit = {
 			has_global_flag = CHI_West_Chinese_War_Started
 		}
 		QIN = { add_timed_idea = { idea = JAP_tactical_bombing days = 60 } }
+	}
+}
+
+RUS_send_land_equipment_effect = {
+
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 1 }
+		}
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = IRC
+		}
+		send_equipment = {
+			equipment = anti_tank_equipment
+			amount = 250
+			target = IRC
+		}
+		send_equipment = {
+			equipment = support_equipment
+			amount = 100
+			target = IRC
+		}
+		send_equipment = {
+			equipment = artillery_equipment
+			amount = 200
+			target = IRC
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 2 }
+		}
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = KRL
+		}
+		send_equipment = {
+			equipment = anti_tank_equipment
+			amount = 250
+			target = KRL
+		}
+		send_equipment = {
+			equipment = support_equipment
+			amount = 100
+			target = KRL
+		}
+		send_equipment = {
+			equipment = artillery_equipment
+			amount = 200
+			target = KRL
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 3 }
+		}
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = POL
+		}
+		send_equipment = {
+			equipment = anti_tank_equipment
+			amount = 250
+			target = POL
+		}
+		send_equipment = {
+			equipment = support_equipment
+			amount = 100
+			target = POL
+		}
+		send_equipment = {
+			equipment = artillery_equipment
+			amount = 200
+			target = POL
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 4 }
+		}
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = ARM
+		}
+		send_equipment = {
+			equipment = anti_tank_equipment
+			amount = 250
+			target = ARM
+		}
+		send_equipment = {
+			equipment = support_equipment
+			amount = 100
+			target = ARM
+		}
+		send_equipment = {
+			equipment = artillery_equipment
+			amount = 200
+			target = ARM
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 5 }
+		}
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = QIN
+		}
+		send_equipment = {
+			equipment = anti_tank_equipment
+			amount = 250
+			target = QIN
+		}
+		send_equipment = {
+			equipment = support_equipment
+			amount = 100
+			target = QIN
+		}
+		send_equipment = {
+			equipment = artillery_equipment
+			amount = 200
+			target = QIN
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 6 }
+		}
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = MON
+		}
+		send_equipment = {
+			equipment = anti_tank_equipment
+			amount = 250
+			target = MON
+		}
+		send_equipment = {
+			equipment = support_equipment
+			amount = 100
+			target = MON
+		}
+		send_equipment = {
+			equipment = artillery_equipment
+			amount = 200
+			target = MON
+		}
+	}
+}
+GER_send_land_equipment_effect = {
+
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 3 }
+		}
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = GGN
+		}
+		send_equipment = {
+			equipment = anti_tank_equipment
+			amount = 250
+			target = GGN
+		}
+		send_equipment = {
+			equipment = support_equipment
+			amount = 100
+			target = GGN
+		}
+		send_equipment = {
+			equipment = artillery_equipment
+			amount = 200
+			target = GGN
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 4 }
+		}
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 5000
+			target = TUR
+		}
+		send_equipment = {
+			equipment = anti_tank_equipment
+			amount = 250
+			target = TUR
+		}
+		send_equipment = {
+			equipment = support_equipment
+			amount = 100
+			target = TUR
+		}
+		send_equipment = {
+			equipment = artillery_equipment
+			amount = 200
+			target = TUR
+		}
 	}
 }
 
@@ -64,6 +434,174 @@ JAP_send_land_equipment_effect = {
 	}
 }
 
+RUS_send_air_equipment_effect = {
+
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 1 }
+		}
+		send_equipment = {
+			equipment = fighter_equipment
+			amount = 100
+			target = IRC
+		}
+		send_equipment = {
+			equipment = CAS_equipment
+			amount = 50
+			target = IRC
+		}
+		send_equipment = {
+			equipment = tac_bomber_equipment
+			amount = 25
+			target = IRC
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 2 }
+		}
+		send_equipment = {
+			equipment = fighter_equipment
+			amount = 100
+			target = KRL
+		}
+		send_equipment = {
+			equipment = CAS_equipment
+			amount = 50
+			target = KRL
+		}
+		send_equipment = {
+			equipment = tac_bomber_equipment
+			amount = 25
+			target = KRL
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 3 }
+		}
+		send_equipment = {
+			equipment = fighter_equipment
+			amount = 100
+			target = POL
+		}
+		send_equipment = {
+			equipment = CAS_equipment
+			amount = 50
+			target = POL
+		}
+		send_equipment = {
+			equipment = tac_bomber_equipment
+			amount = 25
+			target = POL
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 4 }
+		}
+		send_equipment = {
+			equipment = fighter_equipment
+			amount = 100
+			target = ARM
+		}
+		send_equipment = {
+			equipment = CAS_equipment
+			amount = 50
+			target = ARM
+		}
+		send_equipment = {
+			equipment = tac_bomber_equipment
+			amount = 25
+			target = ARM
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 5 }
+		}
+		send_equipment = {
+			equipment = fighter_equipment
+			amount = 100
+			target = QIN
+		}
+		send_equipment = {
+			equipment = CAS_equipment
+			amount = 50
+			target = QIN
+		}
+		send_equipment = {
+			equipment = tac_bomber_equipment
+			amount = 25
+			target = QIN
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 6 }
+		}
+		send_equipment = {
+			equipment = fighter_equipment
+			amount = 100
+			target = MON
+		}
+		send_equipment = {
+			equipment = CAS_equipment
+			amount = 50
+			target = MON
+		}
+		send_equipment = {
+			equipment = tac_bomber_equipment
+			amount = 25
+			target = MON
+		}
+	}
+}
+
+GER_send_air_equipment_effect = {
+
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 3 }
+		}
+		send_equipment = {
+			equipment = fighter_equipment
+			amount = 100
+			target = GGN
+		}
+		send_equipment = {
+			equipment = CAS_equipment
+			amount = 50
+			target = GGN
+		}
+		send_equipment = {
+			equipment = tac_bomber_equipment
+			amount = 25
+			target = GGN
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { 2WRW_global_conflicts = 4 }
+		}
+		send_equipment = {
+			equipment = fighter_equipment
+			amount = 100
+			target = TUR
+		}
+		send_equipment = {
+			equipment = CAS_equipment
+			amount = 50
+			target = TUR
+		}
+		send_equipment = {
+			equipment = tac_bomber_equipment
+			amount = 25
+			target = TUR
+		}
+	}
+}
+
 JAP_send_air_equipment_effect = {
 
 	if = {
@@ -106,6 +644,31 @@ JAP_send_air_equipment_effect = {
 			target = MEN
 		}
 	}
+}
+
+### West China War - Remastered ###
+
+TNO_start_west_china_war = {
+	
+	set_variable = { 2WRW_global_conflicts = 5 }
+	JAP = { set_variable = { 2WRW_global_conflicts = 5 } }
+	QIN = {
+		declare_war_on = {
+			target = XIN
+			type = annex_everything
+		}
+	}
+	hidden_effect = {
+		every_country = {
+			news_event = WORLD.40039
+		}
+		RUS = {
+			country_event = { id = NOV_postwar.77 days = 12 }
+		}
+	}
+	set_global_flag = CHI_West_Chinese_War_Started
+	### These are from the unimplemented 1966 tree ###
+	BNW_TMM_Temp_Effects = yes
 }
 BNW_TMM_Temp_End_Helper = {
 	322 = { set_demilitarized_zone = no }
@@ -437,5 +1000,311 @@ BNW_TMM_Temp_Effects = {
 	    }
 		QIN = { country_event = { id = GAW.999 days = 25 } }
 	}
+}
+
+### Mongolian Uprising ###
+
+TNO_start_mongolian_uprising = {
+	
+	MON = {
+		add_state_core = 330
+		add_state_core = 814
+		transfer_state = 330
+		transfer_state = 814
+			
+		load_oob = "MON_1962"
+		inherit_technology = NOV
+
+		TNO_startup_nation = yes
+		set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Capitalism }
+		econ_type_change = yes
+	}
+	MEN = { set_country_flag = SWRW_Mongolia_War }
+	JAP = { remove_from_faction = MEN }
+	CHI = { end_puppet = MEN }
+	MON = {
+		declare_war_on = {
+			target = MEN
+			type = annex_everything
+		}
+	}
+	hidden_effect = {
+		every_country = {
+			news_event = { id = WORLD.40041 days = 1 }
+		}
+	}
+	set_global_flag = RUS_MONGOLIAN_REBELLION
+	set_variable = { 2WRW_global_conflicts = 6 }
+	JAP = { set_variable = { 2WRW_global_conflicts = 6 } }
+	#JAP = { clr_country_flag = mongolia_war_timer }
+}
+
+### Polish Uprising ###
+
+TNO_start_polish_uprising = {
+	XXX = {
+		POL_Karol_Wojtyla = { set_nationality = POL }
+	}
+	GGN = {
+		set_capital = { state = 10 }
+		transfer_state = 1384
+		transfer_state = 1380
+		transfer_state = 10
+		transfer_state = 1381
+		transfer_state = 1383
+		transfer_state = 90
+		transfer_state = 1382
+		transfer_state = 92
+
+		add_state_core = 1384
+		add_state_core = 1380
+		add_state_core = 10
+		add_state_core = 1381
+		add_state_core = 1383
+		add_state_core = 90
+		add_state_core = 1382
+		add_state_core = 92
+				
+		load_oob = "GGN_krakowuprising"
+	}
+	GER = {
+		end_puppet = GGN
+		remove_from_faction = GGN
+	}
+	POL = {
+		set_capital = { 
+			state = 88
+			remember_old_capital = no
+		}
+		inherit_technology = NOV
+		set_cosmetic_tag = POL_Uprising
+		set_politics = {
+			ruling_party = paternalism
+			elections_allowed = no
+		}
+		set_popularities = {
+			paternalism = 40
+			conservatism = 25
+			socialist = 25
+			despotism = 5
+			communist = 5
+		}
+		set_party_name = {
+			ideology = paternalism
+			name = POL_RUS_paternalism_party
+			long_name = POL_RUS_paternalism_party_long
+		}
+		add_ideas = {
+			POL_armia_krajowa
+			POL_nowa_polska_volunteers
+		}
+		remove_ideas = {
+			POL_home_Defense
+		}
+		promote_character = POL_Karol_Wojtyla
+		
+		transfer_state = 88
+		transfer_state = 1385
+		transfer_state = 1386
+		transfer_state = 1389
+		transfer_state = 1390
+		transfer_state = 1391
+		transfer_state = 1387
+		transfer_state = 1392
+		transfer_state = 1393
+		transfer_state = 91
+		transfer_state = 1394
+		transfer_state = 89
+		transfer_state = 1388
+				
+		add_state_core = 88
+		add_state_core = 1385
+		add_state_core = 1386
+		add_state_core = 1389
+		add_state_core = 1390
+		add_state_core = 1391
+		add_state_core = 1387
+		add_state_core = 1392
+		add_state_core = 1393
+		add_state_core = 91
+		add_state_core = 1394
+		add_state_core = 89
+		add_state_core = 1388
+		
+		declare_war_on = {
+			target = GGN
+			type = annex_everything
+		}
+		
+		load_oob = "POL_krakowuprising"
+	}
+	
+	hidden_effect = {
+		country_event = { id = NOV_postwar.99 days = 1 }
+		every_country = {
+			news_event = { id = Global_Conflicts.5 days = 1 }
+		}
+	}
+	
+	set_global_flag = RUS_krakow_uprising
+	set_variable = { 2WRW_global_conflicts = 3 }
+	GER = { set_variable = { 2WRW_global_conflicts = 3 } }
+}
+
+TNO_start_west_georgia_conflict = {
+	
+	# Armenia
+	XXX = {
+		ARM_Gurgen_Arutjunovic_Dalibaltajan = { set_nationality = ARM }
+	}
+	ARM = {
+		transfer_state = 1568
+		set_capital = { 
+			state = 1568
+			remember_old_capital = no
+		}
+		
+		load_oob = "ARM_REVOLUTION"
+
+		set_politics = {
+		    ruling_party = paternalism
+			elections_allowed = no
+		}	
+		set_popularities = {
+			paternalism = 40
+			socialist = 15
+			fascism = 1
+			ultranationalism = 4
+			communist = 10
+			conservatism = 15
+			liberalism = 10
+			progressivism = 5
+		}
+
+		add_ideas = {
+			ARM_Fedayeen_Gather
+			ARM_Operation_Nemesis
+		}
+
+		remove_ideas = {
+			ARM_united_front
+			KOM_socintern_associate
+			KOM_socintern_member
+		}
+			
+		declare_war_on = {
+			target = TUR
+			type = annex_everything
+		}
+		promote_character = ARM_Gurgen_Arutjunovic_Dalibaltajan
+		create_faction = "Caucasian Liberation Front"
+		#has_global_flag = TUR_mountain_war What was this used for ?????
+		TNO_startup_nation = yes
+	}
+	# Georgia
+	if = {
+		limit = {
+			country_exists = GEO
+			is_in_faction_with = NOV
+		}
+		RUS =  {
+		    remove_from_faction = GEO 
+			end_puppet = GEO
+		}
+		GEO = {
+			load_oob = "GEO_Batum_Strong"
+			add_ideas = {
+				GEO_the_whispering_mountains
+				GEO_the_smell_of_blood
+				GEO_tavisupali_sakartvelo
+			}
+			declare_war_on = {
+				target = TUR
+				type = annex_everything
+			}
+		}
+		ARM = {	add_to_faction = GEO }
+	}
+	else = {
+		XXX = {
+			GEO_Zviad_Gamsakhurdia = { set_nationality = GEO }
+		}
+		GEO = {
+			set_cosmetic_tag = GEO_free_democratic
+
+			load_oob = "GEO_Batum"
+
+			set_politics = {
+			    ruling_party = paternalism
+			    elections_allowed = no
+			}
+			set_party_name = {
+				ideology = paternalism
+				name = GEO_RUS_paternalism_party
+				long_name = GEO_RUS_paternalism_party_long
+			}
+
+			set_party_name = {
+				ideology = conservatism
+				name = GEO_RUS_conservatism_party
+				long_name = GEO_RUS_conservatism_party_long
+			}
+
+			set_party_name = {
+				ideology = liberalism
+				name = GEO_RUS_liberalism_party
+				long_name = GEO_RUS_liberalism_party_long
+			}
+
+			set_party_name = {
+				ideology = progressivism
+				name = GEO_RUS_progressivism_party
+				long_name = GEO_RUS_progressivism_party_long
+			}
+
+			set_party_name = {
+				ideology = socialist
+				name = GEO_RUS_socialist_party
+				long_name = GEO_RUS_socialist_party_long
+			}
+
+			set_party_name = {
+				ideology = communist
+				name = GEO_RUS_communist_party
+				long_name = GEO_RUS_communist_party_long
+			}
+
+			set_popularities = {
+			    paternalism = 40
+			    socialist = 13
+			    fascism = 13
+			    national_socialism = 2
+			    communist = 2
+			    conservatism = 10
+			    liberalism = 10
+			    progressivism = 10
+			}
+			
+			transfer_state = 1565
+
+			promote_character = GEO_Zviad_Gamsakhurdia
+
+			add_ideas = {
+				GEO_the_whispering_mountains
+				GEO_the_smell_of_blood
+				GEO_tavisupali_sakartvelo
+			}
+
+			declare_war_on = {
+				target = TUR
+				type = annex_everything
+			}
+			TNO_startup_nation = yes
+			ARM = {	add_to_faction = GEO }
+		}
+	}
+	set_global_flag = TUR_mountain_war
+	set_variable = { 2WRW_global_conflicts = 4 }
+	GER = { set_variable = { 2WRW_global_conflicts = 4 } }
 }
 

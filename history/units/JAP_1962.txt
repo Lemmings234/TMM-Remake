@@ -1,0 +1,1019 @@
+﻿division_template = {
+	name = "Konoe Sensha Rentai Sentoudan"		
+	is_locked = yes			
+	division_names_group = JAP_INF_01
+	regiments = {
+		MBT = { x = 0 y = 0 }
+		MBT = { x = 0 y = 1 }
+   		IFV = { x = 1 y = 0 }
+		IFV = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		IFV_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Sensha Rentai Sentoudan"	
+	is_locked = yes				
+	division_names_group = JAP_INF_01
+	regiments = {
+		MBT = { x = 0 y = 0 }
+		MBT = { x = 0 y = 1 }
+   		IFV = { x = 1 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		IFV_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Konoe Hohei Rentai Sentoudan"		
+	is_locked = yes			
+	division_names_group = JAP_INF_01
+	regiments = {
+		IFV = { x = 0 y = 0 }
+		IFV = { x = 0 y = 1 }
+   		APC = { x = 1 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		IFV_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Hohei Rentai Sentoudan"
+	is_locked = yes					
+	division_names_group = JAP_INF_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+   		APC = { x = 1 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		IFV_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Tokubetsu Rikusentai"		
+	is_locked = yes			
+	division_names_group = JAP_MAR_01
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+   		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Teishin Shudan"			
+	is_locked = yes
+	template_counter = 44		
+	division_names_group = JAP_PAR_01
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+		elite_infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		air_assault = { x = 0 y = 2 }
+		transport_helicopter_company = { x = 0 y = 3 }
+		artillery = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	# Imperial Guards 1st, 2nd, 3rd Division
+	division = {	
+		name = "Dai-1 Konoe Sensha Rentai Sentoudan"
+		location = 1182
+		division_template = "Konoe Sensha Rentai Sentoudan"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "Dai-2 Konoe Rentai Sentoudan"
+		location = 1182
+		division_template = "Konoe Hohei Rentai Sentoudan"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "Dai-6 Konoe Rentai Sentoudan"
+		location = 1182
+		division_template = "Konoe Hohei Rentai Sentoudan"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "Dai-7 Konoe Rentai Sentoudan"
+		location = 1182
+		division_template = "Konoe Hohei Rentai Sentoudan"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "Dai-3 Konoe Rentai Sentoudan"
+		location = 1182
+		division_template = "Konoe Hohei Rentai Sentoudan"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "Dai-8 Konoe Rentai Sentoudan"
+		location = 1182
+		division_template = "Konoe Hohei Rentai Sentoudan"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "Dai-4 Konoe Rentai Sentoudan"
+		location = 12072
+		division_template = "Konoe Hohei Rentai Sentoudan"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "Dai-9 Konoe Rentai Sentoudan"
+		location = 12072
+		division_template = "Konoe Hohei Rentai Sentoudan"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "Dai-5 Konoe Rentai Sentoudan"
+		location = 4188
+		division_template = "Konoe Hohei Rentai Sentoudan"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "Dai-10 Konoe Rentai Sentoudan"
+		location = 4188
+		division_template = "Konoe Hohei Rentai Sentoudan"
+		start_experience_factor = 0.35
+	}
+	# 1st Division
+	division = {	
+		name = "Dai-1 Rentai Sentoudan"
+		location = 1182
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-49 Rentai Sentoudan"
+		location = 12072
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-57 Rentai Sentoudan"
+		location = 4188
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 2nd Division
+	division = {	
+		name = "Dai-4 Rentai Sentoudan"
+		location = 7169
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-16 Rentai Sentoudan"
+		location = 11930
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-29 Rentai Sentoudan"
+		location = 4122
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+    # 3rd Division
+	division = {	
+		name = "Dai-6 Rentai Sentoudan"
+		location = 10125
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-34 Rentai Sentoudan"
+		location = 7087
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-68 Rentai Sentoudan"
+		location = 4172
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 4th Division
+	division = {	
+		name = "Dai-8 Rentai Sentoudan"
+		location = 7072
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}	
+	division = {	
+		name = "Dai-37 Rentai Sentoudan"
+		location = 7072
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}	
+	division = {	
+		name = "Dai-61 Rentai Sentoudan"
+		location = 7113
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 5th Division
+	division = {	
+		name = "Dai-11 Rentai Sentoudan"
+		location = 1092
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-21 Rentai Sentoudan"
+		location = 1191
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-42 Rentai Sentoudan"
+		location = 11985
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 6th Division
+	division = {	
+		name = "Dai-13 Rentai Sentoudan"
+		location = 11925
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-23 Rentai Sentoudan"
+		location = 11949
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-45 Rentai Sentoudan"
+		location = 4102
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 7th Division
+	division = {	
+		name = "Dai-26 Rentai Sentoudan"
+		location = 12421
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-27 Rentai Sentoudan"
+		location = 12421
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-28 Rentai Sentoudan"
+		location = 12421
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 8th Division
+	division = {	
+		name = "Dai-5 Rentai Sentoudan"
+		location = 6994
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-17 Rentai Sentoudan"
+		location = 1063
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-31 Rentai Sentoudan"
+		location = 6873
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 9th Division
+	division = {	
+		name = "Dai-7 Rentai Sentoudan"
+		location = 10032
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-19 Rentai Sentoudan"
+		location = 7102
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-35 Rentai Sentoudan"
+		location = 10128
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 10th Division
+	division = {	
+		name = "Dai-10 Rentai Sentoudan"
+		location = 7212
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-39 Rentai Sentoudan"
+		location = 12031
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-63 Rentai Sentoudan"
+		location = 7145
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 11st Division
+	division = {	
+		name = "Dai-12 Rentai Sentoudan"
+		location = 4094
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-43 Rentai Sentoudan"
+		location = 9965
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-44 Rentai Sentoudan"
+		location = 7197
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 12nd Division
+	division = {	
+		name = "Dai-24 Rentai Sentoudan"
+		location = 7110
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-46 Rentai Sentoudan"
+		location = 9950
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-48 Rentai Sentoudan"
+		location = 4164
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 13rd Division
+	division = {	
+		name = "Dai-65 Rentai Sentoudan"
+		location = 4122
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-104 Rentai Sentoudan"
+		location = 7169
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-116 Rentai Sentoudan"
+		location = 11930
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 14th Division
+	division = {	
+		name = "Dai-2 Rentai Sentoudan"
+		location = 7016
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-15 Rentai Sentoudan"
+		location = 1097
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-59 Rentai Sentoudan"
+		location = 993
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 16th Division
+	division = {	
+		name = "Dai-9 Rentai Sentoudan"
+		location = 11960
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-20 Rentai Sentoudan"
+		location = 9985
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-33 Rentai Sentoudan"
+		location = 4142
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 19th Division
+	division = {	
+		name = "Dai-73 Rentai Sentoudan"
+		location = 6822
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-75 Rentai Sentoudan"
+		location = 3860
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-76 Rentai Sentoudan"
+		location = 898
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 20th Division
+	division = {	
+		name = "Dai-78 Rentai Sentoudan"
+		location = 7125
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-79 Rentai Sentoudan"
+		location = 7125
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-80 Rentai Sentoudan"
+		location = 12089
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 104th Division - Removed because 104th is in Guangdong.
+	#division = {	
+	#	name = "Dai-108 Rentai Sentoudan"
+	#	location = 10000
+	#	division_template = "Hohei Rentai Sentoudan"
+	#	start_experience_factor = 0.25
+	#}
+	#division = {	
+	#	name = "Dai-137 Rentai Sentoudan"
+	#	location = 1150
+	#	division_template = "Hohei Rentai Sentoudan"
+	#	start_experience_factor = 0.25
+	#}
+	#division = {	
+	#	name = "Dai-161 Rentai Sentoudan"
+	#	location = 4205
+	#	division_template = "Hohei Rentai Sentoudan"
+	#	start_experience_factor = 0.25
+	#}
+	# 116th Division
+	division = {	
+		name = "Dai-109 Rentai Sentoudan"
+		location = 7186
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-120 Rentai Sentoudan"
+		location = 1070
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-133 Rentai Sentoudan"
+		location = 11932
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 1st Tank Division
+	division = {	
+		name = "Dai-1 Sensha Rentai Sentoudan"
+		location = 1025
+		division_template = "Sensha Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-3 Sensha Rentai Sentoudan"
+		location = 1025
+		division_template = "Sensha Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-51 Rentai Sentoudan"
+		location = 7072
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 2nd Tank Division
+	division = {	
+		name = "Dai-6 Sensha Rentai Sentoudan"
+		location = 7072
+		division_template = "Sensha Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-7 Sensha Rentai Sentoudan"
+		location = 7072
+		division_template = "Sensha Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-60 Rentai Sentoudan"
+		location = 11960
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 4th Tank Division
+	division = {	
+		name = "Dai-28 Sensha Rentai Sentoudan"
+		location = 4619
+		division_template = "Sensha Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-29 Sensha Rentai Sentoudan"
+		location = 11913
+		division_template = "Sensha Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-67 Rentai Sentoudan"
+		location = 7656
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	# 5th Tank Division
+	division = {	
+		name = "Dai-5 Sensha Rentai Sentoudan"
+		location = 957
+		division_template = "Sensha Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-10 Sensha Rentai Sentoudan"
+		location = 4075
+		division_template = "Sensha Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "Dai-53 Rentai Sentoudan"
+		location = 4401
+		division_template = "Hohei Rentai Sentoudan"
+		start_experience_factor = 0.25
+	}
+#Air Force
+air_wings = {	
+
+	#1st Air Army;Tokyo,Aomori,Karafuto
+	282 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 50
+		}
+		name = "1st Air Army 3.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 50
+		}
+		name = "1st Air Army 2.IS"
+		jet_tac_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 12
+		}
+		name = "1st Air Army 5.TBS"
+	}
+	533 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 50
+		}
+		name = "1st Air Army 3.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 50
+		}
+		name = "1st Air Army 12.IS"
+	}
+	537 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 20
+		}
+		name = "1st Air Army 3.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 20
+		}
+		name = "1st Air Army 2.IS"
+		jet_tac_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 5
+		}
+		name = "1st Air Army 5.TBS"
+		jet_CAS_equipment_2 = {		
+			owner = "JAP" 
+			amount = 5
+		}
+		name = "1st Air Army 1.CSS"
+	}
+	409 = {
+		jet_strat_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 25
+		}
+		name = "1st Air Army 11.SBS"
+	}
+	962 = {
+		jet_strat_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 25
+		}
+		name = "1st Air Army 12.SBS"
+	}
+
+	#3rd Air Army;Shonan
+	817 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 25
+		}
+		name = "3rd Air Army 3.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 25
+		}
+		name = "3rd Air Army 12.IS"
+		jet_CAS_equipment_2 = {		
+			owner = "JAP" 
+			amount = 25
+		}
+		name = "3rd Air Army 1.CSS"
+	}
+
+	#4th Air Army;Rabauru,Saipan,Marshall islands
+	737 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 10
+		}
+		name = "4th Air Army 3.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 10
+		}
+		name = "4th Air Army 12.IS"
+		jet_CAS_equipment_2 = {		
+			owner = "JAP" 
+			amount = 5
+		}
+		name = "4th Air Army 1.CSS"
+	}
+	633 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 10
+		}
+		name = "4th Air Army 7.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 10
+		}
+		name = "4th Air Army 6.IS"
+		jet_CAS_equipment_2 = {		
+			owner = "JAP" 
+			amount = 5
+		}
+		name = "4th Air Army 15.CSS"
+	}
+
+	#5th Air Army;Shanghai,Hainan,Entai
+	813 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 10
+		}
+		name = "5th Air Army 7.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 10
+		}
+		name = "5th Air Army 6.IS"
+		jet_CAS_equipment_2 = {		
+			owner = "JAP" 
+			amount = 5
+		}
+		name = "5th Air Army 15.CSS"
+	}
+	591 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 10
+		}
+		name = "5th Air Army 13.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 10
+		}
+		name = "5th Air Army 14.IS"
+		jet_CAS_equipment_2 = {		
+			owner = "JAP" 
+			amount = 5
+		}
+		name = "5th Air Army 4.CSS"
+	}
+	283 = {
+		jet_strat_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 25
+		}
+		name = "5th Air Army 1.SBS"
+	}
+
+	#6th Air Army;Kyushu,Taiwan,IwoJima
+	528 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 20
+		}
+		name = "6th Air Army 7.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 20
+		}
+		name = "6th Air Army 6.IS"
+	}
+	524 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 20
+		}
+		name = "6th Air Army 7.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 20
+		}
+		name = "6th Air Army 6.IS"
+	}
+	530 = {
+		jet_strat_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 25
+		}
+		name = "6th Air Army 8.SBS"
+	}
+	645 = {
+		jet_strat_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 25
+		}
+		name = "6th Air Army 9.SBS"
+	}
+	526 = {
+		jet_strat_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 25
+		}
+		name = "6th Air Army 13.SBS"
+	}
+
+
+	#7th Air Army;Hawaii,Aleutians,FrenchPolynesia
+	629 = { 	
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 50
+		}
+		name = "7th Air Army 1.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 50
+		}
+		name = "7th Air Army 5.IS"
+		jet_tac_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 12
+		}
+		name = "7th Air Army 2.TBS"
+		jet_strat_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 25
+		}
+		name = "7th Air Army 21.SBS"
+	}
+	727 = {
+		jet_strat_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 25
+		}
+		name = "7th Air Army 22.SBS"
+	}
+	772 = { 	
+		jet_strat_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 25
+		}
+		name = "7th Air Army 31.SBS"
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 50
+		}
+		name = "7th Air Army 9.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 50
+		}
+		name = "7th Air Army 3.IS"
+		jet_tac_bomber_equipment_2 = {
+			owner = "JAP"
+			amount = 12
+		}
+		name = "7th Air Army 10.TBS"
+	}
+	641 = {
+		jet_fighter_equipment_2 =  {
+			owner = "JAP" 
+			amount = 20
+		}
+		name = "7th Air Army 4.FS"	
+		jet_interceptor_equipment_2 = {		
+			owner = "JAP" 
+			amount = 20
+		}
+		name = "7th Air Army 7.IS"
+	}
+}
+
+##############
+##PRODUCTION##
+##############
+
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_2
+			creator = "JAP"
+		}
+		requested_factories = 4
+		progress = 0.1
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_1
+			creator = "JAP"
+		}
+		requested_factories = 4
+		progress = 0.1
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "JAP"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "JAP"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_3
+			creator = "JAP"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = MBT_chassis_2
+			creator = "JAP"
+			version_name = "Type-34 Chi-Wa"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = IFV_chassis_2
+			creator = "JAP"
+			version_name = "Type-26"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = jet_fighter_equipment_2
+			creator = "JAP"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = cv_jet_fighter_equipment_2
+			creator = "JAP"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = jet_tac_bomber_equipment_2
+			creator = "JAP"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = jet_CAS_equipment_2
+			creator = "JAP"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = transport_helicopter_equipment_1
+			creator = "JAP"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
+}

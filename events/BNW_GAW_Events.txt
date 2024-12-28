@@ -1,0 +1,562 @@
+add_namespace = BNW_GAW
+add_namespace = BNW_GAW_News
+
+#These are all hidden events for button cooldowns
+
+country_event = {  #Shaanxi rebels
+	id = BNW_GAW.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event BNW_GAW.1" }
+	title = BNW_GAW.1.t
+	desc = "If you can see this something is massively wrong"
+	picture = GFX_report_event_peace_deal
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = "SHX rebels"
+		clr_country_flag = Nuclear_Program_Option1_Cooldown
+		622 = { set_demilitarized_zone = no }
+		SHX = {
+			add_popularity = {
+			ideology = communist
+			popularity = 0.45
+		    }
+			set_politics = {
+				ruling_party = communist
+				elections_allowed = no
+			}
+		    set_party_name = { 
+		    	ideology = communist
+		    	long_name = GAW_SHX_communist
+		    	name = GAW_SHX_communist_short
+		    }
+            delete_unit_template_and_units = { division_template = "Infantry Division" }
+			delete_unit_template_and_units = { division_template = "Rapid Response Unit" }
+			econ_leave_sphere = yes
+			remove_ideas = Sphere_Economic_Dependent
+		}
+		every_state = {
+			limit = {
+				is_owned_by = SHX
+				NOT = { state = 622 }
+			}
+			add_core_of = CHI
+		}
+		every_state = {
+			limit = {
+				is_owned_by = SHX
+			}
+			remove_core_of = SHX
+		}
+		622 = {
+		    add_core_of = SHX
+		}
+		every_state = {
+			limit = {
+				is_core_of = CHI
+				is_owned_by = SHX
+			}
+			transfer_state_to = CHI
+		}
+	    CHI = {
+	    	end_puppet = SHX
+	    }
+	    JAP = {
+	    	remove_from_faction = SHX
+	    }
+		every_country = { news_event = { id = BNW_GAW_News.1 days = 1 } }
+		QIN = {
+			remove_opinion_modifier = {
+                target = SHX
+                modifier = QIN_traitor_regime
+            }
+            #country_event = { id = BNW_GAW.2 days = 45 } 
+		}
+		XIK = {
+			remove_opinion_modifier = {
+                target = SHX
+                modifier = QIN_traitor_regime
+            }
+		}
+		622 = {
+            add_victory_points = {
+            	province = 8049
+            	value = 15
+            }
+		}
+		CHI = {
+			set_rule = {
+                desc = GAN_Calm_Down_Bozo
+                can_not_declare_war = yes
+            }
+		}
+		CHI = {
+			create_wargoal = {
+            type = annex_everything 
+            target = SHX
+            }
+		}
+		CHI = {
+			create_wargoal = {
+            type = annex_everything 
+            target = WCH
+            }
+		}
+	}
+}
+
+country_event = {  #Chinese Civil War
+	id = BNW_GAW.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event BNW_GAW.2" }
+	title = BNW_GAW.2.t
+	desc = "If you can see this something is massively wrong"
+	picture = GFX_report_event_peace_deal
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = "wah"
+	    JAP = {
+	    	remove_from_faction = CHI
+			remove_from_faction = MEN
+			remove_from_faction = SIC
+	    }
+        declare_war_on = {
+            target = CHI
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = MEN
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = SIC
+            type = annex_everything
+        }
+		SHX = {
+            declare_war_on = {
+                target = CHI
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = MEN
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = SIC
+                type = annex_everything
+            }			
+		}
+		create_faction = CCW_Faction
+		ROOT = { add_to_faction = SHX }
+		if = {
+            limit = { country_exists = XIK }
+			ROOT = { add_to_faction = XIK }
+		}
+		every_country = { news_event = { id = BNW_GAW_News.2 days = 1 } }
+		IND = { country_event = { id = BNW_GAW.3 days = 45 } }
+        add_named_threat = {
+            threat = 20
+            name = QIN_CCW
+        }
+	}
+}
+
+country_event = {  #Indian Civil War - Stage 1
+	id = BNW_GAW.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event BNW_GAW.3" }
+	title = BNW_GAW.3.t
+	desc = "If you can see this something is massively wrong"
+	picture = GFX_report_event_peace_deal
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = "i need wah"
+	    JAP = {
+	    	remove_from_faction = AZH
+			remove_from_faction = NEP
+			remove_from_faction = BHU
+			remove_from_faction = BUR
+	    }
+		IND = {
+            declare_war_on = {
+                target = AZH
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BHU
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = KLT
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = MFP
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BUR
+                type = annex_everything
+            }
+			if = {
+				limit = { CYL = { is_in_faction = no } }
+                declare_war_on = {
+                    target = CYL
+                    type = annex_everything
+                }
+			}
+		}
+		QIN = {
+            declare_war_on = {
+                target = AZH
+                type = annex_everything
+            }			
+		}
+		IND = { leave_faction = yes }
+		QIN = { add_to_faction = IND }
+		every_country = { news_event = { id = BNW_GAW_News.3 days = 1 } }
+		QIN = { set_faction_name = GAW_Sino_Indian_Name }
+		if = {
+			limit = { THA = { NOT = { has_government = fascism } } }
+			THA = { country_event = { id = BNW_GAW.4 days = 1 } }
+		}
+	}
+}
+
+country_event = {  #Indian Civil War - If not Fascist, Thailand joins the Sino-Indian alliance
+	id = BNW_GAW.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event BNW_GAW.4" }
+	title = BNW_GAW.4.t
+	desc = "If you can see this something is massively wrong"
+	picture = GFX_report_event_peace_deal
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = "snape kills dumbledore!!!!"
+	    JAP = {
+	    	remove_from_faction = THA
+	    }
+		econ_leave_sphere = yes
+		remove_ideas = Sphere_Coequal
+		QIN = { add_to_faction = THA }
+        declare_war_on = {
+            target = BUR
+            type = annex_everything
+        }		
+        declare_war_on = {
+            target = AZH
+            type = annex_everything
+        }
+		every_country = { news_event = { id = BNW_GAW_News.4 days = 30 } }
+        QIN = { set_faction_name = GAW_Sino_Indian_Thai_Name }
+	}
+}
+
+country_event = {  #2nd Russo Japanese War
+	id = BNW_GAW.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event BNW_GAW.5" }
+	title = BNW_GAW.5.t
+	desc = "If you can see this something is massively wrong"
+	picture = GFX_report_event_peace_deal
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = "snape kills dumbledore!!!!"
+	    RUS = {
+            declare_war_on = {
+                target = JAP
+                type = annex_everything
+            }	
+            declare_war_on = {
+                target = MAN
+                type = annex_everything
+            }		
+            declare_war_on = {
+                target = MEN
+                type = annex_everything
+            }				
+		}
+		every_country = { news_event = { id = BNW_GAW_News.5 days = 1 } }
+		every_country = {
+			limit = {
+				OR = {
+				    tag = ITA
+				    is_puppet_of = ITA
+					is_subject_of = ITA
+				}
+                is_in_faction_with = JAP
+			}
+			leave_faction = yes
+			remove_ideas = Sphere_Coequal
+			remove_ideas = Sphere_Economic_Dependent
+		}
+        JAP = { country_event = { id = BNW_GAW.6 days = 3 } }
+	}
+}
+
+country_event = {  #After 2RJW, all tags who has left Japanese faction rejoins
+    id = BNW_GAW.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event BNW_GAW.6" }
+	title = BNW_GAW.6.t
+	desc = "If you can see this something is massively wrong"
+	picture = GFX_report_event_peace_deal
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = "snape kills dumbledore!!!!"
+		JAP = { add_to_faction = AZH }
+		AZH = { add_ideas = Sphere_Coequal }
+		JAP = { add_to_faction = AFG }
+		AFG = { add_ideas = Sphere_Coequal }
+		JAP = { add_to_faction = CHI }
+		CHI = { add_ideas = Sphere_Economic_Dependent }
+		JAP = { add_to_faction = SIC }
+		SIC = { add_ideas = Sphere_Economic_Dependent }
+		JAP = { add_to_faction = MEN }
+		MEN = { add_ideas = Sphere_Economic_Dependent }
+		JAP = { add_to_faction = GUZ }
+		GUZ = { add_ideas = Sphere_Economic_Dependent }
+		JAP = { add_to_faction = GUX }
+		GUX = { add_ideas = Sphere_Economic_Dependent }
+		JAP = { add_to_faction = MFP }
+		MFP = { add_ideas = Sphere_Economic_Dependent }
+		JAP = { add_to_faction = KLT }
+		KLT = { add_ideas = Sphere_Economic_Dependent }
+		JAP = { add_to_faction = BHU }
+		BHU = { add_ideas = Sphere_Economic_Dependent }
+		JAP = { add_to_faction = BUR }
+		BUR = { add_ideas = Sphere_Economic_Dependent }
+		every_country = { news_event = { id = BNW_GAW_News.6 days = 1 } }
+		JAP = {
+            declare_war_on = {
+                target = IND
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = SHX
+                type = annex_everything
+            }
+		}
+	}
+}
+
+news_event = { #Shaanxi Rebellion
+	id = BNW_GAW_News.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BNW_GAW_News.1"}
+	title = BNW_GAW_News.1.t
+	desc = BNW_GAW_News.1.desc
+	picture = GFX_news_event_shaaxi_uprising
+	
+	is_triggered_only = yes
+
+	option = {
+		name = BNW_GAW_News.1.a
+		trigger = {
+			OR = {
+				tag = JAP
+				tag = CHI
+				tag = GNG
+			}
+		}
+	}
+	option = {
+		name = BNW_GAW_News.1.b
+		trigger = {
+			OR = {
+				tag = QIN
+				tag = YUN
+				tag = XIK
+				tag = XIN
+			}
+		}
+	}
+	option = {
+		name = BNW_GAW_News.1.c
+		trigger = { TAG = RUS }
+	}
+	option = {
+		name = BNW_GAW_News.1.d
+		trigger = {
+		    NOT = {
+		    	OR = {
+		    		tag = JAP
+		    		tag = CHI
+		    		tag = GNG			
+		    		tag = QIN
+		    		tag = YUN
+		    		tag = XIK
+		    		tag = XIN
+	                tag = RUS
+		    	}
+		    }
+		}
+	}
+}
+
+news_event = { #Chinese Civil War
+	id = BNW_GAW_News.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event BNW_GAW_News.2" }
+	title = BNW_GAW_News.2.t
+	desc = BNW_GAW_News.2.desc
+	picture = GFX_news_event_ccw
+	
+	is_triggered_only = yes
+
+	option = {
+		name = BNW_GAW_News.2.a
+		trigger = {
+			OR = {
+				tag = JAP
+				tag = CHI
+				tag = GNG
+			}
+		}
+	}
+	option = {
+		name = BNW_GAW_News.2.b
+		trigger = {
+			OR = {
+				tag = QIN
+				tag = YUN
+				tag = XIK
+				tag = XIN
+			}
+		}
+	}
+	option = {
+		name = BNW_GAW_News.2.c
+		trigger = { TAG = RUS }
+	}
+	option = {
+		name = BNW_GAW_News.2.d
+		trigger = {
+		    NOT = {
+		    	OR = {
+		    		tag = JAP
+		    		tag = CHI
+		    		tag = GNG			
+		    		tag = QIN
+		    		tag = YUN
+		    		tag = XIK
+		    		tag = XIN
+	                tag = RUS
+		    	}
+		    }
+		}
+	}
+}
+
+#For Skeleton Content
+country_event = {  #Seihoku War
+	id = BNW_GAW.999
+	immediate = { log = "[GetDateText]: [Root.GetName]: event BNW_GAW.999" }
+	title = BNW_GAW.999.t
+	desc = "If you can see this something is massively wrong"
+	picture = GFX_report_event_peace_deal
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = "wah"
+		army_experience = 15
+		add_stability = 0.025
+		TNO_worsen_poverty_low = yes
+        modify_timed_idea = {
+            idea = QIN_GAN_Initial_Modifier
+            days = 30
+        }
+		GAN = {
+            every_owned_state = { 
+				remove_core_of = GAN
+				start_resistance = QIN
+				hidden_effect = {
+					force_enable_resistance = GAN
+				}
+				add_compliance = 80
+				add_resistance = 15
+				set_garrison_strength = 0.9
+			}
+		}
+		hidden_effect = { load_oob = QIN_1966_Rebels }
+		army_experience = 10
+		add_command_power = -35
+        283 = {
+			damage_building = {
+                type = infrastructure
+                damage = 1
+            }
+		}    
+        1302 = {
+			damage_building = {
+                type = infrastructure
+                damage = 1
+            }
+		}
+		622 = { set_demilitarized_zone = yes }
+		SHX = {
+			add_stability = -0.1
+		}
+        956 = {
+			damage_building = {
+                type = infrastructure
+                damage = 1
+            }
+		}
+        622 = {
+			damage_building = {
+                type = infrastructure
+                damage = 1
+            }
+		}
+		add_war_support = 0.075
+		GAN = {
+            every_owned_state = { 
+				add_resistance = 15
+			}
+		}
+		add_stability = -0.05
+		TNO_improve_conscription_policy_effectiveness_high = yes
+		TNO_improve_training_policy_effectiveness_med = yes
+		TNO_improve_max_workhours_policy_effectiveness_med = yes
+		TNO_improve_minimum_wage_policy_effectiveness_med = yes
+		TNO_improve_regulations_policy_effectiveness_med = yes
+		add_war_support = 0.15
+		add_political_power = 150
+		TNO_worsen_press_rights_policy_effectiveness_low = yes
+        add_doctrine_cost_reduction = {
+        	cost_reduction = 0.5
+        	uses = 1
+        	category = land_doctrine
+        }
+        modify_timed_idea = {
+            idea = QIN_GAN_Initial_Modifier
+            days = 30
+        }
+		add_political_power = 50
+		add_manpower = 7500
+		add_war_support = -0.025
+		add_timed_idea = {
+			idea = QIN_Surprise_Counterattack
+			days = 25
+		}
+	}
+}

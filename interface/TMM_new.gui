@@ -2169,6 +2169,579 @@ guiTypes = {
 			alwaystransparent = yes
 	    }
 	}
+    ### JAPAN ###
+	containerWindowType = {
+		name = "BNW_Japan_Imperial_Court_GUI"
+		position = { x = -600 y = 0 }
+
+		iconType = {
+		    name = "JAP_Imperial_Court_Ancestors"
+		    spriteType = "JAP_Imperial_Court_Ancestors"
+		    position = { x = 17 y = 21 }
+		    alwaystransparent = yes
+	    }
+		iconType = {
+		    name = "JAP_Imperial_Court_GUI_BG_2"
+		    spriteType = "JAP_Imperial_Court_GUI_BG"
+		    position = { x = 4 y = 4 }
+			alwaystransparent = yes
+	    }
+		iconType = {
+			name = "Imperial_Court_Info"
+			spriteType = "GFX_Generic_Asian_Info"
+			position = { x = 20 y = 275 }
+			pdx_tooltip = "Imperial_Court_Info"
+		}
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Portrait_1"
+		    spriteType = "GFX_Portrait_Sakai_Tadamasa"
+		    position = { x = 48 y = 681 }
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_1"
+	    }
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Portrait_2"
+		    spriteType = "GFX_Portrait_Tokudaiji_Saneatsu"
+		    position = { x = 276 y = 681 }
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_2"
+	    }
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Opinion_3"
+		    spriteType = "GFX_JAP_Imperial_Court_Tendencies"
+		    position = { x = 503 y = 749 }
+	    }
+		#Because TT wont work!!!!!
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Opinion_3"
+		    spriteType = "GFX_JAP_Imperial_Court_Tendencies"
+		    position = { x = 503 y = 749 }
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_3"
+	    }
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Portrait_3_Kojun"
+		    spriteType = "GFX_Portrait_Empress_Kojun"
+		    position = { x = 507 y = 537 }
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_3_Kojun"
+	    }
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Portrait_3_Mikasa"
+		    spriteType = "GFX_Portrait_Prince_Mikasa"
+		    position = { x = 507 y = 537 }
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_3_Mikasa"
+	    }
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Portrait_4"
+		    spriteType = "GFX_Portrait_Ihara_Mitsugu"
+		    position = { x = 788 y = 681 }
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_4"
+	    }
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Portrait_5"
+		    spriteType = "GFX_Portrait_Irie_Sukemasa"
+		    position = { x = 1011 y = 681 }
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_5"
+	    }
+		iconType = {
+		    name = "JAP_Imperial_Court_GUI_BG"
+		    spriteType = "GFX_JAP_Imperial_Court_GUI"
+		    position = { x = 4 y = 4 }
+		    alwaystransparent = yes
+	    }
+		buttonType = {
+			name = "JAP_Imperial_Court_Interaction_1"
+			spriteType = "GFX_JAP_Imperial_Court_Button"
+			position = { x = 720 y = 520 }
+			buttonFont = "aldrich_48_outline"
+			text = "JAP_Imperial_Court_Interaction_1_button"
+		}
+		buttonType = {
+			name = "JAP_Imperial_Court_Interaction_2"
+			spriteType = "GFX_JAP_Imperial_Court_Button"
+			position = { x = 955 y = 520 }
+			buttonFont = "aldrich_48_outline"
+			text = "JAP_Imperial_Court_Interaction_2_button"
+		}
+		instantTextboxType = {
+			name = "JAP_Interaction_Title"
+			position = { x = 343 y = 290 }
+			font = "aldrich_48_outline"
+			borderSize = {x = 0 y = 0}
+			text = "JAP_Interaction_Title"
+			maxWidth = 850
+			fixedsize = yes
+			format = centre
+		}
+		instantTextboxType = {
+			name = "JAP_Interaction_Desc"
+			position = { x = 357 y = 360 }
+			font = "aldrich_20_outline"
+			borderSize = {x = 0 y = 0}
+			text = "JAP_Interaction_Desc"
+			maxWidth = 825
+			fixedsize = yes
+			format = centre
+		}
+		instantTextboxType = {
+			name = "JAP_Jyushin_Title_1"
+			position = { x = 20 y = 605 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "JAP_Jyushin_Title_1"
+			maxWidth = 200
+			fixedsize = yes
+			format = centre
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "JAP_Jyushin_Title_2"
+			position = { x = 245 y = 605 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "JAP_Jyushin_Title_2"
+			maxWidth = 200
+			fixedsize = yes
+			format = centre
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "JAP_Jyushin_Title_3"
+			position = { x = 464 y = 820 }
+			font = "aldrich_36_outline"
+			borderSize = {x = 0 y = 0}
+			text = "JAP_Jyushin_Title_3"
+			maxWidth = 275
+			fixedsize = yes
+			format = centre
+			alwaystransparent = yes
+
+		}
+		instantTextboxType = {
+			name = "JAP_Jyushin_Title_4"
+			position = { x = 759 y = 605 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "JAP_Jyushin_Title_4"
+			maxWidth = 200
+			fixedsize = yes
+			format = centre
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "JAP_Jyushin_Title_5"
+			position = { x = 980 y = 605 }
+			font = "aldrich_24_outline"
+			borderSize = {x = 0 y = 0}
+			text = "JAP_Jyushin_Title_5"
+			maxWidth = 200
+			fixedsize = yes
+			format = centre
+			alwaystransparent = yes
+		}
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Opinion_1"
+		    spriteType = "GFX_JAP_Imperial_Court_Tendencies"
+		    position = { x = 44 y = 834 }
+		    alwaystransparent = yes
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_1"
+	    }
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Opinion_2"
+		    spriteType = "GFX_JAP_Imperial_Court_Tendencies"
+		    position = { x = 271 y = 834 }
+		    alwaystransparent = yes
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_2"
+			
+	    }
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Opinion_4"
+		    spriteType = "GFX_JAP_Imperial_Court_Tendencies"
+		    position = { x = 784 y = 834 }
+		    alwaystransparent = yes
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_4"
+	    }	
+		iconType = {
+		    name = "JAP_Imperial_Court_Jyushin_Opinion_5"
+		    spriteType = "GFX_JAP_Imperial_Court_Tendencies"
+		    position = { x = 1006 y = 834 }
+		    alwaystransparent = yes
+			pdx_tooltip = "JAP_Imperial_Court_Jyushin_Desc_5"
+	    }
+	    containerWindowType = {
+	    	name = "JAP_Imperial_Court_Issues"
+	    	position = { x = 0 y = 0 }
+    
+	    	containerWindowType = {
+	    		name = "JAP_Imperial_Court_Issues_list_window"
+	    		position = { x = 0 y = 373 }
+	    		size = { width = 350 height = 215 }
+	    		verticalScrollbar = right_vertical_slider
+    
+	    		background = {
+	    			name = "Background"
+	    			quadTextureSprite ="GFX_tiled_window_transparent"
+	    			#quadTextureSprite ="GFX_tiled_window_thin_border2"
+	    		}
+    
+	    		gridboxtype = {
+	    			name = "JAP_Imperial_Court_Issues_list"
+	    			position = { x = 0 y = 0 }
+	    			size = { width = 100%% height = 100%% }
+	    			slotsize = { width = 300 height = 43 }
+	    			max_slots_horizontal = 1
+	    			add_horizontal = no
+	    		}
+	    	}
+	    }
+	}
+
+	containerWindowType = {
+		name = "BNW_Japan_Election_GUI"
+		position = { x = -600 y = 0 }
+
+		### Election GUI ###
+		instantTextBoxType = {
+			name = "election_type_title"
+			position = { x = 100 y = 114 }
+			font = "aldrich_36_outline"
+			text = "election_type_title"
+			format = centre
+			maxWidth = 1000
+		}
+		instantTextBoxType = {
+			name = "Election_Interaction_Title"
+			position = { x = 865 y = 170 }
+			font = "aldrich_28_outline"
+			text = "election_interaction_title"
+			format = centre
+			maxWidth = 300
+		}
+		instantTextBoxType = {
+			name = "Election_District_Title"
+			position = { x = 865 y = 522 }
+			font = "aldrich_28_outline"
+			text = "election_district_title"
+			format = centre
+			maxWidth = 300
+		}
+	    iconType = {
+	    	name = "JAP_Election_District_BG"
+	    	spriteType = "GFX_JAP_Election_District_BG"
+	    	position = { x = 858 y = 552 }
+	    	alwaystransparent = yes
+	    }
+	    iconType = {
+	    	name = "JAP_Election_Voting_District_Image"
+	    	position = { x = 865 y = 565 }
+	    	alwaystransparent = yes
+	    }
+		instantTextBoxType = {
+			name = "JAP_Election_Voting_District_Title"
+			position = { x = 865 y = 620 }
+			font = "aldrich_20_outline"
+			text = "[AsiaGetDistrictLoc]"
+			format = centre
+			maxWidth = 300
+		}
+	    iconType = {
+	    	name = "JAP_Election_Direct_BG"
+	    	spriteType = "GFX_JAP_Election_Direct_BG"
+	    	position = { x = 28 y = 164 }
+	    	alwaystransparent = yes
+	    }
+		buttonType = { 
+			name = "Region_Karafuto"
+			quadTextureSprite = "GFX_Region_Karafuto"
+			position = { x = 52 y = 187 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Hokkaido"
+			quadTextureSprite = "GFX_Region_Hokkaido"
+			position = { x = 487 y = 164 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Osaka"
+			quadTextureSprite = "GFX_Region_Osaka"
+			position = { x = 340 y = 390 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Hyogo"
+			quadTextureSprite = "GFX_Region_Hyogo"
+			position = { x = 329 y = 394 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Aomori"
+			quadTextureSprite = "GFX_Region_Aomori"
+			position = { x = 502 y = 351 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Gunma"
+			quadTextureSprite = "GFX_Region_Gunma"
+			position = { x = 457 y = 545 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Iwate"
+			quadTextureSprite = "GFX_Region_Iwate"
+			position = { x = 527 y = 399 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Yamagata"
+			quadTextureSprite = "GFX_Region_Yamagata"
+			position = { x = 493 y = 454 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Miyagi"
+			quadTextureSprite = "GFX_Region_Miyagi"
+			position = { x = 515 y = 460 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Ibaraki"
+			quadTextureSprite = "GFX_Region_Ibaraki"
+			position = { x = 497 y = 549 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Tochigi"
+			quadTextureSprite = "GFX_Region_Tochigi"
+			position = { x = 485 y = 539 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Fukushima"
+			quadTextureSprite = "GFX_Region_Fukushima"
+			position = { x = 480 y = 505 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Akita"
+			quadTextureSprite = "GFX_Region_Akita"
+			position = { x = 498 y = 396 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Kanagawa"
+			quadTextureSprite = "GFX_Region_Kanagawa"
+			position = { x = 473 y = 580 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Tokyo"
+			quadTextureSprite = "GFX_Region_Tokyo"
+			position = { x = 473 y = 580 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Saitama"
+			quadTextureSprite = "GFX_Region_Saitama"
+			position = { x = 467 y = 578 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Chiba"
+			quadTextureSprite = "GFX_Region_Chiba"
+			position = { x = 500 y = 587 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Niigata"
+			quadTextureSprite = "GFX_Region_Niigata"
+			position = { x = 434 y = 480 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Nagano"
+			quadTextureSprite = "GFX_Region_Nagano"
+			position = { x = 423 y = 545 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Yamanashi"
+			quadTextureSprite = "GFX_Region_Yamanashi"
+			position = { x = 450 y = 591 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Toyama"
+			quadTextureSprite = "GFX_Region_Toyama"
+			position = { x = 406 y = 546 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Ishikawa"
+			quadTextureSprite = "GFX_Region_Ishikawa"
+			position = { x = 390 y = 524 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Fukui"
+			quadTextureSprite = "GFX_Region_Fukui"
+			position = { x = 366 y = 577 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Gifu"
+			quadTextureSprite = "GFX_Region_Gifu"
+			position = { x = 391 y = 570 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Aichi"
+			quadTextureSprite = "GFX_Region_Aichi"
+			position = { x = 378 y = 614 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Shizuoka"
+			quadTextureSprite = "GFX_Region_Shizuoka"
+			position = { x = 428 y = 606 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Mie"
+			quadTextureSprite = "GFX_Region_Mie"
+			position = { x = 377 y = 621 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Shiga"
+			quadTextureSprite = "GFX_Region_Shiga"
+			position = { x = 375 y = 602 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Kyoto"
+			quadTextureSprite = "GFX_Region_Kyoto"
+			position = { x = 346 y = 599 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Wakayama"
+			quadTextureSprite = "GFX_Region_Wakayama"
+			position = { x = 355 y = 659 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Nara"
+			quadTextureSprite = "GFX_Region_Nara"
+			position = { x = 368 y = 643 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Tottori"
+			quadTextureSprite = "GFX_Region_Tottori"
+			position = { x = 294 y = 606 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Shimane"
+			quadTextureSprite = "GFX_Region_Shimane"
+			position = { x = 249 y = 573 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Yamaguchi"
+			quadTextureSprite = "GFX_Region_Yamaguchi"
+			position = { x = 223 y = 642 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Okayama"
+			quadTextureSprite = "GFX_Region_Okayama"
+			position = { x = 299 y = 617 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Hiroshima"
+			quadTextureSprite = "GFX_Region_Hiroshima"
+			position = { x = 260 y = 628 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Tokushima"
+			quadTextureSprite = "GFX_Region_Tokushima"
+			position = { x = 311 y = 664 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Kagawa"
+			quadTextureSprite = "GFX_Region_Kagawa"
+			position = { x = 307 y = 650 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Ehime"
+			quadTextureSprite = "GFX_Region_Ehime"
+			position = { x = 260 y = 668 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Kochi"
+			quadTextureSprite = "GFX_Region_Kochi"
+			position = { x = 278 y = 680 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Nagasaki"
+			quadTextureSprite = "GFX_Region_Nagasaki"
+			position = { x = 141 y = 640 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Oita"
+			quadTextureSprite = "GFX_Region_Oita"
+			position = { x = 222 y = 687 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Fukuoka"
+			quadTextureSprite = "GFX_Region_Fukuoka"
+			position = { x = 198 y = 677 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Kumamoto"
+			quadTextureSprite = "GFX_Region_Kumamoto"
+			position = { x = 196 y = 710 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Kagoshima"
+			quadTextureSprite = "GFX_Region_Kagoshima"
+			position = { x = 32 y = 751 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Saga"
+			quadTextureSprite = "GFX_Region_Saga"
+			position = { x = 187 y = 692 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Okinawa"
+			quadTextureSprite = "GFX_Region_Okinawa"
+			position = { x = 158 y = 435 }
+			clicksound = click_ok
+		}
+		buttonType = { 
+			name = "Region_Miyazaki"
+			quadTextureSprite = "GFX_Region_Miyazaki"
+			position = { x = 219 y = 725 }
+			clicksound = click_ok
+		}
+	    iconType = {
+	    	name = "china_election_gui_bg"
+	    	spriteType = "GFX_QIN_Election_BG"
+	    	position = { x = 4 y = -5 }
+	    	alwaystransparent = yes
+	    }
+	}
 
 	### Separate GUIs ###
 	containerWindowType = {
@@ -2900,6 +3473,30 @@ guiTypes = {
 			name = "GUZ_parliament_seats_icon"
 			spriteType = "GFX_GUZ_Parliament_Seat"
 		}
+	}
+	#For Imperial Court
+	containerWindowType = {
+		name = "JAP_Imperial_Court_Issues_window_container"
+		position = { x = 0 y = 0 }
+
+		iconType = { 
+			name = "JAP_Imperial_Court_Issues_Box"
+			quadTextureSprite = "GFX_JAP_Imperial_Court_Issues_Box"
+			position = { x = 0 y = 0 }
+		}
+		iconType = { 
+			name = "JAP_Imperial_Court_Decision_Icon"
+			quadTextureSprite = "GFX_Generic_Vote_Icon"
+			position = { x = 261 y = 4 }
+		}
+		instantTextBoxType = {
+			name = "JAP_Imperial_Issue_Title"
+			position = { x = 10 y = 15 }
+			font = "aldrich_16_outline"
+			text = "[getJAPLegislationTitle]"
+			format = centre
+			maxWidth = 200
+		}	
 	}
 	#For Impeachment
 	containerWindowType = {

@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+		
+		# West China Generic
+		
+		WCH_national_reconstruction = {
+			on_add = { log = "GetDateText]: [Root.GetName]: add idea WCH_national_reconstruction" }
+			allowed = { always = no }
+			removal_cost = -1
+			picture = IRK_administrative_shortcomings
+			modifier = {
+				political_power_factor = -0.1
+				production_speed_buildings_factor = 0.35
+				industry_free_repair_factor = 0.25
+			}
+		}
+		WCH_diverse_nation = {
+			on_add = { log = "GetDateText]: [Root.GetName]: add idea WCH_diverse_nation" }
+			allowed = { always = no }
+			removal_cost = -1
+			picture = QIN_question_of_identity
+			modifier = {
+				stability_factor = -0.15
+				conscription_factor = -0.2
+			}
+		}
+		
+		# Tibet
+		
+		TIB_the_dalai_lama = {
+			on_add = { log = "GetDateText]: [Root.GetName]: add idea TIB_the_dalai_lama" }
+			allowed = { always = no }
+			removal_cost = -1
+			picture = TIB_dalai_lama
+			modifier = {
+				stability_factor = 0.2
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+shared_focus = {
+	id = KOR_Placeholder_Focus
+	icon = GFX_goal_nanami_my_beloved
+    cost = 1
+	x = 10
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+	}
+	allow_branch = { 
+	}
+	bypass = {
+	}
+	completion_reward = {
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}

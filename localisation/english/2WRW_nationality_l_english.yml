@@ -1,0 +1,12 @@
+﻿l_english:
+  culture_icon_container_culture_title_marker: "CULTURE"
+  EOANB_CULTURE_INFO: "§FThe majority culture of this state is §Y[This.GetNationality]§!.§!"
+  
+  var_nationality.1100:0 "§YLithuanian§!, freed from §YGerman§! cultural influence"
+  var_nationality.1101:0 "Kongō§F, with a large §YRussian§! minority and strong §YRussian§! cultural influence"
+  var_nationality.1102:0 "Russian§F, with a large §YKongō§! minority"
+  
+  var_nationality.999:0 "Syncretic Chinese§F, born out of massive refugee influx from the east. Featuring §Ynorthwestern§! and §Yeastern§! Chinese habits and characteristics, it is also influenced by §nHui§! lifestyle§!"
+  
+  ##kamchatka##
+  var_nationality.800: "Morskoy, §Fborn as a result of the heavy §RPacific Fleet§! presence in Petropavlovsk-Kamchatsky following the §YJapanese§! invasion of the §RSoviet Union§! and the fall of Vladivostok§!"
