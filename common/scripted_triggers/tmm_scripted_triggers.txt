@@ -1,0 +1,289 @@
+lifayuansupport_75 = {
+	check_variable = {
+	    var = QIN_lifayuan_proposal_support
+	    value = 75
+	    compare = greater_than
+    }
+}
+BoG_townhall = {
+	custom_trigger_tooltip = {
+		tooltip = QIN_BoG_townhall_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_08_Allied > 50 }
+			}
+		}
+	}
+}
+BoG_voiceofnorthwest = {
+	custom_trigger_tooltip = {
+		tooltip = QIN_BoG_voiceofnorthwest_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_10_Allied > 50 }
+			}
+		}
+	}
+}
+BoG_partyhq = {
+	custom_trigger_tooltip = {
+		tooltip = QIN_BoG_partyhq_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_07_Allied > 50 }
+			}
+		}
+	}
+}
+BoG_south = {
+	custom_trigger_tooltip = {
+		tooltip = QIN_BoG_south_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_07_Allied > 50 }
+				check_variable = { QIN_BOG_08_Allied > 50 }
+				check_variable = { QIN_BOG_09_Allied > 50 }
+				check_variable = { QIN_BOG_10_Allied > 50 }
+				check_variable = { QIN_BOG_29_Allied > 50 }
+				check_variable = { QIN_BOG_30_Allied > 50 }
+
+			}
+		}
+	}
+}
+BoG_palace = {
+	custom_trigger_tooltip = {
+		tooltip = QIN_BoG_palace_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_06_Allied > 50 }
+			}
+		}
+	}
+}
+BoG_rok = {
+	custom_trigger_tooltip = {
+		tooltip = QIN_BoG_rok_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_05_Allied > 50 }
+			}
+		}
+	}
+}
+BoG_ccphq = {
+	custom_trigger_tooltip = {
+		tooltip = QIN_BoG_ccphq_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_11_Allied > 50 }
+			}
+		}
+	}
+}
+BoG_centre = {
+	custom_trigger_tooltip = {
+		tooltip = QIN_BoG_centre_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_01_Allied > 50 }
+				check_variable = { QIN_BOG_15_Allied > 50 }
+				check_variable = { QIN_BOG_16_Allied > 50 }
+				check_variable = { QIN_BOG_17_Allied > 50 }
+				check_variable = { QIN_BOG_23_Allied > 50 }
+				check_variable = { QIN_BOG_24_Allied > 50 }
+				check_variable = { QIN_BOG_25_Allied > 50 }
+			}
+		}
+	}
+}
+BoG_east = {
+	custom_trigger_tooltip = {
+		tooltip = QIN_BoG_east_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_03_Allied > 50 }
+				check_variable = { QIN_BOG_11_Allied > 50 }
+				check_variable = { QIN_BOG_34_Allied > 50 }
+				check_variable = { QIN_BOG_35_Allied > 50 }
+			}
+		}
+	}
+}
+BoG_sinica = {
+	custom_trigger_tooltip = {
+		tooltip = QIN_BoG_sinica_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_12_Allied > 50 }
+				check_variable = { QIN_BOG_13_Allied > 50 }
+			}
+		}
+	}
+}
+BOG_Ability_COM_Trigger = {
+	custom_trigger_tooltip = {
+		tooltip = BOG_Ability_COM_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_11_Allied > 50 }
+			}
+		}
+	}
+}
+BOG_Ability_SOC_Trigger = {
+	custom_trigger_tooltip = {
+		tooltip = BOG_Ability_SOC_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_08_Allied > 50 }
+			}
+		}
+	}
+}
+BOG_Ability_CDL_Trigger = {
+	custom_trigger_tooltip = {
+		tooltip = BOG_Ability_CDL_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_23_Allied > 50 }
+			}
+		}
+	}
+}
+BOG_Ability_NXC_Trigger = {
+	custom_trigger_tooltip = {
+		tooltip = BOG_Ability_NXC_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_07_Allied > 50 }
+			}
+		}
+	}
+}
+BOG_Ability_ZXX_Trigger = {
+	custom_trigger_tooltip = {
+		tooltip = BOG_Ability_ZXX_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_06_Allied > 50 }
+			}
+		}
+	}
+}
+BOG_Ability_CHI_Trigger = {
+	custom_trigger_tooltip = {
+		tooltip = BOG_Ability_CHI_tt
+		OR = {
+			AND = {
+				check_variable = { QIN_BOG_01_Allied > 50 }
+			}
+		}
+	}
+}
+PC_10 = {
+	check_variable = {
+	    var = CCP_PC
+	    value = 10
+	    compare = greater_than_or_equals
+    }
+}
+PC_20 = {
+	check_variable = {
+	    var = CCP_PC
+	    value = 20
+	    compare = greater_than_or_equals
+    }
+}
+CCP_Balanced_Humor = { #You are full of vigor1!1111 funny reference!111!!!11
+	custom_trigger_tooltip = {
+		tooltip = ccp_bh_tt
+		OR = {
+        	AND = {
+            	CCP_Balanced_Humor_1 = yes
+	    		CCP_Balanced_Humor_2 = yes
+	    		CCP_Balanced_Humor_3 = yes
+	    	}
+			is_ai = yes
+		}
+	}
+}
+CCP_Balanced_Humor_1 = {
+	    OR = {
+			AND = {
+			    check_variable = { Diff1 < 20 }
+			    check_variable = { Diff1 > -20 }
+			}
+            check_variable = { Diff1 = 20 }
+		}
+    }
+CCP_Balanced_Humor_2 = {
+	    OR = {
+			AND = {
+			    check_variable = { Diff2 < 20 }
+			    check_variable = { Diff2 > -20 }
+			}
+            check_variable = { Diff2 = 20 }
+		}
+    }
+CCP_Balanced_Humor_3 = {
+	    OR = {
+			AND = {
+			    check_variable = { Diff3 < 20 }
+			    check_variable = { Diff3 > -20 }
+			}
+            check_variable = { Diff3 = 20 }
+		}
+    }
+KMT_Proposal_Majority = {
+	custom_trigger_tooltip = {
+		tooltip = ProposalMajority
+		AND = {
+			check_variable = { Proposal_Support > 50 }
+		}
+	}
+}
+KMT_Proposal_Count = {
+	custom_trigger_tooltip = {
+		tooltip = ProposalCount
+		AND = {
+			check_variable = { 
+				var = KMT_Proposals
+				value = 1
+				compare = greater_than
+			}
+		}
+	}
+}
+KMT_path_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = KMT_path_trigger_tt
+	    AND = {
+	    	has_country_flag = KMT_victory_placeholder
+	    }
+    }
+}
+CCP_path_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = CCP_path_trigger_tt
+	    AND = {
+	    	has_country_flag = CCP_victory_placeholder
+	    }
+    }
+}
+KMT_Hog_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = KMT_path_hog_tt
+	    AND = {
+	    	has_country_flag = Chiang_Hog
+	    }
+    }
+}
+CCP_Hog_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = CCP_path_hog_tt
+	    AND = {
+	    	has_country_flag = Gao_Gang_Hog
+	    }
+    }
+}

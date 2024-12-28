@@ -1,0 +1,21 @@
+defined_text = {
+	name = getXibeiloc
+	text = {
+		trigger = {
+			has_country_flag = Chiang_Victory
+		}
+		localization_key = tmm.world.1.1.d
+	}
+	text = {
+		trigger = {
+			has_country_flag = Wang_Victory
+		}
+		localization_key = tmm.world.1.2.d
+	}
+	text = {
+		trigger = {
+			has_country_flag = Chen_Victory
+		}
+		localization_key = tmm.world.1.3.d
+	}
+}

@@ -1,0 +1,116 @@
+
+# Scripted GUI Pie Chart by Yard1
+# This is just an example of how to update the pie chart, it does not need to be an on_action
+on_actions = {
+	on_daily = {
+		effect = {
+			QINCalculateSupport = yes
+			set_variable = { Diff1 = CCP_Party_Support }
+			set_variable = { Diff2 = CCP_People_Support }
+			set_variable = { Diff3 = CCP_Party_Support }
+			subtract_from_variable = { Diff1 = CCP_People_Support }
+			subtract_from_variable = { Diff2 = CCP_Outsider_Support }
+			subtract_from_variable = { Diff3 = CCP_Outsider_Support }
+            set_variable = { KMT_Meeting_Total = 0 }
+            add_to_variable = { KMT_Meeting_Total = KMT_Chen_Support }
+            add_to_variable = { KMT_Meeting_Total = KMT_Wang_Support }
+            add_to_variable = { KMT_Meeting_Total = KMT_Chiang_Support }
+            set_variable = { KMT_Meeting_Proportion_ZXX = KMT_Wang_Support }
+            set_variable = { KMT_Meeting_Proportion_NXS = KMT_Chen_Support }
+            set_variable = { KMT_Meeting_Proportion_CCK = KMT_Chiang_Support }
+            
+            set_variable = { KMT_Meeting_Total = 0 }
+            add_to_variable = { KMT_Meeting_Total = KMT_Chen_Support }
+            add_to_variable = { KMT_Meeting_Total = KMT_Wang_Support }
+            add_to_variable = { KMT_Meeting_Total = KMT_Chiang_Support }
+            set_variable = { KMT_Meeting_Proportion_ZXX = KMT_Wang_Support }
+            set_variable = { KMT_Meeting_Proportion_NXS = KMT_Chen_Support }
+            set_variable = { KMT_Meeting_Proportion_CCK = KMT_Chiang_Support }
+            
+            divide_variable = {
+                var = KMT_Meeting_Proportion_ZXX
+                value = KMT_Meeting_Total
+            }
+            multiply_variable = {
+                var = KMT_Meeting_Proportion_ZXX
+                value = 100
+            }
+            round_variable = KMT_Meeting_Proportion_ZXX
+            divide_variable = {
+                var = KMT_Meeting_Proportion_NXS
+                value = KMT_Meeting_Total
+            }
+            multiply_variable = {
+                var = KMT_Meeting_Proportion_NXS
+                value = 100
+            }
+            round_variable = KMT_Meeting_Proportion_NXS
+            divide_variable = {
+                var = KMT_Meeting_Proportion_CCK
+                value = KMT_Meeting_Total
+            }
+            multiply_variable = {
+                var = KMT_Meeting_Proportion_CCK
+                value = 100
+            }
+            round_variable = KMT_Meeting_Proportion_CCK
+			if = {
+				limit = { is_ai = no }
+				QINGolmudTotalBar = yes
+				set_variable = { BOG_movement = 0 }
+				set_variable = { BOG_attack = 0 }
+			}
+			if = {
+				limit = {
+					has_country_flag = battle_for_golmud_starts_ai
+				}
+				GolmudClearFlags = yes
+				QINWhydidIsubjectmyselftothisfuckery = yes
+				GolmudReinforce = yes
+				GolmudReinforce = yes
+				GolmudNingxiaAttack = yes
+				GolmudClearFlags = yes
+				subtract_from_variable = { QIN_BOG_01_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_02_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_03_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_04_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_05_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_06_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_07_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_08_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_09_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_10_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_11_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_12_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_13_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_14_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_15_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_16_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_17_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_18_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_19_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_20_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_21_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_22_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_23_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_24_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_25_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_26_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_27_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_28_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_29_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_30_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_31_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_32_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_33_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_34_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_35_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_36_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_37_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_38_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_39_Tension = 1 }
+				subtract_from_variable = { QIN_BOG_40_Tension = 1 }
+			}
+		}
+	}
+}

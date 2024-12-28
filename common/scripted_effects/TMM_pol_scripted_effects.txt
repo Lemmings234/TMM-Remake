@@ -1,0 +1,397 @@
+QINCheckPopularity = {
+set_variable = { 
+    QIN_kuomintang_popularity = 0 
+}
+add_to_variable = {
+    var = QIN_kuomintang_popularity
+    value = party_popularity@paternalism
+}
+add_to_variable = {
+    var = QIN_kuomintang_popularity
+    value = party_popularity@conservatism
+}
+add_to_variable = {
+    var = QIN_kuomintang_popularity
+    value = party_popularity@liberalism
+}
+add_to_variable = {
+    var = QIN_kuomintang_popularity
+    value = party_popularity@despotism
+}
+multiply_variable = {
+    var = QIN_kuomintang_popularity
+    value = 100
+}
+set_variable = { 
+    QIN_ccp_popularity = 0 
+}
+add_to_variable = {
+    var = QIN_ccp_popularity
+    value = party_popularity@socialist
+}
+add_to_variable = {
+    var = QIN_ccp_popularity
+    value = party_popularity@communist
+}
+multiply_variable = {
+    var = QIN_ccp_popularity
+    value = 100
+}
+set_variable = { 
+    QIN_pdp_popularity = 0 
+}
+add_to_variable = {
+    var = QIN_pdp_popularity
+    value = party_popularity@progressivism
+}
+multiply_variable = {
+    var = QIN_pdp_popularity
+    value = 100
+}
+
+set_variable = { QIN_despot_influence = 0 }
+add_to_variable = {
+    var = QIN_despot_influence
+    value = party_popularity@despotism
+}
+multiply_variable = {
+    var = QIN_despot_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_despot_influence
+    value = QIN_kuomintang_popularity
+}
+multiply_variable = {
+    var = QIN_despot_influence
+    value = 100
+}
+set_variable = { QIN_authdem_influence = 0 }
+add_to_variable = {
+    var = QIN_authdem_influence
+    value = party_popularity@paternalism
+}
+multiply_variable = {
+    var = QIN_authdem_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_authdem_influence
+    value = QIN_kuomintang_popularity
+}
+multiply_variable = {
+    var = QIN_authdem_influence
+    value = 100
+}
+set_variable = { QIN_libdem_influence = 0 }
+add_to_variable = {
+    var = QIN_libdem_influence
+    value = party_popularity@liberalism
+}
+multiply_variable = {
+    var = QIN_libdem_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_libdem_influence
+    value = QIN_kuomintang_popularity
+}
+multiply_variable = {
+    var = QIN_libdem_influence
+    value = 100
+}
+set_variable = { QIN_condem_influence = 0 }
+add_to_variable = {
+    var = QIN_condem_influence
+    value = party_popularity@conservatism
+}
+multiply_variable = {
+    var = QIN_condem_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_condem_influence
+    value = QIN_kuomintang_popularity
+}
+multiply_variable = {
+    var = QIN_condem_influence
+    value = 100
+}
+set_variable = { QIN_authsoc_influence = 0 }
+add_to_variable = {
+    var = QIN_authsoc_influence
+    value = party_popularity@communist
+}
+multiply_variable = {
+    var = QIN_authsoc_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_authsoc_influence
+    value = QIN_ccp_popularity
+}
+multiply_variable = {
+    var = QIN_authsoc_influence
+    value = 100
+}
+set_variable = { QIN_libsoc_influence = 0 }
+add_to_variable = {
+    var = QIN_libsoc_influence
+    value = party_popularity@socialist
+}
+multiply_variable = {
+    var = QIN_libsoc_influence
+    value = 100
+}
+divide_variable = {
+    var = QIN_libsoc_influence
+    value = QIN_ccp_popularity
+}
+multiply_variable = {
+    var = QIN_libsoc_influence
+    value = 100
+}
+
+}
+
+QINCheckProposalSupport = {
+set_variable = { QIN_lifayuan_proposal_support_temp = 0 }
+###FIND OUT WEIGHTED SUPPORT FOR FACTION###
+set_variable = { hardliner_temp = kmt_hardliner_lifayuan_support }
+divide_variable = {
+    var = hardliner_temp
+    value = 100
+}
+multiply_variable = {
+    var = hardliner_temp
+    value = kmt_hardliner_lifayuan_seat
+}
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = hardliner_temp
+}
+
+set_variable = { oldguard_temp = kmt_oldguard_lifayuan_support }
+
+divide_variable = {
+    var = oldguard_temp
+    value = 100
+}
+multiply_variable = {
+    var = oldguard_temp
+    value = kmt_oldguard_lifayuan_seat
+}
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = oldguard_temp
+}
+
+set_variable = { xishan_temp = kmt_xishan_lifayuan_support }
+
+divide_variable = {
+    var = xishan_temp
+    value = 100
+}
+multiply_variable = {
+    var = xishan_temp
+    value = kmt_xishan_lifayuan_seat
+}
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = xishan_temp
+}
+
+set_variable = { zhengxuepai_temp = kmt_zhengxuepai_lifayuan_support }
+
+divide_variable = {
+    var = zhengxuepai_temp
+    value = 100
+}
+multiply_variable = {
+    var = zhengxuepai_temp
+    value = kmt_zhengxuepai_lifayuan_seat
+}
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = zhengxuepai_temp
+}
+
+set_variable = { pdp_temp = pdp_lifayuan_support }
+
+divide_variable = {
+    var = pdp_temp
+    value = 100
+}
+multiply_variable = {
+    var = pdp_temp
+    value = pdp_lifayuan_seat
+}
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = pdp_temp
+}
+
+set_variable = { QIN_Interparty_unity_temp = QIN_Interparty_unity }
+divide_variable = {
+    var = QIN_Interparty_unity_temp
+    value = 100
+}
+
+set_variable = { ccp_orthodox_temp = ccp_orthodox_lifayuan_support }
+
+divide_variable = {
+    var = ccp_orthodox_temp
+    value = 100
+}
+multiply_variable = {
+    var = ccp_orthodox_temp
+    value = ccp_orthodox_lifayuan_seat
+}
+
+
+multiply_variable = {
+    var = ccp_orthodox_temp
+    value = QIN_Interparty_unity_temp
+}
+
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = ccp_orthodox_temp
+}
+
+set_variable = { ccp_chinese_temp = ccp_chinese_lifayuan_support }
+
+divide_variable = {
+    var = ccp_chinese_temp
+    value = 100
+}
+multiply_variable = {
+    var = ccp_chinese_temp
+    value = ccp_chinese_lifayuan_seat
+}
+
+multiply_variable = {
+    var = ccp_chinese_temp
+    value = QIN_Interparty_unity_temp
+}
+
+add_to_variable = {
+    var = QIN_lifayuan_proposal_support_temp
+    value = ccp_chinese_temp
+}
+
+set_variable = { QIN_lifayuan_proposal_support = QIN_lifayuan_proposal_support_temp }
+}
+
+QINSmallSupportIncrease = {
+add_to_variable = { kmt_hardliner_lifayuan_support = 2.5 }
+add_to_variable = { kmt_oldguard_lifayuan_support = 2.5 }
+add_to_variable = { kmt_xishan_lifayuan_support = 2.5 }
+add_to_variable = { kmt_zhengxuepai_lifayuan_support = 2.5 }
+QINLifayuanClamp = yes
+QINCheckProposalSupport = yes
+}
+QINSmallSupportDecrease = {
+subtract_from_variable = { kmt_hardliner_lifayuan_support = 2.5 }
+subtract_from_variable = { kmt_oldguard_lifayuan_support = 2.5 }
+subtract_from_variable = { kmt_xishan_lifayuan_support = 2.5 }
+subtract_from_variable = { kmt_zhengxuepai_lifayuan_support = 2.5 }
+QINLifayuanClamp = yes
+QINCheckProposalSupport = yes
+}
+QINSmallSupportIncreaseCCP = {
+add_to_variable = { ccp_orthodox_lifayuan_support = 2.5 }
+add_to_variable = { ccp_chinese_lifayuan_support = 2.5 }
+QINLifayuanClamp = yes
+QINCheckProposalSupport = yes
+}
+QINSmallSupportDecreaseCCP = {
+subtract_from_variable = { ccp_orthodox_lifayuan_support = 2.5 }
+subtract_from_variable = { ccp_chinese_lifayuan_support = 2.5 }
+QINLifayuanClamp = yes
+QINCheckProposalSupport = yes
+}
+QINLifayuanClamp = {
+clamp_variable = {
+	var = kmt_hardliner_lifayuan_support
+	min = 0
+	max = 100
+}
+clamp_variable = {
+	var = kmt_oldguard_lifayuan_support
+	min = 0
+	max = 100
+}
+clamp_variable = {
+	var = kmt_xishan_lifayuan_support
+	min = 0
+	max = 100
+}
+clamp_variable = {
+	var = kmt_zhengxuepai_lifayuan_support
+	min = 0
+	max = 100
+}
+clamp_variable = {
+	var = pdp_lifayuan_support
+	min = 0
+	max = 100
+}
+clamp_variable = {
+	var = ccp_orthodox_lifayuan_support
+	min = 0
+	max = 100
+}
+clamp_variable = {
+	var = ccp_chinese_lifayuan_support
+	min = 0
+	max = 100
+}
+clamp_variable = {
+	var = QIN_KMT_unity
+	min = 0
+	max = 100
+}
+clamp_variable = {
+	var = QIN_CCP_unity
+	min = 0
+	max = 100
+}
+clamp_variable = {
+	var = QIN_Interparty_unity
+	min = 0
+	max = 100
+}
+QINCheckKMTSeats = yes
+QINCheckCCPSeats = yes
+}
+QINCheckKMTSeats = {
+set_variable = { kmt_lifayuan_seat = 0 }
+add_to_variable = {
+    var = kmt_lifayuan_seat
+    value = kmt_hardliner_lifayuan_seat
+}
+add_to_variable = {
+    var = kmt_lifayuan_seat
+    value = kmt_oldguard_lifayuan_seat
+}
+add_to_variable = {
+    var = kmt_lifayuan_seat
+    value = kmt_xishan_lifayuan_seat
+}
+add_to_variable = {
+    var = kmt_lifayuan_seat
+    value = kmt_zhengxuepai_lifayuan_seat
+}
+}
+QINCheckCCPSeats = {
+set_variable = { ccp_lifayuan_seat = 0 }
+add_to_variable = {
+    var = ccp_lifayuan_seat
+    value = ccp_orthodox_lifayuan_seat
+}
+add_to_variable = {
+    var = ccp_lifayuan_seat
+    value = ccp_chinese_lifayuan_seat
+}
+}

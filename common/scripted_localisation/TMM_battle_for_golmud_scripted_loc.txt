@@ -1,0 +1,1608 @@
+defined_text = {
+	name = getQINVPName
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 1 }
+		}
+		localization_key = QIN_VP_Major1
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 2 }
+		}
+		localization_key = QIN_VP_Major2
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 3 }
+		}
+		localization_key = QIN_VP_Major3
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 4 }
+		}
+		localization_key = QIN_VP_Major4
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 5 }
+		}
+		localization_key = QIN_VP_Major5
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 6 }
+		}
+		localization_key = QIN_VP_Major6
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 7 }
+		}
+		localization_key = QIN_VP_Major7
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 8 }
+		}
+		localization_key = QIN_VP_Major8
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 9 }
+		}
+		localization_key = QIN_VP_Major9
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 10 }
+		}
+		localization_key = QIN_VP_Major10
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 11 }
+		}
+		localization_key = QIN_VP_Major11
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 12 }
+		}
+		localization_key = QIN_VP_Major12
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 13 }
+		}
+		localization_key = QIN_VP_Major13
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 14 }
+		}
+		localization_key = QIN_VP_Major14
+	}
+
+
+
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 15 }
+		}
+		localization_key = QIN_VP_Minor1
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 16 }
+		}
+		localization_key = QIN_VP_Minor2
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 17 }
+		}
+		localization_key = QIN_VP_Minor3
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 18 }
+		}
+		localization_key = QIN_VP_Minor4
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 19 }
+		}
+		localization_key = QIN_VP_Minor5
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 20 }
+		}
+		localization_key = QIN_VP_Minor6
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 21 }
+		}
+		localization_key = QIN_VP_Minor7
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 22 }
+		}
+		localization_key = QIN_VP_Minor8
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 23 }
+		}
+		localization_key = QIN_VP_Minor9
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 24 }
+		}
+		localization_key = QIN_VP_Minor10
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 25 }
+		}
+		localization_key = QIN_VP_Minor11
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 26 }
+		}
+		localization_key = QIN_VP_Minor12
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 27 }
+		}
+		localization_key = QIN_VP_Minor13
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 28 }
+		}
+		localization_key = QIN_VP_Minor14
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 29 }
+		}
+		localization_key = QIN_VP_Minor15
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 30 }
+		}
+		localization_key = QIN_VP_Minor16
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 31 }
+		}
+		localization_key = QIN_VP_Minor17
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 32 }
+		}
+		localization_key = QIN_VP_Minor18
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 33 }
+		}
+		localization_key = QIN_VP_Minor19
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 34 }
+		}
+		localization_key = QIN_VP_Minor20
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 35 }
+		}
+		localization_key = QIN_VP_Minor21
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 36 }
+		}
+		localization_key = QIN_VP_Minor22
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 37 }
+		}
+		localization_key = QIN_VP_Minor23
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 38 }
+		}
+		localization_key = QIN_VP_Minor24
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 39 }
+		}
+		localization_key = QIN_VP_Minor25
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 40 }
+		}
+		localization_key = QIN_VP_Minor26
+	}
+}
+defined_text = {
+	name = getQINEventVPName
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 1 }
+		}
+		localization_key = QIN_VP_Event_Major1
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 2 }
+		}
+		localization_key = QIN_VP_Event_Major2
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 3 }
+		}
+		localization_key = QIN_VP_Event_Major3
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 4 }
+		}
+		localization_key = QIN_VP_Event_Major4
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 5 }
+		}
+		localization_key = QIN_VP_Event_Major5
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 6 }
+		}
+		localization_key = QIN_VP_Event_Major6
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 7 }
+		}
+		localization_key = QIN_VP_Event_Major7
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 8 }
+		}
+		localization_key = QIN_VP_Event_Major8
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 9 }
+		}
+		localization_key = QIN_VP_Event_Major9
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 10 }
+		}
+		localization_key = QIN_VP_Event_Major10
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 11 }
+		}
+		localization_key = QIN_VP_Event_Major11
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 12 }
+		}
+		localization_key = QIN_VP_Event_Major12
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 13 }
+		}
+		localization_key = QIN_VP_Event_Major13
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 14 }
+		}
+		localization_key = QIN_VP_Event_Major14
+	}
+
+
+
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 15 }
+		}
+		localization_key = QIN_VP_Event_Minor1
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 16 }
+		}
+		localization_key = QIN_VP_Event_Minor2
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 17 }
+		}
+		localization_key = QIN_VP_Event_Minor3
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 18 }
+		}
+		localization_key = QIN_VP_Event_Minor4
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 19 }
+		}
+		localization_key = QIN_VP_Event_Minor5
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 20 }
+		}
+		localization_key = QIN_VP_Event_Minor6
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 21 }
+		}
+		localization_key = QIN_VP_Event_Minor7
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 22 }
+		}
+		localization_key = QIN_VP_Event_Minor8
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 23 }
+		}
+		localization_key = QIN_VP_Event_Minor9
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 24 }
+		}
+		localization_key = QIN_VP_Event_Minor10
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 25 }
+		}
+		localization_key = QIN_VP_Event_Minor11
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 26 }
+		}
+		localization_key = QIN_VP_Event_Minor12
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 27 }
+		}
+		localization_key = QIN_VP_Event_Minor13
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 28 }
+		}
+		localization_key = QIN_VP_Event_Minor14
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 29 }
+		}
+		localization_key = QIN_VP_Event_Minor15
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 30 }
+		}
+		localization_key = QIN_VP_Event_Minor16
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 31 }
+		}
+		localization_key = QIN_VP_Event_Minor17
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 32 }
+		}
+		localization_key = QIN_VP_Event_Minor18
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 33 }
+		}
+		localization_key = QIN_VP_Event_Minor19
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 34 }
+		}
+		localization_key = QIN_VP_Event_Minor20
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 35 }
+		}
+		localization_key = QIN_VP_Event_Minor21
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 36 }
+		}
+		localization_key = QIN_VP_Event_Minor22
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 37 }
+		}
+		localization_key = QIN_VP_Event_Minor23
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 38 }
+		}
+		localization_key = QIN_VP_Event_Minor24
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 39 }
+		}
+		localization_key = QIN_VP_Event_Minor25
+	}
+	text = {
+		trigger = {
+			check_variable = { VP_Token = 40 }
+		}
+		localization_key = QIN_VP_Event_Minor26
+	}
+}
+defined_text = {
+	name = getQINVPValue
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { VP_Token > 0 }
+				check_variable = { VP_Token < 15 }
+			}
+		}
+		localization_key = QIN_VP_MajorPoint
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { VP_Token > 14 }
+			}
+		}
+		localization_key = QIN_VP_MinorPoint
+	}
+}
+
+defined_text = {
+	name = getQINVPController
+	text = {
+		trigger = {
+			check_variable = { VP_Token > 0 }
+		}
+		localization_key = QIN_VP_Controller
+	}
+}
+defined_text = {
+	name = getQINVPControllerPercentage
+	text = {
+		trigger = {
+			check_variable = { var = BOG_NEUTRAL^VP_Token > 50 }
+		}
+		localization_key = getQINVPControllerPercentage_Ningxia
+	}
+	text = {
+		trigger = {	
+			check_variable = { var = BOG_NINGXIA^VP_Token > 50 }	
+		}
+		localization_key = getQINVPControllerPercentage_Neutral
+	}
+	text = {
+		trigger = {
+			AND = {
+			    check_variable = {
+	                var = BOG_NINGXIA^VP_Token
+	                value = 40
+	                compare = less_than_or_equals
+                }
+			    check_variable = {
+	                var = BOG_NEUTRAL^VP_Token
+	                value = 40
+	                compare = less_than_or_equals
+                }
+			    check_variable = {
+	                var = BOG_KMT^VP_Token
+	                value = 30
+	                compare = greater_than
+                }
+			    check_variable = {
+	                var = BOG_KMT^VP_Token
+	                value = BOG_CCP^VP_Token
+	                compare = greater_than
+                }
+			}
+		}
+		localization_key = getQINVPControllerPercentage_KMT
+	}
+	text = {
+		trigger = {
+			AND = {
+			    check_variable = {
+	                var = BOG_NINGXIA^VP_Token
+	                value = 40
+	                compare = less_than_or_equals
+                }
+			    check_variable = {
+	                var = BOG_NEUTRAL^VP_Token
+	                value = 40
+	                compare = less_than_or_equals
+                }
+			    check_variable = {
+	                var = BOG_CCP^VP_Token
+	                value = 30
+	                compare = greater_than
+                }
+			    check_variable = {
+	                var = BOG_CCP^VP_Token
+	                value = BOG_KMT^VP_Token
+	                compare = greater_than
+                }
+			}
+		}
+		localization_key = getQINVPControllerPercentage_CCP
+	}
+}
+
+defined_text = {
+	name = getQINVPControllerFaction
+	text = {
+		trigger = {
+			check_variable = {
+	            var = BOG_NEUTRAL^VP_Token
+	            value = 40
+	            compare = greater_than_or_equals
+            }
+		}
+		localization_key = QIN_BOG_Neutral
+	}
+	text = {
+		trigger = {
+			check_variable = {
+	            var = BOG_NINGXIA^VP_Token
+	            value = 50
+	            compare = greater_than_or_equals
+            }
+		}
+		localization_key = QIN_BOG_Ningxia
+	}
+	text = {
+		trigger = {
+			AND = {
+			    check_variable = {
+	                var = BOG_NINGXIA^VP_Token
+	                value = 40
+	                compare = less_than_or_equals
+                }
+			    check_variable = {
+	                var = BOG_NEUTRAL^VP_Token
+	                value = 40
+	                compare = less_than_or_equals
+                }
+			    check_variable = {
+	                var = BOG_KMT^VP_Token
+	                value = 30
+	                compare = greater_than
+                }
+			    check_variable = {
+	                var = BOG_KMT^VP_Token
+	                value = BOG_CCP^VP_Token
+	                compare = greater_than
+                }
+			}
+		}
+		localization_key = QIN_BOG_KMT
+	}
+	text = {
+		trigger = {
+			AND = {
+			    check_variable = {
+	                var = BOG_NINGXIA^VP_Token
+	                value = 40
+	                compare = less_than_or_equals
+                }
+			    check_variable = {
+	                var = BOG_NEUTRAL^VP_Token
+	                value = 40
+	                compare = less_than_or_equals
+                }
+			    check_variable = {
+	                var = BOG_CCP^VP_Token
+	                value = 30
+	                compare = greater_than
+                }
+			    check_variable = {
+	                var = BOG_CCP^VP_Token
+	                value = BOG_KMT^VP_Token
+	                compare = greater_than
+                }
+			}
+		}
+		localization_key = QIN_BOG_CCP
+	}
+	text = {
+		trigger = {
+			AND = {
+			    check_variable = {
+	                var = BOG_NINGXIA^VP_Token
+	                value = 40
+	                compare = less_than_or_equals
+                }
+			    check_variable = {
+	                var = BOG_NEUTRAL^VP_Token
+	                value = 40
+	                compare = less_than_or_equals
+                }
+			    check_variable = {
+	                var = BOG_KMT^VP_Token
+	                value = 15
+	                compare = greater_than
+                }
+			    check_variable = {
+	                var = BOG_CCP^VP_Token
+	                value = 15
+	                compare = greater_than
+                }
+			    check_variable = {
+	                var = BOG_CCP^VP_Token
+	                value = BOG_KMT^VP_Token
+	                compare = equals
+                }
+			}
+		}
+		localization_key = QIN_BOG_ALLIES
+	}
+}
+
+defined_text = {
+	name = getGolmudEvent
+	text = {
+		trigger = {
+			AND = {
+			    OR = {
+			    	has_country_flag = BOG_Decisive_Victory
+			    	has_country_flag = BOG_Victory
+			    }
+				OR = {
+                    has_country_flag = QIN_VP_Major1_Engagement
+	                has_country_flag = QIN_VP_Major2_Engagement
+	                has_country_flag = QIN_VP_Major3_Engagement
+	                has_country_flag = QIN_VP_Major4_Engagement
+	                has_country_flag = QIN_VP_Major5_Engagement
+	                has_country_flag = QIN_VP_Major6_Engagement
+	                has_country_flag = QIN_VP_Major7_Engagement
+	                has_country_flag = QIN_VP_Major8_Engagement
+	                has_country_flag = QIN_VP_Major9_Engagement
+	                has_country_flag = QIN_VP_Major10_Engagement
+	                has_country_flag = QIN_VP_Major11_Engagement
+	                has_country_flag = QIN_VP_Major12_Engagement
+	                has_country_flag = QIN_VP_Major13_Engagement
+	                has_country_flag = QIN_VP_Major14_Engagement
+	                has_country_flag = QIN_VP_Minor1_Engagement
+	                has_country_flag = QIN_VP_Minor2_Engagement
+	                has_country_flag = QIN_VP_Minor3_Engagement
+	                has_country_flag = QIN_VP_Minor4_Engagement
+	                has_country_flag = QIN_VP_Minor5_Engagement
+	                has_country_flag = QIN_VP_Minor6_Engagement
+	                has_country_flag = QIN_VP_Minor7_Engagement
+	                has_country_flag = QIN_VP_Minor8_Engagement
+	                has_country_flag = QIN_VP_Minor9_Engagement
+	                has_country_flag = QIN_VP_Minor10_Engagement
+	                has_country_flag = QIN_VP_Minor11_Engagement
+	                has_country_flag = QIN_VP_Minor12_Engagement
+	                has_country_flag = QIN_VP_Minor13_Engagement
+	                has_country_flag = QIN_VP_Minor14_Engagement
+	                has_country_flag = QIN_VP_Minor15_Engagement
+	                has_country_flag = QIN_VP_Minor16_Engagement
+	                has_country_flag = QIN_VP_Minor17_Engagement
+	                has_country_flag = QIN_VP_Minor18_Engagement
+	                has_country_flag = QIN_VP_Minor19_Engagement
+	                has_country_flag = QIN_VP_Minor20_Engagement
+	                has_country_flag = QIN_VP_Minor21_Engagement
+	                has_country_flag = QIN_VP_Minor22_Engagement
+	                has_country_flag = QIN_VP_Minor23_Engagement
+	                has_country_flag = QIN_VP_Minor24_Engagement
+	                has_country_flag = QIN_VP_Minor25_Engagement
+	                has_country_flag = QIN_VP_Minor26_Engagement
+				}
+			}
+
+		}
+		localization_key = BOG_Victory_text
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_country_flag = BOG_Draw
+				OR = {
+                    has_country_flag = QIN_VP_Major1_Engagement
+	                has_country_flag = QIN_VP_Major2_Engagement
+	                has_country_flag = QIN_VP_Major3_Engagement
+	                has_country_flag = QIN_VP_Major4_Engagement
+	                has_country_flag = QIN_VP_Major5_Engagement
+	                has_country_flag = QIN_VP_Major6_Engagement
+	                has_country_flag = QIN_VP_Major7_Engagement
+	                has_country_flag = QIN_VP_Major8_Engagement
+	                has_country_flag = QIN_VP_Major9_Engagement
+	                has_country_flag = QIN_VP_Major10_Engagement
+	                has_country_flag = QIN_VP_Major11_Engagement
+	                has_country_flag = QIN_VP_Major12_Engagement
+	                has_country_flag = QIN_VP_Major13_Engagement
+	                has_country_flag = QIN_VP_Major14_Engagement
+	                has_country_flag = QIN_VP_Minor1_Engagement
+	                has_country_flag = QIN_VP_Minor2_Engagement
+	                has_country_flag = QIN_VP_Minor3_Engagement
+	                has_country_flag = QIN_VP_Minor4_Engagement
+	                has_country_flag = QIN_VP_Minor5_Engagement
+	                has_country_flag = QIN_VP_Minor6_Engagement
+	                has_country_flag = QIN_VP_Minor7_Engagement
+	                has_country_flag = QIN_VP_Minor8_Engagement
+	                has_country_flag = QIN_VP_Minor9_Engagement
+	                has_country_flag = QIN_VP_Minor10_Engagement
+	                has_country_flag = QIN_VP_Minor11_Engagement
+	                has_country_flag = QIN_VP_Minor12_Engagement
+	                has_country_flag = QIN_VP_Minor13_Engagement
+	                has_country_flag = QIN_VP_Minor14_Engagement
+	                has_country_flag = QIN_VP_Minor15_Engagement
+	                has_country_flag = QIN_VP_Minor16_Engagement
+	                has_country_flag = QIN_VP_Minor17_Engagement
+	                has_country_flag = QIN_VP_Minor18_Engagement
+	                has_country_flag = QIN_VP_Minor19_Engagement
+	                has_country_flag = QIN_VP_Minor20_Engagement
+	                has_country_flag = QIN_VP_Minor21_Engagement
+	                has_country_flag = QIN_VP_Minor22_Engagement
+	                has_country_flag = QIN_VP_Minor23_Engagement
+	                has_country_flag = QIN_VP_Minor24_Engagement
+	                has_country_flag = QIN_VP_Minor25_Engagement
+	                has_country_flag = QIN_VP_Minor26_Engagement
+				}
+			}
+		}
+		localization_key = BOG_Draw_text
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_country_flag = BOG_Defeat
+				OR = {
+                    has_country_flag = QIN_VP_Major1_Engagement
+	                has_country_flag = QIN_VP_Major2_Engagement
+	                has_country_flag = QIN_VP_Major3_Engagement
+	                has_country_flag = QIN_VP_Major4_Engagement
+	                has_country_flag = QIN_VP_Major5_Engagement
+	                has_country_flag = QIN_VP_Major6_Engagement
+	                has_country_flag = QIN_VP_Major7_Engagement
+	                has_country_flag = QIN_VP_Major8_Engagement
+	                has_country_flag = QIN_VP_Major9_Engagement
+	                has_country_flag = QIN_VP_Major10_Engagement
+	                has_country_flag = QIN_VP_Major11_Engagement
+	                has_country_flag = QIN_VP_Major12_Engagement
+	                has_country_flag = QIN_VP_Major13_Engagement
+	                has_country_flag = QIN_VP_Major14_Engagement
+	                has_country_flag = QIN_VP_Minor1_Engagement
+	                has_country_flag = QIN_VP_Minor2_Engagement
+	                has_country_flag = QIN_VP_Minor3_Engagement
+	                has_country_flag = QIN_VP_Minor4_Engagement
+	                has_country_flag = QIN_VP_Minor5_Engagement
+	                has_country_flag = QIN_VP_Minor6_Engagement
+	                has_country_flag = QIN_VP_Minor7_Engagement
+	                has_country_flag = QIN_VP_Minor8_Engagement
+	                has_country_flag = QIN_VP_Minor9_Engagement
+	                has_country_flag = QIN_VP_Minor10_Engagement
+	                has_country_flag = QIN_VP_Minor11_Engagement
+	                has_country_flag = QIN_VP_Minor12_Engagement
+	                has_country_flag = QIN_VP_Minor13_Engagement
+	                has_country_flag = QIN_VP_Minor14_Engagement
+	                has_country_flag = QIN_VP_Minor15_Engagement
+	                has_country_flag = QIN_VP_Minor16_Engagement
+	                has_country_flag = QIN_VP_Minor17_Engagement
+	                has_country_flag = QIN_VP_Minor18_Engagement
+	                has_country_flag = QIN_VP_Minor19_Engagement
+	                has_country_flag = QIN_VP_Minor20_Engagement
+	                has_country_flag = QIN_VP_Minor21_Engagement
+	                has_country_flag = QIN_VP_Minor22_Engagement
+	                has_country_flag = QIN_VP_Minor23_Engagement
+	                has_country_flag = QIN_VP_Minor24_Engagement
+	                has_country_flag = QIN_VP_Minor25_Engagement
+	                has_country_flag = QIN_VP_Minor26_Engagement
+				}
+			}
+		}
+		localization_key = BOG_Defeat_text
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_country_flag = BOG_Decisive_Defeat
+				OR = {
+                    has_country_flag = QIN_VP_Major1_Engagement
+	                has_country_flag = QIN_VP_Major2_Engagement
+	                has_country_flag = QIN_VP_Major3_Engagement
+	                has_country_flag = QIN_VP_Major4_Engagement
+	                has_country_flag = QIN_VP_Major5_Engagement
+	                has_country_flag = QIN_VP_Major6_Engagement
+	                has_country_flag = QIN_VP_Major7_Engagement
+	                has_country_flag = QIN_VP_Major8_Engagement
+	                has_country_flag = QIN_VP_Major9_Engagement
+	                has_country_flag = QIN_VP_Major10_Engagement
+	                has_country_flag = QIN_VP_Major11_Engagement
+	                has_country_flag = QIN_VP_Major12_Engagement
+	                has_country_flag = QIN_VP_Major13_Engagement
+	                has_country_flag = QIN_VP_Major14_Engagement
+	                has_country_flag = QIN_VP_Minor1_Engagement
+	                has_country_flag = QIN_VP_Minor2_Engagement
+	                has_country_flag = QIN_VP_Minor3_Engagement
+	                has_country_flag = QIN_VP_Minor4_Engagement
+	                has_country_flag = QIN_VP_Minor5_Engagement
+	                has_country_flag = QIN_VP_Minor6_Engagement
+	                has_country_flag = QIN_VP_Minor7_Engagement
+	                has_country_flag = QIN_VP_Minor8_Engagement
+	                has_country_flag = QIN_VP_Minor9_Engagement
+	                has_country_flag = QIN_VP_Minor10_Engagement
+	                has_country_flag = QIN_VP_Minor11_Engagement
+	                has_country_flag = QIN_VP_Minor12_Engagement
+	                has_country_flag = QIN_VP_Minor13_Engagement
+	                has_country_flag = QIN_VP_Minor14_Engagement
+	                has_country_flag = QIN_VP_Minor15_Engagement
+	                has_country_flag = QIN_VP_Minor16_Engagement
+	                has_country_flag = QIN_VP_Minor17_Engagement
+	                has_country_flag = QIN_VP_Minor18_Engagement
+	                has_country_flag = QIN_VP_Minor19_Engagement
+	                has_country_flag = QIN_VP_Minor20_Engagement
+	                has_country_flag = QIN_VP_Minor21_Engagement
+	                has_country_flag = QIN_VP_Minor22_Engagement
+	                has_country_flag = QIN_VP_Minor23_Engagement
+	                has_country_flag = QIN_VP_Minor24_Engagement
+	                has_country_flag = QIN_VP_Minor25_Engagement
+	                has_country_flag = QIN_VP_Minor26_Engagement
+				}
+			}
+		}
+		localization_key = BOG_Decisive_Defeat_text
+	}
+	text = {
+		trigger = {
+			AND = {
+			    has_country_flag = BOG_Decisive_Victory
+				OR = {
+                    has_country_flag = QIN_BOG_01_Defend
+	                has_country_flag = QIN_BOG_02_Defend
+	                has_country_flag = QIN_BOG_03_Defend
+	                has_country_flag = QIN_BOG_04_Defend
+	                has_country_flag = QIN_BOG_05_Defend
+	                has_country_flag = QIN_BOG_06_Defend
+	                has_country_flag = QIN_BOG_07_Defend
+	                has_country_flag = QIN_BOG_08_Defend
+	                has_country_flag = QIN_BOG_09_Defend
+	                has_country_flag = QIN_BOG_10_Defend
+	                has_country_flag = QIN_BOG_11_Defend
+	                has_country_flag = QIN_BOG_12_Defend
+	                has_country_flag = QIN_BOG_13_Defend
+	                has_country_flag = QIN_BOG_14_Defend
+	                has_country_flag = QIN_BOG_15_Defend
+	                has_country_flag = QIN_BOG_16_Defend
+	                has_country_flag = QIN_BOG_17_Defend
+	                has_country_flag = QIN_BOG_18_Defend
+	                has_country_flag = QIN_BOG_19_Defend
+	                has_country_flag = QIN_BOG_20_Defend
+	                has_country_flag = QIN_BOG_21_Defend
+	                has_country_flag = QIN_BOG_22_Defend
+	                has_country_flag = QIN_BOG_23_Defend
+	                has_country_flag = QIN_BOG_24_Defend
+	                has_country_flag = QIN_BOG_25_Defend
+	                has_country_flag = QIN_BOG_26_Defend
+	                has_country_flag = QIN_BOG_27_Defend
+	                has_country_flag = QIN_BOG_28_Defend
+	                has_country_flag = QIN_BOG_29_Defend
+	                has_country_flag = QIN_BOG_30_Defend
+	                has_country_flag = QIN_BOG_31_Defend
+	                has_country_flag = QIN_BOG_32_Defend
+	                has_country_flag = QIN_BOG_33_Defend
+	                has_country_flag = QIN_BOG_34_Defend
+	                has_country_flag = QIN_BOG_35_Defend
+	                has_country_flag = QIN_BOG_36_Defend
+	                has_country_flag = QIN_BOG_37_Defend
+	                has_country_flag = QIN_BOG_38_Defend
+	                has_country_flag = QIN_BOG_39_Defend
+	                has_country_flag = QIN_BOG_40_Defend
+				}
+			}
+
+		}
+		localization_key = BOG_Decisive_Victory_text_2
+	}
+	text = {
+		trigger = {
+			AND = {
+			    has_country_flag = BOG_Victory
+				OR = {
+                    has_country_flag = QIN_BOG_01_Defend
+	                has_country_flag = QIN_BOG_02_Defend
+	                has_country_flag = QIN_BOG_03_Defend
+	                has_country_flag = QIN_BOG_04_Defend
+	                has_country_flag = QIN_BOG_05_Defend
+	                has_country_flag = QIN_BOG_06_Defend
+	                has_country_flag = QIN_BOG_07_Defend
+	                has_country_flag = QIN_BOG_08_Defend
+	                has_country_flag = QIN_BOG_09_Defend
+	                has_country_flag = QIN_BOG_10_Defend
+	                has_country_flag = QIN_BOG_11_Defend
+	                has_country_flag = QIN_BOG_12_Defend
+	                has_country_flag = QIN_BOG_13_Defend
+	                has_country_flag = QIN_BOG_14_Defend
+	                has_country_flag = QIN_BOG_15_Defend
+	                has_country_flag = QIN_BOG_16_Defend
+	                has_country_flag = QIN_BOG_17_Defend
+	                has_country_flag = QIN_BOG_18_Defend
+	                has_country_flag = QIN_BOG_19_Defend
+	                has_country_flag = QIN_BOG_20_Defend
+	                has_country_flag = QIN_BOG_21_Defend
+	                has_country_flag = QIN_BOG_22_Defend
+	                has_country_flag = QIN_BOG_23_Defend
+	                has_country_flag = QIN_BOG_24_Defend
+	                has_country_flag = QIN_BOG_25_Defend
+	                has_country_flag = QIN_BOG_26_Defend
+	                has_country_flag = QIN_BOG_27_Defend
+	                has_country_flag = QIN_BOG_28_Defend
+	                has_country_flag = QIN_BOG_29_Defend
+	                has_country_flag = QIN_BOG_30_Defend
+	                has_country_flag = QIN_BOG_31_Defend
+	                has_country_flag = QIN_BOG_32_Defend
+	                has_country_flag = QIN_BOG_33_Defend
+	                has_country_flag = QIN_BOG_34_Defend
+	                has_country_flag = QIN_BOG_35_Defend
+	                has_country_flag = QIN_BOG_36_Defend
+	                has_country_flag = QIN_BOG_37_Defend
+	                has_country_flag = QIN_BOG_38_Defend
+	                has_country_flag = QIN_BOG_39_Defend
+	                has_country_flag = QIN_BOG_40_Defend
+				}
+			}
+
+		}
+		localization_key = BOG_Victory_text_2
+	}
+	text = {
+		trigger = {
+			AND = {
+			    has_country_flag = BOG_Draw
+				OR = {
+                    has_country_flag = QIN_BOG_01_Defend
+	                has_country_flag = QIN_BOG_02_Defend
+	                has_country_flag = QIN_BOG_03_Defend
+	                has_country_flag = QIN_BOG_04_Defend
+	                has_country_flag = QIN_BOG_05_Defend
+	                has_country_flag = QIN_BOG_06_Defend
+	                has_country_flag = QIN_BOG_07_Defend
+	                has_country_flag = QIN_BOG_08_Defend
+	                has_country_flag = QIN_BOG_09_Defend
+	                has_country_flag = QIN_BOG_10_Defend
+	                has_country_flag = QIN_BOG_11_Defend
+	                has_country_flag = QIN_BOG_12_Defend
+	                has_country_flag = QIN_BOG_13_Defend
+	                has_country_flag = QIN_BOG_14_Defend
+	                has_country_flag = QIN_BOG_15_Defend
+	                has_country_flag = QIN_BOG_16_Defend
+	                has_country_flag = QIN_BOG_17_Defend
+	                has_country_flag = QIN_BOG_18_Defend
+	                has_country_flag = QIN_BOG_19_Defend
+	                has_country_flag = QIN_BOG_20_Defend
+	                has_country_flag = QIN_BOG_21_Defend
+	                has_country_flag = QIN_BOG_22_Defend
+	                has_country_flag = QIN_BOG_23_Defend
+	                has_country_flag = QIN_BOG_24_Defend
+	                has_country_flag = QIN_BOG_25_Defend
+	                has_country_flag = QIN_BOG_26_Defend
+	                has_country_flag = QIN_BOG_27_Defend
+	                has_country_flag = QIN_BOG_28_Defend
+	                has_country_flag = QIN_BOG_29_Defend
+	                has_country_flag = QIN_BOG_30_Defend
+	                has_country_flag = QIN_BOG_31_Defend
+	                has_country_flag = QIN_BOG_32_Defend
+	                has_country_flag = QIN_BOG_33_Defend
+	                has_country_flag = QIN_BOG_34_Defend
+	                has_country_flag = QIN_BOG_35_Defend
+	                has_country_flag = QIN_BOG_36_Defend
+	                has_country_flag = QIN_BOG_37_Defend
+	                has_country_flag = QIN_BOG_38_Defend
+	                has_country_flag = QIN_BOG_39_Defend
+	                has_country_flag = QIN_BOG_40_Defend
+				}
+			}
+
+		}
+		localization_key = BOG_Draw_text_2
+	}
+	text = {
+		trigger = {
+			AND = {
+			    has_country_flag = BOG_Defeat
+				OR = {
+                    has_country_flag = QIN_BOG_01_Defend
+	                has_country_flag = QIN_BOG_02_Defend
+	                has_country_flag = QIN_BOG_03_Defend
+	                has_country_flag = QIN_BOG_04_Defend
+	                has_country_flag = QIN_BOG_05_Defend
+	                has_country_flag = QIN_BOG_06_Defend
+	                has_country_flag = QIN_BOG_07_Defend
+	                has_country_flag = QIN_BOG_08_Defend
+	                has_country_flag = QIN_BOG_09_Defend
+	                has_country_flag = QIN_BOG_10_Defend
+	                has_country_flag = QIN_BOG_11_Defend
+	                has_country_flag = QIN_BOG_12_Defend
+	                has_country_flag = QIN_BOG_13_Defend
+	                has_country_flag = QIN_BOG_14_Defend
+	                has_country_flag = QIN_BOG_15_Defend
+	                has_country_flag = QIN_BOG_16_Defend
+	                has_country_flag = QIN_BOG_17_Defend
+	                has_country_flag = QIN_BOG_18_Defend
+	                has_country_flag = QIN_BOG_19_Defend
+	                has_country_flag = QIN_BOG_20_Defend
+	                has_country_flag = QIN_BOG_21_Defend
+	                has_country_flag = QIN_BOG_22_Defend
+	                has_country_flag = QIN_BOG_23_Defend
+	                has_country_flag = QIN_BOG_24_Defend
+	                has_country_flag = QIN_BOG_25_Defend
+	                has_country_flag = QIN_BOG_26_Defend
+	                has_country_flag = QIN_BOG_27_Defend
+	                has_country_flag = QIN_BOG_28_Defend
+	                has_country_flag = QIN_BOG_29_Defend
+	                has_country_flag = QIN_BOG_30_Defend
+	                has_country_flag = QIN_BOG_31_Defend
+	                has_country_flag = QIN_BOG_32_Defend
+	                has_country_flag = QIN_BOG_33_Defend
+	                has_country_flag = QIN_BOG_34_Defend
+	                has_country_flag = QIN_BOG_35_Defend
+	                has_country_flag = QIN_BOG_36_Defend
+	                has_country_flag = QIN_BOG_37_Defend
+	                has_country_flag = QIN_BOG_38_Defend
+	                has_country_flag = QIN_BOG_39_Defend
+	                has_country_flag = QIN_BOG_40_Defend
+				}
+			}
+
+		}
+		localization_key = BOG_Defeat_text_2
+	}
+	text = {
+		trigger = {
+			AND = {
+			    has_country_flag = BOG_Decisive_Defeat
+				OR = {
+                    has_country_flag = QIN_BOG_01_Defend
+	                has_country_flag = QIN_BOG_02_Defend
+	                has_country_flag = QIN_BOG_03_Defend
+	                has_country_flag = QIN_BOG_04_Defend
+	                has_country_flag = QIN_BOG_05_Defend
+	                has_country_flag = QIN_BOG_06_Defend
+	                has_country_flag = QIN_BOG_07_Defend
+	                has_country_flag = QIN_BOG_08_Defend
+	                has_country_flag = QIN_BOG_09_Defend
+	                has_country_flag = QIN_BOG_10_Defend
+	                has_country_flag = QIN_BOG_11_Defend
+	                has_country_flag = QIN_BOG_12_Defend
+	                has_country_flag = QIN_BOG_13_Defend
+	                has_country_flag = QIN_BOG_14_Defend
+	                has_country_flag = QIN_BOG_15_Defend
+	                has_country_flag = QIN_BOG_16_Defend
+	                has_country_flag = QIN_BOG_17_Defend
+	                has_country_flag = QIN_BOG_18_Defend
+	                has_country_flag = QIN_BOG_19_Defend
+	                has_country_flag = QIN_BOG_20_Defend
+	                has_country_flag = QIN_BOG_21_Defend
+	                has_country_flag = QIN_BOG_22_Defend
+	                has_country_flag = QIN_BOG_23_Defend
+	                has_country_flag = QIN_BOG_24_Defend
+	                has_country_flag = QIN_BOG_25_Defend
+	                has_country_flag = QIN_BOG_26_Defend
+	                has_country_flag = QIN_BOG_27_Defend
+	                has_country_flag = QIN_BOG_28_Defend
+	                has_country_flag = QIN_BOG_29_Defend
+	                has_country_flag = QIN_BOG_30_Defend
+	                has_country_flag = QIN_BOG_31_Defend
+	                has_country_flag = QIN_BOG_32_Defend
+	                has_country_flag = QIN_BOG_33_Defend
+	                has_country_flag = QIN_BOG_34_Defend
+	                has_country_flag = QIN_BOG_35_Defend
+	                has_country_flag = QIN_BOG_36_Defend
+	                has_country_flag = QIN_BOG_37_Defend
+	                has_country_flag = QIN_BOG_38_Defend
+	                has_country_flag = QIN_BOG_39_Defend
+	                has_country_flag = QIN_BOG_40_Defend
+				}
+			}
+
+		}
+		localization_key = BOG_Decisive_Defeat_text_2
+	}
+	text = {
+		trigger = {
+			has_country_flag = BOG_Capture
+		}
+		localization_key = BOG_Capture_text
+	}
+	text = {
+		trigger = {
+			has_country_flag = BOG_Enemy_Capture
+		}
+		localization_key = BOG_Enemy_Capture_text
+	}
+}
+
+defined_text = {
+	name = getEventNodeName
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_01_Attack
+				has_country_flag = QIN_BOG_01_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major1
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_02_Attack
+				has_country_flag = QIN_BOG_02_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major2
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_03_Attack
+				has_country_flag = QIN_BOG_03_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major3
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_04_Attack
+				has_country_flag = QIN_BOG_04_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major4
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_05_Attack
+				has_country_flag = QIN_BOG_05_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major5
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_06_Attack
+				has_country_flag = QIN_BOG_06_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major6
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_07_Attack
+				has_country_flag = QIN_BOG_07_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major7
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_08_Attack
+				has_country_flag = QIN_BOG_08_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major8
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_09_Attack
+				has_country_flag = QIN_BOG_09_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major9
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_10_Attack
+				has_country_flag = QIN_BOG_10_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major10
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_11_Attack
+				has_country_flag = QIN_BOG_11_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major11
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_12_Attack
+				has_country_flag = QIN_BOG_12_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major12
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_13_Attack
+				has_country_flag = QIN_BOG_13_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major13
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_14_Attack
+				has_country_flag = QIN_BOG_14_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Major14
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_15_Attack
+				has_country_flag = QIN_BOG_15_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor1
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_16_Attack
+				has_country_flag = QIN_BOG_16_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor2
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_17_Attack
+				has_country_flag = QIN_BOG_17_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor3
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_18_Attack
+				has_country_flag = QIN_BOG_18_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor4
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_19_Attack
+				has_country_flag = QIN_BOG_19_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor5
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_20_Attack
+				has_country_flag = QIN_BOG_20_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor6
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_21_Attack
+				has_country_flag = QIN_BOG_21_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor7
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_22_Attack
+				has_country_flag = QIN_BOG_22_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor8
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_23_Attack
+				has_country_flag = QIN_BOG_23_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor9
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_24_Attack
+				has_country_flag = QIN_BOG_24_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor10
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_25_Attack
+				has_country_flag = QIN_BOG_25_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor11
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_26_Attack
+				has_country_flag = QIN_BOG_26_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor12
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_27_Attack
+				has_country_flag = QIN_BOG_27_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor13
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_28_Attack
+				has_country_flag = QIN_BOG_28_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor14
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_29_Attack
+				has_country_flag = QIN_BOG_29_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor15
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_30_Attack
+				has_country_flag = QIN_BOG_30_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor16
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_31_Attack
+				has_country_flag = QIN_BOG_31_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor17
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_32_Attack
+				has_country_flag = QIN_BOG_32_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor18
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_33_Attack
+				has_country_flag = QIN_BOG_33_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor19
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_34_Attack
+				has_country_flag = QIN_BOG_34_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor20
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_35_Attack
+				has_country_flag = QIN_BOG_35_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor21
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_36_Attack
+				has_country_flag = QIN_BOG_36_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor22
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_37_Attack
+				has_country_flag = QIN_BOG_37_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor23
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_38_Attack
+				has_country_flag = QIN_BOG_38_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor24
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_39_Attack
+				has_country_flag = QIN_BOG_39_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor25
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = QIN_BOG_40_Attack
+				has_country_flag = QIN_BOG_40_Defend
+			}
+		}
+		localization_key = QIN_VP_Event_Minor26
+	}
+}
+
+defined_text = {
+	name = getGolmudEventTitle
+	text = {
+		trigger = {
+			has_country_flag = BOG_Decisive_Victory
+		}
+		localization_key = BOG_Event_Decisive_Victory
+	}
+	text = {
+		trigger = {
+			has_country_flag = BOG_Victory
+		}
+		localization_key = BOG_Event_Victory
+	}
+	text = {
+		trigger = {
+			has_country_flag = BOG_Draw
+		}
+		localization_key = BOG_Event_Draw
+	}
+	text = {
+		trigger = {
+			has_country_flag = BOG_Defeat
+		}
+		localization_key = BOG_Event_Defeat
+	}
+	text = {
+		trigger = {
+			has_country_flag = BOG_Decisive_Defeat
+		}
+		localization_key = BOG_Event_Decisive_Defeat
+	}
+}
+
+defined_text = {
+	name = getProposalCount
+	text = {
+		trigger = {
+			check_variable = { KMT_Proposals = 4 }
+		}
+		localization_key = QIN_4_Proposals
+	}
+	text = {
+		trigger = {
+			check_variable = { KMT_Proposals = 3 }
+		}
+		localization_key = QIN_3_Proposals
+	}
+	text = {
+		trigger = {
+			check_variable = { KMT_Proposals = 2 }
+		}
+		localization_key = QIN_2_Proposals
+	}
+	text = {
+		trigger = {
+			check_variable = { KMT_Proposals = 1 }
+		}
+		localization_key = QIN_1_Proposals
+	}
+	text = {
+		trigger = {
+			check_variable = { KMT_Proposals = 0 }
+		}
+		localization_key = QIN_No_Proposals
+	}
+}
