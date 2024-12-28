@@ -1,0 +1,6215 @@
+shared_focus = {
+	id = The_Year_of_Snake
+	icon = GFX_goal_year_of_snake
+    cost = 1
+	x = 10
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	allow_branch = { 
+		has_country_flag = year_of_snake
+		NOT = { has_country_flag = year_of_horse }
+	}
+	bypass = {
+		has_country_flag = year_of_snake
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_the_year_of_snake_tt
+		country_event = { id = tmm.maclique.52 }
+		hidden_effect = {
+			country_event = { 
+				id = tmm.maclique.53 
+				days = 1
+			    }
+		    }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = ma_jiyuan_vision
+	icon = GFX_goal_ma_jiyuan_vision
+    cost = 0.5
+	relative_position_id = The_Year_of_Snake
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	allow_branch = { 
+		AND = {
+    		NOT = { has_country_flag = qinghai_in_turmoil }
+			NOT = { has_country_flag = QIN_1965_stage2 }
+			has_country_flag = year_of_snake
+		}
+	}
+	prerequisite = { 
+	    focus = The_Year_of_Snake
+	}
+	completion_reward = {
+		add_political_power = 100
+		country_event = { id = tmm.maclique.54 }
+	    custom_effect_tooltip = QIN_ma_jiyuan_vision_tt
+		hidden_effect = {
+			country_event = { 
+				id = tmm.maclique.55 
+				days = 1
+			    }
+			country_event = { 
+				id = tmm.maclique.56
+				days = 48
+			    }
+			country_event = { 
+				id = tmm.maclique.57
+				days = 10
+			    }
+			country_event = { 
+				id = tmm.maclique.60
+				days = 65
+			    }
+		    }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = a_new_government
+	icon = GFX_goal_a_new_government
+    cost = 1
+	relative_position_id = ma_jiyuan_vision
+	x = -3
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = ma_jiyuan_vision
+	}
+	completion_reward = {
+		country_event = { id = tmm.maclique.59 }
+		add_political_power = 25
+		add_stability = 0.05
+		add_war_support = 0.05
+		custom_effect_tooltip = QIN_a_new_government_tt
+		subtract_from_variable = {
+            var = kmt_oldguard_lifayuan_seat
+            value = 4
+            }
+		add_to_variable = {
+            var = kmt_zhengxuepai_lifayuan_seat
+            value = 1
+            }
+		add_to_variable = {
+            var = kmt_xishan_lifayuan_seat
+            value = 1
+            }
+		add_to_variable = {
+            var = ccp_chinese_lifayuan_seat
+            value = 2
+            }
+		subtract_from_variable = {
+            var = kmt_oldguard_lifayuan_support
+            value = 10
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = mengzang_commission
+	icon = GFX_goal_mengzang_commission
+    cost = 0.5
+	relative_position_id = a_new_government
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = a_new_government
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_mengzang_commission_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = chiang_burden
+	icon = GFX_goal_chiang_burden
+    cost = 0.5
+	relative_position_id = mengzang_commission
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = mengzang_commission
+	}
+	completion_reward = {
+	    add_political_power = 50
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_cueg
+	icon = GFX_goal_cueg
+    cost = 1
+	relative_position_id = chiang_burden
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = chiang_burden
+	}
+	completion_reward = {
+        set_temp_variable = { money_reserves_temp = -0.005 }
+        econ_money_reserves_change_raw_money = yes
+		add_political_power = 100
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = formalising_the_ministries
+	icon = GFX_goal_formalising_the_ministries
+    cost = 0.5
+	relative_position_id = a_new_government
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = a_new_government
+	}
+	completion_reward = {
+		set_temp_variable = { gdp_growth_temp = 1.5 }
+        econ_gdp_growth_change = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = yunxuan_investment
+	icon = GFX_goal_yunxuan_investment
+    cost = 1
+	relative_position_id = formalising_the_ministries
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = formalising_the_ministries
+	}
+	mutually_exclusive = {
+	    focus = gu_zhun_plan
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_yunxuan_investment_tt
+		add_popularity = {
+            ideology = paternalism
+            popularity = 0.02
+            }
+		add_popularity = {
+            ideology = conservatism
+            popularity = 0.01
+            }
+		set_temp_variable = { gdp_growth_temp = 1.0 }
+        econ_gdp_growth_change = yes
+		set_temp_variable = { temp_econ_GDP_boost_percentage = 0.1 }
+		econ_GDP_boost_once_percentage = yes
+		set_temp_variable = { temp_econ_spending_amount = 0.025 }
+        econ_spend_money_once_effect_raw_money = yes  
+		604 = {
+			add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+	    	}
+		906 = {
+			add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+	    	}
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = gu_zhun_plan
+	icon = GFX_goal_gu_zhun_plan
+    cost = 1
+	relative_position_id = formalising_the_ministries
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = formalising_the_ministries
+	}
+	mutually_exclusive = {
+	    focus = yunxuan_investment
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_gu_zhun_plan_tt
+		add_popularity = {
+            ideology = communist
+            popularity = 0.03
+            }
+		TNO_improve_admin_efficiency_med = yes
+		set_temp_variable = { gdp_growth_temp = 2.0 }
+        econ_gdp_growth_change = yes
+        set_temp_variable = { money_reserves_temp = 0.075 }
+        econ_money_reserves_change_raw_money = yes
+		set_temp_variable = { temp_econ_spending_amount = 0.005 }
+        econ_spend_money_once_effect_raw_money = yes 
+		906 = {
+			add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+                }
+	    	} 
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = a_sound_economic_policy
+	icon = GFX_goal_a_sound_economic_policy
+    cost = 0.5
+	relative_position_id = formalising_the_ministries
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = gu_zhun_plan
+	    focus = yunxuan_investment
+	}
+	completion_reward = {
+		set_temp_variable = { gdp_growth_temp = 5.0 }
+        econ_gdp_growth_change = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = restructuring_lifayuan
+	icon = GFX_goal_restructuring_lifayuan
+    cost = 0.5
+	relative_position_id = a_new_government
+	x = 0
+	y = 4
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = a_sound_economic_policy
+	}
+	prerequisite = { 
+	    focus = the_cueg
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_legislation_tt
+		set_country_flag = lifayuan_legislation_govt_reform
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = a_new_nra
+	icon = GFX_goal_a_new_nra
+    cost = 1
+	relative_position_id = ma_jiyuan_vision
+	x = 3
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = ma_jiyuan_vision
+	}
+	completion_reward = {
+		TNO_improve_training_policy_effectiveness_med = yes
+		country_event = { id = tmm.maclique.58 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = redesignate_military_regions
+	icon = GFX_goal_redesignate_military_regions
+    cost = 0.5
+	relative_position_id = a_new_nra
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = a_new_nra
+	}
+	completion_reward = {
+        set_temp_variable = { money_reserves_temp = 0.02 }
+        econ_money_reserves_change_raw_money = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = settling_old_feuds
+	icon = GFX_goal_settling_old_feuds
+    cost = 1
+	relative_position_id = redesignate_military_regions
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	mutually_exclusive = {
+        focus = integrate_red_army
+	}
+	prerequisite = { 
+	    focus = redesignate_military_regions
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_settling_old_feuds_tt
+	    hidden_effect = {
+	        load_oob = "QIN_1965"
+		    }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = integrate_red_army
+	icon = GFX_goal_integrate_red_army
+    cost = 1
+	relative_position_id = redesignate_military_regions
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	mutually_exclusive = {
+        focus = settling_old_feuds
+	}
+	prerequisite = { 
+	    focus = redesignate_military_regions
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = communist
+            popularity = 0.03
+            }
+		custom_effect_tooltip = QIN_settling_old_feuds_tt
+	    hidden_effect = {
+	        load_oob = "QIN_1965"
+		    }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = reorganise_military
+	icon = GFX_goal_reorganise_military
+    cost = 0.5
+	relative_position_id = redesignate_military_regions
+	x = 0
+	y = 3
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = settling_old_feuds
+		focus = integrate_red_army
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_legislation_tt
+		set_country_flag = lifayuan_legislation_mil_reform
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = beyond_qilian
+	icon = GFX_goal_beyond_qilian
+    cost = 2
+	relative_position_id = ma_jiyuan_vision
+	x = 0
+	y = 6
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = reorganise_military
+	}
+	prerequisite = { 
+	    focus = restructuring_lifayuan
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_beyond_qilian_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = contact_huang_wei
+	icon = GFX_goal_contact_huang_wei
+    cost = 0.5
+	relative_position_id = The_Year_of_Snake
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = The_Year_of_Snake
+	}
+	allow_branch = {
+		has_country_flag = qinghai_in_turmoil
+		NOT = { has_country_flag = year_of_horse }
+	}
+	mutually_exclusive = {
+	    focus = contact_sun_lijen
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = paternalism
+            popularity = 0.02
+            }
+		custom_effect_tooltip = QIN_contact_huang_wei_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = contact_sun_lijen
+	icon = GFX_goal_contact_sun_lijen
+    cost = 0.5
+	relative_position_id = The_Year_of_Snake
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = The_Year_of_Snake
+	}
+	allow_branch = { 
+		NOT = { has_country_flag = year_of_horse }
+		has_country_flag = qinghai_in_turmoil
+	}
+	mutually_exclusive = {
+	    focus = contact_huang_wei
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = liberalism
+            popularity = 0.02
+            }
+		custom_effect_tooltip = QIN_contact_contact_sun_lijen_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_qinghai_martial_law_command
+	icon = GFX_goal_the_qinghai_martial_law_command
+    cost = 0.5
+	relative_position_id = The_Year_of_Snake
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = contact_huang_wei
+		focus = contact_sun_lijen
+	}
+	completion_reward = {
+		if = {
+			limit = { is_ai = no }
+			set_global_flag = tno_speed_warning
+		}
+		set_country_flag = QIN_1965_stage1
+		QIN_reload_tree = yes
+		custom_effect_tooltip = QIN_the_qinghai_martial_law_command_tt
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = we_are_alone
+	icon = GFX_goal_we_are_alone
+    cost = 0.5
+	relative_position_id = the_qinghai_martial_law_command
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	allow_branch = { 
+		has_country_flag = QIN_1965_stage1
+		NOT = { has_country_flag = year_of_horse }
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_qinghai_martial_law_command
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_we_are_alone_tt
+		add_stability = -0.4
+		322 = {
+			set_demilitarized_zone = yes
+		}
+		601 = {
+			set_demilitarized_zone = yes
+		}
+		604 = {
+			set_demilitarized_zone = yes
+		}
+		765 = {
+			set_demilitarized_zone = yes
+		}
+		964 = {
+			set_demilitarized_zone = yes
+		}
+		country_event = { id = tmm.maclique.64 }
+		set_country_flag = QIN_1965_stage2
+		QIN_reload_tree = yes
+        set_country_flag = battle_for_golmud_starts
+		if = {
+			limit = { is_ai = no}
+			set_global_flag = tno_speed_warning
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_heart_of_the_party
+	icon = GFX_goal_the_heart_of_the_party
+    cost = 0.2
+	relative_position_id = we_are_alone
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	allow_branch = { 
+		has_country_flag = QIN_1965_stage2
+	}
+	available = {
+		BoG_partyhq = yes
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = we_are_alone
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_the_heart_of_the_party_tt
+		add_political_power = 30
+		add_to_variable = { QIN_BOG_07_STRENGTH_ALLIED = 50 }
+		add_popularity = {
+            ideology = paternalism
+            popularity = 0.02
+            }
+		add_popularity = {
+            ideology = conservatism
+            popularity = 0.01
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = voice_of_the_northwest
+	icon = GFX_goal_voice_of_the_northwest
+    cost = 0.2
+	relative_position_id = we_are_alone
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	allow_branch = { 
+		has_country_flag = QIN_1965_stage2
+	}
+	available = {
+		BoG_voiceofnorthwest = yes
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = we_are_alone
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_voice_of_the_northwest_tt
+		add_political_power = 30
+		add_to_variable = { QIN_BOG_10_STRENGTH_ALLIED = 50 }
+		add_popularity = {
+            ideology = liberalism
+            popularity = 0.02
+            }
+		add_popularity = {
+            ideology = progressivism
+            popularity = 0.01
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_town_hall
+	icon = GFX_goal_the_town_hall
+    cost = 0.2
+	relative_position_id = we_are_alone
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	allow_branch = { 
+		has_country_flag = QIN_1965_stage2
+	}
+	available = {
+		BoG_townhall = yes
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = we_are_alone
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_the_town_hall_tt
+		add_political_power = 30
+		add_to_variable = { QIN_BOG_08_STRENGTH_ALLIED = 50 }
+		QIN_reload_tree = yes
+		add_popularity = {
+            ideology = communist
+            popularity = 0.01
+            }
+		add_popularity = {
+            ideology = paternalism
+            popularity = 0.02
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = secure_the_south
+	icon = GFX_goal_secure_the_south2
+    cost = 0.2
+	relative_position_id = we_are_alone
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		BoG_south = yes
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_heart_of_the_party
+	}
+	prerequisite = { 
+	    focus = voice_of_the_northwest
+	}
+	prerequisite = { 
+	    focus = the_town_hall
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_secure_the_south_tt
+		set_country_flag = QIN_1965_stage3
+		QIN_reload_tree = yes
+		add_stability = 0.2
+		add_to_variable = { QIN_BOG_01_STRENGTH_ALLIED = 100 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_presidential_palace
+	icon = GFX_goal_secure_the_south
+    cost = 0.2
+	relative_position_id = secure_the_south
+	x = -3
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	allow_branch = { 
+		has_country_flag = QIN_1965_stage3
+	}
+	available = {
+		BoG_palace = yes
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = secure_the_south
+	}
+	completion_reward = {
+		add_stability = 0.05
+		add_political_power = 30
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+
+shared_focus = {
+	id = extraordinary_military_adjustment
+	icon = GFX_goal_extraordinary_military_adjustment
+    cost = 0.2
+	relative_position_id = the_presidential_palace
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_presidential_palace
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_extraordinary_military_adjustment_tt
+		add_to_variable = { QIN_BOG_06_STRENGTH_ALLIED = 150 }
+		add_equipment_to_stockpile = {
+            type = infantry_equipment_2
+            amount = 100
+			producer = USA
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = get_the_nsb_working_nonstop
+	icon = GFX_goal_get_the_nsb_working_nonstop
+    cost = 0.2
+	relative_position_id = the_presidential_palace
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_presidential_palace
+	}
+	completion_reward = {
+		add_stability = 0.1
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = reclaim_the_centre
+	icon = GFX_goal_reclaim_the_centre
+    cost = 0.2
+	relative_position_id = get_the_nsb_working_nonstop
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		BoG_centre = yes
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = extraordinary_military_adjustment
+	}
+	prerequisite = { 
+	    focus = get_the_nsb_working_nonstop
+	}
+	completion_reward = {
+		add_political_power = 40
+		add_stability = 0.05
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = we_march_north
+	icon = GFX_goal_we_march_north
+    cost = 0.2
+	relative_position_id = reclaim_the_centre
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = reclaim_the_centre
+	}
+	completion_reward = {
+		add_political_power = 30
+		add_manpower = 300
+		add_equipment_to_stockpile = {
+            type = infantry_equipment_1
+            amount = 75
+			producer = QIN
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = new_deals_with_old_friends
+	icon = GFX_goal_new_deals_with_old_friends
+    cost = 0.2
+	relative_position_id = secure_the_south
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	allow_branch = { 
+		has_country_flag = QIN_1965_stage3
+	}
+	available = {
+		BoG_rok = yes
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = secure_the_south
+	}
+	completion_reward = {
+		add_political_power = 30
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = contact_lee_beomseok
+	icon = GFX_goal_contact_lee_beomseok
+    cost = 0.2
+	relative_position_id = new_deals_with_old_friends
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = new_deals_with_old_friends
+	}
+	completion_reward = {
+		add_war_support = 0.05
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = reorganise_the_kla
+	icon = GFX_goal_reorganise_the_kla
+    cost = 0.2
+	relative_position_id = new_deals_with_old_friends
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = new_deals_with_old_friends
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_reorganise_the_kla_tt
+		add_to_variable = { QIN_BOG_05_STRENGTH_ALLIED = 50 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = finally_recognise_the_rok
+	icon = GFX_goal_finally_recognise_the_rok
+    cost = 0.2
+	relative_position_id = new_deals_with_old_friends
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = contact_lee_beomseok
+	}
+	prerequisite = { 
+	    focus = reorganise_the_kla
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_finally_recognise_the_rok_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_communists_of_golmud
+	icon = GFX_goal_the_communists_of_golmud
+    cost = 0.2
+	relative_position_id = secure_the_south
+	x = 3
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	allow_branch = { 
+		has_country_flag = QIN_1965_stage3
+	}
+	available = {
+		BoG_ccphq = yes
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = secure_the_south
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = communist
+            popularity = 0.03
+            }
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.02
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_citizen_militia
+	icon = GFX_goal_the_citizen_militia
+    cost = 0.2
+	relative_position_id = the_communists_of_golmud
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_communists_of_golmud
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_the_citizen_militia_tt
+		add_to_variable = { QIN_BOG_34_STRENGTH_ALLIED = 200 }
+		add_manpower = 500
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = red_supplies_in_dire_need
+	icon = GFX_goal_red_supplies_in_dire_need
+    cost = 0.2
+	relative_position_id = the_communists_of_golmud
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_communists_of_golmud
+	}
+	completion_reward = {
+		add_political_power = -30
+		add_popularity = {
+            ideology = communist
+            popularity = 0.04
+            }
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.02
+            }
+		add_equipment_to_stockpile = {
+            type = infantry_equipment_1
+            amount = 300
+			producer = QIN
+            }
+		add_equipment_to_stockpile = {
+            type = support_equipment_1
+            amount = 200
+			producer = QIN
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = reclaim_the_east
+	icon = GFX_goal_reclaim_the_east
+    cost = 0.2
+	relative_position_id = the_communists_of_golmud
+	x = 1
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		BoG_east = yes
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_citizen_militia
+		focus = red_supplies_in_dire_need
+	}
+	completion_reward = {
+		add_political_power = 40
+		add_stability = 0.05
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_brain_of_golmud
+	icon = GFX_goal_the_brain_of_golmud
+    cost = 0.2
+	relative_position_id = reclaim_the_east
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		BoG_sinica = yes
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = reclaim_the_east
+	}
+	completion_reward = {
+		add_political_power = 30
+		add_manpower = 300
+		add_equipment_to_stockpile = {
+            type = infantry_equipment_1
+            amount = 75
+			producer = QIN
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_final_victory
+	icon = GFX_goal_the_final_victory
+    cost = 0.5
+	relative_position_id = finally_recognise_the_rok
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = { 
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = we_march_north
+	}
+	prerequisite = { 
+	    focus = the_brain_of_golmud
+	}
+	prerequisite = { 
+	    focus = finally_recognise_the_rok
+	}
+	completion_reward = {
+		add_stability = 0.15
+		322 = {
+			set_demilitarized_zone = no
+		}
+		601 = {
+			set_demilitarized_zone = no
+		}
+		604 = {
+			set_demilitarized_zone = no
+		}
+		765 = {
+			set_demilitarized_zone = no
+		}
+		964 = {
+			set_demilitarized_zone = no
+		}
+		custom_effect_tooltip = QIN_the_final_victory_tt
+		set_country_flag = bog_over
+		QIN_reload_tree = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = time_is_running_out
+	icon = GFX_goal_time_is_running_out
+    cost = 0.5
+	relative_position_id = the_final_victory
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		NOT = { has_country_flag = year_of_horse }
+	}
+	allow_branch = { 
+		has_country_flag = bog_over
+	}
+	prerequisite = { 
+	    focus = the_final_victory
+	}
+	bypass = {
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_speak_no_evil_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = below_a_midsummer_cresent
+	icon = GFX_goal_below_a_midsummer_cresent
+    cost = 0.5
+	relative_position_id = time_is_running_out
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = time_is_running_out
+	}
+	completion_reward = {
+		hidden_effect = {
+			country_event = { 
+				id = tmm.maclique.111
+				days = 1
+			    }
+		    }
+		add_political_power = 15
+		add_stability = 0.01
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = facts_cannot_be_changed
+	icon = GFX_goal_facts_cannot_be_changed
+    cost = 0.5
+	relative_position_id = below_a_midsummer_cresent
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Hog_trigger = yes
+	}
+	prerequisite = { 
+	    focus = below_a_midsummer_cresent
+	}
+	mutually_exclusive = {
+	    focus = everything_is_the_same
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = communist
+            popularity = 0.03
+        }
+		hidden_effect = {
+		    retire_character = QIN_Chiang_Chingkuo
+            remove_ideas = QIN_Chiang_Chingkuo_hog
+		}
+		add_ideas = QIN_Gao_Gang_hog_hog
+		set_country_flag = CCP_victory_placeholder
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = everything_is_the_same
+	icon = GFX_goal_everything_is_the_same
+    cost = 0.5
+	relative_position_id = below_a_midsummer_cresent
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		KMT_Hog_trigger = yes
+	}
+	prerequisite = { 
+	    focus = below_a_midsummer_cresent
+	}
+	mutually_exclusive = {
+	    focus = facts_cannot_be_changed
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = paternalism
+            popularity = 0.03
+            }
+		set_country_flag = KMT_victory_placeholder
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = silent_golmud
+	icon = GFX_goal_silent_golmud
+    cost = 0.5
+	relative_position_id = below_a_midsummer_cresent
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = below_a_midsummer_cresent
+	}
+	prerequisite = { 
+	    focus = everything_is_the_same
+		focus = facts_cannot_be_changed
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_speak_no_evil_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = see_no_evil
+	icon = GFX_goal_see_no_evil
+    cost = 0.3
+	relative_position_id = silent_golmud
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = silent_golmud
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_speak_no_evil_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = hear_no_evil
+	icon = GFX_goal_hear_no_evil
+    cost = 0.3
+	relative_position_id = silent_golmud
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = silent_golmud
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_speak_no_evil_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = speak_no_evil
+	icon = GFX_goal_speak_no_evil
+    cost = 0.3
+	relative_position_id = silent_golmud
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = silent_golmud
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_speak_no_evil_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = a_century_of_legacy
+	icon = GFX_goal_a_century_of_legacy
+    cost = 0.5
+	relative_position_id = silent_golmud
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = see_no_evil
+	}
+	prerequisite = { 
+	    focus = hear_no_evil
+	}
+	prerequisite = { 
+	    focus = speak_no_evil
+	}
+	completion_reward = {
+		hidden_effect = {
+			country_event = { 
+				id = tmm.maclique.108
+				days = 5
+			    }
+		    }
+		hidden_effect = {
+			retire_character = QIN_ma_jiyuan_tmm
+			retire_character = QIN_ma_jiyuan_despot
+		}
+		QIN = {
+            promote_character = QIN_chiang_chingkuo_despot
+		}
+		custom_effect_tooltip = QIN_a_century_of_legacy_tt
+		set_party_name = { 
+            ideology = paternalism
+            long_name = "The National Assembly" 
+            name = "The Extraordinary Session of the National Assembly of the Republic of China" 
+        }
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = ended_with_a_whimper
+	icon = GFX_goal_ended_with_a_whimper
+    cost = 0.2
+	relative_position_id = a_century_of_legacy
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = a_century_of_legacy
+	}
+	completion_reward = {
+		QIN = { set_cosmetic_tag = civilian }
+		custom_effect_tooltip = QIN_ended_with_a_whimper_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = sun_fo_rejected
+	icon = GFX_goal_sun_fo_rejected
+    cost = 0.2
+	relative_position_id = ended_with_a_whimper
+	x = -13
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_path_trigger = yes
+	}
+	prerequisite = { 
+	    focus = ended_with_a_whimper
+	}
+	mutually_exclusive = {
+	    focus = sun_fo_presidency
+	}
+	completion_reward = {
+		TNO_improve_political_parties_policy_effectiveness_med = yes
+		custom_effect_tooltip = QIN_sun_fo_rejected_tt
+		set_country_flag = QIN_CCP_Path
+		QIN_reload_tree = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = concessions_for_the_outsiders
+	icon = GFX_goal_concessions_for_the_outsiders
+    cost = 0.5
+	relative_position_id = sun_fo_rejected
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+		has_country_flag = QIN_CCP_Path
+	}
+	allow_branch = { 
+		has_country_flag = QIN_CCP_Path
+	}
+	prerequisite = { 
+	    focus = sun_fo_rejected
+	}
+	completion_reward = {
+        add_stability = 0.4
+		add_political_power = -20
+		custom_effect_tooltip = QIN_concessions_for_the_outsiders_tt
+		subtract_from_variable = { ccp_chinese_lifayuan_seat = 2 }
+		add_to_variable = { pdp_lifayuan_seat = 2 }
+		add_to_variable = { CCP_PC = 50 }
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = nominate_zhang_shenfu
+	icon = GFX_goal_nominate_zhang_shenfu
+    cost = 0.2
+	relative_position_id = concessions_for_the_outsiders
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = concessions_for_the_outsiders
+	}
+	completion_reward = {
+		add_to_variable = { CCP_Outsider_Support = 10 }
+		set_politics = {
+	        ruling_party = progressivism
+            elections_allowed = yes
+            election_frequency = 48
+            }
+		set_party_name = { 
+            ideology = progressivism
+            long_name = "Independents" 
+            name = "Independents" 
+            }
+		add_popularity = {
+            ideology = progressivism
+            popularity = 0.05
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = instability_in_the_party
+	icon = GFX_goal_instability_in_the_party
+    cost = 0.5
+	relative_position_id = sun_fo_rejected
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+		has_country_flag = QIN_CCP_Path
+	}
+	allow_branch = { 
+		has_country_flag = QIN_CCP_Path
+	}
+	prerequisite = { 
+	    focus = sun_fo_rejected
+	}
+	completion_reward = {
+		add_stability = -0.05
+		add_to_variable = { CCP_Party_Support = 5 }
+		custom_effect_tooltip = QIN_instability_in_the_party_tt
+		subtract_from_variable = { kmt_oldguard_lifayuan_seat = 4 }
+		add_to_variable = { ccp_chinese_lifayuan_seat = 2 }
+		add_to_variable = { ccp_orthodox_lifayuan_seat = 2 }
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.05
+            }
+			add_popularity = {
+            ideology = communist
+            popularity = 0.05
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = seizing_the_initiative
+	icon = GFX_goal_seizing_the_initiative
+    cost = 0.2
+	relative_position_id = instability_in_the_party
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = instability_in_the_party
+	}
+	completion_reward = {
+		add_political_power = 100
+		custom_effect_tooltip = QIN_seizing_the_initiative_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = enlarging_politburo_meeting
+	icon = GFX_goal_enlarging_politburo_meeting
+    cost = 0.6
+	relative_position_id = nominate_zhang_shenfu
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = seizing_the_initiative
+	}
+	prerequisite = { 
+	    focus = nominate_zhang_shenfu
+	}
+	completion_reward = {
+		TNO_improve_political_parties_policy_effectiveness_high = yes
+		add_stability = -0.2
+		custom_effect_tooltip = QIN_enlarging_politburo_meeting_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = lining_up_thoughts
+	icon = GFX_goal_lining_up_thoughts
+    cost = 0.5
+	relative_position_id = enlarging_politburo_meeting
+	x = -3
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = enlarging_politburo_meeting
+	}
+	mutually_exclusive = {
+		focus = follow_the_paris_commune
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_lining_up_thoughts_tt
+		subtract_from_variable = { CCP_Party_Support = 10 }
+		add_political_power = 10
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.03
+            }	
+		subtract_from_variable = { ccp_chinese_lifayuan_seat = 2 }
+		add_to_variable = { ccp_orthodox_lifayuan_seat = 2 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = follow_the_paris_commune
+	icon = GFX_goal_follow_the_paris_commune
+    cost = 0.5
+	relative_position_id = enlarging_politburo_meeting
+	x = 3
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = enlarging_politburo_meeting
+	}
+	mutually_exclusive = {
+		focus = lining_up_thoughts
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_follow_the_paris_commune_tt
+		add_political_power = -20
+		add_popularity = {
+            ideology = communist
+            popularity = 0.03
+            }	
+		subtract_from_variable = { ccp_chinese_lifayuan_seat = 2 }
+		add_to_variable = { ccp_orthodox_lifayuan_seat = 2 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = seize_control_of_the_war
+	icon = GFX_goal_seize_control_of_the_war
+    cost = 0.2
+	relative_position_id = enlarging_politburo_meeting
+	x = -1
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = enlarging_politburo_meeting
+	}
+	completion_reward = {
+		add_war_support = 0.1
+		add_popularity = {
+            ideology = communist
+            popularity = 0.015
+            }	
+		TNO_worsen_army_professionalism_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = socialist_legislature
+	icon = GFX_goal_socialist_legislature
+    cost = 0.2
+	relative_position_id = enlarging_politburo_meeting
+	x = 1
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = enlarging_politburo_meeting
+	}
+	completion_reward = {
+		add_political_power = 100
+		add_to_variable = { QIN_CCP_unity = 5 }
+		swap_ideas = {
+            remove_idea = tno_income_taxation_elite_tax_exemptions
+            add_idea = tno_income_taxation_flat_taxes
+            }
+		TNO_improve_admin_efficiency_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = liu_shaoqi_report
+	icon = GFX_goal_liu_shaoqi_report
+    cost = 0.5
+	relative_position_id = lining_up_thoughts
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = lining_up_thoughts
+	}
+	completion_reward = {
+		add_political_power = 50
+		add_to_variable = { CCP_People_Support = 20 }
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.05
+            }	
+		custom_effect_tooltip = QIN_report_tt
+		set_country_flag = ccp_liushaoqi
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = gao_gang_report
+	icon = GFX_goal_gao_gang_report
+    cost = 0.5
+	relative_position_id = follow_the_paris_commune
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = follow_the_paris_commune
+	}
+	completion_reward = {
+		add_political_power = 50
+		add_to_variable = { CCP_People_Support = 20 }
+		add_popularity = {
+            ideology = communist
+            popularity = 0.05
+            }	
+		custom_effect_tooltip = QIN_report_tt
+		set_country_flag = ccp_gaogang
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = a_united_congress
+	icon = GFX_goal_a_united_congress
+    cost = 0.5
+	relative_position_id = gao_gang_report
+	x = -3
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = liu_shaoqi_report
+		focus = gao_gang_report
+	}
+	prerequisite = { 
+	    focus = seize_control_of_the_war
+	}
+	prerequisite = { 
+	    focus = socialist_legislature
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_a_united_congress_tt
+		if = {
+			limit = {
+				has_country_flag = ccp_gaogang
+			    }
+				complete_national_focus = do_not_forget_the_times_of_yanan
+		    }
+		else = {
+			complete_national_focus = back_to_the_politburo
+		    }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = sun_fo_presidency
+	icon = GFX_goal_sun_fo_presidency
+    cost = 0.2
+	relative_position_id = ended_with_a_whimper
+	x = 13
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		KMT_path_trigger = yes
+	}
+	prerequisite = { 
+	    focus = ended_with_a_whimper
+	}
+	mutually_exclusive = {
+	    focus = sun_fo_rejected
+	}
+	completion_reward = {
+		QIN = {
+            promote_character = QIN_sun_fo
+		}
+		set_politics = {
+	        ruling_party = despotism
+            elections_allowed = no
+            election_frequency = 48
+            }
+		set_party_name = { 
+                ideology = despotism 
+                long_name = "Kuomintang - Zaizao Clique" 
+                name = "Kuomintang - Hardliners" 
+            }
+		add_popularity = {
+            ideology = despotism
+            popularity = 0.1
+            }
+		set_country_flag = QIN_KMT_Path
+		QIN_reload_tree = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = maneuvers_in_executive_yuan
+	icon = GFX_goal_maneuvers_in_executive_yuan
+    cost = 1
+	relative_position_id = sun_fo_presidency
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		has_country_flag = QIN_KMT_Path
+	}
+	allow_branch = { 
+		has_country_flag = QIN_KMT_Path
+	}
+	prerequisite = { 
+	    focus = sun_fo_presidency
+	}
+	completion_reward = {
+		add_political_power = 50
+		add_stability = 0.05
+		add_popularity = {
+            ideology = paternalism
+            popularity = -0.05
+            }	
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = hardline_cabinet
+	icon = GFX_goal_hardline_cabinet
+    cost = 0.5
+	relative_position_id = maneuvers_in_executive_yuan
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = maneuvers_in_executive_yuan
+	}
+	completion_reward = {
+		subtract_from_variable = {
+            var = kmt_oldguard_lifayuan_seat
+            value = 5
+            }
+		add_to_variable = {
+            var = kmt_hardliner_lifayuan_seat
+            value = 5
+            }
+		custom_effect_tooltip = QIN_hardline_cabinet_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = reopen_ma_jiyuan_trail
+	icon = GFX_goal_reopen_ma_jiyuan_trail
+    cost = 0.5
+	relative_position_id = maneuvers_in_executive_yuan
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = maneuvers_in_executive_yuan
+	}
+	mutually_exclusive = {
+		focus = capital_rejuvenation_committee
+	}
+	completion_reward = {
+		set_temp_variable = { temp_econ_GDP_boost_percentage = 0.03 }
+		econ_GDP_boost_once_percentage = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = order_from_the_presidential_palace
+	icon = GFX_goal_order_from_the_presidential_palace
+    cost = 1
+	relative_position_id = sun_fo_presidency
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		has_country_flag = QIN_KMT_Path
+	}
+	allow_branch = { 
+		has_country_flag = QIN_KMT_Path
+	}
+	prerequisite = { 
+	    focus = sun_fo_presidency
+	}
+	completion_reward = {
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = capital_rejuvenation_committee
+	icon = GFX_goal_capital_rejuvenation_committee
+    cost = 0.5
+	relative_position_id = order_from_the_presidential_palace
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = order_from_the_presidential_palace
+	}
+	mutually_exclusive = {
+		focus = reopen_ma_jiyuan_trail
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = despotism
+            popularity = 0.05
+            }	
+		add_stability = 0.03
+        set_temp_variable = { temp_econ_spending_amount = 0.003 }
+        econ_spend_money_once_effect_raw_money = yes 
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = dissolve_ma_clique
+	icon = GFX_goal_dissolve_ma_clique
+    cost = 1
+	relative_position_id = maneuvers_in_executive_yuan
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = hardline_cabinet
+	}
+	prerequisite = { 
+	    focus = reopen_ma_jiyuan_trail
+		focus = capital_rejuvenation_committee
+	}
+	completion_reward = {
+		add_stability = -0.05
+		add_political_power = 100
+
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = confiscate_traitor_property
+	icon = GFX_goal_confiscate_traitor_property
+    cost = 0.5
+	relative_position_id = dissolve_ma_clique
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = dissolve_ma_clique
+	}
+	completion_reward = {
+		set_temp_variable = { money_reserves_temp = 0.005 }
+		econ_money_reserves_change_raw_money = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+
+shared_focus = {
+	id = the_cat_is_out_of_the_bag
+	icon = GFX_goal_the_cat_is_out_of_the_bag
+    cost = 1
+	relative_position_id = confiscate_traitor_property
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = confiscate_traitor_property
+	}
+	mutually_exclusive = {
+		focus = ultimatum_to_xining
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_the_cat_is_out_of_the_bag_tt
+		hidden_effect = {
+			country_event = { id = tmm.maclique.105 }
+		    }
+		set_country_flag = sun_fo_impeached
+		QIN_reload_tree = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = end_of_martial_law
+	icon = GFX_goal_end_of_martial_law
+    cost = 1
+	relative_position_id = the_cat_is_out_of_the_bag
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	allow_branch = { 
+		has_country_flag = sun_fo_impeached
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_cat_is_out_of_the_bag
+	}
+	completion_reward = {
+		QIN = {
+            promote_character = QIN_chiang_chingkuo_despot
+            promote_character = QIN_zhu_jiahua
+		}
+		set_politics = {
+	        ruling_party = conservatism
+            elections_allowed = no
+            election_frequency = 48
+        }
+		set_party_name = { 
+                ideology = conservatism
+                long_name = "Kuomintang - Zhu Jiahua Clique" 
+                name = "Kuomintang - Right" 
+            }
+		add_stability = -0.2
+		add_war_support = -0.2
+		army_experience = -50
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = to_free_the_motherland
+	icon = GFX_goal_to_free_the_motherland
+    cost = 0.5
+	relative_position_id = end_of_martial_law
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = end_of_martial_law
+	}
+	mutually_exclusive = {
+		focus = to_rejuvenate_the_republic
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = conservatism
+            popularity = 0.075
+            }
+		add_popularity = {
+            ideology = liberalism
+            popularity = 0.075
+            }
+		subtract_from_variable = { KMT_Chiang_Support = 2 }
+		subtract_from_variable = { KMT_Chen_Support = 2 }
+		add_to_variable = { KMT_Wang_Support = 4 }
+		custom_effect_tooltip = QIN_to_free_the_motherland_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = to_rejuvenate_the_republic
+	icon = GFX_goal_to_rejuvenate_the_republic
+    cost = 0.5
+	relative_position_id = end_of_martial_law
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = end_of_martial_law
+	}
+	mutually_exclusive = {
+		focus = to_free_the_motherland
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = paternalism
+            popularity = 0.075
+            }
+		add_popularity = {
+            ideology = despotism
+            popularity = 0.075
+            }
+		add_to_variable = { KMT_Chiang_Support = 2 }
+		add_to_variable = { KMT_Chen_Support = 2 }
+		subtract_from_variable = { KMT_Wang_Support = 4 }
+		custom_effect_tooltip = QIN_to_rejuvenate_the_republic_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = towards_an_uncertain_future
+	icon = GFX_goal_towards_an_uncertain_future
+    cost = 0.5
+	relative_position_id = end_of_martial_law
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = to_rejuvenate_the_republic
+		focus = to_free_the_motherland
+	}
+	completion_reward = {
+		add_political_power = 150
+		add_stability = 0.2
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = enlarged_meeting_of_the_kmt_central_commission
+	icon = GFX_goal_enlarged_meeting_of_the_kmt_central_commission
+    cost = 0.2
+	relative_position_id = towards_an_uncertain_future
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = towards_an_uncertain_future
+	}
+	completion_reward = {
+		set_country_flag = QIN_KMT_Meeting
+		#activate_mission = QIN_convene_the_meeting_decision
+		custom_effect_tooltip = QIN_enlarged_meeting_of_the_kmt_central_commission_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = pan_kungchan_proposal
+	icon = GFX_goal_pan_kungchan_proposal
+    cost = 0.5
+	relative_position_id = enlarged_meeting_of_the_kmt_central_commission
+	x = -4
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = enlarged_meeting_of_the_kmt_central_commission
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_pan_kungchan_proposal_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = chin_hsiaoi_proposal
+	icon = GFX_goal_chin_hsiaoi_proposal
+    cost = 0.5
+	relative_position_id = enlarged_meeting_of_the_kmt_central_commission
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = enlarged_meeting_of_the_kmt_central_commission
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_chin_hsiaoi_proposal_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = chien_changchao_proposal
+	icon = GFX_goal_chien_changchao_proposal
+    cost = 0.5
+	relative_position_id = enlarged_meeting_of_the_kmt_central_commission
+	x = 4
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = enlarged_meeting_of_the_kmt_central_commission
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_chien_changchao_proposal_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = eliminate_fencesitters
+	icon = GFX_goal_eliminate_fencesitters
+    cost = 0.5
+	relative_position_id = pan_kungchan_proposal
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		KMT_Proposal_Count = yes
+	}
+	prerequisite = { 
+	    focus = pan_kungchan_proposal
+	}
+	completion_reward = {
+		subtract_from_variable = { KMT_Proposals = 1 }
+		subtract_from_variable = { KMT_Wang_Support = 5 }
+		add_to_variable = { KMT_Chen_Support = 5 }
+		custom_effect_tooltip = KMT_NXSVictory
+		TNO_improve_security_policy_effectiveness_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = strengthen_supervisory_commission
+	icon = GFX_goal_strengthen_supervisory_commission
+    cost = 0.5
+	relative_position_id = pan_kungchan_proposal
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		KMT_Proposal_Count = yes
+	}
+	prerequisite = { 
+	    focus = pan_kungchan_proposal
+	}
+	completion_reward = {
+		subtract_from_variable = { KMT_Proposals = 1 }
+		subtract_from_variable = { KMT_Chiang_Support = 5 }
+		add_to_variable = { KMT_Chen_Support = 5 }
+		custom_effect_tooltip = KMT_NXSVictory2
+		TNO_improve_trade_unions_policy_effectiveness_med = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = end_the_kmt_ccp_cooperation
+	icon = GFX_goal_end_the_kmt_ccp_cooperation
+    cost = 0.5
+	relative_position_id = pan_kungchan_proposal
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = strengthen_supervisory_commission
+		focus = eliminate_fencesitters
+	}
+	completion_reward = {
+		subtract_from_variable = { KMT_Proposals = 1 }
+		subtract_from_variable = { KMT_Wang_Support = 5 }
+		subtract_from_variable = { KMT_Chiang_Support = 5 }
+		add_to_variable = { KMT_Chen_Support = 10 }
+		custom_effect_tooltip = KMT_NXSMVictory
+		TNO_improve_trade_unions_policy_effectiveness_med = yes
+		add_stability = 0.1
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = establish_political_universities
+	icon = GFX_goal_establish_political_universities
+    cost = 0.5
+	relative_position_id = chin_hsiaoi_proposal
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		KMT_Proposal_Count = yes
+	}
+	prerequisite = { 
+	    focus = chin_hsiaoi_proposal
+	}
+	completion_reward = {
+		subtract_from_variable = { KMT_Proposals = 1 }
+		subtract_from_variable = { KMT_Chen_Support = 5 }
+		add_to_variable = { KMT_Chiang_Support = 5 }
+		custom_effect_tooltip = KMT_CCKVictory
+		TNO_improve_academic_base_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_china_youth_corps
+	icon = GFX_goal_the_china_youth_corps
+    cost = 0.5
+	relative_position_id = chin_hsiaoi_proposal
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		KMT_Proposal_Count = yes
+	}
+	prerequisite = { 
+	    focus = chin_hsiaoi_proposal
+	}
+	completion_reward = {
+		subtract_from_variable = { KMT_Proposals = 1 }
+		subtract_from_variable = { KMT_Wang_Support = 5 }
+		add_to_variable = { KMT_Chiang_Support = 5 }
+		custom_effect_tooltip = KMT_CCKVictory2
+		TNO_improve_academic_base_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = mandate_a_retirement_procedure
+	icon = GFX_goal_mandate_a_retirement_procedure
+    cost = 0.5
+	relative_position_id = chin_hsiaoi_proposal
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = establish_political_universities
+		focus = the_china_youth_corps
+	}
+	completion_reward = {
+		subtract_from_variable = { KMT_Proposals = 1 }
+		subtract_from_variable = { KMT_Wang_Support = 5 }
+		subtract_from_variable = { KMT_Chen_Support = 5 }
+		add_to_variable = { KMT_Chiang_Support = 10 }
+		custom_effect_tooltip = KMT_CCKMVictory
+		add_stability = 0.05
+		TNO_improve_admin_efficiency_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = separate_the_party_and_government
+	icon = GFX_goal_separate_the_party_and_government
+    cost = 0.5
+	relative_position_id = chien_changchao_proposal
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		KMT_Proposal_Count = yes
+	}
+	prerequisite = { 
+	    focus = chien_changchao_proposal
+	}
+	completion_reward = {
+		subtract_from_variable = { KMT_Proposals = 1 }
+		subtract_from_variable = { KMT_Chen_Support = 5 }
+		add_to_variable = { KMT_Wang_Support = 5 }
+		custom_effect_tooltip = KMT_ZXXVictory
+		TNO_improve_admin_efficiency_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = make_dangzu_electable
+	icon = GFX_goal_make_dangzu_electable
+    cost = 0.5
+	relative_position_id = chien_changchao_proposal
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		KMT_Proposal_Count = yes
+	}
+	prerequisite = { 
+	    focus = chien_changchao_proposal
+	}
+	completion_reward = {
+		subtract_from_variable = { KMT_Proposals = 1 }
+		subtract_from_variable = { KMT_Chiang_Support = 5 }
+		add_to_variable = { KMT_Wang_Support = 5 }
+		custom_effect_tooltip = KMT_ZXXVictory2
+		TNO_improve_vote_franchise_policy_effectiveness_high = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = abolish_the_central_commission
+	icon = GFX_goal_abolish_the_central_commission
+    cost = 0.5
+	relative_position_id = chien_changchao_proposal
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = make_dangzu_electable
+		focus = separate_the_party_and_government
+	}
+	completion_reward = {
+		subtract_from_variable = { KMT_Proposals = 1 }
+		subtract_from_variable = { KMT_Chiang_Support = 5 }
+		subtract_from_variable = { KMT_Chen_Support = 5 }
+		add_to_variable = { KMT_Wang_Support = 10 }
+		custom_effect_tooltip = KMT_ZXXMVictory
+		TNO_improve_admin_efficiency_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_final_agenda
+	icon = GFX_goal_the_final_agenda
+    cost = 0.2
+	relative_position_id = chin_hsiaoi_proposal
+	x = 0
+	y = 3
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = end_the_kmt_ccp_cooperation
+		focus = mandate_a_retirement_procedure
+		focus = abolish_the_central_commission
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_the_final_agenda_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = class_a_vote
+	icon = GFX_goal_class_a_vote
+    cost = 0.2
+	relative_position_id = the_final_agenda
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_final_agenda
+	}
+	mutually_exclusive = {
+		focus = class_b_vote
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_class_a_vote_tt
+		QINDecidePresident = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = class_b_vote
+	icon = GFX_goal_class_b_vote
+    cost = 0.2
+	relative_position_id = the_final_agenda
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_final_agenda
+	}
+	mutually_exclusive = {
+		focus = class_a_vote
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_class_a_vote_tt
+		set_country_flag = Chiang_Victory
+		#In case you wonder why, Chiang Kai-shek pulled this exact shit at the 7th Party Congress, the first one held in Taipei. 
+		#Suffice to say, the Whampoa and Zhengxuexi that thought they were having a fair election coped :trel:
+		#DM me if you want in-depth explaination, congrats if you can figure it out without me!
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_fate_of_china
+	icon = GFX_goal_the_fate_of_china
+    cost = 0.2
+	relative_position_id = the_final_agenda
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = class_a_vote
+		focus = class_b_vote
+	}
+	completion_reward = {
+		hidden_effect = {
+			country_event = { id = tmm.maclique.106 }
+		    }
+		custom_effect_tooltip = QIN_the_fate_of_china_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = third_revolution
+	icon = GFX_goal_third_revolution
+    cost = 0.2
+	relative_position_id = the_fate_of_china
+	x = -3
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		always = no
+	}
+	prerequisite = { 
+	    focus = the_fate_of_china
+	}
+	mutually_exclusive = {
+		focus = ten_more_years
+	}
+	mutually_exclusive = {
+		focus = for_democracy
+	}
+	completion_reward = {
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = ten_more_years
+	icon = GFX_goal_ten_more_years
+    cost = 0.2
+	relative_position_id = the_fate_of_china
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		always = no
+	}
+	prerequisite = { 
+	    focus = the_fate_of_china
+	}
+	mutually_exclusive = {
+		focus = for_democracy
+	}
+	mutually_exclusive = {
+		focus = third_revolution
+	}
+	completion_reward = {
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = for_democracy
+	icon = GFX_goal_for_democracy
+    cost = 0.2
+	relative_position_id = the_fate_of_china
+	x = 3
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		always = no
+	}
+	prerequisite = { 
+	    focus = the_fate_of_china
+	}
+	mutually_exclusive = {
+		focus = third_revolution
+	}
+	mutually_exclusive = {
+		focus = ten_more_years
+	}
+	completion_reward = {
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = convene_the_national_assembly
+	icon = GFX_goal_convene_the_national_assembly
+    cost = 0.2
+	relative_position_id = the_fate_of_china
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = third_revolution
+		focus = ten_more_years
+		focus = for_democracy
+	}
+	completion_reward = {
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = president_chen_lifu
+	icon = GFX_goal_president_chen_lifu
+    cost = 1
+	relative_position_id = convene_the_national_assembly
+	x = -7
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		has_completed_focus = third_revolution
+	}
+	prerequisite = { 
+	    focus = convene_the_national_assembly
+	}
+	mutually_exclusive = {
+	    focus = president_chiang_chingkuo
+	}
+	mutually_exclusive = {
+	    focus = president_wang_shijie
+	}
+	completion_reward = {
+		hidden_effect = {
+		    news_event = {
+		    	id = tmm.world.3
+		    }
+		}
+		QIN = {
+            promote_character = QIN_chen_lifu
+		}
+		set_politics = {
+	        ruling_party = despotism
+            elections_allowed = no
+            election_frequency = 48
+		}
+		add_popularity = {
+            ideology = despotism
+            popularity = 0.175
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = tai_chitao_thought
+	icon = GFX_goal_tai_chitao_thought
+    cost = 0.5
+	relative_position_id = president_chen_lifu
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = president_chen_lifu
+	}
+	completion_reward = {
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = family_of_soong_chiashu
+	icon = GFX_goal_family_of_soong_chiashu
+    cost = 0.5
+	relative_position_id = president_chen_lifu
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = president_chen_lifu
+	}
+	completion_reward = {
+		add_political_power = 50
+		set_temp_variable = { temp_econ_GDP_boost_percentage = 0.03 }
+		econ_GDP_boost_once_percentage = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = supreme_neutrality_is_the_key_of_justice
+	icon = GFX_goal_supreme_neutrality_is_the_key_of_justice
+    cost = 1
+	relative_position_id = president_chen_lifu
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = president_chen_lifu
+	}
+	completion_reward = {
+		set_party_name = { 
+                ideology = despotism 
+                long_name = "Kuomintang - Old Central Club Clique" 
+                name = "Kuomintang - CC Clique" 
+            }
+		set_party_name = { 
+                ideology = paternalism
+                long_name = "Kuomintang - Mainstream/Soong Clique" 
+                name = "Kuomintang - Mainstream Conservatives" 
+            }
+		set_party_name = { 
+                ideology = conservatism
+                long_name = "Kuomintang - Chiang-Zhang Clique" 
+                name = "Kuomintang - Chiang-Zhang Clique" 
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = entrench_bureaucracy_in_financial_affairs
+	icon = GFX_goal_entrench_bureaucracy_in_financial_affairs
+    cost = 1
+	relative_position_id = family_of_soong_chiashu
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = family_of_soong_chiashu
+	}
+	completion_reward = {
+        remove_ideas = QIN_Dao_Shengyang_eco
+        add_ideas = QIN_Xu_Baiyuan_eco	
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = compromise_with_the_spirit_encouragement_society
+	icon = GFX_goal_compromise_with_the_spirit_encouragement_society
+    cost = 1
+	relative_position_id = tai_chitao_thought
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = tai_chitao_thought
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = fascism
+            popularity = 0.05
+		}
+		set_party_name = {
+			ideology = fascism
+			long_name = QIN_fascism_Kuomintang_Lixing_Society_party_long
+			name = QIN_fascism_Kuomintang_Lixing_Society_party
+		}
+		add_ideas = QIN_Chiang_Weikuo_sec
+		remove_ideas = QIN_Shen_Zhiyue_sec
+	}		
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+
+shared_focus = {
+	id = the_nexus_of_the_party_state
+	icon = GFX_goal_the_nexus_of_the_party_state
+    cost = 1
+	relative_position_id = tai_chitao_thought
+	x = 2
+	y = 3
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = supreme_neutrality_is_the_key_of_justice
+	}
+	prerequisite = { 
+	    focus = compromise_with_the_spirit_encouragement_society
+	}
+	prerequisite = { 
+	    focus = entrench_bureaucracy_in_financial_affairs
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = despotism
+            popularity = 0.1
+            }
+		TNO_improve_admin_efficiency_low = yes
+		TNO_improve_income_taxation_policy_effectiveness_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = intelligentsia_of_our_own
+	icon = GFX_goal_intelligentsia_of_our_own
+    cost = 1
+	relative_position_id = the_nexus_of_the_party_state
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_nexus_of_the_party_state
+	}
+
+	completion_reward = {
+		hidden_effect = {
+		    retire_character = QIN_Wang_Shijie
+            remove_ideas = QIN_Wang_Shijie_for
+			add_ideas = QIN_Gu_Yiqun_for
+		}
+	}	
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_neo_yeomen_movement
+	icon = GFX_goal_the_neo_yeomen_movement
+    cost = 1
+	relative_position_id = the_nexus_of_the_party_state
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_nexus_of_the_party_state
+	}
+	completion_reward = {
+		hidden_effect = {
+		    retire_character = QIN_Chiang_Chingkuo
+            remove_ideas = QIN_Chiang_Chingkuo_hog
+			add_ideas = QIN_Xiao_Zheng_hog
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = welcome_back_the_matriarch
+	icon = GFX_goal_welcome_back_the_matriarch
+    cost = 2
+	relative_position_id = the_nexus_of_the_party_state
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = intelligentsia_of_our_own
+	}
+	prerequisite = { 
+	    focus = the_neo_yeomen_movement
+	}
+	completion_reward = {
+		add_political_power = 150
+		add_stability = 0.15
+		custom_effect_tooltip = QIN_welcome_back_the_matriarch_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = president_chiang_chingkuo
+	icon = GFX_goal_president_chiang_chingkuo
+    cost = 1
+	relative_position_id = convene_the_national_assembly
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		has_completed_focus = ten_more_years
+	}
+	prerequisite = { 
+	    focus = convene_the_national_assembly
+	}
+	mutually_exclusive = {
+	    focus = president_chen_lifu
+	}
+	mutually_exclusive = {
+	    focus = president_wang_shijie
+	}
+	completion_reward = {
+		hidden_effect = {
+		    news_event = {
+		    	id = tmm.world.1
+		    }
+		}
+		QIN = {
+            promote_character = QIN_chiang_chingkuo_despot
+		}
+		set_politics = {
+	        ruling_party = despotism
+            elections_allowed = no
+            election_frequency = 48
+            }
+		add_popularity = {
+            ideology = despotism
+            popularity = 0.1
+            }
+		add_popularity = {
+            ideology = paternalism
+            popularity = 0.1
+            }
+		set_party_name = { 
+                ideology = fascism 
+                long_name = "Kuomintang - Old CC Clique" 
+                name = "Kuomintang - Old Central Club Clique" 
+            }
+		set_party_name = { 
+                ideology = despotism 
+                long_name = "Kuomintang - Chiang Clique" 
+                name = "Kuomintang - Chiang Clique" 
+            }
+		set_party_name = { 
+                ideology = paternalism
+                long_name = "Kuomintang - Mainstream/China Youth Corps" 
+                name = "Kuomintang - Tuanpai" 
+            }
+		set_party_name = { 
+                ideology = conservatism
+                long_name = "Kuomintang - Anti-Mainstream Constitutionalist Clique" 
+                name = "Kuomintang - Zhang Qun Clique" 
+            }
+		QIN = {
+            promote_character = QIN_Zhang_Qun
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = youth_action
+	icon = GFX_goal_youth_action
+    cost = 0.5
+	relative_position_id = president_chiang_chingkuo
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = president_chiang_chingkuo
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = paternalism
+            popularity = 0.05
+            }
+		TNO_improve_political_parties_policy_effectiveness_med = yes
+		TNO_improve_trade_unions_policy_effectiveness_med = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = industrial_revolution_in_the_northwest
+	icon = GFX_goal_industrial_revolution_in_the_northwest
+    cost = 0.5
+	relative_position_id = president_chiang_chingkuo
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = president_chiang_chingkuo
+	}
+	completion_reward = {
+		set_temp_variable = { gdp_growth_temp = 2 }
+        econ_gdp_growth_change = yes
+		TNO_improve_industrial_expertise_med = yes
+		TNO_improve_industrial_equipment_med = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_lixing_philosophy
+	icon = GFX_goal_the_lixing_philosophy
+    cost = 0.5
+	relative_position_id = president_chiang_chingkuo
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = president_chiang_chingkuo
+	}
+	completion_reward = {
+		add_political_power = 50
+		TNO_improve_max_workhours_policy_effectiveness_high = yes
+		TNO_improve_industrial_expertise_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = rising_stars_of_the_party_state
+	icon = GFX_goal_rising_stars_of_the_party_state
+    cost = 0.5
+	relative_position_id = industrial_revolution_in_the_northwest
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = industrial_revolution_in_the_northwest
+	}
+	prerequisite = { 
+	    focus = youth_action
+	}
+	completion_reward = {
+		hidden_effect = {
+		    retire_character = QIN_Dao_Shengyang
+			remove_ideas = QIN_Dao_Shengyang_eco
+			add_ideas = QIN_Sun_Yunsuan_eco
+		}
+    }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+
+shared_focus = {
+	id = purify_the_nsb
+	icon = GFX_goal_purify_the_nsb
+    cost = 0.5
+	relative_position_id = youth_action
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = youth_action
+	}
+	completion_reward = {
+		hidden_effect = {
+		    retire_character = QIN_Shen_Zhiyue
+			remove_ideas = QIN_Shen_Zhiyue_sec
+			add_ideas = QIN_Wang_Sheng_sec
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = reorganise_the_far_right_elements
+	icon = GFX_goal_reorganise_the_far_right_elements
+    cost = 1
+	relative_position_id = the_lixing_philosophy
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_lixing_philosophy
+	}
+	completion_reward = {
+		add_stability = 0.15
+		add_popularity = {
+            ideology = fascism
+            popularity = 0.05
+            }
+		set_party_name = { 
+                ideology = fascism 
+                long_name = "Kuomintang - Society for Practice of the Three Principles of the People" 
+                name = "Kuomintang - Lixing Society" 
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = a_progressive_kuomintang
+	icon = GFX_goal_a_progressive_kuomintang
+    cost = 1
+	relative_position_id = industrial_revolution_in_the_northwest
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = reorganise_the_far_right_elements
+	}
+	prerequisite = { 
+	    focus = rising_stars_of_the_party_state
+	}
+	completion_reward = {
+		QIN = {
+            promote_character = QIN_chiang_chingkuo_authdem
+		}
+		set_party_name = { 
+                ideology = despotism 
+                long_name = "Kuomintang - Neo-Xishan Clique" 
+                name = "Kuomintang - Neo-Xishan Conference Clique" 
+            }
+		set_politics = {
+	        ruling_party = paternalism
+            elections_allowed = no
+            election_frequency = 48
+            }
+		add_popularity = {
+            ideology = paternalism
+            popularity = 0.1
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = maintain_political_alliances
+	icon = GFX_goal_maintain_political_alliances
+    cost = 1
+	relative_position_id = a_progressive_kuomintang
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = a_progressive_kuomintang
+	}
+	completion_reward = {
+		hidden_effect = {
+		    retire_character = QIN_Chiang_Chingkuo
+            remove_ideas = QIN_Chiang_Chingkuo_hog
+		    add_ideas = QIN_Zhang_Qun_hog
+		}
+	}	
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+
+shared_focus = {
+	id = independence_in_foreign_affairs
+	icon = GFX_goal_independence_in_foreign_affairs
+    cost = 1
+	relative_position_id = a_progressive_kuomintang
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = a_progressive_kuomintang
+	}
+	prerequisite = { 
+	    focus = purify_the_nsb
+	}
+	completion_reward = {
+		hidden_effect = {
+		    retire_character = QIN_Wang_Shijie
+            remove_ideas = QIN_Wang_Shijie_for
+			add_ideas = QIN_Sheng_Changhuan_for
+		}
+	}	
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = renovation_anti_japanese_nation_building
+	icon = GFX_goal_renovation_anti_japanese_nation_building
+    cost = 1
+	relative_position_id = a_progressive_kuomintang
+	x = 0
+	y = 3
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = independence_in_foreign_affairs
+	}
+	prerequisite = { 
+	    focus = maintain_political_alliances
+	}
+	completion_reward = {
+		add_political_power = 150
+		set_temp_variable = { temp_econ_spending_amount = 0.001 }
+        econ_spend_money_once_effect_raw_money = yes 
+		custom_effect_tooltip = QIN_renovation_anti_japanese_nation_building_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = president_wang_shijie
+	icon = GFX_goal_president_wang_shijie
+    cost = 1
+	relative_position_id = convene_the_national_assembly
+	x = 7
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		has_completed_focus = for_democracy
+	}
+	prerequisite = { 
+	    focus = convene_the_national_assembly
+	}
+	mutually_exclusive = {
+	    focus = president_chiang_chingkuo
+	}
+	mutually_exclusive = {
+	    focus = president_chen_lifu
+	}
+	completion_reward = {
+		hidden_effect = {
+		    news_event = {
+		    	id = tmm.world.2
+		    }
+		}
+		QIN = {
+            promote_character = QIN_wang_shijie_leader
+		}
+		set_politics = {
+	        ruling_party = liberal_conservatism
+            elections_allowed = no
+            election_frequency = 48
+            }
+		set_party_name = { 
+                ideology = despotism 
+                long_name = "Kuomintang - Neo-Xishan Conference Clique" 
+                name = "Kuomintang - Neo-Xishan Conference Clique" 
+            }
+		set_party_name = { 
+                ideology = paternalism
+                long_name = "Kuomintang - Anti-Mainstream Conservatives" 
+                name = "Kuomintang - Chiang Clique" 
+            }
+		set_party_name = { 
+                ideology = conservatism
+                long_name = "Kuomintang - Mainstream Liberal Camp" 
+                name = "Kuomintang - Political Science Clique" 
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = rationalisme_revient_en_chine
+	icon = GFX_goal_rationalisme_revient_en_chine
+    cost = 1
+	relative_position_id = president_wang_shijie
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = president_wang_shijie
+	}
+	completion_reward = {
+		add_stability = 0.1
+		add_war_support = 0.1
+		add_political_power = 75
+		TNO_improve_political_parties_policy_effectiveness_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = central_transformation_commission
+	icon = GFX_goal_central_transformation_commission
+    cost = 1
+	relative_position_id = rationalisme_revient_en_chine
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = rationalisme_revient_en_chine
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = liberalism
+            popularity = 0.1
+            }
+		set_party_name = { 
+                ideology = liberalism
+                long_name = "Kuomintang - Central Transformation Commission" 
+                name = "Kuomintang - Liberal Populist Faction" 
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = cohorts_of_free_china
+	icon = GFX_goal_cohorts_of_free_china
+    cost = 0.5
+	relative_position_id = central_transformation_commission
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = central_transformation_commission
+	}
+	completion_reward = {
+		TNO_improve_gender_rights_policy_effectiveness_med = yes
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = mayor_of_shanghai
+	icon = GFX_goal_mayor_of_shanghai
+    cost = 0.5
+	relative_position_id = central_transformation_commission
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = central_transformation_commission
+	}
+	completion_reward = {
+		TNO_improve_admin_efficiency_low = yes
+		hidden_effect = {
+		    retire_character = QIN_Chiang_Chingkuo
+            remove_ideas = QIN_Chiang_Chingkuo_hog
+		}
+		add_ideas = QIN_Wu_Guozhen_hog
+	}	
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = constitution_drafting_commission
+	icon = GFX_goal_constitution_drafting_commission
+    cost = 0.5
+	relative_position_id = central_transformation_commission
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = mayor_of_shanghai
+	}
+	prerequisite = { 
+	    focus = cohorts_of_free_china
+	}
+	completion_reward = {
+		add_political_power = 50
+		TNO_improve_vote_franchise_policy_effectiveness_high = yes
+		TNO_improve_press_rights_policy_effectiveness_med = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = realist_politicking
+	icon = GFX_goal_realist_politicking
+    cost = 1
+	relative_position_id = rationalisme_revient_en_chine
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = rationalisme_revient_en_chine
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = conservatism
+            popularity = 0.1
+        }	
+		hidden_effect = {
+		    retire_character = QIN_Wang_Shijie
+            remove_ideas = QIN_Wang_Shijie_for
+			add_ideas = QIN_Hang_Liwu_for
+        }	
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = political_restitution
+	icon = GFX_goal_political_restitution
+    cost = 0.5
+	relative_position_id = realist_politicking
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = realist_politicking
+	}
+	completion_reward = {
+		hidden_effect = {
+		    retire_character = QIN_Dao_Shengyang
+			remove_ideas = QIN_Dao_Shengyang_eco
+		    add_ideas = QIN_Zhang_Jiaao_eco
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+
+shared_focus = {
+	id = nra_under_the_state
+	icon = GFX_goal_nra_under_the_state
+    cost = 0.5
+	relative_position_id = realist_politicking
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = realist_politicking
+	}
+	completion_reward = {
+		hidden_effect = {
+		    retire_character = QIN_Shen_Zhiyue
+		}
+        remove_ideas = QIN_Shen_Zhiyue_sec
+		add_ideas = QIN_Xiong_Shihui_sec
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = compendium_of_regional_autonomy
+	icon = GFX_goal_compendium_of_regional_autonomy
+    cost = 1
+	relative_position_id = realist_politicking
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = nra_under_the_state
+	}
+	prerequisite = { 
+	    focus = political_restitution
+	}
+	completion_reward = {
+		TNO_improve_trade_unions_policy_effectiveness_high = yes
+	    set_temp_variable = { econ_centralization_temp = -5 }
+		econ_centralization_change = yes
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = measures_for_disciplining_party_members
+	icon = GFX_goal_measures_for_disciplining_party_members
+    cost = 2
+	relative_position_id = rationalisme_revient_en_chine
+	x = 0
+	y = 5
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = constitution_drafting_commission
+	}
+	prerequisite = { 
+	    focus = rationalisme_revient_en_chine
+	}
+	prerequisite = { 
+	    focus = compendium_of_regional_autonomy
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = paternalism
+            popularity = -0.1
+            }
+		add_popularity = {
+            ideology = despotism
+            popularity = -0.075
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+
+shared_focus = {
+	id = arrange_the_dajiu_bank
+	icon = GFX_goal_arrange_the_dajiu_bank
+    cost = 0.5
+	relative_position_id = capital_rejuvenation_committee
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = capital_rejuvenation_committee
+	}
+	completion_reward = {
+		add_political_power = 35
+        set_temp_variable = { temp_econ_spending_amount = 0.003 }
+        econ_spend_money_once_effect_raw_money = yes 
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = visit_delhi
+	icon = GFX_goal_visit_delhi
+    cost = 0.2
+	relative_position_id = arrange_the_dajiu_bank
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = arrange_the_dajiu_bank
+	}
+	mutually_exclusive = {
+		focus = rosa_my_heart
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_rosa_my_heart_tt
+        set_temp_variable = { temp_econ_spending_amount = 0.005 }
+        econ_spend_money_once_effect_raw_money = yes 
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = rosa_my_heart
+	icon = GFX_goal_rosa_my_heart
+    cost = 0.2
+	relative_position_id = arrange_the_dajiu_bank
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = arrange_the_dajiu_bank
+	}
+	mutually_exclusive = {
+		focus = visit_delhi
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_rosa_my_heart_tt
+        set_temp_variable = { temp_econ_spending_amount = 0.005 }
+        econ_spend_money_once_effect_raw_money = yes 
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = ultimatum_to_xining
+	icon = GFX_goal_ultimatum_to_xining
+    cost = 2
+	relative_position_id = arrange_the_dajiu_bank
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = visit_delhi
+		focus = rosa_my_heart
+	}
+	mutually_exclusive = {
+		focus = the_cat_is_out_of_the_bag
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_ultimatum_to_xining_tt
+		hidden_effect = {
+			country_event = { 
+				id = tmm.maclique.104
+				days = 1
+			    }
+		    }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+
+shared_focus = {
+	id = be_careful_nien_tang
+	icon = GFX_goal_be_careful_nien_tang
+    cost = 0.5
+	relative_position_id = confiscate_traitor_property
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = confiscate_traitor_property
+	}
+	completion_reward = {
+        custom_effect_tooltip = QIN_be_careful_nien_tang_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_final_decisions_of_the_meeting
+	icon = GFX_goal_the_final_decisions_of_the_meeting
+    cost = 0.5
+	relative_position_id = a_united_congress
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = a_united_congress
+	}
+	completion_reward = {
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = dominate_the_electoral_commission
+	icon = GFX_goal_dominate_the_electoral_commission
+    cost = 1
+	relative_position_id = the_final_decisions_of_the_meeting
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = the_final_decisions_of_the_meeting
+	}
+	completion_reward = {
+		add_political_power = 50
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = fill_in_the_gap
+	icon = GFX_goal_fill_in_the_gap
+    cost = 0.5
+	relative_position_id = dominate_the_electoral_commission
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = dominate_the_electoral_commission
+	}
+	completion_reward = {
+		subtract_from_variable = {
+            var = kmt_oldguard_lifayuan_seat
+            value = 5
+            }
+		subtract_from_variable = {
+            var = kmt_hardliner_lifayuan_seat
+            value = 14
+            }
+		subtract_from_variable = {
+            var = kmt_xishan_lifayuan_seat
+            value = 5
+            }
+		subtract_from_variable = {
+            var = kmt_zhengxuepai_lifayuan_seat
+            value = 4
+            }
+		custom_effect_tooltip = QIN_fill_in_the_gap_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = gift_to_the_independents
+	icon = GFX_goal_gift_to_the_independents
+    cost = 0.5
+	relative_position_id = fill_in_the_gap
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = fill_in_the_gap
+	}
+	mutually_exclusive = {
+		focus = friendship_with_the_zhengxuexi
+	}
+	completion_reward = {
+		add_to_variable = {
+			var = pdp_lifayuan_seat
+			value = 5
+		    }
+		set_variable = { pdp_lifayuan_support = 90 }
+		add_to_variable = { CCP_Outsider_Support = 10 }
+		custom_effect_tooltip = QIN_friendship_with_the_zhengxuexi_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = friendship_with_the_zhengxuexi
+	icon = GFX_goal_friendship_with_the_zhengxuexi
+    cost = 0.5
+	relative_position_id = fill_in_the_gap
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = fill_in_the_gap
+	}
+	mutually_exclusive = {
+		focus = gift_to_the_independents
+	}
+	completion_reward = {
+		add_to_variable = {
+			var = kmt_zhengxuepai_lifayuan_seat
+			value = 5
+		    }
+		set_variable = { kmt_zhengxuepai_lifayuan_support = 90 }
+		add_to_variable = { CCP_Outsider_Support = 10 }
+		custom_effect_tooltip = QIN_friendship_with_the_zhengxuexi_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = dissolve_the_legislative_yuan
+	icon = GFX_goal_dissolve_the_legislative_yuan
+    cost = 1
+	relative_position_id = fill_in_the_gap
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = friendship_with_the_zhengxuexi
+		focus = gift_to_the_independents
+	}
+	completion_reward = {
+		set_country_flag = Lifayuan_dissolved
+		custom_effect_tooltip = QIN_dissolve_the_legislative_yuan_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = ye_jianying_defense
+	icon = GFX_goal_ye_jianying_defense
+    cost = 1
+	relative_position_id = the_final_decisions_of_the_meeting
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = the_final_decisions_of_the_meeting
+	}
+	completion_reward = {
+		add_political_power = 100
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = red_army_supremacy
+	icon = GFX_goal_red_army_supremacy
+    cost = 1
+	relative_position_id = ye_jianying_defense
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = ye_jianying_defense
+	}
+	completion_reward = {
+		add_tech_bonus = {
+            bonus = 2
+            uses = 2
+            category = land_doctrine
+            }	
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = adjustments_in_the_officer_corps
+	icon = GFX_goal_adjustments_in_the_officer_corps
+    cost = 1
+	relative_position_id = ye_jianying_defense
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = ye_jianying_defense
+	}
+	completion_reward = {
+		TNO_improve_army_professionalism_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = revive_the_political_department
+	icon = GFX_goal_revive_the_political_department
+    cost = 0.5
+	relative_position_id = ye_jianying_defense
+	x = 0
+	y = 3
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = adjustments_in_the_officer_corps
+		focus = red_army_supremacy
+	}
+	completion_reward = {
+		TNO_improve_security_policy_effectiveness_monthly_med = yes
+		add_political_power = 75
+		add_stability = 0.05
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = partys_general_staff
+	icon = GFX_goal_partys_general_staff
+    cost = 1
+	relative_position_id = revive_the_political_department
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = revive_the_political_department
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_partys_general_staff_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = back_to_the_politburo
+	icon = GFX_goal_back_to_the_politburo
+    cost = 0.2
+	relative_position_id = a_united_congress
+	x = 13
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		always = no
+	}
+	prerequisite = { 
+	    focus = a_united_congress
+	}
+	completion_reward = {
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = behind_the_curtains
+	icon = GFX_goal_behind_the_curtains
+    cost = 1
+	relative_position_id = back_to_the_politburo
+	x = -4
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = gold_and_gems_in_concordia
+		focus = the_union_of_stone_and_water
+	}
+	completion_reward = {
+		add_stability = 0.1
+		add_to_variable = { CCP_PC = 100 }
+		add_to_variable = { CCP_Outsider_Support = 10 }
+		custom_effect_tooltip = QIN_behind_the_curtains_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_union_of_stone_and_water
+	icon = GFX_goal_the_union_of_stone_and_water
+    cost = 0.5
+	relative_position_id = back_to_the_politburo
+	x = -5
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = back_to_the_politburo
+	}
+	mutually_exclusive = {
+		focus = gold_and_gems_in_concordia
+	}
+	completion_reward = {
+		add_to_variable = { CCP_Outsider_Support = 5 }
+		add_popularity = {
+            ideology = liberalism
+            popularity = 0.075
+            }
+		custom_effect_tooltip = QIN_the_union_of_stone_and_water_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = gold_and_gems_in_concordia
+	icon = GFX_goal_gold_and_gems_in_concordia
+    cost = 0.5
+	relative_position_id = back_to_the_politburo
+	x = -3
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = back_to_the_politburo
+	}
+	mutually_exclusive = {
+		focus = the_union_of_stone_and_water
+	}
+	completion_reward = {
+		add_to_variable = { CCP_Outsider_Support = 5 }
+		add_popularity = {
+            ideology = progressivism
+            popularity = 0.075
+            }
+		custom_effect_tooltip = QIN_the_union_of_stone_and_water_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = committee_for_new_constitution
+	icon = GFX_goal_committee_for_new_constitution
+    cost = 1
+	relative_position_id = behind_the_curtains
+	x = 0
+	y = 4
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = promise_open_elections
+	}
+	prerequisite = { 
+	    focus = on_the_united_government
+	}
+	completion_reward = {
+		add_political_power = 75
+		TNO_improve_admin_efficiency_low = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = promise_open_elections
+	icon = GFX_goal_promise_open_elections
+    cost = 0.5
+	relative_position_id = behind_the_curtains
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = behind_the_curtains
+	}
+	completion_reward = {
+        set_temp_variable = { temp_econ_spending_amount = 0.001 }
+        econ_spend_money_once_effect_raw_money = yes 
+		add_popularity = {
+            ideology = communist
+            popularity = -0.05
+            }
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.05
+            }
+		add_to_variable = { CCP_PC = 50 }
+		custom_effect_tooltip = QIN_promise_open_elections_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = on_the_united_government
+	icon = GFX_goal_on_the_united_government
+    cost = 0.5
+	relative_position_id = behind_the_curtains
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = behind_the_curtains
+	}
+	completion_reward = {
+		add_stability = 0.05
+		subtract_from_variable = { CCP_Party_Support = 5 }
+		add_to_variable = { CCP_PC = 50 }
+		custom_effect_tooltip = QIN_on_the_united_government_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = puppet_show_in_the_organisation_department
+	icon = GFX_goal_puppet_show_in_the_organisation_department
+    cost = 1
+	relative_position_id = back_to_the_politburo
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = back_to_the_politburo
+	}
+	completion_reward = {
+		add_political_power = 150
+		subtract_from_variable = { CCP_Party_Support = 10 }
+		custom_effect_tooltip = QIN_puppet_show_in_the_organisation_department_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = deputy_head_an_ziwen
+	icon = GFX_goal_deputy_head_an_ziwen
+    cost = 0.5
+	relative_position_id = puppet_show_in_the_organisation_department
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = puppet_show_in_the_organisation_department
+	}
+	mutually_exclusive = {
+		focus = secretary_liu_lantao
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_deputy_head_an_ziwen_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = secretary_liu_lantao
+	icon = GFX_goal_secretary_liu_lantao
+    cost = 0.5
+	relative_position_id = puppet_show_in_the_organisation_department
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = puppet_show_in_the_organisation_department
+	}
+	mutually_exclusive = {
+		focus = deputy_head_an_ziwen
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_secretary_liu_lantao_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = foremost_experiences
+	icon = GFX_goal_foremost_experiences
+    cost = 1
+	relative_position_id = puppet_show_in_the_organisation_department
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = deputy_head_an_ziwen
+		focus = secretary_liu_lantao
+	}
+	completion_reward = {
+		add_to_variable = { CCP_PC = 20 }
+		add_to_variable = { CCP_Party_Support = 5 }
+		custom_effect_tooltip = QIN_foremost_experiences_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = clean_up_political_records
+	icon = GFX_goal_clean_up_political_records
+    cost = 0.5
+	relative_position_id = foremost_experiences
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+		focus = deputy_head_an_ziwen
+	}
+	completion_reward = {
+		add_to_variable = { CCP_PC = 10 }
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.05
+            }
+		custom_effect_tooltip = QIN_clean_up_political_records_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = focus_on_the_young_generation
+	icon = GFX_goal_focus_on_the_young_generation
+    cost = 0.5
+	relative_position_id = foremost_experiences
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+		focus = secretary_liu_lantao
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = communist
+            popularity = -0.1
+            }
+		custom_effect_tooltip = QIN_clean_up_political_records_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = renovate_central_archives
+	icon = GFX_goal_waive_all_past_grudges
+    cost = 1
+	relative_position_id = foremost_experiences
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+		focus = clean_up_political_records
+		focus = focus_on_the_young_generation
+	}
+	completion_reward = {
+		add_stability = 0.1
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.05
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = waive_all_past_grudges
+	icon = GFX_goal_renovate_central_archives
+    cost = 1
+	relative_position_id = renovate_central_archives
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+		focus = renovate_central_archives
+	}
+	prerequisite = { 
+		focus = committee_for_new_constitution
+	}
+	prerequisite = { 
+		focus = agitate_the_nnau
+	}
+	completion_reward = {
+        set_country_flag = CCP_Struggle_over
+		custom_effect_tooltip = QIN_waive_all_past_grudges_tt
+		hidden_effect = {
+		    news_event = {
+		    	id = tmm.world.4
+		    }
+		}
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = reevaluate_soviet_experiences
+	icon = GFX_goal_reevaluate_soviet_experiences
+    cost = 1
+	relative_position_id = back_to_the_politburo
+	x = 4
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = back_to_the_politburo
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_reevaluate_soviet_experiences_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = diacletic_analysis
+	icon = GFX_goal_diacletic_analysis
+    cost = 0.5
+	relative_position_id = reevaluate_soviet_experiences
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = reevaluate_soviet_experiences
+	}
+	mutually_exclusive = {
+		focus = suffer_not_the_failures
+	}
+	completion_reward = {
+		add_to_variable = { CCP_Party_Support = 5 }
+		subtract_from_variable = { CCP_People_Support = 5 }
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.02
+            }
+		custom_effect_tooltip = QIN_diacletic_analysis_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = suffer_not_the_failures
+	icon = GFX_goal_suffer_not_the_failures
+    cost = 0.5
+	relative_position_id = reevaluate_soviet_experiences
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = reevaluate_soviet_experiences
+	}
+	mutually_exclusive = {
+		focus = diacletic_analysis
+	}
+	completion_reward = {
+		add_to_variable = { CCP_People_Support = 5 }
+		subtract_from_variable = { CCP_Party_Support = 5 }
+		add_popularity = {
+            ideology = communist
+            popularity = -0.05
+            }
+		custom_effect_tooltip = QIN_suffer_not_the_failures_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = ideology_cannot_perish
+	icon = GFX_goal_ideology_cannot_perish
+    cost = 1
+	relative_position_id = reevaluate_soviet_experiences
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = diacletic_analysis
+		focus = suffer_not_the_failures
+	}
+	completion_reward = {
+		add_political_power = 50
+		add_popularity = {
+            ideology = paternalism
+            popularity = -0.20
+            }
+		add_to_variable = { CCP_PC = 50 }
+		custom_effect_tooltip = QIN_ideology_cannot_perish_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = pay_homage_to_great_men
+	icon = GFX_goal_pay_homage_to_great_men
+    cost = 0.5
+	relative_position_id = ideology_cannot_perish
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = ideology_cannot_perish
+	}
+	mutually_exclusive = {
+		focus = pay_respect_to_heroes
+	}
+	completion_reward = {
+        TNO_improve_public_meetings_policy_effectiveness_med = yes
+		add_war_support = 0.3
+		add_command_power = 50
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.05
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = pay_respect_to_heroes
+	icon = GFX_goal_pay_respect_to_heroes
+    cost = 0.5
+	relative_position_id = ideology_cannot_perish
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = ideology_cannot_perish
+	}
+	mutually_exclusive = {
+		focus = pay_homage_to_great_men
+	}
+	completion_reward = {
+		army_experience = 100
+		add_to_variable = { CCP_People_Support = 5 }
+		add_popularity = {
+            ideology = communist
+            popularity = 0.05
+            }
+		custom_effect_tooltip = QIN_pay_respect_to_heroes_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = agitate_the_nnau
+	icon = GFX_goal_agitate_the_nnau
+    cost = 1
+	relative_position_id = ideology_cannot_perish
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = pay_homage_to_great_men
+		focus = pay_respect_to_heroes
+	}
+	completion_reward = {
+		add_stability = -0.1
+		add_to_variable = { CCP_People_Support = 20 }
+		subtract_from_variable = { CCP_Party_Support = 10 }
+		custom_effect_tooltip = QIN_agitate_the_nnau_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = do_not_forget_the_times_of_yanan
+	icon = GFX_goal_do_not_forget_the_times_of_yanan
+    cost = 0.2
+	relative_position_id = a_united_congress
+	x = -14
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		always = no
+	}
+	prerequisite = { 
+	    focus = a_united_congress
+	}
+	completion_reward = {
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = learning_movements
+	icon = GFX_goal_learning_movements
+    cost = 1
+	relative_position_id = do_not_forget_the_times_of_yanan
+	x = -4
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = do_not_forget_the_times_of_yanan
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_learning_movements_tt
+		subtract_from_variable = { QIN_CCP_unity = 10 }
+		add_popularity = {
+            ideology = communist
+            popularity = 0.02
+        }
+		set_temp_variable = { temp_econ_spending_amount = 0.001 }
+		econ_spend_money_once_effect_raw_money = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = errors_of_some_comrades
+	icon = GFX_goal_errors_of_some_comrades
+    cost = 0.5
+	relative_position_id = learning_movements
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = learning_movements
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_errors_of_some_comrades_tt
+		add_to_variable = { CCP_Party_Support = 5 }
+		subtract_from_variable = { CCP_Outsider_Support = 5 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = liberation_of_thought
+	icon = GFX_goal_liberation_of_thought
+    cost = 0.5
+	relative_position_id = learning_movements
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = learning_movements
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_liberation_of_thought_tt
+		add_to_variable = { CCP_People_Support = 10 }
+		add_to_variable = { CCP_PC = 50 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = since_the_vi_congress
+	icon = GFX_goal_since_the_vi_congress
+    cost = 1
+	relative_position_id = learning_movements
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = liberation_of_thought
+	}
+	prerequisite = { 
+	    focus = errors_of_some_comrades
+	}
+	completion_reward = {
+		if = {
+			limit = {
+				check_variable = { QIN_CCP_unity > 80 }
+			}
+			set_variable = { QIN_CCP_unity = 100 }
+		}
+		else = {
+			add_to_variable = { QIN_CCP_unity = 20 }
+		}
+		add_to_variable = { CCP_PC = 50 }
+		custom_effect_tooltip = QIN_since_the_vi_congress_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = mobilise_communist_youth
+	icon = GFX_goal_mobilise_communist_youth
+    cost = 0.5
+	relative_position_id = since_the_vi_congress
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = since_the_vi_congress
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_mobilise_communist_youth_tt
+		add_to_variable = { CCP_People_Support = 5 }
+		subtract_from_variable = { CCP_Outsider_Support = 10 }
+		add_to_variable = { CCP_PC = 15 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = a_city_of_pomps
+	icon = GFX_goal_a_city_of_pomps
+    cost = 0.5
+	relative_position_id = mobilise_communist_youth
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = mobilise_communist_youth
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_a_city_of_pomps_tt
+		add_stability = 0.05
+		add_to_variable = { CCP_Outsider_Support = 5 }
+		subtract_from_variable = { CCP_Party_Support = 5 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = establish_central_education_commission
+	icon = GFX_goal_establish_central_education_commission
+    cost = 0.5
+	relative_position_id = since_the_vi_congress
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = since_the_vi_congress
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_establish_central_education_commission_tt
+		subtract_from_variable = { CCP_Party_Support = 10 }
+		add_to_variable = { CCP_PC = 50 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = neo_cancelism
+	icon = GFX_goal_neo_cancelism
+    cost = 0.5
+	relative_position_id = establish_central_education_commission
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = establish_central_education_commission
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_neo_cancelism_tt
+		add_to_variable = { CCP_PC = 100 }
+		subtract_from_variable = { QIN_CCP_unity = 30 }
+		add_popularity = {
+            ideology = communist
+            popularity = 0.075
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = selected_works_of_mao_zedong
+	icon = GFX_goal_selected_works_of_mao_zedong
+    cost = 0.5
+	relative_position_id = establish_central_education_commission
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = since_the_vi_congress
+	}
+	completion_reward = {
+		hidden_effect = {
+			country_event = { 
+				id = tmm.maclique.107 
+				days = 5
+			    }
+		    }
+		add_to_variable = { CCP_PC = 100 }
+		set_temp_variable = { temp_econ_spending_amount = 0.001 }
+        econ_spend_money_once_effect_raw_money = yes 
+		add_war_support = 0.15
+		army_experience = 50
+		add_popularity = {
+            ideology = socialist
+            popularity = 0.03
+            }
+		add_popularity = {
+            ideology = communist
+            popularity = 0.03
+            }
+		custom_effect_tooltip = QIN_selected_works_of_mao_zedong_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = secretary_gao_column
+	icon = GFX_goal_secretary_gao_column
+    cost = 0.2
+	relative_position_id = a_city_of_pomps
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = reorganise_voice_of_northwest
+	}
+	prerequisite = { 
+	    focus = organic_law_of_the_national_assembly_abolishment_bill
+	}
+	prerequisite = { 
+	    focus = selected_works_of_mao_zedong
+	}
+	prerequisite = { 
+	    focus = a_city_of_pomps
+	}
+	prerequisite = { 
+	    focus = neo_cancelism
+	}
+	completion_reward = {
+		set_country_flag = CCP_Struggle_over
+		custom_effect_tooltip = QIN_secretary_gao_column_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = red_legislative_yuan
+	icon = GFX_goal_red_legislative_yuan
+    cost = 0.5
+	relative_position_id = do_not_forget_the_times_of_yanan
+	x = 4
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = do_not_forget_the_times_of_yanan
+	}
+	completion_reward = {
+		add_stability = 0.1
+		TNO_improve_admin_efficiency_med = yes
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = our_cabinet
+	icon = GFX_goal_our_cabinet
+    cost = 0.5
+	relative_position_id = red_legislative_yuan
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = red_legislative_yuan
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = paternalism
+            popularity = -0.25
+            }
+		TNO_improve_political_parties_policy_effectiveness_med = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = invite_progressive_politicians
+	icon = GFX_goal_invite_progressive_politicians
+    cost = 0.2
+	relative_position_id = our_cabinet
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = our_cabinet
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = conservatism
+            popularity = 0.05
+            }
+		custom_effect_tooltip = QIN_invite_inds_tt
+		add_to_variable = { CCP_Outsider_Support = 5 }
+		subtract_from_variable = { CCP_Party_Support = 5 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = invite_democratic_patriots
+	icon = GFX_goal_invite_democratic_patriots
+    cost = 0.2
+	relative_position_id = invite_progressive_politicians
+	x = 2
+	y = 0
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = our_cabinet
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = progressivism
+            popularity = 0.05
+            }
+		custom_effect_tooltip = QIN_invite_inds_tt
+		add_to_variable = { CCP_Outsider_Support = 5 }
+		subtract_from_variable = { CCP_Party_Support = 5 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = socialist_freedom_red_democracy
+	icon = GFX_goal_socialist_freedom_red_democracy
+    cost = 0.5
+	relative_position_id = invite_progressive_politicians
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = invite_progressive_politicians
+	}
+	prerequisite = { 
+	    focus = invite_democratic_patriots
+	}
+	completion_reward = {
+		TNO_improve_vote_franchise_policy_effectiveness_high = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = take_over_the_interior
+	icon = GFX_goal_take_over_the_interior
+    cost = 0.5
+	relative_position_id = red_legislative_yuan
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = red_legislative_yuan
+	}
+	completion_reward = {
+		TNO_improve_security_policy_effectiveness_med = yes
+		custom_effect_tooltip = QIN_reorganise_voice_of_northwest_tt
+		subtract_from_variable = { CCP_Outsider_Support = 15 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = office_of_military_investigation
+	icon = GFX_goal_office_of_military_investigation
+    cost = 0.5
+	relative_position_id = take_over_the_interior
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = take_over_the_interior
+	}
+	completion_reward = {
+		add_political_power = 15
+		TNO_improve_army_professionalism_high = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = get_only_what_we_need
+	icon = GFX_goal_get_only_what_we_need
+    cost = 0.5
+	relative_position_id = take_over_the_interior
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = take_over_the_interior
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_get_only_what_we_need_tt
+		subtract_from_variable = { QIN_KMT_unity = 15 }
+		add_to_variable = { CCP_PC = 20 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = expose_them
+	icon = GFX_goal_expose_them
+    cost = 0.5
+	relative_position_id = take_over_the_interior
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = get_only_what_we_need
+	}
+	prerequisite = { 
+	    focus = office_of_military_investigation
+	}
+	completion_reward = {
+		add_popularity = {
+            ideology = paternalism
+            popularity = -0.20
+            }
+		add_political_power = 150
+		set_temp_variable = { money_reserves_temp = 0.005 }
+		econ_money_reserves_change_raw_money = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = organic_law_of_the_national_assembly_abolishment_bill
+	icon = GFX_goal_organic_law_of_the_national_assembly_abolishment_bill
+    cost = 0.5
+	relative_position_id = expose_them
+	x = -5
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = socialist_freedom_red_democracy
+	}
+	completion_reward = {
+		custom_effect_tooltip = QIN_organic_law_of_the_national_assembly_abolishment_bill_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = reorganise_voice_of_northwest
+	icon = GFX_goal_reorganise_voice_of_northwest
+    cost = 1
+	relative_position_id = expose_them
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+		CCP_Balanced_Humor = yes
+	}
+	prerequisite = { 
+	    focus = expose_them
+	}
+	completion_reward = {
+		add_stability = 0.2
+		custom_effect_tooltip = QIN_reorganise_voice_of_northwest_tt
+		subtract_from_variable = { CCP_Outsider_Support = 15 }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_red_tide
+	icon = GFX_goal_the_red_tide
+    cost = 1
+	relative_position_id = secretary_gao_column
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = secretary_gao_column
+	}
+	completion_reward = {
+		swap_ideas = {
+            remove_idea = tno_public_meetings_regulated
+            add_idea = tno_public_meetings_allowed
+            }
+		hidden_effect = {
+		    news_event = {
+		    	id = tmm.world.4
+		    }
+		}
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = year_of_horse
+	icon = GFX_goal_year_of_horse
+    cost = 1
+	relative_position_id = a_united_congress
+	x = 0
+	y = 9
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = dissolve_the_legislative_yuan
+	}
+	prerequisite = { 
+	    focus = partys_general_staff
+	}
+	prerequisite = { 
+	    focus = waive_all_past_grudges
+		focus = the_red_tide
+	}	
+	completion_reward = {
+		every_state = {
+			limit = {
+				is_owned_by = GAN
+			}
+			add_claim_by = QIN
+		}
+		hidden_effect = {
+			clr_country_flag = qinghai_in_turmoil
+			set_country_flag = TNO_closing_screen_show
+	        }
+		custom_effect_tooltip = QIN_year_of_horse_tt
+		set_country_flag = year_of_horse
+		QIN_reload_tree = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = year_of_horsekmt
+	icon = GFX_goal_year_of_horse
+    cost = 1
+	relative_position_id = renovation_anti_japanese_nation_building
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	bypass = {
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = measures_for_disciplining_party_members
+		focus = renovation_anti_japanese_nation_building
+		focus = welcome_back_the_matriarch
+	}	
+	completion_reward = {
+		every_state = {
+			limit = {
+				is_owned_by = GAN
+			}
+			add_claim_by = QIN
+		}
+		hidden_effect = {
+			clr_country_flag = qinghai_in_turmoil
+			set_country_flag = TNO_closing_screen_show
+	        }
+		custom_effect_tooltip = QIN_year_of_horse_tt
+		set_country_flag = year_of_horse
+		QIN_reload_tree = yes
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}

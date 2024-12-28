@@ -1,0 +1,59 @@
+﻿##################################
+###    The Ma Clique Events    ###
+##################################
+
+add_namespace = tmm.world
+
+#Xinan Related
+#1962
+news_event = {
+	id = tmm.world.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event tmm.world.1"}
+	title = tmm.world.1.t
+	desc = tmm.world.1.d
+	picture = GFX_news_event_xibei
+	is_triggered_only = yes
+
+	option = {
+		name = "Most curious indeed."
+	}
+}
+
+news_event = {
+	id = tmm.world.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event tmm.world.2"}
+	title = tmm.world.2.t
+	desc = tmm.world.2.d
+	picture = GFX_news_event_xibei
+	is_triggered_only = yes
+
+	option = {
+		name = "Most curious indeed."
+	}
+}
+
+news_event = {
+	id = tmm.world.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event tmm.world.3"}
+	title = tmm.world.3.t
+	desc = tmm.world.3.d
+	picture = GFX_news_event_xibei
+	is_triggered_only = yes
+
+	option = {
+		name = "Most curious indeed."
+	}
+}
+
+news_event = {
+	id = tmm.world.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event tmm.world.4"}
+	title = tmm.world.4.t
+	desc = tmm.world.4.d
+	picture = GFX_news_event_xibei
+	is_triggered_only = yes
+
+	option = {
+		name = "The Red Phantom endures yet."
+	}
+}

@@ -1,0 +1,1243 @@
+characters = {
+	###########################################################
+	###########			CHINA AND WARLORDS			###########
+	###########################################################
+
+	###TMM CHARACTERS###
+	QIN_Chen_cheng = {
+		name = QIN_Chen_cheng
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/QIN/Portrait_Chen_cheng.png"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_CHEN_CHENG_DESC"
+			ideology = paternalism_united_front_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	QIN_ma_jiyuan_tmm = {
+		name = QIN_ma_jiyuan_tmm
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Ma_Jiyuan.dds" }
+			army = { large = "gfx/leaders/QIN/Portrait_Ma_Jiyuan.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_MA_JIYUAN_DESC"
+			ideology = paternalism_united_front_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		
+		corps_commander = {
+			desc = "MILITARY_MA_JIYUAN_DESC"
+			traits = { war_hero cavalry_officer cavalry_expert adaptable }
+	        skill = 4
+	        attack_skill = 4
+	        defense_skill = 2
+	        planning_skill = 3
+	        logistics_skill = 2
+			legacy_id = 30000
+		}
+	}
+	QIN_ma_jiyuan_despot = {
+		name = QIN_ma_jiyuan_despot
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Ma_Jiyuan.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_MA_JIYUAN_DESC"
+			ideology = despotism_party_state_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_national_assembly = {
+		name = QIN_national_assembly
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/QIN/Portrait_The_National_Assembly.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NATIONAL_ASSEMBLY_DESC"
+			ideology = paternalism_united_front_subtype
+			traits = { national_assembly }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_zhu_jiahua = {
+		name = QIN_zhu_jiahua
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Zhu_Jiahua.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_ZHU_JIAHUA_DESC"
+			ideology = liberal_conservatism_neoconfucian_liberalism_subtype
+			traits = { 
+				political_compromise 
+				cardiovascular_disease 
+			}
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_sun_fo = {
+		name = QIN_sun_fo
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Sun_Fo.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_SUN_FO_DESC_TMM"
+			ideology = despotism_party_state_subtype
+			traits = { 
+				son_of_founding_father
+			}
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_chiang_chingkuo_despot = {
+		name = QIN_chiang_chingkuo_despot
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Chiang_Ching-kuo.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = despotism_party_state_subtype
+			traits = { 
+				son_of_generalissimo
+			}
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_chiang_chingkuo_authdem = {
+		name = QIN_chiang_chingkuo_authdem
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Chiang_Ching-kuo.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = paternalism_party_state_capitalism_subtype
+			traits = { 
+				son_of_generalissimo
+			}
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_zhang_shenfu = {
+		name = QIN_zhang_shenfu
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/QIN/Portrait_Zhang_Shenfu.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ZHANG_SHENFU_DESC"
+			ideology = progressivism_left_sanmin_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_chen_lifu = {
+		name = QIN_chen_lifu
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Chen_Lifu.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = despotism_chiang_kai_shek_thought_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_wang_shijie_leader = {
+		name = QIN_wang_shijie_leader
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Wang_Shijie.dds" }
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberal_conservatism_neoconfucian_liberalism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_zhang_qun_leader = {
+		name = QIN_zhang_qun
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Zhang_Qun.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_ZHANG_QUN_DESC"
+			ideology = conservatism_quinquepartite_constitutionalism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_gao_gang = {
+		name = QIN_gao_gang
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Gao_Gang.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_GAO_GANG_DESC"
+			ideology = communist_vanguard_system_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_liu_shaoqi = {
+		name = QIN_liu_shaoqi
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Liu_Shaoqi.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_LIU_SHAOQI_DESC"
+			ideology = socialist_new_democracy_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_liao_mengxing = {
+		name = QIN_liao_mengxing
+		portraits = {
+			civilian = { large = "gfx/leaders/QIN/Portrait_Liao_Mengxing.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_LIAO_MENGXING_DESC"
+			ideology = progressivism_left_sanmin_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_zhang_fakui = {
+		name = QIN_zhang_fakui
+		portraits = {
+			army = { large = "gfx/leaders/QIN/Portrait_Zhang_Fakui.dds" }
+		}
+		corps_commander = {
+			traits = { war_hero infantry_officer adaptable }
+			desc = "MILITARY_ZHANG_FAKUI_DESC"
+			skill = 4
+			attack_skill = 2
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 30001
+		}
+	}
+	QIN_du_yuming = {
+		name = QIN_du_yuming
+		portraits = {
+			army = { large = "gfx/leaders/QIN/Portrait_Du_Yuming.dds" }
+		}
+		corps_commander = {
+			traits = { war_hero infantry_officer infantry_expert trait_reckless }
+			desc = "MILITARY_DU_YUMING_DESC"
+			skill = 5
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 30002
+		}
+	}
+	QIN_ye_jianying = {
+		name = QIN_ye_jianying
+		portraits = {
+			army = { large = "gfx/leaders/QIN/Portrait_Ye_Jianying.dds" }
+		}
+		corps_commander = {
+			traits = { war_hero infantry_officer guerilla_fighter }
+			desc = "MILITARY_YE_JIANYING_DESC"
+			skill = 5
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id = 30005
+		}
+	}
+	QIN_guo_jiqiao = {
+		name = QIN_guo_jiqiao
+		portraits = {
+			army = { large = "gfx/leaders/QIN/Portrait_Guo_Jiqiao.dds" }
+		}
+		corps_commander = {
+			traits = { bearer_of_artillery infantry_leader }
+			desc = "MILITARY_GUO_JIQIAO_DESC"
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = 30006
+		}
+	}	
+	QIN_mu_shengzhong = {
+		name = QIN_mu_shengzhong
+		portraits = {
+			army = { large = "gfx/leaders/QIN/Portrait_Mu_Shengzhong.dds" }
+		}
+		corps_commander = {
+			traits = { adaptable infantry_officer trait_mountaineer inflexible_strategist }
+			desc = "MILITARY_MU_SHENGZHONG_DESC"
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 6
+			legacy_id = 30007
+		}
+	}
+	GUZ_long_yun = {
+		name = GUZ_long_yun
+		portraits = {
+			civilian = { large = "gfx/leaders/GUZ/Portrait_Long_Yun.dds" }
+			army = { large = "gfx/leaders/GUZ/Portrait_Long_Yun.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_LONG_YUN_TMM_DESC"
+			ideology = despotism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			desc = "MILITARY_LONG_YUN_TMM_DESC"
+			traits = { politically_connected }
+	        skill = 4
+	        attack_skill = 4
+	        defense_skill = 2
+	        planning_skill = 3
+	        logistics_skill = 2
+			legacy_id = 30009
+		}
+	}
+	GUZ_he_yingqin = {
+		name = GUZ_he_yingqin
+		portraits = {
+			civilian = { large = "gfx/leaders/YUN/Portrait_Guizhou_He_Yingqin.dds" }
+			army = { large = "gfx/leaders/YUN/Portrait_Guizhou_He_Yingqin.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_HE_YINGQIN_TMM_DESC"
+			ideology = fascism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			desc = "MILITARY_HE_YINGQIN_TMM_DESC"
+			traits = { politically_connected }
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 3
+	        planning_skill = 3
+	        logistics_skill = 2
+			legacy_id = 30010
+		}
+	}
+	GUZ_yang_sen = {
+		name = GUZ_yang_sen
+		portraits = {
+			civilian = { large = "gfx/leaders/GUZ/GUZ_Portrait_Yang_Sen.dds" }
+			army = { large = "gfx/leaders/GUZ/GUZ_Portrait_Yang_Sen.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_HE_YINGQIN_TMM_DESC"
+			ideology = conservatism_quinquepartite_constitutionalism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			desc = "MILITARY_YANG_SEN_DESC"
+			traits = { guerilla_fighter }
+	        skill = 4
+	        attack_skill = 3
+	        defense_skill = 3
+	        planning_skill = 4
+	        logistics_skill = 5
+			legacy_id = 30011
+		}
+	}
+	GUZ_li_zongren = {
+		name = GUZ_li_zongren
+		portraits = {
+			civilian = { large = "gfx/leaders/GUZ/GUZ_Portrait_Li_Zongren.dds" }
+			army = { large = "gfx/leaders/GUZ/GUZ_Portrait_Li_Zongren.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_HE_YINGQIN_TMM_DESC"
+			ideology = paternalism_united_front_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			desc = "MILITARY_LI_ZONGREN_DESC"
+			traits = { infantry_expert war_hero }
+	        skill = 5
+	        attack_skill = 4
+	        defense_skill = 4
+	        planning_skill = 4
+	        logistics_skill = 4
+			legacy_id = 30012
+		}
+	}
+
+	XIK_liu_wenhui2 = {
+		name = XIK_liu_wenhui2
+		portraits = {
+			civilian = { large = "gfx/leaders/XIK/Portrait_Liu_Wenhui.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_LIU_WENHUI_DESC"
+			ideology = progressivism_left_sanmin_subtype
+			traits = { liu_wenhui }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+
+	XIK_zhang_zhihe = {
+		name = XIK_zhang_zhihe
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/XIK/Portrait_Zhang_Zhihe.dds"
+				small = "GFX_XIK_Zhang_Zhihe"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ZHANG_ZHIHE_DESC"
+			ideology = socialist_new_democracy_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = XIK_Zhang_Zhihe_hog
+			allowed = { original_tag = XIK }
+			traits = {
+				head_of_government
+				zhang_zhihe
+				socialist_new_democracy_subtype
+				XIK_Zhang_Zhihe_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	XIK_xue_yue = {
+		name = XIK_xue_yue
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/XIK/Portrait_Xue_Yue.dds"
+				small = "GFX_XIK_Xue_Yue"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_XUE_YUE_DESC"
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = XIK_Xue_Yue_for
+			allowed = { original_tag = XIK }
+			traits = {
+				foreign_minister
+				xue_yue
+				conservatism_subtype
+				XIK_Xue_Yue_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	XIK_li_xianchun = {
+		name = XIK_li_xianchun
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/XIK/Portrait_Li_Xianchun.dds"
+				small = "GFX_XIK_Li_Xianchun"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = XIK_Li_Xianchun_eco
+			allowed = { original_tag = XIK }
+			traits = {
+				economy_minister
+				li_xianchun
+				paternalism_united_front_subtype
+				XIK_Li_Xianchun_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	XIK_zhang_weijiong = {
+		name = XIK_zhang_weijiong
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/XIK/Portrait_Zhang_Weijiong.dds"
+				small = "GFX_XIK_Zhang_Weijiong"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = XIK_Zhang_Weijiong_sec
+			allowed = { original_tag = XIK }
+			traits = {
+				security_minister
+				zhang_weijiong
+				paternalism_united_front_subtype
+				XIK_Zhang_Weijiong_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SIC_he_guoguang = {
+		name = SIC_he_guoguang
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SIC/Portrait_He_Guoguang.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HE_GUOGUANG_DESC"
+			ideology = fascism_corporatism_subtype
+			traits = { he_guoguang }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	SIC_xiong_kewu = {
+		name = SIC_xiong_kewu
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SIC/Portrait_Xiong_Kewu.dds"
+				small = "GFX_SIC_Xiong_Kewu"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_XIONG_KEWU_DESC"
+			ideology = progressivism_left_sanmin_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = SIC_Xiong_Kewu_for
+			allowed = { original_tag = XIK }
+			traits = {
+				foreign_minister
+				xiong_kewu
+				progressivism_left_sanmin_subtype
+				SIC_Xiong_Kewu_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SIC_deng_xihou = {
+		name = SIC_deng_xihou
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SIC/Portrait_Deng_Xihou.dds"
+				small = "GFX_SIC_Deng_Xihou"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_DENG_XIHOU_DESC"
+			ideology = despotism_military_junta_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = SIC_Deng_Xihou_hog
+			allowed = { original_tag = XIK }
+			traits = {
+				head_of_government
+				deng_xihou
+				despotism_military_junta_subtype
+				SIC_Deng_Xihou_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SIC_liu_hangchen = {
+		name = SIC_liu_hangchen
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SIC/Portrait_Liu_Hangchen.dds"
+				small = "GFX_SIC_Liu_Hangchen"
+			}
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = SIC_Liu_Hangchen_eco
+			allowed = { original_tag = XIK }
+			traits = {
+				economy_minister
+				liu_hangchen
+				paternalism_compradore_capitalism_subtype
+				SIC_Liu_Hangchen_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	SIC_pan_wenhua = {
+		name = SIC_pan_wenhua
+		portraits = {
+			civilian = { 
+				large = "gfx/leaders/SIC/Portrait_Pan_Wenhua.dds"
+				small = "GFX_SIC_Pan_Wenhua"
+			}
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = SIC_Pan_Wenhua_sec
+			allowed = { original_tag = XIK }
+			traits = {
+				security_minister
+				pan_wenhua
+				despotism_military_junta_subtype
+				SIC_Pan_Wenhua_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+###TMM MINISTERS###
+	QIN_Yuan_Shouqian = {
+		name = QIN_Yuan_Shouqian
+		portraits = { 
+			civilian = { 
+				small = "gfx/interface/ideas/ministers/QIN/QIN_Yuan_Shouqian.png" 
+			} 
+		}
+		advisor = {
+			slot = head_of_government
+			idea_token = QIN_Yuan_Shouqian_hog
+			allowed = { original_tag = QIN }
+			traits = {
+				head_of_government
+				liberalism
+				QIN_Yuan_Shouqian_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+    QIN_Chiang_Chingkuo = {
+		name = QIN_Chiang_Chingkuo
+		portraits = { 
+			civilian = { 
+				small = "gfx/interface/ideas/ministers/QIN/QIN_Chiang_Ching_kuo.png" 
+			} 
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = QIN_Chiang_Chingkuo_sec
+			allowed = { original_tag = QIN }
+			traits = {
+				security_minister
+				paternalism
+				son_of_generalissimo
+				QIN_Chiang_ching_kuo_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Zhou_Hongtao = {
+		name = QIN_Zhou_Hongtao
+		portraits = { 
+			civilian = { 
+				small = "gfx/interface/ideas/ministers/QIN/QIN_Zhou_Hongtao.png" 
+			} 
+		}
+		advisor = {
+			slot = economy_minister
+			idea_token = QIN_Zhou_Hongtao_eco
+			allowed = { original_tag = QIN }
+			traits = {
+				economy_minister
+				paternalism
+				QIN_Zhou_Hongtao_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Lei_Zhen = {
+		name = QIN_Lei_Zhen
+		portraits = { 
+			civilian = { 
+				small = "gfx/interface/ideas/ministers/QIN/QIN_Lei_Zhen.png" 
+			}
+			civilian = { 
+				large = "gfx/leaders/QIN/Portrait_Lei_Zhen.dds" 
+			}
+		}
+		advisor = {
+			slot = foreign_minister
+			idea_token = QIN_Lei_Zhen_for
+			allowed = { original_tag = QIN }
+			traits = {
+				foreign_minister
+				liberalism
+				QIN_Lei_Zhen_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		country_leader = {
+			desc = "POLITICS_LEI_ZHEN_DESC"
+			ideology = liberalism_populist_liberalism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	QIN_Ji_Chaoding = {
+		name = QIN_Ji_Chaoding
+		portraits = { civilian = { small = "GFX_QIN_Ji_Chaoding" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = QIN_Ji_Chaoding_eco
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				economy_minister
+				progressivism
+				scholarly_economist
+				QIN_Ji_Chaoding_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Dao_Shengyang = {
+		name = QIN_Dao_Shengyang
+		portraits = { civilian = { small = "GFX_QIN_Dao_Shengyang" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = QIN_Dao_Shengyang_eco
+			allowed = { 
+				original_tag = QIN 
+				
+			}
+			traits = {
+				economy_minister
+				paternalism
+				seasoned_negotiator
+				QIN_Dao_Shengyang_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Hang_Liwu = {
+		name = QIN_Hang_Liwu
+		portraits = { civilian = { small = "GFX_QIN_Hang_Liwu" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = QIN_Hang_Liwu_for
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				foreign_minister
+				humanitarian_servant
+				QIN_Hang_Liwu_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+	QIN_Zhang_Jiaao = {
+		name = QIN_Zhang_Jiaao
+		portraits = { civilian = { small = "GFX_QIN_Zhang_Jiaao" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = QIN_Zhang_Jiaao_eco
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				economy_minister
+				experienced_banker
+				QIN_Zhang_Jiaao_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Xiong_Shihui = {
+		name = QIN_Xiong_Shihui
+		portraits = { civilian = { small = "GFX_QIN_Xiong_Shihui" } }
+		advisor = {
+			slot = security_minister
+			idea_token = QIN_Xiong_Shihui_sec
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				security_minister
+				pro_zxx_general
+				QIN_Xiong_Shihui_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Wu_Guozhen = {
+		name = QIN_Wu_Guozhen
+		portraits = { civilian = { small = "GFX_QIN_Wu_Guozhen" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = QIN_Wu_Guozhen_hog
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				head_of_government
+				outspoken_democrat
+				QIN_Wu_Guozhen_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Chiang_Weikuo = {
+		name = QIN_Chiang_Weikuo
+		portraits = { civilian = { small = "GFX_QIN_Chiang_Weikuo" } }
+		advisor = {
+			slot = security_minister
+			idea_token = QIN_Chiang_Weikuo_sec
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				security_minister
+				battlehardened_leiter
+				QIN_Chiang_Weikuo_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Xiao_Zheng = {
+		name = QIN_Xiao_Zheng
+		portraits = { civilian = { small = "GFX_QIN_Xiao_Zheng" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = QIN_Xiao_Zheng_hog
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				head_of_government
+				reform_advocate
+				QIN_Xiao_Zheng_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Xu_Baiyuan = {
+		name = QIN_Xu_Baiyuan
+		portraits = { civilian = { small = "GFX_QIN_Xu_Baiyuan" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = QIN_Xu_Baiyuan_eco
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				economy_minister
+				experienced_banker
+				QIN_Xu_Baiyuan_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Gu_Yiqun = {
+		name = QIN_Gu_Yiqun
+		portraits = { civilian = { small = "GFX_QIN_Gu_Yiqun" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = QIN_Gu_Yiqun_for
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				foreign_minister
+				economic_diplomat
+				QIN_Gu_Yiqun_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Wang_Sheng = {
+		name = QIN_Wang_Sheng
+		portraits = { civilian = { small = "GFX_QIN_Wang_Sheng" } }
+		advisor = {
+			slot = security_minister
+			idea_token = QIN_Wang_Sheng_sec
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				security_minister
+				faceless
+				QIN_Wang_Sheng_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Sun_Yunsuan = {
+		name = QIN_Sun_Yunsuan
+		portraits = { civilian = { small = "GFX_QIN_Sun_Yunsuan" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = QIN_Sun_Yunsuan_eco
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				economy_minister
+				architect_minded
+				QIN_Sun_Yunsuan_eco_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Sheng_Changhuan = {
+		name = QIN_Sheng_Changhuan
+		portraits = { civilian = { small = "GFX_QIN_Sheng_Changhuan" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = QIN_Sheng_Changhuan_for
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				foreign_minister
+				diplomatic_godfather
+				QIN_Sheng_Changhuan_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Zhang_Qun = {
+		name = QIN_Zhang_Qun
+		portraits = { civilian = { small = "GFX_QIN_Zhang_Qun" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = QIN_Zhang_Qun_hog
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				head_of_government
+				number_two_of_the_party
+				QIN_Zhang_Qun_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Gao_Gang_hog = {
+		name = QIN_Gao_Gang_hog
+		portraits = { civilian = { small = "GFX_QIN_Gao_Gang_hog" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = QIN_Gao_Gang_hog_hog
+			allowed = { 
+				original_tag = QIN 
+			}
+			traits = {
+				head_of_government
+				red_hog #!!!!
+				QIN_Gao_Gang_hog_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Wang_Shijie = {
+		name = QIN_Wang_Shijie
+		portraits = { civilian = { small = "GFX_QIN_Wang_Shijie" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = QIN_Wang_Shijie_for
+			allowed = { original_tag = QIN }
+			traits = {
+				foreign_minister
+				liberal_conservatism_neoconfucian_liberalism_subtype
+				pragmatic_negotiator
+				QIN_Wang_Shijie_for_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	QIN_Shen_Zhiyue = {
+		name = QIN_Shen_Zhiyue
+		portraits = { civilian = { small = "GFX_QIN_Shen_Zhiyue" } }
+		advisor = {
+			slot = security_minister
+			idea_token = QIN_Shen_Zhiyue_sec
+			allowed = { original_tag = QIN }
+			traits = {
+				security_minister
+				despotism_party_state_subtype
+				seasoned_spymaster
+                QIN_Shen_Zhiyue_sec_desc
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GUZ_Li_Pinxian = {
+		name = GUZ_Li_Pinxian
+		portraits = { civilian = { small = "GFX_GUZ_Li_Pinxian" } }
+		advisor = {
+			slot = head_of_government
+			idea_token = GUZ_Li_Pinxian_hog
+			allowed = { original_tag = GUZ }
+			traits = {
+				head_of_government
+				despotism
+				gui_warlord
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GUZ_Miao_Yuntai = {
+		name = GUZ_Miao_Yuntai
+		portraits = { civilian = { small = "GFX_GUZ_Miao_Yuntai" } }
+		advisor = {
+			slot = economy_minister
+			idea_token = GUZ_Miao_Yuntai_eco
+			allowed = { original_tag = GUZ }
+			traits = {
+				economy_minister
+				paternalism
+				southwest_industrialist
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GUZ_Yang_Ruxuan = {
+		name = GUZ_Yang_Ruxuan
+		portraits = { civilian = { small = "GFX_GUZ_Yang_Ruxuan" } }
+		advisor = {
+			slot = foreign_minister
+			idea_token = GUZ_Yang_Ruxuan_for
+			allowed = { original_tag = GUZ }
+			traits = {
+				foreign_minister
+				despotism
+				nanjing_tusi
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	GUZ_Lu_Han = {
+		name = GUZ_Lu_Han
+		portraits = { civilian = { small = "GFX_GUZ_Lu_Han" } }
+		advisor = {
+			slot = security_minister
+			idea_token = GUZ_Lu_Han_sec
+			allowed = { original_tag = GUZ }
+			traits = {
+				security_minister
+				despotism
+				leader_of_the_dian_army
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	TMM_Long_Shenwu = {
+		name = TMM_Long_Shenwu
+		portraits = {
+			civilian = { large = "gfx/leaders/GUZ/Portrait_Long_Shenwu.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_LONG_SHENWU_DESC"
+			ideology = despotism_warlordism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	TMM_Li_Pinxian = {
+		name = TMM_Li_Pinxian
+		portraits = {
+			civilian = { large = "gfx/leaders/GUX/Portrait_Li_Pinxian.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_LI_PINXIAN_DESC"
+			ideology = despotism_warlordism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	KOR_Kim_Jongpil = {
+		name = KOR_Kim_Jongpil
+		portraits = {
+			civilian = { large = "gfx/leaders/KOR/Portrait_Kanamura_Toshihide.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_KIM_JONGPIL_DESC"
+			ideology = paternalism_controlled_democracy_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	SHX_Bo_Yibo = {
+		name = SHX_Bo_Yibo
+		portraits = {
+			civilian = { large = "gfx/leaders/SHX/Portrait_Bo_Yibo.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_BO_YIBO_DESC"
+			ideology = communist_chinese_maoism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+	}
+	XIK_liu_wenhui_tmm = {
+		name = XIK_liu_wenhui_tmm
+		portraits = {
+			civilian = { large = "gfx/leaders/XIK/Portrait_Liu_Wenhui.dds" }
+			army = { large = "gfx/leaders/XIK/Portrait_Liu_Wenhui.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_LIU_WENHUI_DESC"
+			ideology = paternalism_united_front_subtype
+			traits = { liu_wenhui }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			traits = { old_guard politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+}
