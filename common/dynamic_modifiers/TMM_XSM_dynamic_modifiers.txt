@@ -1,8 +1,0 @@
-QIN_modernisation_dynamic_modifier = {
-	enable = {tag = QIN}
-	monthly_population = QIN_modernisation_monthly
-	offensive_war_stability_factor = QIN_modernisation_offensive
-	stability_factor = QIN_modernisation_stability
-	war_support_factor = QIN_modernisation_war
-	Free_production_units_modifier = QIN_pu_modifier
-}

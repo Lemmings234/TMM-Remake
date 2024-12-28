@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_econ_sphere_icon_NOV"
-		textureFile = "gfx/interface/economy_gui/econ_panel/NOV_sphere_icon.dds"	
-	}
-}
