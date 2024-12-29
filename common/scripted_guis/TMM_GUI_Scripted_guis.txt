@@ -1785,7 +1785,9 @@ scripted_gui = {
 			}
 
 			###JAPAN###
-			JAP_Imperial_Court_Jyushin_Portrait_3_Mikasa_visible = { NOT = has_country_flag = JAP_Mikasa_Assassinated }
+			JAP_Imperial_Court_Jyushin_Portrait_3_Mikasa_visible = { 
+				NOT = { has_country_flag = JAP_Mikasa_Assassinated } 
+			}
 			Region_Akita_visible = {
 				NOT = {
 					OR = {
