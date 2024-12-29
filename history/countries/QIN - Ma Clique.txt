@@ -155,7 +155,6 @@ recruit_character = QIN_Chiang_Chingkuo
 recruit_character = QIN_Zhou_Hongtao
 recruit_character = QIN_Lei_Zhen
 recruit_character = QIN_national_assembly
-recruit_character = QIN_lei_zhen
 recruit_character = QIN_zhang_qun_leader
 recruit_character = QIN_zhang_qun
 recruit_character = QIN_zhang_shenfu
@@ -186,10 +185,6 @@ recruit_character = QIN_Wu_Guozhen
 recruit_character = QIN_Xiong_Shihui
 recruit_character = QIN_Zhang_Jiaao
 recruit_character = QIN_Hang_Liwu
-set_nationality = {
-    target_country = QIN
-    character = QIN_Ji_Chaoding
-}
 recruit_character = QIN_Ji_Chaoding
 
 add_ideas = {
@@ -221,7 +216,7 @@ add_ideas = {
 
 	#Economic
 	tno_trade_laws_export_focus
-	tno_income_taxation_elite_tax_exemptions
+	tno_income_taxation_low_income_weighted
 	tno_minimum_wage_no_minimum_wage
 	tno_max_workhours_unlimited_work_day
 	tno_child_labor_legal
@@ -237,7 +232,7 @@ add_ideas = {
 	tno_lgbt_rights_lgbt_outlawed
 	tno_gender_rights_traditional_roles
 	tno_minorities_equal_rights
-	tno_security_regulated_police
+	tno_security_crime_prevention
 
 	#Societal Development
 	tno_army_professionalism_disgruntled_veterans
