@@ -290,8 +290,8 @@ shared_focus = {
             var = kmt_hardliner_lifayuan_support
             value = 7.5		
 		    }
-		QINClamp = yes
-		QINLifayuanClamp = yes
+		#QINClamp = yes
+		#QINLifayuanClamp = yes
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no

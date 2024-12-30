@@ -489,8 +489,8 @@ multiply_variable = {
 }
 
 
-set_country_flag = president_ni_wenya
-set_country_flag = whip_ma_shuli
+# set_country_flag = president_ni_wenya
+# set_country_flag = whip_ma_shuli
 set_country_flag = QIN_Legislation_In_Recess
 set_country_flag = QIN_Legislation_Stage_1
 
