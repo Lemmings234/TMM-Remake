@@ -252,6 +252,7 @@ ideologies = {
 			paternalism_herrerism_subtype = { can_be_randomly_selected = no }
 			paternalism_antarctic_administration_subtype = { can_be_randomly_selected = no }
 			#TMM
+			paternalism_reorganised_tridemism_subtype = { can_be_randomly_selected = no }
 			paternalism_united_front_subtype = { can_be_randomly_selected = no }
 			paternalism_compradore_capitalism_subtype = { can_be_randomly_selected = no }
 			paternalism_party_state_capitalism_subtype = { can_be_randomly_selected = no }

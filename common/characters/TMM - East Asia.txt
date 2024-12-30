@@ -1199,7 +1199,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KIM_JONGPIL_DESC"
-			ideology = paternalism_controlled_democracy_subtype
+			ideology = paternalism_anocracy_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1

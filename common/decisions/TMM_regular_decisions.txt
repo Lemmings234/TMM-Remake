@@ -21,11 +21,9 @@ TMM_Sichuan = {
 
 		allowed = {
 			original_tag = SIC
-			is_debug = yes
-			is_ai = no
 		}
 		visible = {
-			is_ai = no
+			is_debug = yes
 		}
 
 		fire_only_once = no
@@ -39,11 +37,9 @@ TMM_Sichuan = {
 
 		allowed = {
 			original_tag = SIC
-			is_debug = yes
-			is_ai = no
 		}
 		visible = {
-			is_ai = no
+			is_debug = yes
 		}
 
 		fire_only_once = no
@@ -57,11 +53,9 @@ TMM_Sichuan = {
 
 		allowed = {
 			original_tag = SIC
-			is_debug = yes
-			is_ai = no
 		}
 		visible = {
-			is_ai = no
+			is_debug = yes
 		}
 
 		fire_only_once = no
