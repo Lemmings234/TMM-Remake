@@ -1,0 +1,1184 @@
+spriteTypes = {
+# Scripted GUI Pie Chart by Yard1, for more details check out https://github.com/Yard1/HoI4-Scripted-GUI-Pie-Chart !
+	spriteType = {
+		name = "GFX_QIN_pie_chart_segment"
+		texturefile = "gfx/interface/pie_chart_segment.dds"
+		noOfFrames = 5
+	}
+
+###BATTLE FOR GOLMUD ASSETS###
+	spriteType = {
+		name = "GFX_QIN_Golmud_Icon"
+		texturefile = "gfx/interface/battle_for_golmud/Golmud_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Map"
+		texturefile = "gfx/interface/battle_for_golmud/Golmud_Map.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z1N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z1N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z2N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z2N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z3N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z3N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z4N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z4N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z5N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z5N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z6N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z6N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z7N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z7N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z8N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z8N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z9N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z9N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z10N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z10N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z11N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z11N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z12N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z12N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z13N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z13N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z14N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z14N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z15N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z15N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z16N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z16N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z17N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z17N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z18N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z18N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z19N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z19N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z20N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z20N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z21N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z21N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z22N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z22N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z23N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z23N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z24N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z24N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z25N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z25N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z26N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z26N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z27N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z27N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z28N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z28N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z29N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z29N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z30N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z30N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z31N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z31N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z32N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z32N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z33N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z33N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z34N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z34N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z35N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z35N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z36N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z36N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z37N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z37N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z38N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z38N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z39N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z39N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z40N"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z40N.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z1B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z1B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z2B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z2B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z3B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z3B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z4B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z4B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z5B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z5B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z6B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z6B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z7B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z7B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z8B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z8B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z9B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z9B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z10B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z10B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z11B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z11B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z12B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z12B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z13B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z13B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z14B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z14B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z15B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z15B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z16B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z16B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z17B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z17B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z18B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z18B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z19B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z19B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z20B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z20B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z21B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z21B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z22B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z22B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z23B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z23B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z24B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z24B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z25B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z25B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z26B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z26B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z27B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z27B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z28B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z28B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z29B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z29B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z30B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z30B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z31B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z31B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z32B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z32B.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z33B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z33B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z34B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z34B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z35B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z35B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z36B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z36B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z37B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z37B.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z38B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z38B.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z39B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z39B.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z40B"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z40B.dds"
+	}	
+
+
+
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z1R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z1R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z2R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z2R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z3R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z3R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z4R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z4R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z5R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z5R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z6R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z6R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z7R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z7R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z8R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z8R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z9R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z9R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z10R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z10R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z11R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z11R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z12R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z12R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z13R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z13R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z14R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z14R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z15R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z15R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z16R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z16R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z17R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z17R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z18R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z18R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z19R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z19R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z20R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z20R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z21R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z21R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z22R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z22R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z23R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z23R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z24R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z24R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z25R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z25R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z26R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z26R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z27R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z27R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z28R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z28R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z29R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z29R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z30R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z30R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z31R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z31R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z32R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z32R.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z33R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z33R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z34R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z34R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z35R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z35R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z36R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z36R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z37R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z37R.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z38R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z38R.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z39R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z39R.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_Z40R"
+		texturefile = "gfx/interface/battle_for_golmud/zones/Z40R.dds"
+	}	
+
+
+	spriteType = {
+		name = "GFX_QIN_Golmud_R1"
+		texturefile = "gfx/interface/battle_for_golmud/phzones/R1.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_R2"
+		texturefile = "gfx/interface/battle_for_golmud/phzones/R2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_R3"
+		texturefile = "gfx/interface/battle_for_golmud/phzones/R3.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_R4"
+		texturefile = "gfx/interface/battle_for_golmud/phzones/R4.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_R5"
+		texturefile = "gfx/interface/battle_for_golmud/phzones/R5.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_Golmud_R6"
+		texturefile = "gfx/interface/battle_for_golmud/phzones/R6.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_Mj"
+		texturefile = "gfx/interface/battle_for_golmud/VictoryPointMajor.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_Mn"
+		texturefile = "gfx/interface/battle_for_golmud/VictoryPointMinor.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_BG"
+		texturefile = "gfx/interface/battle_for_golmud/Golmud_VP.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B1_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B1_G.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B2_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B2_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B3_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B3_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B4_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B4_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B5_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B5_G.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B6_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B6_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B7_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B7_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B8_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B8_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B9_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B9_G.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B10_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B10_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B11_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B11_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B12_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B12_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B13_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B13_G.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B14_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B14_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B15_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B15_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B16_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B16_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B17_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B17_G.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B18_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B18_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B19_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B19_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B20_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B20_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B21_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B21_G.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B22_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B22_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B23_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B23_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B24_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B24_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B25_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B25_G.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B26_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B26_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B27_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B27_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B28_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B28_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B29_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B29_G.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B30_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B30_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B31_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B31_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B32_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B32_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B33_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B33_G.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B34_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B34_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B35_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B35_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B36_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B36_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B37_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B37_G.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B38_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B38_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B39_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B39_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B40_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B40_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B1_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B1_Gr.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B2_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B2_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B3_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B3_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B4_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B4_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B5_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B5_Gr.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B6_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B6_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B7_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B7_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B8_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B8_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B9_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B9_Gr.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B10_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B10_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B11_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B11_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B12_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B12_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B13_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B13_Gr.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B14_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B14_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B15_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B15_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B16_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B16_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B17_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B17_Gr.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B18_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B18_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B19_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B19_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B20_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B20_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B21_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B21_Gr.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B22_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B22_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B23_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B23_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B24_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B24_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B25_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B25_Gr.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B26_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B26_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B27_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B27_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B28_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B28_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B29_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B29_Gr.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B30_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B30_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B31_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B31_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B32_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B32_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B33_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B33_Gr.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B34_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B34_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B35_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B35_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B36_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B36_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B37_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B37_Gr.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B38_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B38_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B39_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B39_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B40_Gr"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B40_Gr.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B1_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B1_N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B2_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B2_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B3_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B3_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B4_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B4_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B5_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B5_N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B6_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B6_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B7_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B7_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B8_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B8_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B9_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B9_N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B10_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B10_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B11_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B11_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B12_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B12_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B13_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B13_N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B14_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B14_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B15_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B15_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B16_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B16_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B17_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B17_N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B18_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B18_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B19_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B19_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B20_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B20_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B21_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B21_N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B22_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B22_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B23_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B23_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B24_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B24_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B25_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B25_N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B26_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B26_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B27_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B27_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B28_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B28_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B29_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B29_N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B30_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B30_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B31_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B31_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B32_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B32_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B33_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B33_N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B34_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B34_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B35_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B35_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B36_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B36_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B37_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B37_N.dds"
+	}	
+	spriteType = {
+		name = "GFX_QIN_VP_B38_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B38_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B39_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B39_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_B40_N"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/B40_N.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_BNA"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/BNA.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_Attack_VPButton"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/Attack_VPButton.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_CCP_VPButton"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/CCP_VPButton.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_KMT_VPButton"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/KMT_VPButton.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_Attack_VPButton_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/Attack_VPButton_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_CCP_VPButton_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/CCP_VPButton_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_VP_KMT_VPButton_G"
+		texturefile = "gfx/interface/battle_for_golmud/buttons/KMT_VPButton_G.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Bar"
+		texturefile = "gfx/interface/battle_for_golmud/golmud_bar.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Bar_BG"
+		texturefile = "gfx/interface/battle_for_golmud/golmud_bar_neu.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Golmud_Lines"
+		texturefile = "gfx/interface/battle_for_golmud/Lines.dds"
+	}
+	#Full credit goes to le Kartenhaus, never knew it works this way. Though it limits variables to 3 including background,
+	#so that's the reason why I have unused sprites if you are wondering.
+	progressbartype = {
+		name = "GFX_QIN_Golmud_AN"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/battle_for_golmud/golmud_bar_allies.dds"
+		textureFile2 = "gfx/interface/battle_for_golmud/golmud_bar_empty.dds"
+		size = { x = 45 y = 539 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+
+	progressbartype = {
+		name = "GFX_QIN_Golmud_NN"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/battle_for_golmud/golmud_bar_nin.dds"
+		textureFile2 = "gfx/interface/battle_for_golmud/golmud_bar_empty.dds"
+		size = { x = 45 y = 539 }
+		effectFile = "gfx/FX/progress_reverse.lua" #Fills Right -> Left
+		horizontal = no
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_bar_button"
+		texturefile = "gfx/interface/battle_for_golmud/golmud_bar_button.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_bar_cracked"
+		texturefile = "gfx/interface/battle_for_golmud/golmud_bar_cracked.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_banner_large"
+		texturefile = "gfx/interface/battle_for_golmud/banner_large.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_banner_small"
+		texturefile = "gfx/interface/battle_for_golmud/banner_small.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_banner_KMT_large"
+		texturefile = "gfx/interface/battle_for_golmud/banner_large_KMT.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_banner_KMT_small"
+		texturefile = "gfx/interface/battle_for_golmud/banner_small_KMT.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_movement_limit"
+		texturefile = "gfx/interface/battle_for_golmud/golmud_movement_limit.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_ccp_faction_people"
+		texturefile = "gfx/interface/battle_for_golmud/ccp_faction_people.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_ccp_faction_party"
+		texturefile = "gfx/interface/battle_for_golmud/ccp_faction_party.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_ccp_faction_outsider"
+		texturefile = "gfx/interface/battle_for_golmud/ccp_faction_outsider.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_kmt_faction_bg"
+		texturefile = "gfx/interface/battle_for_golmud/kmt_faction_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_piechart_texture"
+		texturefile = "gfx/interface/battle_for_golmud/piechart_texture.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_golmud_piechart_centre"
+		texturefile = "gfx/interface/battle_for_golmud/piechart_centre.dds"
+	}
+
+	## OHHHHH NEW PIE CHART ##
+	progressbartype = {
+		name = "GFX_BOG_KMT_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/KMT_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_KMT.png"
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+		size = { x = 312 y = 342 }
+	}
+	
+	progressbartype = {
+		name = "GFX_BOG_CCP_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/CCP_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_CCP.png"
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+		size = { x = 312 y = 342 }
+	}
+	
+	progressbartype = {
+		name = "GFX_BOG_QINGHAI_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/Qinghai_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_Qing.png"
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+		size = { x = 312 y = 342 }
+	}
+
+	progressbartype = {
+		name = "GFX_BOG_NINGXIA_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/Ningxia_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_Ning.png"
+		size = { x = 312 y = 342 }
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+	}
+	
+	progressbartype = {
+		name = "GFX_BOG_NEUTRAL_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/Neutral_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_neutrality.png"
+		size = { x = 312 y = 342 }
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+	}
+}
