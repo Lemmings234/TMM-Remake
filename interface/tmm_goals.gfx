@@ -76,7 +76,7 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_year_of_rabbit.dds"			
 	}
 	SpriteType = {
-	name = "GFX_address_the_issues"
+	name = "GFX_goal_address_the_issues"
 	texturefile = "gfx/interface/goals/focus_address_the_issues.dds"			
 	}
 	SpriteType = {

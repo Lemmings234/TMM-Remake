@@ -1050,7 +1050,7 @@ spriteTypes = {
 	progressbartype = {
 		name = "GFX_Outlook_Liberal_Bar"
 		textureFile1 = "gfx/interface/lifayuan/new_icons/Liberal_Outlook_Bar.dds"
-		textureFile2 = "gfx/interface/lifayuan/new_icons/Empty_Outlook_Bar"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/Empty_Outlook_Bar.dds"
 		size = { x = 95 y = 95 }
 		effectFile = "gfx/FX/progress_radial.lua"
 	}
