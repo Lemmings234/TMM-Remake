@@ -17513,6 +17513,7 @@ QINMonthlyTick = {
 		    QIN = {
 			owns_state = 604 
 		    owns_state = 906
+			owns_state = 2429
             }			
 		}
 		subtract_from_variable = { State_Stability^0 = QIN_han_proQINce_stability_tick }
@@ -17770,6 +17771,7 @@ QINAddSlotEffect = {
 	    		OR = {
 	    			state = 604
 	    			state = 906
+					state = 2429
 	    		}
 	    	}
 	    	add_extra_state_shared_building_slots = 1
@@ -17822,6 +17824,7 @@ QINAddSlotEffect = {
 	    	limit = {
 	    		OR = {
 	    			state = 764
+					state = 2427
 	    		}
 	    	}
 	    	add_extra_state_shared_building_slots = 1
@@ -17937,6 +17940,7 @@ QINAddFactoryEffect = {
 	    		OR = {
 	    			state = 604
 	    			state = 906
+					state = 2429
 	    		}
 	    	}
 			add_building_construction = {
@@ -18005,6 +18009,7 @@ QINAddFactoryEffect = {
 	    	limit = {
 	    		OR = {
 	    			state = 764
+					state = 2427
 	    		}
 	    	}
 			add_building_construction = {

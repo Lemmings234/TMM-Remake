@@ -11,12 +11,12 @@ QIN_Management = {
 				     NOT = { is_core_of = QIN }
 			    }
 				check_variable = {
-	                var = QIN_yushu_stability
+	                var = State_Stability^1
 	                value = 75
 	                compare = greater_than
                 }
 				check_variable = {
-	                var = QIN_yushu_ethnic_tension
+	                var = State_Tension^1
 	                value = 10
 	                compare = less_than
                 }
@@ -61,19 +61,31 @@ QIN_Management = {
 
 		available = {
 		    AND = {
-			     QIN = {
-			        owns_state = 322
-			    }
+				QIN = {
+					owns_state = 322
+					owns_state = 1961
+					owns_state = 2395
+					owns_state = 2396
+				}
                 322 = {
 				     NOT = { is_core_of = QIN }
 			    }
+				1961 = {
+				     NOT = { is_core_of = QIN }
+			    }
+				2395 = {
+				     NOT = { is_core_of = QIN }
+			    }
+				2396 = {
+				     NOT = { is_core_of = QIN }
+			    }
 				check_variable = {
-	                var = QIN_tibet_stability
+	                var = State_Stability^2
 	                value = 75
 	                compare = greater_than
                 }
 				check_variable = {
-	                var = QIN_tibet_ethnic_tension
+	                var = State_Tension^2
 	                value = 10
 	                compare = less_than
                 }
@@ -89,13 +101,28 @@ QIN_Management = {
 			}	
 			 QIN = {
 			    owns_state = 322
+				owns_state = 1961
+				owns_state = 2395
+				owns_state = 2396
 		    }
             322 = {
+			     NOT = { is_core_of = QIN }
+			}				
+			1961 = {
+			     NOT = { is_core_of = QIN }
+			}				
+			2395 = {
+			     NOT = { is_core_of = QIN }
+			}				
+			2396 = {
 			     NOT = { is_core_of = QIN }
 			}				
 		}		
 		highlight_states = {
 			state = 322
+			state = 1961
+			state = 2395
+			state = 2396
 		}
 		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
@@ -104,6 +131,9 @@ QIN_Management = {
 
 		remove_effect = {		#The effects to execute once the envelope icon is clicked.
 		    add_state_core = 322
+			add_state_core = 1961
+			add_state_core = 2395
+			add_state_core = 2396
 			custom_effect_tooltip = QIN_coring_unpog_tt
 		}
 		
@@ -120,17 +150,29 @@ QIN_Management = {
 		    AND = {
 			     QIN = {
 			        owns_state = 765
+					owns_state = 1962
+					owns_state = 2397
+					owns_state = 2398
 			    }
                 765 = {
 				     NOT = { is_core_of = QIN }
 			    }
+				1962 = {
+				     NOT = { is_core_of = QIN }
+			    }
+				2397 = {
+				     NOT = { is_core_of = QIN }
+			    }
+				2398 = {
+				     NOT = { is_core_of = QIN }
+			    }
 				check_variable = {
-	                var = QIN_kang_stability
+	                var = State_Stability^3
 	                value = 75
 	                compare = greater_than
                 }
 				check_variable = {
-	                var = QIN_kang_ethnic_tension
+	                var = State_Tension^3
 	                value = 10
 	                compare = less_than
                 }
@@ -153,6 +195,9 @@ QIN_Management = {
 		}		
 		highlight_states = {
 			state = 765
+			state = 1962
+			state = 2397
+			state = 2398
 		}
 		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
@@ -240,63 +285,63 @@ QIN_Management = {
 			factor = 100
 		}
 	}
-	core_hexi = {
-		icon = GFX_decision_icon_default		
+	# core_hexi = { #No longer needed since QIN now owns Hexi Corridor
+		# icon = GFX_decision_icon_default		
 
-		available = {
-		    AND = {
-			     QIN = {
-			        owns_state = 764
-			    }
-                764 = {
-				     NOT = { is_core_of = QIN }
-			    }
-				check_variable = {
-	                var = QIN_hexi_stability
-	                value = 75
-	                compare = greater_than
-                }
-				check_variable = {
-	                var = QIN_hexi_ethnic_tension
-	                value = 10
-	                compare = less_than
-                }
-			}
-		}
+		# available = {
+		    # AND = {
+			     # QIN = {
+			        # owns_state = 764
+			    # }
+                # 764 = {
+				     # NOT = { is_core_of = QIN }
+			    # }
+				# check_variable = {
+	                # var = QIN_hexi_stability
+	                # value = 75
+	                # compare = greater_than
+                # }
+				# check_variable = {
+	                # var = QIN_hexi_ethnic_tension
+	                # value = 10
+	                # compare = less_than
+                # }
+			# }
+		# }
 		
-		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 1	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
+		# fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		# days_re_enable = 1	#The amount of days of days it will take for the decision to reappear. Not valid if fire_only_once is set to yes
 
-		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
-			ROOT = {
-                tag = QIN
-			}	
-			 QIN = {
-			    owns_state = 764
-		    }
-            764 = {
-			     NOT = { is_core_of = QIN }
-			}			
-		}		
-		highlight_states = {
-			state = 764
-		}
-		days_remove = 60
-		cost = 0	#The cost to execute the decision, by default its political power.
+		# visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			# ROOT = {
+                # tag = QIN
+			# }	
+			 # QIN = {
+			    # owns_state = 764
+		    # }
+            # 764 = {
+			     # NOT = { is_core_of = QIN }
+			# }			
+		# }		
+		# highlight_states = {
+			# state = 764
+		# }
+		# days_remove = 60
+		# cost = 0	#The cost to execute the decision, by default its political power.
 
-		# EFFECTS OF THIS DECISION/MISSION
+		# # EFFECTS OF THIS DECISION/MISSION
 
-		remove_effect = {		#The effects to execute once the envelope icon is clicked.
-		    add_state_core = 764
-			custom_effect_tooltip = QIN_coring_unpog_tt
-		}
+		# remove_effect = {		#The effects to execute once the envelope icon is clicked.
+		    # add_state_core = 764
+			# custom_effect_tooltip = QIN_coring_unpog_tt
+		# }
 		
-		# AI LOGIC FOR THIS DECISION/MISSION
+		# # AI LOGIC FOR THIS DECISION/MISSION
 
-		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 100
-		}
-	}
+		# ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			# factor = 100
+		# }
+	# }
 	core_ningxia = {
 		icon = GFX_decision_icon_default		
 

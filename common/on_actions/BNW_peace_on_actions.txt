@@ -401,10 +401,15 @@ on_actions = {
 						QIN = {
 							transfer_state = 322
 							transfer_state = 601
-							transfer_state = 964
 							transfer_state = 434
 							transfer_state = 1962
 							transfer_state = 1961
+							
+						}
+						BHU = {
+							transfer_state = 2209
+						}
+						AZH = {
 							transfer_state = 1963
 						}
 						1962 = { set_demilitarized_zone = yes }

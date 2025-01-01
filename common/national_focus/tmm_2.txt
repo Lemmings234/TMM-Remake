@@ -334,8 +334,8 @@ shared_focus = {
 	completion_reward = {
 	    add_political_power = -15
 		custom_effect_tooltip = QIN_with_a_carrot_tt
-		subtract_from_variable = {QIN_qinghai_ethnic_tension = 5}
-		add_to_variable = {QIN_qinghai_stability = 10}
+		subtract_from_variable = {State_Tension^0 = 5}
+		add_to_variable = {State_Stability^0 = 10}
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -409,8 +409,8 @@ shared_focus = {
 	completion_reward = {
 	    add_manpower = -250
 		custom_effect_tooltip = QIN_while_the_iron_is_hot_tt
-		subtract_from_variable = {QIN_qinghai_ethnic_tension = 7.5}
-		add_to_variable = {QIN_qinghai_stability = 15}
+		subtract_from_variable = {State_Tension^0 = 7.5}
+		add_to_variable = {State_Stability^0 = 15}
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -584,9 +584,11 @@ shared_focus = {
                 has_country_flag = QIN_reform_now
             }
 		    add_political_power = -25
-		    subtract_from_variable = {QIN_qinghai_stability = 20}
-		    add_to_variable = {QIN_qinghai_ethnic_tension = 5}
-		    set_country_flag = QIN_qinghai_social_reform_enacted
+		    subtract_from_variable = {State_Stability^0 = 20}
+		    add_to_variable = {State_Tension^0 = 5}
+		    set_variable = { Social_Reform^State_View = 1 }
+			add_to_variable = { State_Development^State_View = 1 }
+			QINStateClamp = yes
 			custom_effect_tooltip = QIN_listen_to_the_people1_tt
 			swap_ideas = {
 	         add_idea = tno_minimum_wage_trinket_minimum_wage
@@ -610,9 +612,11 @@ shared_focus = {
                 tag = QIN
             }
 		    add_political_power = -25
-		    subtract_from_variable = {QIN_qinghai_stability = 20}
-		    add_to_variable = {QIN_qinghai_ethnic_tension = 5}
-		    set_country_flag = QIN_qinghai_social_reform_enacted
+		    subtract_from_variable = {State_Stability^0 = 20}
+		    add_to_variable = {State_Tension^0 = 5}
+		    set_variable = { Social_Reform^State_View = 1 }
+			add_to_variable = { State_Development^State_View = 1 }
+			QINStateClamp = yes
 			custom_effect_tooltip = QIN_listen_to_the_people2_tt
 			add_popularity = {
 	            ideology = paternalism
@@ -830,20 +834,28 @@ shared_focus = {
 	}
 	completion_reward = {
 		add_political_power = -25
-		subtract_from_variable = {QIN_qinghai_stability = 20}
-		add_to_variable = {QIN_qinghai_ethnic_tension = 5}
-		set_country_flag = QIN_qinghai_infrastructure_enacted
+		subtract_from_variable = {State_Stability^0 = 20}
+		add_to_variable = {State_Tension^0 = 5}
+		set_variable = { Infrastructure^State_View = 1 }
+		add_to_variable = { State_Development^State_View = 1 }
+		QINStateClamp = yes
         604 = {
-	        add_building_construction = {
-		    type = infrastructure
-		    level = 1
-	        }
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
 	    }
         906 = {
-	        add_building_construction = {
-		    type = infrastructure
-		    level = 1
-	        }
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+	    }
+		2429 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
 	    }
 	    custom_effect_tooltip = QIN_link_em_up_tt
 		hidden_effect = {
@@ -874,8 +886,8 @@ shared_focus = {
 	    add_stability = 0.05
 		add_political_power = 100
 	    custom_effect_tooltip = QIN_limited_civilian_usage_tt
-		add_to_variable = {QIN_qinghai_stability = 5}	
-		subtract_from_variable = {QIN_qinghai_ethnic_tension = 2.5}		
+		add_to_variable = {State_Stability^0 = 5}	
+		subtract_from_variable = {State_Tension^0 = 2.5}		
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
