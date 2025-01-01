@@ -625,12 +625,12 @@ SHX = {
 	color_ui = rgb { 149 90 116 }
 }
 XIK = {
-	color = rgb { 104 115 160 }
-	color_ui = rgb { 104 115 160 }
+	color = rgb { 0 78 162 }
+	color_ui = rgb { 0 78 162 }
 }
 QIN = {
-	color = rgb { 60 68 127 }
-	color_ui = rgb { 60 68 127 }
+	color = rgb { 0 78 162 }
+	color_ui = rgb { 0 78 162 }
 }
 NCC = {
 	color = rgb { 0 145 99 }

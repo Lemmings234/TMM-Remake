@@ -8,6 +8,7 @@ set_country_flag = tno_playable_country
 set_country_flag = tmm_cost_1
 set_country_flag = country_has_gui
 set_country_flag = QIN_Legislation_In_Recess
+set_country_flag = CountryInfo_HasCustomCloseButton
 
 # Starting tech
 
