@@ -1,4 +1,4 @@
-﻿## Content_ScriptedLoc_desc_QIN
+## Content_ScriptedLoc_desc_QIN
 defined_text = {
 	name = GET_CLOSEBUTTON_TEXT
 	
@@ -177,11 +177,5 @@ defined_text = {
 			check_variable = { f = 12 }
 		}
 		localization_key = QIN_CountryInfo_Content_desc.12
-	}	
-	text = {
-		trigger = {
-			check_variable = { f = 13 }
-		}
-		localization_key = BNW_desc_desc
 	}	
 }
