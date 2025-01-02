@@ -9,6 +9,6 @@ tags={
 	"Fixes"
 	"Gameplay"
 }
-replace_path="history/countries/CHI - China.txt"
+replace_path="history/countries/QIN - Ma Clique.txt"
 supported_version="1.15.*"
 path="mod/TMM-Remake"
