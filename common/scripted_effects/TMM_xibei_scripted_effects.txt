@@ -1,3 +1,13 @@
-QIN_reload_tree = {
-    mark_focus_tree_layout_dirty = yes
+QINmodernisationeffect = {
+add_to_variable = { QIN_modernisation_monthly = 0.03 }
+add_to_variable = { QIN_modernisation_offensive = 0.03 }
+add_to_variable = { QIN_modernisation_stability = 0.01 }
+add_to_variable = { QIN_modernisation_war = 0.01 }
+add_to_variable = { QIN_pu_modifier = 1 }
+}
+
+QIN_update_map = {
+	force_update_map_mode = {
+		mapmode = china_map_mode
+	}
 }

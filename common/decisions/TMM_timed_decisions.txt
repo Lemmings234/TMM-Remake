@@ -12,47 +12,6 @@ QIN_management = {		#Name of category that decisions will appear under, decision
 	#### MISIONS CAN HAVE A SECONDARY PHASE AFTER THEY ARE REMOVED WHICH USES A MODIFIER ####
 	#########################################################################################
 	
-	state_reform_two_weekly_timeout = {		#ID of the mission, must not contain spaces!
-
-		icon = GFX_decision_category_generic_crisis		#The left side icon to show for this mission.
-		days_mission_timeout = 11	#The amount of days remaining until the mission expires and enters remove phase.
-		days_remove = 1	#How many days the mission will be in remove phase.
-		is_good = yes		#Determines if the timeout bar will be red or green, cosmetic setting only, has no actual impact on the mission.
-		
-		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
-		
-		available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
-			always = no
-		}
-		
-		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-
-		visible = {		#Conditions to make this mission visible, can be left blank to make it always appear.
-	        tag = QIN
-		}
-
-		# EFFECTS OF THIS DECISION/MISSION
-
-		modifier = {	#The modifier effect here will be used once the mission enters REMOVED phase.
-			#State_two_weeks_pulse = yes
-		}
-
-		timeout_effect = {		#The effects to execute once the mission timer expires.
-		    State_two_weeks_pulse = yes
-			QINCheckPopularity = yes
-			QINCheckProposalSupport = yes
-		}
-		
-		remove_effect = {		#The effects to execute once the mission expires/completes and enters the remove phase.
-		    State_two_weeks_pulse = yes
-		}
-		
-		# AI LOGIC FOR THIS DECISION/MISSION
-
-		ai_will_do = {	#Modifiers for the AI to decide when to execute the mission.
-			factor = 0
-		}
-	}
 	GAN_invasion_imminent = {		#ID of the mission, must not contain spaces!
 
 		icon = GFX_decision_category_border_conflicts		#The left side icon to show for this mission.
@@ -99,46 +58,46 @@ QIN_management = {		#Name of category that decisions will appear under, decision
 			factor = 100
 		}
 	}	
-	# state_stability_monthly_tick = {		#ID of the mission, must not contain spaces!
+	state_stability_monthly_tick = {		#ID of the mission, must not contain spaces!
 
-		# icon = GFX_decision_category_control_warlord		#The left side icon to show for this mission.
-		# days_mission_timeout = 15	#The amount of days remaining until the mission expires and enters remove phase.
-		# days_remove = 1	#How many days the mission will be in remove phase.
-		# is_good = no		#Determines if the timeout bar will be red or green, cosmetic setting only, has no actual impact on the mission.
+		icon = GFX_decision_category_control_warlord		#The left side icon to show for this mission.
+		days_mission_timeout = 15	#The amount of days remaining until the mission expires and enters remove phase.
+		days_remove = 1	#How many days the mission will be in remove phase.
+		is_good = no		#Determines if the timeout bar will be red or green, cosmetic setting only, has no actual impact on the mission.
 		
-		# # CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
+		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
 		
-		# available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
-			# always = no
-		# }
+		available = {		#Conditions that will allow the player/AI to click the mission and execute its effect.
+			always = no
+		}
 		
-		# fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
 
-		# visible = {		#Conditions to make this mission visible, can be left blank to make it always appear.
-	        # tag = QIN
-		# }
+		visible = {		#Conditions to make this mission visible, can be left blank to make it always appear.
+	        tag = QIN
+		}
 
-		# # EFFECTS OF THIS DECISION/MISSION
+		# EFFECTS OF THIS DECISION/MISSION
 
-		# modifier = {	#The modifier effect here will be used once the mission enters REMOVED phase.
-			# #State_two_weeks_pulse = yes
-		# }
+		modifier = {	#The modifier effect here will be used once the mission enters REMOVED phase.
+			#State_two_weeks_pulse = yes
+		}
 
-		# timeout_effect = {		#The effects to execute once the mission timer expires.
-		    # custom_effect_tooltip = QIN_tension_tt
-			# QINMonthlyTick = yes
-		# }
+		timeout_effect = {		#The effects to execute once the mission timer expires.
+		    custom_effect_tooltip = QIN_tension_tt
+			QINMonthlyTick = yes
+		}
 		
-		# remove_effect = {		#The effects to execute once the mission expires/completes and enters the remove phase.
-			# State_two_weeks_pulse = yes
-		# }
+		remove_effect = {		#The effects to execute once the mission expires/completes and enters the remove phase.
+			State_two_weeks_pulse = yes
+		}
 		
-		# # AI LOGIC FOR THIS DECISION/MISSION
+		# AI LOGIC FOR THIS DECISION/MISSION
 
-		# ai_will_do = {	#Modifiers for the AI to decide when to execute the mission.
-			# factor = 0
-		# }
-	# }
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the mission.
+			factor = 0
+		}
+	}
 }
 
 QIN_BoG = {		#Name of category that decisions will appear under, decisions MUST have a category to work properly.

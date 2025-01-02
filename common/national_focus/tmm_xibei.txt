@@ -189,9 +189,8 @@ shared_focus = {
 	}
 	completion_reward = {
 	    add_political_power = 30
-		add_stability = 0.05
-		#add_to_variable = {QIN_qinghai_stability = 5}
-		#custom_effect_tooltip = QIN_stability_a_priority_tt
+		add_to_variable = {State_Stability^0 = 5}
+		custom_effect_tooltip = QIN_stability_a_priority_tt
 		}
 
 	cancel_if_invalid = yes
@@ -268,8 +267,8 @@ shared_focus = {
 	}
 	completion_reward = {
 	    add_stability = -0.025
-	    #custom_effect_tooltip = QIN_omnipresent_grip_tt
-		#add_to_variable = {QIN_qinghai_ethnic_tension = 5}
+	    custom_effect_tooltip = QIN_omnipresent_grip_tt
+		add_to_variable = {State_Tension^0 = 5}
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -492,9 +491,9 @@ shared_focus = {
 	completion_reward = {
 	    add_stability = 0.05
 	    add_political_power = 100
-		#custom_effect_tooltip = QIN_crisis_averted_tt
-		#subtract_from_variable = {QIN_qinghai_ethnic_tension = 7.5}
-		#add_to_variable = {QIN_qinghai_stability = 15}
+		custom_effect_tooltip = QIN_crisis_averted_tt
+		subtract_from_variable = {State_Tension^0 = 7.5}
+		add_to_variable = {State_Stability^0 = 15}
 		country_event = {
             id = tmm.maclique.12
             days = 7

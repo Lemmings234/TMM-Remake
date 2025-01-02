@@ -1,0 +1,2291 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_QIN_china_background"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_china_background.dds"
+	}
+	spriteType = {
+		name = "QIN_Province_Window"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_Province_Window.dds"
+	}
+	spriteType = {
+		name = "QIN_Budget_Window"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_Budget_Window.dds"
+	}
+	spriteType = {
+		name = "QIN_Politics_Window"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_Politics_Window.dds"
+	}
+	spriteType = {
+		name = "QIN_Legislation_Window"
+		texturefile = "gfx/interface/lifayuan/QIN_Legislation_Window.dds"
+	}
+	spriteType = {
+		name = "QIN_Impeachment_List_Window"
+		texturefile = "gfx/interface/lifayuan/QIN_Impeachment_List_Window.dds"
+	}
+	spriteType = {
+		name = "QIN_Legislation_List_Window"
+		texturefile = "gfx/interface/lifayuan/QIN_Legislation_List_Window.dds"
+	}
+	spriteType = {
+		name = "QIN_Legislation_Log_Window"
+		texturefile = "gfx/interface/lifayuan/QIN_Legislation_Log_Window.dds"
+	}
+	spriteType = {
+		name = "QIN_Second_Reading_List_Window"
+		texturefile = "gfx/interface/lifayuan/QIN_Second_Reading_Container.dds"
+	}
+	spriteType = {
+		name = "QIN_Impeachment_BG"
+		texturefile = "gfx/interface/lifayuan/QIN_Impeachment_BG.dds"
+	}
+	spriteType = {
+		name = "QIN_Legislation_No_Reading"
+		texturefile = "gfx/interface/lifayuan/QIN_Legislation_No_Reading.dds"
+	}
+	spriteType = {
+		name = "GUZ_No_Legislation"
+		texturefile = "gfx/interface/lifayuan/GUZ_No_Legislation.dds"
+	}
+	spriteType = {
+		name = "QIN_Legislation_First_Reading"
+		texturefile = "gfx/interface/lifayuan/QIN_Legislation_First_Reading.dds"
+	}
+	spriteType = {
+		name = "QIN_Legislation_Second_Reading"
+		texturefile = "gfx/interface/lifayuan/QIN_Legislation_Second_Reading.dds"
+	}
+	spriteType = {
+		name = "QIN_Legislation_Third_Reading"
+		texturefile = "gfx/interface/lifayuan/QIN_Legislation_Third_Reading.dds"
+	}
+	spriteType = {
+		name = "QIN_Legislation_Passed"
+		texturefile = "gfx/interface/lifayuan/QIN_Legislation_Passed.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_china_background"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_china_background.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Parliament_BG"
+		texturefile = "gfx/interface/lifayuan/QIN_Parliament_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Government_BG"
+		texturefile = "gfx/interface/lifayuan/QIN_Government_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Election_BG"
+		texturefile = "gfx/interface/lifayuan/QIN_Election_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Election_National_Assembly_BG"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_Election_National_Assembly_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Election_Extraordinary_Assembly_BG"
+		texturefile = "gfx/interface/lifayuan/QIN_Election_Extraordinary_Assembly_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Election_Direct_BG"
+		texturefile = "gfx/interface/lifayuan/QIN_Election_Direct_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Election_Direct_BG"
+		texturefile = "gfx/interface/bnw_japan_guis/JAP_Election_Direct_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_BNW_Asia_Management_BG"
+		texturefile = "gfx/interface/lifayuan/BNW_Asia_Management_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_china_background"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_china_background.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Parliament_CCP_background"
+		texturefile = "gfx/interface/lifayuan/QIN_Parliament_CCP.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Parliament_KMT_background"
+		texturefile = "gfx/interface/lifayuan/QIN_Parliament_KMT.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Parliament_Xinan_background"
+		texturefile = "gfx/interface/lifayuan/QIN_Parliament_XIN.dds"
+	}
+	spriteType = {
+		name = "GFX_BNW_Asia_Filter"
+		texturefile = "gfx/interface/lifayuan/BNW_Asia_Filter.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Parliament_Seat"
+		texturefile = "gfx/interface/lifayuan/QIN_parliament_icon.dds"
+		noOfFrames = 10
+	}
+	spriteType = {
+		name = "GFX_GUZ_Parliament_Seat"
+		texturefile = "gfx/interface/lifayuan/GUZ_parliament_icon.dds"
+		noOfFrames = 14
+	}
+	spriteType = {
+		name = "GFX_lifayuan_crt_icon"
+		texturefile = "gfx/interface/bottom_gui/lifayuan_crt_icon.dds"
+		noOfFrames = 2
+	}	
+	spriteType = {
+		name = "GFX_zhengxie_crt_icon"
+		texturefile = "gfx/interface/bottom_gui/zhengxie_crt_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_canzhengyuan_crt_icon"
+		texturefile = "gfx/interface/bottom_gui/canzhengyuan_crt_icon.dds"
+		noOfFrames = 2
+	}	
+	spriteType = {
+		name = "GFX_Constitutionality_0"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Constitutionality_0.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Constitutionality_1"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Constitutionality_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Constitutionality_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Constitutionality_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Constitutionality_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Constitutionality_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Constitutionality_4"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Constitutionality_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Constitutionality_5"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Constitutionality_5.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_tab_xibei_icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_tab_xibei_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_tab_govt_icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_tab_govt_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_Monetary_Health_Asian"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Monetary_Health_Asian.dds"
+	}
+	spriteType = {
+		name = "GFX_Outlook_Bar"
+		texturefile = "gfx/interface/lifayuan/new_icons/Outlook_Bar.dds"
+	}
+	spriteType = {
+		name = "GFX_Outlook_Conservative_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/Outlook_Conservative_Icon.dds"
+	}
+	spriteType = {
+		name = "GFX_Outlook_Liberal_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/Outlook_Liberal_Icon.dds"
+	}
+	spriteType = {
+		name = "GFX_Outlook_Reactionary_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/Outlook_Reactionary_Icon.dds"
+	}
+    ###Occupied shades###
+	spriteType = {
+		name = "GFX_QIN_China_Shade"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/China_Shade.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Japan_Shade"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Japan_Shade.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Mongolia_Shade"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Mongolia_Shade.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Shaanxi_Shade"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Shaanxi_Shade.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Sichuan_Shade"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Sichuan_Shade.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_West_Mongolia_Shade"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/West_Mongolia_Shade.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Xinan_Shade"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Xinan_Shade.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_China_Claims_Shade"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/China_Claims_Shade.dds"
+	}
+    ###Actual playable provinces
+	spriteType = {
+		name = "GFX_QIN_Beijiang"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Beijiang.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Beijiang_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Beijiang_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Nanjiang"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Nanjiang.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Nanjiang_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Nanjiang_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Gansu"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Gansu.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Gansu_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Gansu_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Hami"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Hami.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Hami_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Hami_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Hexi"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Hexi.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Hexi_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Hexi_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Khams"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Khams.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Khams_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Khams_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Ningxia"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Ningxia.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Ningxia_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Ningxia_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Qinghai"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Qinghai.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Mongolia_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Mongolia_3.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Tibet"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Tibet.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Tibet_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Tibet_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Tuva"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Tuva.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Tuva_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Tuva_3.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_West_Mongolia"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/West_Mongolia.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_West_Mongolia_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/West_Mongolia_3.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Xikang"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Xikang.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Xikang_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Xikang_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Yushu"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Yushu.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Yushu_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Yushu_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_City_Frames"
+		texturefile = "gfx/interface/lifayuan/new_icons/City_Frames.dds"
+		noOfFrames = 12
+	}
+    ###BUTTONS###
+	spriteType = {
+		name = "GFX_QIN_Impeach_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_QIN_Impeach_Icon.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Impeach_Icon_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_QIN_Impeach_Icon_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Constitutionality_Boost"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Constitutionality_Boost.dds"
+	}
+	spriteType = {
+		name = "GFX_Constitutionality_Boost_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Constitutionality_Boost_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Third_Reading_Enact"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Third_Reading_Enact.dds"
+	}
+	spriteType = {
+		name = "GFX_Third_Reading_Enact_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Third_Reading_Enact_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Third_Reading_Repeal"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Third_Reading_Repeal.dds"
+	}
+	spriteType = {
+		name = "GFX_Third_Reading_Repeal_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Third_Reading_Repeal_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Pass_Second"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Pass_Second.dds"
+	}
+	spriteType = {
+		name = "GFX_Pass_Second_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Pass_Second_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Fail_Second"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Fail_Second.dds"
+	}
+	spriteType = {
+		name = "GFX_Fail_Second_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Fail_Second_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Repeal_Law"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Repeal_Law.dds"
+	}
+	spriteType = {
+		name = "GFX_Repeal_Law_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Repeal_Law_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Demand_Support"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Demand_Support.dds"
+	}
+	spriteType = {
+		name = "GFX_Demand_Support_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Demand_Support_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Oppose_Motion"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Oppose_Motion.dds"
+	}
+	spriteType = {
+		name = "GFX_Oppose_Motion_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Oppose_Motion_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Support_Motion"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Support_Motion.dds"
+	}
+	spriteType = {
+		name = "GFX_Support_Motion_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Support_Motion_2.dds"
+	}
+	spriteType = {
+		name = "GFX_First_Reading_Censorship"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_First_Reading_Censorship.dds"
+	}
+	spriteType = {
+		name = "GFX_First_Reading_No_Censorship"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_First_Reading_No_Censorship.dds"
+	}
+	spriteType = {
+		name = "GFX_Ad_Hoc_Meeting"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Ad_Hoc_Meeting.dds"
+	}
+	spriteType = {
+		name = "GFX_Ad_Hoc_Meeting_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Ad_Hoc_Meeting_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Legislation_Procedure"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Legislation_Procedure.dds"
+	}
+	spriteType = {
+		name = "GFX_Legislation_History"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Legislation_History.dds"
+	}
+	spriteType = {
+		name = "GFX_Procedure_Committee_Button"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Procedure_Committee_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Procedure_Committee_Button_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Procedure_Committee_Button_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Multiplier_Button"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Multiplier_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Multiplier_Button_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Multiplier_Button_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Budget_Preparation_Emergency"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Budget_Preparation_Emergency.dds"
+	}
+	spriteType = {
+		name = "GFX_Budget_Preparation_Emergency_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Budget_Preparation_Emergency_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Budget_Preparation_Propose"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Budget_Preparation_Propose.dds"
+	}
+	spriteType = {
+		name = "GFX_Budget_Preparation_Propose_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Budget_Preparation_Propose_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Budget_Button"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Budget_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Interaction_Bribe_Politicians"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Interaction_Bribe_Politicians.dds"
+	}
+	spriteType = {
+		name = "GFX_Interaction_Bribe_Politicians_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Interaction_Bribe_Politicians_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Interaction_Develop_Trust"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Interaction_Develop_Trust.dds"
+	}
+	spriteType = {
+		name = "GFX_Interaction_Develop_Trust_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Interaction_Develop_Trust_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Interaction_Initiate_Talks"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Interaction_Initiate_Talks.dds"
+	}
+	spriteType = {
+		name = "GFX_Interaction_Initiate_Talks_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Interaction_Initiate_Talks_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Interaction_Reach_Compromise"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Interaction_Reach_Compromise.dds"
+	}
+	spriteType = {
+		name = "GFX_Interaction_Reach_Compromise_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Interaction_Reach_Compromise_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Civil_Service_Raise"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Civil_Service_Raise.dds"
+	}
+	spriteType = {
+		name = "GFX_Civil_Service_Rotation"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Civil_Service_Rotation.dds"
+	}
+	spriteType = {
+		name = "GFX_Examination_Assessment"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Examination_Assessment.dds"
+	}
+	spriteType = {
+		name = "GFX_Examination_Exam"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Examination_Exam.dds"
+	}
+	spriteType = {
+		name = "GFX_Civil_Service_Raise_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Civil_Service_Raise_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Civil_Service_Rotation_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Civil_Service_Rotation_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Examination_Assessment_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Examination_Assessment_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Examination_Exam_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Examination_Exam_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Civil_Service_Raise_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Civil_Service_Raise_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Civil_Service_Rotation_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Civil_Service_Rotation_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Examination_Assessment_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Examination_Assessment_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Examination_Exam_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Examination_Exam_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Army"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Army.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Education"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Education.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Environment"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Environment.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Internal"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Internal.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Army_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Army_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Education_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Education_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Environment_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Environment_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Internal_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Internal_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Army_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Army_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Education_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Education_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Environment_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Environment_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Executive_Internal_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Executive_Internal_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Budget"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Budget.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Central"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Central.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Dept"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Dept.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Local"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Local.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Budget_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Budget_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Central_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Central_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Dept_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Dept_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Local_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Local_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Budget_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Budget_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Central_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Central_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Dept_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Dept_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Local_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Local_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Button"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Auditing_Button_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Auditing_Button_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Impeachment_Button"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Impeachment_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_Impeachment_Button_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/GFX_Impeachment_Button_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Generic_Available_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/Generic_Available_Icon.dds"
+	}
+	spriteType = {
+		name = "GFX_Generic_Vote_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/Generic_Vote_Icon.dds"
+	}
+	spriteType = {
+		name = "GFX_Generic_Cross_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/Generic_Cross_Icon.dds"
+	}
+	spriteType = {
+		name = "GFX_Generic_Tick_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/Generic_Tick_Icon.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Admit_Minority_1"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Admit_Minority_1.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Admit_Minority_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Admit_Minority_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Concessions_1"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Concessions_1.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Concessions_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Concessions_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Destroy_Bandits_1"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Destroy_Bandits_1.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Destroy_Bandits_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Destroy_Bandits_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Hold_Speeches_1"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Hold_Speeches_1.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Hold_Speeches_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Hold_Speeches_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Offer_Support_1"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Offer_Support_1.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Offer_Support_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Offer_Support_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Propaganda_1"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Propaganda_1.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Propaganda_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Buttons/QIN_Propaganda_2.dds"
+	}
+	###PARTY AND TEXT ICONS###
+	spriteType = {
+		name = "GFX_QIN_Committee_Control_KMT"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_Committee_Control_KMT.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_Committee_Control_CDL"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_Committee_Control_CDL.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_Committee_Control_CCP"
+		texturefile = "gfx/interface/lifayuan/new_icons/QIN_Committee_Control_CCP.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Generic_Bureaucrat"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Generic_Bureaucrat.dds"
+	}
+	spriteType = {
+		name = "GFX_Legislation_Type_Agree"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Legislation_Type_Agree.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Legislation_Type_Budget"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Legislation_Type_Budget.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Legislation_Type_Impeach"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Legislation_Type_Impeach.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Legislation_Type_Law"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Legislation_Type_Law.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Legislation_Type_Other"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Legislation_Type_Other.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Legislation_Type_Repeal"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Legislation_Type_Repeal.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Legislation_Stage_1"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Legislation_Stage_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Legislation_Stage_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Legislation_Stage_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Legislation_Stage_3"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Legislation_Stage_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Legislation_Stage_4"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Legislation_Stage_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_QIN_CCC"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_QIN_CCC.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_NGD"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_QIN_NGD.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_CDL"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_QIN_CDL.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_KMT"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_QIN_KMT.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_ZXX"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_QIN_ZXX.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_NWB"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_QIN_NWB.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_NCB"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_QIN_NCB.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_INT"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_QIN_INT.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_QIN_ZZX"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_QIN_ZZX.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Gongye"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Gongye.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Gexin"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Gexin.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Guancha"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Guancha.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_NSP"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_NSP.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Guoshe"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Guoshe.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Guangming"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Guangming.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Faqi"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Faqi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Sheyan"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Sheyan.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_PAR"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_PAR.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Xinya"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Xinya.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_DCA"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_DCA.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Zhongjingyan"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Zhongjingyan.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Sheheyan"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Sheheyan.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Dianxi"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Dianxi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_GUZ_Guixi"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_GUZ_Guixi.dds"
+		legacy_lazy_load = no
+	}
+    ### Generic Icons - Feel Free to use them! ###
+
+	spriteType = {
+		name = "GFX_Generic_Support_Cap"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Generic_Support_Cap.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Generic_Support"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Generic_Support.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Generic_Asian_Info"
+		texturefile = "gfx/interface/lifayuan/new_icons/Generic_Asian_Info.dds"
+	}
+
+	###Progressbars
+	
+	progressbartype = {
+		name = "GFX_Generic_Circle_Bar"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/Generic_Progressbar_Green.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/Generic_Progressbar_Red.dds"
+		size = { x = 95 y = 95 }
+		effectFile = "gfx/FX/progress_radial.lua"
+	}
+	progressbartype = {
+		name = "GFX_Examination_Yuan_Bar"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/GFX_Examination_Yuan_Bar_Green.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/GFX_Examination_Yuan_Bar_Red.dds"
+		size = { x = 311 y = 25 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+	progressbartype = {
+		name = "GFX_Generic_Negative_Circle_Bar"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/Generic_Progressbar_Red.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/Generic_Progressbar_Green.dds"
+		size = { x = 95 y = 95 }
+		effectFile = "gfx/FX/progress_radial.lua"
+	}
+	progressbartype = {
+		name = "GFX_Parliament_Progressbar_1"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/Progressbar_1_Green.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/Progressbar_1_Red.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 91
+			y = 162
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_Parliament_Progressbar_2"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/Progressbar_2_Green.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/Progressbar_2_Red.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 91
+			y = 162
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_Party_Opinion_Bar_Forward"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/Opnion_Bar_Green.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/Opnion_Bar_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 479
+			y = 53
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_Party_Opinion_Bar_Reverse"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/Opinion_Bar_Red.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/Opnion_Bar_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 479
+			y = 53
+		}
+		effectFile = "gfx/FX/progress_reverse.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_Election_Bar_Forward"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/GFX_Election_Bar_1.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/GFX_Election_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 156
+			y = 17
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_Election_Bar_Reverse"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/GFX_Election_Bar_2.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/GFX_Election_Empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 156
+			y = 17
+		}
+		effectFile = "gfx/FX/progress_reverse.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_Outlook_Liberal_Bar"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/Liberal_Outlook_Bar.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/Empty_Outlook_Bar.dds"
+		size = { x = 95 y = 95 }
+		effectFile = "gfx/FX/progress_radial.lua"
+	}
+	progressbartype = {
+		name = "GFX_Outlook_Conservative_Bar"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/Conservative_Outlook_Bar.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/Reactionary_Outlook_Bar.dds"
+		size = { x = 95 y = 95 }
+		effectFile = "gfx/FX/progress_radial.lua"
+	}
+	progressbartype = {
+		name = "GFX_Monetary_Health_Progressbar"
+		textureFile1 = "gfx/interface/lifayuan/new_icons/GFX_Monetary_Health_Progressbar_Green.dds"
+		textureFile2 = "gfx/interface/lifayuan/new_icons/GFX_Monetary_Health_Progressbar_Red.dds"
+		size = { x = 181 y = 196 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	
+	spriteType = {
+		name = "GFX_QIN_Party_Box"
+		texturefile = "gfx/interface/lifayuan/QIN_Interaction_Window.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Committee_Box"
+		texturefile = "gfx/interface/lifayuan/QIN_Committee_Window.dds"
+	}
+
+	### Party Leaders ###
+
+	spriteType = {
+		name = "GFX_Party_Leader_Chen_Lifu"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Chen_Lifu.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Chiang_Chingkuo"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Chiang_Chingkuo.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Gao_Gang"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Gao_Gang.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Liu_Shaoqi"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Liu_Shaoqi.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Sun_Fo"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Sun_Fo.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Wang_Shijie"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Wang_Shijie.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Kang_Sheng"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Kang_Sheng.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Zhang_Shenfu"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Zhang_Shenfu.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Liao_Mengxing"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Liao_Mengxing.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Cai_Tingkai"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Cai_Tingkai.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Chu_Anping"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Chu_Anping.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Hu_Yuzhi"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Hu_Yuzhi.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Huang_Shaohong"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Huang_Shaohong.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Jiang_Yuntian"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Jiang_Yuntian.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Liang_Shuming"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Liang_Shuming.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Lu_Han"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Lu_Han.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Luo_Longji"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Luo_Longji.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Qian_Jiaju"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Qian_Jiaju.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Shi_Liang"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Shi_Liang.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Sun_Baogang"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Sun_Baogang.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Zhang_Dongsun"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Zhang_Dongsun.dds"
+	}
+	spriteType = {
+		name = "GFX_Party_Leader_Zhang_Naiqi"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Party_Leader_Zhang_Naiqi.dds"
+	}
+
+	### Presidents of the Lifayuan ###
+
+	spriteType = {
+		name = "GFX_President_Ni_Wenya"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Ni_Wenya.dds"
+	}
+	spriteType = {
+		name = "GFX_President_Tan_Tiwu"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Tan_Tiwu.dds"
+	}
+	spriteType = {
+		name = "GFX_President_Liang_Hancao"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Liang_Hancao.dds"
+	}
+	spriteType = {
+		name = "GFX_President_Gu_Zhenggang"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Gu_Zhenggang.dds"
+	}
+	spriteType = {
+		name = "GFX_President_Deng_Xiaoping"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Deng_Xiaoping.dds"
+	}
+	spriteType = {
+		name = "GFX_President_Chen_Xuepin"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Chen_Xuepin.dds"
+	}
+
+	### Whips of Parties ###
+
+	spriteType = {
+		name = "GFX_Whip_Zhang_Lisheng"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Zhang_Lisheng.dds"
+	}
+	spriteType = {
+		name = "GFX_Whip_Gu_Fengxiang"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Gu_Fengxiang.dds"
+	}
+	spriteType = {
+		name = "GFX_Whip_Huang_Zhengxue"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Huang_Zhengxue.dds"
+	}
+	spriteType = {
+		name = "GFX_Whip_Li_Huan"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Li_Huan.dds"
+	}
+	spriteType = {
+		name = "GFX_Whip_Ma_Yinchu"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Ma_Yinchu.dds"
+	}
+	spriteType = {
+		name = "GFX_Whip_Qu_Mengjue"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Qu_Mengjue.dds"
+	}
+	spriteType = {
+		name = "GFX_Whip_Zhong_Tianxin"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Zhong_Tianxin.dds"
+	}
+
+	### Politicians ###
+	spriteType = {
+		name = "GFX_Politician_Chen_Tianfang"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Politician_Chen_Tianfang.dds"
+	}	
+	spriteType = {
+		name = "GFX_Politician_Chiang_Chingkuo"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Politician_Chiang_Chingkuo.dds"
+	}	
+	spriteType = {
+		name = "GFX_Politician_Sun_Fo"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Politician_Sun_Fo.dds"
+	}	
+	spriteType = {
+		name = "GFX_Politician_Yu_Youren"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Politician_Yu_Youren.dds"
+	}	
+
+
+	spriteType = {
+		name = "GFX_Politician_Cai_Tingkai"
+		texturefile = "gfx/leaders/GUZ/Portrait_Cai_Tingkai.dds"
+	}
+	spriteType = {
+		name = "GFX_Politician_Chu_Anping"
+		texturefile = "gfx/leaders/GUZ/Portrait_Chu_Anping.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Sprite_Tenshi_Hinanawi_1"
+		texturefile = "gfx/interface/lifayuan/leaders/MiscSprites/Sprite_Tenshi_Hinanawi_1.dds"
+	}
+
+	### Icons for Govt Branches ###
+	spriteType = {
+		name = "GFX_Control_Yuan_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Control_Yuan_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Examination_Yuan_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Examination_Yuan_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Executive_Yuan_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Executive_Yuan_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Guowuyuan_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Guowuyuan_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Zhongyang_Jiwei_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Zhongyang_Jiwei_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Zhongzubu_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Zhongzubu_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Small_Control_Yuan_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Small_Control_Yuan_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Small_Examination_Yuan_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Small_Examination_Yuan_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Small_Executive_Yuan_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Small_Executive_Yuan_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Small_Guowuyuan_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Small_Guowuyuan_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Small_Zhongyang_Jiwei_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Small_Zhongyang_Jiwei_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Small_Zhongzubu_Icon"
+		texturefile = "gfx/interface/lifayuan/new_icons/GFX_Small_Zhongzubu_Icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_JAP_Imperial_Court_Button"
+		texturefile = "gfx/interface/bnw_japan_guis/JAP_Imperial_Court_Button.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Imperial_Court_Issues_Box"
+		texturefile = "gfx/interface/bnw_japan_guis/JAP_Imperial_Court_Issues_Box.dds"
+	}
+	spriteType = {
+		name = "JAP_Imperial_Court_GUI_BG"
+		texturefile = "gfx/interface/bnw_japan_guis/JAP_Imperial_Court_GUI_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Imperial_Court_GUI"
+		texturefile = "gfx/interface/bnw_japan_guis/JAP_Imperial_Court_GUI.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Empress_Kojun"
+		texturefile = "gfx/interface/bnw_japan_guis/Portrait_Empress_Kojun.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Prince_Mikasa"
+		texturefile = "gfx/interface/bnw_japan_guis/Portrait_Prince_Mikasa.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Ihara_Mitsugu"
+		texturefile = "gfx/interface/bnw_japan_guis/Portrait_Ihara_Mitsugu.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Irie_Sukemasa"
+		texturefile = "gfx/interface/bnw_japan_guis/Portrait_Irie_Sukemasa.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Sakai_Tadamasa"
+		texturefile = "gfx/interface/bnw_japan_guis/Portrait_Sakai_Tadamasa.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Tokudaiji_Saneatsu"
+		texturefile = "gfx/interface/bnw_japan_guis/Portrait_Tokudaiji_Saneatsu.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Imperial_Court_Tendencies"
+		texturefile = "gfx/interface/bnw_japan_guis/JAP_Imperial_Court_Tendencies.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "JAP_Imperial_Court_Ancestors"
+		texturefile = "gfx/interface/bnw_japan_guis/JAP_Imperial_Court_Ancestors.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_Region_Karafuto"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Karafuto.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Hokkaido"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Hokkaido.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_Region_Fukushima"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Fukushima.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_Region_Chiba"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Chiba.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_Region_Akita"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Akita.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Aomori"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Aomori.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Kanagawa"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Kanagawa.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_Region_Gunma"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Gunma.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_Region_Iwate"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Iwate.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Yamagata"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Yamagata.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Tokyo"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Tokyo.dds"
+		noOfFrames = 9
+	}
+	spriteType = {
+		name = "GFX_Region_Miyagi"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Miyagi.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Saitama"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Saitama.dds"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_Region_Yamanashi"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Yamanashi.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Region_Tochigi"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Tochigi.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Ibaraki"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Ibaraki.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_Region_Niigata"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Niigata.dds"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_Region_Toyama"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Toyama.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Ishikawa"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Ishikawa.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Fukui"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Fukui.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Region_Nagano"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Nagano.dds"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_Region_Gifu"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Gifu.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Shizuoka"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Shizuoka.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_Region_Aichi"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Aichi.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_Region_Mie"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Mie.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Shiga"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Shiga.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Region_Kyoto"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Kyoto.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Osaka"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Osaka.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_Region_Hyogo"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Hyogo.dds"
+		noOfFrames = 7
+	}
+	spriteType = {
+		name = "GFX_Region_Nara"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Nara.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Region_Wakayama"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Wakayama.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Tottori"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Tottori.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Region_Shimane"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Shimane.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Region_Okayama"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Okayama.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Hiroshima"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Hiroshima.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_Region_Yamaguchi"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Yamaguchi.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Tokushima"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Tokushima.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Region_Kagawa"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Kagawa.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Ehime"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Ehime.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_Region_Kochi"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Kochi.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Region_Fukuoka"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Fukuoka.dds"
+		noOfFrames = 6
+	}
+	spriteType = {
+		name = "GFX_Region_Saga"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Saga.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_Region_Nagasaki"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Nagasaki.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Kumamoto"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Kumamoto.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Oita"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Oita.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Miyazaki"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Miyazaki.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_Region_Kagoshima"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Kagoshima.dds"
+		noOfFrames = 5
+	}
+	spriteType = {
+		name = "GFX_Region_Okinawa"
+		texturefile = "gfx/interface/bnw_japan_guis/election_gui/election_districts/Region_Okinawa.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_JAP_Election_District_BG"
+		textureFile = "gfx/interface/bnw_japan_guis/JAP_Election_District_BG.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Karafuto"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Karafuto.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Karafuto_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Karafuto_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Election_Placeholder"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Election_Placeholder.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Karafuto_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Karafuto_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Hokkaido"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Hokkaido.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hokkaido_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hokkaido_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hokkaido_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hokkaido_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hokkaido_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hokkaido_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hokkaido_4"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hokkaido_4.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hokkaido_5"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hokkaido_5.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Aomori_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Aomori_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Aomori_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Aomori_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Iwate_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Iwate_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Iwate_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Iwate_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Akita_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Akita_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Akita_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Akita_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Miyagi_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Miyagi_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Miyagi_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Miyagi_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Yamagata_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Yamagata_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Yamagata_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Yamagata_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Fukushima_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Fukushima_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Fukushima_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Fukushima_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Fukushima_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Fukushima_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tochigi_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tochigi_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tochigi_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tochigi_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Gunma_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Gunma_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Gunma_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Gunma_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Gunma_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Gunma_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Ibaraki_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Ibaraki_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Ibaraki_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Ibaraki_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Ibaraki_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Ibaraki_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Chiba_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Chiba_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Chiba_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Chiba_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Chiba_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Chiba_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Saitama_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Saitama_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Saitama_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Saitama_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Saitama_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Saitama_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Saitama_4"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Saitama_4.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kanagawa_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kanagawa_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kanagawa_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kanagawa_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kanagawa_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kanagawa_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tokyo_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tokyo_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tokyo_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tokyo_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tokyo_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tokyo_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tokyo_4"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tokyo_4.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tokyo_5"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tokyo_5.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tokyo_6"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tokyo_6.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tokyo_7"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tokyo_7.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Niigata_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Niigata_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Niigata_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Niigata_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Niigata_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Niigata_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Niigata_4"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Niigata_4.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Toyama_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Toyama_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Toyama_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Toyama_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Ishikawa_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Ishikawa_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Ishikawa_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Ishikawa_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Nagano_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Nagano_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Nagano_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Nagano_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Nagano_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Nagano_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Nagano_4"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Nagano_4.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Yamanashi_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Yamanashi_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Gifu_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Gifu_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Gifu_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Gifu_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Fukui_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Fukui_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Shizuoka_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Shizuoka_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Shizuoka_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Shizuoka_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Shizuoka_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Shizuoka_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Aichi_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Aichi_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Aichi_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Aichi_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Aichi_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Aichi_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Aichi_4"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Aichi_4.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Aichi_5"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Aichi_5.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Shiga_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Shiga_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Mie_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Mie_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Mie_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Mie_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kyoto_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kyoto_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kyoto_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kyoto_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Wakayama_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Wakayama_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Wakayama_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Wakayama_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Nara_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Nara_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Osaka_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Osaka_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Osaka_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Osaka_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Osaka_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Osaka_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Osaka_4"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Osaka_4.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Osaka_5"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Osaka_5.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hyogo_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hyogo_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hyogo_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hyogo_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hyogo_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hyogo_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hyogo_4"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hyogo_4.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hyogo_5"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hyogo_5.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tokushima_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tokushima_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kagawa_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kagawa_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kagawa_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kagawa_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Ehime_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Ehime_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Ehime_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Ehime_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Ehime_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Ehime_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kochi_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kochi_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Tottori_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Tottori_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Shimane_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Shimane_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Okayama_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Okayama_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Okayama_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Okayama_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hiroshima_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hiroshima_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hiroshima_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hiroshima_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Hiroshima_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Hiroshima_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Yamaguchi_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Yamaguchi_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Yamaguchi_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Yamaguchi_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Fukuoka_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Fukuoka_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Fukuoka_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Fukuoka_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Fukuoka_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Fukuoka_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Fukuoka_4"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Fukuoka_4.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Saga_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Saga_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Nagasaki_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Nagasaki_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Nagasaki_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Nagasaki_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Oita_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Oita_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Oita_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Oita_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kumamoto_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kumamoto_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kumamoto_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kumamoto_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Miyazaki_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Miyazaki_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Miyazaki_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Miyazaki_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kagoshima_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kagoshima_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kagoshima_2"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kagoshima_2.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Kagoshima_3"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Kagoshima_3.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_District_Okinawa_1"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_District_Okinawa_1.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Aomori"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Aomori.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Iwate"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Iwate.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Akita"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Akita.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Yamagata"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Yamagata.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Miyagi"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Miyagi.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Fukushima"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Fukushima.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Tochigi"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Tochigi.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Ibaraki"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Ibaraki.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Gunma"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Gunma.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Saitama"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Saitama.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Chiba"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Chiba.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Tokyo"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Tokyo.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Kanagawa"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Kanagawa.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Niigata"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Niigata.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Nagano"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Nagano.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Yamanashi"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Yamanashi.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Shizuoka"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Shizuoka.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Aichi"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Aichi.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Gifu"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Gifu.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Toyama"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Toyama.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Ishikawa"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Ishikawa.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Fukui"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Fukui.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Shiga"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Shiga.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Mie"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Mie.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Wakayama"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Wakayama.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Nara"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Nara.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Osaka"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Osaka.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Hyogo"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Hyogo.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Tokushima"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Tokushima.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Kagawa"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Kagawa.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Ehime"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Ehime.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Kochi"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Kochi.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Tottori"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Tottori.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Shimane"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Shimane.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Okayama"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Okayama.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Hiroshima"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Hiroshima.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Yamaguchi"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Yamaguchi.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Fukuoka"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Fukuoka.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Saga"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Saga.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Nagasaki"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Nagasaki.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Oita"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Oita.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Kumamoto"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Kumamoto.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Miyazaki"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Miyazaki.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Kagoshima"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Kagoshima.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Region_Okinawa"
+		textureFile = "gfx/interface/bnw_japan_guis/election_gui/election_images/JAP_Region_Okinawa.dds"
+	}
+}

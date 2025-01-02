@@ -1,380 +1,4 @@
 spriteTypes = {
-	spriteType = {
-		name = "QIN_pol_icon"
-		textureFile = "gfx/interface/pol/placeholder.dds"
-	}
-	spriteType = {
-		name = "QIN_pol_bg"
-		textureFile = "gfx/interface/pol/pol_bg.dds"
-	}
-	spriteType = {
-		name = "QIN_chiang_icon"
-		textureFile = "gfx/interface/pol/icons/chiang.dds"
-	}
-	spriteType = {
-		name = "QIN_gao_icon"
-		textureFile = "gfx/interface/pol/icons/gao.dds"
-	}
-	spriteType = {
-		name = "QIN_s1"
-		textureFile = "gfx/interface/pol/scale/s1.dds"
-	}
-	spriteType = {
-		name = "QIN_s2"
-		textureFile = "gfx/interface/pol/scale/s2.dds"
-	}
-	spriteType = {
-		name = "QIN_s3"
-		textureFile = "gfx/interface/pol/scale/s3.dds"
-	}
-	spriteType = {
-		name = "QIN_int_button_1"
-		textureFile = "gfx/interface/pol/icons/int_button_1.dds"
-	}
-	spriteType = {
-		name = "QIN_int_button_2"
-		textureFile = "gfx/interface/pol/icons/int_button_2.dds"
-	}
-	spriteType = {
-		name = "QIN_kmt_icon"
-		textureFile = "gfx/interface/pol/icons/kmt.dds"
-	}
-	spriteType = {
-		name = "QIN_ccp_icon"
-		textureFile = "gfx/interface/pol/icons/ccp.dds"
-	}
-	spriteType = {
-		name = "QIN_pdp_icon"
-		textureFile = "gfx/interface/pol/icons/pdp.dds"
-	}
-	spriteType = {
-		name = "QIN_pol_kmt_faction"
-		textureFile = "gfx/interface/pol/kmtfaction.dds"
-	}
-	spriteType = {
-		name = "QIN_pol_ccp_faction"
-		textureFile = "gfx/interface/pol/ccpfaction.dds"
-
-###LIFAYUAN LEADER SPRITES
-	}
-	spriteType = {
-		name = "QIN_president_ni_wenya"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Ni_Wenya.dds"
-	}
-	spriteType = {
-		name = "QIN_president_dong_biwu"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Dong_Biwu.dds"
-	}
-	spriteType = {
-		name = "QIN_president_hang_liwu"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Hang_Liwu.dds"
-	}
-	spriteType = {
-		name = "QIN_president_luo_longji"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Luo_Longji.dds"
-	}
-	spriteType = {
-		name = "QIN_president_zhang_lisheng"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Zhang_Lisheng.dds"
-	}
-	spriteType = {
-		name = "QIN_whip_ma_shuli"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Ma_Shuli.dds"
-	}
-	spriteType = { ###GET.OUT.OF.MY.HEAD.GET.OUT.OF.MY.HEAD.GET.OUT.OF.MY.HEAD.###
-		name = "QIN_whip_deng_xiaoping"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Deng_Xiaoping.dds"
-	}
-	spriteType = {
-		name = "QIN_whip_jiang_yanshi"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Jiang_Yanshi.dds"
-	}
-	spriteType = {
-		name = "QIN_whip_li_huan"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Li_Huan.dds"
-	}
-	spriteType = {
-		name = "QIN_whip_qiao_shi"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Qiao_Shi.dds"
-	}
-	spriteType = {
-		name = "QIN_whip_sun_ke"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Sun_Ke.dds"
-	}
-	spriteType = {
-		name = "QIN_whip_yu_guohua"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Yu_Guohua.dds"
-	}
-	spriteType = {
-		name = "QIN_whip_zhang_naiqi"
-		textureFile = "gfx/interface/lifayuan/leaders/Portrait_Zhang_Naiqi.dds"
-	}
-###LIFAYUAN - LEGISLATIVE COUNCIL GUI GFX GOES HERE###	
-	spriteType = {
-		name = "QIN_pol_lifayuan_logo"
-		textureFile = "gfx/interface/lifayuan/lifayuan_logo.dds"
-	}
-	spriteType = {
-		name = "QIN_pol_lifayuan_kmt_int_bg"
-		textureFile = "gfx/interface/lifayuan/KMT_INT_BG.dds"
-	}
-	spriteType = {
-		name = "QIN_pol_lifayuan_ccp_int_bg"
-		textureFile = "gfx/interface/lifayuan/CCP_INT_BG.dds"
-	}
-	spriteType = {
-		name = "QIN_pol_lifayuan_pdp_int_bg"
-		textureFile = "gfx/interface/lifayuan/PDP_INT_BG.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_1"
-		textureFile = "gfx/interface/lifayuan/icons/lifayuan1.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_2"
-		textureFile = "gfx/interface/lifayuan/icons/lifayuan2.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_3"
-		textureFile = "gfx/interface/lifayuan/icons/lifayuan3.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_4"
-		textureFile = "gfx/interface/lifayuan/icons/lifayuan4.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_5"
-		textureFile = "gfx/interface/lifayuan/icons/lifayuan5.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_6"
-		textureFile = "gfx/interface/lifayuan/icons/lifayuan6.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_7"
-		textureFile = "gfx/interface/lifayuan/icons/lifayuan7.dds"
-	}
-	spriteType = {
-		name = "Lifayuan_seat"
-		texturefile = "gfx/interface/lifayuan/icons/lifayuanicon15.dds"
-		noOfFrames = 8
-	}
-	progressbartype = {
-		name = "GFX_lifayuan_unity_progressbar"
-		textureFile1 = "gfx/interface/lifayuan/icons/progressbar1green.dds"
-		textureFile2 = "gfx/interface/lifayuan/icons/progressbar1red.dds"
-		color = { 0.0 0.0 0.0 }
-		colortwo = { 0.0 0.0 0.0 }
-		size = { 
-			x = 26
-			y = 194
-		}
-		effectFile = "gfx/FX/progress.lua"
-		horizontal = no
-	}
-	progressbartype = {
-		name = "GFX_lifayuan_interparty_unity_progressbar"
-		textureFile1 = "gfx/interface/lifayuan/icons/progressbar2green.dds"
-		textureFile2 = "gfx/interface/lifayuan/icons/progressbar2red.dds"
-		color = { 0.0 0.0 0.0 }
-		colortwo = { 0.0 0.0 0.0 }
-		size = { 
-			x = 183
-			y = 26
-		}
-		effectFile = "gfx/FX/progress.lua"
-		horizontal = yes
-	}
-	progressbartype = {
-		name = "GFX_lifayuan_party_support_progressbar"
-		textureFile1 = "gfx/interface/lifayuan/icons/progressbar3green.dds"
-		textureFile2 = "gfx/interface/lifayuan/icons/progressbar3red.dds"
-		color = { 0.0 0.0 0.0 }
-		colortwo = { 0.0 0.0 0.0 }
-		size = { 
-			x = 74
-			y = 31
-		}
-		effectFile = "gfx/FX/progress.lua"
-		horizontal = yes
-	}
-###LIFAYUAN INTERAACTION BUTTONS###
-	spriteType = {
-		name = "QIN_lifayuan_influence_left"
-		textureFile = "gfx/interface/lifayuan/icons/influence_left.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_influence_left_2"
-		textureFile = "gfx/interface/lifayuan/icons/influence_left_2.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_influence_right"
-		textureFile = "gfx/interface/lifayuan/icons/influence_right.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_influence_right_2"
-		textureFile = "gfx/interface/lifayuan/icons/influence_right_2.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_1"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_1.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_1a"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_1a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_2"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_2.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_2a"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_2a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_3"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_3.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_3a"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_3a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_4"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_4.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_4a"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_4a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_5"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_5.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_5a"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_5a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_5_variant"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_5_variant.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_A_5a_variant"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_A_5a_variant.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_D_1"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_D_1.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_D_1a"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_D_1a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_D_2"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_D_2.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_D_2a"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_D_2a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_D_3"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_D_3.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_D_3a"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_D_3a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_D_4"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_D_4.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_D_4a"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_D_4a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_D_5"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_D_5.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_D_5a"
-		textureFile = "gfx/interface/lifayuan/icons/Lifayuan_int_D_5a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_support_icon"
-		textureFile = "gfx/interface/lifayuan/icons/Support_Icon.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_support_icon_2"
-		textureFile = "gfx/interface/lifayuan/icons/Support_Icon2.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_A_1"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_A_1.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_A_1a"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_A_1a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_A_2"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_A_2.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_A_2a"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_A_2a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_D_1"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_D_1.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_D_1a"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_D_1a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_D_2"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_D_2.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_D_2a"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_D_2a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_D_3"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_D_3.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_D_3a"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_D_3a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_D_4"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_D_4.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_D_4a"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_D_4a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_D_5"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_D_5.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_D_5a"
-		textureFile = "gfx/interface/lifayuan/icons/PDP_D_5a.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_unity"
-		textureFile = "gfx/interface/lifayuan/icons/lifayuan_unity.dds"
-	}
-	spriteType = {
-		name = "QIN_lifayuan_int_PDP_unity2"
-		textureFile = "gfx/interface/lifayuan/icons/lifayuan_unity2.dds"
-	}
 # Scripted GUI Pie Chart by Yard1, for more details check out https://github.com/Yard1/HoI4-Scripted-GUI-Pie-Chart !
 	spriteType = {
 		name = "GFX_QIN_pie_chart_segment"
@@ -1510,5 +1134,51 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_QIN_golmud_piechart_centre"
 		texturefile = "gfx/interface/battle_for_golmud/piechart_centre.dds"
+	}
+
+	## OHHHHH NEW PIE CHART ##
+	progressbartype = {
+		name = "GFX_BOG_KMT_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/KMT_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_KMT.png"
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+		size = { x = 312 y = 342 }
+	}
+	
+	progressbartype = {
+		name = "GFX_BOG_CCP_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/CCP_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_CCP.png"
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+		size = { x = 312 y = 342 }
+	}
+	
+	progressbartype = {
+		name = "GFX_BOG_QINGHAI_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/Qinghai_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_Qing.png"
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+		size = { x = 312 y = 342 }
+	}
+
+	progressbartype = {
+		name = "GFX_BOG_NINGXIA_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/Ningxia_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_Ning.png"
+		size = { x = 312 y = 342 }
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
+	}
+	
+	progressbartype = {
+		name = "GFX_BOG_NEUTRAL_pie"
+		textureFile1 = "gfx/interface/battle_for_golmud/Neutral_pie.png"
+		textureFile2 = "gfx/interface/battle_for_golmud/chinese_symbol_neutrality.png"
+		size = { x = 312 y = 342 }
+		effectFile = "gfx/FX/progress_radial_img.lua"
+		steps = 100000
 	}
 }

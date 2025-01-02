@@ -1,6 +1,9 @@
 #### EVENT STUFF, THANK YOU TNO FOR THESE SPRITES ####
 spriteTypes = {
-
+    spriteType = {
+	    name = "GFX_XSM_legislative_yuan"
+	    texturefile = "gfx/event_pictures/XSM_legislative_yuan.dds"
+    }
     spriteType = {
 	    name = "GFX_report_event_CHI_nanjing2"
 	    texturefile = "gfx/event_pictures/report_event_CHI_nanjing2.dds"

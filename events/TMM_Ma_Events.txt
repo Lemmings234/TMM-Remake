@@ -330,32 +330,13 @@ country_event = {#Dalai escapes
 		name = "Any resemblance of calmness will soon fade away from Tibet."
 		add_ideas = QIN_dalai_leaves
 		601 = {
-			add_compliance = 45
-			add_resistance = -30
+			add_compliance = 20
 		}
 		765 = {
-			add_compliance = 45
-			add_resistance = -30
+			add_compliance = 20
 		}
 		322 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		964 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		1961 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		1962 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		1963 = {
-			add_compliance = 45
-			add_resistance = -30
+			add_compliance = 20
 		}
 	}
 }
@@ -373,47 +354,18 @@ country_event = {#Dalai stays
 		ai_chance = { factor = 90 }
 		name = "Good. One less trouble we have to deal with."
 		add_ideas = QIN_dalai_stays
-		TIB = {
-	    	transfer_units_fraction = {
-	            target = QIN
-	            size = 1
-	            stockpile_ratio = 1
-	            army_ratio = 1
-	            navy_ratio = 1
-	            air_ratio = 1
-            }
-		}
 		QIN = {
 			add_state_claim = 322
 			add_state_claim = 765
 		}	
 		601 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		765 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		322 = {
-			add_compliance = 45
-			add_resistance = -30
+			add_compliance = 30
 		}
 		964 = {
-			add_compliance = 45
-			add_resistance = -30
+			add_compliance = 30
 		}
-		1961 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		1962 = {
-			add_compliance = 45
-			add_resistance = -30
-		}
-		1963 = {
-			add_compliance = 45
-			add_resistance = -30
+		322 = {
+			add_compliance = 30
 		}
 	}
 }
@@ -2436,24 +2388,6 @@ country_event = {#Jichaoding dies
 		name = "Anxi"
 		retire_character = QIN_Ji_Chaoding
         remove_ideas = QIN_Ji_Chaoding_eco
-		add_advisor_role = {
-            Character = QIN_Dao_Shengyang
-            advisor = {
-				slot = economy_minister
-				cost = -1
-				idea_token = QIN_Dao_Shengyang_eco
-				traits = {
-					economy_minister
-					paternalism
-					seasoned_negotiator
-					QIN_Dao_Shengyang_eco_desc
-				}
-				allowed = {
-					original_tag = QIN
-                }
-            }
-        activate = yes
-        }
 		add_ideas = QIN_Dao_Shengyang_eco
 	}
 }
@@ -2703,7 +2637,7 @@ country_event = {#BoG AI Skip
 	id = tmm.maclique.114
 	title = "Skip Event 1"
 	desc = "If you see this either you enabled debug r we got some major issues"
-		picture = GFX_XSM_march
+	picture = GFX_XSM_march
     trigger = {
 	    }
 
@@ -2734,5 +2668,225 @@ country_event = {#BoG AI Skip
 		subtract_from_variable = { KMT_Chiang_Support = 15 }
 		subtract_from_variable = { KMT_Wang_Support = 15 }
 		add_to_variable = { KMT_Chen_Support = 30 }
+	}
+}
+
+country_event = {#Feb Event
+	id = tmm.maclique.115
+	title = "The Season of Intrigue"
+	desc = tmm.maclique.115.d
+	picture = GFX_XSM_legislative_yuan
+    trigger = {
+	    }
+
+	is_triggered_only = yes 
+	fire_only_once = no
+	immediate = {
+		hidden_effect = {
+	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.115"
+			country_event = { 
+				id = tmm.maclique.116
+				days = 183
+			    }
+			QINStopAdHocMeeting = yes
+			clr_country_flag = QIN_Legislation_In_Recess
+			clr_country_flag = QIN_Legislation_Stage_1
+			set_country_flag = QIN_Legislation_Stage_2
+			clear_variable = Pending_Legislation_ID
+	        }
+	    }
+	option = { 
+		ai_chance = { factor = 90 }
+		name = "Time to get stuff done."
+	}
+}
+
+country_event = {#Aug Event
+	id = tmm.maclique.116
+	title = "A Break From Esteemed Businesses"
+	desc = tmm.maclique.116.d
+	picture = GFX_XSM_legislative_yuan
+    trigger = {
+	    }
+
+	is_triggered_only = yes 
+	fire_only_once = no
+	immediate = {
+		hidden_effect = {
+	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.116"
+			country_event = { 
+				id = tmm.maclique.117
+				days = 31
+			    }
+			QINStopAdHocMeeting = yes
+			set_country_flag = QIN_Legislation_In_Recess
+			clr_country_flag = QIN_Legislation_Stage_2
+			set_country_flag = QIN_Legislation_Stage_3
+			clear_variable = Pending_Legislation_ID
+	        }
+	    }
+	option = { 
+		ai_chance = { factor = 90 }
+		name = "And yet the intrigue ceases not."
+	}
+}
+
+country_event = {#Sep Event
+	id = tmm.maclique.117
+	title = "The Harvest Season"
+	desc = tmm.maclique.117.d
+	picture = GFX_XSM_legislative_yuan
+    trigger = {
+	    }
+
+	is_triggered_only = yes 
+	fire_only_once = no
+	immediate = {
+		hidden_effect = {
+	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.117"
+			country_event = { 
+				id = tmm.maclique.118
+				days = 61
+			    }
+			QINStopAdHocMeeting = yes
+			clr_country_flag = QIN_Legislation_In_Recess
+			clr_country_flag = QIN_Legislation_Stage_3
+			set_country_flag = QIN_Legislation_Stage_4
+			clear_variable = Pending_Legislation_ID
+	        }
+	    }
+	option = { 
+		ai_chance = { factor = 90 }
+		name = "Time to get stuff done."
+	}
+}
+
+country_event = {#Nov Event
+	id = tmm.maclique.118
+	title = "Cling Onto Fireplace"
+	desc = tmm.maclique.118.d
+	picture = GFX_XSM_legislative_yuan
+    trigger = {
+	    }
+
+	is_triggered_only = yes 
+	fire_only_once = no
+	immediate = {
+		hidden_effect = {
+	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.118"
+			country_event = { 
+				id = tmm.maclique.115
+				days = 92
+			    }
+			QINStopAdHocMeeting = yes
+			set_country_flag = QIN_Legislation_In_Recess
+			clr_country_flag = QIN_Legislation_Stage_4
+			set_country_flag = QIN_Legislation_Stage_1
+			clear_variable = Pending_Legislation_ID
+	    }
+	}
+	option = { 
+		ai_chance = { factor = 90 }
+		name = "I wonder if those American cigarettes are still around..."
+	}
+}
+
+country_event = {#Improvement Event
+	id = tmm.maclique.119
+	title = "Executive Yuan Finished Allocated Tasks!"
+	desc = tmm.maclique.119.d
+	picture = GFX_XSM_legislative_yuan
+    trigger = {
+	    }
+
+	is_triggered_only = yes 
+	fire_only_once = no
+	immediate = {
+		hidden_effect = {
+	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.119"
+	    }
+	}
+	option = {
+		name = "Only rifles, engines and manly hearts could free our motherland."
+		trigger = {
+			AND = {
+				check_variable = { Executive_Focus = 1 }
+			}
+		}
+		TNO_improve_army_professionalism_low = yes
+		TNO_improve_training_policy_effectiveness_monthly_low = yes
+		TNO_improve_gender_rights_policy_effectiveness_monthly_low = yes
+		set_variable = { Executive_Focus = 0 }
+	}
+	option = {
+		name = "Before one pacifies all under the heavens, he must govern his nation."
+		trigger = {
+			AND = {
+				check_variable = { Executive_Focus = 2 }
+			}
+		}
+		TNO_improve_admin_efficiency_low = yes
+		set_temp_variable = { gdp_growth_temp = 1.5 }
+        econ_gdp_growth_change = yes
+        set_variable = { Executive_Focus = 0 }
+	}
+	option = {
+		name = "Pens are indeed stronger than even the most thunderous artillery."
+		trigger = {
+			AND = {
+				check_variable = { Executive_Focus = 3 }
+			}
+		}
+		TNO_improve_education_policy_effectiveness_monthly_low = yes
+		TNO_improve_academic_base_low = yes
+		set_variable = { Executive_Focus = 0 }
+	}
+	option = {
+		name = "Content be the Lord of the Soil and the Ground."
+		trigger = {
+			AND = {
+				check_variable = { Executive_Focus = 4 }
+			}
+		}
+		TNO_improve_regulations_policy_effectiveness_monthly_low = yes
+		tno_safety_improve = yes
+		TNO_improve_agriculture_low = yes
+		set_variable = { Executive_Focus = 0 }
+	}
+}
+country_event = {
+	id = tmm.maclique.120
+	title = "Nothing Happeneed in Tiananmen Square 1989"
+	desc = tmm.maclique.120.d
+	picture = GFX_XSM_tibetans_surrender
+
+	is_triggered_only = yes 
+	fire_only_once = no
+	hidden = yes
+	immediate = {
+	    log = "[GetDateText]: [Root.GetName]: event tmm.maclique.120"
+		set_variable = { Auditing_Focus = 0 }
+	    }
+	option = { 
+		ai_chance = { factor = 90 }
+		name = "Bruh you aren't supposed to see this shit"
+	}
+}
+country_event = {
+	id = tmm.maclique.121
+	title = "Nothing Happeneed in Tiananmen Square 1989"
+	desc = tmm.maclique.121.d
+	picture = GFX_XSM_tibetans_surrender
+
+	is_triggered_only = yes 
+	fire_only_once = no
+	hidden = yes
+	immediate = {
+	    log = "[GetDateText]: [Root.GetName]: event tmm.maclique.121"
+		set_variable = { Examining_Focus = 0 }
+	    }
+	option = { 
+		ai_chance = { factor = 90 }
+		name = "Bruh you aren't supposed to see this shit"
 	}
 }

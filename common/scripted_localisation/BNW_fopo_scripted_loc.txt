@@ -1,0 +1,15 @@
+defined_text = {
+	name = Get_fopo_seal
+	text = {
+		trigger = {
+			tag = GAN
+		}
+		localization_key = "GFX_fopo_gaimusho_seal"
+	}
+	text = {
+		trigger = {
+			tag = QIN
+		}
+		localization_key = "GFX_fopo_china_seal"
+	}
+}

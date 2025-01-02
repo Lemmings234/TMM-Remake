@@ -56,7 +56,6 @@ on_actions = {
             round_variable = KMT_Meeting_Proportion_CCK
 			if = {
 				limit = { is_ai = no }
-				create_pie_chart = yes
 				QINGolmudTotalBar = yes
 				set_variable = { BOG_movement = 0 }
 				set_variable = { BOG_attack = 0 }

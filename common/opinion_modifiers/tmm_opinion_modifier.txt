@@ -33,4 +33,22 @@ opinion_modifiers = {
 	QIN_us_friendship = {
 	value = 50
 	}
+	NOV_USA_friendship = {
+	value = 10
+	}
+	NOV_CHI_friendship = {
+	value = 50
+	}
+	NOV_IND_friendship = {
+	value = 50
+	}
+	NOV_AFG_claims = {
+	value = 10
+	}
+	NOV_JAP_feniks = {
+	value = 10
+	}
+	NOV_MAN_feniks = {
+	value = 10
+	}
 }
