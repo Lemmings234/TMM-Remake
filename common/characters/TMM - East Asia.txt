@@ -331,30 +331,6 @@ characters = {
 			legacy_id = 30009
 		}
 	}
-	GUZ_he_yingqin = {
-		name = GUZ_he_yingqin
-		portraits = {
-			civilian = { large = "gfx/leaders/YUN/Portrait_Guizhou_He_Yingqin.dds" }
-			army = { large = "gfx/leaders/YUN/Portrait_Guizhou_He_Yingqin.dds" }
-		}
-		country_leader = {
-			desc = "POLITICS_HE_YINGQIN_TMM_DESC"
-			ideology = fascism_subtype
-			traits = { }
-			expire = "1999.1.1.1"
-			id = -1
-		}
-		corps_commander = {
-			desc = "MILITARY_HE_YINGQIN_TMM_DESC"
-			traits = { politically_connected }
-	        skill = 4
-	        attack_skill = 5
-	        defense_skill = 3
-	        planning_skill = 3
-	        logistics_skill = 2
-			legacy_id = 30010
-		}
-	}
 	GUZ_yang_sen = {
 		name = GUZ_yang_sen
 		portraits = {
@@ -1141,24 +1117,6 @@ characters = {
 				foreign_minister
 				despotism
 				nanjing_tusi
-			}
-			ledger = civilian
-			cost = -1
-			removal_cost = -1
-			ai_will_do = { factor = 0 }
-		}
-	}
-	GUZ_Lu_Han = {
-		name = GUZ_Lu_Han
-		portraits = { civilian = { small = "GFX_GUZ_Lu_Han" } }
-		advisor = {
-			slot = security_minister
-			idea_token = GUZ_Lu_Han_sec
-			allowed = { original_tag = GUZ }
-			traits = {
-				security_minister
-				despotism
-				leader_of_the_dian_army
 			}
 			ledger = civilian
 			cost = -1
