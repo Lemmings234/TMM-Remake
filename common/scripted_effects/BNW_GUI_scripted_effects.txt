@@ -1174,7 +1174,6 @@ BNWNuclearProgramCompletion = {
 	set_technology = { MRBM = 1 }
 	set_technology = { SRBM = 1 }
 	
-	set_technology = { missile_silos = 1 }
 	set_technology = { nuclear_reactors = 1 }
 	set_technology = { nuclear_weapons = 1 }
 
@@ -18648,7 +18647,11 @@ QINProposalModifier = {
 			AND = {
 				check_variable = { legislation_proposer^pending_legislation_id = 0 }
 				OR = {
-				    check_variable = { opposition_int_id = < 4 }			
+				    check_variable = { 
+						var = opposition_int_id 
+						value = 4 
+						compare = less_than_or_equals
+					}			
 				}
 		    }
 		}
@@ -18672,7 +18675,11 @@ QINProposalModifier = {
 			AND = {
 				check_variable = { legislation_proposer^pending_legislation_id = 2 }
 				OR = {
-					check_variable = { opposition_int_id = > 4 }						
+					check_variable = { 
+						var = opposition_int_id 
+						value = 4 
+						compare = greater_than_or_equals
+					}						
 				}
 		    }
 		}
