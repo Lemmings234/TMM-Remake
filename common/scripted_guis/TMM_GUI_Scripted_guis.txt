@@ -1704,6 +1704,10 @@ scripted_gui = {
 		    QIN_Gansu_visible = {
 			    owns_state = 1302
 				owns_state = 283
+				owns_state = 2423
+				owns_state = 2424
+				owns_state = 2425
+				owns_state = 2426
 			}
 		    QIN_Hami_visible = {
 			    owns_state = 957 
