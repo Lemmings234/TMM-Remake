@@ -1,37 +1,37 @@
 TMM_Sichuan = {
-	BNW_China_test = {
-		icon = GFX_decision_generic_decision
+	# BNW_China_test = {
+		# icon = GFX_decision_generic_decision
 
-		allowed = {
-			original_tag = SIC
-		}
-		visible = {
-			is_ai = no
-			is_debug = yes
-		}
+		# allowed = {
+			# original_tag = SIC
+		# }
+		# visible = {
+			# is_ai = no
+			# is_debug = yes
+		# }
 
-		fire_only_once = no
+		# fire_only_once = no
 
-		complete_effect = {
-			BNW_China = yes
-		}
-	}
-	BNW_Funny_test = {
-		icon = GFX_decision_generic_decision
+		# complete_effect = {
+			# BNW_China = yes
+		# }
+	# }
+	# BNW_Funny_test = {
+		# icon = GFX_decision_generic_decision
 
-		allowed = {
-			original_tag = SIC
-		}
-		visible = {
-			is_debug = yes
-		}
+		# allowed = {
+			# original_tag = SIC
+		# }
+		# visible = {
+			# is_debug = yes
+		# }
 
-		fire_only_once = no
+		# fire_only_once = no
 
-		complete_effect = {
-			BNW_Funny = yes
-		}
-	}
+		# complete_effect = {
+			# BNW_Funny = yes
+		# }
+	# }
 	BNW_Image_test = {
 		icon = GFX_decision_generic_decision
 
@@ -564,41 +564,41 @@ QIN_Debug = {
 			factor = 0			
 		}
 	}
-	QIN_1966_japanese_cope = {		
-		icon = GFX_decision_category_debug	
-		available = {	
-		    is_ai = no
-		}	
-		fire_only_once = no		
-		days_re_enable = 5	
-		visible = {	
-			ROOT = {
-				is_ai = no
-			}
-			is_debug = yes
-		}		
-		cost = 0
-		complete_effect = {		
-			764 = { set_state_name = "Hexi Corridor" }
-			set_province_name = { id = 7971 name = "Jiuquan" }
-			616 = { set_state_name = "Ningxia" }
-			set_province_name = { id = 8127 name = "Yinchuan" }
-			1302 = { set_state_name = "Central Gansu" }
-			set_province_name = { id = 12776 name = "Wuwei" }
-			set_province_name = { id = 1630 name = "Lanzhou" }
-			283 = { set_state_name = "Eastern Gansu" }
-			set_province_name = { id = 7911 name = "Tianshui" }
-			QIN = {
-				set_capital = { state = 906 }
-			}
-		}
+	# QIN_1966_japanese_cope = {		#Obsolete since the NW Security Command uses Chinese names for places
+		# icon = GFX_decision_category_debug	
+		# available = {	
+		    # is_ai = no
+		# }	
+		# fire_only_once = no		
+		# days_re_enable = 5	
+		# visible = {	
+			# ROOT = {
+				# is_ai = no
+			# }
+			# is_debug = yes
+		# }		
+		# cost = 0
+		# complete_effect = {		
+			# 764 = { set_state_name = "Hexi Corridor" }
+			# set_province_name = { id = 7971 name = "Jiuquan" }
+			# 616 = { set_state_name = "Ningxia" }
+			# set_province_name = { id = 8127 name = "Yinchuan" }
+			# 1302 = { set_state_name = "Central Gansu" }
+			# set_province_name = { id = 12776 name = "Wuwei" }
+			# set_province_name = { id = 1630 name = "Lanzhou" }
+			# 283 = { set_state_name = "Eastern Gansu" }
+			# set_province_name = { id = 7911 name = "Tianshui" }
+			# QIN = {
+				# set_capital = { state = 906 }
+			# }
+		# }
 		
-		# AI LOGIC FOR THIS DECISION/MISSION
+		# # AI LOGIC FOR THIS DECISION/MISSION
 
-		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 0			
-		}
-	}
+		# ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			# factor = 0			
+		# }
+	# }
 	absolute_basedness = {		
 		icon = GFX_decision_category_debug	
 		available = {	
