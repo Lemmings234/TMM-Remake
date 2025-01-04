@@ -586,8 +586,8 @@ shared_focus = {
 		    add_political_power = -25
 		    subtract_from_variable = {State_Stability^0 = 20}
 		    add_to_variable = {State_Tension^0 = 5}
-		    set_variable = { Social_Reform^State_View = 1 }
-			add_to_variable = { State_Development^State_View = 1 }
+		    set_variable = { Social_Reform^State_View^0 = 1 }
+			add_to_variable = { State_Development^State_View^0 = 1 }
 			QINStateClamp = yes
 			custom_effect_tooltip = QIN_listen_to_the_people1_tt
 			swap_ideas = {
@@ -836,8 +836,8 @@ shared_focus = {
 		add_political_power = -25
 		subtract_from_variable = {State_Stability^0 = 20}
 		add_to_variable = {State_Tension^0 = 5}
-		set_variable = { Infrastructure^State_View = 1 }
-		add_to_variable = { State_Development^State_View = 1 }
+		set_variable = { Infrastructure^State_View^0 = 1 }
+		add_to_variable = { State_Development^State_View^0 = 1 }
 		QINStateClamp = yes
         604 = {
 			add_building_construction = {
