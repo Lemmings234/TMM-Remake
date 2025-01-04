@@ -351,7 +351,7 @@ shared_focus = {
 			subtract_from_variable = { QIN_party_opinions^8 = 2.5 }
 			
 		    TNO_improve_poverty_med = yes
-			QINClamp = yes
+			QINClamping = yes
 			QINStateClamp = yes
 		}
 	}
