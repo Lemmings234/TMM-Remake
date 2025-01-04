@@ -253,6 +253,9 @@ shared_focus = {
 	ai_will_do = {
 		factor = 80
 	}
+	bypass = {
+		has_war = no 
+	}
 	available = {
 		NOT = { is_in_faction_with = JAP }
 	}
