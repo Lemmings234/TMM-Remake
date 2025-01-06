@@ -192,6 +192,24 @@ QIN_Management = {
             765 = {
 			     NOT = { is_core_of = QIN }
 			}			
+			QIN = {
+			    owns_state = 1962
+		    }
+            1962 = {
+			     NOT = { is_core_of = QIN }
+			}
+			QIN = {
+			    owns_state = 2397
+		    }
+            2397 = {
+			     NOT = { is_core_of = QIN }
+			}
+			QIN = {
+			    owns_state = 2398
+		    }
+            2398 = {
+			     NOT = { is_core_of = QIN }
+			}
 		}		
 		highlight_states = {
 			state = 765
@@ -206,6 +224,9 @@ QIN_Management = {
 
 		remove_effect = {		#The effects to execute once the envelope icon is clicked.
 		    add_state_core = 765
+			add_state_core = 1962
+			add_state_core = 2397
+			add_state_core = 2398
 			custom_effect_tooltip = QIN_coring_unpog_tt
 		}
 		
@@ -408,12 +429,6 @@ QIN_Management = {
 			        owns_state = 616
 			    }
                 616 = {
-					NOT = { is_core_of = QIN }
-			    }
-				QIN = {
-					owns_state = 2426
-			    }
-                2426 = {
 					NOT = { is_core_of = QIN }
 			    }
 				check_variable = {

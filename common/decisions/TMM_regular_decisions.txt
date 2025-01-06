@@ -446,9 +446,9 @@ QIN_Debug = {
 		custom_effect_tooltip = QIN_we_are_victorious_tt
 		add_political_power = 100
 		add_to_variable = {
-			var = State_Stability^1
-			value = 5
-		}
+            var = State_Stability^1
+            value = 5
+            }
 		subtract_from_variable = {
             var = State_Tension^1
             value = 2.5
@@ -462,11 +462,11 @@ QIN_Debug = {
             value = 2.5
             }
 		add_to_variable = {
-            var = State_Stability^2
+            var = State_Stability^3
             value = 5
             }
 		subtract_from_variable = {
-            var = State_Tension^2
+            var = State_Tension^3
             value = 2.5
             }
 		add_to_variable = {
@@ -474,9 +474,9 @@ QIN_Debug = {
             value = 20
             }
 		subtract_from_variable = {
-			var = State_Tension^0
-			value = 10
-		}
+            var = State_Tension^0
+            value = 10
+         }
 		QINStateClamp = yes
 		country_event = { id = tmm.maclique.4 }
 		hidden_effect = {
