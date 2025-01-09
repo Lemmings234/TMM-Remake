@@ -1,0 +1,1621 @@
+# The Second West Russian War #
+
+add_namespace = WORLD
+
+news_event = { #Russian Victory - Generic
+	id = WORLD.40001
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40001"}
+	title = WORLD.40001.t
+	desc = WORLD.40001.desc
+	picture = GFX_news_event_russia_generic
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40001.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+		set_temp_variable = { TNO_temp_super_event = token:SE_GENERIC_RUSSIAN_VICTORY }
+		TNO_fire_super_event = yes
+	}
+	
+	option = {
+		name = WORLD.40001.b
+		trigger = {
+			OR = {
+				original_tag = VYT
+				original_tag = SAM
+				original_tag = KOM
+				original_tag = PRM
+				original_tag = OMS
+				original_tag = TYM
+				original_tag = SVR
+				if = {
+					limit = {
+						NOT = {
+							has_government = liberalism
+						}
+					}
+					original_tag = TOM
+				}
+				original_tag = SBA
+				original_tag = NOV
+				original_tag = PRC
+				original_tag = KEM
+				
+				original_tag = CHT
+				original_tag = AMR
+				original_tag = MAG
+				original_tag = OMO
+				original_tag = BRY
+				original_tag = IRK
+			}
+		}
+		set_temp_variable = { TNO_temp_super_event = token:SE_GENERIC_RUSSIAN_VICTORY }
+		TNO_fire_super_event = yes
+	}
+
+	option = {
+		name = WORLD.40001.c
+		trigger = { TAG = GER }
+		set_temp_variable = { TNO_temp_super_event = token:SE_GENERIC_RUSSIAN_VICTORY }
+		TNO_fire_super_event = yes
+	}
+	
+	option = {
+		name = WORLD.40001.d
+		trigger = { original_tag = WRS }
+		if = {
+			limit = { has_country_leader = { character = WRS_Mikhail_Tukhachevsky ruling_only = yes } }
+			set_temp_variable = { TNO_temp_super_event = token:SE_RED_NAPOLEON_VICTORY }
+			TNO_fire_super_event = yes
+		}
+		else = { # Zukhov
+			set_temp_variable = { TNO_temp_super_event = token:SE_WRRF_VICTORY_ZHUKOV }
+			TNO_fire_super_event = yes
+		}
+	}
+}
+
+news_event = { #German Victory
+	id = WORLD.40002
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40002"}
+	title = WORLD.40002.t
+	desc = WORLD.40002.desc
+	picture = GFX_news_event_GER_eastern_front_german_troops
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40002.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+		set_temp_variable = { TNO_temp_super_event = token:SE_TOTAL_GERMAN_VICTORY }
+		TNO_fire_super_event = yes
+	}
+	
+	option = {
+		name = WORLD.40002.b
+		trigger = { TAG = RUS }
+		set_temp_variable = { TNO_temp_super_event = token:SE_TOTAL_GERMAN_VICTORY }
+		TNO_fire_super_event = yes
+	}
+	
+	option = {
+		name = WORLD.40002.c
+		trigger = { TAG = GER }
+		set_temp_variable = { TNO_temp_super_event = token:SE_TOTAL_GERMAN_VICTORY }
+		TNO_fire_super_event = yes
+	}
+}
+
+news_event = { #Liberation of Moscow - Generic
+	id = WORLD.40004
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40004"}
+	title = WORLD.40004.t
+	desc = WORLD.40004.desc
+	picture = GFX_RUS_news_event_moscow
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = liberation_of_moscow
+	}
+	
+	major = yes
+
+	option = {
+		name = WORLD.40004.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40004.b
+		trigger = { 
+			TAG = RUS
+		}
+	}
+	
+	option = {
+		name = WORLD.40004.c
+		trigger = { 
+			TAG = GER
+		}
+	}
+}
+
+news_event = { #Federation Victory! - Shukshin
+	id = WORLD.40006
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40006"}
+	title = WORLD.40006.t
+	desc = WORLD.40006.desc
+	picture = GFX_news_event_russia_novosibirsk_unification
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = WORLD.40006.a
+		set_temp_variable = { TNO_temp_super_event = token:SE_SHUKSHIN_VICTORY }
+		TNO_fire_super_event = yes
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40006.b
+		set_temp_variable = { TNO_temp_super_event = token:SE_SHUKSHIN_VICTORY }
+		TNO_fire_super_event = yes
+		trigger = {
+			TAG = RUS
+		}
+	}
+	
+	option = {
+		name = WORLD.40006.c
+		set_temp_variable = { TNO_temp_super_event = token:SE_SHUKSHIN_VICTORY }
+		TNO_fire_super_event = yes
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = { #Federation Victory! - Pokryshkin
+	id = WORLD.40008
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40008"}
+	title = WORLD.40008.t
+	desc = WORLD.40008.desc
+	picture = GFX_news_event_russia_novosibirsk_unification
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = WORLD.40008.a
+		set_temp_variable = { TNO_temp_super_event = token:SE_POKRYSHKIN_VICTORY }
+		TNO_fire_super_event = yes
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40008.b
+		set_temp_variable = { TNO_temp_super_event = token:SE_POKRYSHKIN_VICTORY }
+		TNO_fire_super_event = yes
+		trigger = {
+			TAG = RUS
+		}
+	}
+	
+	option = {
+		name = WORLD.40008.c
+		set_temp_variable = { TNO_temp_super_event = token:SE_POKRYSHKIN_VICTORY }
+		TNO_fire_super_event = yes
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+# Vladivostok
+
+news_event = { #The Federation Retakes Vladivostok
+	id = WORLD.40010
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40010"}
+	title = WORLD.40010.t
+	desc = WORLD.40010.desc
+	picture = GFX_news_event_USA_us_japan_talks_end_well_us
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40010.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = JAP
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40010.b
+		trigger = {
+			TAG = RUS
+		}
+	}
+	
+	option = {
+		name = WORLD.40010.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = { #The Federation Retakes Birobidzhan
+	id = WORLD.40011
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40011"}
+	title = WORLD.40011.t
+	desc = WORLD.40011.desc
+	picture = GFX_news_event_USA_us_japan_talks_end_well_japan
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40011.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = JAP
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40011.b
+		trigger = {
+			TAG = RUS
+		}
+	}
+	
+	option = {
+		name = WORLD.40011.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = { #Bukharin Imprisoned
+	id = WORLD.40012
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40012"}
+	title = WORLD.40012.t
+	desc = WORLD.40012.desc
+	picture = GFX_news_event_russia_bukharin
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40012.a
+	}
+}
+
+news_event = { #America Supports the Federation
+	id = WORLD.40013
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40013"}
+	title = WORLD.40013.t
+	desc = WORLD.40013.desc
+	picture = GFX_news_event_russia_american_friendship
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40013.a
+	}
+}
+
+news_event = { #Negotiations Begin!
+	id = WORLD.40015
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40015"}
+	title = WORLD.40015.t
+	desc = WORLD.40015.desc
+	picture = GFX_news_event_russia_far_east
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40015.a
+	}
+}
+
+news_event = { #The Federation Retakes Birobidzhan
+	id = WORLD.40016
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40016"}
+	title = WORLD.40016.t
+	desc = WORLD.40016.desc
+	picture = GFX_news_event_USA_us_japan_talks_end_well_japan
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40016.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = JAP
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40016.b
+		trigger = {
+			TAG = RUS
+		}
+	}
+	
+	option = {
+		name = WORLD.40016.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = { #Declaration of War - Generic
+	id = WORLD.40003
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40003"}
+	title = WORLD.40003.t
+	desc = WORLD.40003.desc
+	picture = GFX_news_event_russia_wrrf_1
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40003.a
+		set_country_flag = big_event_second_west_russian_war
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40003.b
+		set_country_flag = big_event_second_west_russian_war
+		trigger = { 
+			is_russian_unifier = yes
+		}
+	}
+	
+	option = {
+		name = WORLD.40003.c
+		set_country_flag = big_event_second_west_russian_war
+		trigger = { TAG = GER }
+	}
+	
+	option = {
+		name = WORLD.40003.d
+		set_country_flag = big_event_the_great_trial
+		trigger = { original_tag = OMS }
+	}
+}
+
+news_event = { #The Federation Retakes Birobidzhan
+	id = WORLD.40017
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40017"}
+	title = WORLD.40017.t
+	desc = WORLD.40017.desc
+	picture = GFX_news_event_russia_iran_civil_war
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40017.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40017.b
+		trigger = {
+			TAG = RUS
+		}
+	}
+}
+
+news_event = { #Russian Invasion of Romania
+	id = WORLD.40030
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40030"}
+	title = WORLD.40030.t
+	desc = WORLD.40030.desc
+	picture = GFX_news_event_russian_ruins
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40030.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = ROM
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40030.b
+		trigger = { TAG = RUS }
+	}
+	
+	option = {
+		name = WORLD.40030.c
+		trigger = { TAG = ROM }
+	}
+}
+
+news_event = { #Russia Triumphs over Romania - Odesa
+	id = WORLD.40031
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40031"}
+	title = WORLD.40031.t
+	desc = WORLD.40031.desc
+	picture = GFX_news_event_russian_crowd
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40031.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = ROM
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40031.b
+		trigger = { TAG = RUS }
+	}
+	
+	option = {
+		name = WORLD.40031.c
+		trigger = { TAG = ROM }
+	}
+}
+
+news_event = { #Russia Triumphs over Romania - Total Victory
+	id = WORLD.40032
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40032"}
+	title = WORLD.40032.t
+	desc = WORLD.40032.desc
+	picture = GFX_news_event_ZLT_zlatoust_victorious
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40032.a
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = ROM
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40032.b
+		trigger = { TAG = RUS }
+	}
+	
+	option = {
+		name = WORLD.40032.c
+		trigger = { TAG = ROM }
+	}
+}
+
+news_event = { #Declaration of War - Modernist
+	id = WORLD.40033
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40033"}
+	title = WORLD.40033.t
+	desc = WORLD.40033.desc
+	picture = GFX_news_event_modernist_declaration
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40033.a
+		set_country_flag = big_event_modernist_war_declaration
+		trigger = {
+			NOT = {
+				TAG = RUS
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40033.b
+		set_country_flag = big_event_modernist_war_declaration
+		trigger = { TAG = RUS }
+	}
+	
+	option = {
+		name = WORLD.40033.c
+		set_country_flag = big_event_modernist_war_declaration
+		trigger = { TAG = GER }
+	}
+}
+
+news_event = { #The Russian Federation Collapses
+	id = WORLD.40034
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40034"}
+	title = WORLD.40034.t
+	desc = WORLD.40034.desc
+	picture = GFX_news_event_russian_ruins
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40034.a
+		rusdie = yes
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40034.b
+		rusdie = yes
+		trigger = { TAG = GER }
+	}
+}
+
+news_event = { #The Russian Federation Collapses - coup
+	id = WORLD.40035
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40035"}
+	title = WORLD.40035.t
+	desc = WORLD.40035.desc
+	picture = GFX_news_event_russian_ruins
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40035.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40035.b
+		trigger = { TAG = GER }
+	}
+}
+
+news_event = { #Federation joins the OFN
+	id = WORLD.40036
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40036"}
+	title = WORLD.40036.t
+	desc = WORLD.40036.desc
+	picture = GFX_news_event_russia_american_friendship
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40036.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40036.b
+		trigger = { TAG = GER }
+	}
+}
+
+news_event = { #CSTO
+	id = WORLD.40037
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40037"}
+	title = WORLD.40037.t
+	desc = WORLD.40037.desc
+	picture = GFX_news_event_formation_csto
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40037.a
+	}
+}
+
+news_event = { #Krakow Uprising
+	id = WORLD.40038
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40038"}
+	title = WORLD.40038.t
+	desc = WORLD.40038.desc
+	picture = GFX_news_event_krakow_uprising
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40038.a
+	}
+	
+	option = {
+		name = WORLD.40038.b
+		trigger = { TAG = GER }
+	}
+}
+
+news_event = { #West China War
+	id = WORLD.40039
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40039"}
+	title = WORLD.40039.t
+	desc = WORLD.40039.desc
+	picture = GFX_news_event_west_china_war
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40039.a
+	}
+}
+
+news_event = { #Mountain War
+	id = WORLD.40040
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40040"}
+	title = WORLD.40040.t
+	desc = WORLD.40040.desc
+	picture = GFX_news_event_the_mountain_war
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40040.a
+	}
+}
+
+news_event = { #Mongolian Rebellion
+	id = WORLD.40041
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40041"}
+	title = WORLD.40041.t
+	desc = WORLD.40041.desc
+	picture = GFX_news_event_mongolian_rebellion
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40041.a
+	}
+}
+
+news_event = { # Russia Declares on Kazakhstan
+	id = WORLD.40042
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40042"}
+	title = WORLD.40042.t
+	desc = WORLD.40042.desc
+	picture = GFX_news_event_russia_novosibirsk_invasion
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40042.a
+		trigger = { tag = NOV }
+	}
+	
+	option = {
+		name = WORLD.40042.b
+		trigger = {
+			NOT = { tag = NOV }
+		}
+	}
+}
+
+news_event = { # Kazakhstan Joins Russia
+	id = WORLD.40043
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40043"}
+	title = WORLD.40043.t
+	desc = WORLD.40043.desc
+	picture = GFX_news_event_russia_generic
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.40043.a
+		trigger = {
+			OR = { 
+				tag = NOV
+				tag = KAZ
+			}
+		}
+	}
+	
+	option = {
+		name = WORLD.40043.b
+		trigger = {
+			NOT = { 
+				tag = NOV
+				tag = KAZ
+			}	
+		}
+	}
+}
+
+news_event = { # Kaz collapses into warlords!
+	id = WORLD.40048
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.40048"}
+	title = WORLD.40048.t
+	desc = WORLD.40048.desc
+	picture = GFX_news_event_russia_central_asian_intervention
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = WORLD.40048.a
+		trigger = {
+			tag = KAZ
+		}
+	}
+	
+	option = {
+		name = WORLD.40048.b
+		trigger = {
+			tag = AKT
+		}
+	}
+	
+	option = {
+		name = WORLD.40048.c
+		trigger = {
+			tag = PAV
+		}
+	}
+
+	option = {
+		name = WORLD.40048.d
+		trigger = {
+			tag = NPL
+		}
+	}
+
+	option = {
+		name = WORLD.40048.e
+		trigger = {
+			OR = {
+				tag = KOK
+				tag = DER
+			}
+		}
+	}
+
+	option = {
+		name = WORLD.40048.f
+		trigger = {
+			OR = {
+				has_government = socialist
+				has_government = communist
+			}
+		}
+	}
+
+	option = {
+		name = WORLD.40048.g
+		trigger = {
+			NOT = {
+				tag = KAZ
+				tag = AKT
+				tag = PAV
+				tag = NPL
+				tag = KOK
+				tag = DER
+				has_government = socialist
+				has_government = communist
+			}
+		}
+	}
+}
+
+news_event = { #Anderson
+	id = WORLD.41000
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41000"}
+	title = WORLD.41000.t
+	desc = WORLD.41000.desc
+	picture = GFX_news_event_anderson_inaug
+	
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41000.a
+	}
+}
+
+news_event = { #Romney 76
+	id = WORLD.41001
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41001"}
+	title = WORLD.41001.t
+	desc = WORLD.41001.desc
+	picture = GFX_news_event_USA_white_house
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41001.a
+	}
+}
+
+news_event = { #Carter
+	id = WORLD.41002
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41002"}
+	title = WORLD.41002.t
+	desc = WORLD.41002.desc
+	picture = GFX_news_event_carter_inaug
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41002.a
+	}
+}
+
+news_event = { #McGovern 76
+	id = WORLD.41003
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41003"}
+	title = WORLD.41003.t
+	desc = WORLD.41003.desc
+	picture = GFX_news_event_USA_white_house
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41003.a
+	}
+}
+
+news_event = { #Henry Jackson 76
+	id = WORLD.41004
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41004"}
+	title = WORLD.41004.t
+	desc = WORLD.41004.desc
+	picture = GFX_news_event_jackson_inaug
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41004.a
+	}
+}
+
+news_event = { #Henry Jackson 72 2
+	id = WORLD.41005
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41005"}
+	title = WORLD.41005.t
+	desc = WORLD.41005.desc
+	picture = GFX_news_event_USA_white_house
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41005.a
+	}
+}
+
+news_event = { #Herman Talmadge
+	id = WORLD.41006
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41006"}
+	title = WORLD.41006.t
+	desc = WORLD.41006.desc
+	picture = GFX_news_event_talmadge_inaug
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41006.a
+	}
+}
+
+news_event = { #Schlafly 76
+	id = WORLD.41007
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41007"}
+	title = WORLD.41007.t
+	desc = WORLD.41007.desc
+	picture = GFX_news_event_USA_white_house
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41007.a
+	}
+}
+
+news_event = { #Ella Baker
+	id = WORLD.41008
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41008"}
+	title = WORLD.41008.t
+	desc = WORLD.41008.desc
+	picture = GFX_news_event_baker_inaug
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41008.a
+	}
+}
+
+news_event = { #Gus Hall 76
+	id = WORLD.41009
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41009"}
+	title = WORLD.41009.t
+	desc = WORLD.41009.desc
+	picture = GFX_news_event_USA_hall_inaug
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41009.a
+	}
+}
+
+news_event = { #Yockey Impeachment 
+	id = WORLD.41010
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41010"}
+	title = WORLD.41010.t
+	desc = WORLD.41010.desc
+	picture = GFX_news_event_ITA_parliament_fight
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41010.a
+	}
+}
+
+news_event = { #Battle of Washington
+	id = WORLD.41011
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41011"}
+	title = WORLD.41011.t
+	desc = WORLD.41011.desc
+	picture = GFX_news_event_ENG_london_riot
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41011.a
+	}
+}
+
+news_event = { #Sack of Washington
+	id = WORLD.41012
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41012"}
+	title = WORLD.41012.t
+	desc = WORLD.41012.desc
+	picture = GFX_news_event_sack_of_dc
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41012.a
+	}
+}
+
+news_event = { #Yockey W
+	id = WORLD.41013
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41013"}
+	title = WORLD.41013.t
+	desc = WORLD.41013.desc
+	picture = GFX_news_event_yockey_w
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41013.a
+	}
+}
+
+news_event = { #Pierce W
+	id = WORLD.41014
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41014"}
+	title = WORLD.41014.t
+	desc = WORLD.41014.desc
+	picture = GFX_news_event_JAP_order_44
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41014.a
+	}
+}
+
+news_event = { #Weathermen
+	id = WORLD.41015
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41015"}
+	title = WORLD.41015.t
+	desc = WORLD.41015.desc
+	picture = GFX_news_event_weathermen
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41015.a
+	}
+}
+
+news_event = { #Westmoreland
+	id = WORLD.41016
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41016"}
+	title = WORLD.41016.t
+	desc = WORLD.41016.desc
+	picture = GFX_news_event_us_military
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41016.a
+	}
+}
+
+news_event = { #USSA
+	id = WORLD.41017
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41017"}
+	title = WORLD.41017.t
+	desc = WORLD.41017.desc
+	picture = GFX_news_event_ussa
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41017.a
+	}
+}
+
+news_event = { #Imperium
+	id = WORLD.41018
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41018"}
+	title = WORLD.41018.t
+	desc = WORLD.41018.desc
+	picture = GFX_news_event_CAU_german_coronation
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41018.a
+	}
+}
+
+news_event = { #American State
+	id = WORLD.41019
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41019"}
+	title = WORLD.41019.t
+	desc = WORLD.41019.desc
+	picture = GFX_news_event_GER_german_bohemia
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41019.a
+	}
+}
+
+news_event = { 
+	id = WORLD.41020 #Brandt - German Spring
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41020"}
+	title = WORLD.41020.t
+	desc = WORLD.41020.desc
+	picture = GFX_news_event_GER_oberlander
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41020.a
+		set_temp_variable = { TNO_temp_super_event = token:SE_GERMAN_SPRING }
+		TNO_fire_super_event = yes #Remember to remove this for Global Conflicts
+	}
+}
+
+news_event = { #UAC
+	id = WORLD.41021
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41021"}
+	title = WORLD.41021.t
+	desc = WORLD.41021.desc
+	picture = GFX_news_event_uac
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41021.a
+	}
+}
+
+news_event = { #Bormann Dies
+	id = WORLD.41022
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41022"}
+	title = WORLD.41022.t
+	desc = WORLD.41022.desc
+	picture = GFX_news_event_GER_german_funeral
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41022.a
+	}
+}
+
+news_event = { #Klopfer
+	id = WORLD.41023
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41023"}
+	title = WORLD.41023.t
+	desc = WORLD.41023.desc
+	picture = GFX_news_event_GER_germania
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41023.a
+	}
+}
+
+news_event = { #Gehlen
+	id = WORLD.41024
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41024"}
+	title = WORLD.41024.t
+	desc = WORLD.41024.desc
+	picture = GFX_news_event_GER_germania
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41024.a
+	}
+}
+
+news_event = { #Waldheim
+	id = WORLD.41025
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41025"}
+	title = WORLD.41025.t
+	desc = WORLD.41025.desc
+	picture = GFX_news_event_GER_germania
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41025.a
+	}
+}
+
+news_event = { #Klopfer
+	id = WORLD.41026
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41026"}
+	title = WORLD.41026.t
+	desc = WORLD.41026.desc
+	picture = GFX_news_event_GER_GG_victory
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41026.a
+	}
+}
+
+news_event = { #Gehlen
+	id = WORLD.41027
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41027"}
+	title = WORLD.41027.t
+	desc = WORLD.41027.desc
+	picture = GFX_news_event_GER_GG_victory
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41027.a
+	}
+}
+
+news_event = { #Waldheim
+	id = WORLD.41028
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41028"}
+	title = WORLD.41028.t
+	desc = WORLD.41028.desc
+	picture = GFX_news_event_GER_GG_victory
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41028.a
+	}
+}
+
+news_event = { #Heusinger
+	id = WORLD.41029
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41029"}
+	title = WORLD.41029.t
+	desc = WORLD.41029.desc
+	picture = GFX_news_event_GER_german_bohemia
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41029.a
+	}
+}
+
+news_event = { #Schmidt Coup
+	id = WORLD.41030
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41030"}
+	title = WORLD.41030.t
+	desc = WORLD.41030.desc
+	picture = GFX_news_event_ger_schmidt
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41030.a
+	}
+}
+
+news_event = { #Speer W
+	id = WORLD.41031
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41031"}
+	title = WORLD.41031.t
+	desc = WORLD.41031.desc
+	picture = GFX_news_event_GER_GG_victory
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41031.a
+	}
+}
+
+news_event = { #Kiesinger coup
+	id = WORLD.41032
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41032"}
+	title = WORLD.41032.t
+	desc = WORLD.41032.desc
+	picture = GFX_news_event_ger_kiesinger
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41032.a
+	}
+}
+
+news_event = { #Speidel coup
+	id = WORLD.41033
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41033"}
+	title = WORLD.41033.t
+	desc = WORLD.41033.desc
+	picture = GFX_news_event_GER_german_bohemia
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41033.a
+	}
+}
+
+news_event = { #Speer W
+	id = WORLD.41034
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41034"}
+	title = WORLD.41034.t
+	desc = WORLD.41034.desc
+	picture = GFX_news_event_GER_GG_victory
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41034.a
+	}
+}
+
+news_event = { #GO4 W
+	id = WORLD.41035
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41035"}
+	title = WORLD.41035.t
+	desc = WORLD.41035.desc
+	picture = GFX_news_event_ger_schmidt
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41035.a
+	}
+}
+
+news_event = { #1974 World Cup
+	id = WORLD.41036
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41036"}
+	title = WORLD.41036.t
+	desc = WORLD.41036.desc
+	picture = GFX_news_74_worldcup
+
+	is_triggered_only = yes
+	
+
+	option = {
+		name = WORLD.41036.a
+		trigger = {
+			NOT = {
+				TAG = GER
+			}
+			NOT = {
+				TAG = ARG
+			}
+		}
+	}
+	option = {
+		name = WORLD.41036.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = WORLD.41036.c
+		trigger = {
+			TAG = ARG
+		}
+	}
+}
+
+
+news_event = { #1976 Tangshan Earthquake
+	id = WORLD.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41037"}
+	title = WORLD.41037.t
+	desc = WORLD.41037.desc
+	picture = GFX_news_tangshan_earthquake
+
+	is_triggered_only = yes
+	
+
+	option = {
+		name = WORLD.41037.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+			}
+		}
+	}
+	option = { 
+		name = WORLD.41037.b
+		trigger = {
+			TAG = JAP
+		}
+	}
+}
+
+news_event = { #1978 Ted Bundy Caught
+	id = WORLD.41038
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41038"}
+	title = WORLD.41038.t
+	desc = WORLD.41038.desc
+	picture = GFX_news_bundy_caught
+
+	is_triggered_only = yes
+	
+	
+
+	option ={
+		name = WORLD.41038.a
+		trigger = {
+			NOT = {
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = WORLD.41038.b
+		trigger = {
+			TAG = USA
+		}
+	}
+}
+
+news_event = { #MRI Invented 
+	id = WORLD.41039
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41039"}
+	title = WORLD.41039.t
+	desc = WORLD.41039.desc
+	picture = GFX_news_mri
+
+	is_triggered_only = yes
+	
+	
+
+	option ={
+		name = WORLD.41039.a
+	}
+}
+
+news_event = { #USA/JAPAN SALT AGREEMENT 
+	id = WORLD.41040
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41040"}
+	title = WORLD.41040.t
+	desc = WORLD.41040.desc
+	picture = GFX_news_salt_agreement
+
+	is_triggered_only = yes
+	
+	
+
+	option = {
+		name = WORLD.41040.a
+		trigger = {
+			TAG = USA
+			TAG = JAP
+		}
+	}
+	option = {
+		name = WORLD_41040.b
+		trigger = {
+			TAG = GER
+		}
+	}
+	option = {
+		name = WORLD.41040.c
+	}
+}
+
+news_event = {
+	id = WORLD.41041 #WTC Opened
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41041"}
+	title = WORLD.41041.t
+	desc = WORLD.41041.desc
+	picture = GFX_news_wtc_opening
+
+	is_triggered_only = yes
+
+	
+	option = {
+		name = WORLD.41041.a
+		trigger = {
+			NOT = {
+				TAG = USA
+				TAG = JAP
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = WORLD.41041.b
+		trigger = {
+			TAG = USA
+		}
+	}
+	option = {
+		name = WORLD.41041.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+	option = {
+		name = WORLD.41041.e
+		trigger = {
+			TAG = GER
+		}
+	}
+}
+
+news_event = {
+	id = WORLD.41042 #Sydney Opera House
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41042"}
+	title = WORLD.41042.t
+	desc = WORLD.41042.desc
+	picture = GFX_news_sydney_opera
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41042.a
+	}
+}
+
+news_event = { #Kazakh Civil War
+	id = WORLD.41043
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41043"}
+	title = WORLD.41043.t
+	desc = WORLD.41043.d
+	picture = GFX_news_kazakh_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.41043.a
+		trigger = {
+			OR = {
+			TAG = WRS
+			TAG = KOM
+			TAG = VYT
+			TAG = SAM
+			TAG = PRM
+			TAG = SVR
+			TAG = TYM
+			TAG = OMS
+			TAG = TOM
+			TAG = NOV
+			TAG = KEM
+			TAG = SBA
+			TAG = IRK
+			TAG = BRY
+			TAG = CHT
+			TAG = AMR
+			TAG = MAG
+			}
+		}
+	}
+	option = {
+		name = WORLD.41043.b
+		trigger = {
+			NOT = {
+			TAG = WRS
+			TAG = KOM
+			TAG = VYT
+			TAG = SAM
+			TAG = PRM
+			TAG = SVR
+			TAG = TYM
+			TAG = OMS
+			TAG = TOM
+			TAG = NOV
+			TAG = KEM
+			TAG = SBA
+			TAG = IRK
+			TAG = BRY
+			TAG = CHT
+			TAG = AMR
+			TAG = MAG
+			}
+		}
+	}
+}
+
+### China
+
+news_event = { # Chiang Chingkuo Wins
+	id = WORLD.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.3"}
+	title = WORLD.3.t
+	desc = WORLD.3.desc
+	picture = GFX_news_event_north_west_victorious
+	
+	is_triggered_only = yes
+
+	option = {
+		name = WORLD.3.a
+		trigger = {
+			OR = {
+				original_tag = QIN
+				original_tag = NOV
+				original_tag = USA
+			}
+		}
+	}
+	option = {
+		name = WORLD.3.b
+		trigger = {
+			original_tag = JAP
+		}
+	}
+	option = {
+		name = WORLD.3.c
+		trigger = {
+			NOT = {
+				original_tag = JAP
+				original_tag = QIN
+				original_tag = NOV
+				original_tag = USA
+			}
+		}
+	}
+}

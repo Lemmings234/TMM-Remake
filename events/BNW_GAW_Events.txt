@@ -199,6 +199,10 @@ country_event = {  #Indian Civil War - Stage 1
                 type = annex_everything
             }
             declare_war_on = {
+                target = MFP
+                type = annex_everything
+            }
+            declare_war_on = {
                 target = BUR
                 type = annex_everything
             }
@@ -331,6 +335,8 @@ country_event = {  #After 2RJW, all tags who has left Japanese faction rejoins
 		GUZ = { add_ideas = Sphere_Economic_Dependent }
 		JAP = { add_to_faction = GUX }
 		GUX = { add_ideas = Sphere_Economic_Dependent }
+		JAP = { add_to_faction = MFP }
+		MFP = { add_ideas = Sphere_Economic_Dependent }
 		JAP = { add_to_faction = KLT }
 		KLT = { add_ideas = Sphere_Economic_Dependent }
 		JAP = { add_to_faction = BHU }

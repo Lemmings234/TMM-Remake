@@ -1,0 +1,135 @@
+﻿division_template = {
+	name = "Sheng Shicai Dixi"
+	division_names_group = CHI_INF_01 #Normal Equipment and Training
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		IFV = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		IFV = { x = 1 y = 1 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Minbing Shi I"
+	division_names_group = CHI_INF_01 #Normal Equipment and Training
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Minbing Shi II"
+	division_names_group = CHI_INF_01 #Normal Equipment and Training
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 2 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "White Russia Army"
+	division_names_group = CHI_INF_01 #Normal Equipment and Training
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 0 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4709
+		division_template = "Sheng Shicai Dixi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4709
+		division_template = "Minbing Shi I"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 1703
+		division_template = "Minbing Shi II"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4704
+		division_template = "Minbing Shi I"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 4823
+		division_template = "Minbing Shi I"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 7792
+		division_template = "Minbing Shi II"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 8042
+		division_template = "Minbing Shi II"
+		start_experience_factor = 0
+		start_equipment_factor = 0.5
+	}
+	division = { #
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 4709
+		division_template = "White Russia Army"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+}

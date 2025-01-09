@@ -1,0 +1,211 @@
+add_namespace = TNO_playtesting
+
+country_event = { # Kazakhstan
+	id = TNO_playtesting.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNO_playtesting.1" }
+	title = TNO_playtesting.1.t
+	desc = TNO_playtesting.1.desc
+	picture = GFX_report_event_peace_deal
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = TNO_playtesting.1.a
+		RUS_shukshin_kazakhstan_occupation = yes
+	}
+}
+
+country_event = { # Central Asia
+	id = TNO_playtesting.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNO_playtesting.2" }
+	title = TNO_playtesting.2.t
+	desc = TNO_playtesting.2.desc
+	picture = GFX_report_event_peace_deal
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = TNO_playtesting.2.a
+		RUS_shukshin_central_asia_occupation = yes
+	}
+}
+
+country_event = { # Eastern Europe
+	id = TNO_playtesting.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNO_playtesting.3" }
+	title = TNO_playtesting.3.t
+	desc = TNO_playtesting.3.desc
+	picture = GFX_report_event_peace_deal
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = TNO_playtesting.3.a
+		RUS_moskowien_shukshin_occupation = yes
+		RUS_shukshin_petrograd_occupation = yes
+		RUS_shukshin_baltic_occupation = yes
+		RUS_shukshin_caucasian_occupation = yes
+		RUS_shukshin_ukraine_occupation = yes
+		RUS_shukshin_belarus_occupation = yes
+	}
+}
+
+country_event = { # German Spring
+	id = TNO_playtesting.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNO_playtesting.5" }
+	title = TNO_playtesting.5.t
+	desc = TNO_playtesting.5.desc
+	picture = GFX_report_event_peace_deal
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = TNO_playtesting.5.a
+		GER_2WRW_willy_brandt_german_spring = yes
+	}
+}
+
+country_event = { # CSTO
+	id = TNO_playtesting.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNO_playtesting.8" }
+	title = TNO_playtesting.8.t
+	desc = TNO_playtesting.8.desc
+	picture = GFX_report_event_peace_deal
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = TNO_playtesting.8.a
+		
+		create_faction = collective_security_treaty_organization
+
+		RUS = {
+			add_to_faction = NPL
+			add_to_faction = PAV
+			NPL = {
+				add_ideas = CSTO_Member
+			}
+			PAV = {
+				add_ideas = CSTO_Member
+			}
+			add_ideas = CSTO_Guardian_of_Eurasia
+		}
+	}
+}
+country_event = { # Ostland Collapse
+	id = TNO_playtesting.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event TNO_playtesting.9" }
+	title = TNO_playtesting.9.t
+	desc = TNO_playtesting.9.desc
+	picture = GFX_report_event_peace_deal
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = TNO_playtesting.9.a
+		
+		EST = {
+			set_cosmetic_tag = EST_PRORUSREVOLT
+			
+			transfer_state = 13
+			transfer_state = 191
+			transfer_state = 1395
+			transfer_state = 1396
+			transfer_state = 1440
+		}
+		
+		JST = {
+			set_cosmetic_tag = OST_POST2WRW
+		}
+		
+		BLR = {
+			set_cosmetic_tag = BLR_POST2WRW
+			
+			transfer_state = 1404
+			transfer_state = 1405
+			transfer_state = 1403
+			transfer_state = 194
+			transfer_state = 204
+			transfer_state = 206
+			transfer_state = 207
+			transfer_state = 1403
+			transfer_state = 95
+			transfer_state = 1406
+			transfer_state = 1407
+			transfer_state = 206
+			transfer_state = 96
+		}
+		
+		GER = { 
+			transfer_state = 1401
+			
+			add_to_faction = BLR
+		}
+	}
+}
+
+add_namespace = NOV_testing
+
+country_event = {
+	id = NOV_testing.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event NOV_testing.1" }
+	title = NOV_testing.1.t
+	desc = NOV_testing.1.desc
+	picture = GFX_report_event_peace_deal
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = NOV_testing.1.a
+		
+		set_politics = {
+			ruling_party = liberalism
+		}
+				
+		create_country_leader = {
+			name = "Anatoly Koryagin"
+			picture = "Portrait_Novosibirsk_Anatoly_Koryagin.dds"
+			desc = "ANATOLY_KORYAGIN_DESC"
+			expire = "1999.3.4"
+			ideology = liberalism_pacifism_subtype
+		}
+			
+		set_popularities = {
+			paternalism = 18
+			conservatism = 28
+			liberalism = 33
+			progressivism = 21
+		}
+		
+		set_party_name = { 
+			ideology = liberalism 
+			long_name = NOV_shukshin_RSLP_long
+			name = NOV_shukshin_RSLP_short
+		}
+	}
+}
+
+
+country_event = {
+	id = NOV_testing.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event NOV_testing.2" }
+	title = NOV_testing.2.t
+	desc = NOV_testing.2.desc
+	picture = GFX_report_event_peace_deal
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = NOV_testing.2.a
+		
+		set_country_flag = RUS_Central_Asia_Intervention
+	}
+}

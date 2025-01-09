@@ -1,0 +1,249 @@
+﻿division_template = {
+	name = "Hinoe Hohei Shidan"					
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+   		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		IFV_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Hohei Ryodan"					
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Yasen Kōsha-hō Daitai"					
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		anti_air_brigade = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Haken Kenpeitai"					
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+		IFV_recon = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		military_police = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Dokuritsu Konsei Hohei Ryodan"					
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Jidoushoka Ryodan"					
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+		IFV_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Sensha Shidan"					
+
+	regiments = {
+		MBT = { x = 0 y = 0 }		
+		MBT = { x = 0 y = 1 }		
+		IFV = { x = 1 y = 0 }
+		IFV = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+	}
+	support = {
+		IFV_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	division = {	
+		name = "114 'Yasushi' Hohei Shidan"
+		location = 7803
+		division_template = "Hinoe Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "115 'Kita' Hohei Shidan"
+		location = 10770
+		division_template = "Hinoe Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "110 'Sagi' Hohei Shidan"
+		location = 7397
+		division_template = "Hinoe Hohei Shidan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "1 Dokuritsu Konsei Ryodan"
+		location = 5057
+		division_template = "Dokuritsu Konsei Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "3 Dokuritsu Konsei Ryodan"
+		location = 1630
+		division_template = "Dokuritsu Konsei Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "5 Dokuritsu Konsei Ryodan"
+		location = 8102
+		division_template = "Dokuritsu Konsei Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "8 Dokuritsu Konsei Ryodan"
+		location = 5031
+		division_template = "Dokuritsu Konsei Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "9 Dokuritsu Konsei Ryodan"
+		location = 10770
+		division_template = "Dokuritsu Konsei Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "Dai-12 Gun Shozoku Keibi Ryodan"
+		location = 5057
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "1 Dokuritsu Hohei Ryodan"
+		location = 12776
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "2 Dokuritsu Hohei Ryodan"
+		location = 12776
+		division_template = "Dokuritsu Konsei Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "10 Dokuritsu Hohei Ryodan"
+		location = 7727
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "14 Dokuritsu Hohei Ryodan"
+		location = 5031
+		division_template = "Hohei Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "74 Yasen Kōsha-hō Daitai"
+		location = 1630
+		division_template = "Yasen Kōsha-hō Daitai"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "86 Yasen Kōsha-hō Daitai"
+		location = 8102
+		division_template = "Yasen Kōsha-hō Daitai"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "Seihoku Shina Haken Kenpeitai"
+		location = 1630
+		division_template = "Haken Kenpeitai"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "Seihoku Shina Tokubetsu Keibitai"
+		location = 8055
+		division_template = "Haken Kenpeitai"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "3 Kihei Ryodan"
+		location = 8127
+		division_template = "Jidoushoka Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "4 Kihei Ryodan"
+		location = 8081
+		division_template = "Jidoushoka Ryodan"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		name = "3 'Taki' Sensha Shidan"
+		location = 7911
+		division_template = "Sensha Shidan"
+		start_experience_factor = 0.3
+	}	
+}

@@ -1,0 +1,35 @@
+scripted_gui = {
+	WRW_closing_screen_main = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "WRW_ClosingScreen_Main"
+
+		visible = {
+			AND = {
+				is_ai = no
+				has_country_flag = WRW_closing_screen_show
+			}
+		}
+
+		effects = {
+			WRW_ClosingScreen_CloseButton_click = {
+				clr_country_flag = WRW_closing_screen_show
+			}
+			closing_button_next_page_click = {
+				add_to_variable = { ENDING_INFO_PAGE = 1 }
+			}
+			closing_button_prev_page_click = {
+				add_to_variable = { ENDING_INFO_PAGE = -1 }
+			}
+		}
+
+		triggers = {
+			closing_button_next_page_visible = {
+				check_variable = { ENDING_INFO_PAGE < 1.99 }
+			}
+			closing_button_prev_page_visible = {
+				check_variable = { ENDING_INFO_PAGE > 0.01 }
+			}
+		}
+	}
+}

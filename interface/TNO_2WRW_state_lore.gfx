@@ -1,0 +1,24 @@
+spritetypes = {
+	
+	### IMAGES GO HERE ###
+	# I highly recommend for y'all to put in winter images when convenient, i.e. when a good winter image is available. If none are available, you don't have to do stuff like whiten the image to do winter images.
+
+	# And, of course, when the climate of the nation is subtropic.
+
+	spritetype = {
+		name = "GFX_state_lore_img_1001"
+		texturefile = "gfx/interface/state_lore/images/state_lore_img_1001.dds"
+	}
+	spritetype = {
+		name = "GFX_state_lore_img_1002"
+		texturefile = "gfx/interface/state_lore/images/state_lore_img_1002.dds"
+	}
+	spritetype = {
+		name = "GFX_state_lore_img_1003"
+		texturefile = "gfx/interface/state_lore/images/state_lore_img_1003.dds"
+	}
+	spritetype = {
+		name = "GFX_state_lore_img_1004"
+		texturefile = "gfx/interface/state_lore/images/state_lore_img_1004.dds"
+	}
+}

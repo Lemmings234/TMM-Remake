@@ -1,0 +1,148 @@
+guiTypes = {
+	containerWindowType = {
+		name = "RUS_Siberian_Railway_GUI_Opener"
+		size = { width = 525 height = 55 }
+		position = { x = 0 y = 0 }
+		
+		buttonType = {
+			name = "RUS_Open_Siberian_Railway_Button"
+			position = { x = 68 y = 0 }
+			spriteType = "GFX_Tomsk_control_bar_bg"
+			font = "aldrich_20_outline"
+			text = "OPEN MENU"
+			format = center
+		}
+	}
+	
+	containerWindowType = {
+		name = "RUS_Siberian_Railway_GUI"
+		size = { width = 1500 height = 750 }
+		position = { x = 200 y = 150 }
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_thin_border2"
+		}
+		#Text
+		instantTextBoxType = {
+			name = "RUS_trans_siberian_railway_title"
+			position = { x = 450 y = 8 }
+			font = "aldrich_48_outline"
+			text = "The Trans-Siberian Railway"
+			format = center
+			maxWidth = 600
+		}
+		instantTextBoxType = {
+			name = "RUS_state_selected_tsrmp"
+			position = { x = 450 y = 480 }
+			font = "aldrich_32_outline"
+			text = "State Selected: [RUS_Siberian_Railway_State_Selected]"
+			format = center
+			maxWidth = 600
+		}
+		#Buttons
+		buttonType = { # Central Siberia
+			name = "CentralSiberiaStateSelectedButton"
+			spriteType = "GFX_central_siberia_region_select_button"
+			position = { x = 427 y = 60 }
+			scale = 0.6
+		}
+		#Map
+		iconType = {
+			name = "RUS_map_outline"
+			position = { x = 35 y = 60 }
+			spriteType = "GFX_russia_sib_background"
+			scale = 0.6
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "box_outline"
+			position = { x = 25 y = 59 }
+			spriteType = "GFX_sib_outline_box"
+			scale = 0.6
+			alwaystransparent = yes
+		}
+		
+		#Temp Stations
+		iconType = {
+			name = "RUS_RailwayJunctions"
+			spriteType = "GFX_trans_siberian_stations"
+			position = { x = 85 y = 108 }
+			alwaystransparent = yes
+			scale = 0.6
+		}
+		# Major Railways - Central Siberia
+		iconType = {
+			name = "RUS_Novosibirsk_Railway_Station"
+			spriteType = "GFX_Major_Railway_Station"
+			position = { x = 550 y = 307 }
+			alwaystransparent = yes
+			scale = 1
+		}
+		iconType = {
+			name = "RUS_Kemerovo_Railway_Station"
+			spriteType = "GFX_Major_Railway_Station"
+			position = { x = 585 y = 306 }
+			alwaystransparent = yes
+			scale = 1
+		}
+		iconType = {
+			name = "RUS_Krasnoyarsk_Railway_Station"
+			spriteType = "GFX_Major_Railway_Station"
+			position = { x = 637 y = 275 }
+			alwaystransparent = yes
+			scale = 1
+		}
+		iconType = {
+			name = "RUS_Bratsk_Railway_Station"
+			spriteType = "GFX_Major_Railway_Station"
+			position = { x = 717 y = 288 }
+			alwaystransparent = yes
+			scale = 1
+		}
+		
+		# Minor Railways
+		iconType = {
+			name = "RUS_Tomsk_Railway_Station"
+			spriteType = "GFX_minor_railway_station"
+			position = { x = 548 y = 275 }
+			alwaystransparent = yes
+			scale = 1
+		}
+		iconType = {
+			name = "RUS_Barnaul_Railway_Station"
+			spriteType = "GFX_minor_railway_station"
+			position = { x = 550 y = 340 }
+			alwaystransparent = yes
+			scale = 1
+		}
+		# Exit
+		buttonType = {
+			name = "RUS_Siberian_Exit_close_button"
+			quadTextureSprite = "GFX_crt_closebutton"
+			position = { x = -29 y = 10 }
+			orientation = upper_right
+			shortcut = "ESCAPE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "RUS_siberianrailway_centralsibiera"
+		position = { x = 225 y = 525 }
+		
+		iconType = {
+			name = "novosibirsk_railway_station_select"
+			position = { x = 0 y = 150 }
+			spriteType = "GFX_novosibirsk_railway_station_select"
+			scale = 1
+		}
+		buttonType = {
+			name = "link_novosibirsk_to_kemerovo"
+			position = { x = 1252 y = 140 }
+			spriteType = "GFX_PAV_Presidential_Interaction_Button"
+			font = "aldrich_22_outline"
+			text = "Link Novosibirsk and Kemerovo"
+			format = center
+			orientation = right
+		}
+	}
+}

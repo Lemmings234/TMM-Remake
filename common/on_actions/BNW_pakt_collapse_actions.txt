@@ -1,0 +1,138 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = MCW
+					FROM = {
+						tag = RUS
+					}
+				}
+				every_country = {
+					news_event = { id = pakt_collapse.1 days = 14 }
+				}
+			}
+			else_if = {
+				limit = {
+					tag = CAU
+					FROM = { 
+						tag = RUS
+					}
+					AND = {
+						country_exists = MAD
+						MAD = { is_in_faction_with = GER }
+					}
+				}
+				JAP = {
+					country_event = { id = pakt_collapse.2 days = 14 }
+				}
+			}
+			else_if = {
+				limit = {
+					tag = CAU
+					FROM = { 
+						tag = RUS
+					}
+					AND = {
+						NOT = {
+							MAD = { is_in_faction_with = GER }
+						}
+						GER = {
+							has_country_flag = mar_nukes
+						}
+					}
+				}
+				JAP = {
+					country_event = { id = pakt_collapse.3 days = 14 }
+				}
+			}
+			else_if = {
+				limit = {
+					tag = UKR
+					FROM = { 
+						tag = RUS
+					}
+				}
+				every_country = {
+					news_event = { id = pakt_collapse.6 days = 14 }
+				}
+			}
+			else_if = {
+				limit = {
+					tag = OST
+					FROM = { 
+						tag = RUS
+					}
+				}
+				NOR = {
+					country_event = { id = pakt_collapse.7 days = 14}
+				}
+			}																
+		}
+	}
+	on_peace = {
+		effect = {
+			if = {
+				limit = {
+					AND = {
+						tag = GER
+						NOT = {
+							OST = {
+								AND = {
+									is_subject_of = GER
+									country_exists = yes
+								}
+							}
+							UKR = {
+								AND = {
+									is_subject_of = GER
+									country_exists = yes
+								}
+							}
+							MCW = {
+								AND = {
+									is_subject_of = GER
+									country_exists = yes
+								}
+							}	
+							CAU = {
+								AND = {
+									is_subject_of = GER
+									country_exists = yes
+								}
+							}
+						}
+						date > 1970.1.1
+					}
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = GER
+					}
+					add_to_array = {
+						array = GER.pakt_members
+						value = THIS.id
+					}
+				}
+				GER = {
+					country_event = {id = pakt_collapse.13 days = 14}
+					country_event = {id = pakt_collapse.17 days = 7}
+				}
+				ENG = {
+					country_event = {id = pakt_collapse.15 days = 6}
+				}
+				IRE = {
+					country_event = {id = pakt_collapse.14 days = 6}
+				}
+				ULS = {
+					country_event = {id = pakt_collapse.15 days = 1}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

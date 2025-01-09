@@ -1,0 +1,91 @@
+﻿l_english:
+
+# Second West Russian War
+
+# Characters
+ 
+ Deutsch_Willy_Brandt:0 "Willy Brandt"
+ POLITICS_DEUTSCH_BRANDT_DESC:0 "Herbert Ernst Karl Frahm was born December 18, 1913 in the city of Lubeck. He had a peaceful early life, finishing his Abitur and helping his single mother and step-father through the economic hardships of the thirties. However, it wouldn't be long before the Nazi specter of hate and destruction fell under Frahm's homeland. During his time in hiding to avoid persecution by the Gestapo, he adopted the now famous pseudonym of Willy Brandt. \n\n As years passed and the Nazi shadow eclipsed not only Germany but all of Europe and the world, Brandt felt a calling to rise against their jackboot, and after years of silent opposition he came to lead the underground resistance movement of Reichsbanner §qSchwarz§!-§VRot§!-§wGold§!, a surviving remnant of Weimar era opposition to Nazi rule long thought defunct. From the Reich's loneliest villages to its vastest cities, his movement faced the Nazi wolf head on and resisted its deathly bite. All those of Reichsbanner lost and suffered to those that worshiped the crooked cross, knowing their cause was too sacred to abandon. \n\n With the Nazi party in disarray following the calamity in the East, Brandt and his allies have assumed power and triumphed over the specter of hate. Now he, at the head of a new Germany, must lead her into a new age of government, for the people and for three, simple, principles:\n\n.\n\n§qEinigkeit§!, und §VRecht§!, und §wFreiheit§!."
+
+# Parties
+
+ GER_Willy_Brandt_German_Spring_long:0 "Sozialdemokratische Partei Deutschlands"
+ GER_Willy_Brandt_German_Spring_short:0 "SPD"
+
+## Events
+
+ reich.2000.t:0 "The Russians Demand our Surrender"
+ reich.2000.desc:0 ""
+ reich.2000.a:0 "Tell the Russians we're prepared to Negotiate"
+
+ reich.2001.t:0 "The Russians Surrender!"
+ reich.2001.desc:0 "As expected, the Slavic hordes of the east have been routed. Their pathetic armies, crushed beneath the marching boot of the Aryan soldier. Unfortunately, those barbarians are preparing their nuclear weaponary and are preparing to attack. For the safety of Germany, we should approach their government and gain favourable terms of surrender before they plunge the world into darkness."
+ reich.2001.a:0 "Tell them we want the A-A Line restored. Nothing more"
+
+ reich.2004.t:0 "Germany does a little oopsie"
+ reich.2004.desc:0 "What now???"
+ reich.2004.a:0 "Keep Klopfer"
+ reich.2004.b:0 "Keep Gehlen"
+ reich.2004.c:0 "Keep Waldheim"
+ reich.2004.d:0 "Militarist coup"
+ reich.2004.e:0 "Wholesome GO4???"
+ reich.2004.f:0 "Based Dentist!!!"
+ reich.2004.g:0 "kiesinger"
+ reich.2004.h:0 "speidel"
+ reich.2004.i:0 "Willy Brandt!"
+
+ reich.2005.t:0 "Speer dub!!!"
+ reich.2005.desc:0 "number 1 victory royale"
+ reich.2005.a:0 "democracy (cringe)"
+ reich.2005.b:0 "dentist (based)"
+# Novosibirsk
+
+ reich.2002.t:0 "The Federation demands our Surrender"
+ reich.2002.desc:0 "The Russian Federation's All-Russian Army have punched through the frontlines of the Einheitspakt, inching ever closer to the borders of Germany proper. With Riga and Kiev now fallen, perhaps it is time to approach President Shukshin to discuss their terms and bring an end to the conflict. If all else fails, we still have our nuclear arsenal on stand-by."
+ reich.2002.a:0 "Get Shukshin on the line!"
+
+ reich.2003.t:0 "The Federation demands our Surrender"
+ reich.2003.desc:0 "The Russian Federation's All-Russian Army have punched through the frontlines of the Einheitspakt, inching ever closer to the borders of Germany proper. With Riga and Kiev now fallen, perhaps it is time to approach the elusive President Pokryshkin to discuss their terms and bring an end to the conflict. If all else fails, we still have our nuclear arsenal on stand-by."
+ reich.2003.a:0 "Get Pokryshkin on the line!"
+ 
+ # Bormann Skeleton
+bormann.3001.t:0 "Last Thoughts"
+bormann.3001.desc:0 "Führer Bormann limped to the front of a vast crowd. His bones ached with every move, and pain blasted through his side with every breath. God, it hurt just to live! But that was only right- life is struggle, even at the end. To struggle for life is glorious, a noble duty, an unimaginable honor. The others never understood that. Speer, that whimpering schoolboy, never accomplished anything other than playing with bricks and stealing Adolf's attention with useless blueprints. Goebbels and Göring capitulated to degeneracy even before the war. He remembered how they'd whimpered, begging the race's savior not to invade Poland, terrified of British bombers flying over Berlin. And Himmler- that snake! In the end he'd proven himself the mongrel Bormann always knew he was.\n\nOnly he had kept the faith. Only he had the strength to follow in Hitler's footsteps. And now look where he stood- master of Europe, no, master of the world! The crowd before him was roaring, begging him to speak. Even as his body failed, his mind was strong. Klopfer has tried to convince him to stay inside, the cunt. There were no other words for it. Even now, he was paving the way to succeed him, using the Führer's advancing cancer as an excuse to consolidate his own power. Truly, the man had no loyalty. But the people understood that he was still in control, even at the end. It was his words they begged to hear, his words they turned on the radio to hear, not Klopfer's. He would never be his equal. No, only Adolf was his peer.\n\nWaldheim stood at the podium now, shouting some vague nonsense into the wind. Bormann remembered years ago, when he'd dragged the lanky bastard out of the shit-ridden bowels of the Foreign Ministry to replace von Schirach. He made a mental note to order Gehlen to do away with him.\n\nWaldheim finished his speech, and thrust his hand to the right. "Now, brothers and sisters of Germany, I give you: your Führer!" Bormann hobbled towards the podium, wincing in pain. He couldn't keep his back straight, or walk with much more than an aching shuffle. He reached for the podium- \n\nAnd lost his balance. The master of Europe fell forward, struck his head on the marble, and died."
+bormann.3001.a:0 "Justice is a relative concept."
+
+bormann.3002.t:0 "Nazi Hut"
+bormann.3002.desc:0 "Hallo, welcome to Nazi Hut, how may I take your order?"
+bormann.3002.a:0 "One generic party bureaucrat, please."
+bormann.3002.b:0 "One funny spy, please."
+bormann.3002.c:0 "One President of Austria, please."
+
+GER_gerhard_klopfer: "Gerhard Klopfer"
+POLITICS_GERHARD_KLOPFER_DESC: "What is there to say about Gerhard Klopfer? If Bormann was Hitler's continuation, then Klopfer is Bormann's continuation. He took power with little commotion, brushing aside both Gehlen and Waldheim in a succession that was more an anointing than a power struggle. Klopfer prepared the party, and himself, for his leadership since the June of Deceit, and any dissenting voices had long since been silenced.\n\nWhat is there to say about a man whose policies are "more of the same"? Europe knows the face of National Socialism by now: cruelty, terror, and a pig-headed stupidity that appoints men like Klopfer to a position higher than dung cleaner. The new Führer's solution to the RAF terrorists is to shoot anyone he suspects of treason; his solution to the ongoing economic crisis is to double down on autarky, double down on sacrifice, and double down on the copious bribes he sends his friends in the government.\n\nKlopfer is no mad man. He is no Himmler, no Pleskau, no Heydrich. He will not plunge Europe into a hell of bullets and mustard gas. The system will continue, and the worthless few will grow richer. No, the true horror of Führer Klopfer's reign is that National Socialism has become an institution in Europe. The murder of thousands, the rape of entire countries, and the extermination of cultures has become utterly, indescribably, boring."
+
+POLITICS_REINHARD_GEHLEN_DESC: "The recent discord in the Reich is entirely unacceptable. Students and reformists scream like broken violins in the streets, while the Red Armee Fraktion and other Judeo-Bolshevik groups strike at our government from the shadows. Germany doesn't need an ideologue. She needs a man devoted to the good of the German people, willing to place his nation before himself. She needs a noble man, someone willing to conduct the racial symphony of National Socialism in a new era. She needs Reinhard Gehlen.\n\nAt least, those are the words he repeats in public. In private, Gehlen has been a distant supporter of Bormann since his victory in the Civil War, exterminating his enemies with poison and sniper bullets and working around the clock to consolidate the state's power. His agency, the Strategische Unterstützungspolizei, proved its loyalty during the June of Deceit when it delivered Heinrich Müller's head. Thus, when the RAF began its campaign of terror, the Führer in all his wisdom appointed Gehlen to eliminate the stain of dissent. Gehlen used the OrPo like a conductor's baton, slicing through the noise of deception and treason, silencing the untuned instruments and producing the sweet music of peace. Amidst this period of reorganization, no one noticed when a few of Gerhard Klopfer's allies left the concert hall, or changed their tune ever so slightly. Now they, and the NSDAP, sing Gehlen's praises instead. But it is he that holds the baton, he and the OrPo, not the party. Never the party. Never again the party."
+
+
+GER_kurt_waldheim: "Kurt Waldheim"
+POLITICS_KURT_WALDHEIM_DESC: "Kurt Waldheim has always been a man of words, and a man of flexible loyalties. A Czech born in Austria before the Anschluss, Waldheim presents himself as an archetype of the new Böhmisch man, a fully Germanized and loyal servant of the Reich. He was drafted into the Wehrmacht in 1941, and served as an interpreter, propaganda officer, and liaison throughout the Balkans. Waldheim rose to the rank of Oberleutnant, and was awarded the Medal of the Crown of King Zvonimir by the Independent State of Croatia.\n\nAfter 1945, Waldheim joined the German diplomatic service, where he served first as a liaison with the Ustashe government. After Croatia fell to Italian influence he served in a number of posts, including as a military liaison to Finland during the West Russian War and later as Ambassador to Sweden. After Baldur von Schirach's removal, Bormann appointed him head of the Auswärtiges Amt, believing that the aristocrat-populated Ministry would reject a commoner's leadership, leaving the rebellious ministry powerless. However, with Klopfer and Gehlen at each other's throats, Waldheim was able to consolidate a power base of industrialists, diplomats, and party members slighted by Bormann's brute leadership.\n\nEver the diplomat, Waldheim's first act as Führer was to begin a series of détente conferences with the Japanese and Americans. However, he shows no sign of easing the yoke upon the Slavs of Eastern Europe. Indeed, for those who refuse to accept the Germanization of their culture and land, the succession of Führer Waldheim may prove unfortunate indeed..."
+
+POLITICS_ADOLF_HEUSINGER_DESC_POST2WRW: "General Heusinger has served in the German Army since 1915. Originally a simple infantryman, by 1938 he took up the post of Operations Chief of the Wehrmacht, and later was promoted to Chief of the General Staff. However, it was during the West Russian War that his star truly shone, as Heusinger's forces were one of the only army groups to perform in any adequate manner amidst Field Marshal Schörner's failure. During the Civil War, many expected him to side with Göring. However, he ultimately ordered his forces to enter Germania under Speidel's command, where he stayed for the remainder of the war.\n\nAs the situation in the East deteriorated, Heusinger organized a National Socialist aligned insurrectionary group among the military. Calling themselves the Schnez Truppe, this faction of former SS, disgruntled officers, and patriots chose to coup Bormann's successor when it was clear that their government was collapsing. With the party in tatters and the military fully behind him, Heusinger has had little difficulty in seizing power, simply ordering the assassination of any officials who speak out against him. Protestors and dissidents are advised to hide themselves, lest they and their family find themselves on the wrong end of a bayonet."
+
+POLITICS_HELMUT_SCHMIDT_DESC: "While many may know the cold and calculating gaze of Führer Speer, few seem to see the man pulling the strings behind him.\n\nHelmut Schmidt has survived the legacy of four wars. From the climatic final days of the Second World War to the chaos of Operation Suvorov and attempted Shutzstaffel Coup, Schmidt has seen the Reich steer from the Uncontested Hegemon of Europe to the Master of Nothing in the span of half a century. From an Empire to last a thousand years, brought down to its knees by those thought less than human, Germany has been left a smoldering ruin. Left a flaming waste by those who guided it towards the fire.\n\nNow it is Schmidt’s turn to steer the Reich into a changed world, and he has no intention of staying on its current course. Backed into a corner by all sides, the Gang of Four have showed their fangs in the face of yet another catastrophe. Except, this time they have no intention of “reforming” the National Socialist model. Instead,  Germany will be Schmidt’s own Ship of Theseus. One by one, each and every rotten plank that makes up the monstrous, bloated Reich will be torn down, built anew in the image of a future so long deprived of Germany’s youth. Democracy.\n\nWith the Hawks and Reactionaries either in internment camps or six-feet under, none are left to keep the flames of Nazism stoked within the hearts and minds of Germany’s people. As the riots settle and the halls of the Volkshalle fall silent, it is up to Schmidt and the Gang to persevere through the Reich’s greatest challenge once again."
+
+GER_kurt_georg_kiesinger_short: "Kurt Kiesinger"
+POLITICS_KURT_KIESINGER_DESC: "Kurt Georg Kiesinger was a law student in Berlin when he was drafted to join the Wehrmacht. Rather than take his chances on the front lines, Kiesinger joined the Foreign Ministry under Joachim Ribbentrop, where he worked as the liaison with the Propaganda Ministry and formed a long working relationship with Joseph Goebbels. Some of Goebbels best broadcasts, some of his longest, most hate-ridden rants, were in fact Kurt's words screamed from his mouth. However, after Ribbentrop disgraced himself and Goebbels was assassinated in Moscowien, Kiesinger found himself without a patron. He discovered a new master in Albert Speer.\n\nAlthough he served Speer with fervor for many years, Kiesinger always knew that the wind could change at any moment. For a time, that meant building a relationship with Schmidt and his wretched liberals. For a time, that meant hedging his bets, making deals in smoke filled rooms with figures that saw Speer as too soft. But now, with the disaster in the East, the wind has finally changed. There are no more cards to draw. He must play the hand he's been dealt, or be thrown into the trashbin of history like the rest of the Gang of Four. All he can do is consolidate power, eliminate his opponents, and salvage the situation as best he can."
+
+POLITICS_HANS_SPEIDEL_2_DESC: "Hans Speidel has long been seen as a paragon of service, an apolitical nationalist who stood by his nation, right or wrong. That perception has come to an end with the disaster in Eastern Europe.\n\nSpeidel served with distinction during the Second World War, most notably as Rommel's Chief of Staff. He ended the SS coup almost single handedly, and later undercut Schörner's first attempt at seizing the Wehrmacht for his own misbegotten gain. However, this tapestry of honor was not enough to save the Reich from itself. Germany is bleeding, struck through with bullet holes, and only Führer Speidel can save it.\n\nField Marshal Speidel has abandoned his post, laying down the title of Field Marshal and taking up the yoke of dictator. His intention is simple: purge Germany of Nazism, the ideology that brought it to ruin, maintain the Empire at any cost, and fight back against those who would see Germany castrated. Although the tattered remains of the NSDAP oppose him, the former Marshal has the backing of the majority of the Wehrmacht, and even a portion of the exhausted, bloodied public stand at his side. While noble, Speidel is a small island in a swirling sea, and every day the tide comes ever higher."
+
+GER_gehlen_party:0 "OrPo"
+GER_gehlen_party_long:0 "Strategische Unterstützungspolizei"
+
+GER_heusinger_party:0 "NSDAP"
+GER_heusinger_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+
+GER_schmidt_party:0 "Freie Demokratische Partei"
+GER_schmidt_party_long:0 "Freie Demokratische Partei"
+GER_national_reconstruction_committe_party: "NKW"
+GER_national_reconstruction_committe_party_long: "Nationales Komitee für Wiederaufbau"
+
+GER_economic_collapse:0 "Economic Collapse"

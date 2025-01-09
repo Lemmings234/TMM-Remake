@@ -1,0 +1,35 @@
+
+state={
+    id=1998
+    name="STATE_1998"
+
+    history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			schools = 2
+			offices = 2
+			barracks = 1
+			prisons = 1
+			infrastructure = 2
+			thermoelectric_plant = 1
+
+		}      
+		victory_points = {
+			12055 30 
+		}
+ 		victory_points = {
+			1029 5 
+		}
+		victory_points = {
+			1076 5 
+		}         
+    }
+
+    provinces={
+        1029 1076 1121 7025 7085 7200 9956 12055 13234
+    }
+    manpower=17653250
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

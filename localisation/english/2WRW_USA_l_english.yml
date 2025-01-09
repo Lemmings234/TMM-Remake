@@ -1,0 +1,125 @@
+﻿l_english:
+
+#Events
+
+USA.5000.t:0 "Anderson wins election"
+USA.5000.desc:0 "placeholder"
+USA.5000.a:0 "palceholder"
+
+USA.5001.t:0 "Romney part 2"
+USA.5001.desc:0 "placeholder"
+USA.5001.a:0 "placeholder"
+
+USA.5002.t:0 "Jim Carter"
+USA.5002.desc:0 "placeholder"
+USA.5002.a:0 "placeholder"
+
+USA.5003.t:0 "kirkpatrick part 2"
+USA.5003.desc:0 "placeholder"
+USA.5003.a:0 "placeholder"
+
+USA.5004.t:0 "scopp jackson"
+USA.5004.desc:0 "placeholder"
+USA.5004.a:0 "placeholder"
+
+USA.5005.t:0 "scoop jackson 2"
+USA.5005.desc:0 "placeholder"
+USA.5005.a:0 "placeholder"
+
+USA.5006.t:0 "herman talmadge"
+USA.5006.desc:0 "placeholder"
+USA.5006.a:0 "placeholder"
+
+USA.5007.t:0 "schlafly 2"
+USA.5007.desc:0 "placeholder"
+USA.5007.a:0 "cool"
+
+USA.5008.t:0 "ella baker"
+USA.5008.desc:0 "placeholder"
+USA.5008.a:0 "placeholder"
+
+USA.5009.t:0 "gus hall 2"
+USA.5009.desc:0 "placeholder"
+USA.5009.a:0 "placeholder"
+
+USA.5010.t:0 "union of socialist states of america"
+USA.5010.desc:0 "placeholder"
+USA.5010.a:0 "placeholder"
+
+USA.5011.t:0 "yockey impeachment"
+USA.5011.desc:0 "placeholder"
+USA.5011.a:0 "yockey l"
+USA.5011.b:0 "yockey w"
+
+USA.5012.t:0 "battle of washington"
+USA.5012.desc:0 "placeholder"
+USA.5012.a:0 "placeholder"
+
+USA.5013.t:0 "sack of washington"
+USA.5013.desc:0 "placeholder"
+USA.5013.a:0 "imperium"
+USA.5013.b:0 "pierce w"
+USA.5013.c:0 "weathermen"
+USA.5013.d:0 "westmoreland"
+
+USA.5014.t:0 "imperium"
+USA.5014.desc:0 "placeholder"
+USA.5014.a:0 "placeholder"
+
+USA.5015.t:0 "american state"
+USA.5015.desc:0 "placeholder"
+USA.5015.a:0 "placeholder"
+
+USA.5017.t:0 "union of american councils"
+USA.5017.desc:0 "placeholder"
+USA.5017.a:0 "placeholder"
+
+USA.5076.t:0 "Fries, Burgers, and the pursuit of Supersizing"
+USA.5076.desc:0 "Hi, welcome to Whitehouse Castle, how may I take your order?"
+USA.5076.a:0 "One boring old man with a red tie, please."
+USA.5076.b:0 "One boring old man with a blue tie, please."
+USA.5076.c:0 "One union radical warmonger, please."
+USA.5076.d:0 "One racist, please."
+USA.5076.e:0 "One mormon missionary, please."
+USA.5076.f:0 "One corporate warmonger, please."
+USA.5076.g:0 "One union radical warmonger, please."
+USA.5076.h:0 "One anti-woman woman, please."
+USA.5076.i:0 "One discount Rosa Parks, please."
+USA.5076.j:0 "One reddit user, please."
+
+USA.5077.t:0 "Yockey or no Yockey?"
+USA.5077.desc:0 "Im sure theres a better way to code this than to add a new event"
+USA.5077.a:0 "yockey"
+USA.5077.b:0 "no yockey"
+
+#Parties
+USA_military_party:0 "US Army"
+USA_military_party_long:0 "United States Armed Forces"
+
+USA_weathermen_party:0 "Weathermen"
+USA_weathermen_party_long:0 "Weather Underground Organization"
+
+USA_pierce_party:0 "National Alliance"
+USA_pierce_party_long:0 "National Progressive Party (National Alliance)"
+
+#Characters
+USA_John_B_Anderson: "John B. Anderson"
+POLITICS_JOHN_B_ANDERSON_DESC:0 "The Man of Ideas\n\nThe time has come to stop telling the American people only what they want them to hear.\n\nThe Democratic-Republican Coalition, the party of the establishment, the party of big banks and big business. Anderson is a man of capitalism, but he's not a man of the establishment - he's not so easily placed in one position or another. He is a visionary in the coalition, an eclectic reformer, a strong supporter of the OFN, but also a moderate at home. Anderson won the presidency by winning over different kinds of people, by finding consensus on issues and offering a fair shake and a fair deal to the different powers in America. That's what America is about.\n\nWhile Anderson's coalition will struggle to get bills through Congress, he has found himself to be very popular in very different camps. People want voting reform, especially in the minority sections of the NPP and R-Ds, so that they can have an end to this hydra of a two-party system, and they want American democracy to be fixed. Of course, Anderson isn't just focused on that. His initial bill, a bill that'd lower Social Security taxes, is going to be a struggle to get through Congress and through the people, considering how many are on Social Security right now.\n\nIn order to fulfill his different goals and achieve his promises to the people, Anderson will have to do something few R-Ds have found the courage for: to utilize popular sentiment and the bully pulpit. Voting reforms are the anathema of the majority factions of the NPP and R-Ds respectively, to win them over will be a monumental struggle. Beyond that, his moderate fiscal bills will receive the ire any fiscal bill would. Anderson has big goals to revive American liberalism, but it won't be easy to manifest without leaning into the people.\n\nBut if he leans into them too much, they might go further than Anderson can accept."
+
+USA_Jimmy_Carter: "Jimmy Carter"
+POLITICS_JIMMY_CARTER_DESC:0 "The Peanut Farmer\n\n"Unless both sides win, no agreement can be permanent"\n\nCentrism is ascendant once more in the White House, but don't think of it that way. It's not about centrism, leftism, rightism, it's about building an America that its citizens can be proud of. That is the key.\n\nJames Earl Carter Jr., known as Jimmy Carter, was born in the tiny town of Plains, Georgia. He was a Democrat in the politics of the South, a liberal within Dixiecrat Democrats. Carter has always been a dark horse in the R-D coalition and has played that role in elections to the Georgia senate during the 60s, and his governorship of Georgia in 1970, a surprise win in the conservative South.\n\nCarter's electoral victories have been on the basis of an outsider with reasonable politics. He's not the firebrand radical, he's the humble farmer from Plains, who just wants to see a world come together for peace. In a world of darkness and hatred, that message is appealing to people constituting a moral polity. A moral majority not of conservatism or radicalism, but of goodwill.\n\nIn his victory over the NPP, Carter's program of dovish foreign policy with moderate infrastructure improvements is overshadowed by the idea of a decent person in the White House, someone with moral character and convictions, but with restraint and an ability to talk things out. But the wars, conflicts, and crises around the world will test the United States, and it may have to take stands that contradict Carter's image as a dove. How does it relate to the problems and troubles at home? In a dangerous world, what does "decency" mean, and how far can it go? That is the challenge Jimmy Carter will face."
+
+USA_Herman_Talmadge: "Herman Talmadge"
+POLITICS_HERMAN_TALMADGE_DESC:0 "The South's Most Faithful Son\n\n"Integration will never work so long as red blood runs in white men's veins."\n\nThe National Progressive Pact's southern faction has taken power yet again. Herman Talmadge was a little known figure in the tumultuous 60's. He inherited the political dynasty of Georgia from his father, Eugene Talmadge, the moment he died in 1948. Over those long, thirty years, he slowly increased his notoriety as a Southern lawmaker and powerbroker in the Nationalist Party. First was the fight to unite the pact, second was the fight to win over the people of the United States, and finally, the fight to secure his vision for white supremacy and the God-given rights of people to live free from the threat of the different, dangerous, Negro race.\n\nIt wasn't easy. When he entered national politics, the R-Ds were busy kissing the Negro on the face, passing the Civil Rights Act, even shaking hands with that god-d.0amn you-know-what King. Talmadge's first act in the new era was to take Civil Rights legislature to the Supreme Court, on the basis of impinging upon the 9th and 10th amendments, and thereby prove to the world that these laws were destroying the freedom of America to be a federative republic of states. Now, with the presidency and the support of a legal majority, his mandate is clear: no more of this so-called "Civil Rights Act", no more enforcement or suing, no more people together in schools, no more money given away to the Negro, no more Godless heathenry to destroy Godly values, no more tyranny!\n\nAlready, the Southern states are re-enacting poll taxes and literacy tests. The defenders of the white race are gathering around their standards and banners. The R-D's racial favoritism and paternalism will end. Already, rioters and civil rights terrorists are being dispersed brutally and their leaders arrested for their un-American terrorism. The opposition will be broken up, they will not overcome, they will not win. If it takes water hoses and dogs, or if it takes bullets, so it shall be."
+
+USA_Ella_Baker: "Ella Baker"
+POLITICS_ELLA_BAKER_DESC:0 "For too long, the story of the Civil Rights Movement has been the story of Martin Luther King, a story that ended on a dirty hotel balcony in Memphis. But the Civil Rights Movement was never about one person. It is a living struggle, a struggle by the many to end the oppression conducted by the few.\n\nElla Baker has been a part of the Civil Rights Movement since 1930. She worked closely with the NAACP from 1938 to 1953, and organized the Crusade for Citizenship with the Southern Christian Leadership Committee in 1958. However, Baker found the SCLC ineffective, sluggish, conservative, and disconnected from the needs of the newest generation of civil rights activists. Baker broke away from the SCLC in 1960 and joined the newly formed Student Nonviolent Coordinating Committee, where she coordinated the Freedom Rides of 1961. She also helped found the Mississippi Freedom Progressive Party, an NPP affiliate that offered black and anti-segregationist whites an alternative to the Mississippi Nationalist and Democratic parties, both of which were pro-segregation.\n\nAs the NPP moved to the left through the late-60s and 70s, both the SNCC and Baker's Mass Party Organizing Committee became more prominent, becoming the moderate compromise position between the warhawks of Scoop Jackson's Progressives, the Old Left of Hall's Marxists, and the rising Maoist wing led by Huey Newton. Baker's campaign rhetoric has focused on broad civil rights action, criminal justice reform, and implementation of direct democracy throughout America."
+
+POLITICS_GUS_HALL_76_DESC:0 "When Marx and Engels wrote of America in the nineteenth century, they described it as the most progressive country on Earth- yet, also, a bastion of capitalism and bourgeois decadence. Now, two hundred years since the founding of America, the country has undergone a transformation nearly as radical as that of the Civil War. It is all thanks to the hard work and determination of one man to take power from the American bourgeoisie and bring it to the workers of America: President Gus Hall.\n\nThe chambers of Congress now ring with the songs of the working class. The Supreme Court has been stacked with working class allies. General Motors, General Electric, and many other massive corporations, those who spent decades stealing and looting from the common laborer, are now nationalized, their profits put towards lifting the common man from poverty rather than lining the pockets of the millionaire class. The R-Ds have been castrated, their fat-cat backers now legally forbidden from bribing Representatives and Senators. The KKK is dead, its white-hood now soaked in its own malignant, rotting blood. And every worker cheers the name of the man who did it all: President Gus Hall.\n\nThere are some that complain that dissent is quashed. That freedoms held so dearly in this country are being trodden on in the name of progress. Even some rightists eager to join their fascist brothers in the grave. Yet Comrade Hall knows that the loss of some freedoms here and there is worth his final victory in the heart of capitalism. The Union has made him strong."
+
+POLITICS_WESTMORELAND_DESC:0 "William Childs Westmoreland spent his whole life fighting the Nazi menace. He fought in England and Scotland, defending the British isles from the invading Germans. He spent time as an advisor to South Africa, helping to prepare the nation for a defense against the Reichskommissariats in Africa. When war eventually came, he led successful campaigns against the butchers of Africa and freed as many slaves as he could get his hands on. But his most important victory against the Nazi menace was in the District of Columbia.\n\nWhen it became clear that Francis Yockey would not step down as President, Westmoreland knew he had to act. Along with General Lavelle, he led a bloody coup against the fascist menace within the heart of American democracy. Washington DC is in ruins, and many good men lost their lives, but he has cut the head off of the fascist parasite inhabiting America. Occasionally, the tree of liberty must be watered with blood.\n\nLeading a government of national reconstruction, Westmoreland now suffers the greatest responsibility that any American leader has endured since George Washington or Abraham Lincoln. The last three decades have been hell, and only Westmoreland can drag his country out of it, Yet, the question remains: what do we do about those who voted for Yockey? If Westmoreland were to allow free elections, a Yockeyite could easily win. Perhaps it would be better if democracy were put on hold. Temporarily, of course."
+POLITICS_YOCKEY_W_DESC:0 "And so he stood upon the charred cadavers of those who sought nothing but FUTURE collapse. He stood alone and victorious in the solitude he carved for himself and the Western Society he so longed for.\n\nWith the last ones brave enough to oppose him now thrown into mass graves, the degenerate masses have finally been subjugated. The great rot that was America, the great stain upon the legacy of Western Civilization, has been cleansed. A new society is rising- a society that will follow the example of the German Reich, that will never kowtow to inferior races, never please the nefarious spawn of Judea, that will propagate an ethos of strength, a code of moral decency, and its own cultural superiority. Only the Great Leader Francis Parker Yockey could bring this society to fruition, in America and beyond.\n\nThe Imperium rises from the ashes of old degenerate American society, and the world of those morally degraded shall know its place."
+USA_William_Pierce: "William Pierce"
+POLITICS_PIERCE_DESC:0 "What is the manifestation of evil itself?\n\nIf you asked a Jew, they would say Adolf Hitler. If you asked a Christian, they would say the Anti-Christ. If you asked a Russian, they might say Gutrum Vagner, or Ferdinand Schörner.\n\nIf you asked an American, they would say William Luther Pierce, the leader of the National Alliance and the American New Order.\n\nBorn to a Presbyterian family as a descendant of the old southern aristocracy, Pierce was often seen as a gifted child. Rising through the grades at the top of his class, he finished High School in a military academy before going on to earn his Bachelor's Degree in Physics. Seeing the effects of the Axis victory first-hand Pierce became heavily influenced by National Socialist ideology, losing his job as an Assistant Teacher for vocally supporting Heinrich Himmler and the Schutzstaffel during the German Civil War. Afterwards he founded the National Alliance, a National Socialist vanguard organization meant to spread the ideals of the Burgundian System in a more "American-styling". Throughout the tumultuous 1960's the National Alliance slowly grew in strength, gathering those who knew the true White Revolution must be global. As Francis Parker Yockey's Secretary of State, Pierce oversaw the reopening of the Japanese internment camps on the West Coast and the spread of this system into regions of dissent.\n\nWith Yockey's death punctuated by internal crisis, mass riots, and societal collapse, Pierce has taken his chance to bring his vision for the White Race to fruition. With the National Alliance in power, the United States will be brought a glorious future under the guidance of President Pierce.\n\nThe Day of the Rope is upon us."
+USA_Bill_Ayers: "Bill Ayers"
+POLITICS_AYERS_DESC:0 "The Prairie Firestarter\n\n"Every revolution seems impossible at the beginning, and after it happens, it was inevitable."\n\nBill Ayers never thought he'd be a leader - especially not at 31, but here he is. At first, he was your average rich college student. He joined the Students for a Democratic Society, and he went to all the peaceful marches where they shouted inane slogans. But it didn't work. All it led to was more deaths, more repressions, token legislation that people called progress. Then they wanted to go home, happy with their four year degrees, salaried jobs, and pocket protectors. Not Bill.\n\nIn the late 1960s, in response to the police riots, failure to pass legislation and murders of civil rights activists, he helped form the Weathermen, an organization that fought for liberation and Black power - the vaunted Revolution, by attacking the tools of the state. At first, and for a long time, Ayers and the Weathermen never wanted to target people. A local police armory, CIA files, statues of oppression, those were the targets. But it still didn't work.\n\nWhen Yockey began his Christo-fascist presidency, Bill acted. The Weathermen, now the Weather Underground Organization, could not win just by creating a group of leftists. Yockey's government would capture and murder anyone that believed that the US should have a democracy. The tortures, the murders… What could be done but finally fight back against the fascist body? But that alone would not be enough. The WUO began a new tactic: freeing the people. Prison breakouts born on the back of dynamite sticks. Only black activists at first, but their activities expanded by necessity into freeing innocents, criminals, freedom fighters, even generals who were willing to listen to their ideas. A plan was hatched, not just to save American democracy, but America itself. Suddenly, the right is on the ropes.\n\nThe bombs have charred the fascist pig-lard bodies, but much remains to do. Councils of people now rule America, but shakily. Ayers is the President of the War Council to Fight Fascism, the de-facto leader of the United States. The fascists will not live to attack the people anymore, no matter the cost. But once that is done, what is next? In shaky, terrified, optimism, the people march forward to the brighter day."

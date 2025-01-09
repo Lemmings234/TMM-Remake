@@ -1,0 +1,52 @@
+guiTypes = {
+
+	containerWindowType = {
+	name = "WRW_ClosingScreen_Main"
+	size = { width = 803 height = 552 }
+	position = { x = 155 y = 155 }
+	moveable = yes
+		
+		background = {
+			name = "WRW_ClosingScreen_BG_real"
+			spriteType = "GFX_tiled_window_transparent"
+		}
+		
+		iconType = {
+			name = "WRW_ClosingScreen_BG"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_TNO_Closing_BG"
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "WRW_ClosingScreen_CloseButton"
+			quadTextureSprite = "GFX_button_359x34" 
+			buttonFont = "Bomb_20"
+			buttonText = "Thank you for playing!"
+			position = { x = 227 y = 497 }
+			shortcut = "ESCAPE"
+		}
+		
+		instantTextBoxType = {
+			name = "WRW_ClosingScreen_Text"
+			position = { x = 20 y = 21 }
+			font = "aldrich_24_outline_closing"
+			text = "[WRW_GET_CLOSING_SCREEN_TEXT]"
+			maxWidth = 748
+			maxHeight = 406
+			alwaystransparent = yes
+			scrollbarType = standardtext_slider
+		}
+
+		buttonType = {
+			name = "closing_button_next_page"
+			quadTextureSprite = "GFX_opening_button_next_page"
+			position = { x = 588 y = 444 }
+		}
+		buttonType = {
+			name = "closing_button_prev_page"
+			quadTextureSprite = "GFX_opening_button_prev_page"
+			position = { x = 24 y = 444 }
+		}
+	}
+}

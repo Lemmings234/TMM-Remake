@@ -1,0 +1,23 @@
+
+state={
+    id=2005
+    name="STATE_2005"
+    manpower=80000
+
+    state_category = pastoral
+
+    history={
+		owner = XIN
+		add_core_of = XIN
+		buildings = {
+      prisons = 1
+			barracks = 1
+			infrastructure = 1
+		}  
+
+    } 
+
+    provinces={
+        1970 8112
+    }
+}

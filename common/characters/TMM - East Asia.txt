@@ -331,6 +331,30 @@ characters = {
 			legacy_id = 30009
 		}
 	}
+	GUZ_he_yingqin = {
+		name = GUZ_he_yingqin
+		portraits = {
+			civilian = { large = "gfx/leaders/YUN/Portrait_Guizhou_He_Yingqin.dds" }
+			army = { large = "gfx/leaders/YUN/Portrait_Guizhou_He_Yingqin.dds" }
+		}
+		country_leader = {
+			desc = "POLITICS_HE_YINGQIN_TMM_DESC"
+			ideology = fascism_subtype
+			traits = { }
+			expire = "1999.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			desc = "MILITARY_HE_YINGQIN_TMM_DESC"
+			traits = { politically_connected }
+	        skill = 4
+	        attack_skill = 5
+	        defense_skill = 3
+	        planning_skill = 3
+	        logistics_skill = 2
+			legacy_id = 30010
+		}
+	}
 	GUZ_yang_sen = {
 		name = GUZ_yang_sen
 		portraits = {
@@ -338,7 +362,7 @@ characters = {
 			army = { large = "gfx/leaders/GUZ/GUZ_Portrait_Yang_Sen.dds" }
 		}
 		country_leader = {
-			desc = "POLITICS_YANG_SEN_TMM_DESC"
+			desc = "POLITICS_HE_YINGQIN_TMM_DESC"
 			ideology = conservatism_quinquepartite_constitutionalism_subtype
 			traits = { }
 			expire = "1999.1.1.1"
@@ -362,7 +386,7 @@ characters = {
 			army = { large = "gfx/leaders/GUZ/GUZ_Portrait_Li_Zongren.dds" }
 		}
 		country_leader = {
-			desc = "POLITICS_LI_ZONGREN_TMM_DESC"
+			desc = "POLITICS_HE_YINGQIN_TMM_DESC"
 			ideology = paternalism_united_front_subtype
 			traits = { }
 			expire = "1999.1.1.1"
@@ -513,7 +537,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_HE_GUOGUANG_DESC"
-			ideology = fascism_corporate_statism_subtype
+			ideology = fascism_corporatism_subtype
 			traits = { he_guoguang }
 			expire = "1999.1.1.1"
 			id = -1
@@ -1124,6 +1148,24 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	GUZ_Lu_Han = {
+		name = GUZ_Lu_Han
+		portraits = { civilian = { small = "GFX_GUZ_Lu_Han" } }
+		advisor = {
+			slot = security_minister
+			idea_token = GUZ_Lu_Han_sec
+			allowed = { original_tag = GUZ }
+			traits = {
+				security_minister
+				despotism
+				leader_of_the_dian_army
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
 	TMM_Long_Shenwu = {
 		name = TMM_Long_Shenwu
 		portraits = {
@@ -1157,7 +1199,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_KIM_JONGPIL_DESC"
-			ideology = paternalism_anocracy_subtype
+			ideology = paternalism_controlled_democracy_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1

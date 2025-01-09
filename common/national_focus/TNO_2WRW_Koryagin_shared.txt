@@ -1,0 +1,858 @@
+## RSLP - The Koryagin Presidency ##
+
+shared_focus = {
+	id = NOV_koryagin_the_koryagin_presidency
+	icon = GFX_NOV_the_koryagin_presidency
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	allow_branch = { has_country_flag = NOV_RSLP_Presidency }
+	available = {
+		has_completed_focus = NOV_a_new_europe
+	}
+	x = 35
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_koryagin_the_koryagin_presidency"
+		country_event = { id = Koryagin.1 days = 1 }
+	}
+}
+
+shared_focus = {
+	id = NOV_koryagin_peace_is_possible
+	icon = GFX_NOV_peace_is_possible
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_koryagin_the_koryagin_presidency
+	}
+	x = 0
+	y = 1
+	relative_position_id = NOV_koryagin_the_koryagin_presidency
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_koryagin_peace_is_possible"
+		add_political_power = 75
+		add_war_support = -0.1
+		army_funding_maximal_decrease_low = yes
+		set_temp_variable = { inflation_temp = -0.5 }
+		econ_inflation_change = yes
+	}
+}
+
+# The SALT Agreement
+
+shared_focus = {
+	id = NOV_koryagin_prepare_our_diplomats
+	icon = GFX_NOV_prepare_our_diplomats
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_koryagin_peace_is_possible
+	}
+	x = -4
+	y = 1
+	relative_position_id = NOV_koryagin_peace_is_possible
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_koryagin_prepare_our_diplomats"
+		country_event = { id = Koryagin.2 days = 1 }
+		custom_effect_tooltip = NOV_koryagin_prepare_our_diplomats_tt
+		set_country_flag = NOV_RSLP_GUI
+		NOV_RSLP_OFN_Setup = yes
+        diplomatic_relation = {
+            country = QIN
+            relation = non_aggression_pact
+            active = yes
+        }
+	}
+}
+
+shared_focus = {
+	id = NOV_to_golmud
+	icon = GFX_NOV_to_golmud
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	available = {
+		rslp_fopo = yes
+	}
+	prerequisite = {
+		focus = NOV_koryagin_prepare_our_diplomats
+	}
+	x = -2
+	y = 1
+	relative_position_id = NOV_koryagin_prepare_our_diplomats
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_to_golmud" 
+		country_event = { id = Koryagin.7 days = 2 }
+		add_political_power = 50
+		add_war_support = 0.025
+		add_opinion_modifier = {
+			target = QIN
+			modifier = TNO_old_friends
+		}
+		QIN = {
+			add_opinion_modifier = {
+			    target = NOV
+			    modifier = TNO_old_friends
+		    }
+		}
+		add_resource = {
+            type = oil
+            amount = 10
+            state = 604
+        }
+		add_resource = {
+            type = oil
+            amount = 8
+            state = 906
+        }
+		QIN = {
+		    give_resource_rights = {
+                receiver = NOV
+                state = 604
+                resources = { oil }
+            }
+		}
+	}
+}
+
+shared_focus = {
+	id = NOV_to_washington
+	icon = GFX_NOV_to_washington
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	available = {
+		rslp_fopo = yes
+	}
+	prerequisite = {
+		focus = NOV_koryagin_prepare_our_diplomats
+	}
+	x = 0
+	y = 1
+	relative_position_id = NOV_koryagin_prepare_our_diplomats
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_to_washington" 
+        if = {
+			limit = {
+				USA = {
+					NOT = {
+						has_government = communist
+						has_government = fascism
+					}
+				}
+			}
+			country_event = { id = Koryagin.15 days = 1 }
+		}
+        else_if = {
+			limit = {
+				USA = { has_government = communist }
+			}
+			country_event = { id = Koryagin.16 days = 1 }
+		}
+        else_if = {
+			limit = {
+				USA = { has_government = fascism }
+			}
+			country_event = { id = Koryagin.17 days = 1 }
+		}
+		add_political_power = 50
+		add_war_support = 0.025
+		add_opinion_modifier = {
+			target = USA
+			modifier = TNO_old_friends
+		}
+		USA = {
+			add_opinion_modifier = {
+			    target = NOV
+			    modifier = TNO_old_friends
+		    }
+		}
+		set_temp_variable = { RSLP_Opinion_Target = 1 }
+		set_temp_variable = { Temp_Opinion = 7.5 }
+		NOV_RSLP_Opinion_Change = yes
+	}
+}
+
+shared_focus = {
+	id = NOV_to_delhi
+	icon = GFX_NOV_to_delhi
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	available = {
+		rslp_fopo = yes
+	}
+	prerequisite = {
+		focus = NOV_koryagin_prepare_our_diplomats
+	}
+	x = 2
+	y = 1
+	relative_position_id = NOV_koryagin_prepare_our_diplomats
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_to_delhi" 
+		country_event = { id = Koryagin.8 days = 3 }
+		add_ideas = { QIN_trade_with_india }
+		add_political_power = 50
+		add_war_support = 0.025
+		add_opinion_modifier = {
+			target = IND
+			modifier = TNO_old_friends
+		}
+		IND = {
+			add_opinion_modifier = {
+			    target = NOV
+			    modifier = TNO_old_friends
+		    }
+		}
+	}
+}
+
+shared_focus = {
+	id = NOV_brothers_through_suffering
+	icon = GFX_NOV_brothers_through_suffering
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_to_golmud
+	}
+	prerequisite = {
+		focus = NOV_to_washington
+	}
+	x = 1
+	y = 1
+	relative_position_id = NOV_to_golmud
+	completion_reward = {
+		country_event = { id = Koryagin.12 days = 3 }
+		QIN = {
+			give_military_access = NOV
+		}
+		IND = {
+			give_military_access = NOV
+		}
+        diplomatic_relation = {
+            country = IND
+            relation = non_aggression_pact
+            active = yes
+        }
+		IND = {
+			diplomatic_relation = {
+            country = USA
+            relation = docking_rights
+            active = yes
+            }
+		}
+		add_political_power = 100
+			set_temp_variable = { RSLP_Opinion_Target = 1 }
+			set_temp_variable = { Temp_Opinion = 5 }
+			NOV_RSLP_Opinion_Change = yes
+	}
+}
+
+shared_focus = {
+	id = NOV_partners_through_circumstance
+	icon = GFX_NOV_partners_through_circumstance
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_to_delhi
+	}
+	prerequisite = {
+		focus = NOV_to_washington
+	}
+	x = -1
+	y = 1
+	relative_position_id = NOV_to_delhi
+	completion_reward = {
+		country_event = { id = Koryagin.13 days = 4 }
+		set_temp_variable = { RSLP_Opinion_Target = 1 }
+		set_temp_variable = { Temp_Opinion = 2.5 }
+		NOV_RSLP_Opinion_Change = yes
+		add_stability = 0.05
+		QIN = {
+		    set_temp_variable = { gdp_growth_temp = 0.66 }
+		    econ_gdp_growth_change = yes
+			add_war_support = 0.15
+		}
+		IND = {
+            set_temp_variable = { gdp_growth_temp = 0.66 }
+		    econ_gdp_growth_change = yes
+			add_war_support = 0.15
+		}
+		USA = {
+			add_political_power = 50
+			add_war_support = 0.1
+		    custom_effect_tooltip = USA_add_OFN_unity
+		    add_to_variable = { OFN_unity = 1 }
+		    set_temp_variable = { gdp_growth_temp = 0.25 }
+		    econ_gdp_growth_change = yes
+		    set_temp_variable = { inflation_temp = 0.1 }
+		    econ_inflation_change = yes
+		}
+		add_political_power = 75
+		set_temp_variable = { inflation_temp = 0.15 }
+		econ_inflation_change = yes
+		set_temp_variable = { gdp_growth_temp = 0.5 }
+		econ_gdp_growth_change = yes
+		hidden_effect = {
+		    XIK = {
+		        set_temp_variable = { gdp_growth_temp = 1 }
+		        econ_gdp_growth_change = yes
+		    	add_war_support = 0.15
+		    }			
+		}
+	}
+}
+
+shared_focus = {
+	id = NOV_our_place_in_the_free_world
+	icon = GFX_NOV_our_place_in_the_free_world
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	available = {
+		has_completed_focus = NOV_kantorovichs_mind
+		has_completed_focus = NOV_shukshins_heart
+		rslp_ofn = yes
+	}
+	prerequisite = {
+		focus = NOV_brothers_through_suffering
+	}
+	prerequisite = {
+		focus = NOV_partners_through_circumstance
+	}
+	x = 1
+	y = 1
+	relative_position_id = NOV_brothers_through_suffering
+	completion_reward = {
+		set_temp_variable = { RSLP_Opinion_Target = 1 }
+		set_temp_variable = { Temp_Opinion = 2.5 }
+		NOV_RSLP_Opinion_Change = yes
+		set_temp_variable = { RSLP_Opinion_Target = 2 }
+		set_temp_variable = { Temp_Opinion = 5 }
+		NOV_RSLP_Opinion_Change = yes
+	    set_temp_variable = { RSLP_Opinion_Target = 3 }
+		set_temp_variable = { Temp_Opinion = 5 }
+		NOV_RSLP_Opinion_Change = yes
+		clr_country_flag = NOV_RSLP_GUI
+		if = {
+			limit = { has_global_flag = shukshin_victory_iran }
+			USA = { add_to_faction = IRC }
+			IRC = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { UZB = { is_in_faction = yes } }
+			USA = { add_to_faction = UZB }
+			UZB = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { TRK = { is_in_faction = yes } }
+			USA = { add_to_faction = TRK }
+			TRK = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { KRK = { is_in_faction = yes } }
+			USA = { add_to_faction = KRK }
+			KRK = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { TAJ = { is_in_faction = yes } }
+			USA = { add_to_faction = TAJ }
+			TAJ = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { KYR = { is_in_faction = yes } }
+			USA = { add_to_faction = KYR }
+			KYR = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { PAV = { is_in_faction = yes } }
+			USA = { add_to_faction = PAV }
+			PAV = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { ROM = { is_puppet_of = RUS } }
+			USA = { add_to_faction = ROM }
+			TRK = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { FUK = { is_in_faction = yes } }
+			USA = { add_to_faction = FUK }
+			FUK = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { JST = { is_in_faction = yes } }
+			USA = { add_to_faction = JST }
+			JST = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { LAT = { is_in_faction = yes } }
+			USA = { add_to_faction = LAT }
+			LAT = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { LIT = { is_in_faction = yes } }
+			USA = { add_to_faction = LIT }
+			LIT = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { EST = { is_in_faction = yes } }
+			USA = { add_to_faction = EST }
+			EST = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { BLR = { is_in_faction = yes } }
+			USA = { add_to_faction = BLR }
+			BLR = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { ADY = { is_in_faction = yes } }
+			USA = { add_to_faction = ADY }
+			ADY = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { GEO = { is_in_faction = yes } }
+			USA = { add_to_faction = GEO }
+			GEO = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { AZR = { is_in_faction = yes } }
+			USA = { add_to_faction = AZR }
+			AZR = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { ARM = { is_in_faction = yes } }
+			USA = { add_to_faction = ARM }
+			ARM = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { MON = { is_in_faction = yes } }
+			USA = { add_to_faction = MON }
+			MON = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		if = {
+			limit = { POL = { is_in_faction = yes } }
+			USA = { add_to_faction = POL }
+			POL = { 
+				remove_ideas = CSTO_Member
+				add_ideas = OFN_Independent_Member
+			}
+		}
+		USA = {
+			add_to_faction = NOV
+		}
+		NOV = {
+			add_ideas = OFN_Independent_Member
+		}
+		IND = {
+			add_ideas = OFN_Observer
+		}
+		QIN = {
+			add_ideas = OFN_Observer
+		}
+		hidden_effect = {
+			USA = {
+				set_temp_variable = { Victory_ID = 98 }
+				set_temp_variable = { Victory_Outcome = 4 }
+				set_temp_variable = { Victory_Points = 200 }
+				Cold_War_GUI_ManipulateVictory = yes
+			}
+			RUS = {
+				set_temp_variable = { Victory_ID = 98 }
+				set_temp_variable = { Victory_Outcome = 4 }
+				set_temp_variable = { Victory_Points = 200 }
+				Cold_War_GUI_ManipulateVictory = yes
+			}
+		    every_country = {
+            	news_event = { id = Koryagin_News.1 hours = 2 }
+		    }
+		}
+	}
+}
+
+# Domestic Policy
+
+shared_focus = {
+	id = NOV_koryagin_scale_back_military_spending
+	icon = GFX_NOV_scale_back_military_spending
+	cost = 4
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_koryagin_peace_is_possible
+	}
+	x = 4
+	y = 1
+	relative_position_id = NOV_koryagin_peace_is_possible
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_koryagin_scale_back_military_spending"
+		country_event = { id = Koryagin.10 days = 2 }
+		army_funding_maximal_decrease_med = yes
+		naval_funding_maximal_decrease_low = yes
+		nuclear_funding_maximal_decrease_low = yes
+		add_war_support = -0.05
+		add_stability = 0.1
+	}
+}
+
+shared_focus = {
+	id = NOV_koryagin_promote_decentralisation
+	icon = GFX_NOV_promote_decentralisation
+	cost = 3
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_koryagin_scale_back_military_spending
+	}
+	x = 0
+	y = 1
+	relative_position_id = NOV_koryagin_scale_back_military_spending
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_koryagin_promote_decentralisation"
+		set_temp_variable = {econ_centralization_temp = -10}
+		econ_centralization_change = yes 
+		set_temp_variable = { temp_econ_GDP_boost_flat = 2.40 }
+		econ_GDP_boost_once_flat = yes
+	}
+}
+
+shared_focus = {
+	id = NOV_koryagin_no_price_too_high
+	icon = GFX_NOV_no_price_too_high
+	cost = 5
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_koryagin_scale_back_military_spending
+	}
+	x = -2
+	y = 1
+	relative_position_id = NOV_koryagin_scale_back_military_spending
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_koryagin_no_price_too_high"
+		social_funding_maximal_increase_med = yes
+		admin_funding_maximal_increase_low = yes
+		set_temp_variable = { gdp_growth_temp = 0.4 }
+		econ_gdp_growth_change = yes
+	}
+}
+
+shared_focus = {
+	id = NOV_koryagin_no_challenge_too_great
+	icon = GFX_NOV_no_challenge_too_great
+	cost = 4
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_koryagin_scale_back_military_spending
+	}
+	x = 2
+	y = 1
+	relative_position_id = NOV_koryagin_scale_back_military_spending
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_koryagin_no_challenge_too_great"
+		add_political_power = -35
+		research_funding_maximal_increase_high = yes
+		social_funding_maximal_increase_med = yes
+	}
+}
+
+shared_focus = {
+	id = NOV_kantorovichs_mind
+	icon = GFX_NOV_kantorovichs_mind
+	cost = 4
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	available = {
+		rslp_kantorovich_talk = yes
+	}
+	prerequisite = {
+		focus = NOV_koryagin_no_challenge_too_great
+	}
+	prerequisite = {
+		focus = NOV_koryagin_promote_decentralisation
+	}
+	x = -1
+	y = 1
+	relative_position_id = NOV_koryagin_no_challenge_too_great
+	completion_reward = {
+		add_popularity = { ideology = liberalism popularity = 0.025 }
+		add_popularity = { ideology = progressivism popularity = 0.025 }
+		TNO_improve_trade_unions_policy_effectiveness_med = yes
+		TNO_improve_poverty_low = yes 
+		QIN = {
+			TNO_improve_trade_unions_policy_effectiveness_high = yes
+			TNO_improve_poverty_med = yes
+			add_political_power = -100
+		}
+		IND = {
+			TNO_improve_trade_unions_policy_effectiveness_high = yes
+			TNO_improve_poverty_med = yes
+			add_political_power = -100
+		}
+		add_to_variable = { NOV_party_opinions^var:2 = 10 }
+	    clamp_variable = {
+	    	var = NOV_party_opinions^2
+	    	min = -100
+	    	max = 100
+	    }
+		country_event = { id = Koryagin.3 days = 1 }
+		custom_effect_tooltip = NOV_kantorovichs_mind_tt
+	}
+}
+
+shared_focus = {
+	id = NOV_shukshins_heart
+	icon = GFX_NOV_shukshins_heart
+	cost = 4
+	ai_will_do = { factor = 1 }
+	available = {
+		rslp_shukshin_talk = yes
+	}
+	prerequisite = {
+		focus = NOV_koryagin_no_price_too_high
+	}
+	prerequisite = {
+		focus = NOV_koryagin_promote_decentralisation
+	}
+	x = 1
+	y = 1
+	relative_position_id = NOV_koryagin_no_price_too_high
+	completion_reward = {
+		country_event = { id = Koryagin.9 days = 2 }
+		add_stability = 0.1
+		add_political_power = 75
+		add_popularity = { ideology = liberalism popularity = 0.025 }
+		add_popularity = { ideology = conservatism popularity = 0.025 }
+		custom_effect_tooltip = NOV_shukshins_heart_tt
+		add_to_variable = { NOV_party_opinions^var:0 = 10 }
+	    clamp_variable = {
+	    	var = NOV_party_opinions^0
+	    	min = -100
+	    	max = 100
+	    }
+	}
+}
+
+shared_focus = {
+	id = NOV_expand_the_republics
+	icon = GFX_NOV_expand_the_republics
+	cost = 4
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_shukshins_heart
+	}
+	prerequisite = {
+		focus = NOV_kantorovichs_mind
+	}
+	x = 1
+	y = 1
+	relative_position_id = NOV_shukshins_heart
+	completion_reward = {
+		country_event = { id = Koryagin.14 days = 3 }
+	    every_state = { ## adds prepared defenses modifier to every state in Moskowien
+	    	limit = {
+				AND = {
+                    is_core_of = NOV
+				    OR = {
+                        check_variable = { THIS.nationality = 154 }
+				    	check_variable = { THIS.nationality = 160 }
+				    	check_variable = { THIS.nationality = 323 }
+				    	check_variable = { THIS.nationality = 153 }
+				    	check_variable = { THIS.nationality = 322 }
+				    	check_variable = { THIS.nationality = 361 }
+				    	check_variable = { THIS.nationality = 417 }
+				    	check_variable = { THIS.nationality = 362 }
+				    	check_variable = { THIS.nationality = 174 }
+				    	check_variable = { THIS.nationality = 165 }
+				    	check_variable = { THIS.nationality = 316 }
+				    	check_variable = { THIS.nationality = 159 }
+				    	check_variable = { THIS.nationality = 158 }
+				    	check_variable = { THIS.nationality = 155 }
+				    	check_variable = { THIS.nationality = 156 }
+				    	check_variable = { THIS.nationality = 161 }
+				    	check_variable = { THIS.nationality = 157 }
+				    }
+				}
+	    	}
+	    	add_dynamic_modifier = { modifier = NOV_RSLP_autonomous_republics }
+	    }
+		add_political_power = 100
+		add_stability = 0.075
+		TNO_improve_immigration_policy_effectiveness_med = yes
+		TNO_improve_religious_rights_policy_effectiveness_high = yes
+	}
+}
+
+shared_focus = {
+	id = NOV_a_trip_to_barnaul
+	icon = GFX_NOV_a_trip_to_barnaul
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_our_place_in_the_free_world
+	}
+	prerequisite = {
+		focus = NOV_expand_the_republics
+	}
+	x = 4
+	y = 1
+	relative_position_id = NOV_our_place_in_the_free_world
+	completion_reward = {
+		country_event = { id = Koryagin.18 days = 2 }
+		add_popularity = { ideology = paternalism popularity = -0.025 }
+		add_popularity = { ideology = liberalism popularity = 0.075 }
+		add_political_power = 75
+		add_stability = 0.025
+		add_war_support = 0.025
+		TNO_improve_press_rights_policy_effectiveness_high = yes
+		TNO_improve_public_meetings_policy_effectiveness_high = yes
+		TNO_improve_vote_franchise_policy_effectiveness_med = yes
+		add_to_variable = { NOV_party_opinions^var:1 = -10 }
+	    clamp_variable = {
+	    	var = NOV_party_opinions^1
+	    	min = -100
+	    	max = 100
+	    }
+	}
+}
+
+shared_focus = {
+	id = NOV_amending_our_wrongs
+	icon = GFX_NOV_amend_our_wrongs
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_a_trip_to_barnaul
+	}
+	x = -1
+	y = 1
+	relative_position_id = NOV_a_trip_to_barnaul
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_amending_our_wrongs"
+		add_political_power = -75
+		add_stability = -0.1
+		add_war_support = -0.05
+		add_popularity = { ideology = paternalism popularity = -0.05 }
+		add_to_variable = { NOV_party_opinions^var:1 = -75 }
+	    clamp_variable = {
+	    	var = NOV_party_opinions^1
+	    	min = -100
+	    	max = 100
+	    }
+	}
+}
+
+shared_focus = {
+	id = NOV_opportunity_for_all
+	icon = GFX_NOV_opportunity_for_all
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_a_trip_to_barnaul
+	}
+	x = 1
+	y = 1
+	relative_position_id = NOV_a_trip_to_barnaul
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_opportunity_for_all"
+		country_event = { id = Koryagin.4 days = 3 }
+		TNO_improve_poverty_med = yes
+		social_funding_minimal_increase_med = yes
+		admin_funding_minimal_increase_med = yes
+		social_funding_maximal_increase_med = yes
+		admin_funding_maximal_increase_med = yes
+		TNO_worsen_unemployment_policy_effectiveness_med = yes
+		TNO_improve_pensions_policy_effectiveness_med = yes
+	}
+}
+
+shared_focus = {
+	id = NOV_koryagin_the_quest_for_peace
+	icon = GFX_NOV_the_quest_for_peace
+	cost = 2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = NOV_amending_our_wrongs
+	}
+	prerequisite = {
+		focus = NOV_opportunity_for_all
+	}
+	x = 1
+	y = 1
+	relative_position_id = NOV_amending_our_wrongs
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_koryagin_the_quest_for_peace"
+		country_event = { id = Koryagin.11 }
+		add_stability = 0.2
+		add_political_power = 250
+		add_popularity = { ideology = liberalism popularity = 0.1 }
+		custom_effect_tooltip = NOV_codetalker_end_tt
+	}
+}

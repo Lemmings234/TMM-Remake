@@ -1,0 +1,211 @@
+﻿l_english:
+ 
+ # Second West Russian War
+ 
+ OST_RUS:0 "Baltic Confederation"
+ OST_RUS_DEF:0 "The Baltic Confederation"
+ OST_RUS_ADJ:0 "Baltic"
+ 
+ UKR_RUS:0 "Republic of Ukraine"
+ UKR_RUS_DEF:0 "The Republic of Ukraine"
+ UKR_RUS_ADJ:0 "Ukrainian"
+ 
+ ERS_FED:0 "Federation of Tomsk"
+ ERS_FED_DEF:0 "The Federation of Tomsk"
+ ERS_FED_ADJ:0 "Russian"
+ 
+ SAH_NEU:0 "Krasnoyarsk Neutral Zone"
+ SAH_NEU_DEF:0 "The Krasnoyarsk Neutral Zone"
+ SAH_NEW_ADJ:0 "Russian"
+ 
+ TOB_uralrepublic:0 "West Siberian Republic"
+ TOB_uralrepublic_DEF:0 "The West Siberian Federative Republic"
+ TOB_uralrepublic_ADF:0 "Russian"
+ 
+ ARC_FED:0 "All-Russian Army Revolt"
+ ARC_FED_DEF:0 "The All-Russian Provisional Military Government"
+ ARC_FED_ADJ:0 "Russian"
+ 
+ VTY_REP:0 "West Russian Republic"
+ VTY_REP_DEF:0 "The West Russian Republic"
+ VTY_REP_ADJ:0 "Russian"
+ 
+ IRK_SAB:0 "East Siberian Soviet Republic"
+ IRK_SAB_DEF:0 "The East Siberian Soviet Republic"
+ IRK_SAB_ADJ:0 "Soviet"
+ 
+ # Peace Deals - Novosibirsk
+ 
+ MOS_Novosibirsk:0 "West Russian Reconstruction Zone"
+ MOS_Novosibirsk_DEF:0 "The West Russian Reconstruction Zone"
+ MOS_Novosibirsk_ADJ:0 "West Russian"
+ 
+ VLG_Novosibirsk:0 "Volga Reconstruction Administration"
+ VLG_Novosibirsk_DEF:0 "The Volga Reconstruction Administration"
+ VLG_Novosibirsk_ADJ:0 "Volga German"
+ 
+ PET_Novosibirsk:0 "Petrograd Reconstruction Administration"
+ PET_Novosibirsk_DEF:0 "The Petrograd Reconstruction Administration"
+ PET_Novosibirsk_ADJ:0 "Baltic German"
+ 
+ POL_Novosibirsk:0 "Polish Reconstruction Zone"
+ POL_Novosibirsk_DEF:0 "The Reconstruction Zone of Poland"
+ POL_Novosibirsk_ADJ:0 "Polish"
+ 
+ CZE_Novosibirsk:0 "Czech Reconstruction Zone"
+ CZE_Novosibirsk_DEF:0 "The Czech Reconstruction Zone"
+ CZE_Novosibirsk_ADJ:0 "Czech"
+ 
+ SLO_Novosibirsk:0 "Slovakian Occupation Zone"
+ SLO_Novosibirsk_DEF:0 "The Russian Military District of Slovakia"
+ SLO_Novosibirsk_ADJ:0 "Slovak"
+ 
+ HOL_Novosibirsk:0 "Dutch Occupation Zone"
+ HOL_Novosibirsk_DEF:0 "The Russian Military District of the Netherlands"
+ HOL_Novosibirsk_ADJ:0 "Dutch"
+ 
+ DEN_Novosibirsk:0 "Danish Occupation Zone"
+ DEN_Novosibirsk_DEF:0 "The Russian Military District of Denmark"
+ DEN_Novosibirsk_ADJ:0 "Danish"
+ 
+ GER_Novosibirsk:0 "All-Russian Military Administration of Germany"
+ GER_Novosibirsk_DEF:0 "The All-Russian Military Administration of Germany"
+ GER_Novosibirsk_ADJ:0 "German"
+ 
+ AUS_Novosibirsk:0 "Austrian Occupation Zone"
+ AUS_Novosibirsk_DEF:0 "The Russian Military District of Austria"
+ AUS_Novosibirsk_ADJ:0 "Austrian"
+ 
+ BLR_free:0 "Republic of Belarus"
+ BLR_free_DEF:0 "The Republic of Belarus"
+ BLR_free_ADJ:0 "Belarusian"
+ 
+ OKB_NOVcollab:0 "Free City of Saint Petersburg"
+ OKB_NOVcollab_DEF:0 "The Free Deutsch City of Saint Petersburg"
+ OKB_NOVcollab_ADJ:0 "Saint Petersburger"
+ 
+ VLG_PAVcollab:0 "Volga Republic"
+ VLG_PAVcollab_DEF:0 "The Federal Republic of the Volga"
+ VLG_PAVcollab_ADJ:0 "Wolga Deutsch"
+ 
+ GOT_PAVcollab:0 "Confederation of Gotenland"
+ GOT_PAVcollab_DEF:0 "The Confederation of Gotenland"
+ GOT_PAVcollab_ADJ:0 "Gotish"
+ 
+ KOL_VLD:0 "Far East Reintegration Zone"
+ KOL_VLD_DEF:0 "The Far Eastern Reintegration Zone"
+ KOL_VLD_ADJ:0 "Far Eastern"
+
+ SR_Manchuria:0 "Sino-Russian Manchuria"
+ SR_Manchuria_DEF:0 "The Sino-Russian Transitional Government of Manchuria and Primorye"
+ SR_Manchuria_ADJ:0 "Far Eastern"
+
+ RUS_Manchuria:0 "Harbin and Dalniy"
+ RUS_Manchuria_DEF:0 "Sino-Russian Administration of Harbin and Dalniy"
+ RUS_Manchuria_ADJ:0 "Sino-Russian"
+
+ RUS_Manchuria_communist:0 "Harbin and Dalniy"
+ RUS_Manchuria_communist_DEF:0 "Sino-Soviet Administration of Harbin and Dalniy"
+ RUS_Manchuria_communist_ADJ:0 "Sino-Soviet"
+
+ CHI_Vladivostok:0 "Vladivostok"
+ CHI_Vladivostok_DEF:0 "The City of Vladivostok"
+ CHI_Vladivostok_ADJ:0 "Far Eastern"
+
+ CHI_Vladivostok_communist:0 "Vladivostok"
+ CHI_Vladivostok_communist_DEF:0 "The Autonomous City of Vladivostok"
+ CHI_Vladivostok_communist_ADJ:0 "Far Eastern"
+
+ CHI_Primorye:0 "Zhendong"
+ CHI_Primorye_DEF:0 "Zhendong Russian Autonomous Region"
+ CHI_Primorye_ADJ:0 "Sino-Russian"
+
+ CHI_Primorye_communist:0 "Donghai"
+ CHI_Primorye_communist_DEF:0 "Donghai Russian Autonomous Region"
+ CHI_Primorye_communist_ADJ:0 "Sino-Russian"
+
+ SR_Manchuria_paternalism_short:0 "Regional Government"
+ SR_Manchuria_paternalism_long:0 "Regional Government"
+
+ SR_Manchuria_communist_short:0 "VKP/CCP"
+ SR_Manchuria_communist_long:0 "All-Union Communist Party/Chinese Communist Party"
+
+ SR_Manchuria_SinoRussian_long:0 "Dongbei Mobile Barracks of High Command/Far Eastern Transitional Government"
+ SR_Manchuria_SinoRussian_short:0 "DBXY/FRTG"
+ 
+ XSM_CHI:0 "Republic of Western China"
+ XSM_CHI_DEF:0 "The Free Republic of Western China"
+ XSM_CHI_ADJ:0 "Chinese"
+ 
+ CAU_NOVcollaboarator:0 "Caucasian Federation"
+ CAU_NOVcollaboarator_DEF:0 "The Caucasian Federation"
+ CAU_NOVcollaboarator_ADJ:0 "Caucasian"
+ 
+ # Willy Brandt Returns
+ 
+ GER_BrandtFreiheit:0 "Deutsche Republik"
+ GER_BrandtFreiheit_DEF:0 "Die Deutsche Republik"
+ GER_BrandtFreiheit_ADJ:0 "German"
+ 
+ CZE_Frehiet:0 "Czech Republic"
+ CZE_Frehiet_DEF:0 "Česká Republika"
+ CZE_Frehiet_ADJ:0 "Czech"
+ 
+ # Kazakhstan Collapse
+ 
+ KAZ_collapse:0 "Kyzylorda"
+ KAZ_collapse_DEF:0 "The Kazakh Soviet Socialist Republic"
+ KAZ_collapse_ADJ:0 "Kazakh"
+ 
+ # Poland
+ 
+ POL_Uprising:0 "Polish Home Army"
+ POL_Uprising_DEF:0 "Armia Krajowa"
+ POL_Uprising_ADJ:0 "Polish"
+ 
+ POL_Novosibirsk:0 "Republic of Poland"
+ POL_Novosibirsk_DEF:0 "Rzeczpospolita Polska"
+ POL_Novosibirsk_ADJ:0 "Polish"
+ 
+ POL_Brandt:0 "Poland"
+ POL_Brandt_DEF:0 "the Polish Reconstruction Committee"
+ POL_Brandt_ADJ:0 "Polish"
+ 
+ ### USA 76 ###
+ USA_Hall:0 "Union of Socialist States of America"
+ USA_Hall_DEF:0 "The Union of Socialist States of America"
+ USA_Hall_ADJ:0 "American"
+
+ USA_Yockey:0 "Imperium of America"
+ USA_Yockey_DEF:0 "The Imperium of America"
+ USA_Yockey_ADJ:0 "American"
+
+ USA_Pierce:0 "American State"
+ USA_Pierce_DEF:0 "The American State"
+ USA_Pierce_ADJ:0 "American"
+
+ USA_Weathermen:0 "Union of American Councils"
+ USA_Weathermen_DEF:0 "The Union of American Councils"
+ USA_Weathermen_ADJ:0 "American"
+
+ ### GER ###
+ GER_Waldheim:0 "Großgermanisches Reich"
+ GER_Waldheim_DEF:0 "Das Großgermanische Reich der Deutschen Nation"
+ GER_Waldheim_ADJ:0 "German"
+
+ GER_normal:0 "Großgermanisches Reich"
+ GER_normal_DEF:0 "Das Großgermanische Reich der Deutschen Nation"
+ GER_normal_ADJ:0 "German"
+
+ GER_GO4:0 "Deutsche Reich"
+ GER_GO4_DEF:0 "Das Deutsche Reich"
+ GER_GO4_ADJ:0 "German"
+
+ MCW_bormann:0 "Reichskommissariat Rußland"
+ MCW_bormann_DEF:0 "Reichskommissariat Rußland"
+
+ MCW_speer:0 "Bundesrepublik Rußland"
+ MCW_speer_DEF:0 "Bundesrepublik Rußland"
+ 
+ ROM_REPUBLIC:0 "Republic of Romania"
+ ROM_REPUBLIC_DEF:0 "the Republic of Romania"

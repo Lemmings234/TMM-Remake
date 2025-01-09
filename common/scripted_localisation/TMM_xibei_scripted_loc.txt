@@ -1,0 +1,207 @@
+defined_text = {
+	name = getQINStateName
+	text = {
+		trigger = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+		}
+		localization_key = QIN_qinghai
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_yushu_state_info_window_open
+		}
+		localization_key = QIN_yushu
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_tibet_state_info_window_open
+		}
+		localization_key = QIN_tibet
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_kang_state_info_window_open
+		}
+		localization_key = QIN_kang
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+		}
+		localization_key = QIN_xinjiang
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_ili_state_info_window_open
+		}
+		localization_key = QIN_ili
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_ham_state_info_window_open
+		}
+		localization_key = QIN_ham
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_nin_state_info_window_open
+		}
+		localization_key = QIN_nin
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_hex_state_info_window_open
+		}
+		localization_key = QIN_hex
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_wmo_state_info_window_open
+		}
+		localization_key = QIN_wmo
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_gan_state_info_window_open
+		}
+		localization_key = QIN_gan
+	}
+}
+defined_text = {
+	name = getQINStateStability
+	text = {
+		trigger = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+		}
+		localization_key = QIN_qinghai_stability
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_yushu_state_info_window_open
+		}
+		localization_key = QIN_yushu_stability
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_tibet_state_info_window_open
+		}
+		localization_key = QIN_tibet_stability
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_kang_state_info_window_open
+		}
+		localization_key = QIN_kang_stability
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+		}
+		localization_key = QIN_nanjiang_stability
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_ili_state_info_window_open
+		}
+		localization_key = QIN_beijiang_stability
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_ham_state_info_window_open
+		}
+		localization_key = QIN_hami_stability
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_nin_state_info_window_open
+		}
+		localization_key = QIN_ningxia_stability
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_hex_state_info_window_open
+		}
+		localization_key = QIN_hexi_stability
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_wmo_state_info_window_open
+		}
+		localization_key = QIN_mongolia_stability
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_gan_state_info_window_open
+		}
+		localization_key = QIN_gansu_stability
+	}
+}
+defined_text = {
+	name = getQINStateTension
+	text = {
+		trigger = {
+			has_country_flag = TMM_qinghai_state_info_window_open
+		}
+		localization_key = QIN_qinghai_tension
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_yushu_state_info_window_open
+		}
+		localization_key = QIN_yushu_tension
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_tibet_state_info_window_open
+		}
+		localization_key = QIN_tibet_tension
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_kang_state_info_window_open
+		}
+		localization_key = QIN_kang_tension
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_xinjiang_state_info_window_open
+		}
+		localization_key = QIN_nanjiang_tension
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_ili_state_info_window_open
+		}
+		localization_key = QIN_beijiang_tension
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_ham_state_info_window_open
+		}
+		localization_key = QIN_hami_tension
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_nin_state_info_window_open
+		}
+		localization_key = QIN_ningxia_tension
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_hex_state_info_window_open
+		}
+		localization_key = QIN_hexi_tension
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_wmo_state_info_window_open
+		}
+		localization_key = QIN_mongolia_tension
+	}
+	text = {
+		trigger = {
+			has_country_flag = TMM_gan_state_info_window_open
+		}
+		localization_key = QIN_gansu_tension
+	}
+}

@@ -1,0 +1,25 @@
+﻿l_english:
+ #NAMES
+ HAW:0 "Hawai'i"
+ HAW_DEF:0 "The Hawai'ian Free State"
+ HAW_ADJ:0 "'Ōlelo Hawai'i"
+
+ HAW_fascism_party:0 "Japanese Colonist Associations"
+ HAW_fascism_party_long:0 "Japanese Colonist Associations"
+ HAW_national_socialism_party:0 "Extremists"
+ HAW_national_socialism_party_long:0 "Extremists"
+ HAW_ultranationalism_party:0 "Extremists"
+ HAW_ultranationalism_party_long:0 "Extremists"
+ HAW_despotism_party:0 "Ke ea Hawai'i"
+ HAW_despotism_party_long:0 "Ke ea Hawai'i"
+ HAW_paternalism_party:0 "HRP/ALH"
+ HAW_paternalism_party_long:0 "Hawaii Republican Party/'Ao'ao Lepupalika o Hawai'i"
+
+ HAW_progressivism_party:0 "Socialists"
+ HAW_progressivism_party_long:0 "Socialists"
+ HAW_socialist_party:0 "Radicals"
+ HAW_socialist_party_long:0 "Radicals"
+
+ #CHARACTERS
+ HAW_Randolph_Crossley:0 "Randolph Crossley"
+

@@ -253,9 +253,6 @@ shared_focus = {
 	ai_will_do = {
 		factor = 80
 	}
-	bypass = {
-		has_war = no 
-	}
 	available = {
 		NOT = { is_in_faction_with = JAP }
 	}
@@ -266,36 +263,36 @@ shared_focus = {
         custom_effect_tooltip = QIN_three_rules_and_eight_points_tt
 		tno_military_supervision_improve = yes
 		add_to_variable = {
-            var = State_Stability^1
+            var = QIN_yushu_stability
             value = 15
             }
 		subtract_from_variable = {
-            var = State_Tension^1
+            var = QIN_yushu_ethnic_tension
             value = 7.5
             }
 		add_to_variable = {
-            var = State_Stability^2
+            var = QIN_tibet_stability
             value = 10
             }
 		subtract_from_variable = {
-            var = State_Tension^2
+            var = QIN_tibet_ethnic_tension
             value = 10
             }
 		add_to_variable = {
-            var = State_Stability^3
+            var = QIN_kang_stability
             value = 10
             }
 		subtract_from_variable = {
-            var = State_Tension^3
+            var = QIN_kang_ethnic_tension
             value = 10
             }
 		subtract_from_variable = {
-            var =  QIN_party_opinions^8
-            value = 2.5		
+            var = kmt_hardliner_lifayuan_support
+            value = 7.5		
+		    }
+		QINClamp = yes
+		QINLifayuanClamp = yes
 		}
-		QINStateClamp = yes
-		QINClamping = yes
-	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
@@ -387,38 +384,38 @@ shared_focus = {
 		custom_effect_tooltip = QIN_we_are_victorious_tt
 		add_political_power = 100
 		add_to_variable = {
-            var = State_Stability^1
-            value = 5
+            var = QIN_yushu_stability
+            value =5
             }
 		subtract_from_variable = {
-            var = State_Tension^1
+            var = QIN_yushu_ethnic_tension
             value = 2.5
             }
 		add_to_variable = {
-            var = State_Stability^2
+            var = QIN_tibet_stability
             value = 5
             }
 		subtract_from_variable = {
-            var = State_Tension^2
+            var = QIN_tibet_ethnic_tension
             value = 2.5
             }
 		add_to_variable = {
-            var = State_Stability^3
+            var = QIN_kang_stability
             value = 5
             }
 		subtract_from_variable = {
-            var = State_Tension^3
+            var = QIN_kang_ethnic_tension
             value = 2.5
             }
 		add_to_variable = {
-            var = State_Stability^0
+            var = QIN_qinghai_stability
             value = 20
             }
 		subtract_from_variable = {
-            var = State_Tension^0
+            var = QIN_qinghai_ethnic_tension
             value = 10
-         }
-		QINStateClamp = yes
+            }
+		QINClamp = yes
 		country_event = { id = tmm.maclique.4 }
 		set_variable = { 322.china = 1 }
 		set_variable = { 601.china = 1 }
@@ -1238,19 +1235,19 @@ shared_focus = {
 		    }
 		add_political_power = -20
 		subtract_from_variable = { 
-		    var = State_Tension^2
+		    var = QIN_tibet_ethnic_tension
 			value = 15
 			}
 		subtract_from_variable = { 
-		    var = State_Tension^3
+		    var = QIN_kang_ethnic_tension
 			value = 15
 			}
 		add_to_variable = { 
-		    var = State_Stability^3
+		    var = QIN_kang_stability
 			value = 10
 			}
 		add_to_variable = { 
-		    var = State_Stability^2
+		    var = QIN_tibet_stability
 			value = 10
 			}
 		subtract_from_variable = { 
@@ -1258,7 +1255,7 @@ shared_focus = {
 			value = 15
 			}
 		add_to_variable = { 
-		    var = State_Stability^1
+		    var = QIN_yushu_stability
 			value = 10
 			}
 		}

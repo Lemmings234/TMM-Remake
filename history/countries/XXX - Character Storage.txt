@@ -1,0 +1,138 @@
+capital = 1297
+### TRANSITIONAL GOVERNMENTS ###
+
+## VLADIVOSTOK
+
+# NOVOSIBIRSK
+
+## POST 2WRW TRANSITIONAL GOVTS.
+
+# NOVOSIBIRSK
+
+recruit_character = KOL_Ivan_Tasarov
+recruit_character = RDC_Alexander_Novikov
+recruit_character = CAU_Mikhail_Baganov
+recruit_character = UKR_Dmitry_Glinka
+recruit_character = CRI_Matvei_Batrakov
+recruit_character = OST_Nikolay_Skomorokhov
+recruit_character = BLR_Boris_Fulik
+recruit_character = PAU_Nestor_Kozin
+recruit_character = OKB_Mikhail_Evseev
+
+recruit_character = NOV_Yuri_Zubakov
+recruit_character = NOV_Yevgeny_Primakov
+recruit_character = NOV_Leonid_Kantorovich
+recruit_character = NOV_Anatoly_Koryagin
+recruit_character = NOV_Vladimir_Osipov
+recruit_character = NOV_Yegor_Ligachyov
+recruit_character = NOV_Yuri_Galanskov
+
+## POST 2WRW INDEPENDENT LEADERS
+
+# DEMOCRATIC RUSSIA
+
+recruit_character = CAU_Caucasian_Council
+recruit_character = EST_Vajno_Valjas
+recruit_character = LAT_Valdis_Birkavs
+recruit_character = LAT_Baltic_Council
+recruit_character = BLR_Pyotr_Masherov
+recruit_character = UKR_Leonid_Kravchuk
+recruit_character = AZR_heydar_aliyev
+recruit_character = GEO_Zviad_Gamsakhurdia
+recruit_character = LIT_Vytautas_Landsbergis
+
+### END OF TRANSITIONAL GOVERNMENTS ###
+
+### PROXY WAR GOVERNMENTS ###
+
+recruit_character = ARM_Gurgen_Zanikjan
+recruit_character = ARM_Gurgen_Arutjunovic_Dalibaltajan
+
+### KAZAKHSTAN###
+
+recruit_character = PAV_Sultanakhmet_Kozhikov
+
+### POLAND ###
+
+recruit_character = POL_Karol_Wojtyla
+recruit_character = POL_Alfred_Urbanski
+recruit_character = POL_Edward_Gierek
+recruit_character = POL_Edward_Raczynski
+recruit_character = POL_Kazimierz_Sabbat
+recruit_character = POL_Swiatlo_Jozef
+
+### ROMANIA ###
+
+recruit_character = ROM_Ion_Iliescu
+
+### GERMANY ###
+
+recruit_character = Deutsch_Willy_Brandt
+recruit_character = GER_kurt_waldheim
+
+### WEST CHINA ###
+
+recruit_character = QIN_Sun_Tse_Ping
+recruit_character = QIN_Li_Xiannian
+
+### CENTRAL ASIA ###
+
+recruit_character = TRK_RUS_Provisional_Government
+recruit_character = TRK_RUS_Imperial_Government
+recruit_character = TRK_SOV_Provisional_Government
+recruit_character = KRK_RUS_Provisional_Government
+recruit_character = UZB_RUS_Provisional_Government
+recruit_character = TAJ_RUS_Provisional_Government
+recruit_character = KYR_RUS_Provisional_Government
+
+### WRF - TUKHACHEVSKY ###
+
+
+
+### USA ###
+recruit_character = USA_John_B_Anderson
+recruit_character = USA_Jimmy_Carter
+recruit_character = USA_Herman_Talmadge
+recruit_character = USA_Ella_Baker
+recruit_character = USA_Bill_Ayers
+recruit_character = USA_William_Pierce
+
+
+### JAPAN ###
+recruit_character = KOR_Niimi_Masaichi
+recruit_character = HUU_Kaya_Okinori
+
+recruit_character = JAP_Watanabe_Takeshi
+recruit_character = JAP_Ozaki_Hotsumi
+recruit_character = JAP_Ishii_Mitsujiro
+recruit_character = JAP_Hanano_Kichihei
+
+recruit_character = NCC_Zhu_Dian
+recruit_character = NCC_Miao_Bin
+recruit_character = NCC_Wang_Hongwen
+recruit_character = NCC_Peng_Shihong
+recruit_character = NCC_Liang_Huazhi
+
+recruit_character = BNW_CHI_Chen_Gongbo
+recruit_character = CHI_Gan_Naiguang
+recruit_character = CHI_Shi_Cuntong
+recruit_character = BNW_CHI_Mei_Siping
+recruit_character = CHI_Ding_Mocun
+
+recruit_character = JAP_Tokugawa_Gishin
+recruit_character = JAP_Furumi_Tadayuki
+recruit_character = JAP_Amogus
+recruit_character = BNW_JAP_Shiina_Etsusaburo
+recruit_character = JAP_Kawakami_Jotaro
+
+recruit_character = JAP_Okuno_Seisuke
+recruit_character = JAP_Ikeda_Sumihisa
+recruit_character = JAP_Sanji_Shigenobu
+recruit_character = JAP_Onodera_Makoto
+
+recruit_character = SHX_Rong_Ziheng
+### EFFECTS ###
+SIC = { 
+	BNWJapanSetup = yes 
+	BNW_China = yes
+}

@@ -1,0 +1,30 @@
+
+state={
+    id=1997
+    name="STATE_1997"
+
+    history={
+		owner = NCC
+		add_core_of = NCC
+		buildings = {
+			schools = 2
+			offices = 1
+			hospitals = 1
+			prisons = 1
+			barracks = 1
+			thermoelectric_plant = 2
+
+			infrastructure = 2
+			radar_station = 1
+			air_base = 1
+		}
+        victory_points = { 1590 15 }
+    }
+
+    provinces={
+        828 952 1137 1590 6904 9776 10397
+    }
+    manpower=165000
+	buildings_max_level_factor=1.000
+	state_category=town  
+}

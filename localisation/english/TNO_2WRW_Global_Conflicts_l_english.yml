@@ -1,0 +1,79 @@
+﻿l_english:
+
+ RUS_foreign_policy_category:0 "Global Conflicts"
+ GER_2WRW_foreign_policy_category:0 "Global Conflicts"
+ 
+ # Tabs
+  
+ global_conflict_name_tab_Iran_tt:0 "§YIranian Civil War§!"
+ 
+ # Flags
+ 
+ GC_RUS_decision_in_progress:0 "Proxy War Action in Progress"
+ 
+ # War Descriptions
+
+ rus_iran_war_desc_tt:0 "The Iranian Imperial State was once an ally of the Einheitspakt, serving as the Reich's main foothold in the Middle East. But with the death of Shah Mohammed Reza Pahlavi, an unpopular figure responsible for the nation's German alignment, the nation has collapsed into a bloody civil war. As partisans and defected army units battle in the wind-swept deserts and sun-scorched mountains, many in Russia and across the globe expect the Federation to take a stance on the raging conflict to the South.\n\nThis war has drawn the eyes of many global powers. America, Japan, and the Germans have all thrown their support behind their respective factions. The hardliners and the hawks in our government demand that we do the same. Although our Motherland has only recently reunited beneath the Federation's banner, it seems that now is the opportune time to dislodge the Nazis from the Middle East and protect our soft underbelly from the Einheitspakt's pervasive influence.\n\n§RRussia is returning to the global stage at last. The world awaits the bear's roar.§!"
+ 
+ 
+ rus_poland_war_desc_tt:0 "The History of Russia and Poland has been, for the most part, bloodshed and destruction. But for all the sins we committed in the dim past, none outstrip our betrayal of the Poles thirty years ago. We both share the consequences of that mistake. Poland remains under Nazi rule; our troops stopped right at the gates of the Polish homeland, only the threat of nuclear war pushing us away. While the Motherland rebuilds, the Germans are attempting to reclaim control of their empire's ruins. Poland is within their grasp, and so the Poles suffer at their monstrous hands.\n\nWe failed Poland. We failed ourselves. We share blame for permitting the Nazi invasion so many years ago. Though we were once rivals, we now share a common enemy, and a common history. We must not allow our brothers to be torn into offal.\n\nAs long as one man resists, Poland is not yet lost."
+ 
+ rus_armenia_war_desc_tt:0 "Following the collapse of the old Union, Turkey has gone down a dark path, spreading themselves out across the Middle East like their Ottoman ancestors, occupying and striking down minority groups through their policy of Turkification, all under the guise of promoting a unified and homogeneous Turkish state. Their participation in the Second World War led to the collapse of the Caucasian front and allowed the German's to seize the vast oilfields of Azerbaijan, condeming the people of the Soviet Union to decades of suffering and tyranny.\n\nThe world may have forgotten about Turkey's actions, but Russia hasn't.\n\nThe mountains of the Caucusus are alight once more as the people of Caucasia are united, fighting for their right to be free of Turkish rule. We will help the Caucasian people defeat our mutual Turkish foe and at last, get revenge against another nation that has caused suffering to our people."
+ 
+ rus_mongolia_war_desc_tt:0 "When the old Union collapsed, many states that were formerly under its protection were left vulnerable and it didn't take long for the vultures to tear away at our Motherland's sphere of influence.\n\nOne of those nations who fell victim to the ambitions of outside powers was Mongolia. Swiftly occupied by the Japanese following our humiliating defeat in the Great Patriotic War and its later integration into Mengjiang, the region has been fighting a constant war of resistance against the Japanese Empire and it's vast network of Chinese puppet governments.\n\nWhile resistance peeked in the early 1960s, the people still fight on for the dream of a free Mongolia. With the rebels in Mongolia now reorganised and the battle continuing once again, its time we intervene in this decades long conflict and liberate our former ally."
+ 
+ rus_west_china_war_desc_tt:0 "China lies as broken as the Soviet Union during Bukharin's downfall. Yet even our Motherland's agony pales in comparison to the Middle Kingdom's century and a half of humiliation. Since before the ascension of Tsar Nicholas the Second, the Japanese have chipped away at China until it was naught but a shadow of its former self, ready for slaughter. The few Chinese who have not bent the knee to the Nanjing Clique now hide in the west. Of the Kuomintang Cliques still remaining, Ma Jiyuan's shows the most initiative, relentlessly raiding Masanobu Tsuji's lands. Most powers have abandoned this part of the world. Yet Russia watches, plotting and scheming, as we plan our next move in the Great Game.\n\nJiyuan himself stands at a crossroads. On one hand, he saw the failure of Chang Kai-shek to defend China, to truly implement the Three Principles and bring China into the modern age. On the other hand, surrender would mean a shameful death for  himself and the rest of KMT. Perhaps all he needs to make things right is some time.\n\n§BAnd a few friends.§!"
+ 
+ 
+ 2GNW_war_desc_GER_tt:0 "Our eastern frontier has always been a somewhat tumultuous region. Moskowien, under constant threat of banditry and rebellion - but, despite all that, our borders have stood strong for decades. However, the newly forged Russian state seeks to unhinge this balance. The Karelians in the eastern borderlands of our former ally Finland have revolted, seizing much of the Murmansk railroad and organising a strong resistance against the Finns.\n\nThe Russians will no doubt throw their heart, soul and spirit into this conflict, sending all they can to assist their so-called 'brothers' in rightful Finnish land. The Finns, already have come begging for our assistance, attempting to cite old promises and alliances. We'll let them believe they've obtained their diplomatic victory.\n\nWe shall crush the Russians and Karelians here and now. Defeat here threatens to embolden the eastern menace, and Moskowien is not prepared to hold back the onslaught of the Rus. However, should the Finns be victorious, with our aid, the Russians will withdraw back into their holes with fear - they will lick their wounds, their humiliation festering, and plot a little while longer."
+ 
+ GER_krakow_uprising_tt:0 "Since the triumph of 1945, Polen has become an increasingly integral part of the Reich. As the Polish savages are pushed further east by Aryan settlers, it was believed that the Polish state would never rise again.\n\nHow wrong we were.\n\nWhen it seemed that the Poles had atlast been pacified, the remnants of the Polish resistance have risen up once again in a final hail mary for the liberation of Poland. While our most fanatical are demanding we throw the full weight of the Wehrmacht upon the rebels, many in our government fear that the Russian Federation will directly intervene, dooming Eastern Europe to another horrendous war.\n\nAlthough the reconquest of Poland back into the Reich will be more complicated than in 1939, the Poles will crumble before the might of the German army once again and begin the reclamation of Europe in the name of the Aryan peoples."
+ 
+ GER_mountain_war_desc_tt:0 "When Turkey joined the Axis, their involvement proved crucial in overwhelming the Soviet armies in the Caucasian mountains. After realising their Neo-Ottoman ambitions in the Middle East, the nation was for a time apart of the old Italian lead 'Triumvirate' before entering neutrality following the collapse of the alliance.\n\nThe Turks had assisted us in out struggle against the Allied Powers during the Second World War, therefore, it is only natural that we aid them against the Russian backed Armenia and Georgia.\n\nWe may have endured defeat at the hands of the Russians in the Second West Russian War but like we have before, Germany will rebuild itself and face off against the rats, no matter where they dare show themselves."
+ 
+ jap_west_china_war_desc_tt:0 "Ever since Japan's victory all those years ago, wealth and prosperity have flowed from the continent to their betters. Now, however, the Empire is under threat once again. The unruly Ma Clique, little more than a personal fiefdom of the bastard remnants of the Kuomingtong threaten all the Empire has gained through hard struggle, and the hard-steel of battle. They threaten to tear all of Japan's dominions away from her, and reduce the Empire to the status it held during inter-war humiliations!\n\nAnd so Japan now rallies for war, the banners of the Rising Sun fluttering in the wind. It shall not allow mere warlords defeat their betters. Japan shall not surrender, shall not fail, shall not bend the knee to their subjects.\n\n§VThe Rising Sun shall never set.§!"
+ 
+ jap_mongolian_uprising_desc_tt:0 "Ever since the fall of the old Soviet Union in the mid 1940s, when the last of the European colonisers had been annihilated, our grip over free East Asia has been absolute. With Europe returning its attention to domestic affairs, the United States ejected from the Pacific and the threat of Russia shattered, we believed that an age of prosperity was swiftly approaching East Asia. For a while, Asia prospered but in recent years, things have begun to turn against us.\n\nAgainst all odds, the mysterious Federation in Novosibirsk managed to not only reunite what remained of Russia but has also defeated the Germans in Eastern Europe. The resurgent Russia has begun spreading its tenticles across Asia once more, intervening in various conflicts and disputes, such as the recent rebellion in Mongolia, in order to rebuild its lost sphere of influence.\n\nWith Germany being unable to stop the Russian colossus, it is up to the Greater Co-Prosperity Sphere to take a stand against Russian expansionism and secure the continued independence of East Asia from all foreign influence.\n\n§VLong live Asia. Long live the Rising Sun.§!"
+ 
+ # Decisions
+ 
+ TNO_2WRW_rejoin_the_motherland:0 "§WRejoin§! §Bthe§! §RMotherland§!"
+ NOV_intervention_in_iranian_civil_war:0 "Intervene in the §GIranian§! §WCivil§! §VWar§!"
+ TNO_2WRW_increase_commitment:0 "Increase Commitment"
+ TNO_2WRW_operation_deepfreeze:0 "Operation: §MDeep Freeze§!"
+ TNO_2WRW_infilitrate_helsinki:0 "Infilitrate §xHelsinki§!"
+ TNO_2WRW_murmansk_revolt:0 "Insigate a Revolt in §YMurmansk§!"
+ TNO_2WRW_onega_volunteer_corps:0 "§nOnega§! Volunteer Corps"
+ TNO_2WRW_subsidise_the_karelian_economy:0 "Subsidise the §GKarelian Economy§!"
+ TNO_2WRW_authorise_bombing_runs:0 "Authorise §xBombing Runs§!"
+ TNO_2WRW_send_land_equipment:0 "Send §KLand Equipment§!"
+ TNO_2WRW_send_air_equipment:0 "Send §mAir Equipment§!"
+ 
+ JAP_2WRW_foreign_policy_category:0 "Global Conflicts"
+ TNO_JAP_2WRW_increase_commitment:0 "Increase Commitment"
+ TNO_JAP_2WRW_authorise_bombing_runs:0 "Authorise §xTactical Bombing Operations§!"
+ TNO_JAP_2WRW_send_land_equipment:0 "Send §KLand Equipment§!"
+ TNO_JAP_2WRW_send_air_equipment:0 "Send §mAir Equipment§!"
+ TNO_JAP_2WRW_order_hui_intervention:0 "Order §VHui Intervention§!"
+ 
+ # Custom Tooltips
+ 
+ TNO_2WRW_infilitrate_helsinki_tt:0 "§xDimitri Ivanov§! will infilitrate §YHelsinki\n§!"
+ TNO_2WRW_murmansk_revolt_tt:0 "The city of §YMurmansk§! will §xrevolt against Finland§!\n"
+ TNO_2WRW_onega_volunteer_corps_tt:0 "An volunteer division from §nOnega§! will spawn in §YPetrozavodsk§!\n"
+
+ TNO_GER_2WRW_order_hui_intervention_tt:0 "§V[GAN.GetName]§! will intervene in the West China War"
+ 
+ # Proxy War Ideas
+ 
+ RUS_russian_bombing:0 "Russian Tactical Bombing"
+ 
+ GER_tactical_bombing:0 "German Tactical Bombing"
+ 
+ ## Second Great Northern War
+ RUS_winter_gear:0 "Winter Equipment"
+ RUS_winter_gear_desc:0 "Wars fought deep in the frozen tundra of Northern Europe are often hazardous for the average soldier, the freezing temperatures can prove much more leathal than any man with a rifle.\n\nWith our armies properly equipped to survive the harsh temperatures, winter warfare will become a far less deadly endeavour for the Russian nation.\n"
+ 
+ RUS_operation_deep_freeze:0 "Operation: Deep Freeze"
+ 
+ GER_operation_teutoburg:0 "Operation: Teutoburg"

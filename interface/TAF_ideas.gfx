@@ -1,0 +1,66 @@
+spriteTypes = {   
+	#### XIN 
+	spriteType = {
+		name = "GFX_idea_Where_Are_They"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/Where_Are_They.png"
+	}
+	spriteType = {
+		name = "GFX_idea_The_Crumbling_Six_Policies"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/The_Crumbling_Six_Policies.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Faded_Modern_Civilization"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/Faded_Modern_Civilization.png"
+		name = "GFX_idea_Faded_Modern_Civilization"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/Faded_Modern_Civilization.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Orphan_of_Asia"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/Orphan_of_Asia.png"
+		name = "GFX_idea_Orphan_of_Asia"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/Orphan_of_Asia.png"
+	}
+    spriteType = {
+		name = "GFX_idea_Protect_by_the_Sun"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/Protect_by_the_Sun.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Turpan_Army"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/Turpan_Army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Collapsed_Gov"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/Collapsed_Gov.png"
+	}
+
+    #### CSX
+	spriteType = {
+		name = "GFX_trait_National_Army"
+		texturefile = "gfx/interface/ideas/national_spirits/CSX/National_Army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Bird_out_of_cage"
+		textureFile = "gfx/interface/ideas/national_spirits/CSX/Bird_out_of_cage.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Cadres"
+		texturefile = "gfx/interface/ideas/national_spirits/CSX/Cadres.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Operation_Urm"
+		textureFile = "gfx/interface/ideas/national_spirits/CSX/Operation_Urm.png"
+	}
+
+	# CSX Events
+
+	#### UST 
+	spriteType = {
+		name = "GFX_idea_Partial_Victory"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/Partial_Victory.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_National_army"
+		textureFile = "gfx/interface/ideas/national_spirits/XIN/National_army.png"
+	}
+}

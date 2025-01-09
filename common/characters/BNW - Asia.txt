@@ -20,7 +20,7 @@ characters = {
 		}
 		country_leader = {
 			desc = ""
-			ideology = paternalism_anocracy_subtype
+			ideology = paternalism_dominant_party_democracy_subtype
 			traits = { }
 			expire = "1999.1.1.1"
 			id = -1

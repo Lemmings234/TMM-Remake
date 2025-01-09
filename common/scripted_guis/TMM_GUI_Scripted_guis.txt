@@ -1630,18 +1630,12 @@ scripted_gui = {
 			    owns_state = 601 
 			}
 		    QIN_Khams_visible = {
-			    owns_state = 1962
-				owns_state = 2397
+			    owns_state = 765
 			}
 		    QIN_Tibet_visible = {
 				AND = {
 			        owns_state = 322
 					owns_state = 765
-					owns_state = 1961
-					owns_state = 2395
-					owns_state = 2396
-					owns_state = 2397
-					owns_state = 2398
 				}
 			}
 		    QIN_Xikang_visible = {
@@ -1653,39 +1647,9 @@ scripted_gui = {
 				    	            original_tag = XIK
 				                }
 				            }
-							964 = {
-				                owner = {
-				    	            original_tag = XIK
-				                }
-				            }
-							2374 = {
-				                owner = {
-				    	            original_tag = XIK
-				                }
-				            }
-							2375 = {
-				                owner = {
-				    	            original_tag = XIK
-				                }
-				            }
 				    	}
 				        AND = {
 			                905 = {
-				                owner = {
-				    	            original_tag = QIN
-				                }
-				            }
-							964 = {
-				                owner = {
-				    	            original_tag = QIN
-				                }
-				            }
-							2374 = {
-				                owner = {
-				    	            original_tag = QIN
-				                }
-				            }
-							2375 = {
 				                owner = {
 				    	            original_tag = QIN
 				                }
@@ -1696,7 +1660,6 @@ scripted_gui = {
 			}
 		    QIN_Hexi_visible = {
 			    owns_state = 764 
-				owns_state = 2427
 			}
 		    QIN_Ningxia_visible = {
 			    owns_state = 616 
@@ -1704,10 +1667,6 @@ scripted_gui = {
 		    QIN_Gansu_visible = {
 			    owns_state = 1302
 				owns_state = 283
-				owns_state = 2423
-				owns_state = 2424
-				owns_state = 2425
-				owns_state = 2426
 			}
 		    QIN_Hami_visible = {
 			    owns_state = 957 
@@ -1826,9 +1785,7 @@ scripted_gui = {
 			}
 
 			###JAPAN###
-			JAP_Imperial_Court_Jyushin_Portrait_3_Mikasa_visible = { 
-				NOT = { has_country_flag = JAP_Mikasa_Assassinated } 
-			}
+			JAP_Imperial_Court_Jyushin_Portrait_3_Mikasa_visible = { NOT = has_country_flag = JAP_Mikasa_Assassinated }
 			Region_Akita_visible = {
 				NOT = {
 					OR = {

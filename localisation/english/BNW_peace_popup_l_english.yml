@@ -1,0 +1,7 @@
+﻿l_english:
+
+ TNO_PEACE_POPUP_FLAVOR_ROMANIA:0 "My crown I am, but still my griefs are mine"
+ TNO_PEACE_POPUP_FLAVOR_2WRW_OMS:0 "The Eagle is dead. Soon, humanity will join it."
+ 
+ TNO_PEACE_POPUP_WAR_CONCLUSION_QINGHAI:0 "[winning_country.GetFlag] §Y[winning_country.GetNameDef]§! have defeated [losing_country.GetFlag] §Y[losing_country.GetNameDef]§! as the National Revolutionary Army seizes §YYushu§! and the Tibetan Plateau"
+ TNO_PEACE_POPUP_FLAVOR_TIB:0 "The Lions of the Mount lay low."

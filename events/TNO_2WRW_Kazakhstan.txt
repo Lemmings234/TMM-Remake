@@ -1,0 +1,1364 @@
+add_namespace = KAZ
+add_namespace = RUS_2WRWKazakhstan
+
+country_event = { # Russian Federation - Reorganisation
+	id = RUS_2WRWKazakhstan.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event RUS_2WRWKazakhstan.1"}
+	title = RUS_2WRWKazakhstan.1.t
+	desc = RUS_2WRWKazakhstan.1.desc
+	picture = GFX_report_event_russia_devastation_generic_4
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #
+		name = RUS_2WRWKazakhstan.1.a
+		trigger = {
+			NOT = {
+				RUS = {
+					original_tag = VYT
+					original_tag = CHT
+					original_tag = KEM
+				}
+			}
+		}
+		ai_chance = { factor = 1 }
+		TNO_2WRW_Kazakhstan_Reorganisation = yes
+		TNO_2WRW_Nowa_Polska_Reorganisation = yes
+	}
+	
+	option = { #
+		name = RUS_2WRWKazakhstan.1.b
+		ai_chance = { factor = 1 }
+		TNO_2WRW_Kazakhstan_Reorganisation = yes
+	}
+}
+
+country_event = { #
+	id = KAZ.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ.1" }
+	title = KAZ.1.t
+	desc = KAZ.1.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ.1.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ.2" }
+	title = KAZ.2.t
+	desc = KAZ.2.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ.2.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ.3" }
+	title = KAZ.3.t
+	desc = KAZ.3.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ.3.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ.4" }
+	title = KAZ.4.t
+	desc = KAZ.4.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ.4.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ.5" }
+	title = KAZ.5.t
+	desc = KAZ.5.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ.5.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ.6" }
+	title = KAZ.6.t
+	desc = KAZ.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ.6.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ.7" }
+	title = KAZ.7.t
+	desc = KAZ.7.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ.7.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ.8" }
+	title = KAZ.8.t
+	desc = KAZ.8.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ.8.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ.9" }
+	title = KAZ.9.t
+	desc = KAZ.9.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ.9.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ.10" }
+	title = KAZ.10.t
+	desc = KAZ.10.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ.10.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+add_namespace = KAZ_collapse # Kazakhstan go boom
+
+country_event = { # Initial event
+	id = KAZ_collapse.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_collapse.1" }
+	title = KAZ_collapse.1.t
+	desc = KAZ_collapse.1.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_collapse.1.a
+		ai_chance = { factor = 1 }
+		
+		country_event = { id = KAZ_collapse.2 days = 90 random = 30 }
+		country_event = { id = KAZ_collapse.3 days = 120 random = 30 }
+		country_event = { id = KAZ_collapse.4 days = 130 random = 30 }
+	}
+}
+
+country_event = { # Set the first DMZs (Kokshetau and Kostanay)
+	id = KAZ_collapse.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_collapse.2" }
+	title = KAZ_collapse.2.t
+	desc = KAZ_collapse.2.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_collapse.2.a
+		ai_chance = { factor = 1 }
+		583 = {
+			set_demilitarized_zone = yes
+		}
+		590 = {
+			set_demilitarized_zone = yes
+		}
+		1808 = {
+			set_demilitarized_zone = yes
+		}
+		country_event = { id = KAZ_collapse.5 days = 90 random = 30 }
+	}
+}
+
+country_event = { # Set the second round of DMZs (Aktobe and Aktau)
+	id = KAZ_collapse.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_collapse.3" }
+	title = KAZ_collapse.3.t
+	desc = KAZ_collapse.3.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 
+		name = KAZ_collapse.3.a
+		ai_chance = { factor = 1 }
+		402 = {
+			set_demilitarized_zone = yes
+		}
+		406 = {
+			set_demilitarized_zone = yes
+		}
+	}
+}
+
+country_event = { # Set the last round of DMZs (Pavlodar)
+	id = KAZ_collapse.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_collapse.4" }
+	title = KAZ_collapse.4.t
+	desc = KAZ_collapse.4.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_collapse.4.a
+		ai_chance = { factor = 1 }
+		588 = {
+			set_demilitarized_zone = yes
+		}
+		1805 = {
+			set_demilitarized_zone = yes
+		}
+		1806 = {
+			set_demilitarized_zone = yes
+		}
+		country_event = { id = KAZ_collapse.6 days = 60 random = 30 }
+	}
+}
+
+country_event = { # Set the first breakaways (Kostanay and Kokshetau)
+	id = KAZ_collapse.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_collapse.5" }
+	title = KAZ_collapse.5.t
+	desc = KAZ_collapse.5.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_collapse.5.a
+		ai_chance = { factor = 1 }
+		release = KOK
+		release = DER
+		583 = {
+			set_demilitarized_zone = no
+		}
+		590 = {
+			set_demilitarized_zone = no
+		}
+		1808 = {
+			set_demilitarized_zone = no
+		}
+	}
+}
+
+country_event = { # Set second breakaway (Pavlodar)
+	id = KAZ_collapse.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_collapse.6" }
+	title = KAZ_collapse.6.t
+	desc = KAZ_collapse.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_collapse.6.a
+		ai_chance = { factor = 1 }
+		release = PAV
+		588 = {
+			set_demilitarized_zone = no
+		}
+		1805 = {
+			set_demilitarized_zone = no
+		}
+		1806 = {
+			set_demilitarized_zone = no
+		}
+	country_event = { id = KAZ_collapse.7 days = 20 random = 10 }
+	}
+}
+
+country_event = { # Set third breakaway (Aktobe), removes polish ASSR as puppet, starts full collapse
+	id = KAZ_collapse.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_collapse.7" }
+	title = KAZ_collapse.7.t
+	desc = KAZ_collapse.7.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_collapse.7.a
+		ai_chance = { factor = 1 }
+		
+		set_global_flag = KAZAKHSTAN_EXPLODED
+		
+		end_puppet = NPL
+		release = ARL
+		
+		402 = {
+			set_demilitarized_zone = no
+		}
+		406 = {
+			set_demilitarized_zone = no
+		}
+		KAZ = { 
+			add_ideas = KAZ_hidden_war_modifier
+		}
+		NPL = {
+			add_ideas = KAZ_hidden_war_modifier
+		}
+		ARL = {
+			add_ideas = KAZ_hidden_war_modifier 
+			load_oob = "ARL_collapse"
+		}
+		KOK = {
+			add_ideas = KAZ_hidden_war_modifier
+			load_oob = "KOK_collapse"
+		}
+		DER = {
+			add_ideas = KAZ_hidden_war_modifier
+			load_oob = "DER_collapse"
+		}
+		PAV = {
+			add_ideas = KAZ_hidden_war_modifier
+			load_oob = "PAV_collapse"
+		}
+		WSR = {
+			if = {
+				limit = {
+					OR = {
+						has_government = paternalism
+						has_government = conservatism
+						has_government = liberalism
+						has_government = progressivism
+						has_government = liberal_conservatism
+					}
+				}
+				country_event = { id = KAZ_intervention.1 days = 4 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_government = despotism
+						has_government = fascism
+					}
+				}
+				country_event = { id = KAZ_intervention.2 days = 4 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_government = communist
+						has_government = socialist
+					}
+				}
+				country_event = { id = KAZ_intervention.3 days = 4 }
+			}
+		}
+		WSB = {
+			if = {
+				limit = {
+					OR = {
+						has_government = paternalism
+						has_government = conservatism
+						has_government = liberalism
+						has_government = progressivism
+					}
+				}
+				country_event = { id = KAZ_intervention.1 days = 4 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_government = despotism
+						has_government = fascism
+					}
+				}
+				country_event = { id = KAZ_intervention.2 days = 4 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_government = communist
+						has_government = socialist
+					}
+				}
+				country_event = { id = KAZ_intervention.3 days = 4 }
+			}
+		}
+		CSB = {
+			if = {
+				limit = {
+					OR = {
+						has_government = paternalism
+						has_government = conservatism
+						has_government = liberalism
+						has_government = progressivism
+					}
+				}
+				country_event = { id = KAZ_intervention.1 days = 4 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_government = despotism
+						has_government = fascism
+					}
+				}
+				country_event = { id = KAZ_intervention.2 days = 4 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_government = communist
+						has_government = socialist
+					}
+				}
+				country_event = { id = KAZ_intervention.3 days = 4 }
+			}
+		}
+		FST = {
+			if = {
+				limit = {
+					OR = {
+						has_government = paternalism
+						has_government = conservatism
+						has_government = liberalism
+						has_government = progressivism
+					}
+				}
+				country_event = { id = KAZ_intervention.1 days = 4 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_government = despotism
+						has_government = fascism
+					}
+				}
+				country_event = { id = KAZ_intervention.2 days = 4 }
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_government = communist
+						has_government = socialist
+					}
+				}
+				country_event = { id = KAZ_intervention.3 days = 4 }
+			}
+		}
+		hidden_effect = {
+			every_country = {
+				news_event = { id = WORLD.41043 hours = 2 }
+			}
+		}
+	}
+}
+
+country_event = { # 
+	id = KAZ_collapse.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_collapse.8" }
+	title = KAZ_collapse.8.t
+	desc = KAZ_collapse.8.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_collapse.8.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_collapse.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_collapse.9" }
+	title = KAZ_collapse.9.t
+	desc = KAZ_collapse.9.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_collapse.9.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_collapse.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_collapse.10" }
+	title = KAZ_collapse.10.t
+	desc = KAZ_collapse.10.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_collapse.10.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+add_namespace = KAZ_intervention # flavor events and allows volunteers
+
+country_event = { # Allow volunteers ( PAV )
+	id = KAZ_intervention.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_intervention.1" }
+	title = KAZ_intervention.1.t
+	desc = KAZ_intervention.1.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 
+		name = KAZ_intervention.1.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			OR = {
+				has_government = paternalism
+				has_government = conservatism
+				has_government = liberalism
+				has_government = progressivism
+			}
+		}
+		set_temp_variable = { target = PAV }
+		set_temp_variable = { number = 2 }
+		TNO_set_num_volunteers = yes
+		custom_effect_tooltip = RUS_can_send_help_to_PAV_tt
+		unlock_decision_category_tooltip = RUS_kazakh_unification_wars_category
+	}
+
+}
+
+country_event = { # Allow volunteers ( ARL )
+	id = KAZ_intervention.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_intervention.2" }
+	title = KAZ_intervention.2.t
+	desc = KAZ_intervention.2.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_intervention.2.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			OR = {
+				has_government = despotism
+				has_government = fascism
+			}
+			NOT = {	original_tag = KEM }
+		}
+		set_temp_variable = { target = ARL }
+		set_temp_variable = { number = 2 }
+		TNO_set_num_volunteers = yes
+		custom_effect_tooltip = RUS_can_send_help_to_ARL_tt
+		unlock_decision_category_tooltip = RUS_kazakh_unification_wars_category
+	}
+}
+
+country_event = { # Allow volunteers ( KAZ )
+	id = KAZ_intervention.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_intervention.3" }
+	title = KAZ_intervention.3.t
+	desc = KAZ_intervention.3.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_intervention.3.a
+		ai_chance = { factor = 1 }
+		trigger = {
+			OR = {
+				has_government = communist
+				has_government = socialist
+			}
+		}
+		set_temp_variable = { target = KAZ }
+		set_temp_variable = { number = 2 }
+		TNO_set_num_volunteers = yes
+		custom_effect_tooltip = RUS_can_send_help_to_KAZ_tt
+		unlock_decision_category_tooltip = RUS_kazakh_unification_wars_category
+	}
+}
+
+country_event = { #
+	id = KAZ_intervention.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_intervention.4" }
+	title = KAZ_intervention.4.t
+	desc = KAZ_intervention.4.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_intervention.4.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_intervention.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_intervention.5" }
+	title = KAZ_intervention.5.t
+	desc = KAZ_intervention.5.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_intervention.5.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_intervention.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_intervention.6" }
+	title = KAZ_intervention.6.t
+	desc = KAZ_intervention.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_intervention.6.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_intervention.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_intervention.7" }
+	title = KAZ_intervention.7.t
+	desc = KAZ_intervention.7.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_intervention.7.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_intervention.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_intervention.8" }
+	title = KAZ_intervention.8.t
+	desc = KAZ_intervention.8.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_intervention.8.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_intervention.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_intervention.9" }
+	title = KAZ_intervention.9.t
+	desc = KAZ_intervention.9.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_intervention.9.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_intervention.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_intervention.10" }
+	title = KAZ_intervention.10.t
+	desc = KAZ_intervention.10.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_intervention.10.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+add_namespace = KAZ_unification ## Unification talks with Russia
+
+country_event = { #
+	id = KAZ_unification.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_unification.1" }
+	title = KAZ_unification.1.t
+	desc = KAZ_unification.1.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_unification.1.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_unification.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_unification.2" }
+	title = KAZ_unification.2.t
+	desc = KAZ_unification.2.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_unification.2.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_unification.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_unification.3" }
+	title = KAZ_unification.3.t
+	desc = KAZ_unification.3.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_unification.3.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_unification.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_unification.4" }
+	title = KAZ_unification.4.t
+	desc = KAZ_unification.4.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_unification.4.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_unification.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_unification.5" }
+	title = KAZ_unification.5.t
+	desc = KAZ_unification.5.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_unification.5.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_unification.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_unification.6" }
+	title = KAZ_unification.6.t
+	desc = KAZ_unification.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_unification.6.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_unification.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_unification.7" }
+	title = KAZ_unification.7.t
+	desc = KAZ_unification.7.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_unification.7.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_unification.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_unification.8" }
+	title = KAZ_unification.8.t
+	desc = KAZ_unification.8.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_unification.8.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_unification.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_unification.9" }
+	title = KAZ_unification.9.t
+	desc = KAZ_unification.9.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_unification.9.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+country_event = { #
+	id = KAZ_unification.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_unification.10" }
+	title = KAZ_unification.10.t
+	desc = KAZ_unification.10.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_unification.10.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
+
+add_namespace = KAZ_negotiation
+
+country_event = { #Start Negotiations
+	id = KAZ_negotiation.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.1" }
+	title = KAZ_negotiation.1.t
+	desc = KAZ_negotiation.1.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Alliance
+		name = KAZ_negotiation.1.a
+		ai_chance = { factor = 1 }
+		KAZ = {
+			country_event = { id = KAZ_negotiation.11 hours = 6 }
+		}
+	}
+
+	option = { #Puppet
+		name = KAZ_negotiation.1.b
+		ai_chance = { factor = 1 }
+		KAZ = {
+			country_event = { id = KAZ_negotiation.12 hours = 6 }
+		}
+	}
+
+	option = { #Annex
+		name = KAZ_negotiation.1.c
+		ai_chance = { factor = 1 }
+		KAZ = {
+			country_event = { id = KAZ_negotiation.13 hours = 6 }
+		}
+		
+	}
+}
+
+country_event = { #Counteroffer Annex to Puppet
+	id = KAZ_negotiation.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.2" }
+	title = KAZ_negotiation.2.t
+	desc = KAZ_negotiation.2.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Accept Establishes Shukshin Kazakh Puppet
+		name = KAZ_negotiation.2.a
+		ai_chance = { factor = 1 }
+		RUS_shukshin_kazakhstan_occupation = yes
+	}
+
+	option = { #Decline
+		name = KAZ_negotiation.2.b
+		ai_chance = { factor = 1 }
+		KAZ = {
+			country_event = { id = KAZ_negotiation.14 hours = 6 }
+		}
+	}
+}
+
+country_event = { #Counteroffer Annex/Puppet to Ally
+	id = KAZ_negotiation.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.3" }
+	title = KAZ_negotiation.3.t
+	desc = KAZ_negotiation.3.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Refuse Counteroffer
+		name = KAZ_negotiation.3.a
+		ai_chance = { factor = 1 }
+		KAZ = {
+			country_event = { id = KAZ_negotiation.14 hours = 6 }
+		}
+	}
+
+	option = { #Accept
+		name = KAZ_negotiation.3.b
+		ai_chance = { factor = 1 }
+		NOV = {
+			add_to_faction = KAZ
+		}
+		KAZ = {
+			econ_join_sphere_RUS = yes
+		}
+		every_country = {
+			news_event = { id = WORLD.40043 days = 1 }
+		}
+	}
+}
+
+country_event = { #Refuse Annex/Puppet
+	id = KAZ_negotiation.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.4" }
+	title = KAZ_negotiation.4.t
+	desc = KAZ_negotiation.4.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_negotiation.4.a
+		ai_chance = { factor = 1 }
+		add_war_support = 0.1
+		add_stability = -0.05
+		declare_war_on = {
+			target = KAZ
+			type = annex_everything
+		}
+		every_country = {
+			news_event = { id = WORLD.40042 days = 1 }
+		}
+	}
+
+	option = { #
+		name = KAZ_negotiation.4.b
+		ai_chance = { factor = 1 }
+		add_political_power = -100
+		add_stability = -0.1
+	}
+}
+
+country_event = { #Accept Annexation
+	id = KAZ_negotiation.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.5" }
+	title = KAZ_negotiation.5.t
+	desc = KAZ_negotiation.5.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_negotiation.5.a
+		ai_chance = { factor = 1 }
+		annex_country = {
+			target = KAZ
+			transfer_troops = no
+		}
+	}
+}
+
+country_event = { #Kazakhstan Capitulation
+	id = KAZ_negotiation.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.6" }
+	title = KAZ_negotiation.6.t
+	desc = KAZ_negotiation.6.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Annex Kazakhstan
+		name = KAZ_negotiation.6.a
+		ai_chance = { factor = 1 }
+	}
+
+	option = { #Establish Puppets
+		name = KAZ_negotiation.6.b
+		ai_chance = { factor = 1 }
+		RUS_shukshin_kazakhstan_occupation = yes
+	}
+}
+
+country_event = { #Refuse Counteroffer
+	id = KAZ_negotiation.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.7" }
+	title = KAZ_negotiation.7.t
+	desc = KAZ_negotiation.7.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_negotiation.7.a
+		ai_chance = { factor = 1 }
+		add_war_support = 0.1
+		add_stability = -0.15
+		declare_war_on = {
+			target = KAZ
+			type = annex_everything
+		}
+		every_country = {
+			news_event = { id = WORLD.40042 days = 1 }
+		}
+	}
+
+	option = { #
+		name = KAZ_negotiation.7.b
+		ai_chance = { factor = 1 }
+		add_political_power = -100
+		add_stability = -0.1
+	}
+}
+
+country_event = { #Accept Puppet
+	id = KAZ_negotiation.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.8" }
+	title = KAZ_negotiation.8.t
+	desc = KAZ_negotiation.8.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Establishes Shukshin Kazakh Puppet
+		name = KAZ_negotiation.8.a
+		ai_chance = { factor = 1 }
+		RUS_shukshin_kazakhstan_occupation = yes
+	}
+}
+
+country_event = { #Accept Alliance
+	id = KAZ_negotiation.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.9" }
+	title = KAZ_negotiation.9.t
+	desc = KAZ_negotiation.9.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #
+		name = KAZ_negotiation.9.a
+		ai_chance = { factor = 1 }
+		NOV = {
+			add_to_faction = KAZ
+		}
+		KAZ = {
+			econ_join_sphere_RUS = yes
+		}
+		every_country = {
+			news_event = { id = WORLD.40043 days = 1 }
+		}
+	}
+}
+
+country_event = { #Reject Alliance
+	id = KAZ_negotiation.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.10" }
+	title = KAZ_negotiation.10.t
+	desc = KAZ_negotiation.10.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #War
+		name = KAZ_negotiation.10.a
+		ai_chance = { factor = 1 }
+		add_war_support = 0.1
+		add_stability = -0.15
+		declare_war_on = {
+			target = KAZ
+			type = annex_everything
+		}
+		every_country = {
+			news_event = { id = WORLD.40042 days = 1 }
+		}
+	}
+
+	option = { #Back down
+		name = KAZ_negotiation.10.b
+		ai_chance = { factor = 1 }
+		add_political_power = -100
+		add_stability = -0.1
+	}
+}
+
+country_event = { #Kaz Alliance Offer
+	id = KAZ_negotiation.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.11" }
+	title = KAZ_negotiation.11.t
+	desc = KAZ_negotiation.11.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Yes
+		name = KAZ_negotiation.11.a
+		ai_chance = { factor = 19 }
+		NOV = {
+			country_event = { id = KAZ_negotiation.9 days = 2 }
+		}
+	}
+
+	option = { #No
+		name = KAZ_negotiation.11.b
+		ai_chance = { factor = 1 }
+		NOV = {
+			country_event = { id = KAZ_negotiation.10 days = 2 }
+		}
+	}
+}
+
+country_event = { #Kaz Puppet Offer
+	id = KAZ_negotiation.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.12" }
+	title = KAZ_negotiation.12.t
+	desc = KAZ_negotiation.12.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Yes
+		name = KAZ_negotiation.12.a
+		ai_chance = { factor = 12 }
+		NOV = {
+			country_event = { id = KAZ_negotiation.8 days = 2 }
+		}
+	}
+
+	option = { #No
+		name = KAZ_negotiation.12.b
+		ai_chance = { factor = 2 }
+		NOV = {
+			country_event = { id = KAZ_negotiation.4 days = 2 }
+		}
+	}
+
+	option = { #Alliance?
+		name = KAZ_negotiation.12.c
+		ai_chance = { factor = 6 }
+		NOV = {
+			country_event = { id = KAZ_negotiation.3 days = 2 }
+		}
+	}
+}
+
+country_event = { #Kaz Annex Offer
+	id = KAZ_negotiation.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.13" }
+	title = KAZ_negotiation.13.t
+	desc = KAZ_negotiation.13.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Yes
+		name = KAZ_negotiation.13.a
+		ai_chance = { factor = 3 }
+		NOV = {
+			country_event = { id = KAZ_negotiation.5 days = 2 }
+		}
+	}
+
+	option = { #No
+		name = KAZ_negotiation.13.b
+		ai_chance = { factor = 2 }
+		NOV = {
+			country_event = { id = KAZ_negotiation.4 days = 2 }
+		}
+	}
+
+	option = { #Puppet?
+		name = KAZ_negotiation.13.c
+		ai_chance = { factor = 13 }
+		NOV = {
+			country_event = { id = KAZ_negotiation.2 days = 2 }
+		}
+	}
+
+	option = { #Alliance?
+		name = KAZ_negotiation.13.c
+		ai_chance = { factor = 7 }
+		NOV = {
+			country_event = { id = KAZ_negotiation.3 days = 2 }
+		}
+	}
+}
+
+country_event = { #Kaz Russia rejects counteroffer
+	id = KAZ_negotiation.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event KAZ_negotiation.14" }
+	title = KAZ_negotiation.14.t
+	desc = KAZ_negotiation.14.desc
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # 
+		name = KAZ_negotiation.14.a
+		ai_chance = { factor = 1 }
+		NOV = {
+			country_event = { id = KAZ_negotiation.7 days = 2 }
+		}
+	}
+}

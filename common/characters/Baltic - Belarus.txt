@@ -1,0 +1,16 @@
+characters = {
+    BLR_Pyotr_Masherov = {
+		name = BLR_Pyotr_Masherov
+		portraits = { 
+			civilian = {
+				large = "gfx/leaders/BLR/Portrait_Pyotr_Masherov.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism_democratic_socialism_subtype
+            desc = "POLITICS_PYOTR_MASHEROV_DESC"
+			expire = "1999.1.23"
+			id = -1
+		}
+	}
+}

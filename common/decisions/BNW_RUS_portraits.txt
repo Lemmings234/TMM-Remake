@@ -1,0 +1,17 @@
+BNW_RUS_portrait_category = {
+    BNW_NOV_portrait_picker = {
+		fire_only_once = no
+            days_re_enable = 1
+		ai_will_do = {
+            factor = 0
+        }
+		available = {
+		}
+		visible = {
+			tag = NOV
+		}
+		complete_effect = {
+			country_event = {id = portrait_picker.1}
+		}
+	}
+}

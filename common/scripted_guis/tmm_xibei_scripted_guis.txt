@@ -1,0 +1,1110 @@
+scripted_gui = {
+
+	TMM_xibei_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TMM_xibei_menu_open"
+
+		visible = {
+			tag = QIN
+		}
+
+		effects = {
+			QIN_xibei_open_button_click = {
+				if = {
+	   				limit = {
+						NOT = { has_country_flag = QIN_xibei_open }
+	   				}
+	    			set_country_flag = QIN_xibei_open
+	    		}
+	   			else_if = {
+		   			limit = {
+		      			has_country_flag = QIN_xibei_open
+		   			}
+					clr_country_flag = QIN_xibei_open
+				}
+				clr_country_flag = gui_alert_visible
+			}
+		}
+
+        triggers = {
+            gui_alert_visible = {
+			    has_country_flag = gui_alert_visible
+            }
+        }
+	}
+	
+	TMM_xibei_menu_open = {
+		context_type = player_context
+		#parent_window_token = politics_tab
+		window_name = "TMM_xibei_menu_main"
+
+		visible = {
+			tag = QIN
+			has_country_flag = QIN_xibei_open
+		}
+
+		triggers = {
+		    TMM_xibei_qinghai_visible = {
+			    owns_state = 604 
+				owns_state = 906
+			}
+		}
+		triggers = {
+		    TMM_xibei_xikang_visible = {
+			    OR = {
+				    AND = {
+			            905 = {
+				            owner = {
+					            original_tag = XIK
+				            }
+				        }
+			            964 = {
+				            owner = {
+					            original_tag = XIK
+			   	            }
+				        }
+					}
+				    AND = {
+			            905 = {
+				            owner = {
+					            original_tag = QIN
+				            }
+				        }
+			            964 = {
+				            owner = {
+					            original_tag = QIN
+			   	            }
+				        }
+					}					
+				}
+			}
+		}
+		triggers = {
+		    TMM_xibei_yushu_2_visible = {
+			    owns_state = 601
+			}
+		}
+		triggers = {
+		    TMM_xibei_kang_2_visible = {
+			    owns_state = 765
+			}
+		}
+		triggers = {
+		    TMM_xibei_tibet_2_visible = {
+			    owns_state = 322
+			}
+		}
+		triggers = {
+		    TMM_xibei_xinjiang_2_visible = {
+			    owns_state = 958
+				owns_state = 617
+				owns_state = 619
+			}
+		}
+		triggers = {
+		    TMM_xibei_ili_2_visible = {
+			    owns_state = 618
+			}
+		}
+		triggers = {
+		    TMM_xibei_ham_2_visible = {
+			    owns_state = 957
+			}
+		}
+		triggers = {
+		    TMM_xibei_nin_2_visible = {
+			    owns_state = 616
+			}
+		}
+		triggers = {
+		    TMM_xibei_hex_2_visible = {
+			    owns_state = 764
+			}
+		}
+		triggers = {
+		    TMM_xibei_gan_2_visible = {
+			    owns_state = 1302
+				owns_state = 283
+			}
+		}
+		triggers = {
+		    TMM_xibei_wmo_2_visible = {
+			    owns_state = 814
+				owns_state = 329
+			}
+		}
+		effects = {
+			QIN_xibei_close_button_click = {
+				clr_country_flag = QIN_xibei_open
+			}
+	    	TMM_xibei_qinghai_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_qinghai_state_info_window_open
+	        }
+	        TMM_xibei_yushu_2_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_yushu_state_info_window_open
+	        }
+	        TMM_xibei_tibet_2_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_tibet_state_info_window_open
+	        }
+	        TMM_xibei_kang_2_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_kang_state_info_window_open
+	        }
+	        TMM_xibei_xinjiang_2_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_xinjiang_state_info_window_open
+	        }
+	        TMM_xibei_ili_2_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_ili_state_info_window_open
+	        }
+	        TMM_xibei_ham_2_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_ham_state_info_window_open
+	        }
+	        TMM_xibei_nin_2_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_nin_state_info_window_open
+	        }
+	        TMM_xibei_hex_2_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_hex_state_info_window_open
+	        }
+	        TMM_xibei_wmo_2_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_wmo_state_info_window_open
+	        }   
+	        TMM_xibei_gan_2_click = {
+			    clearQINStateInfoWindowFlags = yes
+		        set_country_flag = TMM_state_info_window_open_flag
+		        set_country_flag = TMM_gan_state_info_window_open
+	        }   
+		}
+	}
+	TMM_xibei_state_info_window_open = {
+		context_type = player_context
+		#parent_window_name = "TMM_xibei_menu"
+		window_name = "TMM_xibei_state_info_window"
+
+		visible = {
+			has_country_flag = TMM_state_info_window_open_flag
+		}
+		effects = {
+			QIN_state_info_close_button_click = {
+				clr_country_flag = TMM_state_info_window_open_flag
+			}
+		}
+		effects = {
+			QIN_state_info_lan1_click = {
+				QINlandreform = yes
+			}
+			QIN_state_info_soc1_click = {
+				QINsocialreform = yes
+			}
+			QIN_state_info_inf1_click = {
+				QINinfrastructure = yes
+			}
+			QIN_state_info_fin1_click = {
+				QINmodernisation = yes
+			}
+			QIN_state_info_hol1_click = {
+				QINHoldSpeech = yes
+			}
+			QIN_state_info_pro1_click = {
+				QINPropaganda = yes
+			}
+			QIN_state_info_des1_click = {
+				QINDestroyBandits = yes
+			}
+			QIN_state_info_off1_click = {
+				QINOfferSupport = yes
+			}
+			QIN_state_info_con1_click = {
+				QINConcessionstothelocals = yes
+			}
+			QIN_state_info_adm1_click = {
+				QINAdmitminorityintogovernment = yes
+			}
+		}
+		triggers = {
+		    QIN_state_info_gan_icon_visible = {
+			    has_country_flag = TMM_gan_state_info_window_open
+			}
+		}
+		triggers = {
+		    QIN_state_info_nin_icon_visible = {
+			    has_country_flag = TMM_nin_state_info_window_open
+			}
+		}
+		triggers = {
+		    QIN_state_info_hex_icon_visible = {
+			    has_country_flag = TMM_hex_state_info_window_open
+			}
+		}
+		triggers = {
+		    QIN_state_info_qin_icon_visible = {
+			    has_country_flag = TMM_qinghai_state_info_window_open
+			}
+		}
+		triggers = {
+		    QIN_state_info_kha_icon_visible = {
+			    has_country_flag = TMM_kang_state_info_window_open
+			}
+		}
+		triggers = {
+		    QIN_state_info_tib_icon_visible = {
+			    has_country_flag = TMM_tibet_state_info_window_open
+			}
+		}
+		triggers = {
+		    QIN_state_info_yus_icon_visible = {
+			    has_country_flag = TMM_yushu_state_info_window_open
+			}
+		}
+		triggers = {
+		    QIN_state_info_xin_icon_visible = {
+			    has_country_flag = TMM_xinjiang_state_info_window_open
+				NOT = { has_country_flag = QIN_nanjiang_modernised }
+			}
+		}
+		triggers = {
+		    QIN_state_info_xin2_icon_visible = {
+			    has_country_flag = TMM_xinjiang_state_info_window_open
+				has_country_flag = QIN_nanjiang_modernised
+			}
+		}
+		triggers = {
+		    QIN_state_info_ham_icon_visible = {
+			    has_country_flag = TMM_ham_state_info_window_open
+			}
+		}
+		triggers = {
+		    QIN_state_info_ili_icon_visible = {
+			    has_country_flag = TMM_ili_state_info_window_open
+			}
+		}
+		triggers = {
+		    QIN_state_info_wmo_icon_visible = {
+			    has_country_flag = TMM_wmo_state_info_window_open
+			}
+		}
+###STATE INTERACTION BUTTON###
+		triggers = {
+		    QIN_state_info_lan2_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+			}
+		}
+		triggers = {
+		    QIN_state_info_soc2_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+			}
+		}
+		triggers = {
+		    QIN_state_info_inf2_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+			}
+		}
+		triggers = {
+		    QIN_state_info_fin2_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+			}
+		}
+###MODERNISATION REQUIREMENT###
+		triggers = {
+		    QIN_state_info_lan1_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+				has_political_power > 75
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+						NOT = {has_country_flag = QIN_qinghai_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+						NOT = {has_country_flag = QIN_gansu_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+						NOT = {has_country_flag = QIN_ningxia_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+						NOT = {has_country_flag = QIN_hexi_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+						NOT = {has_country_flag = QIN_kang_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+						NOT = {has_country_flag = QIN_tibet_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+						NOT = {has_country_flag = QIN_yushu_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+						NOT = {has_country_flag = QIN_nanjiang_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+						NOT = {has_country_flag = QIN_beijiang_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+						NOT = {has_country_flag = QIN_hami_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+						NOT = {has_country_flag = QIN_mongolia_land_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+				}
+			}
+		}
+		triggers = {
+		    QIN_state_info_soc1_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+				has_political_power > 75
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+						NOT = {has_country_flag = QIN_qinghai_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+						NOT = {has_country_flag = QIN_gansu_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+						NOT = {has_country_flag = QIN_ningxia_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+						NOT = {has_country_flag = QIN_hexi_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+						NOT = {has_country_flag = QIN_kang_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+						NOT = {has_country_flag = QIN_tibet_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+						NOT = {has_country_flag = QIN_yushu_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+						NOT = {has_country_flag = QIN_nanjiang_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+						NOT = {has_country_flag = QIN_beijiang_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+						NOT = {has_country_flag = QIN_hami_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+						NOT = {has_country_flag = QIN_mongolia_social_reform_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+				}
+			}
+		}
+		triggers = {
+		    QIN_state_info_inf1_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+				has_political_power > 75
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+						NOT = {has_country_flag = QIN_qinghai_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+						NOT = {has_country_flag = QIN_gansu_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+						NOT = {has_country_flag = QIN_ningxia_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+						NOT = {has_country_flag = QIN_hexi_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+						NOT = {has_country_flag = QIN_kang_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+						NOT = {has_country_flag = QIN_tibet_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+						NOT = {has_country_flag = QIN_yushu_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+						NOT = {has_country_flag = QIN_nanjiang_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+						NOT = {has_country_flag = QIN_beijiang_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+						NOT = {has_country_flag = QIN_hami_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+						NOT = {has_country_flag = QIN_mongolia_infrastructure_enacted}
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+				}
+			}
+		}
+		triggers = {
+		    QIN_state_info_fin1_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+				has_political_power > 75
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+						has_country_flag = QIN_qinghai_infrastructure_enacted
+						has_country_flag = QIN_qinghai_social_reform_enacted
+						has_country_flag = QIN_qinghai_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+						has_country_flag = QIN_gansu_infrastructure_enacted
+						has_country_flag = QIN_gansu_social_reform_enacted
+						has_country_flag = QIN_gansu_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+						has_country_flag = QIN_ningxia_infrastructure_enacted
+						has_country_flag = QIN_ningxia_social_reform_enacted
+						has_country_flag = QIN_ningxia_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+						has_country_flag = QIN_hexi_infrastructure_enacted
+						has_country_flag = QIN_hexi_social_reform_enacted
+						has_country_flag = QIN_hexi_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+						has_country_flag = QIN_kang_infrastructure_enacted
+						has_country_flag = QIN_kang_social_reform_enacted
+						has_country_flag = QIN_kang_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+						has_country_flag = QIN_tibet_infrastructure_enacted
+						has_country_flag = QIN_tibet_social_reform_enacted
+						has_country_flag = QIN_tibet_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+						has_country_flag = QIN_yushu_infrastructure_enacted
+						has_country_flag = QIN_yushu_social_reform_enacted
+						has_country_flag = QIN_yushu_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+						has_country_flag = QIN_nanjiang_infrastructure_enacted
+						has_country_flag = QIN_nanjiang_social_reform_enacted
+						has_country_flag = QIN_nanjiang_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+						has_country_flag = QIN_beijiang_infrastructure_enacted
+						has_country_flag = QIN_beijiang_social_reform_enacted
+						has_country_flag = QIN_beijiang_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+						has_country_flag = QIN_hami_infrastructure_enacted
+						has_country_flag = QIN_hami_social_reform_enacted
+						has_country_flag = QIN_hami_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+						has_country_flag = QIN_mongolia_infrastructure_enacted
+						has_country_flag = QIN_mongolia_social_reform_enacted
+						has_country_flag = QIN_mongolia_land_reform_enacted
+						NOT = {has_country_flag = QIN_recently_enacted_reform}
+					}
+				}
+			}
+		}
+        triggers = {
+		    QIN_state_info_lan3_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+						has_country_flag = QIN_qinghai_land_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+						has_country_flag = QIN_gansu_land_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+						has_country_flag = QIN_ningxia_land_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+						has_country_flag = QIN_hexi_land_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+						has_country_flag = QIN_kang_land_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+						has_country_flag = QIN_tibet_land_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+						has_country_flag = QIN_yushu_land_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+						has_country_flag = QIN_nanjiang_land_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+						has_country_flag = QIN_beijiang_land_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+						has_country_flag = QIN_hami_land_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+						has_country_flag = QIN_mongolia_land_reform_enacted
+					}
+				}
+			}
+		}
+        triggers = {
+		    QIN_state_info_soc3_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+						has_country_flag = QIN_qinghai_social_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+						has_country_flag = QIN_gansu_social_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+						has_country_flag = QIN_ningxia_social_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+						has_country_flag = QIN_hexi_social_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+						has_country_flag = QIN_kang_social_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+						has_country_flag = QIN_tibet_social_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+						has_country_flag = QIN_yushu_social_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+						has_country_flag = QIN_nanjiang_social_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+						has_country_flag = QIN_beijiang_social_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+						has_country_flag = QIN_hami_social_reform_enacted
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+						has_country_flag = QIN_mongolia_social_reform_enacted
+					}
+				}
+			}
+		}
+		triggers = {
+		    QIN_state_info_inf3_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+						has_country_flag = QIN_qinghai_infrastructure_enacted
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+						has_country_flag = QIN_gansu_infrastructure_enacted
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+						has_country_flag = QIN_ningxia_infrastructure_enacted
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+						has_country_flag = QIN_hexi_infrastructure_enacted
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+						has_country_flag = QIN_kang_infrastructure_enacted
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+						has_country_flag = QIN_tibet_infrastructure_enacted
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+						has_country_flag = QIN_yushu_infrastructure_enacted
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+						has_country_flag = QIN_nanjiang_infrastructure_enacted
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+						has_country_flag = QIN_beijiang_infrastructure_enacted
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+						has_country_flag = QIN_hami_infrastructure_enacted
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+						has_country_flag = QIN_mongolia_infrastructure_enacted
+					}
+				}
+			}
+		}		
+		triggers = {
+		    QIN_state_info_fin3_visible = {
+			    has_country_flag = TMM_state_info_window_open_flag
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+                        has_country_flag = QIN_qinghai_modernised
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+                        has_country_flag = QIN_gansu_modernised
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+                        has_country_flag = QIN_ningxia_modernised
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+                        has_country_flag = QIN_hexi_modernised
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+                        has_country_flag = QIN_kang_modernised
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+                        has_country_flag = QIN_tibet_modernised
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+                        has_country_flag = QIN_yushu_modernised
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+                        has_country_flag = QIN_nanjiang_modernised
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+                        has_country_flag = QIN_beijiang_modernised
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+                        has_country_flag = QIN_hami_modernised
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+                        has_country_flag = QIN_mongolia_modernised
+					}
+				}
+			}
+		}
+		triggers = {
+		    QIN_state_info_hol1_visible = {
+			has_political_power > 5
+			}
+		}
+		triggers = {
+		    QIN_state_info_pro1_visible = {
+			has_political_power > 10
+			}
+		}
+		triggers = {
+		    QIN_state_info_des1_visible = {
+			has_political_power > 15
+			command_power > 10
+			}
+		}
+		triggers = {
+		    QIN_state_info_off1_visible = {
+			has_political_power > 20
+			command_power > 5
+			}
+		}
+		triggers = {
+		    QIN_state_info_con1_visible = {
+			has_political_power > 25
+			}
+		}
+		triggers = {
+		    QIN_state_info_adm1_visible = {
+			has_political_power > 50
+			}
+		}
+		triggers = {
+		    QIN_state_core2_visible = {
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+                        604 = {
+						    is_core_of = QIN
+						}
+					    906 = {
+						    is_core_of = QIN
+						}
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+                        283 = {
+						    is_core_of = QIN
+						}
+					    1302 = {
+						    is_core_of = QIN
+						}
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+                        616 = {
+						    is_core_of = QIN
+						}
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+                        764 = {
+						    is_core_of = QIN
+						}
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+                        765 = {
+						    is_core_of = QIN
+						}
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+                        322 = {
+						    is_core_of = QIN
+						}
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+                        601 = {
+						    is_core_of = QIN
+						}
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+                        958 = {
+						    is_core_of = QIN
+						}
+                        619 = {
+						    is_core_of = QIN
+						}
+                        617 = {
+						    is_core_of = QIN
+						}
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+                        618 = {
+						    is_core_of = QIN
+						}
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+                        957 = {
+						    is_core_of = QIN
+						}
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+                        814 = {
+						    is_core_of = QIN
+						}
+                        329 = {
+						    is_core_of = QIN
+						}
+					}
+				}
+			}
+		}
+		triggers = {
+		    QIN_state_core3_visible = {
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+                        604 = {
+						    NOT = { is_core_of = QIN }
+						}
+					    906 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+                        283 = {
+						    NOT = { is_core_of = QIN }
+						}
+					    1302 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+                        616 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+                        764 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+                        765 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+                        322 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+                        601 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+                        958 = {
+						    NOT = { is_core_of = QIN }
+						}
+                        619 = {
+						    NOT = { is_core_of = QIN }
+						}
+                        617 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+                        618 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+                        957 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+                        814 = {
+						    NOT = { is_core_of = QIN }
+						}
+                        329 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+				}
+			}
+		}
+		triggers = {
+		    QIN_state_core1_visible = {
+				OR = {
+					AND = {
+						has_country_flag = TMM_qinghai_state_info_window_open
+						has_country_flag = TMM_qinghai_coring
+                        604 = {
+						    NOT = { is_core_of = QIN }
+						}
+					    906 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_gan_state_info_window_open
+						has_country_flag = TMM_gansu_coring
+                        283 = {
+						    NOT = { is_core_of = QIN }
+						}
+					    1302 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_nin_state_info_window_open
+						has_country_flag = TMM_ningxia_coring
+                        616 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_hex_state_info_window_open
+						has_country_flag = TMM_hexi_coring
+                        764 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_kang_state_info_window_open
+						has_country_flag = TMM_kang_coring
+                        765 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_tibet_state_info_window_open
+						has_country_flag = TMM_tibet_coring
+                        322 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_yushu_state_info_window_open
+						has_country_flag = TMM_yushu_coring
+                        601 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_xinjiang_state_info_window_open
+						has_country_flag = TMM_nanjiang_coring
+                        958 = {
+						    NOT = { is_core_of = QIN }
+						}
+                        619 = {
+						    NOT = { is_core_of = QIN }
+						}
+                        617 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_ili_state_info_window_open
+						has_country_flag = TMM_beijiang_coring
+                        618 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_ham_state_info_window_open
+						has_country_flag = TMM_hami_coring
+                        957 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+					AND = {
+						has_country_flag = TMM_wmo_state_info_window_open
+						has_country_flag = TMM_mongolia_coring
+                        814 = {
+						    NOT = { is_core_of = QIN }
+						}
+                        329 = {
+						    NOT = { is_core_of = QIN }
+						}
+					}
+				}
+			}
+		}
+	}	
+}

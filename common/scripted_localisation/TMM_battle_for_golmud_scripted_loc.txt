@@ -524,13 +524,13 @@ defined_text = {
 	name = getQINVPControllerPercentage
 	text = {
 		trigger = {
-			check_variable = { BOG_NEUTRAL^VP_Token > 50 }
+			check_variable = { var = BOG_NEUTRAL^VP_Token > 50 }
 		}
 		localization_key = getQINVPControllerPercentage_Ningxia
 	}
 	text = {
 		trigger = {	
-			check_variable = { BOG_NINGXIA^VP_Token > 50 }	
+			check_variable = { var = BOG_NINGXIA^VP_Token > 50 }	
 		}
 		localization_key = getQINVPControllerPercentage_Neutral
 	}

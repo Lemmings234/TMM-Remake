@@ -1,0 +1,25 @@
+focus_tree = {
+	id = KOR_tree
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 100
+			tag = KOR
+		}
+	}
+	default = no
+	shared_focus = KOR_Placeholder_Focus
+}
+
+
+focus_tree = {
+	id = empty_tree
+	country = {
+		factor = 0
+		
+		modifier = {
+		}
+	}
+	default = no
+}

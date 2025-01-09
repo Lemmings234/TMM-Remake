@@ -1,0 +1,982 @@
+# 1976 Presidential Elections
+add_namespace = USA
+
+country_event = { #John B. Anderson
+    id = USA.5000
+    immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5000"}
+    title = USA.5000.t
+	desc = USA.5000.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			USA_on_new_president_election = yes
+			every_country = {
+				news_event = {
+					id = WORLD.41000
+					days = 1
+				}
+			}
+ 			retire_country_leader = yes
+			XXX = { USA_John_B_Anderson = { set_nationality = USA } }
+			promote_character = USA_John_B_Anderson
+			clr_country_flag = reload_tree_yes
+			USA_clr_presidential_flags = yes
+			set_country_flag = USA_76_R_RD
+			set_country_flag = USA_76_R_RD_Past
+			set_politics = { 
+				ruling_party = conservatism 
+				elections_allowed = yes
+			}
+			USA_get_total_congress_votes = yes
+ 			remove_all_ministers = yes
+ 			#add ministers here
+
+			set_country_flag = USA_mil_72_tree_available
+ 		}
+	}
+
+ 	option = {
+ 		name = USA.5000.a
+ 	}
+}
+
+country_event = { #Second Inauguration George Romney
+	id = USA.5001
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.2001"}
+	title = USA.5001.t
+	desc = USA.5001.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+
+ 	option = {
+ 		name = USA.5001.a
+ 		hidden_effect = {
+			USA_on_president_reelection = yes
+			every_country = {
+				news_event = {
+					id = WORLD.41001
+					days = 1
+				}
+			}
+			USA_get_total_congress_votes = yes
+			add_political_power = 100
+ 		}
+ 	}
+}
+
+country_event = { #Jimmy Carter
+    id = USA.5002
+    immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5002"}
+    title = USA.5002.t
+	desc = USA.5002.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			USA_on_new_president_election = yes
+			every_country = {
+				news_event = {
+					id = WORLD.41002
+					days = 1
+				}
+			}
+ 			retire_country_leader = yes
+			XXX = { USA_Jimmy_Carter = { set_nationality = USA } }
+			promote_character = USA_Jimmy_Carter
+			clr_country_flag = reload_tree_yes
+			USA_clr_presidential_flags = yes
+			set_country_flag = USA_76_D_RD
+			set_country_flag = USA_76_D_RD_Past
+			set_politics = { 
+				ruling_party = liberalism 
+				elections_allowed = yes
+			}
+			USA_get_total_congress_votes = yes
+ 			remove_all_ministers = yes
+			set_country_flag = USA_mil_72_tree_available
+ 		}
+	}
+
+ 	option = {
+ 		name = USA.5002.a
+ 	}
+}
+
+country_event = { #Second Inauguration Jeane Kirkpatrick
+	id = USA.5003
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5003"}
+	title = USA.5003.t
+	desc = USA.5003.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+
+ 	option = {
+ 		name = USA.5003.a
+ 		hidden_effect = {
+			USA_on_president_reelection = yes
+			every_country = {
+				news_event = {
+					id = WORLD.41003
+					days = 1
+				}
+			}
+			USA_get_total_congress_votes = yes
+			add_political_power = 100
+ 		}
+ 	}
+}
+
+country_event = { #Henry M Jackson 76
+	id = USA.5004
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5004"}
+	title = USA.5004.t
+	desc = USA.5004.desc
+	#picture = GFX_report_event_goldwater_inaug
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			USA_on_new_president_election = yes
+			every_country = {
+				news_event = {
+					id = WORLD.41004
+					days = 1
+				}
+			}
+ 			retire_country_leader = yes
+			promote_character = USA_Henry_M_Jackson
+			clr_country_flag = reload_tree_yes
+			USA_clr_presidential_flags = yes
+			set_country_flag = USA_76_C_NPP
+			set_country_flag = USA_76_C_NPP_Past
+			set_politics = { 
+				ruling_party = progressivism 
+				elections_allowed = yes
+			}
+			USA_get_total_congress_votes = yes
+ 			remove_all_ministers = yes
+			set_country_flag = USA_mil_72_tree_available
+ 		}
+	}
+
+ 	option = {
+ 		name = USA.5004.a
+ 	}
+}
+
+country_event = { #Second Inauguration Scoop Jackson
+	id = USA.5005
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5005"}
+	title = USA.5005.t
+	desc = USA.5005.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+
+ 	option = {
+ 		name = USA.5005.a
+ 		hidden_effect = {
+			USA_on_president_reelection = yes
+			every_country = {
+				news_event = {
+					id = WORLD.41005
+					days = 1
+				}
+			}
+			USA_get_total_congress_votes = yes
+			add_political_power = 100
+ 		}
+ 	}
+}
+
+country_event = { #Herman Talmadge
+	id = USA.5006
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5006"}
+	title = USA.5006.t
+	desc = USA.5006.desc
+	#picture = GFX_report_event_goldwater_inaug
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			USA_on_new_president_election = yes
+			every_country = {
+				news_event = {
+					id = WORLD.41006
+					days = 1
+				}
+			}
+ 			retire_country_leader = yes
+			 XXX = { USA_Herman_Talmadge = { set_nationality = USA } }
+			promote_character = USA_Herman_Talmadge
+			clr_country_flag = reload_tree_yes
+			USA_clr_presidential_flags = yes
+			set_country_flag = USA_76_FR_NPP
+			set_country_flag = USA_76_FR_NPP_Past
+			set_politics = { 
+				ruling_party = paternalism
+				elections_allowed = yes
+			}
+			USA_get_total_congress_votes = yes
+ 			remove_all_ministers = yes
+ 			#add ministers
+			set_country_flag = USA_mil_72_tree_available
+ 		}
+	}
+
+ 	option = {
+ 		name = USA.5006.a
+ 	}
+}
+
+country_event = { #Second Inauguration Phyllis Schlafly
+	id = USA.5007
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5007"}
+	title = USA.5007.t
+	desc = USA.5007.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+
+ 	option = {
+ 		name = USA.5007.a
+ 		hidden_effect = {
+			USA_on_president_reelection = yes
+			every_country = {
+				news_event = {
+					id = WORLD.41007
+					days = 1
+				}
+			}
+			USA_get_total_congress_votes = yes
+			add_political_power = 100
+ 		}
+ 	}
+}
+
+country_event = { #Ella Baker
+	id = USA.5008
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5008"}
+	title = USA.5008.t
+	desc = USA.5008.desc
+	#picture = GFX_report_event_goldwater_inaug
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			USA_on_new_president_election = yes
+			every_country = {
+				news_event = {
+					id = WORLD.41008
+					days = 1
+				}
+			}
+ 			retire_country_leader = yes
+			XXX = { USA_Ella_Baker = { set_nationality = USA } }
+			promote_character = USA_Ella_Baker
+			clr_country_flag = reload_tree_yes
+			USA_clr_presidential_flags = yes
+			set_country_flag = USA_76_L_NPP
+			set_country_flag = USA_76_L_NPP_Past
+			set_politics = { 
+				ruling_party = communist
+				elections_allowed = yes
+			}
+			USA_get_total_congress_votes = yes
+ 			remove_all_ministers = yes
+ 			#add ministers
+			set_country_flag = USA_mil_72_tree_available
+ 		}
+	}
+
+ 	option = {
+ 		name = USA.5008.a
+ 	}
+}
+
+country_event = { #Second Inauguration Gus Hall
+	id = USA.5009
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5009"}
+	title = USA.5009.t
+	desc = USA.5009.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+
+ 	option = {
+ 		name = USA.5009.a
+ 		hidden_effect = {
+			USA_on_president_reelection = yes
+			every_country = {
+				news_event = {
+					id = WORLD.41009
+					days = 1
+				}
+			}
+			country_event = { #USSA Event
+				id = USA.5010
+				days = 400
+			}
+			set_country_leader_description = { desc = POLITICS_GUS_HALL_76_DESC }
+			set_country_leader_ideology = communist_bolshevism_subtype
+			USA_get_total_congress_votes = yes
+ 		}
+ 	}
+}
+
+country_event = { #Union of Socialist States of America
+	id = USA.5010
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5010"}
+	title = USA.5010.t
+	desc = USA.5010.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = USA.5010.a
+		hidden_effect = {
+			set_cosmetic_tag = USA_Hall
+			every_country = {
+				news_event = {
+					id = WORLD.41017
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Yockey Impeachment
+	id = USA.5011
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5011"}
+	title = USA.5011.t
+	desc = USA.5011.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Battle of Washington
+		name = USA.5011.a
+		hidden_effect = {
+			every_country = {
+				news_event = { id = WORLD.41010 days = 1 }
+			}
+			country_event = { id = USA.5012 days = 30 }
+		}
+		ai_chance = { factor = 10 }
+	}
+	option = { #Sack of Washington
+		name = USA.5011.b
+		hidden_effect = {
+			every_country = {
+				news_event = { id = WORLD.41010 days = 1 }
+			}
+			every_country = { 
+				news_event = { id = WORLD.41012 days = 30 }
+			}
+			country_event = { id = USA.5013 days = 120 }
+		}
+		ai_chance = { factor = 40 }
+	}
+}
+
+country_event = { #Battle of Washington
+	id = USA.5012
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5012"}
+	title = USA.5012.t
+	desc = USA.5012.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Military Government
+		name = USA.5012.a
+		hidden_effect = {
+			every_country = {
+				news_event = { id = WORLD.41011 days = 1 }
+			}
+			set_cosmetic_tag = USA_Military
+			retire_country_leader = yes
+			promote_character = USA_William_Westmoreland
+			set_politics = { 
+				ruling_party = paternalism
+				elections_allowed = yes
+			}
+			set_party_name = {
+				ideology = paternalism
+				long_name = USA_military_party_long
+				name = USA_military_party
+			}
+			remove_all_ministers = yes
+			set_country_leader_ideology =  paternalism_controlled_democracy_subtype
+		}
+	}
+}
+
+
+country_event = { #Sack of Washington
+	id = USA.5013
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5013"}
+	title = USA.5013.t
+	desc = USA.5013.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #Imperium
+		name = USA.5013.a
+		hidden_effect = {
+			every_country = {
+				news_event = { id = WORLD.41013 days = 1 }
+			}
+			remove_all_ministers = yes
+			set_country_leader_description = { desc = POLITICS_YOCKEY_W_DESC }
+			country_event = { id = USA.5014 days = 60 } 
+		}
+	}
+	option = { #Pierce W
+		name = USA.5013.b
+		hidden_effect = {
+			every_country = {
+				news_event = { id = WORLD.41014 days = 1 }
+			}
+			remove_all_ministers = yes
+			retire_country_leader = yes
+			XXX = { USA_William_Pierce = {set_nationality = USA } }
+			promote_character = USA_William_Pierce
+			set_party_name = {
+				ideology = national_socialism
+				long_name = USA_pierce_party_long
+				name = USA_pierce_party
+			}
+			country_event = { id = USA.5015 days = 60 }
+		}
+	}
+	option = { #Weathermen
+		name = USA.5013.c
+		hidden_effect = {
+			every_country = {
+				news_event = { id = WORLD.41015 days = 1 }
+			}
+			retire_country_leader = yes
+			XXX = { USA_Bill_Ayers = {set_nationality = USA } }
+			promote_character = USA_Bill_Ayers
+			set_politics = { 
+				ruling_party = communist
+				elections_allowed = no
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = USA_weathermen_party_long
+				name = USA_weathermen_party
+			}
+			remove_all_ministers = yes
+			country_event = { id = USA.5017 days = 60 }
+		}
+	}
+	option = { #Military
+		name = USA.5013.d
+		hidden_effect = {
+			set_cosmetic_tag = USA_Military
+			retire_country_leader = yes
+			promote_character = USA_William_Westmoreland
+			set_politics = { 
+				ruling_party = paternalism
+				elections_allowed = yes
+			}
+			set_party_name = {
+				ideology = paternalism
+				long_name = USA_military_party_long
+				name = USA_military_party
+			}
+			set_country_leader_ideology =  paternalism_controlled_democracy_subtype
+			every_country = {
+				news_event = { id = WORLD.41016 days = 1 }
+			}
+			remove_all_ministers = yes
+		}
+	}
+}
+
+country_event = { #Imperium
+	id = USA.5014
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5014"}
+	title = USA.5014.t
+	desc = USA.5014.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = USA.5014.a
+		hidden_effect = {
+			set_cosmetic_tag = USA_Yockey
+			every_country = {
+				news_event = {
+					id = WORLD.41018
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #American State
+	id = USA.5015
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5015"}
+	title = USA.5015.t
+	desc = USA.5015.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = USA.5015.a
+		hidden_effect = {
+			set_cosmetic_tag = USA_Pierce
+			every_country = {
+				news_event = {
+					id = WORLD.41019
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Union of American Councils
+	id = USA.5017
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5017"}
+	title = USA.5017.t
+	desc = USA.5017.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = USA.5017.a
+		hidden_effect = {
+			set_cosmetic_tag = USA_Weathermen
+			every_country = {
+				news_event = {
+					id = WORLD.41021
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #1976 election event
+	id = USA.5076
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5076"}
+	title = USA.5076.t
+	desc= USA.5076.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { # Anderson
+		trigger = {
+			NOT = {
+				has_country_flag = USA_72_R_RD
+				has_country_flag = USA_72_D_RD
+				has_country_flag = USA_72_L_NPP
+				has_country_flag = USA_72_R_NPP
+			}
+		}
+		name = USA.5076.a
+		hidden_effect = {
+			country_event = { id = USA.5000 days = 76 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_INCUMBENT
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_CARTER
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_JACKSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_TALMADGE
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_BAKER
+					}
+				}
+			}
+		}
+	}
+	option = { # Carter
+		trigger = {
+			NOT = {
+				has_country_flag = USA_72_R_RD
+				has_country_flag = USA_72_D_RD
+				has_country_flag = USA_72_L_NPP
+				has_country_flag = USA_72_R_NPP
+			}
+		}
+		name = USA.5076.b
+		hidden_effect = {
+			country_event = { id = USA.5002 days = 76 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_INCUMBENT
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_ANDERSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_JACKSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_TALMADGE
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_BAKER
+					}
+				}
+			}
+		}
+	}
+	option = { # Jackson 76
+		trigger = {
+			NOT = {
+				has_country_flag = USA_72_C_NPP
+				has_country_flag = USA_72_L_NPP
+				has_country_flag = USA_72_R_NPP
+				has_country_flag = USA_72_FR_NPP
+			}
+		}
+		name = USA.5076.c
+		hidden_effect = {
+			country_event = { id = USA.5004 days = 76 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_INCUMBENT
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_CARTER
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_ANDERSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_TALMADGE
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_BAKER
+					}
+				}
+			}
+		}
+	}
+	option = { # Talmadge
+		trigger = {
+			NOT = {
+				has_country_flag = USA_72_FR_NPP
+				has_country_flag = USA_72_L_NPP
+				has_country_flag = USA_72_R_NPP
+				has_country_flag = USA_72_C_NPP
+			}
+		}
+		name = USA.5076.d
+		hidden_effect = {
+			country_event = { id = USA.5006 days = 76 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_INCUMBENT
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_CARTER
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_JACKSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_ANDERSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_BAKER
+					}
+				}
+			}
+		}
+	}
+	option = { # Romney 2
+		trigger = { has_country_flag = USA_72_R_RD } 
+		name = USA.5076.e
+		hidden_effect = {
+			country_event = { id = USA.5001 days = 76 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_CARTER
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_JACKSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_TALMADGE
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_BAKER
+					}
+				}
+			}
+		}
+	}
+	option = { # Kirkpatrick 2
+		trigger = { has_country_flag = USA_72_D_RD } 
+		name = USA.5076.f
+		hidden_effect = {
+			country_event = { id = USA.5003 days = 76 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_ANDERSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_JACKSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_TALMADGE
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_BAKER
+					}
+				}
+			}
+		}
+	}
+	option = { # Jackson 72 2
+		trigger = { has_country_flag = USA_72_C_NPP } 
+		name = USA.5076.g
+		hidden_effect = {
+			country_event = { id = USA.5005 days = 76 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_ANDERSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_CARTER
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_TALMADGE
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_BAKER
+					}
+				}
+			}
+		}
+	}
+	option = { # Schlafly 2
+		trigger = { has_country_flag = USA_72_FR_NPP } 
+		name = USA.5076.h
+		hidden_effect = {
+			country_event = { id = USA.5007 days = 76 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_ANDERSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_CARTER
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_JACKSON
+					}
+					has_game_rule = {
+						rule = USA_76_ELECTIONS
+						option = USA_76_ELECTIONS_BAKER
+					}
+				}
+			}
+		}
+	}
+	option = { # Baker
+		trigger = {
+			AND = {
+				NOT = {
+					has_country_flag = USA_72_L_NPP
+					has_country_flag = USA_72_R_NPP
+				}
+				USA = {
+					check_variable = { party_popularity@communist > 0.20}
+				}
+			}
+		}
+		name = USA.5076.i
+		hidden_effect = {
+			country_event = { id = USA.5008 days = 76 }
+		}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				AND = {
+					OR = {
+						has_game_rule = {
+							rule = USA_76_ELECTIONS
+							option = USA_76_ELECTIONS_INCUMBENT
+						}
+						has_game_rule = {
+							rule = USA_76_ELECTIONS
+							option = USA_76_ELECTIONS_CARTER
+						}
+						has_game_rule = {
+							rule = USA_76_ELECTIONS
+							option = USA_76_ELECTIONS_JACKSON
+						}
+						has_game_rule = {
+							rule = USA_76_ELECTIONS
+							option = USA_76_ELECTIONS_TALMADGE
+						}
+						has_game_rule = {
+							rule = USA_76_ELECTIONS
+							option = USA_76_ELECTIONS_ANDERSON
+						}
+					}
+					USA = {
+						check_variable = { party_popularity@communist > 0.20}
+					}
+				}
+			}
+		}
+	}
+	option = { # Hall
+		trigger = { has_country_flag = USA_72_L_NPP }
+		name = USA.5076.j
+		hidden_effect = {
+			country_event = { id = USA.5009 days = 76 }
+		}
+	}
+}
+
+country_event = {
+	id = USA.5077
+	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.5076"}
+	title = USA.5076.t
+	desc= USA.5076.desc
+	picture = GFX_report_event_us_presidential_podium
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		trigger = { has_country_flag = USA_72_R_NPP }
+		name = USA.5077.a
+		hidden_effect = {
+			country_event = { id = USA.5011 days = 1 }
+		}
+	}
+	option = {
+		trigger = {
+			NOT = { has_country_flag = USA_72_R_NPP }
+		}
+		name = USA.5077.b
+	}
+}

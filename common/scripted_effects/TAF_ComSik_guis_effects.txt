@@ -1,0 +1,250 @@
+CSX_National_Army_Protrait_UI_preset = {
+	## Variable
+	clear_array = CSX_National_Army_Protrait
+
+	add_to_array = { CSX_National_Army_Protrait = 1 }
+	add_to_array = { CSX_National_Army_Protrait = 2 }
+	add_to_array = { CSX_National_Army_Protrait = 3 }
+	add_to_array = { CSX_National_Army_Protrait = 4 }
+	add_to_array = { CSX_National_Army_Protrait = 5 }
+	
+	add_to_array = { CSX_National_Army_power = 70 }
+	add_to_array = { CSX_National_Army_power = 20 }
+	add_to_array = { CSX_National_Army_power = 30 }
+	add_to_array = { CSX_National_Army_power = 15 }
+	add_to_array = { CSX_National_Army_power = 50 }
+	
+	## Position
+	add_to_array = { CSX_National_Army_Protrait_x = 5 }
+	add_to_array = { CSX_National_Army_Protrait_y = 210 }
+	add_to_array = { CSX_National_Army_Protrait_x = 165 }
+	add_to_array = { CSX_National_Army_Protrait_y = 210 }
+	add_to_array = { CSX_National_Army_Protrait_x = 325 }
+	add_to_array = { CSX_National_Army_Protrait_y = 210 }
+	add_to_array = { CSX_National_Army_Protrait_x = 70 }
+	add_to_array = { CSX_National_Army_Protrait_y = 30 }
+	add_to_array = { CSX_National_Army_Protrait_x = 250 }
+	add_to_array = { CSX_National_Army_Protrait_y = 30 }
+
+	add_to_array = { CSX_Commender_power_Bar_x = 85 }
+	add_to_array = { CSX_Commender_power_Bar_y = 280 }
+	add_to_array = { CSX_Commender_power_Bar_x = 245 }
+	add_to_array = { CSX_Commender_power_Bar_y = 280 }
+	add_to_array = { CSX_Commender_power_Bar_x = 405 }
+	add_to_array = { CSX_Commender_power_Bar_y = 280 }
+	add_to_array = { CSX_Commender_power_Bar_x = 175 }
+	add_to_array = { CSX_Commender_power_Bar_y = 120 }
+	add_to_array = { CSX_Commender_power_Bar_x = 355 }
+	add_to_array = { CSX_Commender_power_Bar_y = 120 }
+}
+
+CSX_Cadres_System_preset = {
+	###### Cadres Map ######
+	clear_array = Cadres_map
+
+	#1 Dihua
+	#2 Kunlun
+	#3 Tacheng
+	#4 Alet
+
+	#5 Qinghai
+	#6 Khaz
+	#7 Afgan
+	#8 India
+	#9 Tibet
+	#10 Xibei
+	#11 Mong
+	#12 Russia
+    
+	add_to_array = { Cadres_map = 1 }
+	add_to_array = { Cadres_map = 2 }
+	add_to_array = { Cadres_map = 3 }
+	add_to_array = { Cadres_map = 4 }
+	
+	add_to_array = { Cadres_map = 5 }
+	add_to_array = { Cadres_map = 6 }
+	add_to_array = { Cadres_map = 7 }
+	add_to_array = { Cadres_map = 8 }
+	add_to_array = { Cadres_map = 9 }
+	add_to_array = { Cadres_map = 10 }
+	add_to_array = { Cadres_map = 11 }
+	add_to_array = { Cadres_map = 12 }
+    #####
+	add_to_array = { Cadres_map_x = 435 } #1
+	add_to_array = { Cadres_map_y = 240 }
+	add_to_array = { Cadres_map_x = 106 } #2
+	add_to_array = { Cadres_map_y = 386 }
+	add_to_array = { Cadres_map_x = 206 } #3
+	add_to_array = { Cadres_map_y = 244 }
+	add_to_array = { Cadres_map_x = 303 } #4
+	add_to_array = { Cadres_map_y = 73 }
+	
+	add_to_array = { Cadres_map_x = 528 } #5 Qinghai
+	add_to_array = { Cadres_map_y = 472 }
+	add_to_array = { Cadres_map_x = -5 } #6 Khaz
+	add_to_array = { Cadres_map_y = 19 }
+	add_to_array = { Cadres_map_x = -16 } #7 Afgan
+	add_to_array = { Cadres_map_y = 456 }
+	add_to_array = { Cadres_map_x = 34 } #8 India
+	add_to_array = { Cadres_map_y = 536 }
+	add_to_array = { Cadres_map_x = 221 } #9 Tibet
+	add_to_array = { Cadres_map_y = 553 }
+	add_to_array = { Cadres_map_x = 588 } #10 Xibei
+	add_to_array = { Cadres_map_y = 321 }
+	add_to_array = { Cadres_map_x = 487 } #11 Mong
+	add_to_array = { Cadres_map_y = 27 }
+	add_to_array = { Cadres_map_x = 255 } #12 Russia
+	add_to_array = { Cadres_map_y = 32 }
+
+	## State Ideology ##
+	# 1 - Chenism
+	# 2 - Military
+
+	add_to_array = { Cadres_state_ideology = 2 }
+	add_to_array = { Cadres_state_ideology = 2 }
+	add_to_array = { Cadres_state_ideology = 1 }
+	add_to_array = { Cadres_state_ideology = 1 }
+
+
+	#### Pie Chart ####
+
+    add_to_array = { background_1 = 40 }
+	add_to_array = { background_1 = 30 }
+	add_to_array = { background_1 = 40 }
+	add_to_array = { background_1 = 10 }
+
+	add_to_array = { background_2 = 10 }
+	add_to_array = { background_2 = 20 }
+	add_to_array = { background_2 = 30 }
+	add_to_array = { background_2 = 50 }
+
+	add_to_array = { background_3 = 50 }
+	add_to_array = { background_3 = 50 }
+	add_to_array = { background_3 = 30 }
+	add_to_array = { background_3 = 40 }
+
+	
+	add_to_array = { party_mass_1 = 10 }
+	add_to_array = { party_mass_1 = 20 }
+	add_to_array = { party_mass_1 = 10 }
+	add_to_array = { party_mass_1 = 30 }
+
+	add_to_array = { party_mass_2 = 15 }
+	add_to_array = { party_mass_2 = 30 }
+	add_to_array = { party_mass_2 = 25 }
+	add_to_array = { party_mass_2 = 20 }
+
+	add_to_array = { party_mass_3 = 25 }
+	add_to_array = { party_mass_3 = 10 }
+	add_to_array = { party_mass_3 = 25 }
+	add_to_array = { party_mass_3 = 10 }
+
+	add_to_array = { party_mass_4 = 50 }
+	add_to_array = { party_mass_4 = 40 }
+	add_to_array = { party_mass_4 = 40 }
+	add_to_array = { party_mass_4 = 40 }
+
+	### Bar Chart ###
+	add_to_array = { Cadres_education_bar_1 = 10 }
+	add_to_array = { Cadres_education_bar_1 = 10 }
+	add_to_array = { Cadres_education_bar_1 = 15 }
+	add_to_array = { Cadres_education_bar_1 = 10 }
+
+	add_to_array = { Cadres_education_bar_2 = 10 }
+	add_to_array = { Cadres_education_bar_2 = 10 }
+	add_to_array = { Cadres_education_bar_2 = 20 }
+	add_to_array = { Cadres_education_bar_2 = 10 }
+
+	add_to_array = { Cadres_education_bar_3 = 20 }
+	add_to_array = { Cadres_education_bar_3 = 15 }
+	add_to_array = { Cadres_education_bar_3 = 15 }
+	add_to_array = { Cadres_education_bar_3 = 40 }
+
+	add_to_array = { Cadres_education_bar_4 = 30 }
+	add_to_array = { Cadres_education_bar_4 = 35 }
+	add_to_array = { Cadres_education_bar_4 = 30 }
+	add_to_array = { Cadres_education_bar_4 = 20 }
+
+	add_to_array = { Cadres_education_bar_5 = 30 }
+	add_to_array = { Cadres_education_bar_5 = 30 }
+	add_to_array = { Cadres_education_bar_5 = 20 }
+	add_to_array = { Cadres_education_bar_5 = 20 }
+}
+
+## 土改-乡村天际线初始化 ##
+CSX_Land_Reform_perset = {
+	## Big Arrow ##
+    add_to_array = { Map_Big_Arrow_x = 209 } #1
+	add_to_array = { Map_Big_Arrow_y = 145 }
+	add_to_array = { Map_Big_Arrow_x = 214 } #2
+	add_to_array = { Map_Big_Arrow_y = 240 }
+	add_to_array = { Map_Big_Arrow_x = 315 } #3
+	add_to_array = { Map_Big_Arrow_y = 299 }
+	add_to_array = { Map_Big_Arrow_x = 199 } #4
+	add_to_array = { Map_Big_Arrow_y = 444 }
+	add_to_array = { Map_Big_Arrow_x = 289 } #5 
+	add_to_array = { Map_Big_Arrow_y = 223 }
+	add_to_array = { Map_Big_Arrow_x = 234 } #6 单独农田按钮 
+	add_to_array = { Map_Big_Arrow_y = 350 }
+}
+
+update_pie_chart = {
+    #Background
+	##3
+	set_variable = { background_3_pie_start = 0 }
+	set_variable = { background_3_pie_end = background_3^CSX_acted_state }
+    set_variable = { background_3_pie_frame = background_3_pie_start } 
+	round_variable = background_3_pie_frame 
+	multiply_variable = { background_3_pie_frame = 1000 }
+	add_to_variable = { background_3_pie_frame = background_3_pie_end }
+    
+	##2
+	set_variable = { background_2_pie_start = background_3_pie_end }
+	set_variable = { background_2_pie_end = background_2_pie_start }
+	add_to_variable = { background_2_pie_end = background_2^CSX_acted_state }
+    set_variable = { background_2_pie_frame = background_2_pie_start } 
+	round_variable = background_2_pie_frame
+	multiply_variable = { background_2_pie_frame = 1000 }
+	add_to_variable = { background_2_pie_frame = background_2_pie_end }
+    
+	##1
+	set_variable = { background_1_pie_start = background_2_pie_end }
+    set_variable = { background_1_pie_frame = background_1_pie_start } 
+	round_variable = background_1_pie_frame
+	multiply_variable = { background_1_pie_frame = 1000 }
+	add_to_variable = { background_1_pie_frame = 100 } # last one so make it 100
+	
+	#Party mass
+	##4
+	set_variable = { party_mass_4_pie_start = 0 }
+	set_variable = { party_mass_4_pie_end = party_mass_4^CSX_acted_state }
+    set_variable = { party_mass_4_pie_frame = party_mass_4_pie_start } 
+	round_variable = party_mass_4_pie_frame 
+	multiply_variable = { party_mass_4_pie_frame = 1000 }
+	add_to_variable = { party_mass_4_pie_frame = party_mass_4_pie_end }
+    
+	##3
+	set_variable = { party_mass_3_pie_start = party_mass_4_pie_end }
+	set_variable = { party_mass_3_pie_end = party_mass_3_pie_start }
+	add_to_variable = { party_mass_3_pie_end = party_mass_3^CSX_acted_state }
+    set_variable = { party_mass_3_pie_frame = party_mass_3_pie_start } 
+	round_variable = party_mass_3_pie_frame
+	multiply_variable = { party_mass_3_pie_frame = 1000 }
+	add_to_variable = { party_mass_3_pie_frame = party_mass_3_pie_end }
+	
+	##2
+	set_variable = { party_mass_2_pie_start = party_mass_3_pie_end }
+	set_variable = { party_mass_2_pie_end = party_mass_2_pie_start }
+	add_to_variable = { party_mass_2_pie_end = party_mass_2^CSX_acted_state }
+    set_variable = { party_mass_2_pie_frame = party_mass_2_pie_start } 
+	round_variable = party_mass_2_pie_frame
+	multiply_variable = { party_mass_2_pie_frame = 1000 }
+	add_to_variable = { party_mass_2_pie_frame = party_mass_2_pie_end }
+    
+	##1
+	set_variable = { party_mass_1_pie_start = party_mass_2_pie_end }
+    set_variable = { party_mass_1_pie_frame = party_mass_1_pie_start } 
+	round_variable = party_mass_1_pie_frame
+	multiply_variable = { party_mass_1_pie_frame = 1000 }
+	add_to_variable = { party_mass_1_pie_frame = 100 } # last one so make it 100
+}

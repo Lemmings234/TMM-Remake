@@ -1,651 +1,656 @@
-# BNW_Funny = {
-    # GRE = { set_superpower = yes }
-    # GER = { 
-        # set_cosmetic_tag = Kaiserreich 
+BNW_Funny = {
+    GRE = { set_superpower = yes }
+    GER = { 
+        set_cosmetic_tag = Kaiserreich 
 
-		# set_party_name = { 
-			# ideology = paternalism 
-			# long_name = Kaiserreich_paternalism_party_long
-			# name = Kaiserreich_paternalism_party
-		# }
-		# set_party_name = { 
-			# ideology = conservatism 
-			# long_name = Kaiserreich_conservatism_party_long
-			# name = Kaiserreich_conservatism_party
-		# }
-		# set_party_name = { 
-			# ideology = liberal_conservatism 
-			# long_name = Kaiserreich_liberal_conservatism_party_long
-			# name = Kaiserreich_liberal_conservatism_party
-		# }
-		# set_party_name = { 
-			# ideology = liberalism 
-			# long_name = Kaiserreich_liberalism_party_long
-			# name = Kaiserreich_liberalism_party
-		# }
-		# set_party_name = { 
-			# ideology = progressivism 
-			# long_name = Kaiserreich_progressivism_party_long
-			# name = Kaiserreich_progressivism_party
-		# }
+		set_party_name = { 
+			ideology = paternalism 
+			long_name = Kaiserreich_paternalism_party_long
+			name = Kaiserreich_paternalism_party
+		}
+		set_party_name = { 
+			ideology = conservatism 
+			long_name = Kaiserreich_conservatism_party_long
+			name = Kaiserreich_conservatism_party
+		}
+		set_party_name = { 
+			ideology = liberal_conservatism 
+			long_name = Kaiserreich_liberal_conservatism_party_long
+			name = Kaiserreich_liberal_conservatism_party
+		}
+		set_party_name = { 
+			ideology = liberalism 
+			long_name = Kaiserreich_liberalism_party_long
+			name = Kaiserreich_liberalism_party
+		}
+		set_party_name = { 
+			ideology = progressivism 
+			long_name = Kaiserreich_progressivism_party_long
+			name = Kaiserreich_progressivism_party
+		}
 
-		# set_politics = {
-			# ruling_party = progressivism
-		# }
-		# set_popularities = {
-			# paternalism = 3
-			# conservatism = 12
-            # liberal_conservatism = 35
-			# liberalism = 11
-			# progressivism = 39
-		# }
-    # }
+		set_politics = {
+			ruling_party = progressivism
+		}
+		set_popularities = {
+			paternalism = 3
+			conservatism = 12
+            liberal_conservatism = 35
+			liberalism = 11
+			progressivism = 39
+		}
+    }
 
-    # JAP = { set_cosmetic_tag = Hechao }
-    # every_state = {
-		# limit = { 
-            # OR = {
-                # is_owned_by = CHI
-                # is_owned_by = MAN
-                # is_owned_by = GNG
-                # is_owned_by = SIC
-                # is_owned_by = GAN
-                # is_owned_by = SHX
-                # is_owned_by = NCC
-                # is_owned_by = SCC
-                # is_owned_by = MEN
-                # is_owned_by = QIN
-                # is_owned_by = HUU
-                # is_owned_by = KOR
-                # is_owned_by = SOR
-                # is_owned_by = GUZ
-                # is_owned_by = XIK
-                # is_owned_by = XIN
-                # is_owned_by = PRC
-                # is_owned_by = TIB
-                # is_owned_by = ALT
-            # }
-        # }
-		# add_core_of = JAP
-		# transfer_state_to = JAP
-	# }
-    # JAP = {
-        # set_capital = { state = 613 }
-    # }
-    # SOR = { set_cosmetic_tag = Anpei }
-    # PHI = { set_cosmetic_tag = Luson }
-    # VIN = { set_cosmetic_tag = Annan }
-    # NCC = { set_cosmetic_tag = Haoshu }
-    # SHO = { set_cosmetic_tag = Chieukan }
-    # HUU = { set_cosmetic_tag = Unshu }
-    # NRB = { set_cosmetic_tag = Kunlun }
-    # BUR = { set_cosmetic_tag = Midi }
-    # UPH = { set_cosmetic_tag = Mianlanlao }
-    # KMC = { set_cosmetic_tag = Ariya }
-    # HAW = { set_cosmetic_tag = Akitsu }
-    # KOR = { set_cosmetic_tag = Izumo }
-    # GRE = { set_cosmetic_tag = Basileia }
-    # GEO = { set_cosmetic_tag = T_Iberia }
-    # TUR = { set_cosmetic_tag = T_Anatolikon }
-    # ALB = { set_cosmetic_tag = T_Kilikia }
-    # BUL = { set_cosmetic_tag = T_Bulgaria }
-    # SYR = { set_cosmetic_tag = T_Oriens }
-    # every_state = {
-		# limit = { is_core_of = ALB }
-		# remove_core_of = ALB
-	# }
-    # GRE = {
-	    # set_capital = { state = 341 }
-        # transfer_state = 163
-	    # transfer_state = 341
-        # transfer_state = 356
-		# transfer_state = 184
-	    # transfer_state = 1266
-        # transfer_state = 1267
-        # transfer_state = 340
-        # transfer_state = 339
-        # transfer_state = 164
-        # transfer_state = 342
-        # transfer_state = 347
-        # transfer_state = 1532
-        # transfer_state = 137
-        # transfer_state = 1264
-        # transfer_state = 1294
-        # transfer_state = 44
-        # transfer_state = 1295
-        # transfer_state = 106
-        # transfer_state = 1704   
-        # transfer_state = 1986
-        # transfer_state = 349   
-        # transfer_state = 345
-        # transfer_state = 1979
-    # }
-    # every_state = {
-		# limit = { is_owned_by = GRE }
-		# add_core_of = GRE
-	# }
-    # SOR = {
-        # transfer_state = 564
-        # transfer_state = 562
-        # transfer_state = 565
-        # transfer_state = 563
-        # transfer_state = 890
-        # transfer_state = 760
-        # transfer_state = 574
-        # transfer_state = 561
-        # transfer_state = 886
-        # transfer_state = 575
-        # transfer_state = 566
-        # transfer_state = 758
-        # transfer_state = 568
-        # transfer_state = 567
-    # }
-    # every_state = {
-		# limit = { is_owned_by = AST }
-		# add_core_of = NCC
-        # remove_core_of = AST
-        # transfer_state_to = NCC
-	# }
-    # NCC = {
-        # transfer_state = 669
-        # transfer_state = 1331
-        # transfer_state = 523
-        # transfer_state = 1332
-        # transfer_state = 728
-        # transfer_state = 737
-        # transfer_state = 634
-    # }
-    # every_state = {
-		# limit = { is_owned_by = NZL }
-		# add_core_of = HUU
-        # remove_core_of = NZL
-        # transfer_state_to = HUU
-	# }
-    # every_state = {
-		# limit = { is_owned_by = INS }
-		# add_core_of = NRB
-        # remove_core_of = INS
-        # transfer_state_to = NRB
-	# }
-    # JAP = {
-        # transfer_state = 1738
-        # transfer_state = 1737
-        # transfer_state = 1739
-    # }
-    # VIN = {
-        # transfer_state = 670
-        # transfer_state = 877
-        # transfer_state = 741
-        # transfer_state = 1535
-        # transfer_state = 876
-    # }
-    # SHO = {
-        # transfer_state = 803
-        # transfer_state = 1452
-        # transfer_state = 1451
-        # transfer_state = 1764
-        # transfer_state = 817
-        # transfer_state = 1766
-        # transfer_state = 1765
-        # transfer_state = 818
-        # transfer_state = 1767
-        # transfer_state = 1768
-        # transfer_state = 1769
-        # transfer_state = 1771
-        # transfer_state = 1770
-        # transfer_state = 819
-        # transfer_state = 672
-    # }
-    # PHI = {
-        # transfer_state = 1455
-        # transfer_state = 1456
-        # transfer_state = 624
-        # transfer_state = 628
-        # transfer_state = 625
-    # }
-    # THA = {
-        # transfer_state = 842
-    # }
-    # AZH = {
-        # transfer_state = 1308
-        # transfer_state = 1307
-    # }
-    # NRB = {
-        # transfer_state = 334
-        # transfer_state = 1330
-        # transfer_state = 816
-        # transfer_state = 794
-    # }
-    # ALB = {
-        # transfer_state = 344
-        # transfer_state = 1449
-        # transfer_state = 1241
-        # transfer_state = 1988
-        # transfer_state = 1991
-        # transfer_state = 677
-    # }
-    # GEO = {
-        # transfer_state = 1558
-        # transfer_state = 231
-        # transfer_state = 1556       
-        # transfer_state = 1565
-        # transfer_state = 1448
-        # transfer_state = 230       
-        # transfer_state = 1567
-        # transfer_state = 1568
-    # }
-    # KOR = {
-        # transfer_state = 1550
-        # transfer_state = 484
-        # transfer_state = 483       
-        # transfer_state = 481
-    # }
-    # KMC = {
-        # transfer_state = 891
-        # transfer_state = 772
-        # transfer_state = 463
-    # }
-    # HAW = {
-        # transfer_state = 386
-        # transfer_state = 387
-        # transfer_state = 385       
-        # transfer_state = 380
-        # transfer_state = 377
-        # transfer_state = 379
-        # transfer_state = 378
-        # transfer_state = 471
-        # transfer_state = 768       
-        # transfer_state = 769
-        # transfer_state = 739
-        # transfer_state = 740
-    # }
-    # HAW = { 
-        # puppet = KMC 
-        # puppet = KOR
-    # }
-    # GRE = { 
-        # puppet = TUR 
-        # puppet = BUL
-        # puppet = ALB
-        # puppet = SYR
-        # puppet = GEO
-    # }
-    # BUL = {
-        # transfer_state = 1283
-    # }
-    # every_state = {
-		# limit = {
-            # AND = {
-                # OR = {
-                    # is_owned_by = TUR
-                    # is_owned_by = SNS
-                # }
-                # is_core_of = SYR
-            # }
-        # }
-        # transfer_state_to = SYR
-	# }
-    # every_state = {
-		# limit = {
-            # is_owned_by = IME
-        # }
-        # transfer_state_to = SYR
-	# }
-    # every_state = {
-		# limit = { is_owned_by = SYR }
-		# add_core_of = SYR
-	# }
-    # every_state = {
-		# limit = { is_owned_by = VIN }
-		# add_core_of = VIN
-	# }
-    # every_state = {
-		# limit = { is_owned_by = SOR }
-		# add_core_of = SOR
-	# }
-    # every_state = {
-		# limit = { is_owned_by = SHO }
-		# add_core_of = SHO
-	# }
-    # every_state = {
-		# limit = { is_owned_by = KMC }
-		# add_core_of = KMC
-        # remove_core_of = USA
-	# }
-    # every_state = {
-		# limit = { is_owned_by = KOR }
-		# add_core_of = KOR
-        # remove_core_of = MEX
-	# }
-    # every_state = {
-		# limit = { is_owned_by = HAW }
-		# add_core_of = HAW
-        # remove_core_of = USA
-        # remove_core_of = CAN
-	# }
-    # every_state = {
-		# limit = { is_owned_by = JAP }
-		# add_core_of = JAP
-        # remove_core_of = VIN
-	# }
-    # JAP = {
-        # add_to_faction = NCC
-        # add_to_faction = HUU
-        # add_to_faction = SOR
-        # add_to_faction = SHO
-        # add_to_faction = UPH
-        # add_to_faction = HAW
-        # add_to_faction = KOR
-        # add_to_faction = KMC
-    # }
-# }
-# BNW_China = {
-	# NCC = {
-	    # set_capital = { state = 608 }
-	    # transfer_state = 608
-		# transfer_state = 614
-	    # transfer_state = 609
-		# #transfer_state = 1889
-	    # #transfer_state = 1886
-	    # transfer_state = 1023
-	    # transfer_state = 615
-	    # transfer_state = 607
-	    # transfer_state = 1020
-		# transfer_state = 1021
-		# transfer_state = 1022
-		# set_province_name = { id = 9843 name = VICTORY_POINTS_9843_bnw }
-		# set_province_name = { id = 10424 name = VICTORY_POINTS_10424_bnw }
-		# set_cosmetic_tag = Huabei
-	# }
-    # every_state = {
-		# limit = { is_owned_by = NCC }
-		# add_core_of = NCC
-	# }
-	# SCC = {
-	    # set_capital = { state = 621 }
-	    # transfer_state = 621
-	    # transfer_state = 612
-		# set_cosmetic_tag = Chasui
-        # set_politics = {	
-        	# ruling_party = despotism
-        	# last_election = "1962.1.1"
-        	# election_frequency = 48
-        	# elections_allowed = no
-        # }
-        # set_popularities = {
-        	# communist = 0
-        	# ultranationalism = 0
-        	# socialist = 0
-        	# progressivism = 0
-        	# liberalism = 0
-        	# conservatism = 5
-        	# paternalism = 20
-        	# despotism = 55
-        	# fascism = 20
-        	# national_socialism = 0
-        # }
-	# }
-    # every_state = {
-		# limit = { is_owned_by = SCC }
-		# add_core_of = SCC
-	# }
-	# SHX = {
-	    # transfer_state = 955
-		# set_cosmetic_tag = Xingshu
-	# }
-    # every_state = {
-		# limit = { is_owned_by = SHX }
-		# add_core_of = SHX
-	# }	
-	# CHI = {
-        # set_autonomy = {
-        	# target = NCC
-        	# autonomous_state = autonomy_china_warlord_regime
-        # }
-	# }
-	# NCC = {
-        # set_autonomy = {
-        	# target = SCC
-        	# autonomous_state = autonomy_china_warlord_regime
-        # }
-        # set_autonomy = {
-        	# target = MEN
-        	# autonomous_state = autonomy_china_warlord_regime
-        # }		
-	# }
-	# HUU = {
-	    # add_state_core = 524
-		# add_state_core = 1850
-	    # add_state_core = 1851
-	    # add_state_core = 1854
-	    # add_state_core = 1852
-	    # add_state_core = 1853
-	    # add_state_core = 1855
-	    # add_state_core = 1856
-	# }
-    # JAP = { puppet = HUU }
-	# HUU = {
-	    # set_capital = { state = 524 }
-	    # transfer_state = 524
-		# transfer_state = 1850
-	    # transfer_state = 1851
-	    # transfer_state = 1854
-	    # transfer_state = 1852
-	    # transfer_state = 1853
-	    # transfer_state = 1855
-	    # transfer_state = 1856
-		# set_cosmetic_tag = Taiwan
-        # set_politics = {	
-        	# ruling_party = despotism
-        	# last_election = "1962.1.1"
-        	# election_frequency = 48
-        	# elections_allowed = no
-        # }
-        # set_popularities = {
-        	# communist = 0
-        	# ultranationalism = 0
-        	# socialist = 0
-        	# progressivism = 0
-        	# liberalism = 0
-        	# conservatism = 5
-        	# paternalism = 40
-        	# despotism = 35
-        	# fascism = 20
-        	# national_socialism = 0
-        # }
-		# set_party_name = { 
-			# ideology = despotism
-			# long_name = Taiwan_long
-			# name = Taiwan_short
-		# }
-	# }
-    # every_state = {
-		# limit = { is_owned_by = HUU }
-		# remove_core_of = JAP
-	# }
-    # every_state = {
-		# limit = { is_core_of = KOR }
-		# remove_core_of = JAP
-		# transfer_state_to = KOR
-	# }
-    # every_state = {
-		# limit = { 
-			# is_core_of = SOR 
-			# NOT = { state = 809 }
-		# }
-		# remove_core_of = JAP
-		# transfer_state_to = SOR
-	# }
-	# JAP = { puppet = SOR }
-	# 809 = { remove_core_of = MAN }
-	# SOR = { 
-	    # set_capital = { state = 809 }
-		 # transfer_state = 809
-		# set_cosmetic_tag = Enkai
-		# set_cosmetic_tag = Enkai
-	    # add_ideas = Sphere_Fully_Dependent 
-        # set_politics = {	
-        	# ruling_party = despotism
-        	# last_election = "1962.1.1"
-        	# election_frequency = 48
-        	# elections_allowed = no
-        # }
-        # set_popularities = {
-        	# communist = 0
-        	# ultranationalism = 0
-        	# socialist = 0
-        	# progressivism = 0
-        	# liberalism = 0
-        	# conservatism = 5
-        	# paternalism = 40
-        	# despotism = 35
-        	# fascism = 20
-        	# national_socialism = 0
-        # }
-		# set_party_name = { 
-			# ideology = despotism
-			# long_name = Enkai_long
-			# name = Enkai_short
-		# }
-	# }
-	# XXX = { 
-		# KOR_Niimi_Masaichi = { set_nationality = SOR } 
-		# JAP_Okuno_Seisuke = { set_nationality = SOR } 
-		# JAP_Ikeda_Sumihisa = { set_nationality = SOR } 
-		# JAP_Sanji_Shigenobu = { set_nationality = SOR } 
-		# JAP_Onodera_Makoto = { set_nationality = SOR } 
-	# }
-	# SOR = { 
-		# KOR_Niimi_Masaichi = { promote_character = paternalism } 
-		# remove_all_ministers = yes
-	    # add_ideas = {
-	    	# JAP_Okuno_Seisuke_hog
-	    	# JAP_Ikeda_Sumihisa_for
-	    	# JAP_Sanji_Shigenobu_eco
-	    	# JAP_Onodera_Makoto_sec
-	    # }
-    # }
-	# XXX = { HUU_Kaya_Okinori = { set_nationality = HUU } }
-	# HUU = { HUU_Kaya_Okinori = { promote_character = paternalism } }
-	# MEN = { set_cosmetic_tag = Waimeng }
-	# for_each_scope_loop = {
-		# array = JAP.faction_members
-		# set_variable = { ECON_SPHERE_LEADER = JAP }
-	# }
-	# GAN = { set_cosmetic_tag = Gansu }
-	# XXX = { 
-		# JAP_Watanabe_Takeshi = { set_nationality = HUU } 
-		# JAP_Ozaki_Hotsumi = { set_nationality = HUU } 
-		# JAP_Ishii_Mitsujiro = { set_nationality = HUU } 
-		# JAP_Hanano_Kichihei = { set_nationality = HUU } 
-	# }
-	# HUU = {
-		# remove_all_ministers = yes
-	    # add_ideas = {
-	    	# JAP_Watanabe_Takeshi_hog
-	    	# JAP_Ozaki_Hotsumi_for
-	    	# JAP_Ishii_Mitsujiro_eco
-	    	# JAP_Hanano_Kichihei_sec
-	    # }
-	# }
-	# XXX = { 
-		# NCC_Zhu_Dian = { set_nationality = NCC } 
-		# NCC_Miao_Bin = { set_nationality = NCC } 
-		# NCC_Wang_Hongwen = { set_nationality = NCC } 
-		# NCC_Peng_Shihong = { set_nationality = NCC } 
-		# NCC_Liang_Huazhi = { set_nationality = NCC } 
-	# }
-	# NCC = {
-		# NCC_Zhu_Dian = { promote_character = fascism } 
-		# remove_all_ministers = yes
-	    # add_ideas = {
-	    	# NCC_Miao_Bin_hog
-	    	# NCC_Wang_Hongwen_for
-	    	# NCC_Peng_Shihong_eco
-	    	# NCC_Liang_Huazhi_sec
-	    # }
-        # set_politics = {	
-        	# ruling_party = fascism
-        	# last_election = "1962.1.1"
-        	# election_frequency = 48
-        	# elections_allowed = no
-        # }
-        # set_popularities = {
-        	# communist = 0
-        	# ultranationalism = 0
-        	# socialist = 0
-        	# progressivism = 0
-        	# liberalism = 0
-        	# conservatism = 5
-        	# paternalism = 30
-        	# despotism = 15
-        	# fascism = 50
-        	# national_socialism = 0
-        # }
-	# }
-	# XXX = { 
-		# BNW_CHI_Chen_Gongbo = { set_nationality = CHI } 
-		# CHI_Gan_Naiguang = { set_nationality = CHI } 
-		# CHI_Shi_Cuntong = { set_nationality = CHI } 
-		# BNW_CHI_Mei_Siping = { set_nationality = CHI } 
-		# CHI_Ding_Mocun = { set_nationality = CHI } 
-	# }
-	# CHI = {
-		# BNW_CHI_Chen_Gongbo = { promote_character = fascism } 
-		# remove_all_ministers = yes
-	    # add_ideas = {
-	    	# CHI_Gan_Naiguang_hog
-	    	# CHI_Shi_Cuntong_for
-	    	# BNW_CHI_Mei_Siping_eco
-	    	# CHI_Ding_Mocun_sec
-	    # }	
-        # set_politics = {	
-        	# ruling_party = fascism
-        	# last_election = "1962.1.1"
-        	# election_frequency = 48
-        	# elections_allowed = no
-        # }
-        # set_popularities = {
-        	# communist = 0
-        	# ultranationalism = 0
-        	# socialist = 0
-        	# progressivism = 0
-        	# liberalism = 0
-        	# conservatism = 5
-        	# paternalism = 30
-        	# despotism = 15
-        	# fascism = 50
-        	# national_socialism = 0
-        # }	
-	# }
-	# XXX = { 
-		# JAP_Tokugawa_Gishin = { set_nationality = JAP } 
-		# JAP_Furumi_Tadayuki = { set_nationality = JAP } 
-		# JAP_Amogus = { set_nationality = JAP } 
-		# BNW_JAP_Shiina_Etsusaburo = { set_nationality = JAP } 
-		# JAP_Kawakami_Jotaro = { set_nationality = JAP } 
-	# }
-	# JAP = {
-		# JAP_Tokugawa_Gishin = { promote_character = fascism } 
-		# remove_all_ministers = yes
-	    # add_ideas = {
-	    	# JAP_Furumi_Tadayuki_hog
-	    	# JAP_Amogus_for
-	    	# BNW_JAP_Shiina_Etsusaburo_eco
-	    	# JAP_Kawakami_Jotaro_sec
-	    # }		
-	# }
-	# XXX = { 
-		# SHX_Rong_Ziheng = { set_nationality = SHX } 
-	# }
-	# SHX = {
-		# SHX_fu_zuoyi = { set_nationality = SCC } 
-		# SHX_Rong_Ziheng = { promote_character = despotism } 
-	# }
-	# SHX = {
-		# SHX_fu_zuoyi = { promote_character = despotism } 
-	# }
-# }
+    JAP = { set_cosmetic_tag = Hechao }
+    every_state = {
+		limit = { 
+            OR = {
+                is_owned_by = CHI
+                is_owned_by = MAN
+                is_owned_by = GNG
+                is_owned_by = SIC
+                is_owned_by = GAN
+                is_owned_by = SHX
+                is_owned_by = NCC
+                is_owned_by = SCC
+                is_owned_by = MEN
+                is_owned_by = QIN
+                is_owned_by = HUU
+                is_owned_by = KOR
+                is_owned_by = SOR
+                is_owned_by = GUZ
+                is_owned_by = XIK
+                is_owned_by = XIN
+                is_owned_by = PRC
+                is_owned_by = TIB
+                is_owned_by = ALT
+            }
+        }
+		add_core_of = JAP
+		transfer_state_to = JAP
+	}
+    JAP = {
+        set_capital = { state = 613 }
+    }
+    SOR = { set_cosmetic_tag = Anpei }
+    PHI = { set_cosmetic_tag = Luson }
+    VIN = { set_cosmetic_tag = Annan }
+    NCC = { set_cosmetic_tag = Haoshu }
+    SHO = { set_cosmetic_tag = Chieukan }
+    HUU = { set_cosmetic_tag = Unshu }
+    NRB = { set_cosmetic_tag = Kunlun }
+    BUR = { set_cosmetic_tag = Midi }
+    UPH = { set_cosmetic_tag = Mianlanlao }
+    KMC = { set_cosmetic_tag = Ariya }
+    HAW = { set_cosmetic_tag = Akitsu }
+    KOR = { set_cosmetic_tag = Izumo }
+    GRE = { set_cosmetic_tag = Basileia }
+    GEO = { set_cosmetic_tag = T_Iberia }
+    TUR = { set_cosmetic_tag = T_Anatolikon }
+    ALB = { set_cosmetic_tag = T_Kilikia }
+    BUL = { set_cosmetic_tag = T_Bulgaria }
+    SYR = { set_cosmetic_tag = T_Oriens }
+    every_state = {
+		limit = { is_core_of = ALB }
+		remove_core_of = ALB
+	}
+    GRE = {
+	    set_capital = { state = 341 }
+        transfer_state = 163
+	    transfer_state = 341
+        transfer_state = 356
+		transfer_state = 184
+	    transfer_state = 1266
+        transfer_state = 1267
+        transfer_state = 340
+        transfer_state = 339
+        transfer_state = 164
+        transfer_state = 342
+        transfer_state = 347
+        transfer_state = 1532
+        transfer_state = 137
+        transfer_state = 1264
+        transfer_state = 1294
+        transfer_state = 44
+        transfer_state = 1295
+        transfer_state = 106
+        transfer_state = 1704   
+        transfer_state = 1986
+        transfer_state = 349   
+        transfer_state = 345
+        transfer_state = 1979
+    }
+    every_state = {
+		limit = { is_owned_by = GRE }
+		add_core_of = GRE
+	}
+    SOR = {
+        transfer_state = 564
+        transfer_state = 562
+        transfer_state = 565
+        transfer_state = 563
+        transfer_state = 890
+        transfer_state = 760
+        transfer_state = 574
+        transfer_state = 561
+        transfer_state = 886
+        transfer_state = 575
+        transfer_state = 566
+        transfer_state = 758
+        transfer_state = 568
+        transfer_state = 567
+    }
+    every_state = {
+		limit = { is_owned_by = AST }
+		add_core_of = NCC
+        remove_core_of = AST
+        transfer_state_to = NCC
+	}
+    NCC = {
+        transfer_state = 669
+        transfer_state = 1331
+        transfer_state = 523
+        transfer_state = 1332
+        transfer_state = 728
+        transfer_state = 737
+        transfer_state = 634
+    }
+    every_state = {
+		limit = { is_owned_by = NZL }
+		add_core_of = HUU
+        remove_core_of = NZL
+        transfer_state_to = HUU
+	}
+    every_state = {
+		limit = { is_owned_by = INS }
+		add_core_of = NRB
+        remove_core_of = INS
+        transfer_state_to = NRB
+	}
+    JAP = {
+        transfer_state = 1738
+        transfer_state = 1737
+        transfer_state = 1739
+    }
+    VIN = {
+        transfer_state = 670
+        transfer_state = 877
+        transfer_state = 741
+        transfer_state = 1535
+        transfer_state = 876
+    }
+    SHO = {
+        transfer_state = 803
+        transfer_state = 1452
+        transfer_state = 1451
+        transfer_state = 1764
+        transfer_state = 817
+        transfer_state = 1766
+        transfer_state = 1765
+        transfer_state = 818
+        transfer_state = 1767
+        transfer_state = 1768
+        transfer_state = 1769
+        transfer_state = 1771
+        transfer_state = 1770
+        transfer_state = 819
+        transfer_state = 672
+    }
+    PHI = {
+        transfer_state = 1455
+        transfer_state = 1456
+        transfer_state = 624
+        transfer_state = 628
+        transfer_state = 625
+    }
+    THA = {
+        transfer_state = 842
+    }
+    AZH = {
+        transfer_state = 1308
+        transfer_state = 1307
+    }
+    NRB = {
+        transfer_state = 334
+        transfer_state = 1330
+        transfer_state = 816
+        transfer_state = 794
+    }
+    ALB = {
+        transfer_state = 344
+        transfer_state = 1449
+        transfer_state = 1241
+        transfer_state = 1988
+        transfer_state = 1991
+        transfer_state = 677
+    }
+    GEO = {
+        transfer_state = 1558
+        transfer_state = 231
+        transfer_state = 1556       
+        transfer_state = 1565
+        transfer_state = 1448
+        transfer_state = 230       
+        transfer_state = 1567
+        transfer_state = 1568
+    }
+    KOR = {
+        transfer_state = 1550
+        transfer_state = 484
+        transfer_state = 483       
+        transfer_state = 481
+    }
+    KMC = {
+        transfer_state = 891
+        transfer_state = 772
+        transfer_state = 463
+    }
+    HAW = {
+        transfer_state = 386
+        transfer_state = 387
+        transfer_state = 385       
+        transfer_state = 380
+        transfer_state = 377
+        transfer_state = 379
+        transfer_state = 378
+        transfer_state = 471
+        transfer_state = 768       
+        transfer_state = 769
+        transfer_state = 739
+        transfer_state = 740
+    }
+    HAW = { 
+        puppet = KMC 
+        puppet = KOR
+    }
+    GRE = { 
+        puppet = TUR 
+        puppet = BUL
+        puppet = ALB
+        puppet = SYR
+        puppet = GEO
+    }
+    BUL = {
+        transfer_state = 1283
+    }
+    every_state = {
+		limit = {
+            AND = {
+                OR = {
+                    is_owned_by = TUR
+                    is_owned_by = SNS
+                }
+                is_core_of = SYR
+            }
+        }
+        transfer_state_to = SYR
+	}
+    every_state = {
+		limit = {
+            is_owned_by = IME
+        }
+        transfer_state_to = SYR
+	}
+    every_state = {
+		limit = { is_owned_by = SYR }
+		add_core_of = SYR
+	}
+    every_state = {
+		limit = { is_owned_by = VIN }
+		add_core_of = VIN
+	}
+    every_state = {
+		limit = { is_owned_by = SOR }
+		add_core_of = SOR
+	}
+    every_state = {
+		limit = { is_owned_by = SHO }
+		add_core_of = SHO
+	}
+    every_state = {
+		limit = { is_owned_by = KMC }
+		add_core_of = KMC
+        remove_core_of = USA
+	}
+    every_state = {
+		limit = { is_owned_by = KOR }
+		add_core_of = KOR
+        remove_core_of = MEX
+	}
+    every_state = {
+		limit = { is_owned_by = HAW }
+		add_core_of = HAW
+        remove_core_of = USA
+        remove_core_of = CAN
+	}
+    every_state = {
+		limit = { is_owned_by = JAP }
+		add_core_of = JAP
+        remove_core_of = VIN
+	}
+    JAP = {
+        add_to_faction = NCC
+        add_to_faction = HUU
+        add_to_faction = SOR
+        add_to_faction = SHO
+        add_to_faction = UPH
+        add_to_faction = HAW
+        add_to_faction = KOR
+        add_to_faction = KMC
+    }
+}
+BNW_China = {
+	NCC = {
+	    set_capital = { state = 608 }
+	    transfer_state = 608
+		transfer_state = 614
+	    transfer_state = 609
+		#transfer_state = 1889
+	    #transfer_state = 1886
+	    transfer_state = 1023
+	    transfer_state = 615
+	    transfer_state = 607
+	    transfer_state = 1020
+		transfer_state = 1021
+		transfer_state = 1022
+		set_province_name = { id = 9843 name = VICTORY_POINTS_9843_bnw }
+		set_province_name = { id = 10424 name = VICTORY_POINTS_10424_bnw }
+		set_cosmetic_tag = Huabei
+	}
+    every_state = {
+		limit = { is_owned_by = NCC }
+		add_core_of = NCC
+	}
+	SCC = {
+	    set_capital = { state = 621 }
+	    transfer_state = 621
+	    transfer_state = 612
+		set_cosmetic_tag = Chasui
+        set_politics = {	
+        	ruling_party = despotism
+        	last_election = "1962.1.1"
+        	election_frequency = 48
+        	elections_allowed = no
+        }
+        set_popularities = {
+        	communist = 0
+        	ultranationalism = 0
+        	socialist = 0
+        	progressivism = 0
+        	liberalism = 0
+        	conservatism = 5
+        	paternalism = 20
+        	despotism = 55
+        	fascism = 20
+        	national_socialism = 0
+            esoteric_nazism = 0
+        }
+	}
+    every_state = {
+		limit = { is_owned_by = SCC }
+		add_core_of = SCC
+	}
+	SHX = {
+	    transfer_state = 955
+		set_cosmetic_tag = Xingshu
+	}
+    every_state = {
+		limit = { is_owned_by = SHX }
+		add_core_of = SHX
+	}	
+	CHI = {
+        set_autonomy = {
+        	target = NCC
+        	autonomous_state = autonomy_china_warlord_regime
+        }
+	}
+	NCC = {
+        set_autonomy = {
+        	target = SCC
+        	autonomous_state = autonomy_china_warlord_regime
+        }
+        set_autonomy = {
+        	target = MEN
+        	autonomous_state = autonomy_china_warlord_regime
+        }		
+	}
+	HUU = {
+	    add_state_core = 524
+		add_state_core = 1850
+	    add_state_core = 1851
+	    add_state_core = 1854
+	    add_state_core = 1852
+	    add_state_core = 1853
+	    add_state_core = 1855
+	    add_state_core = 1856
+	}
+    JAP = { puppet = HUU }
+	HUU = {
+	    set_capital = { state = 524 }
+	    transfer_state = 524
+		transfer_state = 1850
+	    transfer_state = 1851
+	    transfer_state = 1854
+	    transfer_state = 1852
+	    transfer_state = 1853
+	    transfer_state = 1855
+	    transfer_state = 1856
+		set_cosmetic_tag = Taiwan
+        set_politics = {	
+        	ruling_party = despotism
+        	last_election = "1962.1.1"
+        	election_frequency = 48
+        	elections_allowed = no
+        }
+        set_popularities = {
+        	communist = 0
+        	ultranationalism = 0
+        	socialist = 0
+        	progressivism = 0
+        	liberalism = 0
+        	conservatism = 5
+        	paternalism = 40
+        	despotism = 35
+        	fascism = 20
+        	national_socialism = 0
+            esoteric_nazism = 0
+        }
+		set_party_name = { 
+			ideology = despotism
+			long_name = Taiwan_long
+			name = Taiwan_short
+		}
+	}
+    every_state = {
+		limit = { is_owned_by = HUU }
+		remove_core_of = JAP
+	}
+    every_state = {
+		limit = { is_core_of = KOR }
+		remove_core_of = JAP
+		transfer_state_to = KOR
+	}
+    every_state = {
+		limit = { 
+			is_core_of = SOR 
+			NOT = { state = 809 }
+		}
+		remove_core_of = JAP
+		transfer_state_to = SOR
+	}
+	JAP = { puppet = SOR }
+	809 = { remove_core_of = MAN }
+	SOR = { 
+	    set_capital = { state = 809 }
+		 transfer_state = 809
+		set_cosmetic_tag = Enkai
+		set_cosmetic_tag = Enkai
+	    add_ideas = Sphere_Fully_Dependent 
+        set_politics = {	
+        	ruling_party = despotism
+        	last_election = "1962.1.1"
+        	election_frequency = 48
+        	elections_allowed = no
+        }
+        set_popularities = {
+        	communist = 0
+        	ultranationalism = 0
+        	socialist = 0
+        	progressivism = 0
+        	liberalism = 0
+        	conservatism = 5
+        	paternalism = 40
+        	despotism = 35
+        	fascism = 20
+        	national_socialism = 0
+            esoteric_nazism = 0
+        }
+		set_party_name = { 
+			ideology = despotism
+			long_name = Enkai_long
+			name = Enkai_short
+		}
+	}
+	XXX = { 
+		KOR_Niimi_Masaichi = { set_nationality = SOR } 
+		JAP_Okuno_Seisuke = { set_nationality = SOR } 
+		JAP_Ikeda_Sumihisa = { set_nationality = SOR } 
+		JAP_Sanji_Shigenobu = { set_nationality = SOR } 
+		JAP_Onodera_Makoto = { set_nationality = SOR } 
+	}
+	SOR = { 
+		KOR_Niimi_Masaichi = { promote_character = paternalism } 
+		remove_all_ministers = yes
+	    add_ideas = {
+	    	JAP_Okuno_Seisuke_hog
+	    	JAP_Ikeda_Sumihisa_for
+	    	JAP_Sanji_Shigenobu_eco
+	    	JAP_Onodera_Makoto_sec
+	    }
+    }
+	XXX = { HUU_Kaya_Okinori = { set_nationality = HUU } }
+	HUU = { HUU_Kaya_Okinori = { promote_character = paternalism } }
+	MEN = { set_cosmetic_tag = Waimeng }
+	for_each_scope_loop = {
+		array = JAP.faction_members
+		set_variable = { ECON_SPHERE_LEADER = JAP }
+	}
+	GAN = { set_cosmetic_tag = Gansu }
+	XXX = { 
+		JAP_Watanabe_Takeshi = { set_nationality = HUU } 
+		JAP_Ozaki_Hotsumi = { set_nationality = HUU } 
+		JAP_Ishii_Mitsujiro = { set_nationality = HUU } 
+		JAP_Hanano_Kichihei = { set_nationality = HUU } 
+	}
+	HUU = {
+		remove_all_ministers = yes
+	    add_ideas = {
+	    	JAP_Watanabe_Takeshi_hog
+	    	JAP_Ozaki_Hotsumi_for
+	    	JAP_Ishii_Mitsujiro_eco
+	    	JAP_Hanano_Kichihei_sec
+	    }
+	}
+	XXX = { 
+		NCC_Zhu_Dian = { set_nationality = NCC } 
+		NCC_Miao_Bin = { set_nationality = NCC } 
+		NCC_Wang_Hongwen = { set_nationality = NCC } 
+		NCC_Peng_Shihong = { set_nationality = NCC } 
+		NCC_Liang_Huazhi = { set_nationality = NCC } 
+	}
+	NCC = {
+		NCC_Zhu_Dian = { promote_character = fascism } 
+		remove_all_ministers = yes
+	    add_ideas = {
+	    	NCC_Miao_Bin_hog
+	    	NCC_Wang_Hongwen_for
+	    	NCC_Peng_Shihong_eco
+	    	NCC_Liang_Huazhi_sec
+	    }
+        set_politics = {	
+        	ruling_party = fascism
+        	last_election = "1962.1.1"
+        	election_frequency = 48
+        	elections_allowed = no
+        }
+        set_popularities = {
+        	communist = 0
+        	ultranationalism = 0
+        	socialist = 0
+        	progressivism = 0
+        	liberalism = 0
+        	conservatism = 5
+        	paternalism = 30
+        	despotism = 15
+        	fascism = 50
+        	national_socialism = 0
+            esoteric_nazism = 0
+        }
+	}
+	XXX = { 
+		BNW_CHI_Chen_Gongbo = { set_nationality = CHI } 
+		CHI_Gan_Naiguang = { set_nationality = CHI } 
+		CHI_Shi_Cuntong = { set_nationality = CHI } 
+		BNW_CHI_Mei_Siping = { set_nationality = CHI } 
+		CHI_Ding_Mocun = { set_nationality = CHI } 
+	}
+	CHI = {
+		BNW_CHI_Chen_Gongbo = { promote_character = fascism } 
+		remove_all_ministers = yes
+	    add_ideas = {
+	    	CHI_Gan_Naiguang_hog
+	    	CHI_Shi_Cuntong_for
+	    	BNW_CHI_Mei_Siping_eco
+	    	CHI_Ding_Mocun_sec
+	    }	
+        set_politics = {	
+        	ruling_party = fascism
+        	last_election = "1962.1.1"
+        	election_frequency = 48
+        	elections_allowed = no
+        }
+        set_popularities = {
+        	communist = 0
+        	ultranationalism = 0
+        	socialist = 0
+        	progressivism = 0
+        	liberalism = 0
+        	conservatism = 5
+        	paternalism = 30
+        	despotism = 15
+        	fascism = 50
+        	national_socialism = 0
+            esoteric_nazism = 0
+        }	
+	}
+	XXX = { 
+		JAP_Tokugawa_Gishin = { set_nationality = JAP } 
+		JAP_Furumi_Tadayuki = { set_nationality = JAP } 
+		JAP_Amogus = { set_nationality = JAP } 
+		BNW_JAP_Shiina_Etsusaburo = { set_nationality = JAP } 
+		JAP_Kawakami_Jotaro = { set_nationality = JAP } 
+	}
+	JAP = {
+		JAP_Tokugawa_Gishin = { promote_character = fascism } 
+		remove_all_ministers = yes
+	    add_ideas = {
+	    	JAP_Furumi_Tadayuki_hog
+	    	JAP_Amogus_for
+	    	BNW_JAP_Shiina_Etsusaburo_eco
+	    	JAP_Kawakami_Jotaro_sec
+	    }		
+	}
+	XXX = { 
+		SHX_Rong_Ziheng = { set_nationality = SHX } 
+	}
+	SHX = {
+		SHX_fu_zuoyi = { set_nationality = SCC } 
+		SHX_Rong_Ziheng = { promote_character = despotism } 
+	}
+	SHX = {
+		SHX_fu_zuoyi = { promote_character = despotism } 
+	}
+}
 
 BNWJapanSetup = {
 	JAP_Imperial_Court_Setup = yes
@@ -1174,6 +1179,7 @@ BNWNuclearProgramCompletion = {
 	set_technology = { MRBM = 1 }
 	set_technology = { SRBM = 1 }
 	
+	set_technology = { missile_silos = 1 }
 	set_technology = { nuclear_reactors = 1 }
 	set_technology = { nuclear_weapons = 1 }
 
@@ -17512,7 +17518,6 @@ QINMonthlyTick = {
 		    QIN = {
 			owns_state = 604 
 		    owns_state = 906
-			owns_state = 2429
             }			
 		}
 		subtract_from_variable = { State_Stability^0 = QIN_han_proQINce_stability_tick }
@@ -17770,7 +17775,6 @@ QINAddSlotEffect = {
 	    		OR = {
 	    			state = 604
 	    			state = 906
-					state = 2429
 	    		}
 	    	}
 	    	add_extra_state_shared_building_slots = 1
@@ -17823,7 +17827,6 @@ QINAddSlotEffect = {
 	    	limit = {
 	    		OR = {
 	    			state = 764
-					state = 2427
 	    		}
 	    	}
 	    	add_extra_state_shared_building_slots = 1
@@ -17939,7 +17942,6 @@ QINAddFactoryEffect = {
 	    		OR = {
 	    			state = 604
 	    			state = 906
-					state = 2429
 	    		}
 	    	}
 			add_building_construction = {
@@ -18008,7 +18010,6 @@ QINAddFactoryEffect = {
 	    	limit = {
 	    		OR = {
 	    			state = 764
-					state = 2427
 	    		}
 	    	}
 			add_building_construction = {
@@ -18647,11 +18648,7 @@ QINProposalModifier = {
 			AND = {
 				check_variable = { legislation_proposer^pending_legislation_id = 0 }
 				OR = {
-				    check_variable = { 
-						var = opposition_int_id 
-						value = 4 
-						compare = less_than_or_equals
-					}			
+				    check_variable = { opposition_int_id = < 4 }			
 				}
 		    }
 		}
@@ -18675,11 +18672,7 @@ QINProposalModifier = {
 			AND = {
 				check_variable = { legislation_proposer^pending_legislation_id = 2 }
 				OR = {
-					check_variable = { 
-						var = opposition_int_id 
-						value = 4 
-						compare = greater_than_or_equals
-					}						
+					check_variable = { opposition_int_id = > 4 }						
 				}
 		    }
 		}

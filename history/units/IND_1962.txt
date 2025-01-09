@@ -1,0 +1,699 @@
+﻿division_template = {
+	name = "Armoured Brigade"
+	is_locked = yes	
+	division_names_group = IND_ARM_01
+	regiments = {
+		MBT = { x = 0 y = 0 }
+		IFV = { x = 0 y = 1 }
+		IFV = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Armoured Division"
+	is_locked = yes	
+	division_names_group = IND_ARM_01
+	regiments = {
+		MBT = { x = 0 y = 0 }
+		MBT = { x = 0 y = 1 }
+		IFV = { x = 0 y = 2 }
+		IFV = { x = 1 y = 0 }
+		IFV = { x = 1 y = 1 }
+		IFV = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Mechanised Brigade"
+	is_locked = yes	
+	division_names_group = IND_ARM_01
+	regiments = {
+		IFV = { x = 0 y = 0 }
+		IFV = { x = 0 y = 1 }
+		IFV = { x = 0 y = 2 }
+		APC = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Infantry Division"
+	is_locked = yes	
+	division_names_group = IND_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	is_locked = yes	
+	division_names_group = IND_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mountain Brigade"
+	is_locked = yes	
+	division_names_group = IND_INF_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Paratrooper Brigade"
+	is_locked = yes	
+	division_names_group = IND_INF_01
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 0 }
+		air_assault = { x = 0 y = 2 }
+		transport_helicopter_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Elite Brigade"
+	is_locked = yes	
+	division_names_group = IND_INF_01
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		IFV_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Air Defence Brigade"					
+    is_locked = yes	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		anti_air_brigade = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Mountain Division"
+	is_locked = yes	
+	division_names_group = IND_MNT_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Artillery Brigade"
+	is_locked = yes	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+########################################
+
+
+units = {
+	### EASTERN COMMAND ###
+
+	## II Corps ##
+	division = {	
+		name = "50th Independent Parachute Brigade"
+		location = 10060
+		division_template = "Paratrooper Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {	
+		name = "8th Mountain Artillery Brigade"
+		location = 1101
+		division_template = "Artillery Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "9th Infantry Division"
+		location = 1538
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "4th Mountain Division"
+		location = 1101
+		division_template = "Mountain Division"
+		start_experience_factor = 0.35
+	}
+	## IV Corps ##
+	division = {	
+		name = "IV Corps Artillery Brigade"
+		location = 893
+		division_template = "Artillery Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "8th Mountain Division"
+		location = 7497
+		division_template = "Mountain Division"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "23rd Mountain Division"
+		location = 12480
+		division_template = "Mountain Division"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "57th Mountain Division"
+		location = 2005
+		division_template = "Mountain Division"
+		start_experience_factor = 0.35
+	}
+    ## XXXIII Corps ##
+	division = {	
+		name = "XXXIII Corps Artillery Brigade"
+		location = 8114
+		division_template = "Artillery Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "471st Engineering Brigade"
+		location = 9951
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "71st Mountain Brigade"
+		location = 1898
+		division_template = "Mountain Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "6th Mountain Division"
+		location = 10021
+		division_template = "Mountain Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "20th Mountain Division"
+		location = 13223
+		division_template = "Mountain Division"
+		start_experience_factor = 0.25
+	}
+
+	division = {	
+		name = "312 Air Defence Brigade"
+		location = 1377
+		division_template = "Air Defence Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "342 Independent Air Defence brigade"
+		location = 13220
+		division_template = "Air Defence Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "5th Mountain Brigade"
+		location = 4299
+		division_template = "Mountain Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "95th Mountain Brigade"
+		location = 9973
+		division_template = "Mountain Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "167th Infantry Brigade"
+		location = 12786
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.35
+	}
+
+    ### WESTERN COMMAND ###
+
+	## XI Corps ##
+	division = {	
+		name = "XI Corps Artillery Brigade"
+		location = 8022
+		division_template = "Artillery Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "XI Corps Air Defence Brigade"
+		location = 13233
+		division_template = "Air Defence Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "7th Infantry Division"
+		location = 13233
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "15th Infantry Division"
+		location = 8022
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "23rd Independent Armoured Brigade"
+		location = 10173
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "55th Mechanised Brigade"
+		location = 2084
+		division_template = "Mechanised Brigade"
+		start_experience_factor = 0.25
+	}
+    ### NORTHERN COMMAND ###
+
+    ## XIV Corps ##
+	division = {	
+		name = "8th Mountain Division"
+		location = 13229
+		division_template = "Mountain Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "3rd Infantry Division"
+		location = 2076
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "102nd Independent Infantry Brigade"
+		location = 8005
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "118th Independent Infantry Brigade"
+		location = 2041
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.35
+	}
+
+	## XV Corps ##
+	division = {	
+		name = "19th Mountain Division"
+		location = 12777
+		division_template = "Mountain Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "28th Infantry Division"
+		location = 12137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+    ## I Corps ##
+	division = {	
+		name = "36th Infantry Division"
+		location = 9973
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "39th Infantry Division"
+		location = 12786
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "54th Infantry Division"
+		location = 2005
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+    ## XVI Corps ##
+	division = {	
+		name = "10th Infantry Division"
+		location = 1107
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "25th Infantry Division"
+		location = 7903
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "39th Infantry Division"
+		location = 10735
+		division_template = "Infantry Division"
+		start_experience_factor = 0.35
+	}
+
+	### SOUTHERN COMMAND ###
+
+	## XII Corps ##
+	division = {	
+		name = "11st Mountain Division"
+		location = 7232
+		division_template = "Mountain Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "12nd Infantry Division"
+		location = 4395
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "75th Infantry Brigade"
+		location = 4072
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "4th Independent Armoured Brigade"
+		location = 1349
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "340th Mechanised Brigade"
+		location = 10270
+		division_template = "Mechanised Brigade"
+		start_experience_factor = 0.25
+	}
+    ## XXI Corps ##
+	division = {	
+		name = "XXI Corps Artillery Brigade"
+		location = 2105
+		division_template = "Artillery Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "471st Engineering Brigade"
+		location = 8076
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "31st Armoured Division"
+		location = 4950
+		division_template = "Armoured Division"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "36th Infantry Division"
+		location = 4953
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "54th Infantry Division"
+		location = 2105
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	## X Corps ##
+	division = {	
+		name = "16th Infantry Division"
+		location = 4984
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "18th Infantry Division"
+		location = 9975
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "24th Infantry Division"
+		location = 4110
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "6th Independent Armoured Brigade"
+		location = 7049
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "6th Independent Armoured Brigade"
+		location = 10108
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.35
+	}
+	division = {	
+		name = "33rd Armoured Division"
+		location = 3456
+		division_template = "Armoured Division"
+		start_experience_factor = 0.35
+	}
+	## II Corps ##
+	division = {	
+		name = "II Corps Artillery Brigade"
+		location = 12480
+		division_template = "Artillery Brigade"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "1st Armoured Division"
+		location = 7497
+		division_template = "Infantry Division"
+		start_experience_factor = 0.45
+	}
+	division = {	
+		name = "14th Infantry Division"
+		location = 4513
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "22nd Infantry Division"
+		location = 4513
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+	}
+	division = {	
+		name = "16th Independent Armoured Brigade"
+		location = 12462
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.35
+	}
+	## Regiments ##
+	division = {	
+		name = "IAAC Armoured Regiments"
+		location = 10060
+		division_template = "Armoured Division"
+		start_experience_factor = 0.5
+	}  
+	division = {	
+		name = "IAAC Armoured Regiments"
+		location = 4915
+		division_template = "Armoured Division"
+		start_experience_factor = 0.5
+	}  
+	division = {	
+		name = "IAAC Armoured Regiments"
+		location = 10255
+		division_template = "Armoured Division"
+		start_experience_factor = 0.5
+	}  
+	division = {	
+		name = "IAAC Armoured Regiments"
+		location = 4915
+		division_template = "Armoured Division"
+		start_experience_factor = 0.5
+	}  
+	division = {	
+		name = "IAAC Armoured Regiments"
+		location = 4915
+		division_template = "Armoured Division"
+		start_experience_factor = 0.5
+	}  
+	division = {	
+		name = "IAAC Armoured Regiments"
+		location = 4915
+		division_template = "Armoured Division"
+		start_experience_factor = 0.5
+	}  
+	division = {	
+		name = "President's Bodyguard"
+		location = 2086
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Gorkha Rifle Regiments"
+		location = 2086
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Army Infantry Regiments"
+		location = 10278
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Army Infantry Regiments"
+		location = 1238
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Army Infantry Regiments"
+		location = 8087
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Army Infantry Regiments"
+		location = 12420
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Army Infantry Regiments"
+		location = 1538
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Army Infantry Regiments"
+		location = 10278
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Army Infantry Regiments"
+		location = 1238
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Army Infantry Regiments"
+		location = 8087
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Army Infantry Regiments"
+		location = 12420
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	division = {	
+		name = "Army Infantry Regiments"
+		location = 1538
+		division_template = "Elite Brigade"
+		start_experience_factor = 0.9
+	}
+	
+	#######Naval#######
+#	navy = {
+#		name = "1st Fleet"
+#		base = 3456
+#		location = 3456
+#		ship = { name = "INS Rajput" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IND } } }
+#		ship = { name = "INS Jawala" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = IND } } }
+#		ship = { name = "INS Nehru" definition = cruiser equipment = { cruiser_1 = { amount = 1 owner = IND } } }
+#		ship = { name = "INS Khukri" definition = frigate equipment = { frigate_1 = { amount = 1 owner = IND } } }
+#		ship = { name = "INS Vijay" definition = frigate equipment = { frigate_1 = { amount = 1 owner = IND } } }
+#		ship = { name = "INS Prashata" definition = frigate equipment = { frigate_1 = { amount = 1 owner = IND } } }
+#	}
+#	navy = {
+#		name = "2nd Fleet"
+#		base = 1349
+#		location = 1349
+#		ship = { name = "INS Bombay" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = IND } } }
+#		ship = { name = "INS Shivaji" definition = frigate equipment = { frigate_1 = { amount = 1 owner = IND } } }
+#		ship = { name = "INS Patna" definition = frigate equipment = { frigate_1 = { amount = 1 owner = IND } } }
+#
+#
+#	}
+#	navy = {
+#		name = "3rd Fleet"
+#		base = 10201
+#		location = 10201
+#		ship = { name = "INS Khukri" definition = frigate equipment = { frigate_1 = { amount = 1 owner = IND } } }
+#		ship = { name = "INS Khukri" definition = frigate equipment = { frigate_1 = { amount = 1 owner = IND } } }
+#		ship = { name = "INS Khukri" definition = frigate equipment = { frigate_1 = { amount = 1 owner = IND } } }
+#	}
+}

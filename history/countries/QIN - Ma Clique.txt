@@ -8,8 +8,6 @@ set_country_flag = tno_playable_country
 set_country_flag = tmm_cost_1
 set_country_flag = country_has_gui
 set_country_flag = QIN_Legislation_In_Recess
-set_country_flag = CountryInfo_HasCustomCloseButton
-set_country_flag = TNO_Country_Info_Screen_Visible
 
 # Starting tech
 
@@ -51,7 +49,7 @@ set_technology = {
 	#
 	tech_special_forces = 1
 
-	artillery_1945 = 1
+	artillery4 = 1
 
 	##SUPPORT##
 	tech_support = 1
@@ -73,9 +71,9 @@ set_technology = {
 	tech_signal_company2 = 1
 
 	##ARMOR##
-	APC_1945 = 1
-	IFV_1945 = 1
-	MBT_1945 = 1
+	mechanised_infantry3 = 1
+	advanced_light_tank = 1
+	advanced_medium_tank = 1
 
 	##HELICOPTERS##
 	helicopter_engines = 1
@@ -146,6 +144,7 @@ set_popularities = {
 	despotism = 10
 	fascism = 1
 	national_socialism = 0
+    esoteric_nazism = 0
 
 }
 
@@ -157,6 +156,7 @@ recruit_character = QIN_Chiang_Chingkuo
 recruit_character = QIN_Zhou_Hongtao
 recruit_character = QIN_Lei_Zhen
 recruit_character = QIN_national_assembly
+recruit_character = QIN_lei_zhen
 recruit_character = QIN_zhang_qun_leader
 recruit_character = QIN_zhang_qun
 recruit_character = QIN_zhang_shenfu
@@ -187,6 +187,10 @@ recruit_character = QIN_Wu_Guozhen
 recruit_character = QIN_Xiong_Shihui
 recruit_character = QIN_Zhang_Jiaao
 recruit_character = QIN_Hang_Liwu
+set_nationality = {
+    target_country = QIN
+    character = QIN_Ji_Chaoding
+}
 recruit_character = QIN_Ji_Chaoding
 
 add_ideas = {
@@ -218,7 +222,7 @@ add_ideas = {
 
 	#Economic
 	tno_trade_laws_export_focus
-	tno_income_taxation_low_income_weighted
+	tno_income_taxation_elite_tax_exemptions
 	tno_minimum_wage_no_minimum_wage
 	tno_max_workhours_unlimited_work_day
 	tno_child_labor_legal
@@ -234,7 +238,7 @@ add_ideas = {
 	tno_lgbt_rights_lgbt_outlawed
 	tno_gender_rights_traditional_roles
 	tno_minorities_equal_rights
-	tno_security_crime_prevention
+	tno_security_regulated_police
 
 	#Societal Development
 	tno_army_professionalism_disgruntled_veterans
@@ -491,8 +495,8 @@ multiply_variable = {
 }
 
 
-# set_country_flag = president_ni_wenya
-# set_country_flag = whip_ma_shuli
+set_country_flag = president_ni_wenya
+set_country_flag = whip_ma_shuli
 set_country_flag = QIN_Legislation_In_Recess
 set_country_flag = QIN_Legislation_Stage_1
 
