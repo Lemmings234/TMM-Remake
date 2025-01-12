@@ -69,7 +69,78 @@ QIN_INF_01 = {
 		17 = { "NRA 200th Division" }	
     }
 }
+XSM_INF_01 = {
+	name = "NRA Infantry Divisions"
+
+	for_countries = { QIN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { QIN_INF_01 }
+
+	fallback_name = "NRA %d Infantry Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+###MA CLIQUE DIVISION NAMELIST###
+
+	ordered = {
+		1 = { "NRA 95th Reorganised Infantry Division" }	#Elite Qinghai Ma Clique Division
+		2 = { "NRA 84th Infantry Division" }				#Part of Hu Zongnan NRA 17th Corps
+		3 = { "NRA 64th Infantry Division" }				#Ningxia Ma Clique reserve division
+		4 = { "NRA 21st Infantry Division" }	            #17h Corp's other division
+		5 = { "NRA 100th Infantry Division" }	            #Qinghai Ma Clique divisions, OTL 1947 expansion
+		6 = { "NRA 190th Infantry Division" }	
+		7 = { "NRA 248th Infantry Division" }	
+		8 = { "NRA Reorganised 1st Infantry Division" }	
+		9 = { "NRA 357th Infantry Division" }	
+		10 = { "NRA 168th Infantry Division" }	            #Ningxia Ma Clique divisions
+		11 = { "NRA 35th Infantry Division" }	
+		12 = { "NRA 357th Infantry Division" }	
+		13 = { "NRA New 7th Infantry Division" }	
+		14 = { "NRA 357th Infantry Division" }	
+		15 = { "NRA 128th Infantry Division" }	
+		16 = { "NRA 38th Reorganised Infantry Division" }	
+		17 = { "NRA 200th Division" }	
+    }
+}
 QIN_INF_02 = {
+	name = "NRA Infantry Brigades"
+
+	for_countries = { QIN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { QIN_INF_01 }
+
+	fallback_name = "NRA %d Infantry Brigade"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	
+###MA CLIQUE DIVISION NAMELIST###
+
+	ordered = {
+		1 = { "NRA Qinghai Brigade" }	
+		2 = { "Northeast Volunteer Brigade" }				
+		3 = { "NRA Golmud Brigade" }			
+		4 = { "NRA Xining Brigade" }	         
+		5 = { "NRA Yushu Brigade" }	           
+		6 = { "NRA Jiuquan Brigade" }	
+		7 = { "NRA Dunhuang Brigade" }	
+		8 = { "NRA Lanzhou Brigade" }	
+		9 = { "NRA Hami Brigade" }	
+		10 = { "NRA Liangzhou Brigade" }	         
+    }
+}
+XSM_INF_02 = {
 	name = "NRA Infantry Brigades"
 
 	for_countries = { QIN }
@@ -103,6 +174,34 @@ QIN_INF_02 = {
 }
 ###Cavalry Brigades###
 QIN_CAV_01 = {
+	name = "Ma Cavalry Brigades"
+
+	for_countries = { QIN }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { QIN_CAV_01 }
+
+	fallback_name = "%d Ma Cavalry Brigade"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Hainan Patrol Brigade" }			# Ma Clique Cavalry Brigades
+		2 = { "NRA 1st Cav. Div., 1st Cavalry Brigade" }
+		3 = { "NRA 1st Cav. Div., 2nd Cavalry Brigade" }
+		4 = { "NRA 1st Cav. Div., 3rd Cavalry Brigade" }
+		6 = { "8th Cavalry Brigade" }
+		5 = { "14th Cavalry Brigade" }
+		7 = { "4th Cavalry Brigade" }
+		8 = { "Reorganised 8th Cavalry Brigade" }
+		9 = { "5th Cavalry Brigade" }
+	}
+}
+XSM_CAV_01 = {
 	name = "Ma Cavalry Brigades"
 
 	for_countries = { QIN }
