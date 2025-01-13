@@ -55,19 +55,19 @@ spriteTypes = {
 	}	
 	spriteType = {
 		name = "GFX_SIC_Deng_Xihou"
-		textureFile = "gfx/interface/ideas/SIC/ministers/SIC_Deng_Xihou.dds"
+		textureFile = "gfx/interface/ideas/national_spirits/SIC/ministers/SIC_Deng_Xihou.dds"
 	}
 	spriteType = {
 		name = "GFX_SIC_Xiong_Kewu"
-		textureFile = "gfx/interface/ideas/SIC/ministers/SIC_Xiong_Kewu.dds"
+		textureFile = "gfx/interface/ideas/national_spirits/SIC/ministers/SIC_Xiong_Kewu.dds"
 	}
 	spriteType = {
 		name = "GFX_SIC_Liu_Hangchen"
-		textureFile = "gfx/interface/ideas/SIC/ministers/SIC_Liu_Hangchen.dds"
+		textureFile = "gfx/interface/ideas/national_spirits/SIC/ministers/SIC_Liu_Hangchen.dds"
 	}
 	spriteType = {
 		name = "GFX_SIC_Pan_Wenhua"
-		textureFile = "gfx/interface/ideas/SIC/ministers/SIC_Pan_Wenhua.dds"
+		textureFile = "gfx/interface/ideas/national_spirits/SIC/ministers/SIC_Pan_Wenhua.dds"
 	}	
 	spriteType = {
 		name = "GFX_QIN_Xiong_Shihui"
