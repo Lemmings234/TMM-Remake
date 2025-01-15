@@ -1060,6 +1060,10 @@ spriteTypes = {
 		name = "GFX_QIN_Golmud_Lines"
 		texturefile = "gfx/interface/battle_for_golmud/Lines.dds"
 	}
+	spriteType = {
+		name = "GFX_TMM_info_button"
+		texturefile = "gfx/interface/info_button.dds"
+	}
 	#Full credit goes to le Kartenhaus, never knew it works this way. Though it limits variables to 3 including background,
 	#so that's the reason why I have unused sprites if you are wondering.
 	progressbartype = {
