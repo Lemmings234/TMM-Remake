@@ -1366,7 +1366,7 @@ QIN_BoG = {
 				value = 50
 			}
 			add_to_variable = {
-				var = QIN_BOG_11_STRENGTH_ALLIED
+				var = BOG_STRENGTH_ALLIED^11
 				value = 100
 			}
 			set_variable = { QIN_BOG_11_STRENGTH_NINGXIA = 0 }
@@ -1401,23 +1401,23 @@ QIN_BoG = {
 		complete_effect = {		
 			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_SOC"
 			add_to_variable = {
-				var = QIN_BOG_15_STRENGTH_ALLIED
+				var = BOG_STRENGTH_ALLIED^15
 				value = 25
 			}
 			add_to_variable = {
-				var = QIN_BOG_17_STRENGTH_ALLIED
+				var = BOG_STRENGTH_ALLIED^17
 				value = 25
 			}
 			add_to_variable = {
-				var = QIN_BOG_24_STRENGTH_ALLIED
+				var = BOG_STRENGTH_ALLIED^24
 				value = 25
 			}
 			add_to_variable = {
-				var = QIN_BOG_34_STRENGTH_ALLIED
+				var = BOG_STRENGTH_ALLIED^34
 				value = 25
 			}
 			add_to_variable = {
-				var = QIN_BOG_35_STRENGTH_ALLIED
+				var = BOG_STRENGTH_ALLIED^35
 				value = 25
 			}
 			add_to_variable = {
@@ -1471,7 +1471,7 @@ QIN_BoG = {
 		complete_effect = {		
 			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_CDL"
 			add_to_variable = {
-				var = QIN_BOG_09_STRENGTH_ALLIED
+				var = BOG_STRENGTH_ALLIED^9
 				value = 200
 			}
 			add_popularity = {
@@ -1680,7 +1680,7 @@ QIN_BoG = {
 			set_variable = { QIN_BOG_24_KMT = 50 }
 			set_variable = { QIN_BOG_25_KMT = 50 }		
 			add_to_variable = {
-				var = QIN_BOG_25_STRENGTH_ALLIED
+				var = BOG_STRENGTH_ALLIED^25
 				value = 500
 			}
 			QINWhydidIsubjectmyselftothisfuckery = yes

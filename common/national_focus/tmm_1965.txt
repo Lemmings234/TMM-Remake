@@ -748,7 +748,7 @@ shared_focus = {
 	completion_reward = {
 		custom_effect_tooltip = QIN_the_heart_of_the_party_tt
 		add_political_power = 30
-		add_to_variable = { QIN_BOG_07_STRENGTH_ALLIED = 50 }
+		add_to_variable = { BOG_STRENGTH_ALLIED^7 = 50 }
 		add_popularity = {
             ideology = paternalism
             popularity = 0.02
@@ -787,7 +787,7 @@ shared_focus = {
 	completion_reward = {
 		custom_effect_tooltip = QIN_voice_of_the_northwest_tt
 		add_political_power = 30
-		add_to_variable = { QIN_BOG_10_STRENGTH_ALLIED = 50 }
+		add_to_variable = { BOG_STRENGTH_ALLIED^10 = 50 }
 		add_popularity = {
             ideology = liberalism
             popularity = 0.02
@@ -826,7 +826,7 @@ shared_focus = {
 	completion_reward = {
 		custom_effect_tooltip = QIN_the_town_hall_tt
 		add_political_power = 30
-		add_to_variable = { QIN_BOG_08_STRENGTH_ALLIED = 50 }
+		add_to_variable = { BOG_STRENGTH_ALLIED^8 = 50 }
 		QIN_reload_tree = yes
 		add_popularity = {
             ideology = communist
@@ -871,7 +871,7 @@ shared_focus = {
 		set_country_flag = QIN_1965_stage3
 		QIN_reload_tree = yes
 		add_stability = 0.2
-		add_to_variable = { QIN_BOG_01_STRENGTH_ALLIED = 100 }
+		add_to_variable = { BOG_STRENGTH_ALLIED^1 = 100 }
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -928,7 +928,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = QIN_extraordinary_military_adjustment_tt
-		add_to_variable = { QIN_BOG_06_STRENGTH_ALLIED = 150 }
+		add_to_variable = { BOG_STRENGTH_ALLIED^6 = 150 }
 		add_equipment_to_stockpile = {
             type = infantry_equipment_2
             amount = 100
@@ -1099,7 +1099,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = QIN_reorganise_the_kla_tt
-		add_to_variable = { QIN_BOG_05_STRENGTH_ALLIED = 50 }
+		add_to_variable = { BOG_STRENGTH_ALLIED^5 = 50 }
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1189,7 +1189,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = QIN_the_citizen_militia_tt
-		add_to_variable = { QIN_BOG_34_STRENGTH_ALLIED = 200 }
+		add_to_variable = { BOG_STRENGTH_ALLIED^34 = 200 }
 		add_manpower = 500
 		}
 	cancel_if_invalid = yes
