@@ -1378,19 +1378,19 @@ country_event = {#BoGEvents
 				value = 150
 			    }
 			subtract_from_variable = { 
-				var = QIN_BOG_14_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^14
 				value = 450
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_13_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^13
 				value = 150
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_21_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^21
 				value = 150
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_39_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^39
 				value = 150
 			    }
 			QINWhydidIsubjectmyselftothisfuckery = yes
@@ -1445,19 +1445,19 @@ country_event = {#BoGEvents
 				value = 150
 			    }
 			subtract_from_variable = { 
-				var = QIN_BOG_14_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^14
 				value = 450
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_04_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^4
 				value = 150
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_37_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^37
 				value = 150
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_38_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^38
 				value = 150
 			    }
 			QINWhydidIsubjectmyselftothisfuckery = yes
@@ -1488,23 +1488,23 @@ country_event = {#BoGEvents
 		hidden_effect = {
 	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.nice"
 			subtract_from_variable = { 
-				var = QIN_BOG_14_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^14
 				value = 800
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_20_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^20
 				value = 200
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_40_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^40
 				value = 200
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_13_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^13
 				value = 200
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_21_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^21
 				value = 200
 			    }
 			QINWhydidIsubjectmyselftothisfuckery = yes
@@ -1731,9 +1731,9 @@ country_event = {#CivilWarEvents
 				id = tmm.maclique.79
 				days = 2
 			    }
-			add_to_variable = { QIN_BOG_14_STRENGTH_NINGXIA = 100 }
-			add_to_variable = { QIN_BOG_21_STRENGTH_NINGXIA = 250 }
-			add_to_variable = { QIN_BOG_39_STRENGTH_NINGXIA = 250 }
+			add_to_variable = { BOG_STRENGTH_NINGXIA^14 = 100 }
+			add_to_variable = { BOG_STRENGTH_NINGXIA^21 = 250 }
+			add_to_variable = { BOG_STRENGTH_NINGXIA^39 = 250 }
 	        }
 	    }
 	option = { 
@@ -1996,9 +1996,9 @@ country_event = {#CivilWarEvents
 				id = tmm.maclique.89
 				days = 6
 			    }
-			add_to_variable = { QIN_BOG_14_STRENGTH_NINGXIA = 100 }
-			add_to_variable = { QIN_BOG_21_STRENGTH_NINGXIA = 250 }
-			add_to_variable = { QIN_BOG_39_STRENGTH_NINGXIA = 250 }
+			add_to_variable = { BOG_STRENGTH_NINGXIA^14 = 100 }
+			add_to_variable = { BOG_STRENGTH_NINGXIA^21 = 250 }
+			add_to_variable = { BOG_STRENGTH_NINGXIA^39 = 250 }
 	        }
 	    }
 	option = { 
@@ -2285,9 +2285,9 @@ country_event = {#CivilWarEvents
 				id = tmm.maclique.100
 				days = 4
 			    }
-			add_to_variable = { QIN_BOG_14_STRENGTH_NINGXIA = 100 }
-			add_to_variable = { QIN_BOG_21_STRENGTH_NINGXIA = 250 }
-			add_to_variable = { QIN_BOG_39_STRENGTH_NINGXIA = 250 }
+			add_to_variable = { BOG_STRENGTH_NINGXIA^14 = 100 }
+			add_to_variable = { BOG_STRENGTH_NINGXIA^21 = 250 }
+			add_to_variable = { BOG_STRENGTH_NINGXIA^39 = 250 }
 	        }
 	    }
 	option = { 

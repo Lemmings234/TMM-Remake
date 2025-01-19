@@ -7648,7 +7648,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_1_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_01_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^1
 				value = 0
 				compare = greater_than
 			}
@@ -7657,7 +7657,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_2_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_02_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^2
 				value = 0
 				compare = greater_than
 			}
@@ -7666,7 +7666,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_3_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_03_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^3
 				value = 0
 				compare = greater_than
 			}
@@ -7675,7 +7675,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_4_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_04_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^4
 				value = 0
 				compare = greater_than
 			}
@@ -7684,7 +7684,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_5_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_05_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^5
 				value = 0
 				compare = greater_than
 			}
@@ -7693,7 +7693,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_6_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_06_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^6
 				value = 0
 				compare = greater_than
 			}
@@ -7702,7 +7702,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_7_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_07_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^7
 				value = 0
 				compare = greater_than
 			}
@@ -7711,7 +7711,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_8_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_08_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^8
 				value = 0
 				compare = greater_than
 			}
@@ -7720,7 +7720,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_9_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_09_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^9
 				value = 0
 				compare = greater_than
 			}
@@ -7729,7 +7729,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_10_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_10_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^10
 				value = 0
 				compare = greater_than
 			}
@@ -7738,7 +7738,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_11_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_11_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^11
 				value = 0
 				compare = greater_than
 			}
@@ -7747,7 +7747,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_12_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_12_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^12
 				value = 0
 				compare = greater_than
 			}
@@ -7756,7 +7756,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_13_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_13_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^13
 				value = 0
 				compare = greater_than
 			}
@@ -7765,7 +7765,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_14_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_14_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^14
 				value = 0
 				compare = greater_than
 			}
@@ -7774,7 +7774,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_15_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_15_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^15
 				value = 0
 				compare = greater_than
 			}
@@ -7783,7 +7783,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_16_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_16_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^16
 				value = 0
 				compare = greater_than
 			}
@@ -7792,7 +7792,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_17_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_17_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^17
 				value = 0
 				compare = greater_than
 			}
@@ -7801,7 +7801,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_18_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_18_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^18
 				value = 0
 				compare = greater_than
 			}
@@ -7810,7 +7810,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_19_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_19_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^19
 				value = 0
 				compare = greater_than
 			}
@@ -7819,7 +7819,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_20_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_20_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^20
 				value = 0
 				compare = greater_than
 			}
@@ -7828,7 +7828,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_21_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_21_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^21
 				value = 0
 				compare = greater_than
 			}
@@ -7837,7 +7837,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_22_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_22_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^22
 				value = 0
 				compare = greater_than
 			}
@@ -7846,7 +7846,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_23_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_23_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^23
 				value = 0
 				compare = greater_than
 			}
@@ -7855,7 +7855,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_24_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_24_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^24
 				value = 0
 				compare = greater_than
 			}
@@ -7864,7 +7864,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_25_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_25_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^25
 				value = 0
 				compare = greater_than
 			}
@@ -7873,7 +7873,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_26_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_26_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^26
 				value = 0
 				compare = greater_than
 			}
@@ -7882,7 +7882,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_27_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_27_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^27
 				value = 0
 				compare = greater_than
 			}
@@ -7891,7 +7891,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_28_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_28_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^28
 				value = 0
 				compare = greater_than
 			}
@@ -7900,7 +7900,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_29_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_29_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^29
 				value = 0
 				compare = greater_than
 			}
@@ -7909,7 +7909,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_30_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_30_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^30
 				value = 0
 				compare = greater_than
 			}
@@ -7918,7 +7918,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_31_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_31_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^31
 				value = 0
 				compare = greater_than
 			}
@@ -7927,7 +7927,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_32_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_32_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^32
 				value = 0
 				compare = greater_than
 			}
@@ -7936,7 +7936,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_33_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_33_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^33
 				value = 0
 				compare = greater_than
 			}
@@ -7945,7 +7945,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_34_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_34_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^34
 				value = 0
 				compare = greater_than
 			}
@@ -7954,7 +7954,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_35_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_35_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^35
 				value = 0
 				compare = greater_than
 			}
@@ -7963,7 +7963,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_36_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_36_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^36
 				value = 0
 				compare = greater_than
 			}
@@ -7972,7 +7972,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_37_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_37_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^37
 				value = 0
 				compare = greater_than
 			}
@@ -7981,7 +7981,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_38_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_38_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^38
 				value = 0
 				compare = greater_than
 			}
@@ -7990,7 +7990,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_39_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_39_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^39
 				value = 0
 				compare = greater_than
 			}
@@ -7999,7 +7999,7 @@ QIN_golmud_city_Z40N_visible = {
     QIN_golmud_Banner_40_visible = {
 		AND = {
 			check_variable = {
-				var = QIN_BOG_40_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^40
 				value = 0
 				compare = greater_than
 			}

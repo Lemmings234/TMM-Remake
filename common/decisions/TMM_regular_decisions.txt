@@ -256,163 +256,163 @@ QIN_Debug = {
 		cost = 0
 		complete_effect = {		
 			add_to_variable = {
-				var = QIN_BOG_01_KMT
+				var = BOG_KMT^1
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_02_KMT
+				var = BOG_KMT^2
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_03_KMT
+				var = BOG_KMT^3
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_04_KMT
+				var = BOG_KMT^4
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_05_KMT
+				var = BOG_KMT^5
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_06_KMT
+				var = BOG_KMT^6
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_07_KMT
+				var = BOG_KMT^7
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_08_KMT
+				var = BOG_KMT^8
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_09_KMT
+				var = BOG_KMT^9
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_10_KMT
+				var = BOG_KMT^10
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_11_KMT
+				var = BOG_KMT^11
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_12_KMT
+				var = BOG_KMT^12
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_13_KMT
+				var = BOG_KMT^13
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_14_KMT
+				var = BOG_KMT^14
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_15_KMT
+				var = BOG_KMT^15
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_16_KMT
+				var = BOG_KMT^16
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_17_KMT
+				var = BOG_KMT^17
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_18_KMT
+				var = BOG_KMT^18
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_19_KMT
+				var = BOG_KMT^19
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_20_KMT
+				var = BOG_KMT^20
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_21_KMT
+				var = BOG_KMT^21
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_22_KMT
+				var = BOG_KMT^22
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_23_KMT
+				var = BOG_KMT^23
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_24_KMT
+				var = BOG_KMT^24
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_25_KMT
+				var = BOG_KMT^25
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_26_KMT
+				var = BOG_KMT^26
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_27_KMT
+				var = BOG_KMT^27
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_28_KMT
+				var = BOG_KMT^28
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_29_KMT
+				var = BOG_KMT^29
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_30_KMT
+				var = BOG_KMT^30
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_31_KMT
+				var = BOG_KMT^31
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_32_KMT
+				var = BOG_KMT^32
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_33_KMT
+				var = BOG_KMT^33
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_34_KMT
+				var = BOG_KMT^34
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_35_KMT
+				var = BOG_KMT^35
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_36_KMT
+				var = BOG_KMT^36
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_37_KMT
+				var = BOG_KMT^37
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_38_KMT
+				var = BOG_KMT^38
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_39_KMT
+				var = BOG_KMT^39
 				value = 100
 			}
 			add_to_variable = {
-				var = QIN_BOG_40_KMT
+				var = BOG_KMT^40
 				value = 100
 			}
 			QINWhydidIsubjectmyselftothisfuckery = yes
@@ -792,7 +792,7 @@ QIN_Debug = {
 		cost = 0
 		complete_effect = {		
 			add_to_variable = {
-				var = QIN_BOG_01_STRENGTH_NINGXIA
+				var = BOG_STRENGTH_NINGXIA^1
 				value = 100
 			}
 		}
@@ -1362,14 +1362,14 @@ QIN_BoG = {
 		complete_effect = {		
 			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_COM"
 			add_to_variable = {
-				var = QIN_BOG_11_CCP
+				var = BOG_CCP^11
 				value = 50
 			}
 			add_to_variable = {
 				var = BOG_STRENGTH_ALLIED^11
 				value = 100
 			}
-			set_variable = { QIN_BOG_11_STRENGTH_NINGXIA = 0 }
+			set_variable = { BOG_STRENGTH_NINGXIA^11 = 0 }
 			add_popularity = {
 				ideology = communist
                 popularity = 0.015
@@ -1421,23 +1421,23 @@ QIN_BoG = {
 				value = 25
 			}
 			add_to_variable = {
-				var = QIN_BOG_15_Tension
+				var = BOG_Tension^15
 				value = 10
 			}
 			add_to_variable = {
-				var = QIN_BOG_17_Tension
+				var = BOG_Tension^17
 				value = 10
 			}
 			add_to_variable = {
-				var = QIN_BOG_24_Tension
+				var = BOG_Tension^24
 				value = 10
 			}
 			add_to_variable = {
-				var = QIN_BOG_34_Tension
+				var = BOG_Tension^34
 				value = 10
 			}
 			add_to_variable = {
-				var = QIN_BOG_35_Tension
+				var = BOG_Tension^35
 				value = 10
 			}
 			add_popularity = {
@@ -1505,7 +1505,7 @@ QIN_BoG = {
 		complete_effect = {	
 			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_NXC"	
 			subtract_from_variable = {
-				var = QIN_BOG_14_DEFENSIVE_ADVANTAGE
+				var = BOG_Advantage^14
 				value = 5
 			}
 		add_equipment_to_stockpile = {
@@ -1543,82 +1543,82 @@ QIN_BoG = {
 		complete_effect = {		
 			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_ZXX"
 			QINWhydidIsubjectmyselftothisfuckery = yes
-			add_to_variable = { QIN_BOG_01_KMT = 6 }
-			add_to_variable = { QIN_BOG_02_KMT = 6 }
-			add_to_variable = { QIN_BOG_03_KMT = 6 }
-			add_to_variable = { QIN_BOG_04_KMT = 6 }
-			add_to_variable = { QIN_BOG_05_KMT = 6 }
-			add_to_variable = { QIN_BOG_06_KMT = 6 }
-			add_to_variable = { QIN_BOG_07_KMT = 6 }
-			add_to_variable = { QIN_BOG_08_KMT = 6 }
-			add_to_variable = { QIN_BOG_09_KMT = 6 }
-			add_to_variable = { QIN_BOG_10_KMT = 6 }
-			add_to_variable = { QIN_BOG_11_KMT = 6 }
-			add_to_variable = { QIN_BOG_12_KMT = 6 }
-			add_to_variable = { QIN_BOG_13_KMT = 6 }
-			add_to_variable = { QIN_BOG_15_KMT = 6 }
-			add_to_variable = { QIN_BOG_16_KMT = 6 }
-			add_to_variable = { QIN_BOG_17_KMT = 6 }
-			add_to_variable = { QIN_BOG_18_KMT = 6 }
-			add_to_variable = { QIN_BOG_19_KMT = 6 }
-			add_to_variable = { QIN_BOG_20_KMT = 6 }
-			add_to_variable = { QIN_BOG_21_KMT = 6 }
-			add_to_variable = { QIN_BOG_22_KMT = 6 }
-			add_to_variable = { QIN_BOG_23_KMT = 6 }
-			add_to_variable = { QIN_BOG_24_KMT = 6 }
-			add_to_variable = { QIN_BOG_25_KMT = 6 }
-			add_to_variable = { QIN_BOG_26_KMT = 6 }
-			add_to_variable = { QIN_BOG_27_KMT = 6 }
-			add_to_variable = { QIN_BOG_28_KMT = 6 }
-			add_to_variable = { QIN_BOG_29_KMT = 6 }
-			add_to_variable = { QIN_BOG_30_KMT = 6 }
-			add_to_variable = { QIN_BOG_31_KMT = 6 }
-			add_to_variable = { QIN_BOG_32_KMT = 6 }
-			add_to_variable = { QIN_BOG_33_KMT = 6 }
-			add_to_variable = { QIN_BOG_34_KMT = 6 }
-			add_to_variable = { QIN_BOG_35_KMT = 6 }
-			add_to_variable = { QIN_BOG_36_KMT = 6 }
-			add_to_variable = { QIN_BOG_37_KMT = 6 }
-			add_to_variable = { QIN_BOG_38_KMT = 6 }
-			add_to_variable = { QIN_BOG_39_KMT = 6 }
-			add_to_variable = { QIN_BOG_01_CCP = 4 }
-			add_to_variable = { QIN_BOG_02_CCP = 4 }
-			add_to_variable = { QIN_BOG_03_CCP = 4 }
-			add_to_variable = { QIN_BOG_04_CCP = 4 }
-			add_to_variable = { QIN_BOG_05_CCP = 4 }
-			add_to_variable = { QIN_BOG_06_CCP = 4 }
-			add_to_variable = { QIN_BOG_07_CCP = 4 }
-			add_to_variable = { QIN_BOG_08_CCP = 4 }
-			add_to_variable = { QIN_BOG_09_CCP = 4 }
-			add_to_variable = { QIN_BOG_10_CCP = 4 }
-			add_to_variable = { QIN_BOG_11_CCP = 4 }
-			add_to_variable = { QIN_BOG_12_CCP = 4 }
-			add_to_variable = { QIN_BOG_13_CCP = 4 }
-			add_to_variable = { QIN_BOG_15_CCP = 4 }
-			add_to_variable = { QIN_BOG_16_CCP = 4 }
-			add_to_variable = { QIN_BOG_17_CCP = 4 }
-			add_to_variable = { QIN_BOG_18_CCP = 4 }
-			add_to_variable = { QIN_BOG_19_CCP = 4 }
-			add_to_variable = { QIN_BOG_20_CCP = 4 }
-			add_to_variable = { QIN_BOG_21_CCP = 4 }
-			add_to_variable = { QIN_BOG_22_CCP = 4 }
-			add_to_variable = { QIN_BOG_23_CCP = 4 }
-			add_to_variable = { QIN_BOG_24_CCP = 4 }
-			add_to_variable = { QIN_BOG_25_CCP = 4 }
-			add_to_variable = { QIN_BOG_26_CCP = 4 }
-			add_to_variable = { QIN_BOG_27_CCP = 4 }
-			add_to_variable = { QIN_BOG_28_CCP = 4 }
-			add_to_variable = { QIN_BOG_29_CCP = 4 }
-			add_to_variable = { QIN_BOG_30_CCP = 4 }
-			add_to_variable = { QIN_BOG_31_CCP = 4 }
-			add_to_variable = { QIN_BOG_32_CCP = 4 }
-			add_to_variable = { QIN_BOG_33_CCP = 4 }
-			add_to_variable = { QIN_BOG_34_CCP = 4 }
-			add_to_variable = { QIN_BOG_35_CCP = 4 }
-			add_to_variable = { QIN_BOG_36_CCP = 4 }
-			add_to_variable = { QIN_BOG_37_CCP = 4 }
-			add_to_variable = { QIN_BOG_38_CCP = 4 }
-			add_to_variable = { QIN_BOG_39_CCP = 4 }
+			add_to_variable = { BOG_KMT^1 = 6 }
+			add_to_variable = { BOG_KMT^2 = 6 }
+			add_to_variable = { BOG_KMT^3 = 6 }
+			add_to_variable = { BOG_KMT^4 = 6 }
+			add_to_variable = { BOG_KMT^5 = 6 }
+			add_to_variable = { BOG_KMT^6 = 6 }
+			add_to_variable = { BOG_KMT^7 = 6 }
+			add_to_variable = { BOG_KMT^8 = 6 }
+			add_to_variable = { BOG_KMT^9 = 6 }
+			add_to_variable = { BOG_KMT^10 = 6 }
+			add_to_variable = { BOG_KMT^11 = 6 }
+			add_to_variable = { BOG_KMT^12 = 6 }
+			add_to_variable = { BOG_KMT^13 = 6 }
+			add_to_variable = { BOG_KMT^15 = 6 }
+			add_to_variable = { BOG_KMT^16 = 6 }
+			add_to_variable = { BOG_KMT^17 = 6 }
+			add_to_variable = { BOG_KMT^18 = 6 }
+			add_to_variable = { BOG_KMT^19 = 6 }
+			add_to_variable = { BOG_KMT^20 = 6 }
+			add_to_variable = { BOG_KMT^21 = 6 }
+			add_to_variable = { BOG_KMT^22 = 6 }
+			add_to_variable = { BOG_KMT^23 = 6 }
+			add_to_variable = { BOG_KMT^24 = 6 }
+			add_to_variable = { BOG_KMT^25 = 6 }
+			add_to_variable = { BOG_KMT^26 = 6 }
+			add_to_variable = { BOG_KMT^27 = 6 }
+			add_to_variable = { BOG_KMT^28 = 6 }
+			add_to_variable = { BOG_KMT^29 = 6 }
+			add_to_variable = { BOG_KMT^30 = 6 }
+			add_to_variable = { BOG_KMT^31 = 6 }
+			add_to_variable = { BOG_KMT^32 = 6 }
+			add_to_variable = { BOG_KMT^33 = 6 }
+			add_to_variable = { BOG_KMT^34 = 6 }
+			add_to_variable = { BOG_KMT^35 = 6 }
+			add_to_variable = { BOG_KMT^36 = 6 }
+			add_to_variable = { BOG_KMT^37 = 6 }
+			add_to_variable = { BOG_KMT^38 = 6 }
+			add_to_variable = { BOG_KMT^39 = 6 }
+			add_to_variable = { BOG_CCP^1 = 4 }
+			add_to_variable = { BOG_CCP^2 = 4 }
+			add_to_variable = { BOG_CCP^3 = 4 }
+			add_to_variable = { BOG_CCP^4 = 4 }
+			add_to_variable = { BOG_CCP^5 = 4 }
+			add_to_variable = { BOG_CCP^6 = 4 }
+			add_to_variable = { BOG_CCP^7 = 4 }
+			add_to_variable = { BOG_CCP^8 = 4 }
+			add_to_variable = { BOG_CCP^9 = 4 }
+			add_to_variable = { BOG_CCP^10 = 4 }
+			add_to_variable = { BOG_CCP^11 = 4 }
+			add_to_variable = { BOG_CCP^12 = 4 }
+			add_to_variable = { BOG_CCP^13 = 4 }
+			add_to_variable = { BOG_CCP^15 = 4 }
+			add_to_variable = { BOG_CCP^16 = 4 }
+			add_to_variable = { BOG_CCP^17 = 4 }
+			add_to_variable = { BOG_CCP^18 = 4 }
+			add_to_variable = { BOG_CCP^19 = 4 }
+			add_to_variable = { BOG_CCP^20 = 4 }
+			add_to_variable = { BOG_CCP^21 = 4 }
+			add_to_variable = { BOG_CCP^22 = 4 }
+			add_to_variable = { BOG_CCP^23 = 4 }
+			add_to_variable = { BOG_CCP^24 = 4 }
+			add_to_variable = { BOG_CCP^25 = 4 }
+			add_to_variable = { BOG_CCP^26 = 4 }
+			add_to_variable = { BOG_CCP^27 = 4 }
+			add_to_variable = { BOG_CCP^28 = 4 }
+			add_to_variable = { BOG_CCP^29 = 4 }
+			add_to_variable = { BOG_CCP^30 = 4 }
+			add_to_variable = { BOG_CCP^31 = 4 }
+			add_to_variable = { BOG_CCP^32 = 4 }
+			add_to_variable = { BOG_CCP^33 = 4 }
+			add_to_variable = { BOG_CCP^34 = 4 }
+			add_to_variable = { BOG_CCP^35 = 4 }
+			add_to_variable = { BOG_CCP^36 = 4 }
+			add_to_variable = { BOG_CCP^37 = 4 }
+			add_to_variable = { BOG_CCP^38 = 4 }
+			add_to_variable = { BOG_CCP^39 = 4 }
 			QINWhydidIsubjectmyselftothisfuckery = yes
 			add_popularity = {
 				ideology = liberalism
@@ -1664,21 +1664,21 @@ QIN_BoG = {
 		cost = 10
 		complete_effect = {		
 			custom_effect_tooltip = "DECISION_EFFECT_BOG_Ability_CHI"
-			divide_variable = { QIN_BOG_01_STRENGTH_NINGXIA = 2 }
-			divide_variable = { QIN_BOG_15_STRENGTH_NINGXIA = 2 }
-			divide_variable = { QIN_BOG_16_STRENGTH_NINGXIA = 2 }
-			divide_variable = { QIN_BOG_24_STRENGTH_NINGXIA = 2 }
-			divide_variable = { QIN_BOG_25_STRENGTH_NINGXIA = 2 }
-			round_variable = QIN_BOG_01_STRENGTH_NINGXIA
-			round_variable = QIN_BOG_15_STRENGTH_NINGXIA
-			round_variable = QIN_BOG_16_STRENGTH_NINGXIA
-			round_variable = QIN_BOG_24_STRENGTH_NINGXIA
-			round_variable = QIN_BOG_25_STRENGTH_NINGXIA
-			set_variable = { QIN_BOG_01_KMT = 50 }
-			set_variable = { QIN_BOG_15_KMT = 50 }
-			set_variable = { QIN_BOG_16_KMT = 50 }
-			set_variable = { QIN_BOG_24_KMT = 50 }
-			set_variable = { QIN_BOG_25_KMT = 50 }		
+			divide_variable = { BOG_STRENGTH_NINGXIA^1 = 2 }
+			divide_variable = { BOG_STRENGTH_NINGXIA^15 = 2 }
+			divide_variable = { BOG_STRENGTH_NINGXIA^16 = 2 }
+			divide_variable = { BOG_STRENGTH_NINGXIA^24 = 2 }
+			divide_variable = { BOG_STRENGTH_NINGXIA^25 = 2 }
+			round_variable = BOG_STRENGTH_NINGXIA^1
+			round_variable = BOG_STRENGTH_NINGXIA^15
+			round_variable = BOG_STRENGTH_NINGXIA^16
+			round_variable = BOG_STRENGTH_NINGXIA^24
+			round_variable = BOG_STRENGTH_NINGXIA^25
+			set_variable = { BOG_KMT^1 = 50 }
+			set_variable = { BOG_KMT^15 = 50 }
+			set_variable = { BOG_KMT^16 = 50 }
+			set_variable = { BOG_KMT^24 = 50 }
+			set_variable = { BOG_KMT^25 = 50 }		
 			add_to_variable = {
 				var = BOG_STRENGTH_ALLIED^25
 				value = 500

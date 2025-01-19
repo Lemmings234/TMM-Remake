@@ -294,33 +294,33 @@ add_dynamic_modifier = {
 }	
 give_guarantee = XIK
 
-set_variable = { QIN_han_province_stability_tick = 2.5 }
-set_variable = { QIN_han_province_tension_tick = 1.25 }
-set_variable = { QIN_minority_province_stability_tick = 5 }
-set_variable = { QIN_minority_province_tension_tick = 2.5 }
+set_variable = { QIN_han_proQINce_stability_tick = 2.5 }
+set_variable = { QIN_han_proQINce_tension_tick = 1.25 }
+set_variable = { QIN_minority_proQINce_stability_tick = 5 }
+set_variable = { QIN_minority_proQINce_tension_tick = 2.5 }
 
-set_variable = { QIN_qinghai_stability = 80 }
-set_variable = { QIN_qinghai_ethnic_tension = 10 }
-set_variable = { QIN_yushu_stability = 40 }
-set_variable = { QIN_yushu_ethnic_tension = 30 }
-set_variable = { QIN_tibet_stability = 30 }
-set_variable = { QIN_tibet_ethnic_tension = 50 }
-set_variable = { QIN_kang_stability = 30 }
-set_variable = { QIN_kang_ethnic_tension = 50 }
-set_variable = { QIN_hexi_stability = 30 }
-set_variable = { QIN_hexi_ethnic_tension = 30 }
-set_variable = { QIN_gansu_stability = 50 }
-set_variable = { QIN_gansu_ethnic_tension = 20 }
-set_variable = { QIN_ningxia_stability = 50 }
-set_variable = { QIN_ningxia_ethnic_tension = 20 }
-set_variable = { QIN_nanjiang_stability = 30 }
-set_variable = { QIN_nanjiang_ethnic_tension = 40 }
-set_variable = { QIN_beijiang_stability = 30 }
-set_variable = { QIN_beijiang_ethnic_tension = 20 }
-set_variable = { QIN_hami_stability = 40 }
-set_variable = { QIN_hami_ethnic_tension = 20 }
-set_variable = { QIN_mongolia_stability = 40 }
-set_variable = { QIN_mongolia_ethnic_tension = 30 }
+set_variable = { State_Stability^0 = 80 }
+set_variable = { State_Tension^0 = 10 }
+set_variable = { State_Stability^1 = 40 }
+set_variable = { State_Tension^1 = 30 }
+set_variable = { State_Stability^2 = 30 }
+set_variable = { State_Tension^2 = 50 }
+set_variable = { State_Stability^3 = 30 }
+set_variable = { State_Tension^3 = 50 }
+set_variable = { State_Stability^4 = 30 }
+set_variable = { State_Tension^4 = 30 }
+set_variable = { State_Stability^5 = 50 }
+set_variable = { State_Tension^5 = 20 }
+set_variable = { State_Stability^6 = 50 }
+set_variable = { State_Tension^6 = 20 }
+set_variable = { State_Stability^7 = 30 }
+set_variable = { State_Tension^7 = 40 }
+set_variable = { State_Stability^8 = 30 }
+set_variable = { State_Tension^8 = 20 }
+set_variable = { State_Stability^9 = 40 }
+set_variable = { State_Tension^9 = 20 }
+set_variable = { State_Stability^10 = 40 }
+set_variable = { State_Tension^10 = 30 }
 
 QINSetUpChina = yes
 

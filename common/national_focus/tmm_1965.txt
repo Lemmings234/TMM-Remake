@@ -386,8 +386,33 @@ shared_focus = {
 	    focus = the_cueg
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_legislation_tt
+	    custom_effect_tooltip = "DECISION_EFFECT_GOVT_REFORM"
+		add_political_power = 100
 		set_country_flag = lifayuan_legislation_govt_reform
+		hidden_effect = {
+			set_temp_variable = { econ_centralization_temp = 10 }
+		    econ_centralization_change = yes
+		    subtract_from_variable = {State_Stability^0 = 20}
+		    add_to_variable = {State_Tension^0 = 15}
+		    subtract_from_variable = {State_Stability^1 = 20}
+		    add_to_variable = {State_Tension^1 = 15}
+		    subtract_from_variable = {State_Stability^2 = 20}
+		    add_to_variable = {State_Tension^2 = 15}
+		    subtract_from_variable = {State_Stability^3 = 20}
+		    add_to_variable = {State_Tension^3 = 15}
+
+			subtract_from_variable = {
+				var = QIN_minority_proQINce_stability_tick
+				value = 1
+			}
+			subtract_from_variable = {
+				var = QIN_minority_proQINce_tension_tick
+				value = 0.5
+			}
+			TNO_improve_admin_efficiency_med = yes
+			QINClamping = yes
+			QINStateClamp = yes
+		}
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -531,9 +556,17 @@ shared_focus = {
 		focus = integrate_red_army
 	}
 	completion_reward = {
-		custom_effect_tooltip = QIN_legislation_tt
+		custom_effect_tooltip = "DECISION_EFFECT_MIL_REFORM"
+		add_political_power = 100
 		set_country_flag = lifayuan_legislation_mil_reform
+		hidden_effect = {
+			set_temp_variable = { temp_econ_spending_amount = 0.005 }
+            econ_spend_money_once_effect_raw_money = yes 
+			TNO_improve_army_professionalism_med = yes
+			TNO_improve_conscription_policy_effectiveness_monthly_med = yes
+			TNO_improve_training_policy_effectiveness_med = yes
 		}
+	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
