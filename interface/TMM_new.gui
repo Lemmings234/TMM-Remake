@@ -3344,16 +3344,16 @@ guiTypes = {
 			position = { x = 334 y = 192 }
 			quadTextureSprite = "GFX_BRG_DomesticGUI_Minus"
 		}
-		buttonType = {
-			name = "Increase_Budget_Small"
-			position = { x = 478 y = 198 }
-			quadTextureSprite = "GFX_SGR_RND_GUI_increase_budget_button"
-		}
-		buttonType = {
-			name = "Decrease_Budget_Small"
-			position = { x = 381 y = 198 }
-			quadTextureSprite = "GFX_SGR_RND_GUI_decrease_budget_button"
-		}
+		# buttonType = {
+			# name = "Increase_Budget_Small"
+			# position = { x = 478 y = 198 }
+			# quadTextureSprite = "GFX_SGR_RND_GUI_increase_budget_button"
+		# }
+		# buttonType = {
+			# name = "Decrease_Budget_Small"
+			# position = { x = 381 y = 198 }
+			# quadTextureSprite = "GFX_SGR_RND_GUI_decrease_budget_button"
+		# }
 		iconType = {
 			name = "Budget_Control_Icon"
 			spriteType = "GFX_Small_Control_Yuan_Icon"

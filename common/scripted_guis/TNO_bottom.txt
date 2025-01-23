@@ -129,6 +129,12 @@ scripted_gui = {
 			china_gui_crt_icon_visible = {
 				original_tag = QIN
 			}
+			xinan_gui_crt_icon_visible = {
+				original_tag = GUZ
+			}
+			japan_gui_crt_icon_visible = {
+				original_tag = SIC
+			}
 		}
 
 		effects = {
