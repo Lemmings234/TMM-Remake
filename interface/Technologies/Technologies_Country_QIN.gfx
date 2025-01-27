@@ -337,6 +337,31 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_QIN_NSB_MBT_1945_medium"
+		texturefile = "gfx/interface/technologies/QIN_MBT_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_MBT_1950_medium"
+		texturefile = "gfx/interface/technologies/QIN_MBT_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_MBT_1960_medium"
+		texturefile = "gfx/interface/technologies/JAP_MBT_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_MBT_1970_medium"
+		texturefile = "gfx/interface/technologies/CHI_MBT_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_MBT_1980_medium"
+		texturefile = "gfx/interface/technologies/CHI_MBT_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_MBT_1990_medium"
+		texturefile = "gfx/interface/technologies/CHI_MBT_90.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_QIN_IFV_1945_medium"
 		texturefile = "gfx/interface/technologies/QIN_IFV_45.dds"
 	}
@@ -358,6 +383,31 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_QIN_IFV_1990_medium"
+		texturefile = "gfx/interface/technologies/CHI_IFV_90.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_QIN_NSB_IFV_1945_medium"
+		texturefile = "gfx/interface/technologies/QIN_IFV_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_IFV_1950_medium"
+		texturefile = "gfx/interface/technologies/JAP_IFV_50.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_IFV_1960_medium"
+		texturefile = "gfx/interface/technologies/JAP_IFV_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_IFV_1970_medium"
+		texturefile = "gfx/interface/technologies/CHI_IFV_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_IFV_1980_medium"
+		texturefile = "gfx/interface/technologies/CHI_IFV_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_IFV_1990_medium"
 		texturefile = "gfx/interface/technologies/CHI_IFV_90.dds"
 	}
 
@@ -409,56 +459,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_QIN_NSB_APC_1990_medium"
 		texturefile = "gfx/interface/technologies/CHI_APC_90.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_QIN_NSB_IFV_1945_medium"
-		texturefile = "gfx/interface/technologies/QIN_IFV_45.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_NSB_IFV_1950_medium"
-		texturefile = "gfx/interface/technologies/JAP_IFV_50.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_NSB_IFV_1960_medium"
-		texturefile = "gfx/interface/technologies/JAP_IFV_60.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_NSB_IFV_1970_medium"
-		texturefile = "gfx/interface/technologies/CHI_IFV_70.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_NSB_IFV_1980_medium"
-		texturefile = "gfx/interface/technologies/CHI_IFV_80.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_NSB_IFV_1990_medium"
-		texturefile = "gfx/interface/technologies/CHI_IFV_90.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_QIN_NSB_MBT_1945_medium"
-		texturefile = "gfx/interface/technologies/QIN_MBT_45.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_NSB_MBT_1950_medium"
-		texturefile = "gfx/interface/technologies/QIN_MBT_50.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_NSB_MBT_1960_medium"
-		texturefile = "gfx/interface/technologies/JAP_MBT_60.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_NSB_MBT_1970_medium"
-		texturefile = "gfx/interface/technologies/CHI_MBT_70.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_NSB_MBT_1980_medium"
-		texturefile = "gfx/interface/technologies/CHI_MBT_80.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_NSB_MBT_1990_medium"
-		texturefile = "gfx/interface/technologies/CHI_MBT_90.dds"
 	}
 
 	## CHI AIR: LIGHT ##
