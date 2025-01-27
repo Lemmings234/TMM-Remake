@@ -7,9 +7,13 @@ recruit_character = SIC_pan_wenhua
 recruit_character = SIC_liu_hangchen
 recruit_character = SIC_deng_xihou
 
+TNO_startup_nation = yes
+set_country_flag = country_has_gui
+
 set_variable = { chi_influence = 0 }
 
 oob = "SIC_1962"
+set_country_flag = tmm_cost_1
 
 set_technology = {
 	basic_train = 1
