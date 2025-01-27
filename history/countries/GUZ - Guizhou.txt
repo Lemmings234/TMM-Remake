@@ -229,21 +229,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = paternalism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 8
+	communist = 0
 	ultranationalism = 0
-	socialist = 3
-	progressivism = 0
+	socialist = 0
+	progressivism = 5
 	liberalism = 0
-	conservatism = 0
-	paternalism = 11
-	despotism = 78
-	fascism = 0
+	conservatism = 15
+	paternalism = 40
+	despotism = 28
+	fascism = 12
 	
 }
