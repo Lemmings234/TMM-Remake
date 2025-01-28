@@ -12,7 +12,7 @@ recruit_character = GUZ_li_zongren
 recruit_character = GUZ_Li_Pinxian
 recruit_character = GUZ_Miao_Yuntai
 recruit_character = GUZ_Yang_Ruxuan
-recruit_character = GUZ_Lu_Han
+recruit_character = GUZ_Lu_Han_TMM
 
 set_variable = { chi_influence = 0 }
 

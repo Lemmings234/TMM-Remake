@@ -1124,6 +1124,24 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
 	}
+	GUZ_Lu_Han_TMM = {
+		name = GUZ_Lu_Han
+		portraits = { civilian = { small = "GFX_GUZ_Lu_Han" } }
+		advisor = {
+			slot = security_minister
+			idea_token = GUZ_Lu_Han_sec
+			allowed = { original_tag = GUZ }
+			traits = {
+				security_minister
+				despotism
+				leader_of_the_dian_army
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
 	TMM_Long_Shenwu = {
 		name = TMM_Long_Shenwu
 		portraits = {
