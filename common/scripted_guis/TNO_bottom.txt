@@ -414,6 +414,14 @@ scripted_gui = {
 				}
 				else = { set_country_flag = open_asia_parliament_gui }
 			}
+			xinan_gui_crt_icon_click = {
+				if = {
+					limit = { has_country_flag = open_asia_parliament_gui }
+					clr_country_flag = open_asia_parliament_gui
+					QINGenerateSupport = yes
+				}
+				else = { set_country_flag = open_asia_parliament_gui }
+			}
 			japan_gui_crt_icon_click = {
 				JAP_Determine_Ancestor = yes
 				if = {
