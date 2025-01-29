@@ -92,22 +92,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/CHI_infantry_at_88.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_QIN_infantry_aa5_medium"
-		texturefile = "gfx/interface/technologies/JAP_infantry_aa_62.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_infantry_aa8_medium"
-		texturefile = "gfx/interface/technologies/JAP_infantry_aa_72.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_infantry_aa11_medium"
-		texturefile = "gfx/interface/technologies/CHI_infantry_aa_82.dds"
-	}
-	SpriteType = {
-		name = "GFX_QIN_infantry_aa13_medium"
-		texturefile = "gfx/interface/technologies/CHI_infantry_aa_88.dds"
-	}
+	# SpriteType = {
+		# name = "GFX_QIN_infantry_aa5_medium"
+		# texturefile = "gfx/interface/technologies/JAP_infantry_aa_62.dds"
+	# }
+	# SpriteType = {
+		# name = "GFX_QIN_infantry_aa8_medium"
+		# texturefile = "gfx/interface/technologies/JAP_infantry_aa_72.dds"
+	# }
+	# SpriteType = {
+		# name = "GFX_QIN_infantry_aa11_medium"
+		# texturefile = "gfx/interface/technologies/CHI_infantry_aa_82.dds"
+	# }
+	# SpriteType = {
+		# name = "GFX_QIN_infantry_aa13_medium"
+		# texturefile = "gfx/interface/technologies/CHI_infantry_aa_88.dds"
+	# }
 
 	SpriteType = {
 		name = "GFX_QIN_motorized_infantry_medium"
