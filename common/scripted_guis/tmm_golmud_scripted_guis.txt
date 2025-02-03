@@ -8463,7 +8463,7 @@ QIN_golmud_city_Z40N_visible = {
 				}
 				else_if = {
 					limit = {
-						has_country_flag = QIN_VP_Major8
+						check_variable = { VP_Token = 8 }
 						check_variable = { QIN_BOG_Deploy_Count = BOG_STRENGTH_ALLIED^8 }
 					}
 					add_to_variable = {
@@ -10284,7 +10284,7 @@ QIN_golmud_city_Z40N_visible = {
 				}
 				else_if = {
 					limit = {
-						has_country_flag = QIN_VP_Major8
+						check_variable = { VP_Token = 8 }
 					}
 					add_to_variable = {
 						var = BOG_STRENGTH_ALLIED^31
@@ -10384,7 +10384,7 @@ QIN_golmud_city_Z40N_visible = {
 			QIN_Golmud_Z33N_click = {
 				if = {
 					limit = {
-                        has_country_flag = QIN_VP_Major8
+                        check_variable = { VP_Token = 8 }
 					}
 					add_to_variable = {
 						var = BOG_STRENGTH_ALLIED^33
@@ -11034,7 +11034,7 @@ QIN_golmud_city_Z40N_visible = {
 	            }
 	            else_if = {
 	            	limit = {
-	            		has_country_flag = QIN_VP_Major8
+	            		check_variable = { VP_Token = 8 }
                     	check_variable = {
                 	        var = BOG_STRENGTH_ALLIED^8
                 	        value = 10
@@ -11758,7 +11758,7 @@ QIN_golmud_city_Z40N_visible = {
             	}
             	else_if = {
             		limit = {
-            			has_country_flag = QIN_VP_Major8
+            			check_variable = { VP_Token = 8 }
                     	check_variable = {
                 	        var = BOG_STRENGTH_ALLIED^8
                 	        value = 10
@@ -12415,7 +12415,7 @@ QIN_golmud_city_Z40N_visible = {
             	}
             	else_if = {
             		limit = {
-            			has_country_flag = QIN_VP_Major8
+            			check_variable = { VP_Token = 8 }
             		}    
 					set_country_flag = QIN_VP_Major8_Engagement
 					GolmudBattleCore = yes
@@ -13104,7 +13104,7 @@ QIN_golmud_city_Z40N_visible = {
             	    }
 				OR = {
 					check_variable = { VP_Token = 7 }
-					has_country_flag = QIN_VP_Major8 
+					check_variable = { VP_Token = 8 } 
 					check_variable = { VP_Token = 30 }
 					check_variable = { VP_Token = 32 }
 				}
@@ -13132,7 +13132,7 @@ QIN_golmud_city_Z40N_visible = {
             		    compare = less_than_or_equals
             	    }
 				OR = {
-					has_country_flag = QIN_VP_Major8
+					check_variable = { VP_Token = 8 }
 					check_variable = { VP_Token = 9 } 
 					check_variable = { VP_Token = 10 }
 					check_variable = { VP_Token = 32 }
@@ -13364,7 +13364,7 @@ QIN_golmud_city_Z40N_visible = {
             		    compare = less_than_or_equals
             	    }
 				OR = {
-					has_country_flag = QIN_VP_Major8
+					check_variable = { VP_Token = 8 }
 				}
 			    }
 			}
@@ -13417,7 +13417,7 @@ QIN_golmud_city_Z40N_visible = {
             	    }
 				OR = {
 					check_variable = { VP_Token = 5 }
-					has_country_flag = QIN_VP_Major8
+					check_variable = { VP_Token = 8 }
 					check_variable = { VP_Token = 10 }
 					check_variable = { VP_Token = 11 }
 					check_variable = { VP_Token = 12 }
