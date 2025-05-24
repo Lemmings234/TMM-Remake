@@ -185,3 +185,74 @@ shared_focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 }
+shared_focus = {
+	id = defending_the_home_front
+	icon = GFX_goal_defending_the_home_front
+    cost = 1
+	relative_position_id = The_Year_of_Horse
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = The_Year_of_Horse
+	}
+	completion_reward = {
+		hidden_effect = {
+			GAN = {
+				set_rule = {
+                    desc = GAN_Calm_Down_Bozo
+                    can_not_declare_war = yes
+                }
+			}
+		    GAN = {
+		    	create_wargoal = {
+                type = annex_everything 
+                target = QIN
+                }
+		    }
+		    GAN = {
+		    	create_wargoal = {
+                type = annex_everything 
+                target = XIK
+                }
+		    }
+			if = {
+				limit = { QIN = { is_ai = yes } }
+				load_oob = QIN_1963
+				load_oob = QIN_1963
+				load_oob = QIN_1963
+				load_oob = QIN_1963
+				load_oob = QIN_1963
+				XIK = { load_oob = QIN_1963 }
+			}
+		}
+		604 = {
+            add_province_modifier = {
+            	static_modifiers = { QIN_Qilian_Fortification }
+	            province = {
+	            	id = 2099
+	            	id = 7997
+	            }
+            }		
+		}
+		906 = {
+            add_province_modifier = {
+            	static_modifiers = { QIN_Qilian_Fortification }
+	            province = {
+				    id = 2053
+				    id = 15647
+				    id = 10490
+				    id = 4888
+	            }
+            }		
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
