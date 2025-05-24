@@ -24,3 +24,164 @@ shared_focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 }
+
+shared_focus = {
+	id = pleading_our_friends
+	icon = GFX_goal_pleading_our_friends
+    cost = 1
+	relative_position_id = The_Year_of_Horse
+	x = 6
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = The_Year_of_Horse
+	}
+	completion_reward = {
+        set_temp_variable = { money_reserves_temp = 0.035 }
+        econ_money_reserves_change_raw_money = yes
+		add_war_support = 0.1
+		add_political_power = 75
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+
+shared_focus = {
+	id = weapons_of_the_modern_age
+	icon = GFX_goal_weapons_of_the_modern_age
+    cost = 1
+	relative_position_id = pleading_our_friends
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = pleading_our_friends
+	}
+	completion_reward = {
+        set_temp_variable = { temp_econ_spending_amount = 0.005 }
+        econ_spend_money_once_effect_raw_money = yes
+	    add_equipment_to_stockpile = {
+            type = anti_tank_equipment
+            amount = 750
+            producer = USA
+            }
+	    add_equipment_to_stockpile = {
+            type = anti_air_shoulder_equipment_0
+            amount = 500
+            producer = USA
+            }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = introduce_c3
+	icon = GFX_goal_introduce_c3
+    cost = 1
+	relative_position_id = pleading_our_friends
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = pleading_our_friends
+	}
+	completion_reward = {
+        set_temp_variable = { temp_econ_spending_amount = 0.01 }
+        econ_spend_money_once_effect_raw_money = yes
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 750
+			producer = USA
+		    }
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 150
+			producer = USA
+		    }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = purchase_automatic_weapons
+	icon = GFX_goal_purchase_automatic_weapons
+    cost = 1
+	relative_position_id = pleading_our_friends
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = pleading_our_friends
+	}
+	completion_reward = {
+        set_temp_variable = { temp_econ_spending_amount = 0.01 }
+        econ_spend_money_once_effect_raw_money = yes
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_2
+			amount = 2000
+			producer = USA
+		    }
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_3
+			amount = 24
+			producer = USA
+		    }
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = deepen_our_connection
+	icon = GFX_goal_deepen_our_connection
+    cost = 1
+	relative_position_id = weapons_of_the_modern_age
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = introduce_c3
+	}
+	prerequisite = { 
+	    focus = weapons_of_the_modern_age
+	}
+	prerequisite = { 
+	    focus = purchase_automatic_weapons
+	}
+	completion_reward = {
+		add_war_support = 0.1
+		add_political_power = 25
+		add_ideas = OFN_Observer
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
