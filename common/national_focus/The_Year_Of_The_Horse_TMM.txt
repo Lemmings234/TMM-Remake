@@ -1,1 +1,26 @@
-
+shared_focus = {
+	id = The_Year_of_Horse
+	icon = GFX_goal_year_of_horse
+    cost = 1
+	x = 10
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	allow_branch = { 
+		has_country_flag = year_of_horse
+		is_debug = yes
+	}
+	bypass = {
+		has_country_flag = year_of_horse
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_year_of_horse_tt
+		}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
