@@ -121,6 +121,7 @@ shared_focus = {
 	    focus = Year_of_Tiger
 	}
 	completion_reward = {
+        TNO_improve_army_professionalism_med = yes
         add_political_power = 15
 	    add_command_power = 30
 		add_war_support = 0.05
@@ -147,17 +148,19 @@ shared_focus = {
 	    focus = Year_of_Tiger
 	}
 	completion_reward = {
+        TNO_improve_industrial_expertise_med = yes
         add_political_power = 15
+        TNO_improve_research_facilities_med = yes
 	    906 = {
 	        add_resource = {
 		    type = steel
-		    amount = 6
+		    amount = 8
 	        }
         }
 	    906 = {
 	        add_resource = {
 		    type = tungsten
-		    amount = 2
+		    amount = 4
 	        }
         }
     }
