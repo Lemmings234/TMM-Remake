@@ -438,7 +438,15 @@ shared_focus = {
 	}
 	completion_reward = {
 		TNO_improve_training_policy_effectiveness_med = yes
-		country_event = { id = tmm.maclique.58 }
+		tno_improve_army_professionalism = yes
+		TNO_improve_army_professionalism_high = yes
+                add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.75
+			uses = 1
+			category = land_doctrine
+		}
+                country_event = { id = tmm.maclique.58 }
 		}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
