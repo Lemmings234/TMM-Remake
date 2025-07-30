@@ -380,3 +380,157 @@ shared_focus = {
 	continue_if_invalid = no
 	available_if_capitulated = no
 }
+
+shared_focus = {
+	id = the_brave_brothers_of_the_east
+	icon = GFX_goal_defending_the_home_front
+    cost = 1
+	relative_position_id = The_Year_of_Horse
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = The_Year_of_Horse
+	}
+        hidden_effect = {
+			country_event = { id = }
+		}
+	completion_reward = {
+		create_faction = third_chinese_united_front
+                army_funding_maximal_increase_low = yes
+                army_funding_minimal_increase_low = yes
+                TNO_improve_admin_efficiency_low = yes
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = more_air_raid_shelters
+	icon = GFX_goal_more_air_raid_shelters
+    cost = 1
+	relative_position_id = defending_the_home_front
+	x = 0
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = defending_the_home_front
+	}
+	completion_reward = {
+        set_temp_variable = { temp_econ_spending_amount = 0.005 }
+        econ_spend_money_once_effect_raw_money = yes
+		add_ideas = SVR_fortified_homes
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = move_the_industry_out
+	icon = GFX_goal_move_the_industry_out
+    cost = 1
+	relative_position_id = defending_the_home_front
+	x = 2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = defending_the_home_front
+	}
+	completion_reward = {
+		TNO_improve_regulations_policy_effectiveness_med = yes
+        set_temp_variable = { temp_econ_spending_amount = 0.005 }
+        econ_spend_money_once_effect_raw_money = yes
+		add_ideas = SVR_fortified_factories
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = utilise_civil_war_experiences
+	icon = GFX_goal_utilise_civil_war_experiences
+    cost = 1
+	relative_position_id = defending_the_home_front
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = defending_the_home_front
+	}
+	completion_reward = {
+		army_experience = 50
+        add_doctrine_cost_reduction = {
+        	cost_reduction = 0.5
+        	uses = 1
+        	category = land_doctrine
+        }
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = evacuate_citizens
+	icon = GFX_goal_evacuate_citizens
+    cost = 1
+	relative_position_id = defending_the_home_front
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = utilise_civil_war_experiences
+	}
+	prerequisite = { 
+	    focus = move_the_industry_out
+	}
+	prerequisite = { 
+	    focus = more_air_raid_shelters
+	}
+	completion_reward = {
+		906 = { add_manpower = -75000 }
+		604 = { add_manpower = 50000 }
+		601 = { add_manpower = 25000 }
+		add_victory_points = {
+        	province = 10490
+        	value = -5
+        }
+		add_victory_points = {
+			province = 13239
+			value = 5
+		}
+		906 = {
+			add_dynamic_modifier = { modifier = QIN_Sparse_Population }
+		}
+		604 = {
+			add_dynamic_modifier = { modifier = QIN_Sparse_Population }
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
