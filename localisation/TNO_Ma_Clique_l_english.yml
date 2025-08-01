@@ -1057,6 +1057,8 @@
  mobilise_non_essential_workers_desc:0 ""
  one_cannot_be_too_prepared:0 "One Cannot be Too Prepared"
  one_cannot_be_too_prepared_desc:0 "We have prepared painstakingly for the liberation of the Northwest to the best of our abilities. However, one must also concede to the fact that we pose a disadvantage to the enemy, in terms of our equipment and the supply network. We shall encourage the people in the villages to assist our efforts for further preparation."
+ the_brave_brother:0 "The Bravest Brother"
+ the_brave_brother_desc:0 ""
  mask_our_batteries:0 "Mask Our Batteries"
  mask_our_batteries_desc:0 "“Let your plans be dark and impenetrable as night, and when you move, fall like a thunderbolt” \n\n -Sun Tzu \n\n Should Tsuji take note of our movements, our operations will be countered and rendered a failure. Hence, it is of prudence that our battalions mobilise quietly and conceal themselves to the best of their ability before the time is ripe to strike fast and hard during our initial stages and catch the lackeys by surprise!"
  calculate_as_if_your_life_depends_on_it:0 "Calculate As If Your Life Depends On It!"
@@ -1177,7 +1179,7 @@
  tmm.maclique.103.d:0 "Disaster strikes Qinghai! One of the most talented economists in all of China, Minister of Financial Affairs Ji Chaoding passed away today at the age of 60, due to a cerebral hemorrhage in his office today. Despite his wishes for a simple funeral, many say they would attend Ji's funeral and donate money, such that Ji shall depart from this world properly as he deserves. Having kept the Qinghai economy relatively healthy, all successors must remember they would not have the comfort to spend money on projects if it wasn't for Ji's brilliant management.\n\nDao Sheng-yang of the Kuomintang has been appointed unanimously by the Yuan to take over Ji's legacy."
  tmm.maclique.104.d:0 "Contrary to President Sun's expectations, the NRA refused to engage the Xining Command, declaring they would not follow orders to harm fellow Chinese. Worse yet, they are already marching against Golmud. Forces dispatched to block troops simply joined them, and it seems President has underestimated the influences of General Sun Li-jen in the Army...\n\nBesieged, President Sun Fo has no choice but to accept investigations against his conduct and step down as the President of the Republic of China."
  tmm.maclique.105.d:0 "Contrary to President Sun's expectations, it seems that his opposition within the Government was able to mount a counterattack against him. Citing the misconduct of Lan Ni, the widely-known mistress of Sun Fo and her involvement in many policies, the Kuomintang almost unanimously approved investigating Dr Sun Fo's actions.\n\nBesieged, President Sun Fo has no choice but to accept investigations against his conduct and step down as the President of the Republic of China."
-
+ tmm.maclique.106.d:0 ""
 
 
  tmm.world.1.t:0 "[Get_newspaper_header]Winds of Change in China"
