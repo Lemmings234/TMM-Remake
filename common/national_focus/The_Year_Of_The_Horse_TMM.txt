@@ -253,7 +253,7 @@ shared_focus = {
 }
 shared_focus = {
 	id = the_brave_brother
-	icon = GFX_goal_move_the_industry_out
+	icon = gfx/interface/goals/Qinghai-Hand.png
     cost = 1
 	relative_position_id = the_brave_brothers_of_the_east
 	x = 2
@@ -304,7 +304,7 @@ shared_focus = {
 	available_if_capitulated = no
 }
 shared_focus = {
-	id = evacuate_citizens
+	id = are_united
 	icon = GFX_goal_evacuate_citizens
     cost = 1
 	relative_position_id = the_brave_brothers_of_the_east
