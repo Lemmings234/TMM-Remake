@@ -1366,15 +1366,15 @@ country_event = {#BoGEvents
 		hidden_effect = {
 	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.67"
 			add_to_variable = { 
-				var = QIN_BOG_13_Ningxia
+				var = BOG_NINGXIA^13
 				value = 150
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_21_Ningxia
+				var = BOG_NINGXIA^21
 				value = 150
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_39_Ningxia
+				var = BOG_NINGXIA^39
 				value = 150
 			    }
 			subtract_from_variable = { 
@@ -1421,27 +1421,27 @@ country_event = {#BoGEvents
 		hidden_effect = {
 	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.68"
 			add_to_variable = { 
-				var = QIN_BOG_13_Ningxia
+				var = BOG_NINGXIA^13
 				value = 35
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_21_Ningxia
+				var = BOG_NINGXIA^21
 				value = 35
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_39_Ningxia
+				var = BOG_NINGXIA^39
 				value = 35
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_04_Ningxia
+				var = BOG_NINGXIA^4
 				value = 150
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_37_Ningxia
+				var = BOG_NINGXIA^37
 				value = 150
 			    }
 			add_to_variable = { 
-				var = QIN_BOG_38_Ningxia
+				var = BOG_NINGXIA^38
 				value = 150
 			    }
 			subtract_from_variable = { 
