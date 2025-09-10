@@ -145,30 +145,6 @@ guiTypes = {
 			centerposition = yes
 			pdx_tooltip = "scripted_gui_open_tt_CAN_gov"
 		}
-
-		buttonType = {
-			name = "china_gui_crt_icon"
-			spriteType = "GFX_lifayuan_crt_icon"
-			position = { x = 48 y = 48 }
-			centerposition = yes
-			pdx_tooltip = "scripted_gui_open_qin_gov"
-		}
-
-		buttonType = {
-			name = "xinan_gui_crt_icon"
-			spriteType = "GFX_canzhengyuan_crt_icon"
-			position = { x = 48 y = 48 }
-			centerposition = yes
-			pdx_tooltip = "scripted_gui_open_qin_gov"
-		}
-
-		buttonType = {
-			name = "japan_gui_crt_icon"
-			spriteType = "GFX_yokusankai_crt_icon"
-			position = { x = 48 y = 48 }
-			centerposition = yes
-			pdx_tooltip = "scripted_gui_open_qin_gov"
-		}
 	}
 
 	containerWindowType = {

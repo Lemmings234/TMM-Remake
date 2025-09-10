@@ -126,9 +126,6 @@ scripted_gui = {
 				check_variable = { YUN_introduce_admin = 1 }
 				NOT = { has_country_flag = YUN_NPA_despair_branch }
 			}
-			china_gui_crt_icon_visible = {
-				original_tag = QIN
-			}
 			xinan_gui_crt_icon_visible = {
 				original_tag = GUZ
 			}
@@ -405,14 +402,6 @@ scripted_gui = {
 					clr_country_flag = WI_GUI_map_open
 				}
 				clr_country_flag = gui_alert_visible_2
-			}
-			china_gui_crt_icon_click = {
-				if = {
-					limit = { has_country_flag = open_asia_parliament_gui }
-					clr_country_flag = open_asia_parliament_gui
-					QINGenerateSupport = yes
-				}
-				else = { set_country_flag = open_asia_parliament_gui }
 			}
 			xinan_gui_crt_icon_click = {
 				if = {
