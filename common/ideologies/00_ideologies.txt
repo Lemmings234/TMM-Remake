@@ -67,14 +67,14 @@ ideologies = {
 	fascism_1 = {
 		types = { fascism_1_subtype = {} }
 		dynamic_faction_names = {}
-		color = { 90 25 15 }
+		color = { 70 25 15 }
 		ai_neutral = yes
 		can_be_boosted = no
 	}
 	fascism_2 = {
 		types = { fascism_2_subtype = {} }
 		dynamic_faction_names = {}
-		color = { 100 35 25 }
+		color = { 80 35 25 }
 		ai_neutral = yes
 		can_be_boosted = no
 	}
@@ -107,21 +107,21 @@ ideologies = {
 			fascism_xinmin_zhuyi_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
-		color = { 110 45 35 }
+		color = { 90 45 35 }
 		ai_neutral = yes
 		can_be_boosted = no
 	}
 	fascism_3 = {
 		types = { fascism_3_subtype = {} }
 		dynamic_faction_names = {}
-		color = { 120 55 45 }
+		color = { 100 55 45 }
 		ai_neutral = yes
 		can_be_boosted = no
 	}
 	fascism_4 = {
 		types = { fascism_4_subtype = {} }
 		dynamic_faction_names = {}
-		color = { 130 65 55 }
+		color = { 110 65 55 }
 		ai_neutral = yes
 		can_be_boosted = no
 	}
@@ -329,8 +329,8 @@ ideologies = {
 			liberal_conservatism_big_tent_subtype = { can_be_randomly_selected = no }
 			liberal_conservatism_moderate_technocracy_subtype = { can_be_randomly_selected = no }
 			liberal_conservatism_oligarchic_liberalism_subtype = { can_be_randomly_selected = no }
-			liberal_conservatism_islamic_modernism_subtype = { can_be_randomly_selected = no }
 			liberal_conservatism_centrist_progressivism_subtype = { can_be_randomly_selected = no }
+			liberal_conservatism_islamic_modernism_subtype = { can_be_randomly_selected = no }
 			
 			#TMM
 			liberal_conservatism_neoconfucian_liberalism_subtype = { can_be_randomly_selected = no }
@@ -400,7 +400,6 @@ ideologies = {
 			progressivism_subtype = {}
 
 			progressivism_reformist_socialism_subtype = { can_be_randomly_selected = no }
-			progressivism_liberal_socialism_subtype = { can_be_randomly_selected = no }
 			progressivism_left_wing_populism_subtype = { can_be_randomly_selected = no }
 			progressivism_left_kemalism_subtype = { can_be_randomly_selected = no }
 			progressivism_popular_front_subtype = { can_be_randomly_selected = no }
@@ -412,6 +411,7 @@ ideologies = {
 			progressivism_western_progressivism_subtype = { can_be_randomly_selected = no }
 			progressivism_gaitanismo_subtype = { can_be_randomly_selected = no }
 			progressivism_neocorporatism_subtype = { can_be_randomly_selected = no }
+			progressivism_social_republicanism_subtype = { can_be_randomly_selected = no }
 			
 			#TMM
 			progressivism_left_sanmin_subtype = { can_be_randomly_selected = no }
@@ -525,7 +525,6 @@ ideologies = {
 			communist_peoples_democracy_subtype = { can_be_randomly_selected = no }
 
 			communist_harmonism_subtype = { can_be_randomly_selected = no } # The funny
-			
 			#TMM
 			communist_chinese_maoism_subtype = { can_be_randomly_selected = no }
 			communist_dictatorial_socialism_subtype = { can_be_randomly_selected = no }
