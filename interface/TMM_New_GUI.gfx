@@ -313,6 +313,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Tuva.dds"
 	}
 	spriteType = {
+		name = "GFX_QIN_Tuva_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Tuva_2.dds"
+	}
+	spriteType = {
 		name = "GFX_QIN_Tuva_3"
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Tuva_3.dds"
 	}
@@ -323,6 +327,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_QIN_West_Mongolia_3"
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/West_Mongolia_3.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Mongolia"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Mongolia.dds"
 	}
 	spriteType = {
 		name = "GFX_QIN_Xikang"

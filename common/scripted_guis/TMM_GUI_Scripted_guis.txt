@@ -1723,6 +1723,10 @@ scripted_gui = {
 		    QIN_West_Mongolia_visible = {
 			    owns_state = 814
 			}
+			QIN_Mongolia_visible = {
+				owns_state = 330
+				owns_state = 815
+			}
 		    QIN_Tuva_visible = {
 				owns_state = 329
 			}
@@ -1771,6 +1775,10 @@ scripted_gui = {
 			                    }
 				            }
 				        }
+						QIN = {
+				    		owns_state = 330
+							owns_state = 815
+				        }
 				    }
 				}
 			}
@@ -1804,11 +1812,24 @@ scripted_gui = {
 				    }
 				}
 			}
+			QIN_Tuva_2_visible = {
+				AND = {
+				    329 = {
+	                    controller = {
+		                    OR = {
+		                	is_in_faction_with = JAP
+		                	is_puppet_of = JAP
+		                	tag = JAP
+		                    }
+			            }
+				    }
+				}
+			}
 		    QIN_Tuva_3_visible = {
 				AND = {
 				    NOT = {
 				        AND = {
-				            814 = {
+				            329 = {
 	                            controller = {
 		                            OR = {
 		                        	is_in_faction_with = JAP
@@ -1818,7 +1839,7 @@ scripted_gui = {
 			                    }
 				            }
 				            QIN = {
-				    			owns_state = 814
+				    			owns_state = 329
 				            }
 				        }
 				    }

@@ -258,6 +258,12 @@ guiTypes = {
 	    	position = { x = 501 y = 115 }
 	    	pdx_tooltip = "QIN_Occupied_Mongolia"
 	    }
+		buttonType = {
+	    	name = "QIN_Mongolia"
+	    	quadTextureSprite = "GFX_QIN_Mongolia"
+	    	position = { x = 501 y = 115 }
+	    	pdx_tooltip = "QIN_East_Mongolia_tt"
+	    }
 	    buttonType = {
 	    	name = "QIN_West_Mongolia_Shade"
 	    	quadTextureSprite = "GFX_QIN_West_Mongolia_Shade"
@@ -288,6 +294,12 @@ guiTypes = {
 	    	quadTextureSprite = "GFX_QIN_Tuva"
 	    	position = { x = 437 y = 33 }
 	    	pdx_tooltip = "QIN_Tuva_tt"
+	    }
+		buttonType = {
+	    	name = "QIN_Tuva_2"
+	    	quadTextureSprite = "GFX_QIN_Tuva_2"
+	    	position = { x = 437 y = 33 }
+	    	pdx_tooltip = "QIN_Occupied_Mongolia"
 	    }
 	    buttonType = {
 	    	name = "QIN_Beijiang_2"

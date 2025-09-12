@@ -489,6 +489,8 @@ set_variable = { State_Stability^9 = 40 }
 set_variable = { State_Tension^9 = 20 }
 set_variable = { State_Stability^10 = 40 }
 set_variable = { State_Tension^10 = 30 }
+set_variable = { State_Stability^11 = 40 }
+set_variable = { State_Tension^11 = 30 }
 
 QINSetUpChina = yes
 
