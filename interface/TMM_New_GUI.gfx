@@ -349,6 +349,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Yushu_2.dds"
 	}
 	spriteType = {
+		name = "GFX_QIN_Hainan"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Hainan.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Hainan_Shade"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Hainan_Shade.dds"
+	}
+	spriteType = {
 		name = "GFX_QIN_City_Frames"
 		texturefile = "gfx/interface/lifayuan/new_icons/City_Frames.dds"
 		noOfFrames = 12

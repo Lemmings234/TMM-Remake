@@ -240,6 +240,18 @@ guiTypes = {
 			position = { x = 487 y = 609 }
 			pdx_tooltip = "QIN_Occupied_Xinan"
 		}
+		buttonType = {
+			name = "QIN_Hainan"
+			quadTextureSprite = "GFX_QIN_Hainan"
+			position = { x = 487 y = 609 }
+			pdx_tooltip = "QIN_Hainan_tt"
+		}
+		buttonType = {
+			name = "QIN_Hainan_Shade"
+			quadTextureSprite = "GFX_QIN_Hainan_Shade"
+			position = { x = 487 y = 609 }
+			pdx_tooltip = "QIN_Occupied_China"
+		}
 	    buttonType = {
 	    	name = "QIN_Japan_Shade"
 	    	quadTextureSprite = "GFX_QIN_Japan_Shade"

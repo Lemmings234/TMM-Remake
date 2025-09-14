@@ -1730,6 +1730,52 @@ scripted_gui = {
 		    QIN_Tuva_visible = {
 				owns_state = 329
 			}
+			QIN_Hainan_visible = {
+				owns_state = 519
+				owns_state = 2473
+				owns_state = 2474
+				owns_state = 2475
+			}
+			QIN_Hainan_Shade_visible = {
+				AND = {
+				    519 = {
+	                    controller = {
+		                    OR = {
+		                	    is_in_faction_with = JAP
+		                	    is_puppet_of = JAP
+		                	    tag = JAP
+		                    }
+			            }
+				    }
+				    2473 = {
+	                    controller = {
+		                    OR = {
+		                	    is_in_faction_with = JAP
+		                	    is_puppet_of = JAP
+		                	    tag = JAP
+		                    }
+			            }
+				    }
+					2474 = {
+	                    controller = {
+		                    OR = {
+		                	    is_in_faction_with = JAP
+		                	    is_puppet_of = JAP
+		                	    tag = JAP
+		                    }
+			            }
+				    }
+				    2475 = {
+	                    controller = {
+		                    OR = {
+		                	    is_in_faction_with = JAP
+		                	    is_puppet_of = JAP
+		                	    tag = JAP
+		                    }
+			            }
+				    }
+				}
+			}
 		    QIN_Mongolia_Shade_visible = {
 				AND = {
 				    330 = {
@@ -1845,6 +1891,7 @@ scripted_gui = {
 				    }
 				}
 			}
+			
 
 			###JAPAN###
 			JAP_Imperial_Court_Jyushin_Portrait_3_Mikasa_visible = { 
