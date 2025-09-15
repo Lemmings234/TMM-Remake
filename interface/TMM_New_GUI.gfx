@@ -220,6 +220,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Shaanxi_Shade.dds"
 	}
 	spriteType = {
+		name = "GFX_QIN_Sichuan"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Sichuan.dds"
+	}
+	spriteType = {
 		name = "GFX_QIN_Sichuan_Shade"
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Sichuan_Shade.dds"
 	}

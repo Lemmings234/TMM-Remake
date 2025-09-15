@@ -1730,6 +1730,22 @@ scripted_gui = {
 		    QIN_Tuva_visible = {
 				owns_state = 329
 			}
+			QIN_Sichuan_visible = {
+				owns_state = 605
+			}
+			QIN_Sichuan_Shade_visible = {
+				AND = {
+				    605 = {
+	                    controller = {
+		                    OR = {
+		                	is_in_faction_with = JAP
+		                	is_puppet_of = JAP
+		                	tag = JAP
+		                    }
+			            }
+				    }
+				}
+			}
 			QIN_Hainan_visible = {
 				owns_state = 519
 				owns_state = 2473

@@ -229,6 +229,12 @@ guiTypes = {
 	    	pdx_tooltip = "QIN_Occupied_China"
 	    }
 		buttonType = {
+			name = "QIN_Sichuan"
+			quadTextureSprite = "GFX_QIN_Sichuan"
+			position = { x = 630 y = 513 }
+			pdx_tooltip = "QIN_Sichuan_tt"
+		}
+		buttonType = {
 			name = "QIN_Sichuan_Shade"
 			quadTextureSprite = "GFX_QIN_Sichuan_Shade"
 			position = { x = 630 y = 513 }
