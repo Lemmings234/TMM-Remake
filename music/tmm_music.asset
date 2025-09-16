@@ -11,6 +11,14 @@ music = {
 	file = "congratulations_congratulations.ogg"
 }
 music = {
+	name = "three_principles_of_the_people"
+	file = "three_principles_of_the_people.ogg"
+}
+music = {
+	name = "roc_flag_anthem"
+	file = "roc_flag_anthem.oga"
+}
+music = {
 	name = "defend_motherland"
 	file = "defend_motherland.ogg"
 }
