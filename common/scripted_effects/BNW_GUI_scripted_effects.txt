@@ -17211,7 +17211,84 @@ QINSetUpChina = {
 	QINCalculateBureaucratPercentage = yes
     GUZ = { GUZSetUp = yes }
 }
+QIN_reload_parliament = {
+	set_temp_variable = { t1 = QIN_party_seats^0 }
+	set_temp_variable = { t2 = QIN_party_seats^1 }
+	set_temp_variable = { t3 = QIN_party_seats^2 }
+	set_temp_variable = { t4 = QIN_party_seats^3 }
+	set_temp_variable = { t5 = QIN_party_seats^4 }
+	set_temp_variable = { t6 = QIN_party_seats^5 }
+	set_temp_variable = { t7 = QIN_party_seats^6 }
+	set_temp_variable = { t8 = QIN_party_seats^7 }
+	set_temp_variable = { t9 = QIN_party_seats^8 }
+	set_temp_variable = { t10 = 113 }
 
+	set_variable = { QIN_Total_Seats = t10 }
+
+	add_to_temp_variable = { t2 = t1 }
+	add_to_temp_variable = { t3 = t2 }
+	add_to_temp_variable = { t4 = t3 }
+	add_to_temp_variable = { t5 = t4 }
+	add_to_temp_variable = { t6 = t5 }
+	add_to_temp_variable = { t7 = t6 }
+	add_to_temp_variable = { t8 = t7 }
+    add_to_temp_variable = { t9 = t8 }
+    add_to_temp_variable = { t10 = t9 }
+
+	clear_array = QIN_parliament_seats_display
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 1
+		size = t1
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 2
+		size = t2
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 3
+		size = t3
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 4
+		size = t4
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 5
+		size = t5
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 6
+		size = t6
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 7
+		size = t7
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 8
+		size = t8
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 9
+		size = t9
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 10
+		size = t10
+	}
+	QINPartySetup = yes
+	QINCalculateBureaucratPercentage = yes
+}
 QINSetupCity = {
 	set_variable = { state_city_value = 0 }
 	if = {

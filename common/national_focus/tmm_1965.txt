@@ -107,27 +107,14 @@ shared_focus = {
 		add_stability = 0.05
 		add_war_support = 0.05
 		custom_effect_tooltip = QIN_a_new_government_tt
-		subtract_from_variable = {
-            var = kmt_oldguard_lifayuan_seat
-            value = 4
-            }
-		add_to_variable = {
-            var = kmt_zhengxuepai_lifayuan_seat
-            value = 1
-            }
-		add_to_variable = {
-            var = kmt_xishan_lifayuan_seat
-            value = 1
-            }
-		add_to_variable = {
-            var = ccp_chinese_lifayuan_seat
-            value = 2
-            }
-		subtract_from_variable = {
-            var = kmt_oldguard_lifayuan_support
-            value = 10
-            }
-		}
+		subtract_from_variable = { QIN_party_seats^8 = 4}
+		add_to_variable = { QIN_party_seats^5 = 1 }
+		add_to_variable = { QIN_party_seats^7 = 1 }
+		add_to_variable = { QIN_party_seats^1 = 1 }
+		add_to_variable = { QIN_party_seats^2 = 1 }
+		subtract_from_variable = { QIN_party_opinions^8 = 10 }
+		QIN_reload_parliament = yes
+	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
