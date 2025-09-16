@@ -246,23 +246,29 @@ guiTypes = {
 			position = { x = 487 y = 609 }
 			pdx_tooltip = "QIN_Occupied_Xinan"
 		}
-		buttonType = {
-			name = "QIN_Hainan"
-			quadTextureSprite = "GFX_QIN_Hainan"
-			position = { x = 487 y = 609 }
-			pdx_tooltip = "QIN_Hainan_tt"
-		}
-		buttonType = {
-			name = "QIN_Hainan_Shade"
-			quadTextureSprite = "GFX_QIN_Hainan_Shade"
-			position = { x = 487 y = 609 }
-			pdx_tooltip = "QIN_Occupied_China"
-		}
+		# buttonType = {
+			# name = "QIN_Hainan"
+			# quadTextureSprite = "GFX_QIN_Hainan"
+			# position = { x = 487 y = 609 }
+			# pdx_tooltip = "QIN_Hainan_tt"
+		# }
+		# buttonType = {
+			# name = "QIN_Hainan_Shade"
+			# quadTextureSprite = "GFX_QIN_Hainan_Shade"
+			# position = { x = 487 y = 609 }
+			# pdx_tooltip = "QIN_Occupied_China"
+		# }
 	    buttonType = {
 	    	name = "QIN_Japan_Shade"
 	    	quadTextureSprite = "GFX_QIN_Japan_Shade"
 	    	position = { x = 721 y = 370 }
 	    	pdx_tooltip = "QIN_Occupied_Japan"
+	    }
+		buttonType = {
+	    	name = "QIN_Shaanxi"
+	    	quadTextureSprite = "GFX_QIN_Shaanxi"
+	    	position = { x = 670 y = 368 }
+	    	pdx_tooltip = "QIN_Shaanxi_tt"
 	    }
 	    buttonType = {
 	    	name = "QIN_Shaanxi_Shade"
@@ -2921,6 +2927,21 @@ guiTypes = {
 			position = { x = 74 y = 150 }
 		}
 		iconType = {
+			name = "Stability_Circle_Bar_12"
+			spriteType = "GFX_Generic_Circle_Bar"
+			position = { x = 74 y = 150 }
+		}
+		iconType = {
+			name = "Stability_Circle_Bar_13"
+			spriteType = "GFX_Generic_Circle_Bar"
+			position = { x = 74 y = 150 }
+		}
+		iconType = {
+			name = "Stability_Circle_Bar_14"
+			spriteType = "GFX_Generic_Circle_Bar"
+			position = { x = 74 y = 150 }
+		}
+		iconType = {
 			name = "Tension_Circle_Bar_0"
 			spriteType = "GFX_Generic_Negative_Circle_Bar"
 			position = { x = 74 y = 279 }
@@ -2977,6 +2998,21 @@ guiTypes = {
 		}
 		iconType = {
 			name = "Tension_Circle_Bar_11"
+			spriteType = "GFX_Generic_Negative_Circle_Bar"
+			position = { x = 74 y = 279 }
+		}
+		iconType = {
+			name = "Tension_Circle_Bar_12"
+			spriteType = "GFX_Generic_Negative_Circle_Bar"
+			position = { x = 74 y = 279 }
+		}
+		iconType = {
+			name = "Tension_Circle_Bar_13"
+			spriteType = "GFX_Generic_Negative_Circle_Bar"
+			position = { x = 74 y = 279 }
+		}
+		iconType = {
+			name = "Tension_Circle_Bar_14"
 			spriteType = "GFX_Generic_Negative_Circle_Bar"
 			position = { x = 74 y = 279 }
 		}

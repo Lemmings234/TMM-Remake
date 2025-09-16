@@ -72,6 +72,24 @@ defined_text = {
 		}
 		localization_key = QIN_tuv
 	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 12 }
+		}
+		localization_key = QIN_mon
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 13 }
+		}
+		localization_key = QIN_shaanxi
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 14 }
+		}
+		localization_key = QIN_sichuan
+	}
 }
 
 defined_text = {
@@ -260,6 +278,24 @@ defined_text = {
 		}
 		localization_key = [?State_Stability^11]
 	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 12 }
+		}
+		localization_key = [?State_Stability^12]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 13 }
+		}
+		localization_key = [?State_Stability^13]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 14 }
+		}
+		localization_key = [?State_Stability^14]
+	}
 }
 
 defined_text = {
@@ -335,6 +371,24 @@ defined_text = {
 			check_variable = { State_View = 11 }
 		}
 		localization_key = [?State_Tension^11]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 12 }
+		}
+		localization_key = [?State_Tension^12]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 13 }
+		}
+		localization_key = [?State_Tension^13]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 14 }
+		}
+		localization_key = [?State_Tension^14]
 	}
 }
 

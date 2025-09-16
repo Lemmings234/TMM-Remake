@@ -124,6 +124,24 @@ scripted_gui = {
 				set_variable = { State_View = 11 }
 				QINSetupCity = yes
 			}
+			QIN_Mongolia_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 12 }
+				QINSetupCity = yes
+			}
+			QIN_Shaanxi_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 13 }
+				QINSetupCity = yes
+			}
+			QIN_Sichuan_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 14 }
+				QINSetupCity = yes
+			}
 			BNW_Party_leader_click = {
 				set_country_flag = open_politics_view
 				set_variable = { Politics_Index = QIN_party_list^parties_idx }
@@ -1907,7 +1925,22 @@ scripted_gui = {
 				    }
 				}
 			}
-			
+			QIN_Shaanxi_visible = {
+				owns_state = 956
+			}
+			QIN_Shaanxi_Shade_visible = {
+				AND = {
+				    956 = {
+	                    controller = {
+		                    OR = {
+		                	is_in_faction_with = JAP
+		                	is_puppet_of = JAP
+		                	tag = JAP
+		                    }
+			            }
+				    }
+				}
+			}
 
 			###JAPAN###
 			JAP_Imperial_Court_Jyushin_Portrait_3_Mikasa_visible = { 
@@ -2651,6 +2684,15 @@ scripted_gui = {
 			Stability_Circle_Bar_11_visible = {
 				check_variable = { State_View = 11 }
 			}
+			Stability_Circle_Bar_12_visible = {
+				check_variable = { State_View = 12 }
+			}
+			Stability_Circle_Bar_13_visible = {
+				check_variable = { State_View = 13 }
+			}
+			Stability_Circle_Bar_14_visible = {
+				check_variable = { State_View = 14 }
+			}
 			Tension_Circle_Bar_0_visible = {
 				check_variable = { State_View = 0 }
 			}
@@ -2686,6 +2728,15 @@ scripted_gui = {
 			}
 			Tension_Circle_Bar_11_visible = {
 				check_variable = { State_View = 11 }
+			}
+			Tension_Circle_Bar_12_visible = {
+				check_variable = { State_View = 12 }
+			}
+			Tension_Circle_Bar_13_visible = {
+				check_variable = { State_View = 13 }
+			}
+			Tension_Circle_Bar_14_visible = {
+				check_variable = { State_View = 14 }
 			}
 		}
 		properties = {
@@ -2725,6 +2776,15 @@ scripted_gui = {
 			Stability_Circle_Bar_11 = {
 				frame = State_Stability^11
 			}
+			Stability_Circle_Bar_12 = {
+				frame = State_Stability^12
+			}
+			Stability_Circle_Bar_13 = {
+				frame = State_Stability^13
+			}
+			Stability_Circle_Bar_14 = {
+				frame = State_Stability^14
+			}
 			Tension_Circle_Bar_0 = {
 				frame = State_Tension^0
 			}
@@ -2760,6 +2820,15 @@ scripted_gui = {
 			}
 			Tension_Circle_Bar_11 = {
 				frame = State_Tension^11
+			}
+			Tension_Circle_Bar_12 = {
+				frame = State_Tension^12
+			}
+			Tension_Circle_Bar_13 = {
+				frame = State_Tension^13
+			}
+			Tension_Circle_Bar_14 = {
+				frame = State_Tension^14
 			}
 			State_Urban_Displayer = {
 				frame = state_city_value
