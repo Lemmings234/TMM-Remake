@@ -228,6 +228,20 @@
  Leader_Name_7:0 "§YChiang Ching-kuo§!"
  Leader_Name_8:0 "§YChen Lifu§!"
  Leader_Name_9:0 "§YSun Fo§!"
+ 
+ Leader_Name_1_GUZ:0 "§YChu Anping§!"
+ Leader_Name_2_GUZ:0 "§YHu Yuzhi§!"
+ Leader_Name_3_GUZ:0 "§YShi Liang§!"
+ Leader_Name_4_GUZ:0 "§YZhang Naiqi§!"
+ Leader_Name_5_GUZ:0 "§YLiang Shuming§!"
+ Leader_Name_6_GUZ:0 "§YQian Jiaju§!"
+ Leader_Name_7_GUZ:0 "§YLuo Longji§!"
+ Leader_Name_8_GUZ:0 "§YJiang Yuntian§!"
+ Leader_Name_9_GUZ:0 "§YZhang Dongsun§!"
+ Leader_Name_10_GUZ:0 "§YSun Baogang§!"
+ Leader_Name_11_GUZ:0 "§YCai Tingkai§!"
+ Leader_Name_12_GUZ:0 "§YLu Han§!"
+ Leader_Name_13_GUZ:0 "§YHuang Shaohong§!"
 
  Party_Support:0 "£Generic_Support §WSupport:§! §Y[?QIN_party_opinions^Politics_Index]%§!\n£Generic_Support_Cap §WSupport Cap:§! §Y[?QIN_party_Cap^Politics_Index]%§!"
 
