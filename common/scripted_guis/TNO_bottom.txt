@@ -128,6 +128,11 @@ scripted_gui = {
 			}
 			china_gui_crt_icon_visible = {
 				original_tag = QIN
+				NOT = { has_country_flag = CCP_Won }
+			}
+			china_communist_gui_crt_icon_visible = {
+				original_tag = QIN
+				has_country_flag = CCP_Won 
 			}
 			xinan_gui_crt_icon_visible = {
 				original_tag = GUZ
@@ -407,6 +412,15 @@ scripted_gui = {
 				clr_country_flag = gui_alert_visible_2
 			}
 			china_gui_crt_icon_click = {
+				if = {
+					limit = { has_country_flag = open_asia_parliament_gui }
+					clr_country_flag = open_asia_parliament_gui
+					QINGenerateSupport = yes
+				}
+				else = { set_country_flag = open_asia_parliament_gui }
+				clr_country_flag = gui_alert_visible_2
+			}
+			china_communist_gui_crt_icon_click = {
 				if = {
 					limit = { has_country_flag = open_asia_parliament_gui }
 					clr_country_flag = open_asia_parliament_gui

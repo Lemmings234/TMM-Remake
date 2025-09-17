@@ -1705,6 +1705,7 @@ shared_focus = {
 		TNO_improve_political_parties_policy_effectiveness_med = yes
 		custom_effect_tooltip = QIN_sun_fo_rejected_tt
 		set_country_flag = QIN_CCP_Path
+		set_country_flag = CCP_Won
 		QIN_reload_tree = yes
 		}
 	cancel_if_invalid = yes

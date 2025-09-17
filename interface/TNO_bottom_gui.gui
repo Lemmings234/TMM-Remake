@@ -182,13 +182,13 @@ guiTypes = {
 			centerposition = yes
 			pdx_tooltip = "scripted_gui_open_qin_gov"
 		}
-		# buttonType = {
-			# name = "china_communist_gui_crt_icon"
-			# spriteType = "GFX_zhengxie_crt_icon"
-			# position = { x = 48 y = 48 }
-			# centerposition = yes
-			# pdx_tooltip = "scripted_gui_open_qin_gov"
-		# }
+		buttonType = {
+			name = "china_communist_gui_crt_icon"
+			spriteType = "GFX_zhengxie_crt_icon"
+			position = { x = 48 y = 48 }
+			centerposition = yes
+			pdx_tooltip = "scripted_gui_open_qin_gov"
+		}
 	}
 
 	containerWindowType = {
