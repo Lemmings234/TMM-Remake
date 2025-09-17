@@ -369,7 +369,7 @@
  QIN_Legislation_Bill_Propser_Title:0 "PROPOSER"
 
  QIN_Legislation_Bill_Propser_2:0 "§BKMT Caucus§!"
- QIN_Legislation_Bill_Propser_1:0 "§NIndependent Caucus§!"
+ QIN_Legislation_Bill_Propser_1:0 "§WIndependent Caucus§!"
  QIN_Legislation_Bill_Propser_0:0 "§RCCP Caucus§!"
 
  QIN_Legislation_Bill_Committee_Title:0 "FALLS UNDER..."
@@ -433,7 +433,7 @@
  Constitutionality_Header:0 "§YConstitutionality is [getConstitutionality]§!"
  Impeachment_Tooltip:0 "§YNote: Impeachment generates a bill in the§! §BLEGISLATIVE YUAN§! §Ythat must be passed in order for impeachment to take effect§!."
 
- Politician_Name_1:0 "§YMa Jiyuan§!"
+ Politician_Name_1:0 "§YChen Cheng§!"
  Politician_Name_2:0 "§YSun Fo§!"
  Politician_Name_3:0 "§YNi Wenya§!"
  Politician_Name_4:0 "§YYu Youren§!"
