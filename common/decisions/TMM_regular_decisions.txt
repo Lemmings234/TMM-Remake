@@ -729,7 +729,7 @@ QIN_Debug = {
 		}		
 		cost = 0
 		complete_effect = {		
-			set_country_flag = whip_deng_xiaoping
+			set_country_flag = general_secretary_deng_xiaoping
 			clr_country_flag = whip_ma_shuli
 			clr_country_flag = whip_yu_guohua
 			clr_country_flag = whip_li_huan

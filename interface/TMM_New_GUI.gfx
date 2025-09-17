@@ -1215,8 +1215,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Deng_Xiaoping.dds"
 	}
 	spriteType = {
-		name = "GFX_President_Chen_Xuepin"
-		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Chen_Xuepin.dds"
+		name = "GFX_President_Chen_Xueping"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Chen_Xueping.dds"
 	}
 
 	### Whips of Parties ###
@@ -1242,8 +1242,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Ma_Yinchu.dds"
 	}
 	spriteType = {
-		name = "GFX_Whip_Qu_Mengjue"
-		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Qu_Mengjue.dds"
+		name = "GFX_Whip_Ou_Mengjue"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Ou_Mengjue.dds"
 	}
 	spriteType = {
 		name = "GFX_Whip_Zhong_Tianxin"

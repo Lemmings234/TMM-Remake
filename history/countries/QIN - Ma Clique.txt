@@ -510,8 +510,8 @@ set_variable = { QIN_modernisation_war = 0 }
 set_variable = { QIN_pu_modifier = 0 }
 
 
-# set_country_flag = president_ni_wenya
-# set_country_flag = whip_ma_shuli
+set_country_flag = president_ni_wenya
+set_country_flag = whip_zhang_lisheng
 set_country_flag = QIN_Legislation_In_Recess
 set_country_flag = QIN_Legislation_Stage_1
 

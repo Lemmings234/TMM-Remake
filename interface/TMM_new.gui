@@ -143,7 +143,7 @@ guiTypes = {
 				position = { x = 244 y = -2 }
 				quadTextureSprite = "GFX_BRA_Map_Tab"
 				buttonFont = "Bomb_18"
-				text = "QIN_tab_1"
+				text = [QIN_tab_1]
 			}
 
 			iconType = {
@@ -921,13 +921,68 @@ guiTypes = {
 			position = { x = 288 y = 180 }
 		}
 		iconType = {
-			name = "Lifayuan_President"
+			name = "Lifayuan_President_Ni_Wenya"
 			spriteType = "GFX_President_Ni_Wenya"
 			position = { x = 78 y = 113 }
-		}	
+		}
 		iconType = {
-			name = "Lifayuan_Majority_Whip"
+			name = "Lifayuan_President_Chen_Xueping"
+			spriteType = "GFX_President_Chen_Xueping"
+			position = { x = 78 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_President_Gu_Zhenggang"
+			spriteType = "GFX_President_Gu_Zhenggang"
+			position = { x = 78 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_President_Liang_Hancao"
+			spriteType = "GFX_President_Liang_Hancao"
+			position = { x = 78 y = 113 }
+		}
+		iconType = {
+			name = "General_Secretary_Deng_Xiaoping"
+			spriteType = "GFX_President_Deng_Xiaoping"
+			position = { x = 78 y = 113 }
+		}
+		iconType = {
+			name = "General_Secretary_Tan_Tiwu"
+			spriteType = "GFX_President_Tan_Tiwu"
+			position = { x = 78 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_Majority_Whip_Zhang_Lisheng"
 			spriteType = "GFX_Whip_Zhang_Lisheng"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_Majority_Whip_Gu_Fengxiang"
+			spriteType = "GFX_Whip_Gu_Fengxiang"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_Majority_Whip_Huang_Zhengxue"
+			spriteType = "GFX_Whip_Huang_Zhengxue"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_Majority_Whip_Li_Huan"
+			spriteType = "GFX_Whip_Li_Huan"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_Majority_Whip_Zhong_Tianxin"
+			spriteType = "GFX_Whip_Zhong_Tianxin"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Premier_Ma_Yinchu"
+			spriteType = "GFX_Whip_Ma_Yinchu"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Premier_Ou_Mengjue"
+			spriteType = "GFX_Whip_Ou_Mengjue"
 			position = { x = 441 y = 113 }
 		}
 		instantTextboxType = {

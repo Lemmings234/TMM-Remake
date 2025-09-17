@@ -158,7 +158,21 @@ defined_text = {
 		localization_key = "BNW_Japan_Election_GUI"
 	}
 }
-
+defined_text = {
+	name = QIN_tab_1
+	text = {
+		trigger = {
+			NOT = { has_country_flag = CCP_Won }
+		}
+		localization_key = QIN_tab_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = CCP_Won
+		}
+		localization_key = QIN_tab_1_communist
+	}
+}
 defined_text = {
 	name = QINgetCurrentStage
 	text = {

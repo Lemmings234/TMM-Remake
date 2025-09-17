@@ -1494,6 +1494,84 @@ scripted_gui = {
 					has_country_flag = QIN_Legislation_Stage_4
 				}				
 			}
+			Lifayuan_President_Ni_Wenya_visible = {
+				QIN = {
+					has_country_flag = president_ni_wenya
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_President_Chen_Xueping_visible = {
+				QIN = {
+					has_country_flag = president_chen_xueping
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_President_Gu_Zhenggang_visible = {
+				QIN = {
+					has_country_flag = president_gu_zhenggang
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_President_Liang_Hancao_visible = {
+				QIN = {
+					has_country_flag = president_liang_hancao
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			General_Secretary_Deng_Xiaoping_visible = {
+				QIN = {
+					has_country_flag = general_secretary_deng_xiaoping
+					has_country_flag = CCP_Won
+				}
+			}
+			General_Secretary_Tan_Tiwu_visible = {
+				QIN = {
+					has_country_flag = general_secretary_tan_tiwu
+					has_country_flag = CCP_Won
+				}
+			}
+			Lifayuan_Majority_Whip_Zhang_Lisheng_visible = {
+				QIN = {
+					has_country_flag = whip_zhang_lisheng
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_Majority_Whip_Gu_Fengxiang_visible = {
+				QIN = {
+					has_country_flag = whip_gu_fengxiang
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_Majority_Whip_Huang_Zhengxue_visible = {
+				QIN = {
+					has_country_flag = whip_huang_zhengxue
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_Majority_Whip_Li_Huan_visible = {
+				QIN = {
+					has_country_flag = whip_li_huan
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_Majority_Whip_Zhong_Tianxin_visible = {
+				QIN = {
+					has_country_flag = whip_zhong_tianxin
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Premier_Ma_Yinchu_visible = {
+				QIN = {
+					has_country_flag = premier_ma_yinchu
+					has_country_flag = CCP_Won
+				}
+			}
+			Premier_Ou_Mengjue_visible = {
+				QIN = {
+					has_country_flag = premier_ou_mengyue
+					has_country_flag = CCP_Won
+				}
+			}
 			Auditing_Button_visible = { NOT = { has_country_flag = Government_Impeaching } } 
 			Impeachment_Button_visible = { has_country_flag = Government_Impeaching }
 			Impeachment_Button_2_visible = { NOT = { has_country_flag = Government_Impeaching } }
