@@ -2686,7 +2686,7 @@ country_event = {#Feb Event
 	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.115"
 			country_event = { 
 				id = tmm.maclique.116
-				days = 183
+				days = 187
 			    }
 			QINStopAdHocMeeting = yes
 			clr_country_flag = QIN_Legislation_In_Recess
@@ -2716,7 +2716,7 @@ country_event = {#Aug Event
 	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.116"
 			country_event = { 
 				id = tmm.maclique.117
-				days = 31
+				days = 32
 			    }
 			QINStopAdHocMeeting = yes
 			set_country_flag = QIN_Legislation_In_Recess
@@ -2746,7 +2746,7 @@ country_event = {#Sep Event
 	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.117"
 			country_event = { 
 				id = tmm.maclique.118
-				days = 61
+				days = 63
 			    }
 			QINStopAdHocMeeting = yes
 			clr_country_flag = QIN_Legislation_In_Recess
@@ -2776,7 +2776,7 @@ country_event = {#Nov Event
 	        log = "[GetDateText]: [Root.GetName]: event tmm.maclique.118"
 			country_event = { 
 				id = tmm.maclique.115
-				days = 92
+				days = 83
 			    }
 			QINStopAdHocMeeting = yes
 			set_country_flag = QIN_Legislation_In_Recess
