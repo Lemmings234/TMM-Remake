@@ -457,6 +457,9 @@ country_event = { id = tmm.maclique.8 days = 47 }
 country_event = { id = tmm.maclique.9 days = 140 }
 country_event = { id = tmm.maclique.103 days = 533 }
 
+##Legislation Event Loop##
+country_event = { id = tmm.maclique.115 days = 32 } #Feb 2nd
+
 add_dynamic_modifier = {
 	modifier = QIN_modernisation_dynamic_modifier
 }	
