@@ -1568,7 +1568,7 @@ scripted_gui = {
 			}
 			Premier_Ou_Mengjue_visible = {
 				QIN = {
-					has_country_flag = premier_ou_mengyue
+					has_country_flag = premier_ou_mengjue
 					has_country_flag = CCP_Won
 				}
 			}
