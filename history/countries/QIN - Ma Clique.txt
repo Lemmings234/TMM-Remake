@@ -1043,7 +1043,7 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 		}
 		
-		icon = GFX_QIN_IFV_1945_medium
+		icon = GFX_QIN_NSB_IFV_1945_medium
 		upgrades = {
 			tank_nsb_engine_upgrade = 3
 			tank_nsb_armor_upgrade = 2
@@ -1051,7 +1051,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Type M3 Half-Track"
-		type = APC_chassis_2
+		type = APC_chassis_0
 		parent_version = 0
 		modules = {
 			APC_designation_slot = APC_infantry
@@ -1063,7 +1063,7 @@ if = {
 			special_type_slot_2 = secondary_turret_hmg
 		}
 		
-		icon = GFX_QIN_APC_1945_medium
+		icon = GFX_QIN_NSB_APC_1945_medium
 		upgrades = {
 			ac_nsb_engine_upgrade = 6
 			ac_nsb_armor_upgrade = 6
@@ -1071,7 +1071,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Type M3A3"
-		type = MBT_chassis_1
+		type = MBT_chassis_0
 		parent_version = 0
 		modules = {
 			main_armament_slot = MBT_cannon
@@ -1081,7 +1081,7 @@ if = {
 			engine_type_slot = tank_gasoline_engine
 		}
 		
-		icon = GFX_QIN_MBT_1945_medium
+		icon = GFX_QIN_NSB_MBT_1945_medium
 		upgrades = {
 			tank_nsb_engine_upgrade = 3
 			tank_nsb_armor_upgrade = 2
