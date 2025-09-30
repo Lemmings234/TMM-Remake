@@ -1460,7 +1460,7 @@ shared_focus = {
 		    retire_character = QIN_Chiang_Chingkuo
             remove_ideas = QIN_Chiang_Chingkuo_hog
 		}
-		add_ideas = QIN_Gao_Gang_hog_hog
+		add_ideas = QIN_Gao_Gang_hog
 		set_country_flag = CCP_victory_placeholder
 	}
 	cancel_if_invalid = yes
