@@ -2232,14 +2232,9 @@ shared_focus = {
 	    focus = maneuvers_in_executive_yuan
 	}
 	completion_reward = {
-		subtract_from_variable = {
-            var = kmt_oldguard_lifayuan_seat
-            value = 5
-            }
-		add_to_variable = {
-            var = kmt_hardliner_lifayuan_seat
-            value = 5
-            }
+		subtract_from_variable = { QIN_party_seats^7 = 5}
+		add_to_variable = { QIN_party_seats^8 = 5 }
+		QIN_reload_parliament = yes
 		custom_effect_tooltip = QIN_hardline_cabinet_tt
 		}
 	cancel_if_invalid = yes
