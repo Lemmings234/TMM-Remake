@@ -2493,6 +2493,10 @@ shared_focus = {
             ideology = conservatism
             popularity = 0.075
             }
+			add_popularity = {
+            ideology = liberal_conservatism
+            popularity = 0.075
+            }
 		add_popularity = {
             ideology = liberalism
             popularity = 0.075
