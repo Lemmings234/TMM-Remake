@@ -701,6 +701,8 @@ guiTypes = {
 			text = "[getQINPastLegislationCause]"
 			format = centre
 			maxWidth = 200
+			scrollbarType = "standardtext_slider"
+			format = left
 		}
 	    iconType = {
 	    	name = "Legislation_Stage_1"
