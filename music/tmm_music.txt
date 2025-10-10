@@ -17,9 +17,63 @@ music = {
 	chance = {
 		factor = 0
 		modifier = {
-		   tag = XSM
+		   tag = WCH
 		   owns_state = 283
-		   factor = 100
+		   add = 100
+		}
+	}
+}
+music = {
+	song = "three_principles_of_the_people"
+	chance = {
+		base = 0
+		modifier = {
+			AND = {
+				NOT = {
+					OR = {
+						has_government = socialist
+						has_government = communist
+					}
+				}
+				OR = {
+					tag = CHI #Yes, really, WJW Regime keeps this as the anthem
+					tag = WCH
+					tag = SIC
+					tag = GAN
+					tag = XIN
+					tag = GUZ
+					tag = YUN
+					tag = GUX
+				}
+			}
+			add = 1
+		}
+	}
+}
+music = {
+	song = "roc_flag_anthem"
+	chance = {
+		base = 0
+		modifier = {
+			AND = {
+				NOT = {
+					OR = {
+						has_government = socialist
+						has_government = communist
+					}
+				}
+				OR = {
+					tag = CHI #Yes, really, WJW Regime keeps this as the flag anthem
+					tag = WCH
+					tag = SIC
+					tag = GAN
+					tag = XIN
+					tag = GUZ
+					tag = YUN
+					tag = GUX
+				}
+			}
+			add = 1
 		}
 	}
 }

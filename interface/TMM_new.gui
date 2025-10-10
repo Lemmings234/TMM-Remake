@@ -143,7 +143,7 @@ guiTypes = {
 				position = { x = 244 y = -2 }
 				quadTextureSprite = "GFX_BRA_Map_Tab"
 				buttonFont = "Bomb_18"
-				text = "QIN_tab_1"
+				text = [QIN_tab_1]
 			}
 
 			iconType = {
@@ -229,6 +229,12 @@ guiTypes = {
 	    	pdx_tooltip = "QIN_Occupied_China"
 	    }
 		buttonType = {
+			name = "QIN_Sichuan"
+			quadTextureSprite = "GFX_QIN_Sichuan"
+			position = { x = 630 y = 513 }
+			pdx_tooltip = "QIN_Sichuan_tt"
+		}
+		buttonType = {
 			name = "QIN_Sichuan_Shade"
 			quadTextureSprite = "GFX_QIN_Sichuan_Shade"
 			position = { x = 630 y = 513 }
@@ -240,11 +246,29 @@ guiTypes = {
 			position = { x = 487 y = 609 }
 			pdx_tooltip = "QIN_Occupied_Xinan"
 		}
+		# buttonType = {
+			# name = "QIN_Hainan"
+			# quadTextureSprite = "GFX_QIN_Hainan"
+			# position = { x = 487 y = 609 }
+			# pdx_tooltip = "QIN_Hainan_tt"
+		# }
+		# buttonType = {
+			# name = "QIN_Hainan_Shade"
+			# quadTextureSprite = "GFX_QIN_Hainan_Shade"
+			# position = { x = 487 y = 609 }
+			# pdx_tooltip = "QIN_Occupied_China"
+		# }
 	    buttonType = {
 	    	name = "QIN_Japan_Shade"
 	    	quadTextureSprite = "GFX_QIN_Japan_Shade"
 	    	position = { x = 721 y = 370 }
 	    	pdx_tooltip = "QIN_Occupied_Japan"
+	    }
+		buttonType = {
+	    	name = "QIN_Shaanxi"
+	    	quadTextureSprite = "GFX_QIN_Shaanxi"
+	    	position = { x = 670 y = 368 }
+	    	pdx_tooltip = "QIN_Shaanxi_tt"
 	    }
 	    buttonType = {
 	    	name = "QIN_Shaanxi_Shade"
@@ -257,6 +281,12 @@ guiTypes = {
 	    	quadTextureSprite = "GFX_QIN_Mongolia_Shade"
 	    	position = { x = 501 y = 115 }
 	    	pdx_tooltip = "QIN_Occupied_Mongolia"
+	    }
+		buttonType = {
+	    	name = "QIN_Mongolia"
+	    	quadTextureSprite = "GFX_QIN_Mongolia"
+	    	position = { x = 501 y = 115 }
+	    	pdx_tooltip = "QIN_East_Mongolia_tt"
 	    }
 	    buttonType = {
 	    	name = "QIN_West_Mongolia_Shade"
@@ -288,6 +318,12 @@ guiTypes = {
 	    	quadTextureSprite = "GFX_QIN_Tuva"
 	    	position = { x = 437 y = 33 }
 	    	pdx_tooltip = "QIN_Tuva_tt"
+	    }
+		buttonType = {
+	    	name = "QIN_Tuva_2"
+	    	quadTextureSprite = "GFX_QIN_Tuva_2"
+	    	position = { x = 437 y = 33 }
+	    	pdx_tooltip = "QIN_Occupied_Mongolia"
 	    }
 	    buttonType = {
 	    	name = "QIN_Beijiang_2"
@@ -665,6 +701,8 @@ guiTypes = {
 			text = "[getQINPastLegislationCause]"
 			format = centre
 			maxWidth = 200
+			scrollbarType = "standardtext_slider"
+			format = left
 		}
 	    iconType = {
 	    	name = "Legislation_Stage_1"
@@ -885,13 +923,68 @@ guiTypes = {
 			position = { x = 288 y = 180 }
 		}
 		iconType = {
-			name = "Lifayuan_President"
+			name = "Lifayuan_President_Ni_Wenya"
 			spriteType = "GFX_President_Ni_Wenya"
 			position = { x = 78 y = 113 }
-		}	
+		}
 		iconType = {
-			name = "Lifayuan_Majority_Whip"
+			name = "Lifayuan_President_Chen_Xueping"
+			spriteType = "GFX_President_Chen_Xueping"
+			position = { x = 78 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_President_Gu_Zhenggang"
+			spriteType = "GFX_President_Gu_Zhenggang"
+			position = { x = 78 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_President_Liang_Hancao"
+			spriteType = "GFX_President_Liang_Hancao"
+			position = { x = 78 y = 113 }
+		}
+		iconType = {
+			name = "General_Secretary_Deng_Xiaoping"
+			spriteType = "GFX_President_Deng_Xiaoping"
+			position = { x = 78 y = 113 }
+		}
+		iconType = {
+			name = "General_Secretary_Tan_Tiwu"
+			spriteType = "GFX_President_Tan_Tiwu"
+			position = { x = 78 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_Majority_Whip_Zhang_Lisheng"
 			spriteType = "GFX_Whip_Zhang_Lisheng"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_Majority_Whip_Gu_Fengxiang"
+			spriteType = "GFX_Whip_Gu_Fengxiang"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_Majority_Whip_Huang_Zhengxue"
+			spriteType = "GFX_Whip_Huang_Zhengxue"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_Majority_Whip_Li_Huan"
+			spriteType = "GFX_Whip_Li_Huan"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Lifayuan_Majority_Whip_Zhong_Tianxin"
+			spriteType = "GFX_Whip_Zhong_Tianxin"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Premier_Ma_Yinchu"
+			spriteType = "GFX_Whip_Ma_Yinchu"
+			position = { x = 441 y = 113 }
+		}
+		iconType = {
+			name = "Premier_Ou_Mengjue"
+			spriteType = "GFX_Whip_Ou_Mengjue"
 			position = { x = 441 y = 113 }
 		}
 		instantTextboxType = {
@@ -2891,6 +2984,21 @@ guiTypes = {
 			position = { x = 74 y = 150 }
 		}
 		iconType = {
+			name = "Stability_Circle_Bar_12"
+			spriteType = "GFX_Generic_Circle_Bar"
+			position = { x = 74 y = 150 }
+		}
+		iconType = {
+			name = "Stability_Circle_Bar_13"
+			spriteType = "GFX_Generic_Circle_Bar"
+			position = { x = 74 y = 150 }
+		}
+		iconType = {
+			name = "Stability_Circle_Bar_14"
+			spriteType = "GFX_Generic_Circle_Bar"
+			position = { x = 74 y = 150 }
+		}
+		iconType = {
 			name = "Tension_Circle_Bar_0"
 			spriteType = "GFX_Generic_Negative_Circle_Bar"
 			position = { x = 74 y = 279 }
@@ -2947,6 +3055,21 @@ guiTypes = {
 		}
 		iconType = {
 			name = "Tension_Circle_Bar_11"
+			spriteType = "GFX_Generic_Negative_Circle_Bar"
+			position = { x = 74 y = 279 }
+		}
+		iconType = {
+			name = "Tension_Circle_Bar_12"
+			spriteType = "GFX_Generic_Negative_Circle_Bar"
+			position = { x = 74 y = 279 }
+		}
+		iconType = {
+			name = "Tension_Circle_Bar_13"
+			spriteType = "GFX_Generic_Negative_Circle_Bar"
+			position = { x = 74 y = 279 }
+		}
+		iconType = {
+			name = "Tension_Circle_Bar_14"
 			spriteType = "GFX_Generic_Negative_Circle_Bar"
 			position = { x = 74 y = 279 }
 		}

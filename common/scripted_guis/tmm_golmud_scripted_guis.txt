@@ -9030,6 +9030,22 @@ QIN_golmud_city_Z40N_visible = {
 			QIN_Golmud_Z4N_click = {
 				if = {
 					limit = {
+                        check_variable = { VP_Token = 2 }
+					}
+					add_to_variable = {
+						var = BOG_STRENGTH_ALLIED^4
+						value = QIN_BOG_Deploy_Count
+					}
+					subtract_from_variable = {
+						var = BOG_STRENGTH_ALLIED^2
+						value = QIN_BOG_Deploy_Count
+					}
+					set_variable = { QIN_BOG_Deploy_Count = 0 }
+					set_country_flag = QIN_VP_Major2_Moved
+					add_to_variable = { BOG_movement = 1 }
+				}
+				else_if = {
+					limit = {
                         check_variable = { VP_Token = 18 }
 					}
 					add_to_variable = {

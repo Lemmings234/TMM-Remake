@@ -216,8 +216,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Mongolia_Shade.dds"
 	}
 	spriteType = {
+		name = "GFX_QIN_Shaanxi"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Shaanxi.dds"
+	}
+	spriteType = {
 		name = "GFX_QIN_Shaanxi_Shade"
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Shaanxi_Shade.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Sichuan"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Sichuan.dds"
 	}
 	spriteType = {
 		name = "GFX_QIN_Sichuan_Shade"
@@ -313,6 +321,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Tuva.dds"
 	}
 	spriteType = {
+		name = "GFX_QIN_Tuva_2"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Tuva_2.dds"
+	}
+	spriteType = {
 		name = "GFX_QIN_Tuva_3"
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Tuva_3.dds"
 	}
@@ -323,6 +335,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_QIN_West_Mongolia_3"
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/West_Mongolia_3.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Mongolia"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Mongolia.dds"
 	}
 	spriteType = {
 		name = "GFX_QIN_Xikang"
@@ -339,6 +355,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_QIN_Yushu_2"
 		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Yushu_2.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Hainan"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Hainan.dds"
+	}
+	spriteType = {
+		name = "GFX_QIN_Hainan_Shade"
+		texturefile = "gfx/interface/lifayuan/new_icons/Xibei_Provinces/Hainan_Shade.dds"
 	}
 	spriteType = {
 		name = "GFX_QIN_City_Frames"
@@ -1191,8 +1215,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Deng_Xiaoping.dds"
 	}
 	spriteType = {
-		name = "GFX_President_Chen_Xuepin"
-		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Chen_Xuepin.dds"
+		name = "GFX_President_Chen_Xueping"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_President_Chen_Xueping.dds"
 	}
 
 	### Whips of Parties ###
@@ -1218,8 +1242,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Ma_Yinchu.dds"
 	}
 	spriteType = {
-		name = "GFX_Whip_Qu_Mengjue"
-		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Qu_Mengjue.dds"
+		name = "GFX_Whip_Ou_Mengjue"
+		texturefile = "gfx/interface/lifayuan/leaders/GFX_Whip_Ou_Mengjue.dds"
 	}
 	spriteType = {
 		name = "GFX_Whip_Zhong_Tianxin"

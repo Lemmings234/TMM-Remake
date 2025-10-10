@@ -51,14 +51,6 @@ guiTypes = {
 		}
 		
 		buttonType = {
-			name = "england_parliament_crt_icon"
-			spriteType = "GFX_england_parliament_crt_icon"
-			position = { x = 48 y = 48 }
-			centerposition = yes
-			pdx_tooltip = "TNO_ParliamentMechanic_open_button_tt"
-		}
-		
-		buttonType = {
 			name = "burgundy_crt_icon"
 			spriteType = "GFX_burgundy_crt_icon"
 			position = { x = 48 y = 48 }
@@ -73,6 +65,14 @@ guiTypes = {
 			centerposition = yes
 			pdx_tooltip = "scripted_gui_open_tt_COG_trp"
 		}
+
+		buttonType = {
+			name = "breadbasket_crt_icon"
+			spriteType = "GFX_breadbasket_crt_icon"
+			position = { x = 46 y = 48 }
+			centerposition = yes
+			pdx_tooltip = "UKR_BB_open_button"
+		}
 		
 		buttonType = {
 			name = "yokusankai_crt_icon"
@@ -80,22 +80,6 @@ guiTypes = {
 			position = { x = 48 y = 48 }
 			centerposition = yes
 			pdx_tooltip = "scripted_gui_open_tt_jap_gov"
-		}
-		
-		buttonType = {
-			name = "fascist_italian_empire_crt_icon"
-			spriteType = "GFX_fascist_italian_empire_crt_icon"
-			position = { x = 48 y = 48 }
-			centerposition = yes
-			pdx_tooltip = "scripted_gui_open_tt_ita_fas"
-		}
-		
-		buttonType = {
-			name = "democratic_italian_empire_crt_icon"
-			spriteType = "GFX_democratic_italian_empire_crt_icon"
-			position = { x = 48 y = 48 }
-			centerposition = yes
-			pdx_tooltip = "scripted_gui_open_tt_ita_dem"
 		}
 
 		buttonType = {
@@ -123,14 +107,6 @@ guiTypes = {
 		}
 
 		buttonType = {
-			name = "project_ferus_crt_icon"
-			spriteType = "GFX_project_ferus_crt_icon"
-			position = { x = 48 y = 48 }
-			centerposition = yes
-			pdx_tooltip = scripted_gui_open_tt_OMO_fer
-		}
-
-		buttonType = {
 			name = "GNG_legco_crt_icon"
 			spriteType = "GFX_GNG_legco_crt_icon"
 			position = { x = 48 y = 48 }
@@ -147,13 +123,51 @@ guiTypes = {
 		}
 
 		buttonType = {
+			name = "project_ferus_crt_icon"
+			spriteType = "GFX_project_ferus_crt_icon"
+			position = { x = 48 y = 48 }
+			centerposition = yes
+			pdx_tooltip = "scripted_gui_open_tt_OMO_fer"
+		}
+
+		buttonType = {
+			name = "BRI_workshop_crt_icon"
+			spriteType = "GFX_BRI_workshop_crt_icon"
+			position = { x = 48 y = 48 }
+			centerposition = yes
+			pdx_tooltip = "BRI_Workshop_OpenButton_tt"
+		}
+		
+		buttonType = {
+			name = "MEX_PRI_mechanic_crt_icon"
+			spriteType = "GFX_MEX_PRI_mechanic_crt_icon"
+			position = { x = 48 y = 48 }
+			centerposition = yes
+			pdx_tooltip = MEX_PRI_bottom_gui_tt
+		}
+
+		buttonType = {
+			name = "antarctica_grid_gui_crt_icon"
+			spriteType = "GFX_antarctica_grid_gui_crt_icon"
+			position = { x = 48 y = 48 }
+			centerposition = yes
+			pdx_tooltip = "Antarctica_GUI_Open_Button_Text"
+		}
+
+		buttonType = {
+			name = "greater_china_crt_icon"
+			spriteType = "GFX_greater_china_crt_icon"
+			position = { x = 48 y = 48 }
+			centerposition = yes
+			pdx_tooltip = "scripted_GUI_open_tt_greater_china"
+		}
+		buttonType = {
 			name = "china_gui_crt_icon"
 			spriteType = "GFX_lifayuan_crt_icon"
 			position = { x = 48 y = 48 }
 			centerposition = yes
 			pdx_tooltip = "scripted_gui_open_qin_gov"
 		}
-
 		buttonType = {
 			name = "xinan_gui_crt_icon"
 			spriteType = "GFX_canzhengyuan_crt_icon"
@@ -161,10 +175,16 @@ guiTypes = {
 			centerposition = yes
 			pdx_tooltip = "scripted_gui_open_qin_gov"
 		}
-
 		buttonType = {
 			name = "japan_gui_crt_icon"
 			spriteType = "GFX_yokusankai_crt_icon"
+			position = { x = 48 y = 48 }
+			centerposition = yes
+			pdx_tooltip = "scripted_gui_open_qin_gov"
+		}
+		buttonType = {
+			name = "china_communist_gui_crt_icon"
+			spriteType = "GFX_zhengxie_crt_icon"
 			position = { x = 48 y = 48 }
 			centerposition = yes
 			pdx_tooltip = "scripted_gui_open_qin_gov"
@@ -206,6 +226,14 @@ guiTypes = {
 			centerposition = yes
 			pdx_tooltip = "scripted_gui_open_tt_GNG_market"
 		}
+		buttonType = {
+			name = "antarctica_pert_gui_crt_icon"
+			spriteType = "GFX_antarctica_pert_gui_crt_icon"
+			position = { x = 48 y = 48 }
+			centerposition = yes
+			pdx_tooltip = "Antarctica_GUI_AAO_PERT_Open_Button_tt"
+		}
+		
 	}
 
 	containerWindowType = {

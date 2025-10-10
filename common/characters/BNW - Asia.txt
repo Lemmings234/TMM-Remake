@@ -443,7 +443,7 @@ characters = {
 	}
 	JAP_Amogus = {
 		name = JAP_Amogus
-		portraits = { civilian = { small = "BNW_GFX_JAP_Ushiba_Nobuhiko" } }
+		portraits = { civilian = { small = "GFX_JAP_Ushiba_Nobuhiko" } }
 		advisor = {
 			slot = foreign_minister
 			idea_token = JAP_Amogus_for

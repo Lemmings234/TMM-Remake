@@ -153,12 +153,5 @@ on_actions = {
 		}
 	}
 	on_weekly = {
-		#Persia
-		effect = {
-			if = {
-				limit = { has_global_flag = PER_Referendum }
-				BNW_Persia_Bar = yes
-			}
-		}
 	}
 }

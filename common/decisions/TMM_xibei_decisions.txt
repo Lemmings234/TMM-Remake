@@ -243,36 +243,26 @@ QIN_Management = {
 		    AND = {
 			     QIN = {
 			        owns_state = 283
+					owns_state = 1302
+					owns_state = 2423
+					owns_state = 2424
+					owns_state = 2425
+					owns_state = 2426
 			    }
                 283 = {
 				     NOT = { is_core_of = QIN }
 			    }
-			     QIN = {
-			        owns_state = 1302
-			    }
                 1302 = {
 				     NOT = { is_core_of = QIN }
-			    }
-				QIN = {
-			        owns_state = 2423
 			    }
                 2423 = {
 				     NOT = { is_core_of = QIN }
 			    }
-				QIN = {
-			        owns_state = 2424
-			    }
                 2424 = {
 				     NOT = { is_core_of = QIN }
 			    }
-				QIN = {
-			        owns_state = 2425
-			    }
                 2425 = {
 				     NOT = { is_core_of = QIN }
-			    }
-				QIN = {
-			        owns_state = 2426
 			    }
                 2426 = {
 				     NOT = { is_core_of = QIN }
@@ -298,38 +288,28 @@ QIN_Management = {
                 tag = QIN
 			}	
 			 QIN = {
-			    owns_state = 283
-		    }
+				owns_state = 283
+				owns_state = 1302
+				owns_state = 2423
+				owns_state = 2424
+				owns_state = 2425
+				owns_state = 2426
+			}
             283 = {
 			     NOT = { is_core_of = QIN }
-			}	
-			 QIN = {
-			    owns_state = 1302
-		    }
+			}
             1302 = {
 			     NOT = { is_core_of = QIN }
 			}
-			QIN = {
-			    owns_state = 2423
-		    }
 			2423 = {
 			     NOT = { is_core_of = QIN }
 			}
-			QIN = {
-			    owns_state = 2424
-		    }
 			2424 = {
 			     NOT = { is_core_of = QIN }
 			}
-			QIN = {
-			    owns_state = 2425
-		    }
 			2425 = {
 			     NOT = { is_core_of = QIN }
 			}
-			QIN = {
-			    owns_state = 2426
-		    }
 			2426 = {
 			     NOT = { is_core_of = QIN }
 			}
@@ -483,19 +463,19 @@ QIN_Management = {
 		available = {
 		    AND = {
 			     QIN = {
-			        owns_state = 958
+					owns_state = 619
+					owns_state = 617
+					owns_state = 958
+					owns_state = 1964
+					owns_state = 2428
+					owns_state = 2431
+					owns_state = 2433
 			    }
                 958 = {
 				     NOT = { is_core_of = QIN }
 			    }
-			     QIN = {
-			        owns_state = 619
-			    }
                 619 = {
 				     NOT = { is_core_of = QIN }
-			    }
-			     QIN = {
-			        owns_state = 617
 			    }
                 617 = {
 				     NOT = { is_core_of = QIN }
@@ -522,25 +502,24 @@ QIN_Management = {
 			    }	
 			QIN = {
 			    owns_state = 958
-		        }
+				owns_state = 619
+				owns_state = 617
+		    }
             958 = {
 		        NOT = { is_core_of = QIN }
-			    }
-		    QIN = {
-			    owns_state = 619
 			    }
             619 = {
 				NOT = { is_core_of = QIN }
 			    }
-			QIN = {
-			    owns_state = 617
-			    }
             617 = {
 				NOT = { is_core_of = QIN }
-			    }			
-		}		
+			}
+			
+		}
 		highlight_states = {
 			state = 617
+			state = 619
+			state = 958
 		}
 		days_remove = 60
 		cost = 0	#The cost to execute the decision, by default its political power.
@@ -548,9 +527,13 @@ QIN_Management = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		remove_effect = {		#The effects to execute once the envelope icon is clicked.
-		    add_state_core = 617
+			add_state_core = 617
 			add_state_core = 619
 			add_state_core = 958
+			add_state_core = 1964
+			add_state_core = 2428
+			add_state_core = 2431
+			add_state_core = 2433
 			custom_effect_tooltip = QIN_coring_unpog_tt
 		}
 		
@@ -567,6 +550,7 @@ QIN_Management = {
 		    AND = {
 			     QIN = {
 			        owns_state = 618
+					owns_state = 2399
 			    }
                 618 = {
 				     NOT = { is_core_of = QIN }
@@ -608,6 +592,7 @@ QIN_Management = {
 
 		remove_effect = {		#The effects to execute once the envelope icon is clicked.
 		    add_state_core = 618
+			add_state_core = 2399
 			custom_effect_tooltip = QIN_coring_unpog_tt
 		}
 		
@@ -733,8 +718,16 @@ QIN_Management = {
 		# EFFECTS OF THIS DECISION/MISSION
 
 		remove_effect = {		#The effects to execute once the envelope icon is clicked.
-		    add_state_core = 814
-			add_state_core = 329
+		    add_state_core = 329
+			add_state_core = 330
+			add_state_core = 814
+			add_state_core = 815
+			add_state_core = 2400
+			add_state_core = 2401
+			add_state_core = 2402
+			add_state_core = 2403
+			add_state_core = 2404
+			add_state_core = 2405
 			custom_effect_tooltip = QIN_coring_unpog_tt
 		}
 		
@@ -751,24 +744,18 @@ QIN_Management = {
 		    AND = {
 			     QIN = {
 			        owns_state = 905
+					owns_state = 964
+					owns_state = 2374
+					owns_state = 2375
 			    }
                 905 = {
 				     NOT = { is_core_of = QIN }
 			    }
-			     QIN = {
-			        owns_state = 964
-			    }
                 964 = {
 				     NOT = { is_core_of = QIN }
 			    }
-				QIN = {
-			        owns_state = 2374
-			    }
                 2374 = {
 				     NOT = { is_core_of = QIN }
-			    }
-				QIN = {
-			        owns_state = 2375
 			    }
                 2375 = {
 				     NOT = { is_core_of = QIN }
@@ -784,26 +771,20 @@ QIN_Management = {
                 tag = QIN
 			}	
 			 QIN = {
-			    owns_state = 964
+				owns_state = 905
+				owns_state = 964
+				owns_state = 2374
+				owns_state = 2375
 		    }
             964 = {
 			     NOT = { is_core_of = QIN }
-			}	
-			 QIN = {
-			    owns_state = 905
-		    }
+			}
             905 = {
 			     NOT = { is_core_of = QIN }
-			}					
-			QIN = {
-			    owns_state = 2374
-		    }
+			}
             2374 = {
 			     NOT = { is_core_of = QIN }
 			}
-			QIN = {
-			    owns_state = 2375
-		    }
             2375 = {
 			     NOT = { is_core_of = QIN }
 			}

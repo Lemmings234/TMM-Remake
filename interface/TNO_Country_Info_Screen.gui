@@ -101,8 +101,10 @@ guiTypes = {
 			position = { x = 195 y = 52 }
 			text = "[CountryInfo_GET_Content_desc_Country]"
 			font = "aldrich_20_outline"
-			maxwidth = 545
+
+			maxwidth = 535
 			maxheight = 377
+			scrollbarType = "standardtext_slider"
 			format = left
 		}
 

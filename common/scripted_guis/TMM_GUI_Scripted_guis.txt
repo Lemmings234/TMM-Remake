@@ -124,6 +124,24 @@ scripted_gui = {
 				set_variable = { State_View = 11 }
 				QINSetupCity = yes
 			}
+			QIN_Mongolia_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 12 }
+				QINSetupCity = yes
+			}
+			QIN_Shaanxi_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 13 }
+				QINSetupCity = yes
+			}
+			QIN_Sichuan_click = {
+				set_country_flag = open_china_state_view
+				clear_variable = State_View
+				set_variable = { State_View = 14 }
+				QINSetupCity = yes
+			}
 			BNW_Party_leader_click = {
 				set_country_flag = open_politics_view
 				set_variable = { Politics_Index = QIN_party_list^parties_idx }
@@ -1476,6 +1494,84 @@ scripted_gui = {
 					has_country_flag = QIN_Legislation_Stage_4
 				}				
 			}
+			Lifayuan_President_Ni_Wenya_visible = {
+				QIN = {
+					has_country_flag = president_ni_wenya
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_President_Chen_Xueping_visible = {
+				QIN = {
+					has_country_flag = president_chen_xueping
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_President_Gu_Zhenggang_visible = {
+				QIN = {
+					has_country_flag = president_gu_zhenggang
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_President_Liang_Hancao_visible = {
+				QIN = {
+					has_country_flag = president_liang_hancao
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			General_Secretary_Deng_Xiaoping_visible = {
+				QIN = {
+					has_country_flag = general_secretary_deng_xiaoping
+					has_country_flag = CCP_Won
+				}
+			}
+			General_Secretary_Tan_Tiwu_visible = {
+				QIN = {
+					has_country_flag = general_secretary_tan_tiwu
+					has_country_flag = CCP_Won
+				}
+			}
+			Lifayuan_Majority_Whip_Zhang_Lisheng_visible = {
+				QIN = {
+					has_country_flag = whip_zhang_lisheng
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_Majority_Whip_Gu_Fengxiang_visible = {
+				QIN = {
+					has_country_flag = whip_gu_fengxiang
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_Majority_Whip_Huang_Zhengxue_visible = {
+				QIN = {
+					has_country_flag = whip_huang_zhengxue
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_Majority_Whip_Li_Huan_visible = {
+				QIN = {
+					has_country_flag = whip_li_huan
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Lifayuan_Majority_Whip_Zhong_Tianxin_visible = {
+				QIN = {
+					has_country_flag = whip_zhong_tianxin
+					NOT = { has_country_flag = CCP_Won }
+				}
+			}
+			Premier_Ma_Yinchu_visible = {
+				QIN = {
+					has_country_flag = premier_ma_yinchu
+					has_country_flag = CCP_Won
+				}
+			}
+			Premier_Ou_Mengjue_visible = {
+				QIN = {
+					has_country_flag = premier_ou_mengjue
+					has_country_flag = CCP_Won
+				}
+			}
 			Auditing_Button_visible = { NOT = { has_country_flag = Government_Impeaching } } 
 			Impeachment_Button_visible = { has_country_flag = Government_Impeaching }
 			Impeachment_Button_2_visible = { NOT = { has_country_flag = Government_Impeaching } }
@@ -1723,8 +1819,74 @@ scripted_gui = {
 		    QIN_West_Mongolia_visible = {
 			    owns_state = 814
 			}
+			QIN_Mongolia_visible = {
+				owns_state = 330
+				owns_state = 815
+			}
 		    QIN_Tuva_visible = {
 				owns_state = 329
+			}
+			QIN_Sichuan_visible = {
+				owns_state = 605
+			}
+			QIN_Sichuan_Shade_visible = {
+				AND = {
+				    605 = {
+	                    controller = {
+		                    OR = {
+		                	is_in_faction_with = JAP
+		                	is_puppet_of = JAP
+		                	tag = JAP
+		                    }
+			            }
+				    }
+				}
+			}
+			QIN_Hainan_visible = {
+				owns_state = 519
+				owns_state = 2473
+				owns_state = 2474
+				owns_state = 2475
+			}
+			QIN_Hainan_Shade_visible = {
+				AND = {
+				    519 = {
+	                    controller = {
+		                    OR = {
+		                	    is_in_faction_with = JAP
+		                	    is_puppet_of = JAP
+		                	    tag = JAP
+		                    }
+			            }
+				    }
+				    2473 = {
+	                    controller = {
+		                    OR = {
+		                	    is_in_faction_with = JAP
+		                	    is_puppet_of = JAP
+		                	    tag = JAP
+		                    }
+			            }
+				    }
+					2474 = {
+	                    controller = {
+		                    OR = {
+		                	    is_in_faction_with = JAP
+		                	    is_puppet_of = JAP
+		                	    tag = JAP
+		                    }
+			            }
+				    }
+				    2475 = {
+	                    controller = {
+		                    OR = {
+		                	    is_in_faction_with = JAP
+		                	    is_puppet_of = JAP
+		                	    tag = JAP
+		                    }
+			            }
+				    }
+				}
 			}
 		    QIN_Mongolia_Shade_visible = {
 				AND = {
@@ -1771,6 +1933,10 @@ scripted_gui = {
 			                    }
 				            }
 				        }
+						QIN = {
+				    		owns_state = 330
+							owns_state = 815
+				        }
 				    }
 				}
 			}
@@ -1804,11 +1970,24 @@ scripted_gui = {
 				    }
 				}
 			}
+			QIN_Tuva_2_visible = {
+				AND = {
+				    329 = {
+	                    controller = {
+		                    OR = {
+		                	is_in_faction_with = JAP
+		                	is_puppet_of = JAP
+		                	tag = JAP
+		                    }
+			            }
+				    }
+				}
+			}
 		    QIN_Tuva_3_visible = {
 				AND = {
 				    NOT = {
 				        AND = {
-				            814 = {
+				            329 = {
 	                            controller = {
 		                            OR = {
 		                        	is_in_faction_with = JAP
@@ -1818,9 +1997,25 @@ scripted_gui = {
 			                    }
 				            }
 				            QIN = {
-				    			owns_state = 814
+				    			owns_state = 329
 				            }
 				        }
+				    }
+				}
+			}
+			QIN_Shaanxi_visible = {
+				owns_state = 956
+			}
+			QIN_Shaanxi_Shade_visible = {
+				AND = {
+				    956 = {
+	                    controller = {
+		                    OR = {
+		                	is_in_faction_with = JAP
+		                	is_puppet_of = JAP
+		                	tag = JAP
+		                    }
+			            }
 				    }
 				}
 			}
@@ -2567,6 +2762,15 @@ scripted_gui = {
 			Stability_Circle_Bar_11_visible = {
 				check_variable = { State_View = 11 }
 			}
+			Stability_Circle_Bar_12_visible = {
+				check_variable = { State_View = 12 }
+			}
+			Stability_Circle_Bar_13_visible = {
+				check_variable = { State_View = 13 }
+			}
+			Stability_Circle_Bar_14_visible = {
+				check_variable = { State_View = 14 }
+			}
 			Tension_Circle_Bar_0_visible = {
 				check_variable = { State_View = 0 }
 			}
@@ -2602,6 +2806,15 @@ scripted_gui = {
 			}
 			Tension_Circle_Bar_11_visible = {
 				check_variable = { State_View = 11 }
+			}
+			Tension_Circle_Bar_12_visible = {
+				check_variable = { State_View = 12 }
+			}
+			Tension_Circle_Bar_13_visible = {
+				check_variable = { State_View = 13 }
+			}
+			Tension_Circle_Bar_14_visible = {
+				check_variable = { State_View = 14 }
 			}
 		}
 		properties = {
@@ -2641,6 +2854,15 @@ scripted_gui = {
 			Stability_Circle_Bar_11 = {
 				frame = State_Stability^11
 			}
+			Stability_Circle_Bar_12 = {
+				frame = State_Stability^12
+			}
+			Stability_Circle_Bar_13 = {
+				frame = State_Stability^13
+			}
+			Stability_Circle_Bar_14 = {
+				frame = State_Stability^14
+			}
 			Tension_Circle_Bar_0 = {
 				frame = State_Tension^0
 			}
@@ -2676,6 +2898,15 @@ scripted_gui = {
 			}
 			Tension_Circle_Bar_11 = {
 				frame = State_Tension^11
+			}
+			Tension_Circle_Bar_12 = {
+				frame = State_Tension^12
+			}
+			Tension_Circle_Bar_13 = {
+				frame = State_Tension^13
+			}
+			Tension_Circle_Bar_14 = {
+				frame = State_Tension^14
 			}
 			State_Urban_Displayer = {
 				frame = state_city_value

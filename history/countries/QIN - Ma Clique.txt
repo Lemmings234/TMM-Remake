@@ -7,6 +7,7 @@ set_country_flag = tno_playable_country
 
 set_country_flag = tmm_cost_1
 set_country_flag = country_has_gui
+set_country_flag = gui_alert_visible_2
 set_country_flag = QIN_Legislation_In_Recess
 set_country_flag = CountryInfo_HasCustomCloseButton
 set_country_flag = TNO_Country_Info_Screen_Visible
@@ -272,6 +273,7 @@ if = {
 		Heavy_1945 = 1
 
 		artillery_1945 = 1
+		antiair_1945 = 1
 	}
 }
 if = {
@@ -287,13 +289,15 @@ if = {
 		NSB_heavy_1945 = 1
 		
 		NSB_MBT_1945 = 1
-
+		NSB_MBT_1945_modules_1 = 1
+		NSB_MBT_1945_modules_2 = 1
+		
 		NSB_Engine_1 = 1
 
 		NSB_artillery_1945 = 1
+		NSB_antiair_1945 = 1
 	}
 }
-
 set_politics = {	
 	ruling_party = paternalism
 	last_election = "1933.2.16"
@@ -456,6 +460,9 @@ country_event = { id = tmm.maclique.8 days = 47 }
 country_event = { id = tmm.maclique.9 days = 140 }
 country_event = { id = tmm.maclique.103 days = 533 }
 
+##Legislation Event Loop##
+country_event = { id = tmm.maclique.115 days = 32 } #Feb 2nd
+
 add_dynamic_modifier = {
 	modifier = QIN_modernisation_dynamic_modifier
 }	
@@ -488,6 +495,14 @@ set_variable = { State_Stability^9 = 40 }
 set_variable = { State_Tension^9 = 20 }
 set_variable = { State_Stability^10 = 40 }
 set_variable = { State_Tension^10 = 30 }
+set_variable = { State_Stability^11 = 40 }
+set_variable = { State_Tension^11 = 30 }
+set_variable = { State_Stability^12 = 40 }
+set_variable = { State_Tension^12 = 30 }
+set_variable = { State_Stability^13 = 40 }
+set_variable = { State_Tension^13 = 30 }
+set_variable = { State_Stability^14 = 40 }
+set_variable = { State_Tension^14 = 30 }
 
 QINSetUpChina = yes
 
@@ -500,349 +515,12 @@ set_variable = { QIN_modernisation_stability = 0 }
 set_variable = { QIN_modernisation_war = 0 }
 set_variable = { QIN_pu_modifier = 0 }
 
-set_variable = { QIN_kmt_influence = 60 }
-set_variable = { QIN_ccp_influence = 40 }
-set_variable = { QIN_pdp_influence = 15 }
 
-set_variable = { 
-    QIN_kuomintang_popularity = 0 
-}
-add_to_variable = {
-    var = QIN_kuomintang_popularity
-    value = party_popularity@paternalism
-}
-add_to_variable = {
-    var = QIN_kuomintang_popularity
-    value = party_popularity@conservatism
-}
-add_to_variable = {
-    var = QIN_kuomintang_popularity
-    value = party_popularity@liberalism
-}
-add_to_variable = {
-    var = QIN_kuomintang_popularity
-    value = party_popularity@despotism
-}
-multiply_variable = {
-    var = QIN_kuomintang_popularity
-    value = 100
-}
-set_variable = { 
-    QIN_ccp_popularity = 0 
-}
-add_to_variable = {
-    var = QIN_ccp_popularity
-    value = party_popularity@socialist
-}
-add_to_variable = {
-    var = QIN_ccp_popularity
-    value = party_popularity@communist
-}
-multiply_variable = {
-    var = QIN_ccp_popularity
-    value = 100
-}
-set_variable = { 
-    QIN_pdp_popularity = 0 
-}
-add_to_variable = {
-    var = QIN_pdp_popularity
-    value = party_popularity@progressivism
-}
-multiply_variable = {
-    var = QIN_pdp_popularity
-    value = 100
-}
-
-set_variable = { QIN_despot_influence = 0 }
-add_to_variable = {
-    var = QIN_despot_influence
-    value = party_popularity@despotism
-}
-multiply_variable = {
-    var = QIN_despot_influence
-    value = 100
-}
-divide_variable = {
-    var = QIN_despot_influence
-    value = QIN_kuomintang_popularity
-}
-multiply_variable = {
-    var = QIN_despot_influence
-    value = 100
-}
-set_variable = { QIN_authdem_influence = 0 }
-add_to_variable = {
-    var = QIN_authdem_influence
-    value = party_popularity@paternalism
-}
-multiply_variable = {
-    var = QIN_authdem_influence
-    value = 100
-}
-divide_variable = {
-    var = QIN_authdem_influence
-    value = QIN_kuomintang_popularity
-}
-multiply_variable = {
-    var = QIN_authdem_influence
-    value = 100
-}
-set_variable = { QIN_libdem_influence = 0 }
-add_to_variable = {
-    var = QIN_libdem_influence
-    value = party_popularity@liberalism
-}
-multiply_variable = {
-    var = QIN_libdem_influence
-    value = 100
-}
-divide_variable = {
-    var = QIN_libdem_influence
-    value = QIN_kuomintang_popularity
-}
-multiply_variable = {
-    var = QIN_libdem_influence
-    value = 100
-}
-set_variable = { QIN_condem_influence = 0 }
-add_to_variable = {
-    var = QIN_condem_influence
-    value = party_popularity@conservatism
-}
-multiply_variable = {
-    var = QIN_condem_influence
-    value = 100
-}
-divide_variable = {
-    var = QIN_condem_influence
-    value = QIN_kuomintang_popularity
-}
-multiply_variable = {
-    var = QIN_condem_influence
-    value = 100
-}
-set_variable = { QIN_authsoc_influence = 0 }
-add_to_variable = {
-    var = QIN_authsoc_influence
-    value = party_popularity@communist
-}
-multiply_variable = {
-    var = QIN_authsoc_influence
-    value = 100
-}
-divide_variable = {
-    var = QIN_authsoc_influence
-    value = QIN_ccp_popularity
-}
-multiply_variable = {
-    var = QIN_authsoc_influence
-    value = 100
-}
-set_variable = { QIN_libsoc_influence = 0 }
-add_to_variable = {
-    var = QIN_libsoc_influence
-    value = party_popularity@socialist
-}
-multiply_variable = {
-    var = QIN_libsoc_influence
-    value = 100
-}
-divide_variable = {
-    var = QIN_libsoc_influence
-    value = QIN_ccp_popularity
-}
-multiply_variable = {
-    var = QIN_libsoc_influence
-    value = 100
-}
-
-
-# set_country_flag = president_ni_wenya
-# set_country_flag = whip_ma_shuli
+set_country_flag = president_ni_wenya
+set_country_flag = whip_zhang_lisheng
 set_country_flag = QIN_Legislation_In_Recess
 set_country_flag = QIN_Legislation_Stage_1
 
-set_variable = { kmt_hardliner_lifayuan_seat = 12 }
-set_variable = { kmt_oldguard_lifayuan_seat = 40 }
-set_variable = { kmt_xishan_lifayuan_seat = 12 }
-set_variable = { kmt_zhengxuepai_lifayuan_seat = 8 }
-set_variable = { pdp_lifayuan_seat = 4 }
-set_variable = { ccp_orthodox_lifayuan_seat = 8 }
-set_variable = { ccp_chinese_lifayuan_seat = 26 }
-
-set_variable = { kmt_lifayuan_seat = 0 }
-add_to_variable = {
-    var = kmt_lifayuan_seat
-    value = kmt_hardliner_lifayuan_seat
-}
-add_to_variable = {
-    var = kmt_lifayuan_seat
-    value = kmt_oldguard_lifayuan_seat
-}
-add_to_variable = {
-    var = kmt_lifayuan_seat
-    value = kmt_xishan_lifayuan_seat
-}
-add_to_variable = {
-    var = kmt_lifayuan_seat
-    value = kmt_zhengxuepai_lifayuan_seat
-}
-set_variable = { ccp_lifayuan_seat = 0 }
-add_to_variable = {
-    var = ccp_lifayuan_seat
-    value = ccp_orthodox_lifayuan_seat
-}
-add_to_variable = {
-    var = ccp_lifayuan_seat
-    value = ccp_chinese_lifayuan_seat
-}
-set_variable = { kmt_hardliner_lifayuan_support = 70 }
-set_variable = { kmt_oldguard_lifayuan_support = 80 }
-set_variable = { kmt_xishan_lifayuan_support = 70 }
-set_variable = { kmt_zhengxuepai_lifayuan_support = 60 }
-set_variable = { pdp_lifayuan_support = 55 }
-set_variable = { ccp_orthodox_lifayuan_support = 60 }
-set_variable = { ccp_chinese_lifayuan_support = 55 }
-
-set_variable = { kmt_assembly_seat = 150 }
-set_variable = { ccp_assembly_seat = 150 }
-set_variable = { pdp_assembly_seat = 110 }
-
-set_variable = {QIN_KMT_unity = 50 }
-set_variable = {QIN_CCP_unity = 65 }
-set_variable = {QIN_Interparty_unity = 80 }
-
-set_variable = { QIN_lifayuan_proposal_support_temp = 0 }
-###FIND OUT WEIGHTED SUPPORT FOR FACTION###
-set_variable = { hardliner_temp = kmt_hardliner_lifayuan_support }
-divide_variable = {
-    var = hardliner_temp
-    value = 100
-}
-multiply_variable = {
-    var = hardliner_temp
-    value = kmt_hardliner_lifayuan_seat
-}
-add_to_variable = {
-    var = QIN_lifayuan_proposal_support_temp
-    value = hardliner_temp
-}
-
-set_variable = { oldguard_temp = kmt_oldguard_lifayuan_support }
-
-divide_variable = {
-    var = oldguard_temp
-    value = 100
-}
-multiply_variable = {
-    var = oldguard_temp
-    value = kmt_oldguard_lifayuan_seat
-}
-add_to_variable = {
-    var = QIN_lifayuan_proposal_support_temp
-    value = oldguard_temp
-}
-
-set_variable = { xishan_temp = kmt_xishan_lifayuan_support }
-
-divide_variable = {
-    var = xishan_temp
-    value = 100
-}
-multiply_variable = {
-    var = xishan_temp
-    value = kmt_xishan_lifayuan_seat
-}
-add_to_variable = {
-    var = QIN_lifayuan_proposal_support_temp
-    value = xishan_temp
-}
-
-set_variable = { zhengxuepai_temp = kmt_zhengxuepai_lifayuan_support }
-
-divide_variable = {
-    var = zhengxuepai_temp
-    value = 100
-}
-multiply_variable = {
-    var = zhengxuepai_temp
-    value = kmt_zhengxuepai_lifayuan_seat
-}
-add_to_variable = {
-    var = QIN_lifayuan_proposal_support_temp
-    value = zhengxuepai_temp
-}
-
-set_variable = { pdp_temp = pdp_lifayuan_support }
-
-divide_variable = {
-    var = pdp_temp
-    value = 100
-}
-multiply_variable = {
-    var = pdp_temp
-    value = pdp_lifayuan_seat
-}
-add_to_variable = {
-    var = QIN_lifayuan_proposal_support_temp
-    value = pdp_temp
-}
-
-set_variable = { QIN_Interparty_unity_temp = QIN_Interparty_unity }
-divide_variable = {
-    var = QIN_Interparty_unity_temp
-    value = 100
-}
-
-set_variable = { ccp_orthodox_temp = ccp_orthodox_lifayuan_support }
-
-divide_variable = {
-    var = ccp_orthodox_temp
-    value = 100
-}
-multiply_variable = {
-    var = ccp_orthodox_temp
-    value = ccp_orthodox_lifayuan_seat
-}
-
-
-multiply_variable = {
-    var = ccp_orthodox_temp
-    value = QIN_Interparty_unity_temp
-}
-
-add_to_variable = {
-    var = QIN_lifayuan_proposal_support_temp
-    value = ccp_orthodox_temp
-}
-
-set_variable = { ccp_chinese_temp = ccp_chinese_lifayuan_support }
-
-divide_variable = {
-    var = ccp_chinese_temp
-    value = 100
-}
-multiply_variable = {
-    var = ccp_chinese_temp
-    value = ccp_chinese_lifayuan_seat
-}
-
-multiply_variable = {
-    var = ccp_chinese_temp
-    value = QIN_Interparty_unity_temp
-}
-
-add_to_variable = {
-    var = QIN_lifayuan_proposal_support_temp
-    value = ccp_chinese_temp
-}
-
-set_variable = { QIN_lifayuan_proposal_support = QIN_lifayuan_proposal_support_temp }
-
-
-set_variable = {QIN_CCP_PDP_influence = 4 }
-set_variable = {QIN_KMT_PDP_influence = 2 }
 
 set_variable = {QIN_dalai_negotiation = 55 }
 
@@ -1348,51 +1026,6 @@ add_to_array = { BOG_Tension = 0 }
 #set_variable = { QIN_BOG_39_Tension = 0 }
 #set_variable = { QIN_BOG_40_Tension = 0 }
 
-set_variable = { CCP_People_Support = 30 }
-set_variable = { CCP_Party_Support = 30 }
-set_variable = { CCP_Outsider_Support = 30 }
-set_variable = { KMT_Chen_Support = 28 }
-set_variable = { KMT_Wang_Support = 37 }
-set_variable = { KMT_Chiang_Support = 55 }
-set_variable = { CCP_PC = 50 }
-set_variable = { KMT_Proposals = 4 }
-
-set_variable = { KMT_Meeting_Total = 0 }
-add_to_variable = { KMT_Meeting_Total = KMT_Chen_Support }
-add_to_variable = { KMT_Meeting_Total = KMT_Wang_Support }
-add_to_variable = { KMT_Meeting_Total = KMT_Chiang_Support }
-set_variable = { KMT_Meeting_Proportion_ZXX = KMT_Wang_Support }
-set_variable = { KMT_Meeting_Proportion_NXS = KMT_Chen_Support }
-set_variable = { KMT_Meeting_Proportion_CCK = KMT_Chiang_Support }
-
-divide_variable = {
-    var = KMT_Meeting_Proportion_ZXX
-    value = KMT_Meeting_Total
-}
-multiply_variable = {
-    var = KMT_Meeting_Proportion_ZXX
-    value = 100
-}
-round_variable = KMT_Meeting_Proportion_ZXX
-divide_variable = {
-    var = KMT_Meeting_Proportion_NXS
-    value = KMT_Meeting_Total
-}
-multiply_variable = {
-    var = KMT_Meeting_Proportion_NXS
-    value = 100
-}
-round_variable = KMT_Meeting_Proportion_NXS
-divide_variable = {
-    var = KMT_Meeting_Proportion_CCK
-    value = KMT_Meeting_Total
-}
-multiply_variable = {
-    var = KMT_Meeting_Proportion_CCK
-    value = 100
-}
-round_variable = KMT_Meeting_Proportion_CCK
-
 QINSetupMapMode = yes 
 
 # NSB #
@@ -1403,17 +1036,18 @@ if = {
 
 	create_equipment_variant = {
 		name = "Type 44 APC"
-		type = IFV_chassis_1
+		type = IFV_chassis_0
 		parent_version = 0
 		modules = {
-			main_armament_slot = tank_heavy_machine_gun
+			main_armament_slot = IFV_cannon
 			turret_type_slot = IFV_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_christie_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = expanded_toolbox
 		}
 		
-		icon = GFX_QIN_IFV_1945_medium
+		icon = GFX_QIN_NSB_IFV_1945_medium
 		upgrades = {
 			tank_nsb_engine_upgrade = 3
 			tank_nsb_armor_upgrade = 2
@@ -1421,37 +1055,56 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Type M3 Half-Track"
-		type = APC_chassis_2
+		type = APC_chassis_0
 		parent_version = 0
 		modules = {
 			APC_designation_slot = APC_infantry
 			APC_armament_slot = APC_infantry_weapon
-			suspension_type_slot = tank_torsion_bar_suspension
+			suspension_type_slot = tank_christie_suspension
 			armor_type_slot = tank_welded_armor
 			engine_type_slot = tank_diesel_engine
-			special_type_slot_1 = tank_radio_1
-			special_type_slot_2 = secondary_turret_hmg
+			special_type_slot_1 = expanded_toolbox
 		}
 		
-		icon = GFX_QIN_APC_1945_medium
+		icon = GFX_QIN_NSB_APC_1945_medium
 		upgrades = {
-			ac_nsb_engine_upgrade = 6
-			ac_nsb_armor_upgrade = 6
+			ac_nsb_engine_upgrade = 3
+			ac_nsb_armor_upgrade = 2
 		}
 	}
 	create_equipment_variant = {
 		name = "Type M3A3"
-		type = MBT_chassis_1
+		type = MBT_chassis_0
 		parent_version = 0
 		modules = {
 			main_armament_slot = MBT_cannon
 			turret_type_slot = MBT_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
+			suspension_type_slot = tank_christie_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = expanded_toolbox
 		}
 		
-		icon = GFX_QIN_MBT_1945_medium
+		icon = GFX_QIN_NSB_MBT_1945_medium
+		upgrades = {
+			tank_nsb_engine_upgrade = 3
+			tank_nsb_armor_upgrade = 2
+		}
+	}
+	create_equipment_variant = {
+		name = "Type 44 SPAAG"
+		type = IFV_aa_chassis_0
+		parent_version = 0
+		modules = {
+			main_armament_slot = IFV_anti_air_cannon
+			turret_type_slot = IFV_one_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = expanded_toolbox
+		}
+		
+		icon = GFX_QIN_NSB_light_SPAA_1950_medium
 		upgrades = {
 			tank_nsb_engine_upgrade = 3
 			tank_nsb_armor_upgrade = 2

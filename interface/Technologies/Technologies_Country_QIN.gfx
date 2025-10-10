@@ -22,7 +22,7 @@ spriteTypes = {
 	## APC ##
 	SpriteType = {
 		name = "GFX_QIN_APC_equipment_0_medium"
-		texturefile = "gfx/interface/technologies/JAP_APC_45.dds"
+		texturefile = "gfx/interface/technologies/QIN_APC_45.dds"
 	}
 	SpriteType = {
 		name = "GFX_QIN_APC_equipment_1_medium"
@@ -306,7 +306,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_QIN_light_SPAA_1950_medium"
-		texturefile = "gfx/interface/technologies/JAP_Light_AntiAir_50.dds"
+		texturefile = "gfx/interface/technologies/QIN_Light_AntiAir_50.dds"
 	}
 
 	## CHI TANKS ##
@@ -459,6 +459,27 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_QIN_NSB_APC_1990_medium"
 		texturefile = "gfx/interface/technologies/CHI_APC_90.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_QIN_NSB_light_SPAA_1990_medium"
+		texturefile = "gfx/interface/technologies/CHI_Light_AntiAir_90.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_light_SPAA_1980_medium"
+		texturefile = "gfx/interface/technologies/CHI_Light_AntiAir_80.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_light_SPAA_1970_medium"
+		texturefile = "gfx/interface/technologies/CHI_Light_AntiAir_70.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_light_SPAA_1960_medium"
+		texturefile = "gfx/interface/technologies/JAP_Light_AntiAir_60.dds"
+	}
+	SpriteType = {
+		name = "GFX_QIN_NSB_light_SPAA_1950_medium"
+		texturefile = "gfx/interface/technologies/QIN_Light_AntiAir_50.dds"
 	}
 
 	## CHI AIR: LIGHT ##
