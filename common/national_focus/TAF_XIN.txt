@@ -171,6 +171,9 @@ focus_tree = {
         }
         x = 11
         y = 3
+		completion_reward = {
+			remove_ideas = { XIN_The_Crumbling_Six_Policies }
+		}
     }  
  
     focus = {
@@ -193,9 +196,6 @@ focus_tree = {
         }
         x = 11
         y = 4
-		completion_reward = {
-			remove_
-		}
     }     
  
     focus = {
