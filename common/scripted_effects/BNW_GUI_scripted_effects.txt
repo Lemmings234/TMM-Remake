@@ -19489,6 +19489,13 @@ TMM_Start_Gansu_War = {
 	    	type = annex_everything
 	        }	
 	    }
+	CHI = {
+		set_autonomy = {
+			target = GAN
+			autonomy_state = autonomy_free
+		}
+		white_peace = QIN
+	}
 	set_global_flag = QIN_gansu_war
 	set_global_flag = QIN_gansu_war_started
 }
