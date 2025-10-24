@@ -2313,3 +2313,12 @@ QIN_PRC = {
 }
 
 ####
+Xinjiang_Province = {
+    color = rgb { 0 78 162 }
+	color_ui = rgb { 0 78 162 }
+}
+
+Xinjiang_Admin = {
+    color = rgb { 165 81 87 }
+	color_ui = rgb { 165 81 87 }
+}

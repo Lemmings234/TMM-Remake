@@ -656,7 +656,6 @@ ZZZ = "countries/West Europe.txt"				# Anarchy - SHOULD BE LAST TAG ALWAYS
 ###BNW###
 HAW = "countries/Hawaii.txt"
 MON = "countries/Mongolia.txt"
-CSX = "countries/Communism_Xinjiang.txt"
 
 ###Xinjiang###
 CSX = "countries/Communism_Xinjiang.txt"

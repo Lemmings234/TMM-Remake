@@ -28,7 +28,7 @@ characters = {
         name = XIN_Chen_Tanqiu
         portraits = {
 			civilian = {
-				large = "gfx/leaders/XIN/Portrait_XIN_Chen_tanqiu.png"
+				large = "gfx/leaders/CSX/Portrait_CSX_Chen_Tanqiu.png"
 			}            
         }
         country_leader = {
