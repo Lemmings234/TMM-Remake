@@ -107,27 +107,14 @@ shared_focus = {
 		add_stability = 0.05
 		add_war_support = 0.05
 		custom_effect_tooltip = QIN_a_new_government_tt
-		subtract_from_variable = {
-            var = kmt_oldguard_lifayuan_seat
-            value = 4
-            }
-		add_to_variable = {
-            var = kmt_zhengxuepai_lifayuan_seat
-            value = 1
-            }
-		add_to_variable = {
-            var = kmt_xishan_lifayuan_seat
-            value = 1
-            }
-		add_to_variable = {
-            var = ccp_chinese_lifayuan_seat
-            value = 2
-            }
-		subtract_from_variable = {
-            var = kmt_oldguard_lifayuan_support
-            value = 10
-            }
-		}
+		subtract_from_variable = { QIN_party_seats^8 = 4}
+		add_to_variable = { QIN_party_seats^5 = 1 }
+		add_to_variable = { QIN_party_seats^7 = 1 }
+		add_to_variable = { QIN_party_seats^1 = 1 }
+		add_to_variable = { QIN_party_seats^2 = 1 }
+		subtract_from_variable = { QIN_party_opinions^8 = 10 }
+		QIN_reload_parliament = yes
+	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
@@ -1481,7 +1468,7 @@ shared_focus = {
 		    retire_character = QIN_Chiang_Chingkuo
             remove_ideas = QIN_Chiang_Chingkuo_hog
 		}
-		add_ideas = QIN_Gao_Gang_hog_hog
+		add_ideas = QIN_Gao_Gang_hog
 		set_country_flag = CCP_victory_placeholder
 	}
 	cancel_if_invalid = yes
@@ -1726,6 +1713,7 @@ shared_focus = {
 		TNO_improve_political_parties_policy_effectiveness_med = yes
 		custom_effect_tooltip = QIN_sun_fo_rejected_tt
 		set_country_flag = QIN_CCP_Path
+		set_country_flag = CCP_Won
 		QIN_reload_tree = yes
 		}
 	cancel_if_invalid = yes
@@ -2252,14 +2240,9 @@ shared_focus = {
 	    focus = maneuvers_in_executive_yuan
 	}
 	completion_reward = {
-		subtract_from_variable = {
-            var = kmt_oldguard_lifayuan_seat
-            value = 5
-            }
-		add_to_variable = {
-            var = kmt_hardliner_lifayuan_seat
-            value = 5
-            }
+		subtract_from_variable = { QIN_party_seats^7 = 5}
+		add_to_variable = { QIN_party_seats^8 = 5 }
+		QIN_reload_parliament = yes
 		custom_effect_tooltip = QIN_hardline_cabinet_tt
 		}
 	cancel_if_invalid = yes
@@ -2516,6 +2499,10 @@ shared_focus = {
 	completion_reward = {
 		add_popularity = {
             ideology = conservatism
+            popularity = 0.075
+            }
+			add_popularity = {
+            ideology = liberal_conservatism
             popularity = 0.075
             }
 		add_popularity = {

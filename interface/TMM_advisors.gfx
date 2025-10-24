@@ -193,7 +193,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/ministers/JAP/JAP_Furumi_Tadayuki.dds"
 	}
 	spriteType = {
-		name = "BNW_GFX_JAP_Ushiba_Nobuhiko"
+		name = "GFX_JAP_Ushiba_Nobuhiko"
 		textureFile = "gfx/interface/ideas/ministers/JAP/BNW_JAP_Ushiba_Nobuhiko.dds"
 	}
 	spriteType = {

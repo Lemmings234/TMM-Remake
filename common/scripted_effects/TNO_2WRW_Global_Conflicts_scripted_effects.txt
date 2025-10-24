@@ -350,6 +350,13 @@ BNW_TMM_Temp_Effects = {
 	        	type = annex_everything
 	        }	
 	    }
+		CHI = {
+			set_autonomy = {
+				target = GAN
+				autonomy_state = autonomy_free
+			}
+			white_peace = QIN
+		}
 		QIN = { country_event = { id = GAW.999 days = 25 } }
 	}
 }

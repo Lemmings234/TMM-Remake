@@ -9,5 +9,6 @@ tags={
 	"Fixes"
 	"Gameplay"
 }
+replace_path="interface/TNO_bottom_gui.gui"
 replace_path="history/countries/QIN - Ma Clique.txt"
 supported_version="1.16.*"

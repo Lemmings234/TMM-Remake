@@ -72,6 +72,24 @@ defined_text = {
 		}
 		localization_key = QIN_tuv
 	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 12 }
+		}
+		localization_key = QIN_mon
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 13 }
+		}
+		localization_key = QIN_shaanxi
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 14 }
+		}
+		localization_key = QIN_sichuan
+	}
 }
 
 defined_text = {
@@ -140,7 +158,21 @@ defined_text = {
 		localization_key = "BNW_Japan_Election_GUI"
 	}
 }
-
+defined_text = {
+	name = QIN_tab_1
+	text = {
+		trigger = {
+			NOT = { has_country_flag = CCP_Won }
+		}
+		localization_key = QIN_tab_1
+	}
+	text = {
+		trigger = {
+			has_country_flag = CCP_Won
+		}
+		localization_key = QIN_tab_1_communist
+	}
+}
 defined_text = {
 	name = QINgetCurrentStage
 	text = {
@@ -260,6 +292,24 @@ defined_text = {
 		}
 		localization_key = [?State_Stability^11]
 	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 12 }
+		}
+		localization_key = [?State_Stability^12]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 13 }
+		}
+		localization_key = [?State_Stability^13]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 14 }
+		}
+		localization_key = [?State_Stability^14]
+	}
 }
 
 defined_text = {
@@ -335,6 +385,24 @@ defined_text = {
 			check_variable = { State_View = 11 }
 		}
 		localization_key = [?State_Tension^11]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 12 }
+		}
+		localization_key = [?State_Tension^12]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 13 }
+		}
+		localization_key = [?State_Tension^13]
+	}
+	text = {
+		trigger = {
+			check_variable = { State_View = 14 }
+		}
+		localization_key = [?State_Tension^14]
 	}
 }
 
@@ -1095,40 +1163,206 @@ defined_text = {
 defined_text = {
 	name = QINgetPartyLeaderWindow
 	text = {
-		trigger = { check_variable = { Politics_Index = 0 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 0 } 
+			}
+		}
 		localization_key = GFX_Party_Leader_Kang_Sheng
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 1 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 1 } 
+			}
+		}
 		localization_key = GFX_Party_Leader_Gao_Gang
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 2 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 2 } 
+			}
+		}
 		localization_key = GFX_Party_Leader_Liu_Shaoqi
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 3 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 3 } 
+			}
+		}
 		localization_key = GFX_Party_Leader_Liao_Mengxing
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 4 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 4 } 
+			}
+		}
 		localization_key = GFX_Party_Leader_Zhang_Shenfu
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 5 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 5 } 
+			}
+		}
 		localization_key = GFX_Party_Leader_Wang_Shijie
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 6 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 6 } 
+			}
+		}
 		localization_key = GFX_Party_Leader_Chiang_Chingkuo
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 7 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 7 } 
+			}
+		}
 		localization_key = GFX_Party_Leader_Chen_Lifu
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 8 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 8 } 
+			}
+		}
 		localization_key = GFX_Party_Leader_Sun_Fo
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 0 } 
+			}
+		}
+		localization_key = GFX_Party_Leader_Chu_Anping
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 1 } 
+			}
+		}
+		localization_key = GFX_Party_Leader_Hu_Yuzhi
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 2 } 
+			}
+		}
+		localization_key = GFX_Party_Leader_Shi_Liang
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 3 } 
+			}
+		}
+		localization_key = GFX_Party_Leader_Zhang_Naiqi
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 4 }
+			}
+		}
+		localization_key = GFX_Party_Leader_Liang_Shuming
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 5 } 
+			}
+			
+		}
+		localization_key = GFX_Party_Leader_Qian_Jiaju
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 6 } 
+			}
+			
+		}
+		localization_key = GFX_Party_Leader_Luo_Longji
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 7 } 
+			}
+			
+		}
+		localization_key = GFX_Party_Leader_Jiang_Yuntian
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 8 } 
+			}
+		}
+		localization_key = GFX_Party_Leader_Zhang_Dongsun
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 9 } 
+			}
+			
+		}
+		localization_key = GFX_Party_Leader_Sun_Baogang
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 10 } 
+			}
+		}
+		localization_key = GFX_Party_Leader_Cai_Tingkai
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 11 } 
+			}
+		}
+		localization_key = GFX_Party_Leader_Lu_Han
+	}
+	text = {
+		trigger = { 
+		    AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 12 } 
+			}
+		}
+		localization_key = GFX_Party_Leader_Huang_Shaohong
 	}
 }
 
@@ -1293,40 +1527,202 @@ defined_text = {
 defined_text = {
 	name = QINgetLeaderName
 	text = {
-		trigger = { check_variable = { Politics_Index = 0 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 0 } 
+			}
+		}
 		localization_key = Leader_Name_1
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 1 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 1 } 
+			}
+		}
 		localization_key = Leader_Name_2
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 2 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 2 } 
+			}
+		}
 		localization_key = Leader_Name_3
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 3 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 3 } 
+			}
+		}
 		localization_key = Leader_Name_4
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 4 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 4 } 
+			}
+		}
 		localization_key = Leader_Name_5
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 5 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 5 } 
+			}
+		}
 		localization_key = Leader_Name_6
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 6 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 6 } 
+			}
+		}
 		localization_key = Leader_Name_7
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 7 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 7 } 
+			}
+		}
 		localization_key = Leader_Name_8
 	}
 	text = {
-		trigger = { check_variable = { Politics_Index = 8 } }
+		trigger = { 
+			AND = {
+				original_tag = QIN
+				check_variable = { Politics_Index = 8 } 
+			}
+		}
 		localization_key = Leader_Name_9
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 0 } 
+			}
+		}
+		localization_key = Leader_Name_1_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 1 } 
+			}
+		}
+		localization_key = Leader_Name_2_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 2 } 
+			}
+		}
+		localization_key = Leader_Name_3_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 3 } 
+			}
+		}
+		localization_key = Leader_Name_4_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 4 } 
+			}
+		}
+		localization_key = Leader_Name_5_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 5 } 
+			}
+		}
+		localization_key = Leader_Name_6_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 6 } 
+			}
+		}
+		localization_key = Leader_Name_7_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 7 } 
+			}
+		}
+		localization_key = Leader_Name_8_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 8 } 
+			}
+		}
+		localization_key = Leader_Name_9_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 9 } 
+			}
+		}
+		localization_key = Leader_Name_10_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 10 } 
+			}
+		}
+		localization_key = Leader_Name_11_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 11 } 
+			}
+		}
+		localization_key = Leader_Name_12_GUZ
+	}
+	text = {
+		trigger = { 
+			AND = {
+				original_tag = GUZ
+				check_variable = { Politics_Index = 12 } 
+			}
+		}
+		localization_key = Leader_Name_13_GUZ
 	}
 }
 

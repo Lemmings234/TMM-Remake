@@ -3,6 +3,7 @@ capital = 603
 # Vacant
 set_country_flag = tmm_cost_1
 set_country_flag = country_has_gui
+set_country_flag = gui_alert_visible_2
 
 recruit_character = GUZ_Cai_Tingkai
 recruit_character = GUZ_he_yingqin

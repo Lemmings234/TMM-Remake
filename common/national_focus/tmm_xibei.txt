@@ -346,6 +346,8 @@ shared_focus = {
 		    set_variable = { Land_Reform^State_View^0 = 1 }
 			add_to_variable = { State_Development^State_View^0 = 1 }
 			
+			add_to_variable = { QIN_party_opinions^0 = 2.5 }
+			add_to_variable = { QIN_party_Cap^0 = 2.5 }
 			add_to_variable = { QIN_party_opinions^1 = 2.5 }
 			add_to_variable = { QIN_party_opinions^2 = 2.5 }
 			add_to_variable = { QIN_party_opinions^3 = 2.5 }

@@ -16972,6 +16972,9 @@ QINSetUpChina = {
 	# 10 - NANJIANG
 	# 11 - WEST MONGOLIA
 	# 12 - TUVA
+	# 13 - EAST MONGOLIA
+	# 14 - SHAANXI
+	# 15 - SICHUAN
     add_to_array = { State_Name = 1 }
 	add_to_array = { State_Name = 2 }
 	add_to_array = { State_Name = 3 }
@@ -16984,6 +16987,9 @@ QINSetUpChina = {
 	add_to_array = { State_Name = 10 }
 	add_to_array = { State_Name = 11 }
 	add_to_array = { State_Name = 12 }
+	add_to_array = { State_Name = 13 }
+	add_to_array = { State_Name = 14 }
+	add_to_array = { State_Name = 15 }
 
 	add_to_array = { State_Stability = 80 }
 	add_to_array = { State_Stability = 40 }
@@ -16993,6 +16999,9 @@ QINSetUpChina = {
 	add_to_array = { State_Stability = 50 }
 	add_to_array = { State_Stability = 50 }
 	add_to_array = { State_Stability = 40 }
+	add_to_array = { State_Stability = 30 }
+	add_to_array = { State_Stability = 30 }
+	add_to_array = { State_Stability = 30 }
 	add_to_array = { State_Stability = 30 }
 	add_to_array = { State_Stability = 30 }
 	add_to_array = { State_Stability = 30 }
@@ -17010,6 +17019,9 @@ QINSetUpChina = {
 	add_to_array = { State_Tension = 40 }
 	add_to_array = { State_Tension = 30 }
 	add_to_array = { State_Tension = 30 }
+	add_to_array = { State_Tension = 30 }
+	add_to_array = { State_Tension = 30 }
+	add_to_array = { State_Tension = 30 }
 
 	add_to_array = { State_Development = 5 }
 	add_to_array = { State_Development = 1 }
@@ -17023,6 +17035,9 @@ QINSetUpChina = {
 	add_to_array = { State_Development = 2 }
 	add_to_array = { State_Development = 1 }
 	add_to_array = { State_Development = 2 }
+	add_to_array = { State_Development = 2 }
+	add_to_array = { State_Development = 2 }
+	add_to_array = { State_Development = 2 }
 
 	add_to_array = { Land_Reform = 0 }
 	add_to_array = { Land_Reform = 0 }
@@ -17036,6 +17051,9 @@ QINSetUpChina = {
 	add_to_array = { Land_Reform = 0 }
 	add_to_array = { Land_Reform = 0 }
 	add_to_array = { Land_Reform = 0 }
+	add_to_array = { Land_Reform = 0 }
+	add_to_array = { Land_Reform = 0 }
+	add_to_array = { Land_Reform = 0 }
 
 	add_to_array = { Social_Reform = 0 }
 	add_to_array = { Social_Reform = 0 }
@@ -17049,6 +17067,9 @@ QINSetUpChina = {
 	add_to_array = { Social_Reform = 0 }
 	add_to_array = { Social_Reform = 0 }
 	add_to_array = { Social_Reform = 0 }
+	add_to_array = { Social_Reform = 0 }
+	add_to_array = { Social_Reform = 0 }
+	add_to_array = { Social_Reform = 0 }
 
 	add_to_array = { Infrastructure = 0 }
 	add_to_array = { Infrastructure = 0 }
@@ -17062,7 +17083,13 @@ QINSetUpChina = {
 	add_to_array = { Infrastructure = 0 }
 	add_to_array = { Infrastructure = 0 }
 	add_to_array = { Infrastructure = 0 }
+	add_to_array = { Infrastructure = 0 }
+	add_to_array = { Infrastructure = 0 }
+	add_to_array = { Infrastructure = 0 }
 
+	add_to_array = { Modernisation = 0 }
+	add_to_array = { Modernisation = 0 }
+	add_to_array = { Modernisation = 0 }
 	add_to_array = { Modernisation = 0 }
 	add_to_array = { Modernisation = 0 }
 	add_to_array = { Modernisation = 0 }
@@ -17184,7 +17211,84 @@ QINSetUpChina = {
 	QINCalculateBureaucratPercentage = yes
     GUZ = { GUZSetUp = yes }
 }
+QIN_reload_parliament = {
+	set_temp_variable = { t1 = QIN_party_seats^0 }
+	set_temp_variable = { t2 = QIN_party_seats^1 }
+	set_temp_variable = { t3 = QIN_party_seats^2 }
+	set_temp_variable = { t4 = QIN_party_seats^3 }
+	set_temp_variable = { t5 = QIN_party_seats^4 }
+	set_temp_variable = { t6 = QIN_party_seats^5 }
+	set_temp_variable = { t7 = QIN_party_seats^6 }
+	set_temp_variable = { t8 = QIN_party_seats^7 }
+	set_temp_variable = { t9 = QIN_party_seats^8 }
+	set_temp_variable = { t10 = 113 }
 
+	set_variable = { QIN_Total_Seats = t10 }
+
+	add_to_temp_variable = { t2 = t1 }
+	add_to_temp_variable = { t3 = t2 }
+	add_to_temp_variable = { t4 = t3 }
+	add_to_temp_variable = { t5 = t4 }
+	add_to_temp_variable = { t6 = t5 }
+	add_to_temp_variable = { t7 = t6 }
+	add_to_temp_variable = { t8 = t7 }
+    add_to_temp_variable = { t9 = t8 }
+    add_to_temp_variable = { t10 = t9 }
+
+	clear_array = QIN_parliament_seats_display
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 1
+		size = t1
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 2
+		size = t2
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 3
+		size = t3
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 4
+		size = t4
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 5
+		size = t5
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 6
+		size = t6
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 7
+		size = t7
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 8
+		size = t8
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 9
+		size = t9
+	}
+	resize_array = {
+		array = QIN_parliament_seats_display
+		value = 10
+		size = t10
+	}
+	QINPartySetup = yes
+	QINCalculateBureaucratPercentage = yes
+}
 QINSetupCity = {
 	set_variable = { state_city_value = 0 }
 	if = {
@@ -17259,6 +17363,24 @@ QINSetupCity = {
 		}
 		add_to_variable = { state_city_value = State_Development^11 }
 	}
+	else_if = {
+		limit = {
+			check_variable = { State_View = 12 }
+		}
+		add_to_variable = { state_city_value = State_Development^12 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { State_View = 13 }
+		}
+		add_to_variable = { state_city_value = State_Development^13 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { State_View = 14 }
+		}
+		add_to_variable = { state_city_value = State_Development^14 }
+	}
 	else = {
 		add_to_variable = { state_city_value = 1 }
 	}
@@ -17274,6 +17396,7 @@ QINMonthlyTick = {
 			owns_state = 906
 			owns_state = 322
 			owns_state = 329
+			owns_state = 330
 			}
 		}
 		subtract_from_variable = { State_Stability^0 = QIN_han_proQINce_stability_tick }
@@ -17310,7 +17433,10 @@ QINMonthlyTick = {
 		add_to_variable = { State_Tension^10 = QIN_minority_proQINce_tension_tick }
 		
 		subtract_from_variable = {State_Stability^11 = QIN_minority_proQINce_stability_tick }
-		add_to_variable = { State_Tension^11 = QIN_han_proQINce_tension_tick }
+		add_to_variable = { State_Tension^11 = QIN_minority_proQINce_tension_tick }
+		
+		subtract_from_variable = {State_Stability^12 = QIN_minority_proQINce_stability_tick }
+		add_to_variable = { State_Tension^12 = QIN_minority_proQINce_tension_tick }
 	}
 	else_if = {
 		limit = {
@@ -17592,6 +17718,21 @@ QINStateClamp = {
     	min = 0
     	max = 100
     }
+	clamp_variable = {
+    	var = State_Stability^12
+    	min = 0
+    	max = 100
+    }
+	clamp_variable = {
+    	var = State_Stability^13
+    	min = 0
+    	max = 100
+    }
+	clamp_variable = {
+    	var = State_Stability^14
+    	min = 0
+    	max = 100
+    }
     clamp_variable = {
     	var = State_Tension^0
     	min = 0
@@ -17649,6 +17790,21 @@ QINStateClamp = {
     }
     clamp_variable = {
     	var = State_Tension^11
+    	min = 0
+    	max = 100
+    }
+	clamp_variable = {
+    	var = State_Tension^12
+    	min = 0
+    	max = 100
+    }
+	clamp_variable = {
+    	var = State_Tension^13
+    	min = 0
+    	max = 100
+    }
+	clamp_variable = {
+    	var = State_Tension^14
     	min = 0
     	max = 100
     }
@@ -17812,6 +17968,45 @@ QINAddSlotEffect = {
 	    	limit = {
 	    		OR = {
 	    			state = 329
+	    		}
+	    	}
+	    	add_extra_state_shared_building_slots = 1
+	    }
+	}
+	else_if = {
+		limit = {
+			check_variable = { State_View = 12 }
+		}
+	    every_owned_state = {
+	    	limit = {
+	    		OR = {
+	    			state = 330
+	    		}
+	    	}
+	    	add_extra_state_shared_building_slots = 1
+	    }
+	}
+	else_if = {
+		limit = {
+			check_variable = { State_View = 13 }
+		}
+	    every_owned_state = {
+	    	limit = {
+	    		OR = {
+	    			state = 956
+	    		}
+	    	}
+	    	add_extra_state_shared_building_slots = 1
+	    }
+	}
+	else_if = {
+		limit = {
+			check_variable = { State_View = 14 }
+		}
+	    every_owned_state = {
+	    	limit = {
+	    		OR = {
+	    			state = 605
 	    		}
 	    	}
 	    	add_extra_state_shared_building_slots = 1
@@ -18025,6 +18220,57 @@ QINAddFactoryEffect = {
 	    	limit = {
 	    		OR = {
 	    			state = 329
+	    		}
+	    	}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+	    }
+	}
+	else_if = {
+		limit = {
+			check_variable = { State_View = 12 }
+		}
+	    every_owned_state = {
+	    	limit = {
+	    		OR = {
+	    			state = 330
+	    		}
+	    	}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+	    }
+	}
+	else_if = {
+		limit = {
+			check_variable = { State_View = 13 }
+		}
+	    every_owned_state = {
+	    	limit = {
+	    		OR = {
+	    			state = 956
+	    		}
+	    	}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+	    }
+	}
+	else_if = {
+		limit = {
+			check_variable = { State_View = 14 }
+		}
+	    every_owned_state = {
+	    	limit = {
+	    		OR = {
+	    			state = 605
 	    		}
 	    	}
 			add_building_construction = {
@@ -19243,6 +19489,13 @@ TMM_Start_Gansu_War = {
 	    	type = annex_everything
 	        }	
 	    }
+	CHI = {
+		set_autonomy = {
+			target = GAN
+			autonomy_state = autonomy_free
+		}
+		white_peace = QIN
+	}
 	set_global_flag = QIN_gansu_war
 	set_global_flag = QIN_gansu_war_started
 }
