@@ -1,2 +1,2 @@
-cripted_gui = {
+scripted_gui = {
 }
