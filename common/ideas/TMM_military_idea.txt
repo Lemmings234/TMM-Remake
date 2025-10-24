@@ -1,13 +1,13 @@
 ideas = {
 	hidden_ideas = {
-		QIN_GAN_Modifier = {
-			allowed = { always = no }
-			modifier = {
-				GAN = { ai_badass_factor = 99 }
-				XIN = { ai_badass_factor = -99 }
-				BHU = { ai_badass_factor = -99 }
-			}
-		}
+		# QIN_GAN_Modifier = {
+			# allowed = { always = no }
+			# modifier = {
+				# GAN = { ai_badass_factor = 99 }
+				# XIN = { ai_badass_factor = -99 }
+				# BHU = { ai_badass_factor = -99 }
+			# }
+		# }
 		QIN_Desperate_Modifier = {
 			allowed = { always = no }
 			modifier = {
