@@ -7,7 +7,7 @@ XIN_Debug = {
 		tag = XIN
 	}
 	visible = {	
-		debug = yes	
+		is_debug = yes
 	}
 }
 
@@ -20,7 +20,7 @@ CSX_Debug = {
 		tag = CSX
 	}
 	visible = {	
-		debug = yes	
+		is_debug = yes	
 	}
 }
 

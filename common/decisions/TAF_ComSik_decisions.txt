@@ -4,12 +4,8 @@ XIN_Debug = {
 
 		allowed = {
 			original_tag = XIN
-			is_debug = yes
-			is_ai = no
 		}
-		visible = {
-			is_ai = no
-		}
+		
 
 		fire_only_once = no
 
@@ -23,12 +19,8 @@ XIN_Debug = {
 
 		allowed = {
 			original_tag = XIN
-			is_debug = yes
-			is_ai = no
 		}
-		visible = {
-			is_ai = no
-		}
+		
 
 		fire_only_once = no
 
@@ -42,12 +34,8 @@ XIN_Debug = {
 
 		allowed = {
 			original_tag = XIN
-			is_debug = yes
-			is_ai = no
 		}
-		visible = {
-			is_ai = no
-		}
+		
 
 		fire_only_once = no
 
@@ -61,12 +49,8 @@ XIN_Debug = {
 
 		allowed = {
 			original_tag = XIN
-			is_debug = yes
-			is_ai = no
 		}
-		visible = {
-			is_ai = no
-		}
+		
 
 		fire_only_once = no
 
@@ -84,12 +68,8 @@ CSX_Debug = {
 
 		allowed = {
 			original_tag = CSX
-			is_debug = yes
-			is_ai = no
 		}
-		visible = {
-			is_ai = no
-		}
+		
 
 		fire_only_once = no
 
@@ -163,11 +143,8 @@ CSX_Debug = {
 
 		allowed = {
 			original_tag = CSX
-			is_ai = no
 		}
-		visible = {
-			is_ai = no
-		}
+		
 
 		fire_only_once = no
 
@@ -181,11 +158,8 @@ CSX_Debug = {
 
 		allowed = {
 			original_tag = CSX
-			is_ai = no
 		}
-		visible = {
-			is_ai = no
-		}
+		
 
 		fire_only_once = no
 
@@ -202,11 +176,8 @@ CSX_Debug = {
 
 		allowed = {
 			original_tag = CSX
-			is_ai = no
 		}
-		visible = {
-			is_ai = no
-		}
+		
 
 		fire_only_once = no
 
@@ -225,11 +196,8 @@ CSX_National_Army = {
 
 		allowed = {
 			original_tag = CSX
-			is_ai = no
 		}
-		visible = {
-			is_ai = no
-		}
+		
 
 		fire_only_once = no
 
@@ -245,12 +213,8 @@ CSX_National_Army = {
 
 		allowed = {
 			original_tag = CSX
-			is_ai = no
-			is_debug = yes
 		}
-		visible = {
-			is_ai = no
-		}
+		
 
 		fire_only_once = no
 		

@@ -1,0 +1,44 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					tag = UST
+					FROM = {
+						original_tag = XIN
+					}
+					FROM.FROM = {
+						state = 617 
+					}
+				}
+				CSX = {
+					country_event = { id = TAF.100 hours = 10 }
+				}
+			}
+
+			if = {
+				limit = {
+					tag = CSX
+					FROM = {
+						original_tag = XIN
+					}
+					FROM.FROM = {
+						state = 617 
+					}
+				}
+				CSX = {
+					country_event = { id = TAF.101 hours = 10 }
+				}
+			}
+		}
+	}
+
+	on_startup = {
+		effect = {
+			XIN = { 
+				country_event = { id = TAF.1 hours = 12 } 
+			    country_event = { id = TAF.999 days = 198 } 
+			}
+		}
+    }
+}
