@@ -1,0 +1,61 @@
+scripted_gui = {
+
+	CSX_National_Army_UI = {
+		context_type = player_context
+		context_type = decision_category
+		window_name = "National_Army_UI_Container"
+
+		visible = {
+			tag = CSX 
+			has_country_flag = CSX_National_Army_Issue
+		}
+
+		dynamic_lists = {
+			National_Army_Protrait_UI_gridbox = {           ## 定义头像顺序
+				array = CSX_National_Army_Protrait
+				index = CSX_National_Army_Protrait_idx
+				change_scope = no
+				entry_container = National_Army_Protrait_UI_grid
+			}
+		}
+
+		effects = {
+			National_Army_Protrait_UI_button_click = {     ## 选中头像
+				CSX = {
+					set_variable = { CSX_selected_cmd = CSX_National_Army_Protrait_idx }
+				}
+			}
+		}
+
+		properties = {
+		    National_Army_Protrait_UI_button = {
+				image = [National_Army_Protrait_UI_button]
+				x = CSX_National_Army_Protrait_x^CSX_National_Army_Protrait_idx
+				y = CSX_National_Army_Protrait_y^CSX_National_Army_Protrait_idx
+			}
+			Commender_power_Bar = { 
+				frame = CSX_National_Army_power^CSX_National_Army_Protrait_idx
+				x = CSX_Commender_power_Bar_x^CSX_National_Army_Protrait_idx
+				y = CSX_Commender_power_Bar_y^CSX_National_Army_Protrait_idx
+			}
+		}
+
+		triggers = {
+			Commender_Name_1_visible = {
+				check_variable = { CSX_selected_cmd = 0 }
+			}
+			Commender_Name_2_visible = {
+				check_variable = { CSX_selected_cmd = 1 }
+			}
+			Commender_Name_3_visible = {
+				check_variable = { CSX_selected_cmd = 2 }
+			}
+			Commender_Name_4_visible = {
+				check_variable = { CSX_selected_cmd = 3 }
+			}
+			Commender_Name_5_visible = {
+				check_variable = { CSX_selected_cmd = 4 }
+			}
+		}
+    }
+}

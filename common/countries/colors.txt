@@ -2222,3 +2222,11 @@ ZZZ = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }
 }
+CSX = {
+	color = rgb { 235 55 55 }
+	color_ui = rgb { 235 55 55 }
+}
+UFR = {
+	color = rgb { 111 87 35 }
+	color_ui = rgb { 111 87 35 }
+}
