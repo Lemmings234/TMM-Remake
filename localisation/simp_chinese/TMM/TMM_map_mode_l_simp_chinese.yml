@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ MAPMODE_CHINA_MAP_MODE:0 "§Y中国派系§!地图模式"
+ MAPMODE_CHINA_MAP_MODE_NAME:0 "中国"
+ MAPMODE_CHINA_MAP_MODE_DESCRIPTION:0 "显示中国各政权与§B噶尔穆/西宁政府§!或§R南京政府§!的关系。"
+ china_map_mode_tooltip:0 "[FROM.GetChinaAffiliation]"
+ china_map_mode_tooltip_delayed:0 "§F(§Y[FROM.Controller.GetNameWithFlag]§!): [FROM.GetName]目前被[FROM.GetChinaAffiliation]所控制。§!"
+ GetChinaAffiliation.1:0 "§B西北政府§!"
+ GetChinaAffiliation.2:0 "§B附属于西北政府的政权§!"
+ GetChinaAffiliation.3:0 "§Y中立政权§!"
+ GetChinaAffiliation.4:0 "§R附属于共荣圈的政权§!"
+ GetChinaAffiliation.5:0 "§R南京政府§!"
+ GetChinaAffiliation.6:0 "§L昆明政府§!"
