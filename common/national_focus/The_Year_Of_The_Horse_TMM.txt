@@ -206,7 +206,6 @@ shared_focus = {
 			country_event = { id = }
 		}
 	completion_reward = {
-		create_faction = third_chinese_united_front
                 army_funding_maximal_increase_low = yes
                 army_funding_minimal_increase_low = yes
                 TNO_improve_admin_efficiency_low = yes
@@ -236,10 +235,13 @@ shared_focus = {
 	completion_reward = {
         set_temp_variable = { temp_econ_spending_amount = 0.005 }
         econ_spend_money_once_effect_raw_money = yes
-	add_to_faction = XIK
+	    give_military_access = XIK
+		XIK = {
+		    give_military_access = QIN
+		    }
         send_equipment = {
             equipment = infantry_equipment
-            amount = 200
+            amount = 150
             target = XIK
             }
 
@@ -291,12 +293,20 @@ shared_focus = {
 	    focus = the_brave_brothers_of_the_east
 	}
 	completion_reward = {
-		army_experience = 50
+		give_military_access = XİN
+		XİN = {
+		    give_military_access = QIN
+		    }
+        send_equipment = {
+            equipment = infantry_equipment
+            amount = 150
+            target = XİN
+            }
+        army_experience = 50
         add_doctrine_cost_reduction = {
         	cost_reduction = 0.5
         	uses = 1
         	category = land_doctrine
-        add_to_faction = XİN
         }
 	}
 	cancel_if_invalid = yes
@@ -315,34 +325,9 @@ shared_focus = {
 	}
 	available = {
 		NOT = { is_in_faction_with = JAP }
-	}
-	prerequisite = { 
-	    focus = utilise_civil_war_experiences
-	}
-	prerequisite = { 
-	    focus = move_the_industry_out
-	}
-	prerequisite = { 
-	    focus = more_air_raid_shelters
-	}
+
 	completion_reward = {
-		906 = { add_manpower = -75000 }
-		604 = { add_manpower = 50000 }
-		601 = { add_manpower = 25000 }
-		add_victory_points = {
-        	province = 10490
-        	value = -5
-        }
-		add_victory_points = {
-			province = 13239
-			value = 5
-		}
-		906 = {
-			add_dynamic_modifier = { modifier = QIN_Sparse_Population }
-		}
-		604 = {
-			add_dynamic_modifier = { modifier = QIN_Sparse_Population }
-		}
+     add_political_power = 120
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
