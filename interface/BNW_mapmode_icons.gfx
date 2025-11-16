@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	# Map Modes
+
+	spritetype = {
+		name = "GFX_mapmode_buttons_deselected_small_china_map_mode"
+		texturefile = "gfx/interface/custom_map_modes/GFX_mapmode_buttons_deselected_small_china_map_mode.dds"
+	}
+	spritetype = {
+		name = "GFX_mapmode_buttons_selected_small_china_map_mode"
+		texturefile = "gfx/interface/custom_map_modes/GFX_mapmode_buttons_selected_small_china_map_mode.dds"
+	}
+}

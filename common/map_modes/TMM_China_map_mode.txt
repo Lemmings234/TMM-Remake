@@ -1,0 +1,86 @@
+scripted_map_modes = {
+	china_map_mode = {
+		top = { type = state }
+		bottom = {
+			type = state
+			color = {
+				set_temp_variable = { alpha_temp = 0.95 }
+				if = {
+					limit = {
+						FROM = {
+							check_variable = { china = 1 } #Qinghai
+						}
+					}
+					set_temp_variable = { red = 0.001 }
+					set_temp_variable = { green = 0.371 }
+					set_temp_variable = { blue = 0.628 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { china = 2 } #Pro-Qinghai
+						}
+					}
+					set_temp_variable = { red = 0.001 }
+					set_temp_variable = { green = 0.371 }
+					set_temp_variable = { blue = 0.728 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { china = 3 } #Neutral
+						}
+					}
+					set_temp_variable = { red = 0.476 }
+					set_temp_variable = { green = 0.592 }
+					set_temp_variable = { blue = 0.598 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { china = 4 } #Pro-Japan or Japan
+						}
+					}
+					set_temp_variable = { red = 0.611 }
+					set_temp_variable = { green = 0.108 }
+					set_temp_variable = { blue = 0.108 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { china = 5 } #Nanjing
+						}
+					}
+					set_temp_variable = { red = 0.471 }
+					set_temp_variable = { green = 0.108 }
+					set_temp_variable = { blue = 0.108 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { china = 6 } #Yunnan CDL - NOT USED!
+						}
+					}
+					set_temp_variable = { red = 0.384 }
+					set_temp_variable = { green = 0.261 } 
+					set_temp_variable = { blue = 0.510 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else = {
+					set_temp_variable = { red = 0.5 }
+					set_temp_variable = { green = 0.5 } 
+					set_temp_variable = { blue = 0.5 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}		
+			}
+		}
+		far_text = country
+		near_text = state
+		update_daily = no
+	}
+}
