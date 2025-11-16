@@ -320,7 +320,7 @@ set_popularities = {
 
 }
 
-#recruit_character = QIN_ma_jiyuan_tmm
+recruit_character = QIN_ma_jiyuan_tmm
 #recruit_character = QIN_ma_jiyuan_despot
 recruit_character = QIN_Chen_cheng
 recruit_character = QIN_Yuan_Shouqian
