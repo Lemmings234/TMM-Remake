@@ -1636,8 +1636,7 @@ shared_focus = {
 			    }
 		    }
 		hidden_effect = {
-			retire_character = QIN_ma_jiyuan_tmm
-			retire_character = QIN_ma_jiyuan_despot
+			retire_character = QIN_Chen_cheng
 		}
 		QIN = {
             promote_character = QIN_chiang_chingkuo_despot
