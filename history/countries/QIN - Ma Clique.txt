@@ -73,6 +73,7 @@ set_technology = {
 
 	##ARMOR##
 	
+	
 
 	##HELICOPTERS##
 	helicopter_engines = 1
@@ -92,6 +93,36 @@ set_technology = {
 	heavy_air_1945 = 1
 	transport_air1 = 1
 	transport_air_1945 = 1
+	
+##NAVAL##
+	early_ship_hull_very_light = 1
+	basic_ship_hull_very_light = 1
+	early_ship_hull_more_light = 1
+	basic_ship_hull_more_light = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	improved_ship_hull_light = 1
+	basic_depth_charges = 1
+	improved_depth_charges = 1
+	advanced_depth_charges = 1
+	sonar = 1
+	improved_sonar = 1
+	good_sonar = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	smoke_generator = 1
+	basic_torpedo = 1
+	magnetic_detonator = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_secondary_battery = 1
+	improved_secondary_battery = 1
+	mtg_transport = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
+
 ##ENGINEERING##
 
 	electronic_mechanical_engineering = 1
@@ -122,143 +153,68 @@ set_technology = {
 	military_construction_1 = 1
 	batch_production_1 = 1
 }
-# MtG tech #
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		early_ship_hull_very_light = 1
-		basic_ship_hull_very_light = 1
-		early_ship_hull_more_light = 1
-		basic_ship_hull_more_light = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		improved_ship_hull_light = 1
-		basic_depth_charges = 1
-		improved_depth_charges = 1
-		advanced_depth_charges = 1
-		sonar = 1
-		improved_sonar = 1
-		good_sonar = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		smoke_generator = 1
-		basic_torpedo = 1
-		magnetic_detonator = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
-		mtg_transport = 1
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-	}
-	create_equipment_variant = {
-		name = "Agano Class"
-		type = ship_hull_cruiser_2
-		name_group = CHI_CA_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_engine_slot = cruiser_ship_engine_2
-			fixed_ship_armor_slot = ship_armor_cruiser_2
-			fixed_ship_radar_slot = ship_radar_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_battery_slot = dp_light_battery
-			fixed_ship_secondaries_slot = ship_secondaries_2
-			rear_1_custom_slot = ship_depth_charge_3
-			mid_2_custom_slot = ship_mine_layer_1
-			mid_1_custom_slot = ship_anti_air_1
-			front_1_custom_slot = ship_anti_air_1
-		}
-	}
-	create_equipment_variant = {
-		name = "Akizuki Class"
-		type = ship_hull_light_2
-		name_group = JAP_DD_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_engine_slot = light_ship_engine_3
-			fixed_ship_radar_slot = ship_sonar_3
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_battery_slot = dp_light_battery
-			mid_1_custom_slot = ship_mine_sweeper_1
-			rear_1_custom_slot = ship_depth_charge_3
-		}
-	}
-	create_equipment_variant = {
-		name = "Kagero Class"
-		type = ship_hull_light_1
-		name_group = CHI_DD_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_radar_slot = ship_radar_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_battery_slot = dp_light_battery
-			mid_1_custom_slot = ship_depth_charge_3
-			rear_1_custom_slot = ship_mine_sweeper_1
-		}
-	}
-	## Frigates ##
-	create_equipment_variant = {
-		name = "Matsu Class"
-		type = ship_hull_more_light_1
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = dp_light_battery
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = ship_radar_1
-			fixed_ship_engine_slot = light_ship_engine_2
-			mid_1_custom_slot = ship_anti_air_1
-			rear_1_custom_slot = ship_mine_sweeper_1
-		}
+create_equipment_variant = {
+	name = "Agano Class"
+	type = ship_hull_cruiser_2
+	name_group = CHI_CA_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_armor_slot = ship_armor_cruiser_2
+		fixed_ship_radar_slot = ship_radar_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_battery_slot = dp_light_battery
+		fixed_ship_secondaries_slot = ship_secondaries_2
+		rear_1_custom_slot = ship_depth_charge_3
+		mid_2_custom_slot = ship_mine_layer_1
+		mid_1_custom_slot = ship_anti_air_1
+		front_1_custom_slot = ship_anti_air_1
 	}
 }
-
-if = {
-	limit = {
-		NOT = { has_dlc = "Man the Guns" }
+create_equipment_variant = {
+	name = "Akizuki Class"
+	type = ship_hull_light_2
+	name_group = JAP_DD_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_engine_slot = light_ship_engine_3
+		fixed_ship_radar_slot = ship_sonar_3
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_battery_slot = dp_light_battery
+		mid_1_custom_slot = ship_mine_sweeper_1
+		rear_1_custom_slot = ship_depth_charge_3
 	}
-	set_technology = {
-		ww2_frigate = 1
-		basic_frigate = 1
-		ww2_submarine = 1
-		basic_submarine = 1
-		ww2_destroyer = 1
-		basic_destroyer = 1
-		improved_destroyer = 1
-		ww2_cruiser = 1
-		basic_cruiser = 1
-		transport = 1
-		landing_craft = 1
+}
+create_equipment_variant = {
+	name = "Kagero Class"
+	type = ship_hull_light_1
+	name_group = CHI_DD_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_engine_slot = light_ship_engine_1
+		fixed_ship_radar_slot = ship_radar_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_battery_slot = dp_light_battery
+		mid_1_custom_slot = ship_depth_charge_3
+		rear_1_custom_slot = ship_mine_sweeper_1
 	}
-	create_equipment_variant = {
-		name = "Agano Class"
-		type = heavy_cruiser_2
-		name_group = CHI_CA_HISTORICAL
-	}
-	create_equipment_variant = {
-		name = "Akizuki Class"
-		type = destroyer_2
-		name_group = CHI_DD_HISTORICAL
-	}
-	create_equipment_variant = {
-		name = "Kagero Class"
-		type = destroyer_1
-		name_group = CHI_DD_HISTORICAL
-	}
-	## Frigates ##
-	create_equipment_variant = {
-		name = "Matsu Class"
-		type = frigate_1
+}
+## Frigates ##
+create_equipment_variant = {
+	name = "Matsu Class"
+	type = ship_hull_more_light_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = dp_light_battery
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_radar_1
+		fixed_ship_engine_slot = light_ship_engine_2
+		mid_1_custom_slot = ship_anti_air_1
+		rear_1_custom_slot = ship_mine_sweeper_1
 	}
 }
 if = {
