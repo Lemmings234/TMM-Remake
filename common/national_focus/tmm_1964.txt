@@ -426,6 +426,7 @@ shared_focus = {
 		QIN_update_map = yes
 		hidden_effect = {
 			set_country_flag = tibet_defeated
+			set_country_flag = xinjiang_defeated
 			QIN_reload_tree = yes
 			add_ideas = QIN_northwest_wage_0
 	        }
@@ -1624,6 +1625,456 @@ shared_focus = {
 	available_if_capitulated = no
 }
 shared_focus = {
+	id = pacifying_the_taklamakan
+	icon = GFX_goal_pacifying_the_taklamakan
+    cost = 1
+	x = 15
+	y = 1
+	relative_position_id = we_are_victorious
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	allow_branch = { 
+		has_country_flag = xinjiang_defeated
+	}
+	prerequisite = { 
+	    focus = we_are_victorious
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = the_people_of_xinjiang
+	icon = GFX_goal_the_people_of_xinjiang
+    cost = 1
+	x = -2
+	y = 1
+	relative_position_id = pacifying_the_taklamakan
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = pacifying_the_taklamakan
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = what_about_the_revolutionaries
+	icon = GFX_goal_what_about_the_revolutionaries
+    cost = 1
+	x = -2
+	y = 1
+	relative_position_id = the_people_of_xinjiang
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_people_of_xinjiang
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = comrades_of_the_revolution
+	icon = GFX_goal_comrades_of_the_revolution
+    cost = 1
+	x = -1
+	y = 1
+	relative_position_id = what_about_the_revolutionaries
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = what_about_the_revolutionaries
+	}
+	mutually_exclusive = {
+		focus = traitors_of_the_nation
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = traitors_of_the_nation
+	icon = GFX_goal_traitors_of_the_nation
+    cost = 1
+	x = 1
+	y = 1
+	relative_position_id = what_about_the_revolutionaries
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = what_about_the_revolutionaries
+	}
+	mutually_exclusive = {
+		focus = comrades_of_the_revolution
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = all_quiet_on_the_altai
+	icon = GFX_goal_all_quiet_on_the_altai
+    cost = 1
+	x = -1
+	y = 1
+	relative_position_id = traitors_of_the_nation
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = comrades_of_the_revolution
+		focus = traitors_of_the_nation
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = promote_ethnic_cohesion
+	icon = GFX_goal_promote_ethnic_cohesion
+    cost = 1
+	x = 2
+	y = 1
+	relative_position_id = the_people_of_xinjiang
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = the_people_of_xinjiang
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = political_tutelage_of_the_national_revolution
+	icon = GFX_goal_political_tutelage_of_the_national_revolution
+    cost = 1
+	x = 0
+	y = 1
+	relative_position_id = promote_ethnic_cohesion
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = promote_ethnic_cohesion
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = political_tutelage_of_the_national_revolution
+	icon = GFX_goal_political_tutelage_of_the_national_revolution
+    cost = 1
+	x = 0
+	y = 1
+	relative_position_id = political_tutelage_of_the_national_revolution
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = political_tutelage_of_the_national_revolution
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = import_fertilizer_from_kazakhstan
+	icon = GFX_goal_import_fertilizer_from_kazakhstan
+    cost = 1
+	x = 0
+	y = 1
+	relative_position_id = political_tutelage_of_the_national_revolution
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = political_tutelage_of_the_national_revolution
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = reconstruction_of_the_frontier
+	icon = GFX_goal_reconstruction_of_the_frontier
+    cost = 1
+	x = 2
+	y = 1
+	relative_position_id = pacifying_the_taklamakan
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = pacifying_the_taklamakan
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = expand_the_construction_corps
+	icon = GFX_goal_expand_the_construction_corps
+    cost = 1
+	x = 0
+	y = 1
+	relative_position_id = reconstruction_of_the_frontier
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = reconstruction_of_the_frontier
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = improve_army_discipline
+	icon = GFX_goal_improve_army_discipline
+    cost = 1
+	x = 0
+	y = 2
+	relative_position_id = expand_the_construction_corps
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = expand_the_construction_corps
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
+	id = xinjiang_back_to_the_fold
+	icon = GFX_goal_xinjiang_back_to_the_fold
+    cost = 1
+	x = 0
+	y = 3
+	relative_position_id = import_fertilizer_from_kazakhstan
+	ai_will_do = {
+		factor = 80
+	}
+	available = {
+		NOT = { is_in_faction_with = JAP }
+	}
+	prerequisite = { 
+	    focus = all_quiet_on_the_altai
+	}
+	prerequisite = { 
+	    focus = import_fertilizer_from_kazakhstan
+	}
+	prerequisite = { 
+	    focus = improve_army_discipline
+	}
+	completion_reward = {
+	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		#add_resistance_target = {
+        #    id = 10000
+        #    amount = 50
+        #    occupied = TIB
+        #    occupier = QIN
+        #    days = 60
+        #    tooltip = "Tibetan Resistance"
+		#}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+}
+shared_focus = {
 	id = year_of_snake
 	icon = GFX_goal_year_of_snake
     cost = 0.2
@@ -1647,6 +2098,9 @@ shared_focus = {
 	}
 	prerequisite = { 
 	    focus = qinghai_unified
+	}
+	prerequisite = { 
+	    focus = xinjiang_back_to_the_fold
 	}
 	completion_reward = {
 	    add_political_power = 30

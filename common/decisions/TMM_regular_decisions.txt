@@ -482,6 +482,7 @@ QIN_Debug = {
 		hidden_effect = {
 			set_country_flag = TNO_closing_screen_show
 			set_country_flag = tibet_defeated
+			set_country_flag = xinjiang_defeated
 			QIN_reload_tree = yes
 		complete_national_focus = The_battle_for_yushu
 		complete_national_focus = our_brethren_to_the_south
