@@ -1914,8 +1914,8 @@ shared_focus = {
 	available_if_capitulated = no
 }
 shared_focus = {
-	id = import_fertilizer_from_kazakhstan
-	icon = GFX_goal_import_fertilizer_from_kazakhstan
+	id = import_fertilizer_from_india
+	icon = GFX_goal_import_fertilizer_from_india
     cost = 1
 	x = 0
 	y = 1
@@ -2043,7 +2043,7 @@ shared_focus = {
     cost = 1
 	x = 0
 	y = 3
-	relative_position_id = import_fertilizer_from_kazakhstan
+	relative_position_id = import_fertilizer_from_india
 	ai_will_do = {
 		factor = 80
 	}
@@ -2054,7 +2054,7 @@ shared_focus = {
 	    focus = all_quiet_on_the_altai
 	}
 	prerequisite = { 
-	    focus = import_fertilizer_from_kazakhstan
+	    focus = import_fertilizer_from_india
 	}
 	prerequisite = { 
 	    focus = improve_army_discipline
