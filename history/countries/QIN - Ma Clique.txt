@@ -383,8 +383,8 @@ add_ideas = {
 	QIN_Outdated_research_0
 	QIN_modernisation
 	
-	QIN_Yuan_Shouqian_hog
-	QIN_Chiang_Chingkuo_sec
+	QIN_Yuan_Shouqian_sec
+	QIN_Chiang_Chingkuo_hog
 	QIN_Zhou_Hongtao_eco
 	QIN_Lei_Zhen_for
 	

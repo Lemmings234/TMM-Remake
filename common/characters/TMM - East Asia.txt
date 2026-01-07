@@ -14,7 +14,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_CHEN_CHENG_DESC"
 			ideology = paternalism_united_front_subtype
-			traits = { }
+			traits = { junior_generalissimo }
 			expire = "1999.1.1.1"
 			id = -1
 		}
@@ -630,13 +630,14 @@ characters = {
 			} 
 		}
 		advisor = {
-			slot = head_of_government
-			idea_token = QIN_Yuan_Shouqian_hog
+			slot = security_minister
+			idea_token = QIN_Yuan_Shouqian_sec
 			allowed = { original_tag = QIN }
 			traits = {
-				head_of_government
+				security_minister
+				ysq
 				liberalism
-				QIN_Yuan_Shouqian_hog_desc
+				QIN_Yuan_Shouqian_sec_desc
 			}
 			ledger = civilian
 			cost = -1
@@ -652,14 +653,14 @@ characters = {
 			} 
 		}
 		advisor = {
-			slot = security_minister
-			idea_token = QIN_Chiang_Chingkuo_sec
+			slot = head_of_government
+			idea_token = QIN_Chiang_Chingkuo_hog
 			allowed = { original_tag = QIN }
 			traits = {
-				security_minister
+				head_of_government
 				paternalism
 				son_of_generalissimo
-				QIN_Chiang_ching_kuo_sec_desc
+				QIN_Chiang_ching_kuo_hog_desc
 			}
 			ledger = civilian
 			cost = -1
@@ -680,6 +681,7 @@ characters = {
 			allowed = { original_tag = QIN }
 			traits = {
 				economy_minister
+				zht
 				paternalism
 				QIN_Zhou_Hongtao_eco_desc
 			}
@@ -705,6 +707,7 @@ characters = {
 			allowed = { original_tag = QIN }
 			traits = {
 				foreign_minister
+				lz
 				liberalism
 				QIN_Lei_Zhen_for_desc
 			}
