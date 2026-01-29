@@ -946,10 +946,20 @@ shared_focus = {
 	completion_reward = {
 	    add_manpower = -50
 		add_equipment_to_stockpile = {
-            type = infantry_equipment
-            amount = 30
-            producer = TIB
-    }
+			type = infantry_equipment
+			amount = 30
+			producer = TIB
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 800
+			producer = XIN
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 600
+			producer = XIN
+		}
 	    add_political_power = 20
 	    TIB = {
 		    add_stability = -0.10
@@ -980,8 +990,12 @@ shared_focus = {
 	    TIB = {
 		    add_war_support = -0.15
 			add_political_power = -100
-		    }
 		}
+		XIN = {
+		    add_war_support = -0.2
+			add_political_power = -150
+		}
+	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
@@ -1006,7 +1020,7 @@ shared_focus = {
 	    add_political_power = -30
 		add_equipment_to_stockpile = {
             type = infantry_equipment
-            amount = -100
+            amount = -50
             producer = QIN
         }
 	    TIB = {
@@ -1022,8 +1036,22 @@ shared_focus = {
                 ideology = progressivism
                 popularity = 0.1
                 }
-		    }
 		}
+		XIN = {
+		    add_popularity = {
+                ideology = communist
+                popularity = 0.2
+                }
+		    add_popularity = {
+                ideology = progressivism
+                popularity = 0.075
+                }
+		    add_popularity = {
+                ideology = liberalism
+                popularity = 0.1
+                }
+		}
+	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
@@ -1079,12 +1107,20 @@ shared_focus = {
             target = TIB
             type = annex_everything
         }
-		XIK = {
-	    declare_war_on = {
-            target = TIB
+		declare_war_on = {
+            target = XIN
             type = annex_everything
-        }		
-		    } 
+        }
+		XIK = {
+			declare_war_on = {
+				target = TIB
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = XIN
+				type = annex_everything
+			}
+		}
 		set_country_flag = QIN_invading_tibet
 		}
 	cancel_if_invalid = yes
