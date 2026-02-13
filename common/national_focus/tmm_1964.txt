@@ -1977,15 +1977,14 @@ shared_focus = {
 	    focus = reconstruction_of_the_frontier
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
+	    add_manpower = -1000
+		617 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
