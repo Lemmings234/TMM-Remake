@@ -418,7 +418,31 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_tibetan_government_can_stay"
 	texturefile = "gfx/interface/goals/focus_tibetan_government_can_stay.dds"			
-	}		
+	}
+	SpriteType = {
+	name = "GFX_goal_pacifying_the_taklamakan"
+	texturefile = "gfx/interface/goals/focus_pacifying_the_taklamakan.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_the_people_of_xinjiang"
+	texturefile = "gfx/interface/goals/focus_the_people_of_xinjiang.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_what_about_the_revolutionaries"
+	texturefile = "gfx/interface/goals/focus_what_about_the_revolutionaries.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_comrades_of_the_revolution"
+	texturefile = "gfx/interface/goals/focus_comrades_of_the_revolution.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_traitors_of_the_nation"
+	texturefile = "gfx/interface/goals/focus_traitors_of_the_nation.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_all_quiet_on_the_altai"
+	texturefile = "gfx/interface/goals/focus_all_quiet_on_the_altai.dds"			
+	}
 	SpriteType = {
 	name = "GFX_goal_a_new_government"
 	texturefile = "gfx/interface/goals/focus_a_new_government.dds"			
