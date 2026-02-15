@@ -2890,3 +2890,64 @@ country_event = {
 		name = "Bruh you aren't supposed to see this shit"
 	}
 }
+country_event = {
+	id = tmm.maclique.122
+	title = "Voice of the Northwest - Xinjiang"
+	desc = tmm.maclique.122.d
+
+	is_triggered_only = yes 
+	fire_only_once = yes
+	immediate = {
+	    log = "[GetDateText]: [Root.GetName]: event tmm.maclique.122"
+	    }
+	option = { 
+		ai_chance = { factor = 90 }
+		name = "Long live the National Revolution! Long live the unity of our people!"
+		add_political_power = 50
+	}
+}
+country_event = {
+	id = tmm.maclique.123
+	title = "412, relived"
+	desc = tmm.maclique.123.d
+
+	is_triggered_only = yes 
+	fire_only_once = yes
+	immediate = {
+	    log = "[GetDateText]: [Root.GetName]: event tmm.maclique.123"
+	    }
+	option = { 
+		ai_chance = { factor = 90 }
+		name = "Quite like Shanghai"
+	}
+}
+country_event = {
+	id = tmm.maclique.124
+	title = "White Paper"
+	desc = tmm.maclique.124.d
+
+	is_triggered_only = yes 
+	fire_only_once = yes
+	immediate = {
+	    log = "[GetDateText]: [Root.GetName]: event tmm.maclique.124"
+	    }
+	option = { 
+		ai_chance = { factor = 90 }
+		name = "Then brought forth the stamp of the Ministry and stamped it on"
+	}
+}
+country_event = {
+	id = tmm.maclique.125
+	title = "Directory No.56"
+	desc = tmm.maclique.125.d
+
+	is_triggered_only = yes 
+	fire_only_once = yes
+	immediate = {
+	    log = "[GetDateText]: [Root.GetName]: event tmm.maclique.124"
+	    }
+	option = { 
+		ai_chance = { factor = 90 }
+		name = "Ministry of Economic Affairs and the Golmud Military Command"
+	}
+}

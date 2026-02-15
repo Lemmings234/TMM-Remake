@@ -1645,6 +1645,7 @@ shared_focus = {
 	}
 	completion_reward = {
 	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
+		country_event = { id = tmm.maclique.122 }
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1742,6 +1743,7 @@ shared_focus = {
 		focus = comrades_of_the_revolution
 	}
 	completion_reward = {
+		country_event = { id = tmm.maclique.123 }
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1836,7 +1838,7 @@ shared_focus = {
 	    focus = political_tutelage_of_the_national_revolution
 	}
 	completion_reward = {
-	    
+	    country_event = { id = tmm.maclique.124 }
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1859,7 +1861,7 @@ shared_focus = {
 	    focus = pacifying_the_taklamakan
 	}
 	completion_reward = {
-	    
+	    country_event = { id = tmm.maclique.125 }
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
