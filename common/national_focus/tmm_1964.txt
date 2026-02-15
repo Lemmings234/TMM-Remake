@@ -1284,7 +1284,7 @@ shared_focus = {
 			value = 10
 			}
 		subtract_from_variable = { 
-		    var = QIN_yshu_ethnic_tension
+		    var = State_Tension^1
 			value = 15
 			}
 		add_to_variable = { 
@@ -1316,7 +1316,7 @@ shared_focus = {
 	    601 = {
 		    add_core_of = QIN
 		}
-		}
+	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
@@ -1645,14 +1645,6 @@ shared_focus = {
 	}
 	completion_reward = {
 	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1675,15 +1667,7 @@ shared_focus = {
 	    focus = pacifying_the_taklamakan
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
+	    custom_effect_tooltip = QIN_people_of_xinjiang_tt
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1706,15 +1690,6 @@ shared_focus = {
 	    focus = the_people_of_xinjiang
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1740,15 +1715,8 @@ shared_focus = {
 		focus = traitors_of_the_nation
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
+		add_political_power = -50
+		add_stability = -0.05
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1774,15 +1742,6 @@ shared_focus = {
 		focus = comrades_of_the_revolution
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1806,7 +1765,6 @@ shared_focus = {
 		focus = traitors_of_the_nation
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1853,15 +1811,8 @@ shared_focus = {
 	    focus = promote_ethnic_cohesion
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
+	    add_political_power = 50
+		add_war_support = 0.05
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1885,15 +1836,7 @@ shared_focus = {
 	    focus = political_tutelage_of_the_national_revolution
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
+	    
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1916,15 +1859,7 @@ shared_focus = {
 	    focus = pacifying_the_taklamakan
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
+	    
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1977,15 +1912,7 @@ shared_focus = {
 	    focus = expand_the_construction_corps
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
+	    
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -2014,15 +1941,7 @@ shared_focus = {
 	    focus = improve_army_discipline
 	}
 	completion_reward = {
-	    custom_effect_tooltip = QIN_occupation_of_xinjiang_tt
-		#add_resistance_target = {
-        #    id = 10000
-        #    amount = 50
-        #    occupied = TIB
-        #    occupier = QIN
-        #    days = 60
-        #    tooltip = "Tibetan Resistance"
-		#}
+	    
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no

@@ -1061,8 +1061,10 @@
  
  pacifying_the_taklamakan:0 "Pacifying the Tamalakan"
  pacifying_the_taklamakan_desc:0 "With the reclamation of Xinjiang finished, it is time to pacify its people. Hunger, dissatisfaction with the Han People as well as Revolutionaries in the North are things we will address."
+ QIN_occupation_of_xinjiang_tt:0 "We shall start the pacification of Xinjiang."
  the_people_of_xinjiang:0 "The People of Xinjiang"
- the_people_of_xinjiang_desc:0 "How should the legacy of the Chinese people be addressed and resolved? How shall we find strength through unity amongst the peoples of Our Republic to complete the struggle against Japanese imperialism?\n\nThe Peoples of China shall find a way to continue the struggle, together."
+ the_people_of_xinjiang_desc:0 "How should the legacy of the Chinese people be addressed and resolved? How shall we find strength through unity amongst the peoples of Our Republic to complete the struggle against Japanese imperialism?"
+ QIN_people_of_xinjiang_tt:0 "The people of China shall find a way to continue the struggle, together."
  what_about_the_revolutionaries:0 "What About the Revolutionaries?"
  what_about_the_revolutionaries_desc:0 "Up in the mountains of Altai lie the Communist revolutionaries of the East Turkestan Republic. While being separatist at first, they ostensibly come in peace in hopes of national unity and revolutionary struggle under self governance. Let us determine our future path with them."
  comrades_of_the_revolution:0 "Comrades on the People’s Revolution"
