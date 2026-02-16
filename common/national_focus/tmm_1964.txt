@@ -1767,6 +1767,15 @@ shared_focus = {
 		focus = traitors_of_the_nation
 	}
 	completion_reward = {
+		custom_effect_tooltip = QIN_all_quiet_on_the_altai_tension_tt
+		subtract_from_variable = { 
+		    var = State_Tension^9
+			value = 15
+			}
+		subtract_from_variable = { 
+		    var = State_Tension^8
+			value = 15
+		}
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1789,8 +1798,26 @@ shared_focus = {
 	    focus = the_people_of_xinjiang
 	}
 	completion_reward = {
-	    add_political_power = -50
+	    custom_effect_tooltip = QIN_promote_ethnic_cohesion_tt
+		add_political_power = -50
 		add_stability = -0.05
+		subtract_from_variable = { 
+		    var = State_Tension^9
+			value = 75
+			}
+		add_to_variable = { 
+		    var = State_Stability^9
+			value = 75
+		}
+		add_to_variable = { QIN_party_opinions^0 = 10 }
+		add_to_variable = { QIN_party_opinions^1 = 10 }
+		add_to_variable = { QIN_party_opinions^2 = 10 }
+		subtract_from_variable = { QIN_party_opinions^5 = 5 }
+		subtract_from_variable = { QIN_party_opinions^6 = 5 }
+		subtract_from_variable = { QIN_party_opinions^7 = 5 }
+		subtract_from_variable = { QIN_party_opinions^8 = 5 }
+		QINClamping = yes
+		QINStateClamp = yes
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1813,8 +1840,12 @@ shared_focus = {
 	    focus = promote_ethnic_cohesion
 	}
 	completion_reward = {
-	    add_political_power = 50
+		custom_effect_tooltip = QIN_political_tutelage_tt
+		add_political_power = 50
 		add_war_support = 0.05
+		hidden_effect = {
+			TNO_improve_academic_base_high = yes
+		}
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
@@ -1914,7 +1945,10 @@ shared_focus = {
 	    focus = expand_the_construction_corps
 	}
 	completion_reward = {
-	    
+	    custom_effect_tooltip = QIN_military_improvement_tt
+		hidden_effect = {
+			TNO_improve_army_professionalism_high = yes
+		}
 	}
 	cancel_if_invalid = yes
 	continue_if_invalid = no
